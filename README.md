@@ -44,9 +44,10 @@ open index-en.html   # English version
 
 The trending data is refreshed daily by GitHub Actions (~08:23 Beijing time):
 
-- `scripts/update.py` 直连 `github.com/trending` 抓取当日榜单，刷新 `data.json` + `data.js`
+- `scripts/update.py` 直连 `github.com/trending` 抓取当日榜单，刷新 `data.json` + `data.js`，并把当日快照归档到 `archive/YYYY-MM-DD.json`
 - 仍在榜的仓库**保留人工深度解析**，只更新排名与 star 数；新上榜仓库自动生成带 ⚡ 标记的摘要，人工精评随后补充
-- Repos that stay on the chart keep their human-written deep dives (only rank/stars update); new entries get an auto summary flagged ⚡ pending a human write-up
+- **在榜追踪**：卡片显示「首次上榜 / 回榜 / 在榜 N 天」徽章，弹窗含 star 增长 sparkline（自 2026-07-17 起逐日积累）
+- Repos that stay on the chart keep their human-written deep dives (only rank/stars update); new entries get an auto summary flagged ⚡ pending a human write-up. On-chart tracking badges and a star-history sparkline build up from the daily archives
 - 手动更新 / Manual refresh: `python3 scripts/update.py`（纯标准库，无依赖 / stdlib only）
 - 改进方向见 / See `docs/improvement-roadmap.md`
 
@@ -63,6 +64,7 @@ The trending data is refreshed daily by GitHub Actions (~08:23 Beijing time):
 ├── index-en.html     # English page (styles + rendering, data from data.js)
 ├── data.json         # 双语数据源（canonical dataset, zh + en）
 ├── data.js           # data.json 的页面加载包装（window.TRENDING_DATA，自动生成）
+├── archive/          # 每日榜单快照（YYYY-MM-DD.json，在榜追踪的历史依据）
 ├── scripts/update.py # 每日抓取更新脚本（stdlib only）
 ├── .github/workflows/daily-update.yml  # GitHub Actions 每日自动更新
 ├── docs/improvement-roadmap.md         # 改进路线

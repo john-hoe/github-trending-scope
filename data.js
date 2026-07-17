@@ -3,7 +3,7 @@ window.TRENDING_DATA = {
   "schema": 1,
   "meta": {
     "date": "2026-07-17",
-    "generated_at": "2026-07-17 14:14 (CST)",
+    "generated_at": "2026-07-17 14:45 (CST)",
     "source": "github.com/trending",
     "criteria": "Repositories · Today · All languages · logged out",
     "kicker_zh": "每日自动更新 · 2026-07-17 · 每日榜 · 全语言 · 17 个仓库",
@@ -12,8 +12,8 @@ window.TRENDING_DATA = {
     "headline_en": "Agent Skills packs storm the chart",
     "sub_zh": "17 个上榜仓库中 7 个属于 Agent 工具链，其中 5 个是「给 AI 装技能」的 Skills 包 —— 从反 AI 味设计（hallmark）到知识图谱上下文（graphify）。老牌神仓 build-your-own-x（526k stars）与 OSSU 自学路线依然稳居榜上。点击任意卡片查看深度解析。",
     "sub_en": "7 of the 17 trending repos are agent tooling — and 5 of those are \"give your AI a skill\" packs, from anti-slop design (hallmark) to knowledge-graph context (graphify). Evergreen giants build-your-own-x (526k stars) and OSSU hold their ground. Click any card for a deep dive.",
-    "footer_zh": "Trending Scope · 数据更新于 2026-07-17 14:14 (CST)，由自动化管线直连 github.com 抓取",
-    "footer_en": "Trending Scope · Data updated 2026-07-17 14:14 (CST) by the automated pipeline, fetched directly from github.com"
+    "footer_zh": "Trending Scope · 数据更新于 2026-07-17 14:45 (CST)，由自动化管线直连 github.com 抓取",
+    "footer_en": "Trending Scope · Data updated 2026-07-17 14:45 (CST) by the automated pipeline, fetched directly from github.com"
   },
   "cats": {
     "agent": {
@@ -71,6 +71,19 @@ window.TRENDING_DATA = {
           "AI app builders — let agents query enterprise data over a consistent semantic layer, cutting hallucinations",
           "Platform vendors — plug into the dbt / Salesforce ecosystems with the reference converters"
         ]
+      },
+      "track": {
+        "days": 1,
+        "first": "2026-07-17",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-07-17",
+            "s": 1.0,
+            "r": 1
+          }
+        ]
       }
     },
     {
@@ -79,7 +92,7 @@ window.TRENDING_DATA = {
       "rank": 2,
       "cat": "agent",
       "lang": "CSS",
-      "stars": 11.2,
+      "stars": 11.3,
       "today": "+3.4k",
       "today_n": 3372,
       "auto": false,
@@ -105,6 +118,19 @@ window.TRENDING_DATA = {
           "Indie devs & small teams — generate distinctive sites and landing pages without a designer",
           "Designers — extract design DNA from great sites with hallmark study",
           "Frontend engineers — audit existing projects to find the worst 'AI-slop' offenders"
+        ]
+      },
+      "track": {
+        "days": 1,
+        "first": "2026-07-17",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-07-17",
+            "s": 11.3,
+            "r": 2
+          }
         ]
       }
     },
@@ -141,6 +167,19 @@ window.TRENDING_DATA = {
           "Dev & automation teams — batch-edit video via AI agents over the MCP server",
           "Companies — build internal video pipelines on the Editor API and plugin architecture"
         ]
+      },
+      "track": {
+        "days": 1,
+        "first": "2026-07-17",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-07-17",
+            "s": 74.3,
+            "r": 3
+          }
+        ]
       }
     },
     {
@@ -149,7 +188,7 @@ window.TRENDING_DATA = {
       "rank": 4,
       "cat": "infra",
       "lang": "Python",
-      "stars": 35.9,
+      "stars": 36.0,
       "today": "+77",
       "today_n": 77,
       "auto": false,
@@ -175,6 +214,19 @@ window.TRENDING_DATA = {
           "Product teams — replace the GA + replay + experimentation stack with one platform",
           "Compliance-sensitive companies — self-host so user data never leaves your infra",
           "AI product teams — track your agents' cost and quality with LLM observability"
+        ]
+      },
+      "track": {
+        "days": 1,
+        "first": "2026-07-17",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-07-17",
+            "s": 36.0,
+            "r": 4
+          }
         ]
       }
     },
@@ -211,6 +263,19 @@ window.TRENDING_DATA = {
           "Multi-tool users — swap between claude-code, kimi-cli and other harnesses in one terminal",
           "QA teams — let agents drive real browsers for UI automation testing"
         ]
+      },
+      "track": {
+        "days": 1,
+        "first": "2026-07-17",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-07-17",
+            "s": 66.1,
+            "r": 5
+          }
+        ]
       }
     },
     {
@@ -245,6 +310,19 @@ window.TRENDING_DATA = {
           "Mobile / edge developers — run a 27B vision-language model offline on an iPhone",
           "Privacy-sensitive settings — local AI assistants for medical or legal data that can't leave the device",
           "Hardware tinkerers — run LLMs on low-power boards like a Raspberry Pi"
+        ]
+      },
+      "track": {
+        "days": 1,
+        "first": "2026-07-17",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-07-17",
+            "s": 1.6,
+            "r": 6
+          }
         ]
       }
     },
@@ -281,6 +359,19 @@ window.TRENDING_DATA = {
           "AI coach / recommendation builders — train exercise recommenders on the structured fields",
           "Educators — the dataset plus its visual browser is demo-ready"
         ]
+      },
+      "track": {
+        "days": 1,
+        "first": "2026-07-17",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-07-17",
+            "s": 15.2,
+            "r": 7
+          }
+        ]
       }
     },
     {
@@ -289,7 +380,7 @@ window.TRENDING_DATA = {
       "rank": 8,
       "cat": "ai",
       "lang": "Python",
-      "stars": 123.1,
+      "stars": 123.2,
       "today": "+923",
       "today_n": 923,
       "auto": false,
@@ -315,6 +406,19 @@ window.TRENDING_DATA = {
           "AI beginners — clone a single-file template and ship your first LLM app in a day",
           "Startup teams — fork mature templates (travel planning, finance analysis, podcast generation) to validate ideas fast",
           "Enterprise evaluators — compare CrewAI / AG2 and other frameworks on real code"
+        ]
+      },
+      "track": {
+        "days": 1,
+        "first": "2026-07-17",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-07-17",
+            "s": 123.2,
+            "r": 8
+          }
         ]
       }
     },
@@ -351,6 +455,19 @@ window.TRENDING_DATA = {
           "Ops teams — schedule agents for daily reports, patrols and content distribution",
           "Power users — craft custom assistants with Personal Memory and 10,000+ skills"
         ]
+      },
+      "track": {
+        "days": 1,
+        "first": "2026-07-17",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-07-17",
+            "s": 80.3,
+            "r": 9
+          }
+        ]
       }
     },
     {
@@ -385,6 +502,19 @@ window.TRENDING_DATA = {
           "GTA5 single-player fans — unlock vehicles and cash to experience all content",
           "mod developers — learn from or fork the source for custom game menus",
           "Offline fun — mess around in private sessions with BattlEye off"
+        ]
+      },
+      "track": {
+        "days": 1,
+        "first": "2026-07-17",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-07-17",
+            "s": 1.5,
+            "r": 10
+          }
         ]
       }
     },
@@ -421,6 +551,19 @@ window.TRENDING_DATA = {
           "Exam candidates — prepare systematically with quizzes and the mastery path",
           "PKM enthusiasts — plug your Obsidian vault straight in for RAG Q&A"
         ]
+      },
+      "track": {
+        "days": 1,
+        "first": "2026-07-17",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-07-17",
+            "s": 27.0,
+            "r": 11
+          }
+        ]
       }
     },
     {
@@ -429,7 +572,7 @@ window.TRENDING_DATA = {
       "rank": 12,
       "cat": "agent",
       "lang": "Shell",
-      "stars": 174.6,
+      "stars": 174.7,
       "today": "+2.1k",
       "today_n": 2060,
       "auto": false,
@@ -455,6 +598,19 @@ window.TRENDING_DATA = {
           "Claude Code users — one command adds TDD / debugging / requirements-clarification workflows",
           "Team leads — commit skills into the repo to standardize how the team works with AI",
           "Methodology learners — read the ADRs to learn how to write a good skill"
+        ]
+      },
+      "track": {
+        "days": 1,
+        "first": "2026-07-17",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-07-17",
+            "s": 174.7,
+            "r": 12
+          }
         ]
       }
     },
@@ -491,6 +647,19 @@ window.TRENDING_DATA = {
           "Internal tooling — add agent capabilities to internal systems without building orchestration",
           "Polyglot teams — pick from JS / Python / Go / .NET / Java / Rust"
         ]
+      },
+      "track": {
+        "days": 1,
+        "first": "2026-07-17",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-07-17",
+            "s": 9.7,
+            "r": 13
+          }
+        ]
       }
     },
     {
@@ -499,7 +668,7 @@ window.TRENDING_DATA = {
       "rank": 14,
       "cat": "agent",
       "lang": "TypeScript",
-      "stars": 4.4,
+      "stars": 4.5,
       "today": "+178",
       "today_n": 178,
       "auto": false,
@@ -525,6 +694,19 @@ window.TRENDING_DATA = {
           "Frontend developers — let agents generate and improve UI to design standards, no more 'works but ugly'",
           "Design engineers — automate accessibility, metadata and motion-performance checks",
           "Indie hackers — a taste safety net when you cover both dev and design"
+        ]
+      },
+      "track": {
+        "days": 1,
+        "first": "2026-07-17",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-07-17",
+            "s": 4.5,
+            "r": 14
+          }
         ]
       }
     },
@@ -561,6 +743,19 @@ window.TRENDING_DATA = {
           "Heavy AI users — swap vector RAG for graph context that retrieves the right thing",
           "Docs teams — fold docs, PDFs and diagrams into one queryable graph"
         ]
+      },
+      "track": {
+        "days": 1,
+        "first": "2026-07-17",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-07-17",
+            "s": 89.4,
+            "r": 15
+          }
+        ]
       }
     },
     {
@@ -569,7 +764,7 @@ window.TRENDING_DATA = {
       "rank": 16,
       "cat": "other",
       "lang": "Markdown",
-      "stars": 526.5,
+      "stars": 526.6,
       "today": "+435",
       "today_n": 435,
       "auto": false,
@@ -595,6 +790,19 @@ window.TRENDING_DATA = {
           "Students & career switchers — truly understand databases and OS internals by building them",
           "Senior engineers — shore up fundamentals before interviews by hand-rolling Git / Docker",
           "Tech writers — find writing and talk material by category"
+        ]
+      },
+      "track": {
+        "days": 1,
+        "first": "2026-07-17",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-07-17",
+            "s": 526.6,
+            "r": 16
+          }
         ]
       }
     },
@@ -630,6 +838,19 @@ window.TRENDING_DATA = {
           "Self-taught switchers — a structured CS undergrad path at zero cost",
           "Working professionals — finish the core courses in ~2 years at 20 hrs/week",
           "Bootcamp students — use it as a supplement and final-project reference"
+        ]
+      },
+      "track": {
+        "days": 1,
+        "first": "2026-07-17",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-07-17",
+            "s": 206.7,
+            "r": 17
+          }
         ]
       }
     }

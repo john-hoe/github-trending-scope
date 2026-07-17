@@ -1,0 +1,159 @@
+{
+  "date": "2026-07-17",
+  "generated_at": "2026-07-17 14:45 (CST)",
+  "repos": [
+    {
+      "full": "apache/ossie",
+      "rank": 1,
+      "stars": 1.0,
+      "today_n": 60,
+      "slug": "ossie",
+      "cat": "infra",
+      "lang": "Python"
+    },
+    {
+      "full": "Nutlope/hallmark",
+      "rank": 2,
+      "stars": 11.3,
+      "today_n": 3372,
+      "slug": "hallmark",
+      "cat": "agent",
+      "lang": "CSS"
+    },
+    {
+      "full": "OpenCut-app/OpenCut",
+      "rank": 3,
+      "stars": 74.3,
+      "today_n": 3537,
+      "slug": "opencut",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "PostHog/posthog",
+      "rank": 4,
+      "stars": 36.0,
+      "today_n": 77,
+      "slug": "posthog",
+      "cat": "infra",
+      "lang": "Python"
+    },
+    {
+      "full": "openinterpreter/openinterpreter",
+      "rank": 5,
+      "stars": 66.1,
+      "today_n": 661,
+      "slug": "openinterpreter",
+      "cat": "agent",
+      "lang": "Rust"
+    },
+    {
+      "full": "PrismML-Eng/Bonsai-demo",
+      "rank": 6,
+      "stars": 1.6,
+      "today_n": 196,
+      "slug": "bonsai-demo",
+      "cat": "ai",
+      "lang": "Shell"
+    },
+    {
+      "full": "hasaneyldrm/exercises-dataset",
+      "rank": 7,
+      "stars": 15.2,
+      "today_n": 710,
+      "slug": "exercises-dataset",
+      "cat": "infra",
+      "lang": "HTML"
+    },
+    {
+      "full": "Shubhamsaboo/awesome-llm-apps",
+      "rank": 8,
+      "stars": 123.2,
+      "today_n": 923,
+      "slug": "awesome-llm-apps",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "lobehub/lobehub",
+      "rank": 9,
+      "stars": 80.3,
+      "today_n": 71,
+      "slug": "lobehub",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "YimMenu/YimMenuV2",
+      "rank": 10,
+      "stars": 1.5,
+      "today_n": 128,
+      "slug": "yimmenuv2",
+      "cat": "other",
+      "lang": "C++"
+    },
+    {
+      "full": "HKUDS/DeepTutor",
+      "rank": 11,
+      "stars": 27.0,
+      "today_n": 656,
+      "slug": "deeptutor",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "mattpocock/skills",
+      "rank": 12,
+      "stars": 174.7,
+      "today_n": 2060,
+      "slug": "skills",
+      "cat": "agent",
+      "lang": "Shell"
+    },
+    {
+      "full": "github/copilot-sdk",
+      "rank": 13,
+      "stars": 9.7,
+      "today_n": 13,
+      "slug": "copilot-sdk",
+      "cat": "agent",
+      "lang": "Java"
+    },
+    {
+      "full": "ibelick/ui-skills",
+      "rank": 14,
+      "stars": 4.5,
+      "today_n": 178,
+      "slug": "ui-skills",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "Graphify-Labs/graphify",
+      "rank": 15,
+      "stars": 89.4,
+      "today_n": 1107,
+      "slug": "graphify",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "codecrafters-io/build-your-own-x",
+      "rank": 16,
+      "stars": 526.6,
+      "today_n": 435,
+      "slug": "build-your-own-x",
+      "cat": "other",
+      "lang": "Markdown"
+    },
+    {
+      "full": "ossu/computer-science",
+      "rank": 17,
+      "stars": 206.7,
+      "today_n": 107,
+      "slug": "computer-science",
+      "cat": "other",
+      "lang": "HTML"
+    }
+  ]
+}

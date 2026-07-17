@@ -15,6 +15,7 @@
     无需任何第三方依赖（Python 3.9+ 标准库）。
 """
 import argparse
+import glob
 import html as html_mod
 import json
 import os
@@ -35,8 +36,9 @@ CATS = {
     "other": {"zh": "学习 & 游戏", "en": "Learning & Gaming", "color": "#5a7a3a"},
 }
 
-REQUIRED_REPO_KEYS = ("slug", "full", "rank", "cat", "lang", "stars", "today", "today_n", "auto", "zh", "en")
+REQUIRED_REPO_KEYS = ("slug", "full", "rank", "cat", "lang", "stars", "today", "today_n", "auto", "track", "zh", "en")
 REQUIRED_TEXT_KEYS = ("tag", "what", "content", "stack", "hot", "uses")
+HIST_DAYS = 14  # sparkline 最多保留的历史点数
 
 
 # ---------------------------------------------------------------- 抓取与解析
@@ -144,6 +146,64 @@ def auto_entry(full: str, rank: int, desc: str, lang, stars_n: int, today_n: int
     }
 
 
+# ---------------------------------------------------------------- 每日归档 & 在榜追踪
+
+def snapshot(date: str, stamp: str, repos: list) -> dict:
+    """当日榜单快照（写入 archive/<date>.json）。"""
+    return {
+        "date": date,
+        "generated_at": stamp,
+        "repos": [{"full": r["full"], "rank": r["rank"], "stars": r["stars"],
+                   "today_n": r["today_n"], "slug": r["slug"], "cat": r["cat"],
+                   "lang": r["lang"]} for r in repos],
+    }
+
+
+def load_archives(archive_dir: str) -> list:
+    """读取全部历史快照，按日期升序。"""
+    out = []
+    for p in sorted(glob.glob(os.path.join(archive_dir, "????-??-??.json"))):
+        try:
+            with open(p, encoding="utf-8") as f:
+                a = json.load(f)
+            if a.get("date") and isinstance(a.get("repos"), list):
+                out.append(a)
+        except (OSError, json.JSONDecodeError):
+            print(f"[update] WARN: skipping unreadable archive {p}", file=sys.stderr)
+    out.sort(key=lambda a: a["date"])
+    return out
+
+
+def compute_track(archives: list, full: str, today_str: str) -> dict:
+    """从归档计算单个仓库的在榜追踪信息。
+
+    days:     截至今日的连续在榜天数
+    first:    首次上榜日期
+    is_new:   今日首次上榜
+    is_back:  曾在榜、昨日不在、今日回榜
+    hist:     最近 HIST_DAYS 个在榜日 [{d, s, r}]（sparkline 数据）
+    """
+    points = []
+    for a in archives:
+        hit = next((r for r in a["repos"] if r["full"] == full), None)
+        if hit:
+            points.append({"d": a["date"], "s": hit["stars"], "r": hit["rank"]})
+    hist = points[-HIST_DAYS:]
+    days = 0
+    for a in reversed(archives):
+        if any(r["full"] == full for r in a["repos"]):
+            days += 1
+        else:
+            break
+    first = points[0]["d"] if points else today_str
+    # 归档只有 1 天（追踪刚启动）时不判 NEW——无法区分「首次上榜」与「追踪刚开始」
+    is_new = len(points) == 1 and points[0]["d"] == today_str and len(archives) >= 2
+    is_back = (not is_new and len(points) >= 1 and points[-1]["d"] == today_str
+               and len(archives) >= 2
+               and not any(r["full"] == full for r in archives[-2]["repos"]))
+    return {"days": days, "first": first, "is_new": is_new, "is_back": is_back, "hist": hist}
+
+
 # ---------------------------------------------------------------- 元信息
 
 def build_meta(prev_meta: dict, list_changed: bool, now: datetime, repos: list) -> dict:
@@ -196,6 +256,9 @@ def validate(data: dict) -> list:
         if r.get("slug") in slugs:
             errors.append(f"{r.get('full','?')}: duplicate slug {r.get('slug')}")
         slugs.add(r.get("slug"))
+        tr = r.get("track", {})
+        if not isinstance(tr.get("hist"), list) or not isinstance(tr.get("days"), int):
+            errors.append(f"{r.get('full','?')}: bad track")
         for loc in ("zh", "en"):
             blk = r.get(loc, {})
             for k in REQUIRED_TEXT_KEYS:
@@ -214,12 +277,18 @@ def main() -> int:
     ap.add_argument("--data", default=os.path.join(here, "..", "data.json"), help="data.json 路径")
     ap.add_argument("--url", default=TRENDING_URL, help="trending 页面 URL")
     ap.add_argument("--min-repos", type=int, default=10, help="解析少于该数量视为页面结构变更，失败退出")
+    ap.add_argument("--html", help="从本地 HTML 文件解析（离线测试用），跳过网络抓取")
     ap.add_argument("--dry-run", action="store_true", help="只打印将要发生的变化，不写文件")
     args = ap.parse_args()
 
     data_path = os.path.abspath(args.data)
-    print(f"[update] fetching {args.url} ...")
-    page = fetch_html(args.url)
+    if args.html:
+        print(f"[update] parsing local page {args.html} ...")
+        with open(args.html, encoding="utf-8") as f:
+            page = f.read()
+    else:
+        print(f"[update] fetching {args.url} ...")
+        page = fetch_html(args.url)
     fetched = parse_trending(page)
     print(f"[update] parsed {len(fetched)} repos from trending page")
     if len(fetched) < args.min_repos:
@@ -271,6 +340,17 @@ def main() -> int:
     list_changed = old_fulls != new_fulls
 
     now = datetime.now(CN_TZ)
+    today_str = now.strftime("%Y-%m-%d")
+    stamp = now.strftime("%Y-%m-%d %H:%M (CST)")
+
+    # 每日归档：今日快照与历史合并（同日期覆盖），据此计算每个仓库的在榜追踪
+    archive_dir = os.path.join(os.path.dirname(data_path), "archive")
+    archives = [a for a in load_archives(archive_dir) if a["date"] != today_str]
+    today_snap = snapshot(today_str, stamp, repos)
+    archives.append(today_snap)
+    for r in repos:
+        r["track"] = compute_track(archives, r["full"], today_str)
+
     data = {
         "schema": 1,
         "meta": build_meta(prev_meta, list_changed, now, repos),
@@ -288,12 +368,23 @@ def main() -> int:
     print(f"[update] kept {kept} curated, refreshed {auto_kept} auto, new {new}, dropped {len(dropped)}")
     if dropped:
         print("[update] dropped:", ", ".join(dropped))
+    n_new = sum(1 for r in repos if r["track"]["is_new"])
+    n_back = sum(1 for r in repos if r["track"]["is_back"])
+    longest = max(repos, key=lambda r: r["track"]["days"])
+    print(f"[update] tracking: {n_new} first-time, {n_back} returning, "
+          f"longest streak {longest['track']['days']}d ({longest['full']})")
     print(f"[update] headline_zh: {data['meta']['headline_zh']}")
     print(f"[update] sub_zh: {data['meta']['sub_zh'][:80]}...")
 
     if args.dry_run:
         print("[update] dry-run: no files written")
         return 0
+
+    os.makedirs(archive_dir, exist_ok=True)
+    arch_path = os.path.join(archive_dir, today_str + ".json")
+    with open(arch_path + ".tmp", "w", encoding="utf-8") as f:
+        f.write(json.dumps(today_snap, ensure_ascii=False, indent=2) + "\n")
+    os.replace(arch_path + ".tmp", arch_path)
 
     payload = json.dumps(data, ensure_ascii=False, indent=2) + "\n"
     tmp = data_path + ".tmp"
