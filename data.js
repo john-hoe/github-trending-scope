@@ -2,18 +2,18 @@
 window.TRENDING_DATA = {
   "schema": 2,
   "meta": {
-    "date": "2026-07-17",
-    "generated_at": "2026-07-17 15:03 (CST)",
+    "date": "2026-07-18",
+    "generated_at": "2026-07-18 00:37 (CST)",
     "source": "github.com/trending",
     "criteria": "Repositories · Today/Week/Month · All languages · logged out",
     "kicker_zh": "每日自动更新 · 2026-07-17 · 每日榜 · 全语言 · 17 个仓库",
     "kicker_en": "Auto-updated · 2026-07-17 · Daily · All languages · 17 repos",
-    "headline_zh": "Agent Skills 技能包集体屠榜",
-    "headline_en": "Agent Skills packs storm the chart",
-    "sub_zh": "17 个上榜仓库中 7 个属于 Agent 工具链，其中 5 个是「给 AI 装技能」的 Skills 包 —— 从反 AI 味设计（hallmark）到知识图谱上下文（graphify）。老牌神仓 build-your-own-x（526k stars）与 OSSU 自学路线依然稳居榜上。点击任意卡片查看深度解析。",
-    "sub_en": "7 of the 17 trending repos are agent tooling — and 5 of those are \"give your AI a skill\" packs, from anti-slop design (hallmark) to knowledge-graph context (graphify). Evergreen giants build-your-own-x (526k stars) and OSSU hold their ground. Click any card for a deep dive.",
-    "footer_zh": "Trending Scope · 数据更新于 2026-07-17 15:03 (CST)，由自动化管线直连 github.com 抓取",
-    "footer_en": "Trending Scope · Data updated 2026-07-17 15:03 (CST) by the automated pipeline, fetched directly from github.com"
+    "headline_zh": "今日热榜全景速递",
+    "headline_en": "Your daily trending digest",
+    "sub_zh": "14 个上榜仓库：学习 & 游戏 1 个、平台·数据·应用 6 个、AI 应用与模型 3 个、Agent 工具链 4 个。今日新增 Star 前三：Nutlope/hallmark（+1.5k）、OpenCut-app/OpenCut（+1.1k）、codecrafters-io/build-your-own-x（+1.1k）。点击任意卡片查看深度解析。",
+    "sub_en": "14 trending repos: 1 Learning & Gaming, 6 Platforms, Data & Apps, 3 AI Apps & Models, 4 Agent Tooling. Biggest star gainers today: Nutlope/hallmark (+1.5k), OpenCut-app/OpenCut (+1.1k), codecrafters-io/build-your-own-x (+1.1k). Click any card for a deep dive.",
+    "footer_zh": "Trending Scope · 数据更新于 2026-07-18 00:37 (CST)，由自动化管线直连 github.com 抓取",
+    "footer_en": "Trending Scope · Data updated 2026-07-18 00:37 (CST) by the automated pipeline, fetched directly from github.com"
   },
   "cats": {
     "agent": {
@@ -71,1061 +71,1044 @@ window.TRENDING_DATA = {
     "daily": {
       "all": [
         {
-          "full": "apache/ossie",
+          "full": "codecrafters-io/build-your-own-x",
           "rank": 1,
-          "stars": 1.0,
-          "today": "+60",
-          "today_n": 60,
-          "cat": "infra"
-        },
-        {
-          "full": "Nutlope/hallmark",
-          "rank": 2,
-          "stars": 11.3,
-          "today": "+3.4k",
-          "today_n": 3372,
-          "cat": "agent"
-        },
-        {
-          "full": "OpenCut-app/OpenCut",
-          "rank": 3,
-          "stars": 74.3,
-          "today": "+3.5k",
-          "today_n": 3537,
-          "cat": "infra"
-        },
-        {
-          "full": "PostHog/posthog",
-          "rank": 4,
-          "stars": 36.0,
-          "today": "+77",
-          "today_n": 77,
-          "cat": "infra"
-        },
-        {
-          "full": "openinterpreter/openinterpreter",
-          "rank": 5,
-          "stars": 66.1,
-          "today": "+661",
-          "today_n": 661,
-          "cat": "agent"
-        },
-        {
-          "full": "PrismML-Eng/Bonsai-demo",
-          "rank": 6,
-          "stars": 1.6,
-          "today": "+196",
-          "today_n": 196,
-          "cat": "ai"
-        },
-        {
-          "full": "hasaneyldrm/exercises-dataset",
-          "rank": 7,
-          "stars": 15.2,
-          "today": "+710",
-          "today_n": 710,
-          "cat": "infra"
-        },
-        {
-          "full": "Shubhamsaboo/awesome-llm-apps",
-          "rank": 8,
-          "stars": 123.2,
-          "today": "+923",
-          "today_n": 923,
-          "cat": "ai"
-        },
-        {
-          "full": "lobehub/lobehub",
-          "rank": 9,
-          "stars": 80.3,
-          "today": "+71",
-          "today_n": 71,
-          "cat": "agent"
-        },
-        {
-          "full": "YimMenu/YimMenuV2",
-          "rank": 10,
-          "stars": 1.5,
-          "today": "+128",
-          "today_n": 128,
+          "stars": 527.1,
+          "today": "+1.1k",
+          "today_n": 1070,
           "cat": "other"
         },
         {
-          "full": "HKUDS/DeepTutor",
-          "rank": 11,
-          "stars": 27.0,
-          "today": "+656",
-          "today_n": 656,
+          "full": "PostHog/posthog",
+          "rank": 2,
+          "stars": 36.1,
+          "today": "+437",
+          "today_n": 437,
+          "cat": "infra"
+        },
+        {
+          "full": "HenryNdubuaku/maths-cs-ai-compendium",
+          "rank": 3,
+          "stars": 6.5,
+          "today": "+248",
+          "today_n": 248,
           "cat": "ai"
         },
         {
-          "full": "mattpocock/skills",
-          "rank": 12,
-          "stars": 174.7,
-          "today": "+2.1k",
-          "today_n": 2060,
+          "full": "Nutlope/hallmark",
+          "rank": 4,
+          "stars": 11.8,
+          "today": "+1.5k",
+          "today_n": 1486,
           "cat": "agent"
         },
         {
           "full": "github/copilot-sdk",
+          "rank": 5,
+          "stars": 9.8,
+          "today": "+234",
+          "today_n": 234,
+          "cat": "agent"
+        },
+        {
+          "full": "anthropics/cwc-workshops",
+          "rank": 6,
+          "stars": 1.5,
+          "today": "+37",
+          "today_n": 37,
+          "cat": "infra"
+        },
+        {
+          "full": "PrismML-Eng/Bonsai-demo",
+          "rank": 7,
+          "stars": 1.7,
+          "today": "+279",
+          "today_n": 279,
+          "cat": "ai"
+        },
+        {
+          "full": "protocolbuffers/protobuf",
+          "rank": 8,
+          "stars": 71.5,
+          "today": "+11",
+          "today_n": 11,
+          "cat": "infra"
+        },
+        {
+          "full": "tirth8205/code-review-graph",
+          "rank": 9,
+          "stars": 19.7,
+          "today": "+57",
+          "today_n": 57,
+          "cat": "agent"
+        },
+        {
+          "full": "docusealco/docuseal",
+          "rank": 10,
+          "stars": 17.7,
+          "today": "+152",
+          "today_n": 152,
+          "cat": "infra"
+        },
+        {
+          "full": "openinterpreter/openinterpreter",
+          "rank": 11,
+          "stars": 66.3,
+          "today": "+431",
+          "today_n": 431,
+          "cat": "agent"
+        },
+        {
+          "full": "RyanCodrai/turbovec",
+          "rank": 12,
+          "stars": 13.2,
+          "today": "+280",
+          "today_n": 280,
+          "cat": "infra"
+        },
+        {
+          "full": "HKUDS/DeepTutor",
           "rank": 13,
-          "stars": 9.7,
-          "today": "+13",
-          "today_n": 13,
-          "cat": "agent"
+          "stars": 27.2,
+          "today": "+528",
+          "today_n": 528,
+          "cat": "ai"
         },
         {
-          "full": "ibelick/ui-skills",
+          "full": "OpenCut-app/OpenCut",
           "rank": 14,
-          "stars": 4.5,
-          "today": "+178",
-          "today_n": 178,
-          "cat": "agent"
-        },
-        {
-          "full": "Graphify-Labs/graphify",
-          "rank": 15,
-          "stars": 89.5,
+          "stars": 74.7,
           "today": "+1.1k",
-          "today_n": 1107,
-          "cat": "agent"
-        },
-        {
-          "full": "codecrafters-io/build-your-own-x",
-          "rank": 16,
-          "stars": 526.6,
-          "today": "+435",
-          "today_n": 435,
-          "cat": "other"
-        },
-        {
-          "full": "ossu/computer-science",
-          "rank": 17,
-          "stars": 206.7,
-          "today": "+107",
-          "today_n": 107,
-          "cat": "other"
+          "today_n": 1077,
+          "cat": "infra"
         }
       ],
       "python": [
         {
-          "full": "apache/ossie",
-          "rank": 1,
-          "stars": 1.0,
-          "today": "+60",
-          "today_n": 60
-        },
-        {
           "full": "PostHog/posthog",
-          "rank": 2,
-          "stars": 36.0,
-          "today": "+77",
-          "today_n": 77
+          "rank": 1,
+          "stars": 36.1,
+          "today": "+437",
+          "today_n": 437
         },
         {
-          "full": "Shubhamsaboo/awesome-llm-apps",
+          "full": "tirth8205/code-review-graph",
+          "rank": 2,
+          "stars": 19.7,
+          "today": "+57",
+          "today_n": 57
+        },
+        {
+          "full": "RyanCodrai/turbovec",
           "rank": 3,
-          "stars": 123.2,
-          "today": "+923",
-          "today_n": 923
+          "stars": 13.2,
+          "today": "+280",
+          "today_n": 280
         },
         {
           "full": "HKUDS/DeepTutor",
           "rank": 4,
-          "stars": 27.0,
-          "today": "+656",
-          "today_n": 656
+          "stars": 27.2,
+          "today": "+528",
+          "today_n": 528
+        },
+        {
+          "full": "aws/agent-toolkit-for-aws",
+          "rank": 5,
+          "stars": 1.9,
+          "today": "+39",
+          "today_n": 39
+        },
+        {
+          "full": "Shubhamsaboo/awesome-llm-apps",
+          "rank": 6,
+          "stars": 123.5,
+          "today": "+1.0k",
+          "today_n": 1018
+        },
+        {
+          "full": "android/skills",
+          "rank": 7,
+          "stars": 6.2,
+          "today": "+17",
+          "today_n": 17
+        },
+        {
+          "full": "rohitg00/ai-engineering-from-scratch",
+          "rank": 8,
+          "stars": 38.7,
+          "today": "+218",
+          "today_n": 218
         },
         {
           "full": "Graphify-Labs/graphify",
-          "rank": 5,
-          "stars": 89.5,
-          "today": "+1.1k",
-          "today_n": 1107
-        },
-        {
-          "full": "youtubediscord/zapret",
-          "rank": 6,
-          "stars": 1.5,
-          "today": "+38",
-          "today_n": 38
-        },
-        {
-          "full": "microsoft/markitdown",
-          "rank": 7,
-          "stars": 166.7,
-          "today": "+363",
-          "today_n": 363
-        },
-        {
-          "full": "thinking-machines-lab/tinker-cookbook",
-          "rank": 8,
-          "stars": 3.8,
-          "today": "+100",
-          "today_n": 100
-        },
-        {
-          "full": "NousResearch/hermes-agent",
           "rank": 9,
-          "stars": 216.1,
-          "today": "+588",
-          "today_n": 588
+          "stars": 90.0,
+          "today": "+1.5k",
+          "today_n": 1476
         },
         {
-          "full": "anthropics/knowledge-work-plugins",
+          "full": "ROCm/TheRock",
           "rank": 10,
-          "stars": 22.8,
-          "today": "+38",
-          "today_n": 38
+          "stars": 1.1,
+          "today": "+6",
+          "today_n": 6
         },
         {
-          "full": "HKUDS/OpenHarness",
+          "full": "521xueweihan/HelloGitHub",
           "rank": 11,
-          "stars": 14.9,
-          "today": "+40",
-          "today_n": 40
+          "stars": 165.7,
+          "today": "+210",
+          "today_n": 210
         },
         {
-          "full": "HKUDS/Vibe-Trading",
+          "full": "open-telemetry/semantic-conventions-genai",
           "rank": 12,
-          "stars": 24.4,
-          "today": "+781",
-          "today_n": 781
+          "stars": 0.2,
+          "today": "+7",
+          "today_n": 7
         },
         {
-          "full": "HKUDS/nanobot",
+          "full": "ccxt/ccxt",
           "rank": 13,
-          "stars": 45.8,
-          "today": "+85",
-          "today_n": 85
+          "stars": 43.3,
+          "today": "+8",
+          "today_n": 8
         }
       ],
       "typescript": [
         {
-          "full": "OpenCut-app/OpenCut",
+          "full": "HenryNdubuaku/maths-cs-ai-compendium",
           "rank": 1,
-          "stars": 74.3,
-          "today": "+3.5k",
-          "today_n": 3537
+          "stars": 6.5,
+          "today": "+248",
+          "today_n": 248
         },
         {
-          "full": "lobehub/lobehub",
+          "full": "anthropics/cwc-workshops",
           "rank": 2,
-          "stars": 80.3,
-          "today": "+71",
-          "today_n": 71
+          "stars": 1.5,
+          "today": "+37",
+          "today_n": 37
+        },
+        {
+          "full": "OpenCut-app/OpenCut",
+          "rank": 3,
+          "stars": 74.7,
+          "today": "+1.1k",
+          "today_n": 1077
         },
         {
           "full": "ibelick/ui-skills",
-          "rank": 3,
-          "stars": 4.5,
-          "today": "+178",
-          "today_n": 178
+          "rank": 4,
+          "stars": 4.6,
+          "today": "+658",
+          "today_n": 658
+        },
+        {
+          "full": "lobehub/lobehub",
+          "rank": 5,
+          "stars": 80.4,
+          "today": "+483",
+          "today_n": 483
+        },
+        {
+          "full": "fingerprintjs/fingerprintjs",
+          "rank": 6,
+          "stars": 27.9,
+          "today": "+33",
+          "today_n": 33
+        },
+        {
+          "full": "n8n-io/n8n",
+          "rank": 7,
+          "stars": 196.8,
+          "today": "+165",
+          "today_n": 165
         },
         {
           "full": "anomalyco/opencode",
-          "rank": 4,
-          "stars": 186.7,
-          "today": "+404",
-          "today_n": 404
+          "rank": 8,
+          "stars": 186.9,
+          "today": "+383",
+          "today_n": 383
         },
         {
-          "full": "HenryNdubuaku/maths-cs-ai-compendium",
-          "rank": 5,
-          "stars": 6.3,
-          "today": "+511",
-          "today_n": 511
+          "full": "sourcebot-dev/sourcebot",
+          "rank": 9,
+          "stars": 3.6,
+          "today": "+5",
+          "today_n": 5
         },
         {
           "full": "moeru-ai/airi",
-          "rank": 6,
-          "stars": 42.8,
-          "today": "+402",
-          "today_n": 402
-        },
-        {
-          "full": "callstack/agent-device",
-          "rank": 7,
-          "stars": 3.4,
-          "today": "+38",
-          "today_n": 38
-        },
-        {
-          "full": "vuejs/pinia",
-          "rank": 8,
-          "stars": 14.7,
-          "today": "+11",
-          "today_n": 11
-        },
-        {
-          "full": "injaneity/pi-computer-use",
-          "rank": 9,
-          "stars": 1.4,
-          "today": "+138",
-          "today_n": 138
-        },
-        {
-          "full": "mattpocock/dictionary-of-ai-coding",
           "rank": 10,
-          "stars": 2.8,
-          "today": "+100",
-          "today_n": 100
-        },
-        {
-          "full": "superdoc-dev/superdoc",
-          "rank": 11,
-          "stars": 0.9,
-          "today": "+8",
-          "today_n": 8
-        },
-        {
-          "full": "renovatebot/renovate",
-          "rank": 12,
-          "stars": 22.0,
-          "today": "+8",
-          "today_n": 8
+          "stars": 42.8,
+          "today": "+45",
+          "today_n": 45
         },
         {
           "full": "EKKOLearnAI/hermes-studio",
-          "rank": 13,
+          "rank": 11,
           "stars": 9.2,
-          "today": "+48",
-          "today_n": 48
+          "today": "+60",
+          "today_n": 60
         },
         {
-          "full": "documenso/documenso",
+          "full": "vercel-labs/just-bash",
+          "rank": 12,
+          "stars": 3.9,
+          "today": "+6",
+          "today_n": 6
+        },
+        {
+          "full": "foru17/neko-master",
+          "rank": 13,
+          "stars": 2.8,
+          "today": "+186",
+          "today_n": 186
+        },
+        {
+          "full": "firecrawl/open-lovable",
           "rank": 14,
-          "stars": 13.9,
-          "today": "+36",
-          "today_n": 36
-        },
-        {
-          "full": "browseros-ai/BrowserOS",
-          "rank": 15,
-          "stars": 12.3,
-          "today": "+63",
-          "today_n": 63
-        },
-        {
-          "full": "ant-design/ant-design",
-          "rank": 16,
-          "stars": 98.8,
-          "today": "+16",
-          "today_n": 16
-        },
-        {
-          "full": "denislupookov/altersend",
-          "rank": 17,
-          "stars": 1.1,
-          "today": "+29",
-          "today_n": 29
+          "stars": 27.8,
+          "today": "+364",
+          "today_n": 364
         }
       ],
       "javascript": [
         {
-          "full": "Anil-matcha/Open-Generative-AI",
+          "full": "poteto/hiring-without-whiteboards",
           "rank": 1,
-          "stars": 23.8,
-          "today": "+111",
-          "today_n": 111
+          "stars": 51.1,
+          "today": "+73",
+          "today_n": 73
+        },
+        {
+          "full": "jgraph/drawio",
+          "rank": 2,
+          "stars": 6.8,
+          "today": "+23",
+          "today_n": 23
+        },
+        {
+          "full": "sohzm/cheating-daddy",
+          "rank": 3,
+          "stars": 5.5,
+          "today": "+57",
+          "today_n": 57
+        },
+        {
+          "full": "atlassian/atlassian-mcp-server",
+          "rank": 4,
+          "stars": 0.9,
+          "today": "+4",
+          "today_n": 4
         },
         {
           "full": "coreyhaines31/marketingskills",
-          "rank": 2,
-          "stars": 40.2,
-          "today": "+627",
-          "today_n": 627
+          "rank": 5,
+          "stars": 40.4,
+          "today": "+213",
+          "today_n": 213
+        },
+        {
+          "full": "fleetbase/fleetbase",
+          "rank": 6,
+          "stars": 2.1,
+          "today": "+7",
+          "today_n": 7
+        },
+        {
+          "full": "schlagmichdoch/PairDrop",
+          "rank": 7,
+          "stars": 11.0,
+          "today": "+35",
+          "today_n": 35
+        },
+        {
+          "full": "microsoft/monaco-editor",
+          "rank": 8,
+          "stars": 46.4,
+          "today": "+10",
+          "today_n": 10
+        },
+        {
+          "full": "songquanpeng/one-api",
+          "rank": 9,
+          "stars": 35.8,
+          "today": "+24",
+          "today_n": 24
         },
         {
           "full": "wwebjs/whatsapp-web.js",
-          "rank": 3,
+          "rank": 10,
           "stars": 22.2,
           "today": "+11",
           "today_n": 11
         },
         {
-          "full": "thedotmack/claude-mem",
-          "rank": 4,
-          "stars": 87.5,
-          "today": "+132",
-          "today_n": 132
-        },
-        {
-          "full": "mm7894215/TokenTracker",
-          "rank": 5,
-          "stars": 1.0,
-          "today": "+11",
-          "today_n": 11
-        },
-        {
-          "full": "Axorax/awesome-free-apps",
-          "rank": 6,
-          "stars": 6.9,
-          "today": "+13",
-          "today_n": 13
-        },
-        {
-          "full": "schlagmichdoch/PairDrop",
-          "rank": 7,
-          "stars": 10.9,
-          "today": "+120",
-          "today_n": 120
-        },
-        {
-          "full": "alam00000/bentopdf",
-          "rank": 8,
-          "stars": 14.1,
-          "today": "+34",
-          "today_n": 34
-        },
-        {
-          "full": "fleetbase/fleetbase",
-          "rank": 9,
-          "stars": 2.1,
-          "today": "+53",
-          "today_n": 53
-        },
-        {
-          "full": "microsoft/power-platform-skills",
-          "rank": 10,
-          "stars": 0.5,
-          "today": "+8",
-          "today_n": 8
-        },
-        {
-          "full": "WebKit/WebKit",
+          "full": "NomaDamas/k-skill",
           "rank": 11,
-          "stars": 10.0,
-          "today": "+6",
-          "today_n": 6
+          "stars": 6.3,
+          "today": "+88",
+          "today_n": 88
+        },
+        {
+          "full": "louislam/uptime-kuma",
+          "rank": 12,
+          "stars": 89.2,
+          "today": "+47",
+          "today_n": 47
+        },
+        {
+          "full": "FB208/OpenBidKit_Yibiao",
+          "rank": 13,
+          "stars": 1.7,
+          "today": "+318",
+          "today_n": 318
+        },
+        {
+          "full": "SillyTavern/SillyTavern",
+          "rank": 14,
+          "stars": 30.8,
+          "today": "+46",
+          "today_n": 46
+        },
+        {
+          "full": "nodejs/undici",
+          "rank": 15,
+          "stars": 7.6,
+          "today": "+0",
+          "today_n": 0
         }
       ],
       "rust": [
         {
           "full": "openinterpreter/openinterpreter",
           "rank": 1,
-          "stars": 66.1,
-          "today": "+661",
-          "today_n": 661
+          "stars": 66.3,
+          "today": "+431",
+          "today_n": 431
+        },
+        {
+          "full": "openai/codex",
+          "rank": 2,
+          "stars": 99.1,
+          "today": "+323",
+          "today_n": 323
         },
         {
           "full": "screenpipe/screenpipe",
-          "rank": 2,
-          "stars": 20.2,
-          "today": "+103",
-          "today_n": 103
-        },
-        {
-          "full": "gitbutlerapp/gitbutler",
           "rank": 3,
-          "stars": 21.3,
-          "today": "+13",
-          "today_n": 13
+          "stars": 20.2,
+          "today": "+69",
+          "today_n": 69
         },
         {
           "full": "juspay/hyperswitch",
           "rank": 4,
           "stars": 43.3,
-          "today": "+29",
-          "today_n": 29
+          "today": "+24",
+          "today_n": 24
         },
         {
-          "full": "microsoft/coreutils",
+          "full": "memvid/memvid",
           "rank": 5,
-          "stars": 4.8,
+          "stars": 16.0,
+          "today": "+43",
+          "today_n": 43
+        },
+        {
+          "full": "gitbutlerapp/gitbutler",
+          "rank": 6,
+          "stars": 21.3,
           "today": "+19",
           "today_n": 19
         },
         {
-          "full": "memvid/memvid",
-          "rank": 6,
-          "stars": 16.0,
-          "today": "+81",
-          "today_n": 81
-        },
-        {
-          "full": "openai/codex",
+          "full": "emilk/egui",
           "rank": 7,
-          "stars": 99.0,
-          "today": "+381",
-          "today_n": 381
-        },
-        {
-          "full": "iii-hq/iii",
-          "rank": 8,
-          "stars": 18.5,
-          "today": "+10",
-          "today_n": 10
-        },
-        {
-          "full": "agentgateway/agentgateway",
-          "rank": 9,
-          "stars": 3.9,
-          "today": "+25",
-          "today_n": 25
-        },
-        {
-          "full": "embassy-rs/embassy",
-          "rank": 10,
-          "stars": 9.6,
-          "today": "+7",
-          "today_n": 7
-        },
-        {
-          "full": "tree-sitter/tree-sitter",
-          "rank": 11,
-          "stars": 26.3,
-          "today": "+15",
-          "today_n": 15
-        },
-        {
-          "full": "AlexsJones/llmfit",
-          "rank": 12,
-          "stars": 29.5,
-          "today": "+38",
-          "today_n": 38
-        },
-        {
-          "full": "vercel-labs/agent-browser",
-          "rank": 13,
-          "stars": 38.6,
-          "today": "+81",
-          "today_n": 81
-        },
-        {
-          "full": "prefix-dev/pixi",
-          "rank": 14,
-          "stars": 7.4,
-          "today": "+13",
-          "today_n": 13
-        },
-        {
-          "full": "astral-sh/uv",
-          "rank": 15,
-          "stars": 87.6,
+          "stars": 29.7,
           "today": "+42",
           "today_n": 42
         },
         {
-          "full": "oldj/SwitchHosts",
-          "rank": 16,
-          "stars": 27.0,
-          "today": "+3",
-          "today_n": 3
+          "full": "ai-dynamo/dynamo",
+          "rank": 8,
+          "stars": 7.5,
+          "today": "+10",
+          "today_n": 10
         },
         {
-          "full": "NVIDIA/infra-controller",
+          "full": "BoundaryML/baml",
+          "rank": 9,
+          "stars": 8.6,
+          "today": "+4",
+          "today_n": 4
+        },
+        {
+          "full": "cloud-hypervisor/cloud-hypervisor",
+          "rank": 10,
+          "stars": 6.0,
+          "today": "+15",
+          "today_n": 15
+        },
+        {
+          "full": "1jehuang/jcode",
+          "rank": 11,
+          "stars": 8.4,
+          "today": "+15",
+          "today_n": 15
+        },
+        {
+          "full": "zed-industries/zed",
+          "rank": 12,
+          "stars": 87.1,
+          "today": "+73",
+          "today_n": 73
+        },
+        {
+          "full": "Moonholder/Wuwa_Mod_Fixer",
+          "rank": 13,
+          "stars": 0.9,
+          "today": "+5",
+          "today_n": 5
+        },
+        {
+          "full": "vectordotdev/vector",
+          "rank": 14,
+          "stars": 22.2,
+          "today": "+0",
+          "today_n": 0
+        },
+        {
+          "full": "git-ai-project/git-ai",
+          "rank": 15,
+          "stars": 2.3,
+          "today": "+10",
+          "today_n": 10
+        },
+        {
+          "full": "rustfs/rustfs",
+          "rank": 16,
+          "stars": 29.9,
+          "today": "+50",
+          "today_n": 50
+        },
+        {
+          "full": "BurntSushi/ripgrep",
           "rank": 17,
-          "stars": 0.2,
-          "today": "+3",
-          "today_n": 3
+          "stars": 66.3,
+          "today": "+110",
+          "today_n": 110
         },
         {
           "full": "cube-js/cube",
           "rank": 18,
           "stars": 20.4,
-          "today": "+19",
-          "today_n": 19
-        },
-        {
-          "full": "rustfs/rustfs",
-          "rank": 19,
-          "stars": 29.9,
-          "today": "+38",
-          "today_n": 38
+          "today": "+8",
+          "today_n": 8
         }
       ],
       "go": [
         {
-          "full": "pocketbase/pocketbase",
+          "full": "kai-scheduler/KAI-Scheduler",
           "rank": 1,
-          "stars": 59.8,
-          "today": "+65",
-          "today_n": 65
+          "stars": 1.4,
+          "today": "+5",
+          "today_n": 5
         },
         {
-          "full": "gosom/google-maps-scraper",
+          "full": "fleetdm/fleet",
           "rank": 2,
-          "stars": 5.0,
-          "today": "+180",
-          "today_n": 180
-        },
-        {
-          "full": "siglens/siglens",
-          "rank": 3,
-          "stars": 1.8,
-          "today": "+17",
-          "today_n": 17
-        },
-        {
-          "full": "goreleaser/goreleaser",
-          "rank": 4,
-          "stars": 15.9,
-          "today": "+3",
-          "today_n": 3
+          "stars": 6.6,
+          "today": "+6",
+          "today_n": 6
         },
         {
           "full": "lima-vm/lima",
-          "rank": 5,
+          "rank": 3,
           "stars": 21.5,
-          "today": "+14",
-          "today_n": 14
+          "today": "+16",
+          "today_n": 16
         },
         {
-          "full": "modelcontextprotocol/registry",
-          "rank": 6,
-          "stars": 7.0,
-          "today": "+8",
-          "today_n": 8
-        },
-        {
-          "full": "chenyme/grok2api",
-          "rank": 7,
-          "stars": 6.2,
-          "today": "+97",
-          "today_n": 97
-        },
-        {
-          "full": "dapr/dapr",
-          "rank": 8,
-          "stars": 26.0,
-          "today": "+3",
-          "today_n": 3
-        },
-        {
-          "full": "go-vikunja/vikunja",
-          "rank": 9,
-          "stars": 4.8,
-          "today": "+11",
-          "today_n": 11
-        },
-        {
-          "full": "chaitin/SafeLine",
-          "rank": 10,
-          "stars": 21.9,
-          "today": "+39",
-          "today_n": 39
-        },
-        {
-          "full": "multica-ai/multica",
-          "rank": 11,
-          "stars": 40.9,
-          "today": "+164",
-          "today_n": 164
-        },
-        {
-          "full": "SagerNet/sing-box",
-          "rank": 12,
-          "stars": 36.2,
-          "today": "+51",
-          "today_n": 51
-        },
-        {
-          "full": "microsoft/agent-framework-go",
-          "rank": 13,
-          "stars": 0.2,
-          "today": "+49",
-          "today_n": 49
-        },
-        {
-          "full": "ankitpokhrel/jira-cli",
-          "rank": 14,
-          "stars": 5.8,
-          "today": "+10",
-          "today_n": 10
-        },
-        {
-          "full": "gastownhall/beads",
-          "rank": 15,
-          "stars": 25.4,
-          "today": "+65",
-          "today_n": 65
-        },
-        {
-          "full": "openbao/openbao",
-          "rank": 16,
-          "stars": 6.7,
-          "today": "+21",
-          "today_n": 21
-        },
-        {
-          "full": "cloudreve/cloudreve",
-          "rank": 17,
-          "stars": 28.3,
-          "today": "+33",
-          "today_n": 33
-        },
-        {
-          "full": "jesseduffield/lazygit",
-          "rank": 18,
-          "stars": 80.4,
-          "today": "+41",
-          "today_n": 41
-        },
-        {
-          "full": "ory/hydra",
-          "rank": 19,
-          "stars": 17.4,
+          "full": "hashicorp/terraform-provider-aws",
+          "rank": 4,
+          "stars": 11.0,
           "today": "+0",
           "today_n": 0
         },
         {
-          "full": "livekit/livekit",
-          "rank": 20,
-          "stars": 19.8,
+          "full": "gosom/google-maps-scraper",
+          "rank": 5,
+          "stars": 5.1,
+          "today": "+85",
+          "today_n": 85
+        },
+        {
+          "full": "dstotijn/hetty",
+          "rank": 6,
+          "stars": 11.9,
+          "today": "+91",
+          "today_n": 91
+        },
+        {
+          "full": "agent-substrate/substrate",
+          "rank": 7,
+          "stars": 0.8,
           "today": "+22",
           "today_n": 22
         },
         {
-          "full": "hashicorp/vault",
-          "rank": 21,
-          "stars": 35.9,
-          "today": "+9",
-          "today_n": 9
-        }
-      ],
-      "c++": [
-        {
-          "full": "YimMenu/YimMenuV2",
-          "rank": 1,
-          "stars": 1.5,
-          "today": "+128",
-          "today_n": 128
+          "full": "safing/portmaster",
+          "rank": 8,
+          "stars": 13.2,
+          "today": "+66",
+          "today_n": 66
         },
         {
-          "full": "deskflow/deskflow",
-          "rank": 2,
-          "stars": 27.4,
-          "today": "+38",
-          "today_n": 38
+          "full": "gastownhall/beads",
+          "rank": 9,
+          "stars": 25.4,
+          "today": "+23",
+          "today_n": 23
         },
         {
-          "full": "google/perfetto",
-          "rank": 3,
-          "stars": 6.2,
+          "full": "NVIDIA/nvidia-container-toolkit",
+          "rank": 10,
+          "stars": 4.5,
+          "today": "+2",
+          "today_n": 2
+        },
+        {
+          "full": "syncthing/syncthing",
+          "rank": 11,
+          "stars": 86.6,
+          "today": "+93",
+          "today_n": 93
+        },
+        {
+          "full": "superplanehq/superplane",
+          "rank": 12,
+          "stars": 4.0,
+          "today": "+54",
+          "today_n": 54
+        },
+        {
+          "full": "zakirullin/files.md",
+          "rank": 13,
+          "stars": 4.0,
+          "today": "+32",
+          "today_n": 32
+        },
+        {
+          "full": "pocketbase/pocketbase",
+          "rank": 14,
+          "stars": 59.8,
+          "today": "+39",
+          "today_n": 39
+        },
+        {
+          "full": "openbao/openbao",
+          "rank": 15,
+          "stars": 6.7,
+          "today": "+22",
+          "today_n": 22
+        },
+        {
+          "full": "cloudreve/cloudreve",
+          "rank": 16,
+          "stars": 28.3,
+          "today": "+14",
+          "today_n": 14
+        },
+        {
+          "full": "nats-io/nats-server",
+          "rank": 17,
+          "stars": 20.2,
           "today": "+11",
           "today_n": 11
         },
         {
+          "full": "AgentWrapper/agent-orchestrator",
+          "rank": 18,
+          "stars": 8.3,
+          "today": "+25",
+          "today_n": 25
+        },
+        {
+          "full": "chenyme/grok2api",
+          "rank": 19,
+          "stars": 6.2,
+          "today": "+87",
+          "today_n": 87
+        },
+        {
+          "full": "higress-group/higress",
+          "rank": 20,
+          "stars": 8.9,
+          "today": "+9",
+          "today_n": 9
+        },
+        {
+          "full": "Tencent/WeKnora",
+          "rank": 21,
+          "stars": 18.5,
+          "today": "+54",
+          "today_n": 54
+        }
+      ],
+      "c++": [
+        {
           "full": "protocolbuffers/protobuf",
-          "rank": 4,
+          "rank": 1,
           "stars": 71.5,
           "today": "+11",
           "today_n": 11
         },
         {
-          "full": "electron/electron",
-          "rank": 5,
-          "stars": 122.1,
-          "today": "+26",
-          "today_n": 26
+          "full": "brave/brave-core",
+          "rank": 2,
+          "stars": 3.4,
+          "today": "+5",
+          "today_n": 5
         },
         {
           "full": "InoriRus/Kyty",
-          "rank": 6,
+          "rank": 3,
           "stars": 2.9,
           "today": "+36",
           "today_n": 36
         },
         {
-          "full": "ikawrakow/ik_llama.cpp",
-          "rank": 7,
-          "stars": 2.9,
-          "today": "+27",
-          "today_n": 27
+          "full": "zeek/zeek",
+          "rank": 4,
+          "stars": 7.8,
+          "today": "+6",
+          "today_n": 6
         },
         {
-          "full": "tensorflow/tensorflow",
-          "rank": 8,
-          "stars": 196.3,
-          "today": "+58",
-          "today_n": 58
+          "full": "BruceDevices/firmware",
+          "rank": 5,
+          "stars": 6.2,
+          "today": "+37",
+          "today_n": 37
         },
         {
-          "full": "amnezia-vpn/amnezia-client",
-          "rank": 9,
-          "stars": 12.9,
-          "today": "+15",
-          "today_n": 15
-        },
-        {
-          "full": "ArduPilot/ardupilot",
-          "rank": 10,
-          "stars": 15.5,
+          "full": "google/perfetto",
+          "rank": 6,
+          "stars": 6.2,
           "today": "+11",
           "today_n": 11
         },
         {
-          "full": "godotengine/godot",
-          "rank": 11,
-          "stars": 114.3,
-          "today": "+71",
-          "today_n": 71
+          "full": "diasurgical/DevilutionX",
+          "rank": 7,
+          "stars": 9.6,
+          "today": "+8",
+          "today_n": 8
         },
         {
-          "full": "WasmEdge/WasmEdge",
-          "rank": 12,
-          "stars": 10.7,
-          "today": "+0",
-          "today_n": 0
-        },
-        {
-          "full": "NVIDIA-AI-Blueprints/video-search-and-summarization",
-          "rank": 13,
-          "stars": 1.7,
+          "full": "autowarefoundation/vision_pilot",
+          "rank": 8,
+          "stars": 0.7,
           "today": "+7",
           "today_n": 7
         },
         {
-          "full": "RPCS3/rpcs3",
+          "full": "lemonade-sdk/lemonade",
+          "rank": 9,
+          "stars": 5.0,
+          "today": "+19",
+          "today_n": 19
+        },
+        {
+          "full": "nlohmann/json",
+          "rank": 10,
+          "stars": 50.1,
+          "today": "+15",
+          "today_n": 15
+        },
+        {
+          "full": "CleverRaven/Cataclysm-DDA",
+          "rank": 11,
+          "stars": 12.7,
+          "today": "+21",
+          "today_n": 21
+        },
+        {
+          "full": "openvinotoolkit/openvino",
+          "rank": 12,
+          "stars": 10.5,
+          "today": "+6",
+          "today_n": 6
+        },
+        {
+          "full": "microsoft/WSL",
+          "rank": 13,
+          "stars": 33.1,
+          "today": "+16",
+          "today_n": 16
+        },
+        {
+          "full": "UE4SS-RE/RE-UE4SS",
           "rank": 14,
-          "stars": 19.2,
-          "today": "+27",
-          "today_n": 27
+          "stars": 2.7,
+          "today": "+3",
+          "today_n": 3
         },
         {
-          "full": "colmap/colmap",
+          "full": "keepassxreboot/keepassxc",
           "rank": 15,
-          "stars": 12.2,
-          "today": "+9",
-          "today_n": 9
+          "stars": 28.0,
+          "today": "+21",
+          "today_n": 21
         },
         {
-          "full": "duckdb/duckdb",
+          "full": "microsoft/onnxruntime",
           "rank": 16,
-          "stars": 39.5,
-          "today": "+40",
-          "today_n": 40
+          "stars": 21.1,
+          "today": "+12",
+          "today_n": 12
+        },
+        {
+          "full": "Adaptix-Framework/AdaptixC2",
+          "rank": 17,
+          "stars": 3.4,
+          "today": "+5",
+          "today_n": 5
+        },
+        {
+          "full": "ggml-org/llama.cpp",
+          "rank": 18,
+          "stars": 120.7,
+          "today": "+126",
+          "today_n": 126
         },
         {
           "full": "chromium/chromium",
-          "rank": 17,
+          "rank": 19,
           "stars": 24.3,
           "today": "+15",
           "today_n": 15
         },
         {
-          "full": "aseprite/aseprite",
-          "rank": 18,
-          "stars": 38.1,
-          "today": "+30",
-          "today_n": 30
+          "full": "CrispStrobe/CrispASR",
+          "rank": 20,
+          "stars": 0.5,
+          "today": "+7",
+          "today_n": 7
         },
         {
-          "full": "Fincept-Corporation/FinceptTerminal",
-          "rank": 19,
-          "stars": 28.6,
-          "today": "+65",
-          "today_n": 65
+          "full": "cocos/cocos-engine",
+          "rank": 21,
+          "stars": 9.7,
+          "today": "+3",
+          "today_n": 3
+        },
+        {
+          "full": "lammps/lammps",
+          "rank": 22,
+          "stars": 3.0,
+          "today": "+5",
+          "today_n": 5
         }
       ]
     },
     "weekly": {
       "all": [
         {
-          "full": "google-labs-code/stitch-skills",
+          "full": "Nutlope/hallmark",
           "rank": 1,
-          "stars": 7.6,
-          "today": "+1.1k",
-          "today_n": 1090
-        },
-        {
-          "full": "wonderwhy-er/DesktopCommanderMCP",
-          "rank": 2,
-          "stars": 8.4,
-          "today": "+2.0k",
-          "today_n": 1991
+          "stars": 11.8,
+          "today": "+6.6k",
+          "today_n": 6573
         },
         {
           "full": "abseil/abseil-cpp",
-          "rank": 3,
+          "rank": 2,
           "stars": 18.0,
           "today": "+678",
           "today_n": 678
         },
         {
-          "full": "Nutlope/hallmark",
-          "rank": 4,
-          "stars": 11.3,
-          "today": "+6.6k",
-          "today_n": 6573
+          "full": "google-labs-code/stitch-skills",
+          "rank": 3,
+          "stars": 7.6,
+          "today": "+1.1k",
+          "today_n": 1090
         },
         {
           "full": "HKUDS/Vibe-Trading",
-          "rank": 5,
-          "stars": 24.4,
+          "rank": 4,
+          "stars": 24.6,
           "today": "+5.4k",
           "today_n": 5407
         },
         {
-          "full": "chriskohlhoff/asio",
+          "full": "wonderwhy-er/DesktopCommanderMCP",
+          "rank": 5,
+          "stars": 8.4,
+          "today": "+2.0k",
+          "today_n": 1991
+        },
+        {
+          "full": "OpenCut-app/OpenCut",
           "rank": 6,
-          "stars": 6.1,
-          "today": "+271",
-          "today_n": 271
+          "stars": 74.7,
+          "today": "+11.7k",
+          "today_n": 11731
         },
         {
           "full": "stablyai/orca",
           "rank": 7,
-          "stars": 20.8,
+          "stars": 21.0,
           "today": "+5.7k",
           "today_n": 5736
         },
         {
-          "full": "oven-sh/bun",
+          "full": "Shubhamsaboo/awesome-llm-apps",
           "rank": 8,
+          "stars": 123.5,
+          "today": "+5.6k",
+          "today_n": 5589
+        },
+        {
+          "full": "oven-sh/bun",
+          "rank": 9,
           "stars": 94.8,
           "today": "+1.3k",
           "today_n": 1343
         },
         {
-          "full": "OpenCut-app/OpenCut",
-          "rank": 9,
-          "stars": 74.3,
-          "today": "+11.7k",
-          "today_n": 11731
-        },
-        {
-          "full": "MadsLorentzen/ai-job-search",
-          "rank": 10,
-          "stars": 23.3,
-          "today": "+3.6k",
-          "today_n": 3558
-        },
-        {
           "full": "iOfficeAI/OfficeCLI",
-          "rank": 11,
-          "stars": 18.6,
+          "rank": 10,
+          "stars": 18.7,
           "today": "+5.3k",
           "today_n": 5342
         },
         {
-          "full": "Shubhamsaboo/awesome-llm-apps",
-          "rank": 12,
-          "stars": 123.2,
-          "today": "+5.6k",
-          "today_n": 5589
-        },
-        {
-          "full": "openai/codex-plugin-cc",
-          "rank": 13,
-          "stars": 29.0,
-          "today": "+1.9k",
-          "today_n": 1908
-        },
-        {
-          "full": "diegosouzapw/OmniRoute",
-          "rank": 14,
-          "stars": 18.1,
-          "today": "+3.9k",
-          "today_n": 3920
-        },
-        {
           "full": "davila7/claude-code-templates",
-          "rank": 15,
-          "stars": 29.6,
+          "rank": 11,
+          "stars": 29.7,
           "today": "+1.1k",
           "today_n": 1101
         },
         {
+          "full": "openai/codex-plugin-cc",
+          "rank": 12,
+          "stars": 29.1,
+          "today": "+1.9k",
+          "today_n": 1908
+        },
+        {
+          "full": "HKUDS/DeepTutor",
+          "rank": 13,
+          "stars": 27.2,
+          "today": "+1.3k",
+          "today_n": 1283
+        },
+        {
           "full": "pbakaus/impeccable",
-          "rank": 16,
-          "stars": 47.4,
+          "rank": 14,
+          "stars": 47.6,
           "today": "+2.4k",
           "today_n": 2360
         },
         {
           "full": "kangarooking/cangjie-skill",
-          "rank": 17,
-          "stars": 3.4,
+          "rank": 15,
+          "stars": 3.5,
           "today": "+1.0k",
           "today_n": 1043
         },
         {
+          "full": "diegosouzapw/OmniRoute",
+          "rank": 16,
+          "stars": 18.3,
+          "today": "+3.9k",
+          "today_n": 3920
+        },
+        {
           "full": "ogulcancelik/herdr",
-          "rank": 18,
-          "stars": 17.3,
+          "rank": 17,
+          "stars": 17.5,
           "today": "+2.5k",
           "today_n": 2502
         },
         {
           "full": "actions/checkout",
-          "rank": 19,
+          "rank": 18,
           "stars": 8.5,
           "today": "+211",
           "today_n": 211
         },
         {
-          "full": "HKUDS/DeepTutor",
-          "rank": 20,
-          "stars": 27.0,
-          "today": "+1.3k",
-          "today_n": 1283
-        },
-        {
-          "full": "jrouwe/JoltPhysics",
-          "rank": 21,
-          "stars": 10.9,
-          "today": "+286",
-          "today_n": 286
+          "full": "vercel-labs/native",
+          "rank": 19,
+          "stars": 6.5,
+          "today": "+1.0k",
+          "today_n": 1003
         }
       ],
       "python": [
         {
           "full": "HKUDS/Vibe-Trading",
           "rank": 1,
-          "stars": 24.4,
+          "stars": 24.6,
           "today": "+5.4k",
           "today_n": 5407
         },
         {
           "full": "Shubhamsaboo/awesome-llm-apps",
           "rank": 2,
-          "stars": 123.2,
+          "stars": 123.5,
           "today": "+5.6k",
           "today_n": 5589
         },
         {
           "full": "davila7/claude-code-templates",
           "rank": 3,
-          "stars": 29.6,
+          "stars": 29.7,
           "today": "+1.1k",
           "today_n": 1101
         },
         {
-          "full": "kangarooking/cangjie-skill",
-          "rank": 4,
-          "stars": 3.4,
-          "today": "+1.0k",
-          "today_n": 1043
-        },
-        {
           "full": "HKUDS/DeepTutor",
-          "rank": 5,
-          "stars": 27.0,
+          "rank": 4,
+          "stars": 27.2,
           "today": "+1.3k",
           "today_n": 1283
         },
         {
+          "full": "kangarooking/cangjie-skill",
+          "rank": 5,
+          "stars": 3.5,
+          "today": "+1.0k",
+          "today_n": 1043
+        },
+        {
           "full": "Graphify-Labs/graphify",
           "rank": 6,
-          "stars": 89.5,
+          "stars": 90.0,
           "today": "+7.7k",
           "today_n": 7736
         },
         {
-          "full": "huggingface/speech-to-speech",
+          "full": "PrefectHQ/prefect",
           "rank": 7,
-          "stars": 6.1,
-          "today": "+418",
-          "today_n": 418
+          "stars": 23.4,
+          "today": "+575",
+          "today_n": 575
         },
         {
-          "full": "python/cpython",
+          "full": "HKUDS/nanobot",
           "rank": 8,
-          "stars": 73.8,
-          "today": "+429",
-          "today_n": 429
+          "stars": 45.8,
+          "today": "+625",
+          "today_n": 625
         },
         {
           "full": "virattt/ai-hedge-fund",
@@ -1135,11 +1118,11 @@ window.TRENDING_DATA = {
           "today_n": 1255
         },
         {
-          "full": "PrefectHQ/prefect",
+          "full": "python/cpython",
           "rank": 10,
-          "stars": 23.4,
-          "today": "+575",
-          "today_n": 575
+          "stars": 73.8,
+          "today": "+429",
+          "today_n": 429
         },
         {
           "full": "ansible/ansible",
@@ -1149,18 +1132,18 @@ window.TRENDING_DATA = {
           "today_n": 408
         },
         {
-          "full": "ATH-MaaS/Pixelle-Video",
-          "rank": 12,
-          "stars": 25.6,
-          "today": "+912",
-          "today_n": 912
-        },
-        {
           "full": "home-assistant/core",
-          "rank": 13,
+          "rank": 12,
           "stars": 89.3,
           "today": "+1.2k",
           "today_n": 1221
+        },
+        {
+          "full": "kyutai-labs/pocket-tts",
+          "rank": 13,
+          "stars": 7.7,
+          "today": "+846",
+          "today_n": 846
         },
         {
           "full": "FoundationAgents/OpenManus",
@@ -1170,32 +1153,39 @@ window.TRENDING_DATA = {
           "today_n": 655
         },
         {
-          "full": "debpalash/OmniVoice-Studio",
-          "rank": 15,
-          "stars": 8.5,
-          "today": "+357",
-          "today_n": 357
-        },
-        {
-          "full": "kyutai-labs/pocket-tts",
-          "rank": 16,
-          "stars": 7.7,
-          "today": "+846",
-          "today_n": 846
-        },
-        {
           "full": "bradautomates/claude-video",
-          "rank": 17,
+          "rank": 15,
           "stars": 8.9,
           "today": "+2.3k",
           "today_n": 2276
         },
         {
-          "full": "muratcankoylan/Agent-Skills-for-Context-Engineering",
+          "full": "youtubediscord/zapret",
+          "rank": 16,
+          "stars": 1.5,
+          "today": "+179",
+          "today_n": 179
+        },
+        {
+          "full": "anthropics/claude-code",
+          "rank": 17,
+          "stars": 138.1,
+          "today": "+1.1k",
+          "today_n": 1070
+        },
+        {
+          "full": "PostHog/posthog",
           "rank": 18,
-          "stars": 17.3,
-          "today": "+259",
-          "today_n": 259
+          "stars": 36.1,
+          "today": "+386",
+          "today_n": 386
+        },
+        {
+          "full": "PrimeIntellect-ai/verifiers",
+          "rank": 19,
+          "stars": 4.4,
+          "today": "+90",
+          "today_n": 90
         }
       ],
       "typescript": [
@@ -1214,102 +1204,102 @@ window.TRENDING_DATA = {
           "today_n": 1991
         },
         {
-          "full": "stablyai/orca",
-          "rank": 3,
-          "stars": 20.8,
-          "today": "+5.7k",
-          "today_n": 5736
-        },
-        {
           "full": "OpenCut-app/OpenCut",
-          "rank": 4,
-          "stars": 74.3,
+          "rank": 3,
+          "stars": 74.7,
           "today": "+11.7k",
           "today_n": 11731
         },
         {
-          "full": "MadsLorentzen/ai-job-search",
-          "rank": 5,
-          "stars": 23.3,
-          "today": "+3.6k",
-          "today_n": 3558
+          "full": "stablyai/orca",
+          "rank": 4,
+          "stars": 21.0,
+          "today": "+5.7k",
+          "today_n": 5736
         },
         {
           "full": "diegosouzapw/OmniRoute",
-          "rank": 6,
-          "stars": 18.1,
+          "rank": 5,
+          "stars": 18.3,
           "today": "+3.9k",
           "today_n": 3920
         },
         {
           "full": "actions/checkout",
-          "rank": 7,
+          "rank": 6,
           "stars": 8.5,
           "today": "+211",
           "today_n": 211
         },
         {
-          "full": "rowboatlabs/rowboat",
-          "rank": 8,
-          "stars": 16.6,
-          "today": "+731",
-          "today_n": 731
-        },
-        {
-          "full": "facebook/astryx",
-          "rank": 9,
-          "stars": 9.1,
-          "today": "+1.8k",
-          "today_n": 1809
-        },
-        {
-          "full": "DayuanJiang/next-ai-draw-io",
-          "rank": 10,
-          "stars": 33.6,
-          "today": "+710",
-          "today_n": 710
-        },
-        {
-          "full": "TencentCloud/TencentDB-Agent-Memory",
-          "rank": 11,
-          "stars": 9.0,
-          "today": "+1.0k",
-          "today_n": 1044
-        },
-        {
           "full": "pingdotgg/t3code",
-          "rank": 12,
+          "rank": 7,
           "stars": 14.1,
           "today": "+631",
           "today_n": 631
         },
         {
-          "full": "ColeMurray/background-agents",
-          "rank": 13,
-          "stars": 2.5,
-          "today": "+378",
-          "today_n": 378
+          "full": "DayuanJiang/next-ai-draw-io",
+          "rank": 8,
+          "stars": 33.6,
+          "today": "+710",
+          "today_n": 710
+        },
+        {
+          "full": "rowboatlabs/rowboat",
+          "rank": 9,
+          "stars": 16.6,
+          "today": "+731",
+          "today_n": 731
+        },
+        {
+          "full": "browseros-ai/BrowserOS",
+          "rank": 10,
+          "stars": 12.3,
+          "today": "+509",
+          "today_n": 509
         },
         {
           "full": "vuejs/vue",
-          "rank": 14,
+          "rank": 11,
           "stars": 210.1,
           "today": "+356",
           "today_n": 356
         },
         {
-          "full": "microsoft/TypeScript",
+          "full": "ColeMurray/background-agents",
+          "rank": 12,
+          "stars": 2.5,
+          "today": "+378",
+          "today_n": 378
+        },
+        {
+          "full": "moeru-ai/airi",
+          "rank": 13,
+          "stars": 42.8,
+          "today": "+1.3k",
+          "today_n": 1315
+        },
+        {
+          "full": "ibelick/ui-skills",
+          "rank": 14,
+          "stars": 4.6,
+          "today": "+941",
+          "today_n": 941
+        },
+        {
+          "full": "MadsLorentzen/ai-job-search",
           "rank": 15,
+          "stars": 23.4,
+          "today": "+3.6k",
+          "today_n": 3558
+        },
+        {
+          "full": "microsoft/TypeScript",
+          "rank": 16,
           "stars": 109.8,
           "today": "+464",
           "today_n": 464
-        },
-        {
-          "full": "prisma/prisma",
-          "rank": 16,
-          "stars": 47.4,
-          "today": "+671",
-          "today_n": 671
         },
         {
           "full": "ChromeDevTools/chrome-devtools-mcp",
@@ -1319,46 +1309,46 @@ window.TRENDING_DATA = {
           "today_n": 652
         },
         {
-          "full": "moeru-ai/airi",
-          "rank": 18,
-          "stars": 42.8,
-          "today": "+1.3k",
-          "today_n": 1315
-        },
-        {
           "full": "earendil-works/pi",
-          "rank": 19,
-          "stars": 72.0,
+          "rank": 18,
+          "stars": 72.1,
           "today": "+2.7k",
           "today_n": 2732
         },
         {
-          "full": "microsoft/flint-chart",
-          "rank": 20,
-          "stars": 1.8,
-          "today": "+949",
-          "today_n": 949
+          "full": "prisma/prisma",
+          "rank": 19,
+          "stars": 47.3,
+          "today": "+671",
+          "today_n": 671
         },
         {
-          "full": "storybookjs/storybook",
+          "full": "shadcn-ui/ui",
+          "rank": 20,
+          "stars": 119.2,
+          "today": "+704",
+          "today_n": 704
+        },
+        {
+          "full": "YishenTu/claudian",
           "rank": 21,
-          "stars": 90.6,
-          "today": "+216",
-          "today_n": 216
+          "stars": 14.1,
+          "today": "+337",
+          "today_n": 337
         }
       ],
       "javascript": [
         {
           "full": "openai/codex-plugin-cc",
           "rank": 1,
-          "stars": 29.0,
+          "stars": 29.1,
           "today": "+1.9k",
           "today_n": 1908
         },
         {
           "full": "pbakaus/impeccable",
           "rank": 2,
-          "stars": 47.4,
+          "stars": 47.6,
           "today": "+2.4k",
           "today_n": 2360
         },
@@ -1370,95 +1360,95 @@ window.TRENDING_DATA = {
           "today_n": 878
         },
         {
-          "full": "asgeirtj/system_prompts_leaks",
+          "full": "wwebjs/whatsapp-web.js",
           "rank": 4,
-          "stars": 58.5,
-          "today": "+3.4k",
-          "today_n": 3402
-        },
-        {
-          "full": "decolua/9router",
-          "rank": 5,
-          "stars": 22.4,
-          "today": "+1.1k",
-          "today_n": 1081
-        },
-        {
-          "full": "prettier/prettier",
-          "rank": 6,
-          "stars": 52.1,
-          "today": "+126",
-          "today_n": 126
-        },
-        {
-          "full": "eslint/eslint",
-          "rank": 7,
-          "stars": 27.4,
-          "today": "+99",
-          "today_n": 99
+          "stars": 22.2,
+          "today": "+62",
+          "today_n": 62
         },
         {
           "full": "ilysenko/codex-desktop-linux",
-          "rank": 8,
+          "rank": 5,
           "stars": 2.7,
           "today": "+424",
           "today_n": 424
         },
         {
-          "full": "fbsamples/whatsapp-business-jaspers-market",
-          "rank": 9,
-          "stars": 0.5,
-          "today": "+77",
-          "today_n": 77
+          "full": "asgeirtj/system_prompts_leaks",
+          "rank": 6,
+          "stars": 58.6,
+          "today": "+3.4k",
+          "today_n": 3402
         },
         {
           "full": "fastify/fastify",
-          "rank": 10,
+          "rank": 7,
           "stars": 36.7,
           "today": "+168",
           "today_n": 168
         },
         {
+          "full": "decolua/9router",
+          "rank": 8,
+          "stars": 22.4,
+          "today": "+1.1k",
+          "today_n": 1081
+        },
+        {
+          "full": "openai/plugins",
+          "rank": 9,
+          "stars": 4.6,
+          "today": "+454",
+          "today_n": 454
+        },
+        {
           "full": "nodejs/node",
-          "rank": 11,
+          "rank": 10,
           "stars": 118.3,
           "today": "+455",
           "today_n": 455
         },
         {
-          "full": "webtorrent/webtorrent",
+          "full": "poteto/hiring-without-whiteboards",
+          "rank": 11,
+          "stars": 51.1,
+          "today": "+147",
+          "today_n": 147
+        },
+        {
+          "full": "fbsamples/whatsapp-business-jaspers-market",
           "rank": 12,
-          "stars": 31.3,
-          "today": "+129",
-          "today_n": 129
+          "stars": 0.5,
+          "today": "+77",
+          "today_n": 77
+        },
+        {
+          "full": "webpack/webpack",
+          "rank": 13,
+          "stars": 65.8,
+          "today": "+120",
+          "today_n": 120
+        },
+        {
+          "full": "sveltejs/svelte",
+          "rank": 14,
+          "stars": 87.6,
+          "today": "+275",
+          "today_n": 275
         },
         {
           "full": "GargantuaX/gemini-watermark-remover",
-          "rank": 13,
+          "rank": 15,
           "stars": 4.9,
           "today": "+200",
           "today_n": 200
         },
         {
           "full": "zarazhangrui/follow-builders",
-          "rank": 14,
+          "rank": 16,
           "stars": 5.9,
           "today": "+170",
           "today_n": 170
-        },
-        {
-          "full": "openai/plugins",
-          "rank": 15,
-          "stars": 4.6,
-          "today": "+454",
-          "today_n": 454
-        },
-        {
-          "full": "sveltejs/svelte",
-          "rank": 16,
-          "stars": 87.6,
-          "today": "+275",
-          "today_n": 275
         },
         {
           "full": "bigskysoftware/htmx",
@@ -1466,20 +1456,6 @@ window.TRENDING_DATA = {
           "stars": 48.5,
           "today": "+126",
           "today_n": 126
-        },
-        {
-          "full": "webpack/webpack",
-          "rank": 18,
-          "stars": 65.8,
-          "today": "+120",
-          "today_n": 120
-        },
-        {
-          "full": "FortAwesome/Font-Awesome",
-          "rank": 19,
-          "stars": 76.8,
-          "today": "+41",
-          "today_n": 41
         }
       ],
       "rust": [
@@ -1493,291 +1469,277 @@ window.TRENDING_DATA = {
         {
           "full": "ogulcancelik/herdr",
           "rank": 2,
-          "stars": 17.3,
+          "stars": 17.5,
           "today": "+2.5k",
           "today_n": 2502
         },
         {
-          "full": "TencentCloud/CubeSandbox",
+          "full": "openinterpreter/openinterpreter",
           "rank": 3,
+          "stars": 66.3,
+          "today": "+1.6k",
+          "today_n": 1619
+        },
+        {
+          "full": "TencentCloud/CubeSandbox",
+          "rank": 4,
           "stars": 10.4,
           "today": "+1.1k",
           "today_n": 1143
         },
         {
           "full": "Zackriya-Solutions/meetily",
-          "rank": 4,
+          "rank": 5,
           "stars": 25.2,
           "today": "+3.1k",
           "today_n": 3131
         },
         {
-          "full": "openinterpreter/openinterpreter",
-          "rank": 5,
-          "stars": 66.1,
-          "today": "+1.6k",
-          "today_n": 1619
-        },
-        {
           "full": "openai/codex",
           "rank": 6,
-          "stars": 99.0,
+          "stars": 99.1,
           "today": "+2.3k",
           "today_n": 2339
         },
         {
-          "full": "rust-lang/rust",
+          "full": "malisper/pgrust",
           "rank": 7,
+          "stars": 3.3,
+          "today": "+2.4k",
+          "today_n": 2352
+        },
+        {
+          "full": "screenpipe/screenpipe",
+          "rank": 8,
+          "stars": 20.2,
+          "today": "+461",
+          "today_n": 461
+        },
+        {
+          "full": "rust-lang/rust",
+          "rank": 9,
           "stars": 114.7,
           "today": "+525",
           "today_n": 525
         },
         {
           "full": "NVIDIA/OpenShell",
-          "rank": 8,
+          "rank": 10,
           "stars": 7.6,
           "today": "+238",
           "today_n": 238
         },
         {
-          "full": "denoland/deno",
-          "rank": 9,
-          "stars": 107.7,
-          "today": "+380",
-          "today_n": 380
-        },
-        {
           "full": "junhoyeo/tokscale",
-          "rank": 10,
+          "rank": 11,
           "stars": 4.4,
           "today": "+259",
           "today_n": 259
         },
         {
-          "full": "biomejs/biome",
-          "rank": 11,
-          "stars": 25.3,
-          "today": "+171",
-          "today_n": 171
-        },
-        {
-          "full": "screenpipe/screenpipe",
+          "full": "denoland/deno",
           "rank": 12,
-          "stars": 20.2,
-          "today": "+461",
-          "today_n": 461
+          "stars": 107.7,
+          "today": "+380",
+          "today_n": 380
         },
         {
-          "full": "a2x/cs2-dumper",
+          "full": "ai-dynamo/dynamo",
           "rank": 13,
-          "stars": 2.2,
-          "today": "+33",
-          "today_n": 33
-        },
-        {
-          "full": "wealthfolio/wealthfolio",
-          "rank": 14,
-          "stars": 8.3,
-          "today": "+214",
-          "today_n": 214
-        },
-        {
-          "full": "rolldown/rolldown",
-          "rank": 15,
-          "stars": 13.8,
-          "today": "+130",
-          "today_n": 130
-        },
-        {
-          "full": "louis-e/arnis",
-          "rank": 16,
-          "stars": 17.0,
-          "today": "+279",
-          "today_n": 279
-        },
-        {
-          "full": "ModernRelay/omnigraph",
-          "rank": 17,
-          "stars": 0.9,
-          "today": "+160",
-          "today_n": 160
+          "stars": 7.5,
+          "today": "+64",
+          "today_n": 64
         },
         {
           "full": "astral-sh/uv",
-          "rank": 18,
+          "rank": 14,
           "stars": 87.6,
           "today": "+311",
           "today_n": 311
         },
         {
-          "full": "microsoft/pg_durable",
-          "rank": 19,
-          "stars": 2.6,
-          "today": "+408",
-          "today_n": 408
+          "full": "raine/workmux",
+          "rank": 15,
+          "stars": 1.8,
+          "today": "+73",
+          "today_n": 73
+        },
+        {
+          "full": "lance-format/lance",
+          "rank": 16,
+          "stars": 6.8,
+          "today": "+43",
+          "today_n": 43
+        },
+        {
+          "full": "louis-e/arnis",
+          "rank": 17,
+          "stars": 17.0,
+          "today": "+279",
+          "today_n": 279
+        },
+        {
+          "full": "DioxusLabs/dioxus",
+          "rank": 18,
+          "stars": 36.8,
+          "today": "+122",
+          "today_n": 122
         },
         {
           "full": "macro-inc/macro",
-          "rank": 20,
+          "rank": 19,
           "stars": 0.5,
           "today": "+233",
           "today_n": 233
-        },
-        {
-          "full": "kdsz001/OpenWiki",
-          "rank": 21,
-          "stars": 0.6,
-          "today": "+129",
-          "today_n": 129
         }
       ],
       "go": [
         {
-          "full": "argoproj/argo-cd",
-          "rank": 1,
-          "stars": 23.6,
-          "today": "+237",
-          "today_n": 237
-        },
-        {
           "full": "hashicorp/terraform",
-          "rank": 2,
+          "rank": 1,
           "stars": 49.2,
           "today": "+642",
           "today_n": 642
         },
         {
           "full": "tailscale/tailscale",
-          "rank": 3,
+          "rank": 2,
           "stars": 34.0,
           "today": "+764",
           "today_n": 764
         },
         {
           "full": "microsoft/typescript-go",
-          "rank": 4,
+          "rank": 3,
           "stars": 26.0,
           "today": "+130",
           "today_n": 130
         },
         {
-          "full": "vxcontrol/pentagi",
+          "full": "argoproj/argo-cd",
+          "rank": 4,
+          "stars": 23.6,
+          "today": "+237",
+          "today_n": 237
+        },
+        {
+          "full": "moby/moby",
           "rank": 5,
-          "stars": 20.8,
-          "today": "+1.6k",
-          "today_n": 1614
-        },
-        {
-          "full": "golang/go",
-          "rank": 6,
-          "stars": 135.3,
-          "today": "+456",
-          "today_n": 456
-        },
-        {
-          "full": "google/gvisor",
-          "rank": 7,
-          "stars": 18.8,
-          "today": "+161",
-          "today_n": 161
-        },
-        {
-          "full": "larksuite/cli",
-          "rank": 8,
-          "stars": 15.6,
-          "today": "+353",
-          "today_n": 353
-        },
-        {
-          "full": "stretchr/testify",
-          "rank": 9,
-          "stars": 26.1,
-          "today": "+121",
-          "today_n": 121
-        },
-        {
-          "full": "juanfont/headscale",
-          "rank": 10,
-          "stars": 41.8,
-          "today": "+527",
-          "today_n": 527
+          "stars": 71.9,
+          "today": "+140",
+          "today_n": 140
         },
         {
           "full": "chenyme/grok2api",
-          "rank": 11,
+          "rank": 6,
           "stars": 6.2,
           "today": "+771",
           "today_n": 771
         },
         {
           "full": "Wei-Shaw/sub2api",
-          "rank": 12,
-          "stars": 32.6,
+          "rank": 7,
+          "stars": 32.7,
           "today": "+1.5k",
           "today_n": 1482
         },
         {
-          "full": "moby/moby",
-          "rank": 13,
-          "stars": 71.9,
-          "today": "+140",
-          "today_n": 140
+          "full": "juanfont/headscale",
+          "rank": 8,
+          "stars": 41.8,
+          "today": "+527",
+          "today_n": 527
         },
         {
-          "full": "opencode-ai/opencode",
-          "rank": 14,
-          "stars": 13.4,
-          "today": "+227",
-          "today_n": 227
+          "full": "pocketbase/pocketbase",
+          "rank": 9,
+          "stars": 59.8,
+          "today": "+292",
+          "today_n": 292
         },
         {
-          "full": "ethereum/go-ethereum",
-          "rank": 15,
-          "stars": 51.2,
-          "today": "+149",
-          "today_n": 149
-        },
-        {
-          "full": "prometheus/prometheus",
-          "rank": 16,
-          "stars": 65.2,
-          "today": "+331",
-          "today_n": 331
+          "full": "golang/go",
+          "rank": 10,
+          "stars": 135.3,
+          "today": "+456",
+          "today_n": 456
         },
         {
           "full": "projectdiscovery/nuclei",
-          "rank": 17,
+          "rank": 11,
           "stars": 29.8,
           "today": "+311",
           "today_n": 311
         },
         {
           "full": "sundowndev/phoneinfoga",
-          "rank": 18,
+          "rank": 12,
           "stars": 17.0,
           "today": "+198",
           "today_n": 198
         },
         {
-          "full": "schollz/croc",
+          "full": "opencode-ai/opencode",
+          "rank": 13,
+          "stars": 13.4,
+          "today": "+227",
+          "today_n": 227
+        },
+        {
+          "full": "google/gvisor",
+          "rank": 14,
+          "stars": 18.8,
+          "today": "+161",
+          "today_n": 161
+        },
+        {
+          "full": "prometheus/prometheus",
+          "rank": 15,
+          "stars": 65.2,
+          "today": "+331",
+          "today_n": 331
+        },
+        {
+          "full": "vxcontrol/pentagi",
+          "rank": 16,
+          "stars": 20.9,
+          "today": "+1.6k",
+          "today_n": 1614
+        },
+        {
+          "full": "larksuite/cli",
+          "rank": 17,
+          "stars": 15.6,
+          "today": "+353",
+          "today_n": 353
+        },
+        {
+          "full": "stretchr/testify",
+          "rank": 18,
+          "stars": 26.1,
+          "today": "+121",
+          "today_n": 121
+        },
+        {
+          "full": "gosom/google-maps-scraper",
           "rank": 19,
+          "stars": 5.1,
+          "today": "+309",
+          "today_n": 309
+        },
+        {
+          "full": "ethereum/go-ethereum",
+          "rank": 20,
+          "stars": 51.2,
+          "today": "+149",
+          "today_n": 149
+        },
+        {
+          "full": "schollz/croc",
+          "rank": 21,
           "stars": 35.6,
           "today": "+164",
           "today_n": 164
-        },
-        {
-          "full": "sipeed/picoclaw",
-          "rank": 20,
-          "stars": 29.7,
-          "today": "+159",
-          "today_n": 159
-        },
-        {
-          "full": "Gentleman-Programming/gentle-ai",
-          "rank": 21,
-          "stars": 4.9,
-          "today": "+159",
-          "today_n": 159
         },
         {
           "full": "Gentleman-Programming/engram",
@@ -1787,18 +1749,11 @@ window.TRENDING_DATA = {
           "today_n": 512
         },
         {
-          "full": "pocketbase/pocketbase",
+          "full": "gastownhall/beads",
           "rank": 23,
-          "stars": 59.8,
-          "today": "+292",
-          "today_n": 292
-        },
-        {
-          "full": "entireio/cli",
-          "rank": 24,
-          "stars": 4.8,
-          "today": "+94",
-          "today_n": 94
+          "stars": 25.4,
+          "today": "+200",
+          "today_n": 200
         }
       ],
       "c++": [
@@ -1810,165 +1765,165 @@ window.TRENDING_DATA = {
           "today_n": 678
         },
         {
-          "full": "chriskohlhoff/asio",
-          "rank": 2,
-          "stars": 6.1,
-          "today": "+271",
-          "today_n": 271
-        },
-        {
           "full": "jrouwe/JoltPhysics",
-          "rank": 3,
-          "stars": 10.9,
+          "rank": 2,
+          "stars": 11.0,
           "today": "+286",
           "today_n": 286
         },
         {
           "full": "zeux/meshoptimizer",
-          "rank": 4,
+          "rank": 3,
           "stars": 8.1,
           "today": "+336",
           "today_n": 336
         },
         {
-          "full": "jbeder/yaml-cpp",
-          "rank": 5,
-          "stars": 6.1,
-          "today": "+165",
-          "today_n": 165
-        },
-        {
           "full": "grpc/grpc",
-          "rank": 6,
+          "rank": 4,
           "stars": 45.2,
           "today": "+253",
           "today_n": 253
         },
         {
           "full": "tensorflow/tensorflow",
-          "rank": 7,
+          "rank": 5,
           "stars": 196.3,
           "today": "+483",
           "today_n": 483
         },
         {
           "full": "ggml-org/whisper.cpp",
-          "rank": 8,
+          "rank": 6,
           "stars": 51.8,
           "today": "+345",
           "today_n": 345
         },
         {
           "full": "catchorg/Catch2",
-          "rank": 9,
+          "rank": 7,
           "stars": 21.2,
           "today": "+854",
           "today_n": 854
         },
         {
-          "full": "vllm-project/vllm-ascend",
-          "rank": 10,
-          "stars": 2.4,
-          "today": "+135",
-          "today_n": 135
-        },
-        {
-          "full": "gabime/spdlog",
-          "rank": 11,
-          "stars": 29.2,
-          "today": "+212",
-          "today_n": 212
-        },
-        {
-          "full": "nasa/fprime",
-          "rank": 12,
-          "stars": 11.5,
-          "today": "+322",
-          "today_n": 322
-        },
-        {
-          "full": "LibreCAD/LibreCAD",
-          "rank": 13,
+          "full": "chriskohlhoff/asio",
+          "rank": 8,
           "stars": 6.1,
-          "today": "+102",
-          "today_n": 102
+          "today": "+271",
+          "today_n": 271
         },
         {
-          "full": "huxingyi/autoremesher",
-          "rank": 14,
-          "stars": 2.8,
-          "today": "+504",
-          "today_n": 504
+          "full": "jbeder/yaml-cpp",
+          "rank": 9,
+          "stars": 6.1,
+          "today": "+165",
+          "today_n": 165
         },
         {
           "full": "YimMenu/YimMenuV2",
-          "rank": 15,
+          "rank": 10,
           "stars": 1.5,
           "today": "+176",
           "today_n": 176
         },
         {
-          "full": "openscad/openscad",
-          "rank": 16,
-          "stars": 9.8,
-          "today": "+139",
-          "today_n": 139
+          "full": "nasa/fprime",
+          "rank": 11,
+          "stars": 11.5,
+          "today": "+322",
+          "today_n": 322
         },
         {
-          "full": "bitcoin/bitcoin",
-          "rank": 17,
-          "stars": 89.6,
-          "today": "+170",
-          "today_n": 170
+          "full": "gabime/spdlog",
+          "rank": 12,
+          "stars": 29.2,
+          "today": "+212",
+          "today_n": 212
+        },
+        {
+          "full": "vllm-project/vllm-ascend",
+          "rank": 13,
+          "stars": 2.4,
+          "today": "+135",
+          "today_n": 135
+        },
+        {
+          "full": "LibreCAD/LibreCAD",
+          "rank": 14,
+          "stars": 6.1,
+          "today": "+102",
+          "today_n": 102
         },
         {
           "full": "ocornut/imgui",
-          "rank": 18,
+          "rank": 15,
           "stars": 74.7,
           "today": "+400",
           "today_n": 400
         },
         {
-          "full": "carbon-language/carbon-lang",
-          "rank": 19,
-          "stars": 33.8,
-          "today": "+128",
-          "today_n": 128
-        },
-        {
           "full": "shadps4-emu/shadPS4",
-          "rank": 20,
-          "stars": 32.0,
+          "rank": 16,
+          "stars": 32.1,
           "today": "+320",
           "today_n": 320
         },
         {
-          "full": "mozilla-ai/llamafile",
-          "rank": 21,
-          "stars": 25.3,
-          "today": "+176",
-          "today_n": 176
-        },
-        {
-          "full": "SerenityOS/serenity",
-          "rank": 22,
-          "stars": 33.6,
-          "today": "+123",
-          "today_n": 123
-        },
-        {
           "full": "dogecoin/dogecoin",
-          "rank": 23,
+          "rank": 17,
           "stars": 15.2,
           "today": "+101",
           "today_n": 101
         },
         {
+          "full": "carbon-language/carbon-lang",
+          "rank": 18,
+          "stars": 33.8,
+          "today": "+128",
+          "today_n": 128
+        },
+        {
           "full": "aseprite/aseprite",
-          "rank": 24,
+          "rank": 19,
           "stars": 38.1,
           "today": "+203",
           "today_n": 203
+        },
+        {
+          "full": "BruceDevices/firmware",
+          "rank": 20,
+          "stars": 6.2,
+          "today": "+106",
+          "today_n": 106
+        },
+        {
+          "full": "openscad/openscad",
+          "rank": 21,
+          "stars": 9.8,
+          "today": "+139",
+          "today_n": 139
+        },
+        {
+          "full": "huxingyi/autoremesher",
+          "rank": 22,
+          "stars": 2.8,
+          "today": "+504",
+          "today_n": 504
+        },
+        {
+          "full": "RPCS3/rpcs3",
+          "rank": 23,
+          "stars": 19.2,
+          "today": "+94",
+          "today_n": 94
+        },
+        {
+          "full": "SerenityOS/serenity",
+          "rank": 24,
+          "stars": 33.6,
+          "today": "+123",
+          "today_n": 123
         }
       ]
     },
@@ -1977,28 +1932,28 @@ window.TRENDING_DATA = {
         {
           "full": "calesthio/OpenMontage",
           "rank": 1,
-          "stars": 39.3,
+          "stars": 39.5,
           "today": "+34.6k",
           "today_n": 34552
         },
         {
           "full": "DeusData/codebase-memory-mcp",
           "rank": 2,
-          "stars": 32.2,
+          "stars": 32.3,
           "today": "+28.4k",
           "today_n": 28389
         },
         {
           "full": "MadsLorentzen/ai-job-search",
           "rank": 3,
-          "stars": 23.3,
+          "stars": 23.4,
           "today": "+20.0k",
           "today_n": 19972
         },
         {
           "full": "asgeirtj/system_prompts_leaks",
           "rank": 4,
-          "stars": 58.5,
+          "stars": 58.6,
           "today": "+15.9k",
           "today_n": 15918
         },
@@ -2012,21 +1967,21 @@ window.TRENDING_DATA = {
         {
           "full": "usestrix/strix",
           "rank": 6,
-          "stars": 42.1,
+          "stars": 42.2,
           "today": "+16.2k",
           "today_n": 16246
         },
         {
           "full": "stablyai/orca",
           "rank": 7,
-          "stars": 20.8,
+          "stars": 21.0,
           "today": "+15.5k",
           "today_n": 15502
         },
         {
           "full": "ogulcancelik/herdr",
           "rank": 8,
-          "stars": 17.3,
+          "stars": 17.5,
           "today": "+11.3k",
           "today_n": 11259
         },
@@ -2040,114 +1995,100 @@ window.TRENDING_DATA = {
         {
           "full": "diegosouzapw/OmniRoute",
           "rank": 10,
-          "stars": 18.1,
+          "stars": 18.3,
           "today": "+11.7k",
           "today_n": 11719
         },
         {
-          "full": "Panniantong/Agent-Reach",
-          "rank": 11,
-          "stars": 57.3,
-          "today": "+26.0k",
-          "today_n": 26023
-        },
-        {
           "full": "alibaba/page-agent",
-          "rank": 12,
-          "stars": 26.8,
+          "rank": 11,
+          "stars": 26.9,
           "today": "+8.4k",
           "today_n": 8408
         },
         {
-          "full": "gabime/spdlog",
-          "rank": 13,
-          "stars": 29.2,
-          "today": "+373",
-          "today_n": 373
+          "full": "Panniantong/Agent-Reach",
+          "rank": 12,
+          "stars": 57.4,
+          "today": "+26.0k",
+          "today_n": 26023
         },
         {
           "full": "interviewstreet/hiring-agent",
-          "rank": 14,
+          "rank": 13,
           "stars": 6.0,
           "today": "+4.9k",
           "today_n": 4889
         },
         {
           "full": "ocornut/imgui",
-          "rank": 15,
+          "rank": 14,
           "stars": 74.7,
           "today": "+986",
           "today_n": 986
         },
         {
           "full": "simplex-chat/simplex-chat",
-          "rank": 16,
-          "stars": 18.6,
+          "rank": 15,
+          "stars": 18.7,
           "today": "+7.6k",
           "today_n": 7609
         },
         {
-          "full": "OpenCut-app/OpenCut",
+          "full": "BuilderIO/agent-native",
+          "rank": 16,
+          "stars": 3.7,
+          "today": "+3.2k",
+          "today_n": 3249
+        },
+        {
+          "full": "gabime/spdlog",
           "rank": 17,
-          "stars": 74.3,
+          "stars": 29.2,
+          "today": "+373",
+          "today_n": 373
+        },
+        {
+          "full": "OpenCut-app/OpenCut",
+          "rank": 18,
+          "stars": 74.7,
           "today": "+18.0k",
           "today_n": 17981
         },
         {
-          "full": "GoogleCloudPlatform/knowledge-catalog",
-          "rank": 18,
-          "stars": 7.3,
-          "today": "+4.4k",
-          "today_n": 4375
-        },
-        {
-          "full": "wonderwhy-er/DesktopCommanderMCP",
-          "rank": 19,
-          "stars": 8.4,
-          "today": "+2.3k",
-          "today_n": 2298
-        },
-        {
           "full": "iOfficeAI/OfficeCLI",
-          "rank": 20,
-          "stars": 18.6,
+          "rank": 19,
+          "stars": 18.7,
           "today": "+11.1k",
           "today_n": 11065
         },
         {
-          "full": "topoteretes/cognee",
-          "rank": 21,
-          "stars": 28.0,
-          "today": "+10.2k",
-          "today_n": 10229
-        },
-        {
-          "full": "bradautomates/claude-video",
-          "rank": 22,
-          "stars": 8.9,
-          "today": "+6.7k",
-          "today_n": 6697
+          "full": "wonderwhy-er/DesktopCommanderMCP",
+          "rank": 20,
+          "stars": 8.4,
+          "today": "+2.3k",
+          "today_n": 2298
         }
       ],
       "python": [
         {
           "full": "calesthio/OpenMontage",
           "rank": 1,
-          "stars": 39.3,
+          "stars": 39.5,
           "today": "+34.6k",
           "today_n": 34552
         },
         {
           "full": "usestrix/strix",
           "rank": 2,
-          "stars": 42.1,
+          "stars": 42.2,
           "today": "+16.2k",
           "today_n": 16246
         },
         {
           "full": "Panniantong/Agent-Reach",
           "rank": 3,
-          "stars": 57.3,
+          "stars": 57.4,
           "today": "+26.0k",
           "today_n": 26023
         },
@@ -2173,32 +2114,32 @@ window.TRENDING_DATA = {
           "today_n": 6697
         },
         {
-          "full": "NanmiCoder/MediaCrawler",
-          "rank": 7,
-          "stars": 56.7,
-          "today": "+5.6k",
-          "today_n": 5591
-        },
-        {
           "full": "HKUDS/Vibe-Trading",
-          "rank": 8,
-          "stars": 24.4,
+          "rank": 7,
+          "stars": 24.6,
           "today": "+12.0k",
           "today_n": 12027
         },
         {
-          "full": "huggingface/speech-to-speech",
-          "rank": 9,
-          "stars": 6.1,
-          "today": "+1.3k",
-          "today_n": 1325
+          "full": "NanmiCoder/MediaCrawler",
+          "rank": 8,
+          "stars": 56.8,
+          "today": "+5.6k",
+          "today_n": 5591
         },
         {
           "full": "ZhuLinsen/daily_stock_analysis",
-          "rank": 10,
+          "rank": 9,
           "stars": 57.6,
           "today": "+15.1k",
           "today_n": 15084
+        },
+        {
+          "full": "huggingface/speech-to-speech",
+          "rank": 10,
+          "stars": 6.1,
+          "today": "+1.3k",
+          "today_n": 1325
         },
         {
           "full": "mukul975/Anthropic-Cybersecurity-Skills",
@@ -2208,195 +2149,195 @@ window.TRENDING_DATA = {
           "today_n": 9935
         },
         {
-          "full": "cupy/cupy",
-          "rank": 12,
-          "stars": 12.2,
-          "today": "+1.2k",
-          "today_n": 1166
-        },
-        {
           "full": "rommapp/romm",
-          "rank": 13,
+          "rank": 12,
           "stars": 11.1,
           "today": "+2.2k",
           "today_n": 2232
         },
         {
           "full": "harvard-edge/cs249r_book",
-          "rank": 14,
+          "rank": 13,
           "stars": 27.4,
           "today": "+2.7k",
           "today_n": 2676
         },
         {
           "full": "microsoft/skills-for-fabric",
-          "rank": 15,
+          "rank": 14,
           "stars": 0.8,
           "today": "+286",
           "today_n": 286
         },
         {
           "full": "NVIDIA/skills",
-          "rank": 16,
+          "rank": 15,
           "stars": 2.6,
           "today": "+1.3k",
           "today_n": 1271
         },
         {
-          "full": "google-research/timesfm",
-          "rank": 17,
-          "stars": 26.9,
-          "today": "+6.1k",
-          "today_n": 6076
-        },
-        {
           "full": "THUDM/slime",
-          "rank": 18,
+          "rank": 16,
           "stars": 7.5,
           "today": "+1.4k",
           "today_n": 1379
         },
         {
           "full": "Mebus/cupp",
-          "rank": 19,
+          "rank": 17,
           "stars": 6.4,
           "today": "+458",
           "today_n": 458
+        },
+        {
+          "full": "Robbyant/lingbot-map",
+          "rank": 18,
+          "stars": 11.9,
+          "today": "+4.5k",
+          "today_n": 4475
+        },
+        {
+          "full": "yifanfeng97/Hyper-Extract",
+          "rank": 19,
+          "stars": 3.1,
+          "today": "+1.7k",
+          "today_n": 1660
         }
       ],
       "typescript": [
         {
           "full": "MadsLorentzen/ai-job-search",
           "rank": 1,
-          "stars": 23.3,
+          "stars": 23.4,
           "today": "+20.0k",
           "today_n": 19972
         },
         {
           "full": "stablyai/orca",
           "rank": 2,
-          "stars": 20.8,
+          "stars": 21.0,
           "today": "+15.5k",
           "today_n": 15502
         },
         {
           "full": "diegosouzapw/OmniRoute",
           "rank": 3,
-          "stars": 18.1,
+          "stars": 18.3,
           "today": "+11.7k",
           "today_n": 11719
         },
         {
           "full": "alibaba/page-agent",
           "rank": 4,
-          "stars": 26.8,
+          "stars": 26.9,
           "today": "+8.4k",
           "today_n": 8408
         },
         {
-          "full": "OpenCut-app/OpenCut",
+          "full": "BuilderIO/agent-native",
           "rank": 5,
-          "stars": 74.3,
+          "stars": 3.7,
+          "today": "+3.2k",
+          "today_n": 3249
+        },
+        {
+          "full": "OpenCut-app/OpenCut",
+          "rank": 6,
+          "stars": 74.7,
           "today": "+18.0k",
           "today_n": 17981
         },
         {
           "full": "wonderwhy-er/DesktopCommanderMCP",
-          "rank": 6,
+          "rank": 7,
           "stars": 8.4,
           "today": "+2.3k",
           "today_n": 2298
         },
         {
           "full": "JCodesMore/ai-website-cloner-template",
-          "rank": 7,
-          "stars": 28.5,
+          "rank": 8,
+          "stars": 28.6,
           "today": "+11.7k",
           "today_n": 11695
         },
         {
           "full": "jamiepine/voicebox",
-          "rank": 8,
-          "stars": 41.9,
+          "rank": 9,
+          "stars": 42.0,
           "today": "+12.0k",
           "today_n": 11970
         },
         {
+          "full": "logto-io/logto",
+          "rank": 10,
+          "stars": 14.1,
+          "today": "+2.1k",
+          "today_n": 2060
+        },
+        {
           "full": "kunchenguid/gnhf",
-          "rank": 9,
+          "rank": 11,
           "stars": 3.2,
           "today": "+1.1k",
           "today_n": 1143
         },
         {
-          "full": "BuilderIO/agent-native",
-          "rank": 10,
-          "stars": 3.7,
-          "today": "+3.2k",
-          "today_n": 3249
-        },
-        {
-          "full": "google-labs-code/stitch-skills",
-          "rank": 11,
-          "stars": 7.6,
-          "today": "+1.6k",
-          "today_n": 1552
+          "full": "immich-app/immich",
+          "rank": 12,
+          "stars": 108.0,
+          "today": "+4.6k",
+          "today_n": 4579
         },
         {
           "full": "ArnasDon/wacrm",
-          "rank": 12,
+          "rank": 13,
           "stars": 1.6,
           "today": "+694",
           "today_n": 694
         },
         {
-          "full": "koala73/worldmonitor",
-          "rank": 13,
-          "stars": 61.9,
-          "today": "+5.6k",
-          "today_n": 5587
-        },
-        {
-          "full": "iptv-org/iptv",
+          "full": "google-labs-code/stitch-skills",
           "rank": 14,
-          "stars": 133.1,
-          "today": "+9.7k",
-          "today_n": 9736
+          "stars": 7.6,
+          "today": "+1.6k",
+          "today_n": 1552
         },
         {
           "full": "mauriceboe/TREK",
           "rank": 15,
-          "stars": 10.3,
+          "stars": 10.4,
           "today": "+4.8k",
           "today_n": 4780
         },
         {
-          "full": "every-app/open-seo",
+          "full": "iptv-org/iptv",
           "rank": 16,
+          "stars": 133.2,
+          "today": "+9.7k",
+          "today_n": 9736
+        },
+        {
+          "full": "koala73/worldmonitor",
+          "rank": 17,
+          "stars": 62.0,
+          "today": "+5.6k",
+          "today_n": 5587
+        },
+        {
+          "full": "every-app/open-seo",
+          "rank": 18,
           "stars": 4.4,
           "today": "+2.2k",
           "today_n": 2171
         },
         {
-          "full": "immich-app/immich",
-          "rank": 17,
-          "stars": 107.9,
-          "today": "+4.6k",
-          "today_n": 4579
-        },
-        {
           "full": "ChromeDevTools/chrome-devtools-mcp",
-          "rank": 18,
+          "rank": 19,
           "stars": 47.1,
           "today": "+3.5k",
           "today_n": 3483
-        },
-        {
-          "full": "firecrawl/firecrawl",
-          "rank": 19,
-          "stars": 152.1,
-          "today": "+19.1k",
-          "today_n": 19071
         },
         {
           "full": "Chocobozzz/PeerTube",
@@ -2406,15 +2347,8 @@ window.TRENDING_DATA = {
           "today_n": 508
         },
         {
-          "full": "actions/checkout",
-          "rank": 21,
-          "stars": 8.5,
-          "today": "+576",
-          "today_n": 576
-        },
-        {
           "full": "grafana/grafana",
-          "rank": 22,
+          "rank": 21,
           "stars": 75.6,
           "today": "+1.7k",
           "today_n": 1657
@@ -2424,37 +2358,37 @@ window.TRENDING_DATA = {
         {
           "full": "asgeirtj/system_prompts_leaks",
           "rank": 1,
-          "stars": 58.5,
+          "stars": 58.6,
           "today": "+15.9k",
           "today_n": 15918
         },
         {
           "full": "openai/codex-plugin-cc",
           "rank": 2,
-          "stars": 29.0,
+          "stars": 29.1,
           "today": "+8.0k",
           "today_n": 8019
         },
         {
           "full": "Leonxlnx/taste-skill",
           "rank": 3,
-          "stars": 64.4,
+          "stars": 64.5,
           "today": "+19.4k",
           "today_n": 19418
         },
         {
           "full": "pbakaus/impeccable",
           "rank": 4,
-          "stars": 47.4,
+          "stars": 47.6,
           "today": "+8.6k",
           "today_n": 8641
         },
         {
-          "full": "openai/plugins",
+          "full": "kunchenguid/lavish-axi",
           "rank": 5,
-          "stars": 4.6,
-          "today": "+1.5k",
-          "today_n": 1545
+          "stars": 1.9,
+          "today": "+1.4k",
+          "today_n": 1444
         },
         {
           "full": "fbsamples/whatsapp-business-jaspers-market",
@@ -2464,32 +2398,32 @@ window.TRENDING_DATA = {
           "today_n": 160
         },
         {
-          "full": "Spanky96/glm-coding-grabber",
-          "rank": 7,
-          "stars": 0.5,
-          "today": "+229",
-          "today_n": 229
-        },
-        {
           "full": "fastify/fastify",
-          "rank": 8,
+          "rank": 7,
           "stars": 36.7,
           "today": "+630",
           "today_n": 630
         },
         {
           "full": "ilysenko/codex-desktop-linux",
-          "rank": 9,
+          "rank": 8,
           "stars": 2.7,
           "today": "+1.0k",
           "today_n": 1029
         },
         {
           "full": "chinese-poetry/chinese-poetry",
-          "rank": 10,
+          "rank": 9,
           "stars": 52.6,
           "today": "+676",
           "today_n": 676
+        },
+        {
+          "full": "OpenWhispr/openwhispr",
+          "rank": 10,
+          "stars": 4.6,
+          "today": "+778",
+          "today_n": 778
         },
         {
           "full": "prettier/prettier",
@@ -2499,39 +2433,39 @@ window.TRENDING_DATA = {
           "today_n": 368
         },
         {
-          "full": "eslint/eslint",
-          "rank": 12,
-          "stars": 27.4,
-          "today": "+279",
-          "today_n": 279
-        },
-        {
           "full": "webtorrent/webtorrent",
-          "rank": 13,
+          "rank": 12,
           "stars": 31.3,
           "today": "+489",
           "today_n": 489
         },
         {
-          "full": "OpenWhispr/openwhispr",
-          "rank": 14,
-          "stars": 4.6,
-          "today": "+778",
-          "today_n": 778
+          "full": "ryanmcdermott/clean-code-javascript",
+          "rank": 13,
+          "stars": 94.7,
+          "today": "+469",
+          "today_n": 469
         },
         {
-          "full": "webpack/webpack",
+          "full": "vercel/next.js",
+          "rank": 14,
+          "stars": 141.0,
+          "today": "+2.2k",
+          "today_n": 2230
+        },
+        {
+          "full": "JuliusBrussee/caveman",
           "rank": 15,
-          "stars": 65.8,
-          "today": "+293",
-          "today_n": 293
+          "stars": 90.3,
+          "today": "+17.0k",
+          "today_n": 17004
         }
       ],
       "rust": [
         {
           "full": "ogulcancelik/herdr",
           "rank": 1,
-          "stars": 17.3,
+          "stars": 17.5,
           "today": "+11.3k",
           "today_n": 11259
         },
@@ -2543,44 +2477,44 @@ window.TRENDING_DATA = {
           "today_n": 12507
         },
         {
-          "full": "n0-computer/iroh",
-          "rank": 3,
-          "stars": 11.7,
-          "today": "+2.7k",
-          "today_n": 2705
-        },
-        {
           "full": "tursodatabase/turso",
-          "rank": 4,
-          "stars": 23.0,
+          "rank": 3,
+          "stars": 23.1,
           "today": "+3.8k",
           "today_n": 3757
         },
         {
           "full": "t8y2/dbx",
-          "rank": 5,
+          "rank": 4,
           "stars": 10.2,
           "today": "+4.5k",
           "today_n": 4545
         },
         {
-          "full": "openai/codex",
-          "rank": 6,
-          "stars": 99.0,
-          "today": "+7.7k",
-          "today_n": 7690
-        },
-        {
           "full": "TencentCloud/CubeSandbox",
-          "rank": 7,
+          "rank": 5,
           "stars": 10.4,
           "today": "+4.1k",
           "today_n": 4108
         },
         {
+          "full": "n0-computer/iroh",
+          "rank": 6,
+          "stars": 11.7,
+          "today": "+2.7k",
+          "today_n": 2705
+        },
+        {
+          "full": "openai/codex",
+          "rank": 7,
+          "stars": 99.1,
+          "today": "+7.7k",
+          "today_n": 7690
+        },
+        {
           "full": "openinterpreter/openinterpreter",
           "rank": 8,
-          "stars": 66.1,
+          "stars": 66.3,
           "today": "+2.0k",
           "today_n": 2021
         },
@@ -2599,88 +2533,88 @@ window.TRENDING_DATA = {
           "today_n": 283
         },
         {
-          "full": "rolldown/rolldown",
-          "rank": 11,
-          "stars": 13.8,
-          "today": "+311",
-          "today_n": 311
-        },
-        {
           "full": "BurntSushi/ripgrep",
-          "rank": 12,
+          "rank": 11,
           "stars": 66.3,
           "today": "+1.4k",
           "today_n": 1405
         },
         {
           "full": "helix-editor/helix",
-          "rank": 13,
+          "rank": 12,
           "stars": 45.5,
           "today": "+727",
           "today_n": 727
         },
         {
-          "full": "biomejs/biome",
-          "rank": 14,
-          "stars": 25.3,
-          "today": "+564",
-          "today_n": 564
-        },
-        {
-          "full": "nautechsystems/nautilus_trader",
-          "rank": 15,
-          "stars": 24.7,
-          "today": "+1.2k",
-          "today_n": 1242
+          "full": "ModernRelay/omnigraph",
+          "rank": 13,
+          "stars": 0.9,
+          "today": "+683",
+          "today_n": 683
         },
         {
           "full": "denoland/deno",
-          "rank": 16,
+          "rank": 14,
           "stars": 107.7,
           "today": "+1.3k",
           "today_n": 1252
         },
         {
-          "full": "sharkdp/bat",
-          "rank": 17,
-          "stars": 59.8,
-          "today": "+830",
-          "today_n": 830
+          "full": "wezterm/wezterm",
+          "rank": 15,
+          "stars": 27.6,
+          "today": "+1.1k",
+          "today_n": 1069
         },
         {
           "full": "googleworkspace/cli",
-          "rank": 18,
+          "rank": 16,
           "stars": 29.8,
           "today": "+2.8k",
           "today_n": 2755
         },
         {
           "full": "cjpais/Handy",
-          "rank": 19,
-          "stars": 26.7,
+          "rank": 17,
+          "stars": 26.8,
           "today": "+3.0k",
           "today_n": 2970
         },
         {
           "full": "rust-lang/rust",
-          "rank": 20,
+          "rank": 18,
           "stars": 114.7,
           "today": "+2.1k",
           "today_n": 2094
         },
         {
           "full": "Dicklesworthstone/destructive_command_guard",
-          "rank": 21,
-          "stars": 5.0,
+          "rank": 19,
+          "stars": 5.1,
           "today": "+3.9k",
           "today_n": 3912
         },
         {
-          "full": "bevyengine/bevy",
+          "full": "wealthfolio/wealthfolio",
+          "rank": 20,
+          "stars": 8.3,
+          "today": "+676",
+          "today_n": 676
+        },
+        {
+          "full": "qualcomm/GenieX",
+          "rank": 21,
+          "stars": 8.2,
+          "today": "+147",
+          "today_n": 147
+        },
+        {
+          "full": "rustdesk/rustdesk",
           "rank": 22,
-          "stars": 47.2,
-          "today": "+644",
-          "today_n": 644
+          "stars": 118.4,
+          "today": "+2.4k",
+          "today_n": 2387
         }
       ],
       "go": [
@@ -2692,11 +2626,11 @@ window.TRENDING_DATA = {
           "today_n": 5010
         },
         {
-          "full": "kubernetes/kubernetes",
+          "full": "junegunn/fzf",
           "rank": 2,
-          "stars": 123.8,
-          "today": "+1.9k",
-          "today_n": 1887
+          "stars": 81.8,
+          "today": "+1.1k",
+          "today_n": 1115
         },
         {
           "full": "kenn-io/agentsview",
@@ -2706,18 +2640,18 @@ window.TRENDING_DATA = {
           "today_n": 1763
         },
         {
-          "full": "junegunn/fzf",
-          "rank": 4,
-          "stars": 81.8,
-          "today": "+1.1k",
-          "today_n": 1115
-        },
-        {
           "full": "prometheus/prometheus",
-          "rank": 5,
+          "rank": 4,
           "stars": 65.2,
           "today": "+1.1k",
           "today_n": 1136
+        },
+        {
+          "full": "argoproj/argo-cd",
+          "rank": 5,
+          "stars": 23.6,
+          "today": "+648",
+          "today_n": 648
         },
         {
           "full": "juanfont/headscale",
@@ -2727,139 +2661,132 @@ window.TRENDING_DATA = {
           "today_n": 1814
         },
         {
-          "full": "argoproj/argo-cd",
-          "rank": 7,
-          "stars": 23.6,
-          "today": "+648",
-          "today_n": 648
-        },
-        {
           "full": "Tencent/WeKnora",
-          "rank": 8,
-          "stars": 18.4,
+          "rank": 7,
+          "stars": 18.5,
           "today": "+2.2k",
           "today_n": 2152
         },
         {
           "full": "binwiederhier/ntfy",
-          "rank": 9,
-          "stars": 31.9,
+          "rank": 8,
+          "stars": 32.0,
           "today": "+1.2k",
           "today_n": 1179
         },
         {
-          "full": "google/adk-go",
-          "rank": 10,
-          "stars": 8.5,
-          "today": "+432",
-          "today_n": 432
-        },
-        {
-          "full": "projectdiscovery/nuclei",
-          "rank": 11,
-          "stars": 29.8,
-          "today": "+756",
-          "today_n": 756
-        },
-        {
-          "full": "tailscale/tailscale",
-          "rank": 12,
-          "stars": 34.0,
-          "today": "+1.6k",
-          "today_n": 1552
-        },
-        {
-          "full": "yorukot/superfile",
-          "rank": 13,
-          "stars": 18.6,
-          "today": "+1.3k",
-          "today_n": 1290
-        },
-        {
-          "full": "google/gvisor",
-          "rank": 14,
-          "stars": 18.8,
-          "today": "+359",
-          "today_n": 359
-        },
-        {
-          "full": "infiniflow/ragflow",
-          "rank": 15,
-          "stars": 85.3,
-          "today": "+2.5k",
-          "today_n": 2492
-        },
-        {
-          "full": "hashicorp/terraform",
-          "rank": 16,
-          "stars": 49.2,
-          "today": "+958",
-          "today_n": 958
-        },
-        {
-          "full": "stretchr/testify",
-          "rank": 17,
-          "stars": 26.1,
-          "today": "+217",
-          "today_n": 217
-        },
-        {
           "full": "chenyme/grok2api",
-          "rank": 18,
+          "rank": 9,
           "stars": 6.2,
           "today": "+958",
           "today_n": 958
         },
         {
-          "full": "ethereum/go-ethereum",
-          "rank": 19,
-          "stars": 51.2,
-          "today": "+332",
-          "today_n": 332
+          "full": "tailscale/tailscale",
+          "rank": 10,
+          "stars": 34.0,
+          "today": "+1.6k",
+          "today_n": 1552
         },
         {
-          "full": "golang/go",
-          "rank": 20,
-          "stars": 135.3,
-          "today": "+1.7k",
-          "today_n": 1742
+          "full": "IceWhaleTech/CasaOS",
+          "rank": 11,
+          "stars": 36.7,
+          "today": "+2.7k",
+          "today_n": 2749
         },
         {
-          "full": "opentofu/opentofu",
-          "rank": 21,
-          "stars": 29.5,
-          "today": "+424",
-          "today_n": 424
+          "full": "yorukot/superfile",
+          "rank": 12,
+          "stars": 18.7,
+          "today": "+1.3k",
+          "today_n": 1290
+        },
+        {
+          "full": "google/adk-go",
+          "rank": 13,
+          "stars": 8.5,
+          "today": "+432",
+          "today_n": 432
+        },
+        {
+          "full": "kubernetes/kubernetes",
+          "rank": 14,
+          "stars": 123.8,
+          "today": "+1.9k",
+          "today_n": 1887
+        },
+        {
+          "full": "google/gvisor",
+          "rank": 15,
+          "stars": 18.8,
+          "today": "+359",
+          "today_n": 359
+        },
+        {
+          "full": "projectdiscovery/nuclei",
+          "rank": 16,
+          "stars": 29.8,
+          "today": "+756",
+          "today_n": 756
+        },
+        {
+          "full": "fatedier/frp",
+          "rank": 17,
+          "stars": 108.1,
+          "today": "+880",
+          "today_n": 880
+        },
+        {
+          "full": "hashicorp/terraform",
+          "rank": 18,
+          "stars": 49.2,
+          "today": "+958",
+          "today_n": 958
         },
         {
           "full": "docker/compose",
-          "rank": 22,
+          "rank": 19,
           "stars": 37.9,
           "today": "+627",
           "today_n": 627
         },
         {
-          "full": "moby/moby",
-          "rank": 23,
-          "stars": 71.9,
-          "today": "+514",
-          "today_n": 514
+          "full": "gosom/google-maps-scraper",
+          "rank": 20,
+          "stars": 5.1,
+          "today": "+670",
+          "today_n": 670
+        },
+        {
+          "full": "charmbracelet/crush",
+          "rank": 21,
+          "stars": 26.6,
+          "today": "+1.4k",
+          "today_n": 1355
+        },
+        {
+          "full": "getarcaneapp/arcane",
+          "rank": 22,
+          "stars": 6.5,
+          "today": "+732",
+          "today_n": 732
         }
       ],
       "c++": [
         {
-          "full": "gabime/spdlog",
-          "rank": 1,
-          "stars": 29.2,
-          "today": "+373",
-          "today_n": 373
-        },
-        {
           "full": "ocornut/imgui",
-          "rank": 2,
+          "rank": 1,
           "stars": 74.7,
           "today": "+986",
           "today_n": 986
+        },
+        {
+          "full": "gabime/spdlog",
+          "rank": 2,
+          "stars": 29.2,
+          "today": "+373",
+          "today_n": 373
         },
         {
           "full": "alibaba/zvec",
@@ -2869,32 +2796,32 @@ window.TRENDING_DATA = {
           "today_n": 4677
         },
         {
-          "full": "wolfpld/tracy",
-          "rank": 4,
-          "stars": 16.4,
-          "today": "+334",
-          "today_n": 334
-        },
-        {
           "full": "abseil/abseil-cpp",
-          "rank": 5,
+          "rank": 4,
           "stars": 18.0,
           "today": "+753",
           "today_n": 753
         },
         {
           "full": "catchorg/Catch2",
-          "rank": 6,
+          "rank": 5,
           "stars": 21.2,
           "today": "+923",
           "today_n": 923
         },
         {
           "full": "nasa/fprime",
-          "rank": 7,
+          "rank": 6,
           "stars": 11.5,
           "today": "+632",
           "today_n": 632
+        },
+        {
+          "full": "jrouwe/JoltPhysics",
+          "rank": 7,
+          "stars": 11.0,
+          "today": "+478",
+          "today_n": 478
         },
         {
           "full": "grpc/grpc",
@@ -2911,11 +2838,11 @@ window.TRENDING_DATA = {
           "today_n": 1187
         },
         {
-          "full": "jrouwe/JoltPhysics",
+          "full": "wolfpld/tracy",
           "rank": 10,
-          "stars": 10.9,
-          "today": "+478",
-          "today_n": 478
+          "stars": 16.4,
+          "today": "+334",
+          "today_n": 334
         },
         {
           "full": "aseprite/aseprite",
@@ -2925,39 +2852,39 @@ window.TRENDING_DATA = {
           "today_n": 617
         },
         {
-          "full": "bitcoin/bitcoin",
+          "full": "colmap/colmap",
           "rank": 12,
+          "stars": 12.2,
+          "today": "+302",
+          "today_n": 302
+        },
+        {
+          "full": "tensorflow/tensorflow",
+          "rank": 13,
+          "stars": 196.3,
+          "today": "+1.9k",
+          "today_n": 1888
+        },
+        {
+          "full": "bitcoin/bitcoin",
+          "rank": 14,
           "stars": 89.6,
           "today": "+555",
           "today_n": 555
         },
         {
           "full": "vllm-project/vllm-ascend",
-          "rank": 13,
+          "rank": 15,
           "stars": 2.4,
           "today": "+270",
           "today_n": 270
         },
         {
-          "full": "tensorflow/tensorflow",
-          "rank": 14,
-          "stars": 196.3,
-          "today": "+1.9k",
-          "today_n": 1888
-        },
-        {
-          "full": "godotengine/godot",
-          "rank": 15,
-          "stars": 114.3,
-          "today": "+2.0k",
-          "today_n": 1995
-        },
-        {
-          "full": "colmap/colmap",
+          "full": "google/googletest",
           "rank": 16,
-          "stars": 12.2,
-          "today": "+302",
-          "today_n": 302
+          "stars": 38.8,
+          "today": "+169",
+          "today_n": 169
         },
         {
           "full": "SerenityOS/serenity",
@@ -2967,25 +2894,25 @@ window.TRENDING_DATA = {
           "today_n": 355
         },
         {
-          "full": "google/googletest",
+          "full": "shadps4-emu/shadPS4",
           "rank": 18,
-          "stars": 38.8,
-          "today": "+169",
-          "today_n": 169
+          "stars": 32.1,
+          "today": "+716",
+          "today_n": 716
         },
         {
-          "full": "openscad/openscad",
+          "full": "chriskohlhoff/asio",
           "rank": 19,
-          "stars": 9.8,
-          "today": "+286",
-          "today_n": 286
+          "stars": 6.1,
+          "today": "+330",
+          "today_n": 330
         },
         {
-          "full": "carbon-language/carbon-lang",
+          "full": "emscripten-core/emscripten",
           "rank": 20,
-          "stars": 33.8,
-          "today": "+251",
-          "today_n": 251
+          "stars": 27.5,
+          "today": "+103",
+          "today_n": 103
         },
         {
           "full": "facebook/folly",
@@ -2995,759 +2922,32 @@ window.TRENDING_DATA = {
           "today_n": 86
         },
         {
-          "full": "shadps4-emu/shadPS4",
+          "full": "NVIDIA/cutlass",
           "rank": 22,
-          "stars": 32.0,
-          "today": "+716",
-          "today_n": 716
+          "stars": 10.1,
+          "today": "+192",
+          "today_n": 192
         },
         {
-          "full": "google/benchmark",
+          "full": "godotengine/godot",
           "rank": 23,
-          "stars": 10.3,
-          "today": "+64",
-          "today_n": 64
-        },
-        {
-          "full": "mozilla-ai/llamafile",
-          "rank": 24,
-          "stars": 25.3,
-          "today": "+494",
-          "today_n": 494
+          "stars": 114.3,
+          "today": "+2.0k",
+          "today_n": 1995
         }
       ]
     }
   },
   "repos": [
     {
-      "slug": "ossie",
-      "full": "apache/ossie",
-      "rank": 1,
-      "cat": "infra",
-      "lang": "Python",
-      "stars": 1.0,
-      "today": "+60",
-      "today_n": 60,
-      "auto": false,
-      "zh": {
-        "tag": "Apache 孵化的语义交换标准，让 BI/AI 工具说同一种指标语言",
-        "what": "行业级开放规范（原名 Open Semantic Interchange / OSI，现为 Apache 孵化项目），目标是标准化语义元数据在数据分析、AI 与 BI 平台之间的交换：用一套 JSON/YAML 规范统一定义 KPI、指标和业务逻辑，解决「同一个指标在不同工具里定义不一致」的老大难，让 AI agent 基于一致的业务语义输出可靠结果。",
-        "content": "以规范文档为主：core-spec/（spec.md、spec.yaml、osi-schema.json）、converters/（与 dbt、GoodData、Polaris、Salesforce 等格式互转的参考实现）、examples/（含完整 TPC-DS 示例模型）、validation/（schema 校验工具）。",
-        "stack": "主语言 Python，规范本体是 JSON Schema + YAML，Apache-2.0，走 Apache 基金会孵化流程。",
-        "hot": "「AI agent 要消费企业数据语义」带火了语义层标准化；项目刚转入 Apache 孵化、今天仍在高频提交，处于规范成型的关键曝光期。",
-        "uses": [
-          "数据团队 —— 统一各 BI 工具里的指标定义，告别「同指标不同口径」",
-          "AI 应用开发者 —— 让 agent 基于一致的语义层查询企业数据，减少幻觉",
-          "平台厂商 —— 用参考转换器接入 dbt / Salesforce 等生态"
-        ]
-      },
-      "en": {
-        "tag": "Apache-incubated semantic interchange spec — one metric language for BI & AI",
-        "what": "An industry-wide open specification (formerly Open Semantic Interchange / OSI, now an Apache incubator project) standardizing how semantic metadata is exchanged across analytics, AI and BI platforms. One JSON/YAML spec defines KPIs, metrics and business logic consistently — ending the classic 'same metric, different definition in every tool' problem, so AI agents can reason over consistent business semantics.",
-        "content": "Mostly spec documents: core-spec/ (spec.md, spec.yaml, osi-schema.json), converters/ (reference converters for dbt, GoodData, Polaris, Salesforce formats), examples/ (including a full TPC-DS sample model) and validation/ (schema tooling).",
-        "stack": "Python as the main language; the spec itself is JSON Schema + YAML; Apache-2.0, going through the Apache incubation process.",
-        "hot": "'AI agents consuming enterprise data semantics' made the semantic layer a hot topic; the project just moved into Apache incubation and is committing at high frequency — peak visibility during spec formation.",
-        "uses": [
-          "Data teams — unify metric definitions across BI tools, ending 'same metric, different numbers'",
-          "AI app builders — let agents query enterprise data over a consistent semantic layer, cutting hallucinations",
-          "Platform vendors — plug into the dbt / Salesforce ecosystems with the reference converters"
-        ]
-      },
-      "track": {
-        "days": 1,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": [
-          {
-            "d": "2026-07-17",
-            "s": 1.0,
-            "r": 1
-          }
-        ]
-      }
-    },
-    {
-      "slug": "hallmark",
-      "full": "Nutlope/hallmark",
-      "rank": 2,
-      "cat": "agent",
-      "lang": "CSS",
-      "stars": 11.3,
-      "today": "+3.4k",
-      "today_n": 3372,
-      "auto": false,
-      "zh": {
-        "tag": "专治「AI 味」网页的设计 skill，让 AI 生成的 UI 不像模板货",
-        "what": "Together AI 出品的设计 skill 包：装进 Claude Code、Cursor 或 Codex 后，AI 生成网页 UI 时会从 20 套主题里选宏观结构，并跑 57 项「anti-slop」检查加自我批判，拒绝 LLM 默认那套千篇一律的渐变卡片风。提供生成、hallmark audit（给现有代码打分）、hallmark redesign（换结构重写）、hallmark study（从截图/URL 提取设计 DNA）四个动词。",
-        "content": "核心是 skills/hallmark/ 下的 SKILL.md + references/ 规则文件；docs/ 有 recipes 和示例，site/ 是官网及大量自包含 HTML+CSS 示例页（语言占比因此显示为 CSS）。",
-        "stack": "Markdown 规则 + 参考文档的 skill 包（符合 Agent Skills 规范），示例为纯 HTML/CSS，MIT，无运行时依赖，一行 npx skills add nutlope/hallmark 安装。",
-        "hot": "今日 +3.2k，病毒式传播 ——「AI 生成的网站都长一个样」是当下普遍痛点，「反 AI slop」定位精准踩中情绪，还有在线 demo 可直接体验。",
-        "uses": [
-          "独立开发者 / 小团队 —— 没有设计师，也能让 AI 生成不撞脸的官网和落地页",
-          "设计师 —— 用 hallmark study 从优秀网站提取设计 DNA 做参考",
-          "前端工程师 —— 用 audit 给存量项目打分，找出「AI 味」重灾区"
-        ]
-      },
-      "en": {
-        "tag": "The anti-'AI-slop' design skill — AI-built UIs that don't look like templates",
-        "what": "A design skill pack from Together AI: once installed in Claude Code, Cursor or Codex, your agent picks a macro-structure from 20 themes when generating web UIs, then runs 57 'anti-slop' checks plus self-critique — rejecting the default LLM look of identical gradient cards. Four verbs: generate, hallmark audit (score existing code), hallmark redesign (rewrite with a new structure), hallmark study (extract design DNA from a screenshot or URL).",
-        "content": "The core is SKILL.md plus rule files under skills/hallmark/ and references/; docs/ holds recipes and examples; site/ contains the homepage and many self-contained HTML+CSS example pages (which is why the language stat reads CSS).",
-        "stack": "A Markdown-rules skill pack (Agent Skills compliant) with pure HTML/CSS examples; MIT, zero runtime dependencies; install via npx skills add nutlope/hallmark.",
-        "hot": "+3.2k stars today and going viral — 'AI-generated websites all look the same' is a universal pain point, the anti-slop positioning hits it precisely, and the live demo makes trying it frictionless.",
-        "uses": [
-          "Indie devs & small teams — generate distinctive sites and landing pages without a designer",
-          "Designers — extract design DNA from great sites with hallmark study",
-          "Frontend engineers — audit existing projects to find the worst 'AI-slop' offenders"
-        ]
-      },
-      "track": {
-        "days": 1,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": [
-          {
-            "d": "2026-07-17",
-            "s": 11.3,
-            "r": 2
-          }
-        ]
-      }
-    },
-    {
-      "slug": "opencut",
-      "full": "OpenCut-app/OpenCut",
-      "rank": 3,
-      "cat": "infra",
-      "lang": "TypeScript",
-      "stars": 74.3,
-      "today": "+3.5k",
-      "today_n": 3537,
-      "auto": false,
-      "zh": {
-        "tag": "开源版 CapCut（剪映），免费跨平台视频编辑器",
-        "what": "免费开源视频编辑器，对标 CapCut，目标覆盖 Web、桌面和移动端。项目正在从零重写：Editor API、插件优先架构、Rust 核心（一套代码跑桌面/移动/浏览器）、供 AI agent 调用的 MCP server、无头批量渲染模式和编辑器内置脚本页。旧版代码已迁至 opencut-classic 继续维护。",
-        "content": "monorepo：apps/web、apps/desktop、apps/api 三个应用，根目录 Cargo.toml（Rust 核心）；用 moonrepo + proto 管理工具链，moon run web:dev 即可起本地开发。",
-        "stack": "TypeScript（Web 前端）+ Rust 核心，Bun 包管理，MIT；重写期间暂不接受外部代码贡献。",
-        "hot": "今日 +3.3k，今日榜热度头部 ——「开源剪映平替」需求巨大（存量 73.8k stars），Rust 重写 +「让 AI 剪视频」的 MCP 叙事又推了一波。",
-        "uses": [
-          "自媒体创作者 —— 免费替代剪映专业版，无水印跨平台剪片",
-          "开发者 / 自动化团队 —— 通过 MCP server 让 AI agent 批量剪视频",
-          "企业 —— 基于 Editor API 和插件架构搭建内部视频流水线"
-        ]
-      },
-      "en": {
-        "tag": "The open-source CapCut alternative — free, cross-platform video editing",
-        "what": "A free, open-source video editor rivaling CapCut, targeting web, desktop and mobile. The project is being rewritten from scratch: an Editor API, plugin-first architecture, a Rust core (one codebase for desktop/mobile/browser), an MCP server so AI agents can edit video, a headless mode for automated batch rendering, and built-in editor scripting. Legacy code lives on in opencut-classic.",
-        "content": "A monorepo: apps/web, apps/desktop and apps/api, with a root Cargo.toml for the Rust core; toolchain managed by moonrepo + proto — `moon run web:dev` starts local dev.",
-        "stack": "TypeScript (web frontend) + Rust core, Bun for packages, MIT; external code contributions are paused during the rewrite.",
-        "hot": "+3.3k today, the hottest riser on the list — 'open-source CapCut' is a massive latent demand (73.8k stars banked), and the Rust rewrite plus 'let AI edit your video' MCP narrative pushed it further.",
-        "uses": [
-          "Content creators — a free, watermark-free CapCut Pro alternative across platforms",
-          "Dev & automation teams — batch-edit video via AI agents over the MCP server",
-          "Companies — build internal video pipelines on the Editor API and plugin architecture"
-        ]
-      },
-      "track": {
-        "days": 1,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": [
-          {
-            "d": "2026-07-17",
-            "s": 74.3,
-            "r": 3
-          }
-        ]
-      }
-    },
-    {
-      "slug": "posthog",
-      "full": "PostHog/posthog",
-      "rank": 4,
-      "cat": "infra",
-      "lang": "Python",
-      "stars": 36.0,
-      "today": "+77",
-      "today_n": 77,
-      "auto": false,
-      "zh": {
-        "tag": "开源一体化产品数据平台：分析、回放、实验、LLM 观测全包",
-        "what": "知名开源产品数据平台：产品分析、Web 分析、session 回放、feature flag、A/B 实验、错误追踪、日志、问卷、数据仓库、CDP、LLM 可观测性全部集成在一个系统。最新定位「构建自驱动产品（self-driving products）」：把错误、rage click 等产品信号自动转成分析报告和 PR 供你 review 合并，可从 Slack、Web、桌面端或 MCP 操作，支持 Docker 自托管。",
-        "content": "超大型 monorepo：posthog/（Django 后端）、frontend/、products/（各产品线）、rust/、services/、ee/（企业版，单独授权），大量 docker-compose 部署文件与全平台 SDK。",
-        "stack": "Python/Django + TypeScript/React + Rust 服务，底层 ClickHouse；MIT（ee/ 目录除外）。",
-        "hot": "35.8k 的成熟项目仍每日活跃提交；近期把整条产品线重定位为面向 AI agent 的「self-driving」叙事，稳稳吃到 AI 生态流量。",
-        "uses": [
-          "产品团队 —— 一个平台替代 GA + 回放 + 实验工具的组合订阅",
-          "注重数据合规的公司 —— 自托管部署，用户数据不出机房",
-          "AI 产品团队 —— 用 LLM 可观测性追踪自家 agent 的成本与质量"
-        ]
-      },
-      "en": {
-        "tag": "The open-source all-in-one product data platform",
-        "what": "The well-known open-source product data platform: product analytics, web analytics, session replay, feature flags, A/B experiments, error tracking, logs, surveys, a data warehouse, CDP pipelines and LLM observability in one system. Its latest positioning is 'self-driving products': product signals like errors and rage clicks are automatically turned into analysis reports and PRs for you to review and merge — operable from Slack, web, desktop or MCP, and self-hostable via Docker.",
-        "content": "A huge monorepo: posthog/ (Django backend), frontend/, products/ (each product line), rust/, services/, ee/ (enterprise code, separately licensed), lots of docker-compose files and SDKs for every platform.",
-        "stack": "Python/Django + TypeScript/React + Rust services over ClickHouse; MIT (except ee/).",
-        "hot": "A mature 35.8k-star project still committing daily; it recently repositioned its whole product line around an agent-facing 'self-driving' narrative and is riding the AI ecosystem wave.",
-        "uses": [
-          "Product teams — replace the GA + replay + experimentation stack with one platform",
-          "Compliance-sensitive companies — self-host so user data never leaves your infra",
-          "AI product teams — track your agents' cost and quality with LLM observability"
-        ]
-      },
-      "track": {
-        "days": 1,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": [
-          {
-            "d": "2026-07-17",
-            "s": 36.0,
-            "r": 4
-          }
-        ]
-      }
-    },
-    {
-      "slug": "openinterpreter",
-      "full": "openinterpreter/openinterpreter",
-      "rank": 5,
-      "cat": "agent",
-      "lang": "Rust",
-      "stars": 66.1,
-      "today": "+661",
-      "today_n": 661,
-      "auto": false,
-      "zh": {
-        "tag": "终端里的编程 agent，专为便宜小模型优化",
-        "what": "跑在终端里的 AI 编程助手（OpenAI Codex 的 fork），核心思路「换 harness 不换模型」：内置 claude-code、kimi-cli、qwen-code、deepseek-tui 等多种 agent 运行框架，让低成本开源模型也打出好表现。自带 QA 技能，可驱动真实浏览器或原生 App 做界面测试，支持 macOS/Linux/Windows 原生沙箱执行。",
-        "content": "完整 Rust 工程：终端 TUI、文档站（openinterpreter.com/docs）、安装脚本；配置与会话存本地 ~/.openinterpreter，支持 /model 切模型、/harness 切框架、MCP、hooks、AGENTS.md。",
-        "stack": "Rust（2023 年创建的老牌项目，刚从 Python 重写），Apache-2.0；支持 ACP 协议接入编辑器，可接多家模型 provider。",
-        "hot": "老树开新花：刚完成 Rust 重写并转型「低成本模型的 harness」，今天仍在提交，踩中「便宜模型 + 编程 agent」风口。",
-        "uses": [
-          "预算有限的开发者 —— 用 DeepSeek / Qwen 等便宜模型跑编程 agent，成本降一个量级",
-          "多工具用户 —— 一套终端切换 claude-code、kimi-cli 等不同框架",
-          "QA 团队 —— 让 agent 驱动真实浏览器做界面自动化测试"
-        ]
-      },
-      "en": {
-        "tag": "A coding agent in your terminal, tuned for low-cost models",
-        "what": "An AI coding assistant in your terminal (a fork of OpenAI Codex) built on the idea of 'swap the harness, not the model': it bundles multiple agent runtimes — claude-code, kimi-cli, qwen-code, deepseek-tui — so cheap open models still perform well. It ships a QA skill that drives real browsers or native apps for UI testing, with native sandboxing on macOS/Linux/Windows.",
-        "content": "A full Rust project: the terminal TUI, a docs site (openinterpreter.com/docs) and install scripts; config and sessions live in ~/.openinterpreter, with /model to switch models, /harness to switch runtimes, plus MCP, hooks and AGENTS.md support.",
-        "stack": "Rust (a 2023 veteran, freshly rewritten from Python), Apache-2.0; supports ACP (Agent Client Protocol) for editors and multiple model providers.",
-        "hot": "An old tree blooming again: the Rust rewrite and its new role as 'a harness for low-cost models' — still committing today — landed right on the 'cheap models + coding agents' wave.",
-        "uses": [
-          "Budget-conscious devs — run coding agents on cheap models like DeepSeek / Qwen, an order of magnitude cheaper",
-          "Multi-tool users — swap between claude-code, kimi-cli and other harnesses in one terminal",
-          "QA teams — let agents drive real browsers for UI automation testing"
-        ]
-      },
-      "track": {
-        "days": 1,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": [
-          {
-            "d": "2026-07-17",
-            "s": 66.1,
-            "r": 5
-          }
-        ]
-      }
-    },
-    {
-      "slug": "bonsai-demo",
-      "full": "PrismML-Eng/Bonsai-demo",
-      "rank": 6,
-      "cat": "ai",
-      "lang": "Shell",
-      "stars": 1.6,
-      "today": "+196",
-      "today_n": 196,
-      "auto": false,
-      "zh": {
-        "tag": "1-bit/三值超压缩大模型 Bonsai 的本地运行 demo",
-        "what": "PrismML 的 Bonsai 系列语言模型官方演示仓库，主打极致量化：1-bit 版每权重约 1.125 bit，27B 模型能塞进现代 iPhone；三值（Ternary）版约 1.7 bit，是质量更高的默认选项。最新 27B 是视觉语言模型，支持看图、tool calling、MCP、256k+ 长上下文和推理努力度调节。",
-        "content": "纯 Shell 脚本工程：setup.sh / setup.ps1 一键装依赖下模型，scripts/ 放运行和下载脚本，另有三份白皮书 PDF、AGENTS.md（写给 AI agent 看的配置指南）、VISION/TOOLS 等专题文档与社区 benchmark。",
-        "stack": "Shell + llama.cpp 服务端，模型托管在 HuggingFace；支持 Mac Metal、CUDA/Vulkan/ROCm 和纯 CPU，Apache-2.0。",
-        "hot": "昨天刚发布家族最大、首个视觉语言模型 Bonsai 27B ——「27B 模型跑在 iPhone 上」的噱头加上开箱即用脚本，传播力极强。",
-        "uses": [
-          "手机 / 边缘设备开发者 —— 在 iPhone 上离线跑 27B 视觉语言模型",
-          "隐私敏感场景 —— 医疗、法律等数据不出本地的本地 AI 助手",
-          "硬件玩家 —— 在树莓派等低功耗设备上体验大模型"
-        ]
-      },
-      "en": {
-        "tag": "Local-run demo of Bonsai, the 1-bit / ternary ultra-compressed LLMs",
-        "what": "The official demo repo for PrismML's Bonsai model family, built around extreme quantization: the 1-bit version uses ~1.125 bits per weight so a 27B model fits a modern iPhone; the ternary version (~1.7 bits) is the higher-quality default. The newest 27B is a vision-language model with image input, tool calling, MCP, 256k+ context and adjustable reasoning effort.",
-        "content": "A pure Shell project: setup.sh / setup.ps1 one-liners install dependencies and pull models, scripts/ holds run/download scripts, plus three whitepaper PDFs, an AGENTS.md (a config guide written for AI agents), topical docs (VISION/TOOLS/…) and community benchmarks.",
-        "stack": "Shell + a llama.cpp server, models hosted on HuggingFace; runs on Mac Metal, CUDA/Vulkan/ROCm or plain CPU; Apache-2.0.",
-        "hot": "The family's biggest model — its first vision-language release, Bonsai 27B — dropped yesterday; 'a 27B model running on an iPhone' plus batteries-included scripts travels far.",
-        "uses": [
-          "Mobile / edge developers — run a 27B vision-language model offline on an iPhone",
-          "Privacy-sensitive settings — local AI assistants for medical or legal data that can't leave the device",
-          "Hardware tinkerers — run LLMs on low-power boards like a Raspberry Pi"
-        ]
-      },
-      "track": {
-        "days": 1,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": [
-          {
-            "d": "2026-07-17",
-            "s": 1.6,
-            "r": 6
-          }
-        ]
-      }
-    },
-    {
-      "slug": "exercises-dataset",
-      "full": "hasaneyldrm/exercises-dataset",
-      "rank": 7,
-      "cat": "infra",
-      "lang": "HTML",
-      "stars": 15.2,
-      "today": "+710",
-      "today_n": 710,
-      "auto": false,
-      "zh": {
-        "tag": "1324 个健身动作数据集，带动图和 10 国语言说明",
-        "what": "开箱即用的健身动作数据集：1324 个动作，每个配动画 GIF、180×180 缩略图、目标肌群/器械/分类等结构化字段，以及 10 种语言（含中文）的分步动作说明。定位「健身应用的数据层」—— 作者是 LogPress 健身打卡 App 的开发者，这个库就是他 App 背后的数据，适合做健身 App、动作推荐 ML 项目或教学演示。",
-        "content": "data/exercises.json（结构化数据）+ videos/（1324 个 GIF）+ images/（缩略图），外加 index.html 交互式浏览器和 setup.html 开发者接入指南。",
-        "stack": "纯数据仓库：JSON + GIF + 静态 HTML，无运行时依赖。注意：代码 MIT，GIF 媒体版权归 Gym visual 所有，商用需留意。",
-        "hot": "健身类数据集稀缺，带版权清晰的动图和多语言说明的更少 —— 做健身 App / AI 教练的开发者拿去就能用。",
-        "uses": [
-          "健身 App 开发者 —— 直接拿 1324 个动作数据做产品，省去数月内容制作",
-          "AI 教练 / 推荐系统开发者 —— 用结构化字段训练动作推荐模型",
-          "教学演示 —— 数据集 + 可视化页面拿来就能讲课"
-        ]
-      },
-      "en": {
-        "tag": "1,324-exercise fitness dataset with animated GIFs in 10 languages",
-        "what": "A ready-to-use fitness exercise dataset: 1,324 exercises, each with an animated GIF, a 180×180 thumbnail, structured fields (target muscles / equipment / category) and step-by-step instructions in 10 languages including Chinese. Positioned as 'the data layer for fitness apps' — the author built the LogPress workout-tracking app on top of it. Great for fitness apps, exercise-recommendation ML projects or teaching demos.",
-        "content": "data/exercises.json (structured data) + videos/ (1,324 GIFs) + images/ (thumbnails), plus an interactive index.html browser and a setup.html developer onboarding guide.",
-        "stack": "A pure data repo: JSON + GIFs + static HTML, no runtime. Note: code is MIT, but the GIF media is copyrighted by Gym visual — check before commercial use.",
-        "hot": "Fitness datasets are scarce, and ones with clean animated GIFs and multilingual instructions are scarcer — developers building fitness apps or AI coaches can use it as-is.",
-        "uses": [
-          "Fitness app developers — ship faster with 1,324 ready-made exercises, skipping months of content production",
-          "AI coach / recommendation builders — train exercise recommenders on the structured fields",
-          "Educators — the dataset plus its visual browser is demo-ready"
-        ]
-      },
-      "track": {
-        "days": 1,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": [
-          {
-            "d": "2026-07-17",
-            "s": 15.2,
-            "r": 7
-          }
-        ]
-      }
-    },
-    {
-      "slug": "awesome-llm-apps",
-      "full": "Shubhamsaboo/awesome-llm-apps",
-      "rank": 8,
-      "cat": "ai",
-      "lang": "Python",
-      "stars": 123.2,
-      "today": "+923",
-      "today_n": 923,
-      "auto": false,
-      "zh": {
-        "tag": "100+ 个能直接跑起来的 AI Agent 和 RAG 应用合集",
-        "what": "超大号 LLM 应用模板库：收录 100 多个亲手构建并端到端测试过的 AI agent、agent skill 和 RAG 应用，全部 Apache-2.0 可商用。兼容 Claude、Gemini、GPT、DeepSeek、Llama、Qwen 等主流模型，克隆下来装依赖就能跑，口号「clone, customize, ship」。",
-        "content": "按难度和形态分目录：agent_skills/（npx 一键装技能）、starter_ai_agents/（单文件入门）、advanced_ai_agents/（多智能体团队）、voice_ai_agents/、always_on_agents/、RAG 教程等；每个模板配 README 和依赖清单，场景覆盖旅行规划、金融分析、播客生成、房屋装修等。",
-        "stack": "Python 为主，常见 Streamlit 前端 + 各家模型 SDK，部分用 CrewAI/AG2 等多智能体框架。",
-        "hot": "122.7k 的存量巨无霸还在涨：最近押注 agent skills 新形态、每周更新模板，配 Unwind AI 教程引流，LLM 应用层常青树。",
-        "uses": [
-          "AI 入门开发者 —— 克隆单文件模板，一天跑通第一个 LLM 应用",
-          "创业团队 —— 基于成熟模板二开（旅行规划 / 金融分析 / 播客生成）快速验证 idea",
-          "企业技术选型 —— 横向对比 CrewAI / AG2 等框架的真实代码"
-        ]
-      },
-      "en": {
-        "tag": "100+ AI Agent & RAG apps you can actually run",
-        "what": "A giant library of LLM app templates: 100+ hand-built, end-to-end-tested AI agents, agent skills and RAG apps, all Apache-2.0 (commercial use OK). Works with Claude, Gemini, GPT, DeepSeek, Llama, Qwen and more — clone, install deps, run. The motto: 'clone, customize, ship'.",
-        "content": "Organized by difficulty and form: agent_skills/ (one-line npx installs), starter_ai_agents/ (single-file starters), advanced_ai_agents/ (multi-agent teams), voice_ai_agents/, always_on_agents/, RAG tutorials and more; each template ships a README and requirements, covering travel planning, financial analysis, podcast generation, home renovation…",
-        "stack": "Mostly Python, usually a Streamlit frontend over OpenAI/Gemini/Anthropic SDKs, some CrewAI/AG2 multi-agent frameworks.",
-        "hot": "A 122.7k-star giant that keeps growing: it recently bet on the agent-skills form factor, ships new templates weekly, and funnels readers from the Unwind AI tutorials.",
-        "uses": [
-          "AI beginners — clone a single-file template and ship your first LLM app in a day",
-          "Startup teams — fork mature templates (travel planning, finance analysis, podcast generation) to validate ideas fast",
-          "Enterprise evaluators — compare CrewAI / AG2 and other frameworks on real code"
-        ]
-      },
-      "track": {
-        "days": 1,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": [
-          {
-            "d": "2026-07-17",
-            "s": 123.2,
-            "r": 8
-          }
-        ]
-      }
-    },
-    {
-      "slug": "lobehub",
-      "full": "lobehub/lobehub",
-      "rank": 9,
-      "cat": "agent",
-      "lang": "TypeScript",
-      "stars": 80.3,
-      "today": "+71",
-      "today_n": 71,
-      "auto": false,
-      "zh": {
-        "tag": "你的「AI 团队总管」：把一堆 agent 组织起来 7×24 干活",
-        "what": "定位「Chief Agent Operator」：把多个 AI agent 当工作单元统一招聘、调度和汇报。核心功能包括 Agent Builder（描述需求即可自动配置出可用 agent）、Agent Groups（多 agent 并行协作）、Pages/Schedule/Project/Workspace 协作面板，以及白盒可编辑的 Personal Memory；支持接入任意模型和模态，号称 10000+ skills 和 MCP 插件生态。",
-        "content": "可自部署的 Web 应用（Vercel/Docker/Zeabur/Sealos 一键部署），仓库含完整中英文档、Changelog、插件体系和本地开发指南；默认分支 canary，今天仍在高频 push。",
-        "stack": "TypeScript + Next.js 系 Web 应用，Docker 自托管，插件走 MCP 协议；许可证为自定义（非标准）。",
-        "hot": "80.1k 老牌项目的稳定热度：最近押注「多 agent 调度 + IM Gateway」叙事，持续曝光。",
-        "uses": [
-          "一人公司 / 自由职业者 —— 组建 7×24 自动干活的 agent 团队处理重复工作",
-          "运营团队 —— 定时调度 agent 做日报、巡检、内容分发",
-          "进阶玩家 —— 用 Personal Memory 和 10000+ skills 定制专属助手"
-        ]
-      },
-      "en": {
-        "tag": "Your 'Chief Agent Operator' — an AI team working 7×24",
-        "what": "Positioned as a 'Chief Agent Operator': hire, schedule and hear reports from multiple AI agents as work units. Key features: Agent Builder (describe the need, get a configured agent), Agent Groups (parallel multi-agent collaboration), Pages/Schedule/Project/Workspace panels, and a white-box editable Personal Memory; any model and modality, with a claimed 10,000+ skills and MCP plugin ecosystem.",
-        "content": "A self-deployable web app (one-click Vercel/Docker/Zeabur/Sealos), with full bilingual docs, a changelog, the plugin system and local dev guides; default branch canary, still pushing frequently today.",
-        "stack": "TypeScript + Next.js, self-hosted via Docker, plugins over MCP; custom (non-standard) license.",
-        "hot": "Steady heat for an 80.1k veteran: it's now betting on the 'multi-agent scheduling + IM Gateway' narrative and stays in the spotlight.",
-        "uses": [
-          "Solo founders & freelancers — run a 7×24 agent team for repetitive work",
-          "Ops teams — schedule agents for daily reports, patrols and content distribution",
-          "Power users — craft custom assistants with Personal Memory and 10,000+ skills"
-        ]
-      },
-      "track": {
-        "days": 1,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": [
-          {
-            "d": "2026-07-17",
-            "s": 80.3,
-            "r": 9
-          }
-        ]
-      }
-    },
-    {
-      "slug": "yimmenuv2",
-      "full": "YimMenu/YimMenuV2",
-      "rank": 10,
-      "cat": "other",
-      "lang": "C++",
-      "stars": 1.5,
-      "today": "+128",
-      "today_n": 128,
-      "auto": false,
-      "zh": {
-        "tag": "GTA 5 增强版的开源作弊菜单 DLL",
-        "what": "《GTA 5: Enhanced》的实验性修改菜单（mod menu）：编译成 DLL 后用 Xenos 等注入器在游戏主菜单注入，按 INSERT 或 Ctrl+\\ 呼出菜单。建议配合 FSL 把存档数据重定向到本地磁盘以保号，且需要关闭 BattlEye 反作弊（目前没有 BE 绕过，公共战局会被心跳检测踢出）。",
-        "content": "C++ 源码 + 一份简短 README，讲清使用步骤（FSL → 下载 nightly release → 注入器 → 关 BattlEye → 注入）和常见问题修复（掉线、存档消失、游戏起不来）。",
-        "stack": "C++，DLL 注入式单机/联机修改器，依赖外部注入器和 FSL，GPL-2.0；默认分支 enhanced。",
-        "hot": "GTA5 增强版 mod 圈刚需工具，YimMenu 系在这类开源菜单里口碑最老，7 月 12 日仍在更新。",
-        "uses": [
-          "GTA5 单机玩家 —— 刷车刷钱体验全部游戏内容",
-          "mod 开发者 —— 基于源码学习或二次开发游戏菜单",
-          "离线娱乐 —— 关 BattlEye 后在私人战局整活"
-        ]
-      },
-      "en": {
-        "tag": "The open-source mod menu DLL for GTA 5: Enhanced",
-        "what": "An experimental mod menu for GTA 5: Enhanced: compile to a DLL, inject at the main menu with an injector like Xenos, then press INSERT or Ctrl+\\ to open. Pairing with FSL (redirecting save data to local disk) is recommended to protect your account, and BattlEye anti-cheat must be disabled (there's no BE bypass — public sessions will kick you via heartbeat checks).",
-        "content": "C++ source plus a short README covering the workflow (FSL → nightly release → injector → disable BattlEye → inject) and fixes for common issues (disconnects, missing saves, game won't launch).",
-        "stack": "C++, a DLL-injection single/multiplayer mod menu relying on external injectors and FSL; GPL-2.0; default branch enhanced.",
-        "hot": "A must-have in the GTA5 Enhanced modding scene — the YimMenu line is the most established of these open menus, still updated on July 12.",
-        "uses": [
-          "GTA5 single-player fans — unlock vehicles and cash to experience all content",
-          "mod developers — learn from or fork the source for custom game menus",
-          "Offline fun — mess around in private sessions with BattlEye off"
-        ]
-      },
-      "track": {
-        "days": 1,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": [
-          {
-            "d": "2026-07-17",
-            "s": 1.5,
-            "r": 10
-          }
-        ]
-      }
-    },
-    {
-      "slug": "deeptutor",
-      "full": "HKUDS/DeepTutor",
-      "rank": 11,
-      "cat": "ai",
-      "lang": "Python",
-      "stars": 27.0,
-      "today": "+656",
-      "today_n": 656,
-      "auto": false,
-      "zh": {
-        "tag": "港大出品的 AI 私人家教：个性化终身学习工作区",
-        "what": "香港大学 HKUDS 实验室的「agent 原生」学习平台：聊天辅导、刷题测验、深度研究、可视化、解题、Mastery Path 掌握度练习跑在同一套 agent 循环上。支持多引擎 RAG 知识库（LlamaIndex、PageIndex、GraphRAG、LightRAG，可挂 Obsidian 库），可从任意对话呼叫 Claude Code / Codex 等子 agent；带三层可检查记忆（L1 trace / L2 摘要 / L3 综合）和 Memory Graph 溯源。",
-        "content": "完整 Web 应用（Python 后端 + Next.js 16 前端），附 11 种语言 README、Docker 部署、CLI/agent-native 接口、EduHub 社区 skills 生态；发版极勤。",
-        "stack": "Python 3.11+ + Next.js 16，RAG 多引擎 + MCP 工具 + FAISS 向量库，Apache-2.0；2025 年 12 月底创建，有 arXiv 论文背书。",
-        "hot": "上线半年多冲到 26.8k ——「AI 教育 + agent 原生」双热点，高校实验室背书 + 极密发版节奏，社区运营齐全。",
-        "uses": [
-          "学生 / 自学者 —— 把教材和论文喂进去，得到 24 小时私人家教",
-          "考研 / 考证党 —— 用刷题测验 + 掌握度路径系统备考",
-          "知识管理玩家 —— 直接挂 Obsidian 库做 RAG 问答"
-        ]
-      },
-      "en": {
-        "tag": "An AI personal tutor from HKU: a lifelong, personalized learning workspace",
-        "what": "An 'agent-native' learning platform from HKU's HKUDS lab: chat tutoring, quizzes, deep research, visualization, problem solving and Mastery-Path practice all run on one agent loop. It supports multi-engine RAG knowledge bases (LlamaIndex, PageIndex, GraphRAG, LightRAG — even your Obsidian vault), lets you call Claude Code / Codex sub-agents from any conversation, and ships three-layer inspectable memory (L1 trace / L2 summary / L3 synthesis) with a Memory Graph for provenance.",
-        "content": "A full web app (Python backend + Next.js 16 frontend) with READMEs in 11 languages, Docker deployment, CLI/agent-native interfaces and the EduHub community skills ecosystem; releases ship very frequently.",
-        "stack": "Python 3.11+ + Next.js 16, multi-engine RAG + MCP tools + FAISS; Apache-2.0; created late December 2025 with an arXiv paper behind it.",
-        "hot": "26.8k stars in just over half a year — riding both 'AI education' and 'agent-native' trends, with a university lab's credibility and a relentless release cadence.",
-        "uses": [
-          "Students & self-learners — feed in textbooks and papers, get a 24/7 personal tutor",
-          "Exam candidates — prepare systematically with quizzes and the mastery path",
-          "PKM enthusiasts — plug your Obsidian vault straight in for RAG Q&A"
-        ]
-      },
-      "track": {
-        "days": 1,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": [
-          {
-            "d": "2026-07-17",
-            "s": 27.0,
-            "r": 11
-          }
-        ]
-      }
-    },
-    {
-      "slug": "skills",
-      "full": "mattpocock/skills",
-      "rank": 12,
-      "cat": "agent",
-      "lang": "Shell",
-      "stars": 174.7,
-      "today": "+2.1k",
-      "today_n": 2060,
-      "auto": false,
-      "zh": {
-        "tag": "TypeScript 网红 Matt Pocock 自用的 Claude 技能包",
-        "what": "Matt Pocock（Total TypeScript 作者）把自己 .claude 目录里日常用的 agent skills 原样开源，主打「真工程，不是 vibe coding」。每个 skill 解决一个具体失败模式：/grill-me、/grill-with-docs 让 agent 先反问对齐需求，/tdd 强制红绿重构，/diagnosing-bugs 调试循环，还有 /triage、/to-spec、/to-tickets、/code-review 等。设计哲学是小、可组合、模型无关 —— 把控制权留给人。",
-        "content": "skills/ 目录下的 Markdown skill 文件（engineering / productivity / misc，engineering 下 18 个 skill）+ ADR 文档和安装脚本；两种装法：npx skills add 拷进项目随便改，或 Claude Code 插件市场订阅式安装，兼容 Agent-Skills 标准的 harness。",
-        "stack": "Markdown skills + Shell 安装脚本，MIT；走 Claude Code 插件市场和 skills.sh 生态。",
-        "hot": "2026 年 2 月才建仓库，5 个多月冲到 173.9k —— 作者本人流量 +「skills 取代重型流程框架」的叙事，踩中 skills 生态爆发风口。",
-        "uses": [
-          "Claude Code 用户 —— 一行命令装进项目，立刻获得 TDD / 调试 / 需求澄清工作流",
-          "团队 Lead —— 把 skill 拷进仓库，统一全组的 AI 协作方式",
-          "方法论学习者 —— 读 ADR 学「怎么写好一个 skill」"
-        ]
-      },
-      "en": {
-        "tag": "TypeScript celebrity Matt Pocock's own Claude skill pack",
-        "what": "Matt Pocock (author of Total TypeScript) open-sourced the agent skills he actually uses from his .claude directory — 'real engineering, not vibe coding'. Each skill fixes one concrete failure mode: /grill-me and /grill-with-docs make the agent interrogate requirements first, /tdd enforces red-green-refactor, /diagnosing-bugs runs a debug loop, plus /triage, /to-spec, /to-tickets, /code-review and more. The philosophy: small, composable, model-agnostic — control stays with the human.",
-        "content": "Markdown skill files under skills/ (engineering / productivity / misc — 18 in engineering alone) plus ADR docs and install scripts; install via npx skills add (copy into your project, edit freely) or as a Claude Code plugin subscription; works with any Agent-Skills-compliant harness.",
-        "stack": "Markdown skills + Shell installers, MIT; distributed via the Claude Code plugin marketplace and the skills.sh ecosystem.",
-        "hot": "Created February 2026 and already at 173.9k stars — the author's reach plus the 'skills replace heavy process frameworks' narrative, right on the skills-ecosystem explosion.",
-        "uses": [
-          "Claude Code users — one command adds TDD / debugging / requirements-clarification workflows",
-          "Team leads — commit skills into the repo to standardize how the team works with AI",
-          "Methodology learners — read the ADRs to learn how to write a good skill"
-        ]
-      },
-      "track": {
-        "days": 1,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": [
-          {
-            "d": "2026-07-17",
-            "s": 174.7,
-            "r": 12
-          }
-        ]
-      }
-    },
-    {
-      "slug": "copilot-sdk",
-      "full": "github/copilot-sdk",
-      "rank": 13,
-      "cat": "agent",
-      "lang": "Java",
-      "stars": 9.7,
-      "today": "+13",
-      "today_n": 13,
-      "auto": false,
-      "zh": {
-        "tag": "把 GitHub Copilot 智能体嵌进你自己应用的官方 SDK",
-        "what": "GitHub 官方出的多语言 SDK：在自己的应用或服务里直接调用 Copilot Agent 的能力。它暴露的是 Copilot CLI 背后同一套经过生产验证的 agent 运行时 —— 你不用自己搭编排层，定义好 agent 行为，规划、工具调用、文件编辑都交给 Copilot 处理。",
-        "content": "单仓库 6 套 SDK，按目录分：nodejs/、python/、go/、dotnet/、java/、rust/，另有 docs/、test/ 和 cookbook 示例；各语言经 npm / PyPI / NuGet / Maven Central / crates.io 分发。",
-        "stack": "多语言 monorepo（TS/Python/Go/.NET/Java/Rust 六个 SDK），MIT；2026 年 1 月创建，推送非常活跃。",
-        "hot": "「Copilot agent 能力开放给第三方应用」的定位自带关注度，GitHub 官方背书。",
-        "uses": [
-          "SaaS 厂商 —— 在产品里内嵌 Copilot 级 AI 助手（IDE、低代码平台等）",
-          "企业内部工具 —— 快速给内部系统加 agent 能力，不用自研编排",
-          "多语言团队 —— JS / Python / Go / .NET / Java / Rust 任选"
-        ]
-      },
-      "en": {
-        "tag": "GitHub's official SDK for embedding the Copilot agent in your own apps",
-        "what": "GitHub's official multi-language SDK: call the Copilot Agent's capabilities directly from your own apps and services. It exposes the same production-proven agent runtime behind the Copilot CLI — no need to build your own orchestration layer: define the agent's behavior and let Copilot handle planning, tool calls and file edits.",
-        "content": "Six SDKs in one repo, by directory: nodejs/, python/, go/, dotnet/, java/, rust/, plus docs/, test/ and cookbook examples; distributed via npm / PyPI / NuGet / Maven Central / crates.io.",
-        "stack": "A multi-language monorepo (TS/Python/Go/.NET/Java/Rust), MIT; created January 2026, committing very actively.",
-        "hot": "'Copilot agent capabilities opened to third-party apps' draws attention by itself — with GitHub's official stamp on it.",
-        "uses": [
-          "SaaS vendors — embed Copilot-grade AI assistance into products (IDEs, low-code platforms)",
-          "Internal tooling — add agent capabilities to internal systems without building orchestration",
-          "Polyglot teams — pick from JS / Python / Go / .NET / Java / Rust"
-        ]
-      },
-      "track": {
-        "days": 1,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": [
-          {
-            "d": "2026-07-17",
-            "s": 9.7,
-            "r": 13
-          }
-        ]
-      }
-    },
-    {
-      "slug": "ui-skills",
-      "full": "ibelick/ui-skills",
-      "rank": 14,
-      "cat": "agent",
-      "lang": "TypeScript",
-      "stars": 4.5,
-      "today": "+178",
-      "today_n": 178,
-      "auto": false,
-      "zh": {
-        "tag": "给设计工程师准备的一套 UI 类 Agent Skills",
-        "what": "知名设计工程师 ibelick 出品的 UI 技能包集合：让 AI 编码 agent 按任务自动走对应的 UI 技能流程，跑一行 npx ui-skills start 就能把 agent 路由到合适的技能集。",
-        "content": "skills/ 目录下 6 个技能：baseline-ui、improve-ui、fixing-accessibility、fixing-metadata、fixing-motion-performance、ui-skills-root；另有 bin/（CLI 入口）和配套网站（Astro + Cloudflare Workers）。",
-        "stack": "TypeScript，CLI 走 npx 分发，MIT；2026 年 1 月创建，官网 ui-skills.com。",
-        "hot": "作者本身就是设计工程师圈的知名人物，「给 AI agent 装设计品味技能」这个方向正当红。",
-        "uses": [
-          "前端开发者 —— 让 agent 按设计规范生成和改进 UI，告别「能跑但丑」",
-          "设计工程师 —— 把无障碍、metadata、动效性能检查自动化",
-          "独立开发者 —— 一人兼顾开发和设计时的品味兜底"
-        ]
-      },
-      "en": {
-        "tag": "A set of UI Agent Skills for design engineers",
-        "what": "A UI skill-pack collection from well-known design engineer ibelick: routes your AI coding agent through the right UI skill workflow per task — run npx ui-skills start and the agent picks the appropriate skill set.",
-        "content": "Six skills under skills/: baseline-ui, improve-ui, fixing-accessibility, fixing-metadata, fixing-motion-performance and ui-skills-root; plus bin/ (the CLI entry) and the companion site (Astro on Cloudflare Workers).",
-        "stack": "TypeScript, CLI distributed via npx, MIT; created January 2026, site at ui-skills.com.",
-        "hot": "The author is a known figure in the design-engineer scene, and 'installing design taste into AI agents' is a hot direction right now.",
-        "uses": [
-          "Frontend developers — let agents generate and improve UI to design standards, no more 'works but ugly'",
-          "Design engineers — automate accessibility, metadata and motion-performance checks",
-          "Indie hackers — a taste safety net when you cover both dev and design"
-        ]
-      },
-      "track": {
-        "days": 1,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": [
-          {
-            "d": "2026-07-17",
-            "s": 4.5,
-            "r": 14
-          }
-        ]
-      }
-    },
-    {
-      "slug": "graphify",
-      "full": "Graphify-Labs/graphify",
-      "rank": 15,
-      "cat": "agent",
-      "lang": "Python",
-      "stars": 89.5,
-      "today": "+1.1k",
-      "today_n": 1107,
-      "auto": false,
-      "zh": {
-        "tag": "把整个项目文件夹变成可查询知识图谱的 AI 技能",
-        "what": "给 Claude Code、Codex、OpenCode、Cursor、Gemini CLI 等 AI 编码助手用的 skill：输入 /graphify，它就把整个项目（代码、SQL schema、文档、PDF、图片、视频）映射成一张可查询的知识图谱，代替 grep 翻文件。代码解析走 tree-sitter AST —— 确定性、不用 LLM、完全本地；文档类内容才走模型做语义处理。不是向量索引，是真图谱，每条边标注 EXTRACTED（直接读到）还是 INFERRED（推断出来）。",
-        "content": "以 CLI 形式分发（PyPI 包 graphifyy，uv tool install 或 pipx 安装），仓库含 docs/（30 多种语言 README 翻译）和交互式 graph.html 可视化产物；默认分支 v8，迭代很快。",
-        "stack": "Python + tree-sitter 代码解析，产出力导向 HTML 图；挂到各家 CLI 助手上当 skill 用。",
-        "hot": "README 挂着 YC S26 徽章 ——「知识图谱代替向量检索给 AI 助手供上下文」正踩在 RAG 焦虑点上，88.7k 总量说明已出圈。",
-        "uses": [
-          "接手中大型老项目的开发者 —— 一条命令生成知识图谱，快速搞清代码结构",
-          "AI 重度用户 —— 给 agent 换图谱上下文，替代检索不准的向量 RAG",
-          "技术文档团队 —— 把文档 / PDF / 图纸一起纳入可查询图谱"
-        ]
-      },
-      "en": {
-        "tag": "An AI skill that turns a whole project folder into a queryable knowledge graph",
-        "what": "A skill for Claude Code, Codex, OpenCode, Cursor, Gemini CLI and more: type /graphify and your entire project — code, SQL schemas, docs, PDFs, images, videos — is mapped into a queryable knowledge graph, replacing grep-and-scroll. Code parsing uses tree-sitter AST: deterministic, no LLM, fully local; only document content goes through a model. Not a vector index — a real graph, with every edge labeled EXTRACTED (read directly) or INFERRED.",
-        "content": "Distributed as a CLI (PyPI package graphifyy, install via uv tool install or pipx); the repo holds docs/ (README translations in 30+ languages) and interactive graph.html visualizations; default branch v8, iterating fast.",
-        "stack": "Python + tree-sitter, outputting force-directed HTML graphs; hooks into each CLI assistant as a skill.",
-        "hot": "Sports a YC S26 badge — 'knowledge graphs instead of vector search for agent context' lands right on the RAG anxiety, and 88.7k total stars say it's broken out.",
-        "uses": [
-          "Developers inheriting large legacy projects — one command maps the codebase into a knowledge graph",
-          "Heavy AI users — swap vector RAG for graph context that retrieves the right thing",
-          "Docs teams — fold docs, PDFs and diagrams into one queryable graph"
-        ]
-      },
-      "track": {
-        "days": 1,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": [
-          {
-            "d": "2026-07-17",
-            "s": 89.5,
-            "r": 15
-          }
-        ]
-      }
-    },
-    {
       "slug": "build-your-own-x",
       "full": "codecrafters-io/build-your-own-x",
-      "rank": 16,
+      "rank": 1,
       "cat": "other",
       "lang": "Markdown",
-      "stars": 526.6,
-      "today": "+435",
-      "today_n": 435,
+      "stars": 527.1,
+      "today": "+1.1k",
+      "today_n": 1070,
       "auto": false,
       "zh": {
         "tag": "教你从零重写各种技术的教程大合集",
@@ -3774,7 +2974,7 @@ window.TRENDING_DATA = {
         ]
       },
       "track": {
-        "days": 1,
+        "days": 2,
         "first": "2026-07-17",
         "is_new": false,
         "is_back": false,
@@ -3783,325 +2983,1119 @@ window.TRENDING_DATA = {
             "d": "2026-07-17",
             "s": 526.6,
             "r": 16
+          },
+          {
+            "d": "2026-07-18",
+            "s": 527.1,
+            "r": 1
           }
         ]
       }
     },
     {
-      "slug": "computer-science",
-      "full": "ossu/computer-science",
-      "rank": 17,
-      "cat": "other",
-      "lang": "HTML",
-      "stars": 206.7,
-      "today": "+107",
-      "today_n": 107,
+      "slug": "posthog",
+      "full": "PostHog/posthog",
+      "rank": 2,
+      "cat": "infra",
+      "lang": "Python",
+      "stars": 36.1,
+      "today": "+437",
+      "today_n": 437,
       "auto": false,
       "zh": {
-        "tag": "用免费网课自学完整个 CS 本科的路线",
-        "what": "Open Source Society University 的计算机科学课程体系：用免费的在线材料（多来自哈佛、MIT、普林斯顿等名校课程）拼出一套完整的 CS 本科教育。课程按 CS 2013 本科课程标准挑选，分 Intro CS、Core CS、Advanced CS 和毕业项目四个阶段，每周 20 小时约 2 年可完成，材料基本全免费。",
-        "content": "README 即完整课程大纲和学习路径，另有 extras/（补充课程和书单）、CURRICULAR_GUIDELINES.md，配套网站 cs.ossu.dev 和进度估算电子表格。",
-        "stack": "文档仓库（HTML/Markdown），内容聚合自 Coursera、edX 等平台的公开课。",
-        "hot": "206.4k stars 的自学 CS 领域标杆 ——「免费系统自学」的需求长盛不衰，稳定涨星。",
+        "tag": "开源一体化产品数据平台：分析、回放、实验、LLM 观测全包",
+        "what": "知名开源产品数据平台：产品分析、Web 分析、session 回放、feature flag、A/B 实验、错误追踪、日志、问卷、数据仓库、CDP、LLM 可观测性全部集成在一个系统。最新定位「构建自驱动产品（self-driving products）」：把错误、rage click 等产品信号自动转成分析报告和 PR 供你 review 合并，可从 Slack、Web、桌面端或 MCP 操作，支持 Docker 自托管。",
+        "content": "超大型 monorepo：posthog/（Django 后端）、frontend/、products/（各产品线）、rust/、services/、ee/（企业版，单独授权），大量 docker-compose 部署文件与全平台 SDK。",
+        "stack": "Python/Django + TypeScript/React + Rust 服务，底层 ClickHouse；MIT（ee/ 目录除外）。",
+        "hot": "35.8k 的成熟项目仍每日活跃提交；近期把整条产品线重定位为面向 AI agent 的「self-driving」叙事，稳稳吃到 AI 生态流量。",
         "uses": [
-          "转码自学者 —— 零成本获得体系化 CS 本科教育路线",
-          "在职补基础 —— 每周 20 小时，约两年补完核心课程",
-          "培训班学员 —— 用作课外补充和毕业项目参考"
+          "产品团队 —— 一个平台替代 GA + 回放 + 实验工具的组合订阅",
+          "注重数据合规的公司 —— 自托管部署，用户数据不出机房",
+          "AI 产品团队 —— 用 LLM 可观测性追踪自家 agent 的成本与质量"
         ]
       },
       "en": {
-        "tag": "A complete CS undergrad education from free online courses",
-        "what": "The Open Source Society University's computer-science curriculum: a full CS undergrad education assembled from free online materials (largely Harvard, MIT and Princeton courses). Courses are chosen per the CS 2013 curricular standard across four stages — Intro CS, Core CS, Advanced CS and a final project; at ~20 hours a week it takes about 2 years, and the materials are almost entirely free.",
-        "content": "The README is the complete syllabus and learning path; extras/ holds additional courses and reading lists, plus CURRICULAR_GUIDELINES.md, the cs.ossu.dev site and a progress-estimating spreadsheet.",
-        "stack": "A documentation repo (HTML/Markdown) aggregating courses from Coursera, edX and similar platforms.",
-        "hot": "The 206.4k-star benchmark for self-taught CS — demand for 'a free, systematic way to learn' never fades.",
+        "tag": "The open-source all-in-one product data platform",
+        "what": "The well-known open-source product data platform: product analytics, web analytics, session replay, feature flags, A/B experiments, error tracking, logs, surveys, a data warehouse, CDP pipelines and LLM observability in one system. Its latest positioning is 'self-driving products': product signals like errors and rage clicks are automatically turned into analysis reports and PRs for you to review and merge — operable from Slack, web, desktop or MCP, and self-hostable via Docker.",
+        "content": "A huge monorepo: posthog/ (Django backend), frontend/, products/ (each product line), rust/, services/, ee/ (enterprise code, separately licensed), lots of docker-compose files and SDKs for every platform.",
+        "stack": "Python/Django + TypeScript/React + Rust services over ClickHouse; MIT (except ee/).",
+        "hot": "A mature 35.8k-star project still committing daily; it recently repositioned its whole product line around an agent-facing 'self-driving' narrative and is riding the AI ecosystem wave.",
         "uses": [
-          "Self-taught switchers — a structured CS undergrad path at zero cost",
-          "Working professionals — finish the core courses in ~2 years at 20 hrs/week",
-          "Bootcamp students — use it as a supplement and final-project reference"
+          "Product teams — replace the GA + replay + experimentation stack with one platform",
+          "Compliance-sensitive companies — self-host so user data never leaves your infra",
+          "AI product teams — track your agents' cost and quality with LLM observability"
         ]
       },
       "track": {
-        "days": 1,
+        "days": 2,
         "first": "2026-07-17",
         "is_new": false,
         "is_back": false,
         "hist": [
           {
             "d": "2026-07-17",
-            "s": 206.7,
-            "r": 17
+            "s": 36.0,
+            "r": 4
+          },
+          {
+            "d": "2026-07-18",
+            "s": 36.1,
+            "r": 2
           }
         ]
       }
     },
     {
-      "slug": "zapret",
-      "full": "youtubediscord/zapret",
+      "slug": "maths-cs-ai-compendium",
+      "full": "HenryNdubuaku/maths-cs-ai-compendium",
+      "rank": 3,
+      "cat": "ai",
+      "lang": "TypeScript",
+      "stars": 6.5,
+      "today": "+248",
+      "today_n": 248,
+      "auto": true,
+      "zh": {
+        "tag": "Become a cracked AI/ML Research Engineer",
+        "what": "Become a cracked AI/ML Research Engineer（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 TypeScript。",
+        "hot": "今日新增 +248 stars，位列 GitHub Trending 日榜第 3 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Become a cracked AI/ML Research Engineer",
+        "what": "Become a cracked AI/ML Research Engineer (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily TypeScript.",
+        "hot": "+248 stars today, ranked #3 on the daily GitHub Trending chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 1,
+        "first": "2026-07-18",
+        "is_new": true,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-07-18",
+            "s": 6.5,
+            "r": 3
+          }
+        ]
+      }
+    },
+    {
+      "slug": "hallmark",
+      "full": "Nutlope/hallmark",
+      "rank": 4,
+      "cat": "agent",
+      "lang": "CSS",
+      "stars": 11.8,
+      "today": "+1.5k",
+      "today_n": 1486,
+      "auto": false,
+      "zh": {
+        "tag": "专治「AI 味」网页的设计 skill，让 AI 生成的 UI 不像模板货",
+        "what": "Together AI 出品的设计 skill 包：装进 Claude Code、Cursor 或 Codex 后，AI 生成网页 UI 时会从 20 套主题里选宏观结构，并跑 57 项「anti-slop」检查加自我批判，拒绝 LLM 默认那套千篇一律的渐变卡片风。提供生成、hallmark audit（给现有代码打分）、hallmark redesign（换结构重写）、hallmark study（从截图/URL 提取设计 DNA）四个动词。",
+        "content": "核心是 skills/hallmark/ 下的 SKILL.md + references/ 规则文件；docs/ 有 recipes 和示例，site/ 是官网及大量自包含 HTML+CSS 示例页（语言占比因此显示为 CSS）。",
+        "stack": "Markdown 规则 + 参考文档的 skill 包（符合 Agent Skills 规范），示例为纯 HTML/CSS，MIT，无运行时依赖，一行 npx skills add nutlope/hallmark 安装。",
+        "hot": "今日 +3.2k，病毒式传播 ——「AI 生成的网站都长一个样」是当下普遍痛点，「反 AI slop」定位精准踩中情绪，还有在线 demo 可直接体验。",
+        "uses": [
+          "独立开发者 / 小团队 —— 没有设计师，也能让 AI 生成不撞脸的官网和落地页",
+          "设计师 —— 用 hallmark study 从优秀网站提取设计 DNA 做参考",
+          "前端工程师 —— 用 audit 给存量项目打分，找出「AI 味」重灾区"
+        ]
+      },
+      "en": {
+        "tag": "The anti-'AI-slop' design skill — AI-built UIs that don't look like templates",
+        "what": "A design skill pack from Together AI: once installed in Claude Code, Cursor or Codex, your agent picks a macro-structure from 20 themes when generating web UIs, then runs 57 'anti-slop' checks plus self-critique — rejecting the default LLM look of identical gradient cards. Four verbs: generate, hallmark audit (score existing code), hallmark redesign (rewrite with a new structure), hallmark study (extract design DNA from a screenshot or URL).",
+        "content": "The core is SKILL.md plus rule files under skills/hallmark/ and references/; docs/ holds recipes and examples; site/ contains the homepage and many self-contained HTML+CSS example pages (which is why the language stat reads CSS).",
+        "stack": "A Markdown-rules skill pack (Agent Skills compliant) with pure HTML/CSS examples; MIT, zero runtime dependencies; install via npx skills add nutlope/hallmark.",
+        "hot": "+3.2k stars today and going viral — 'AI-generated websites all look the same' is a universal pain point, the anti-slop positioning hits it precisely, and the live demo makes trying it frictionless.",
+        "uses": [
+          "Indie devs & small teams — generate distinctive sites and landing pages without a designer",
+          "Designers — extract design DNA from great sites with hallmark study",
+          "Frontend engineers — audit existing projects to find the worst 'AI-slop' offenders"
+        ]
+      },
+      "track": {
+        "days": 2,
+        "first": "2026-07-17",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-07-17",
+            "s": 11.3,
+            "r": 2
+          },
+          {
+            "d": "2026-07-18",
+            "s": 11.8,
+            "r": 4
+          }
+        ]
+      }
+    },
+    {
+      "slug": "copilot-sdk",
+      "full": "github/copilot-sdk",
+      "rank": 5,
+      "cat": "agent",
+      "lang": "Java",
+      "stars": 9.8,
+      "today": "+234",
+      "today_n": 234,
+      "auto": false,
+      "zh": {
+        "tag": "把 GitHub Copilot 智能体嵌进你自己应用的官方 SDK",
+        "what": "GitHub 官方出的多语言 SDK：在自己的应用或服务里直接调用 Copilot Agent 的能力。它暴露的是 Copilot CLI 背后同一套经过生产验证的 agent 运行时 —— 你不用自己搭编排层，定义好 agent 行为，规划、工具调用、文件编辑都交给 Copilot 处理。",
+        "content": "单仓库 6 套 SDK，按目录分：nodejs/、python/、go/、dotnet/、java/、rust/，另有 docs/、test/ 和 cookbook 示例；各语言经 npm / PyPI / NuGet / Maven Central / crates.io 分发。",
+        "stack": "多语言 monorepo（TS/Python/Go/.NET/Java/Rust 六个 SDK），MIT；2026 年 1 月创建，推送非常活跃。",
+        "hot": "「Copilot agent 能力开放给第三方应用」的定位自带关注度，GitHub 官方背书。",
+        "uses": [
+          "SaaS 厂商 —— 在产品里内嵌 Copilot 级 AI 助手（IDE、低代码平台等）",
+          "企业内部工具 —— 快速给内部系统加 agent 能力，不用自研编排",
+          "多语言团队 —— JS / Python / Go / .NET / Java / Rust 任选"
+        ]
+      },
+      "en": {
+        "tag": "GitHub's official SDK for embedding the Copilot agent in your own apps",
+        "what": "GitHub's official multi-language SDK: call the Copilot Agent's capabilities directly from your own apps and services. It exposes the same production-proven agent runtime behind the Copilot CLI — no need to build your own orchestration layer: define the agent's behavior and let Copilot handle planning, tool calls and file edits.",
+        "content": "Six SDKs in one repo, by directory: nodejs/, python/, go/, dotnet/, java/, rust/, plus docs/, test/ and cookbook examples; distributed via npm / PyPI / NuGet / Maven Central / crates.io.",
+        "stack": "A multi-language monorepo (TS/Python/Go/.NET/Java/Rust), MIT; created January 2026, committing very actively.",
+        "hot": "'Copilot agent capabilities opened to third-party apps' draws attention by itself — with GitHub's official stamp on it.",
+        "uses": [
+          "SaaS vendors — embed Copilot-grade AI assistance into products (IDEs, low-code platforms)",
+          "Internal tooling — add agent capabilities to internal systems without building orchestration",
+          "Polyglot teams — pick from JS / Python / Go / .NET / Java / Rust"
+        ]
+      },
+      "track": {
+        "days": 2,
+        "first": "2026-07-17",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-07-17",
+            "s": 9.7,
+            "r": 13
+          },
+          {
+            "d": "2026-07-18",
+            "s": 9.8,
+            "r": 5
+          }
+        ]
+      }
+    },
+    {
+      "slug": "cwc-workshops",
+      "full": "anthropics/cwc-workshops",
       "rank": 6,
       "cat": "infra",
-      "lang": "Python",
+      "lang": "TypeScript",
       "stars": 1.5,
-      "today": "+38",
-      "today_n": 38,
+      "today": "+37",
+      "today_n": 37,
       "auto": true,
       "zh": {
-        "tag": "Zapret (Запрет обход блокировки Дискорда и Ютуба)",
-        "what": "Zapret (Запрет обход блокировки Дискорда и Ютуба)（自动摘要，人工深度解析待补充。）",
+        "tag": "GitHub 热榜项目（描述待补充）",
+        "what": "该项目今日登上 GitHub Trending 榜单，暂无官方描述，人工深度解析待补充。",
         "content": "",
-        "stack": "主语言 Python。",
-        "hot": "今日新增 +38 stars，位列 GitHub Trending 日榜（Python）第 6 名。",
+        "stack": "主语言 TypeScript。",
+        "hot": "今日新增 +37 stars，位列 GitHub Trending 日榜第 6 名。",
         "uses": []
       },
       "en": {
-        "tag": "Zapret (Запрет обход блокировки Дискорда и Ютуба)",
-        "what": "Zapret (Запрет обход блокировки Дискорда и Ютуба) (Auto summary — a human deep dive is pending.)",
+        "tag": "Trending repo (description pending)",
+        "what": "This project is on GitHub Trending. No description available yet — a human deep dive is pending.",
         "content": "",
-        "stack": "Primarily Python.",
-        "hot": "+38 stars today, ranked #6 on the daily Python chart.",
+        "stack": "Primarily TypeScript.",
+        "hot": "+37 stars today, ranked #6 on the daily GitHub Trending chart.",
         "uses": []
       },
       "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
+        "days": 1,
+        "first": "2026-07-18",
+        "is_new": true,
         "is_back": false,
-        "hist": []
+        "hist": [
+          {
+            "d": "2026-07-18",
+            "s": 1.5,
+            "r": 6
+          }
+        ]
       }
     },
     {
-      "slug": "markitdown",
-      "full": "microsoft/markitdown",
+      "slug": "bonsai-demo",
+      "full": "PrismML-Eng/Bonsai-demo",
       "rank": 7,
-      "cat": "infra",
-      "lang": "Python",
-      "stars": 166.7,
-      "today": "+363",
-      "today_n": 363,
-      "auto": true,
+      "cat": "ai",
+      "lang": "Shell",
+      "stars": 1.7,
+      "today": "+279",
+      "today_n": 279,
+      "auto": false,
       "zh": {
-        "tag": "Python tool for converting files and office documents to Markdown.",
-        "what": "Python tool for converting files and office documents to Markdown.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Python。",
-        "hot": "今日新增 +363 stars，位列 GitHub Trending 日榜（Python）第 7 名。",
-        "uses": []
+        "tag": "1-bit/三值超压缩大模型 Bonsai 的本地运行 demo",
+        "what": "PrismML 的 Bonsai 系列语言模型官方演示仓库，主打极致量化：1-bit 版每权重约 1.125 bit，27B 模型能塞进现代 iPhone；三值（Ternary）版约 1.7 bit，是质量更高的默认选项。最新 27B 是视觉语言模型，支持看图、tool calling、MCP、256k+ 长上下文和推理努力度调节。",
+        "content": "纯 Shell 脚本工程：setup.sh / setup.ps1 一键装依赖下模型，scripts/ 放运行和下载脚本，另有三份白皮书 PDF、AGENTS.md（写给 AI agent 看的配置指南）、VISION/TOOLS 等专题文档与社区 benchmark。",
+        "stack": "Shell + llama.cpp 服务端，模型托管在 HuggingFace；支持 Mac Metal、CUDA/Vulkan/ROCm 和纯 CPU，Apache-2.0。",
+        "hot": "昨天刚发布家族最大、首个视觉语言模型 Bonsai 27B ——「27B 模型跑在 iPhone 上」的噱头加上开箱即用脚本，传播力极强。",
+        "uses": [
+          "手机 / 边缘设备开发者 —— 在 iPhone 上离线跑 27B 视觉语言模型",
+          "隐私敏感场景 —— 医疗、法律等数据不出本地的本地 AI 助手",
+          "硬件玩家 —— 在树莓派等低功耗设备上体验大模型"
+        ]
       },
       "en": {
-        "tag": "Python tool for converting files and office documents to Markdown.",
-        "what": "Python tool for converting files and office documents to Markdown. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Python.",
-        "hot": "+363 stars today, ranked #7 on the daily Python chart.",
-        "uses": []
+        "tag": "Local-run demo of Bonsai, the 1-bit / ternary ultra-compressed LLMs",
+        "what": "The official demo repo for PrismML's Bonsai model family, built around extreme quantization: the 1-bit version uses ~1.125 bits per weight so a 27B model fits a modern iPhone; the ternary version (~1.7 bits) is the higher-quality default. The newest 27B is a vision-language model with image input, tool calling, MCP, 256k+ context and adjustable reasoning effort.",
+        "content": "A pure Shell project: setup.sh / setup.ps1 one-liners install dependencies and pull models, scripts/ holds run/download scripts, plus three whitepaper PDFs, an AGENTS.md (a config guide written for AI agents), topical docs (VISION/TOOLS/…) and community benchmarks.",
+        "stack": "Shell + a llama.cpp server, models hosted on HuggingFace; runs on Mac Metal, CUDA/Vulkan/ROCm or plain CPU; Apache-2.0.",
+        "hot": "The family's biggest model — its first vision-language release, Bonsai 27B — dropped yesterday; 'a 27B model running on an iPhone' plus batteries-included scripts travels far.",
+        "uses": [
+          "Mobile / edge developers — run a 27B vision-language model offline on an iPhone",
+          "Privacy-sensitive settings — local AI assistants for medical or legal data that can't leave the device",
+          "Hardware tinkerers — run LLMs on low-power boards like a Raspberry Pi"
+        ]
       },
       "track": {
-        "days": 0,
+        "days": 2,
         "first": "2026-07-17",
         "is_new": false,
         "is_back": false,
-        "hist": []
+        "hist": [
+          {
+            "d": "2026-07-17",
+            "s": 1.6,
+            "r": 6
+          },
+          {
+            "d": "2026-07-18",
+            "s": 1.7,
+            "r": 7
+          }
+        ]
       }
     },
     {
-      "slug": "tinker-cookbook",
-      "full": "thinking-machines-lab/tinker-cookbook",
+      "slug": "protobuf",
+      "full": "protocolbuffers/protobuf",
       "rank": 8,
-      "cat": "other",
-      "lang": "Python",
-      "stars": 3.8,
-      "today": "+100",
-      "today_n": 100,
+      "cat": "infra",
+      "lang": "C++",
+      "stars": 71.5,
+      "today": "+11",
+      "today_n": 11,
       "auto": true,
       "zh": {
-        "tag": "Post-training with Tinker",
-        "what": "Post-training with Tinker（自动摘要，人工深度解析待补充。）",
+        "tag": "Protocol Buffers - Google's data interchange format",
+        "what": "Protocol Buffers - Google's data interchange format（自动摘要，人工深度解析待补充。）",
         "content": "",
-        "stack": "主语言 Python。",
-        "hot": "今日新增 +100 stars，位列 GitHub Trending 日榜（Python）第 8 名。",
+        "stack": "主语言 C++。",
+        "hot": "今日新增 +11 stars，位列 GitHub Trending 日榜第 8 名。",
         "uses": []
       },
       "en": {
-        "tag": "Post-training with Tinker",
-        "what": "Post-training with Tinker (Auto summary — a human deep dive is pending.)",
+        "tag": "Protocol Buffers - Google's data interchange format",
+        "what": "Protocol Buffers - Google's data interchange format (Auto summary — a human deep dive is pending.)",
         "content": "",
-        "stack": "Primarily Python.",
-        "hot": "+100 stars today, ranked #8 on the daily Python chart.",
+        "stack": "Primarily C++.",
+        "hot": "+11 stars today, ranked #8 on the daily GitHub Trending chart.",
         "uses": []
       },
       "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
+        "days": 1,
+        "first": "2026-07-18",
+        "is_new": true,
         "is_back": false,
-        "hist": []
+        "hist": [
+          {
+            "d": "2026-07-18",
+            "s": 71.5,
+            "r": 8
+          }
+        ]
       }
     },
     {
-      "slug": "hermes-agent",
-      "full": "NousResearch/hermes-agent",
+      "slug": "code-review-graph",
+      "full": "tirth8205/code-review-graph",
       "rank": 9,
       "cat": "agent",
       "lang": "Python",
-      "stars": 216.1,
-      "today": "+588",
-      "today_n": 588,
+      "stars": 19.7,
+      "today": "+57",
+      "today_n": 57,
       "auto": true,
       "zh": {
-        "tag": "The agent that grows with you",
-        "what": "The agent that grows with you（自动摘要，人工深度解析待补充。）",
+        "tag": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+        "what": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Python。",
-        "hot": "今日新增 +588 stars，位列 GitHub Trending 日榜（Python）第 9 名。",
+        "hot": "今日新增 +57 stars，位列 GitHub Trending 日榜第 9 名。",
         "uses": []
       },
       "en": {
-        "tag": "The agent that grows with you",
-        "what": "The agent that grows with you (Auto summary — a human deep dive is pending.)",
+        "tag": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+        "what": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Python.",
-        "hot": "+588 stars today, ranked #9 on the daily Python chart.",
+        "hot": "+57 stars today, ranked #9 on the daily GitHub Trending chart.",
         "uses": []
       },
       "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
+        "days": 1,
+        "first": "2026-07-18",
+        "is_new": true,
         "is_back": false,
-        "hist": []
+        "hist": [
+          {
+            "d": "2026-07-18",
+            "s": 19.7,
+            "r": 9
+          }
+        ]
       }
     },
     {
-      "slug": "knowledge-work-plugins",
-      "full": "anthropics/knowledge-work-plugins",
+      "slug": "docuseal",
+      "full": "docusealco/docuseal",
       "rank": 10,
-      "cat": "agent",
-      "lang": "Python",
-      "stars": 22.8,
-      "today": "+38",
-      "today_n": 38,
+      "cat": "infra",
+      "lang": "Ruby",
+      "stars": 17.7,
+      "today": "+152",
+      "today_n": 152,
       "auto": true,
       "zh": {
-        "tag": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-        "what": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork（自动摘要，人工深度解析待补充。）",
+        "tag": "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️",
+        "what": "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️（自动摘要，人工深度解析待补充。）",
         "content": "",
-        "stack": "主语言 Python。",
-        "hot": "今日新增 +38 stars，位列 GitHub Trending 日榜（Python）第 10 名。",
+        "stack": "主语言 Ruby。",
+        "hot": "今日新增 +152 stars，位列 GitHub Trending 日榜第 10 名。",
         "uses": []
       },
       "en": {
-        "tag": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-        "what": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork (Auto summary — a human deep dive is pending.)",
+        "tag": "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️",
+        "what": "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️ (Auto summary — a human deep dive is pending.)",
         "content": "",
-        "stack": "Primarily Python.",
-        "hot": "+38 stars today, ranked #10 on the daily Python chart.",
+        "stack": "Primarily Ruby.",
+        "hot": "+152 stars today, ranked #10 on the daily GitHub Trending chart.",
         "uses": []
       },
       "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
+        "days": 1,
+        "first": "2026-07-18",
+        "is_new": true,
         "is_back": false,
-        "hist": []
+        "hist": [
+          {
+            "d": "2026-07-18",
+            "s": 17.7,
+            "r": 10
+          }
+        ]
       }
     },
     {
-      "slug": "openharness",
-      "full": "HKUDS/OpenHarness",
+      "slug": "openinterpreter",
+      "full": "openinterpreter/openinterpreter",
       "rank": 11,
       "cat": "agent",
-      "lang": "Python",
-      "stars": 14.9,
-      "today": "+40",
-      "today_n": 40,
-      "auto": true,
+      "lang": "Rust",
+      "stars": 66.3,
+      "today": "+431",
+      "today_n": 431,
+      "auto": false,
       "zh": {
-        "tag": "\"OpenHarness: Open Agent Harness with a Built-in Personal Agent--Ohmo!\"",
-        "what": "\"OpenHarness: Open Agent Harness with a Built-in Personal Agent--Ohmo!\"（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Python。",
-        "hot": "今日新增 +40 stars，位列 GitHub Trending 日榜（Python）第 11 名。",
-        "uses": []
+        "tag": "终端里的编程 agent，专为便宜小模型优化",
+        "what": "跑在终端里的 AI 编程助手（OpenAI Codex 的 fork），核心思路「换 harness 不换模型」：内置 claude-code、kimi-cli、qwen-code、deepseek-tui 等多种 agent 运行框架，让低成本开源模型也打出好表现。自带 QA 技能，可驱动真实浏览器或原生 App 做界面测试，支持 macOS/Linux/Windows 原生沙箱执行。",
+        "content": "完整 Rust 工程：终端 TUI、文档站（openinterpreter.com/docs）、安装脚本；配置与会话存本地 ~/.openinterpreter，支持 /model 切模型、/harness 切框架、MCP、hooks、AGENTS.md。",
+        "stack": "Rust（2023 年创建的老牌项目，刚从 Python 重写），Apache-2.0；支持 ACP 协议接入编辑器，可接多家模型 provider。",
+        "hot": "老树开新花：刚完成 Rust 重写并转型「低成本模型的 harness」，今天仍在提交，踩中「便宜模型 + 编程 agent」风口。",
+        "uses": [
+          "预算有限的开发者 —— 用 DeepSeek / Qwen 等便宜模型跑编程 agent，成本降一个量级",
+          "多工具用户 —— 一套终端切换 claude-code、kimi-cli 等不同框架",
+          "QA 团队 —— 让 agent 驱动真实浏览器做界面自动化测试"
+        ]
       },
       "en": {
-        "tag": "\"OpenHarness: Open Agent Harness with a Built-in Personal Agent--Ohmo!\"",
-        "what": "\"OpenHarness: Open Agent Harness with a Built-in Personal Agent--Ohmo!\" (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Python.",
-        "hot": "+40 stars today, ranked #11 on the daily Python chart.",
-        "uses": []
+        "tag": "A coding agent in your terminal, tuned for low-cost models",
+        "what": "An AI coding assistant in your terminal (a fork of OpenAI Codex) built on the idea of 'swap the harness, not the model': it bundles multiple agent runtimes — claude-code, kimi-cli, qwen-code, deepseek-tui — so cheap open models still perform well. It ships a QA skill that drives real browsers or native apps for UI testing, with native sandboxing on macOS/Linux/Windows.",
+        "content": "A full Rust project: the terminal TUI, a docs site (openinterpreter.com/docs) and install scripts; config and sessions live in ~/.openinterpreter, with /model to switch models, /harness to switch runtimes, plus MCP, hooks and AGENTS.md support.",
+        "stack": "Rust (a 2023 veteran, freshly rewritten from Python), Apache-2.0; supports ACP (Agent Client Protocol) for editors and multiple model providers.",
+        "hot": "An old tree blooming again: the Rust rewrite and its new role as 'a harness for low-cost models' — still committing today — landed right on the 'cheap models + coding agents' wave.",
+        "uses": [
+          "Budget-conscious devs — run coding agents on cheap models like DeepSeek / Qwen, an order of magnitude cheaper",
+          "Multi-tool users — swap between claude-code, kimi-cli and other harnesses in one terminal",
+          "QA teams — let agents drive real browsers for UI automation testing"
+        ]
       },
       "track": {
-        "days": 0,
+        "days": 2,
         "first": "2026-07-17",
         "is_new": false,
         "is_back": false,
-        "hist": []
+        "hist": [
+          {
+            "d": "2026-07-17",
+            "s": 66.1,
+            "r": 5
+          },
+          {
+            "d": "2026-07-18",
+            "s": 66.3,
+            "r": 11
+          }
+        ]
       }
     },
     {
-      "slug": "vibe-trading",
-      "full": "HKUDS/Vibe-Trading",
+      "slug": "turbovec",
+      "full": "RyanCodrai/turbovec",
+      "rank": 12,
+      "cat": "infra",
+      "lang": "Python",
+      "stars": 13.2,
+      "today": "+280",
+      "today_n": 280,
+      "auto": true,
+      "zh": {
+        "tag": "A vector index built on TurboQuant, written in Rust with Python bindings",
+        "what": "A vector index built on TurboQuant, written in Rust with Python bindings（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 Python。",
+        "hot": "今日新增 +280 stars，位列 GitHub Trending 日榜第 12 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "A vector index built on TurboQuant, written in Rust with Python bindings",
+        "what": "A vector index built on TurboQuant, written in Rust with Python bindings (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily Python.",
+        "hot": "+280 stars today, ranked #12 on the daily GitHub Trending chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 1,
+        "first": "2026-07-18",
+        "is_new": true,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-07-18",
+            "s": 13.2,
+            "r": 12
+          }
+        ]
+      }
+    },
+    {
+      "slug": "deeptutor",
+      "full": "HKUDS/DeepTutor",
+      "rank": 13,
+      "cat": "ai",
+      "lang": "Python",
+      "stars": 27.2,
+      "today": "+528",
+      "today_n": 528,
+      "auto": false,
+      "zh": {
+        "tag": "港大出品的 AI 私人家教：个性化终身学习工作区",
+        "what": "香港大学 HKUDS 实验室的「agent 原生」学习平台：聊天辅导、刷题测验、深度研究、可视化、解题、Mastery Path 掌握度练习跑在同一套 agent 循环上。支持多引擎 RAG 知识库（LlamaIndex、PageIndex、GraphRAG、LightRAG，可挂 Obsidian 库），可从任意对话呼叫 Claude Code / Codex 等子 agent；带三层可检查记忆（L1 trace / L2 摘要 / L3 综合）和 Memory Graph 溯源。",
+        "content": "完整 Web 应用（Python 后端 + Next.js 16 前端），附 11 种语言 README、Docker 部署、CLI/agent-native 接口、EduHub 社区 skills 生态；发版极勤。",
+        "stack": "Python 3.11+ + Next.js 16，RAG 多引擎 + MCP 工具 + FAISS 向量库，Apache-2.0；2025 年 12 月底创建，有 arXiv 论文背书。",
+        "hot": "上线半年多冲到 26.8k ——「AI 教育 + agent 原生」双热点，高校实验室背书 + 极密发版节奏，社区运营齐全。",
+        "uses": [
+          "学生 / 自学者 —— 把教材和论文喂进去，得到 24 小时私人家教",
+          "考研 / 考证党 —— 用刷题测验 + 掌握度路径系统备考",
+          "知识管理玩家 —— 直接挂 Obsidian 库做 RAG 问答"
+        ]
+      },
+      "en": {
+        "tag": "An AI personal tutor from HKU: a lifelong, personalized learning workspace",
+        "what": "An 'agent-native' learning platform from HKU's HKUDS lab: chat tutoring, quizzes, deep research, visualization, problem solving and Mastery-Path practice all run on one agent loop. It supports multi-engine RAG knowledge bases (LlamaIndex, PageIndex, GraphRAG, LightRAG — even your Obsidian vault), lets you call Claude Code / Codex sub-agents from any conversation, and ships three-layer inspectable memory (L1 trace / L2 summary / L3 synthesis) with a Memory Graph for provenance.",
+        "content": "A full web app (Python backend + Next.js 16 frontend) with READMEs in 11 languages, Docker deployment, CLI/agent-native interfaces and the EduHub community skills ecosystem; releases ship very frequently.",
+        "stack": "Python 3.11+ + Next.js 16, multi-engine RAG + MCP tools + FAISS; Apache-2.0; created late December 2025 with an arXiv paper behind it.",
+        "hot": "26.8k stars in just over half a year — riding both 'AI education' and 'agent-native' trends, with a university lab's credibility and a relentless release cadence.",
+        "uses": [
+          "Students & self-learners — feed in textbooks and papers, get a 24/7 personal tutor",
+          "Exam candidates — prepare systematically with quizzes and the mastery path",
+          "PKM enthusiasts — plug your Obsidian vault straight in for RAG Q&A"
+        ]
+      },
+      "track": {
+        "days": 2,
+        "first": "2026-07-17",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-07-17",
+            "s": 27.0,
+            "r": 11
+          },
+          {
+            "d": "2026-07-18",
+            "s": 27.2,
+            "r": 13
+          }
+        ]
+      }
+    },
+    {
+      "slug": "opencut",
+      "full": "OpenCut-app/OpenCut",
+      "rank": 14,
+      "cat": "infra",
+      "lang": "TypeScript",
+      "stars": 74.7,
+      "today": "+1.1k",
+      "today_n": 1077,
+      "auto": false,
+      "zh": {
+        "tag": "开源版 CapCut（剪映），免费跨平台视频编辑器",
+        "what": "免费开源视频编辑器，对标 CapCut，目标覆盖 Web、桌面和移动端。项目正在从零重写：Editor API、插件优先架构、Rust 核心（一套代码跑桌面/移动/浏览器）、供 AI agent 调用的 MCP server、无头批量渲染模式和编辑器内置脚本页。旧版代码已迁至 opencut-classic 继续维护。",
+        "content": "monorepo：apps/web、apps/desktop、apps/api 三个应用，根目录 Cargo.toml（Rust 核心）；用 moonrepo + proto 管理工具链，moon run web:dev 即可起本地开发。",
+        "stack": "TypeScript（Web 前端）+ Rust 核心，Bun 包管理，MIT；重写期间暂不接受外部代码贡献。",
+        "hot": "今日 +3.3k，今日榜热度头部 ——「开源剪映平替」需求巨大（存量 73.8k stars），Rust 重写 +「让 AI 剪视频」的 MCP 叙事又推了一波。",
+        "uses": [
+          "自媒体创作者 —— 免费替代剪映专业版，无水印跨平台剪片",
+          "开发者 / 自动化团队 —— 通过 MCP server 让 AI agent 批量剪视频",
+          "企业 —— 基于 Editor API 和插件架构搭建内部视频流水线"
+        ]
+      },
+      "en": {
+        "tag": "The open-source CapCut alternative — free, cross-platform video editing",
+        "what": "A free, open-source video editor rivaling CapCut, targeting web, desktop and mobile. The project is being rewritten from scratch: an Editor API, plugin-first architecture, a Rust core (one codebase for desktop/mobile/browser), an MCP server so AI agents can edit video, a headless mode for automated batch rendering, and built-in editor scripting. Legacy code lives on in opencut-classic.",
+        "content": "A monorepo: apps/web, apps/desktop and apps/api, with a root Cargo.toml for the Rust core; toolchain managed by moonrepo + proto — `moon run web:dev` starts local dev.",
+        "stack": "TypeScript (web frontend) + Rust core, Bun for packages, MIT; external code contributions are paused during the rewrite.",
+        "hot": "+3.3k today, the hottest riser on the list — 'open-source CapCut' is a massive latent demand (73.8k stars banked), and the Rust rewrite plus 'let AI edit your video' MCP narrative pushed it further.",
+        "uses": [
+          "Content creators — a free, watermark-free CapCut Pro alternative across platforms",
+          "Dev & automation teams — batch-edit video via AI agents over the MCP server",
+          "Companies — build internal video pipelines on the Editor API and plugin architecture"
+        ]
+      },
+      "track": {
+        "days": 2,
+        "first": "2026-07-17",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-07-17",
+            "s": 74.3,
+            "r": 3
+          },
+          {
+            "d": "2026-07-18",
+            "s": 74.7,
+            "r": 14
+          }
+        ]
+      }
+    },
+    {
+      "slug": "agent-toolkit-for-aws",
+      "full": "aws/agent-toolkit-for-aws",
       "rank": 5,
       "cat": "agent",
       "lang": "Python",
-      "stars": 24.4,
-      "today": "+781",
-      "today_n": 781,
+      "stars": 1.9,
+      "today": "+39",
+      "today_n": 39,
       "auto": true,
       "zh": {
-        "tag": "\"Vibe-Trading: Your Personal Trading Agent\"",
-        "what": "\"Vibe-Trading: Your Personal Trading Agent\"（自动摘要，人工深度解析待补充。）",
+        "tag": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
+        "what": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Python。",
-        "hot": "本周新增 +781 stars，位列 GitHub Trending 周榜第 5 名。",
+        "hot": "今日新增 +39 stars，位列 GitHub Trending 日榜（Python）第 5 名。",
         "uses": []
       },
       "en": {
-        "tag": "\"Vibe-Trading: Your Personal Trading Agent\"",
-        "what": "\"Vibe-Trading: Your Personal Trading Agent\" (Auto summary — a human deep dive is pending.)",
+        "tag": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
+        "what": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Python.",
-        "hot": "+781 stars this week, ranked #5 on the weekly GitHub Trending chart.",
+        "hot": "+39 stars today, ranked #5 on the daily Python chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "nanobot",
-      "full": "HKUDS/nanobot",
-      "rank": 13,
-      "cat": "agent",
+      "slug": "awesome-llm-apps",
+      "full": "Shubhamsaboo/awesome-llm-apps",
+      "rank": 8,
+      "cat": "ai",
       "lang": "Python",
-      "stars": 45.8,
-      "today": "+85",
-      "today_n": 85,
-      "auto": true,
+      "stars": 123.5,
+      "today": "+1.0k",
+      "today_n": 1018,
+      "auto": false,
       "zh": {
-        "tag": "Lightweight, open-source AI agent for your tools, chats, and workflows.",
-        "what": "Lightweight, open-source AI agent for your tools, chats, and workflows.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Python。",
-        "hot": "今日新增 +85 stars，位列 GitHub Trending 日榜（Python）第 13 名。",
-        "uses": []
+        "tag": "100+ 个能直接跑起来的 AI Agent 和 RAG 应用合集",
+        "what": "超大号 LLM 应用模板库：收录 100 多个亲手构建并端到端测试过的 AI agent、agent skill 和 RAG 应用，全部 Apache-2.0 可商用。兼容 Claude、Gemini、GPT、DeepSeek、Llama、Qwen 等主流模型，克隆下来装依赖就能跑，口号「clone, customize, ship」。",
+        "content": "按难度和形态分目录：agent_skills/（npx 一键装技能）、starter_ai_agents/（单文件入门）、advanced_ai_agents/（多智能体团队）、voice_ai_agents/、always_on_agents/、RAG 教程等；每个模板配 README 和依赖清单，场景覆盖旅行规划、金融分析、播客生成、房屋装修等。",
+        "stack": "Python 为主，常见 Streamlit 前端 + 各家模型 SDK，部分用 CrewAI/AG2 等多智能体框架。",
+        "hot": "122.7k 的存量巨无霸还在涨：最近押注 agent skills 新形态、每周更新模板，配 Unwind AI 教程引流，LLM 应用层常青树。",
+        "uses": [
+          "AI 入门开发者 —— 克隆单文件模板，一天跑通第一个 LLM 应用",
+          "创业团队 —— 基于成熟模板二开（旅行规划 / 金融分析 / 播客生成）快速验证 idea",
+          "企业技术选型 —— 横向对比 CrewAI / AG2 等框架的真实代码"
+        ]
       },
       "en": {
-        "tag": "Lightweight, open-source AI agent for your tools, chats, and workflows.",
-        "what": "Lightweight, open-source AI agent for your tools, chats, and workflows. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Python.",
-        "hot": "+85 stars today, ranked #13 on the daily Python chart.",
-        "uses": []
+        "tag": "100+ AI Agent & RAG apps you can actually run",
+        "what": "A giant library of LLM app templates: 100+ hand-built, end-to-end-tested AI agents, agent skills and RAG apps, all Apache-2.0 (commercial use OK). Works with Claude, Gemini, GPT, DeepSeek, Llama, Qwen and more — clone, install deps, run. The motto: 'clone, customize, ship'.",
+        "content": "Organized by difficulty and form: agent_skills/ (one-line npx installs), starter_ai_agents/ (single-file starters), advanced_ai_agents/ (multi-agent teams), voice_ai_agents/, always_on_agents/, RAG tutorials and more; each template ships a README and requirements, covering travel planning, financial analysis, podcast generation, home renovation…",
+        "stack": "Mostly Python, usually a Streamlit frontend over OpenAI/Gemini/Anthropic SDKs, some CrewAI/AG2 multi-agent frameworks.",
+        "hot": "A 122.7k-star giant that keeps growing: it recently bet on the agent-skills form factor, ships new templates weekly, and funnels readers from the Unwind AI tutorials.",
+        "uses": [
+          "AI beginners — clone a single-file template and ship your first LLM app in a day",
+          "Startup teams — fork mature templates (travel planning, finance analysis, podcast generation) to validate ideas fast",
+          "Enterprise evaluators — compare CrewAI / AG2 and other frameworks on real code"
+        ]
       },
       "track": {
         "days": 0,
         "first": "2026-07-17",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-07-17",
+            "s": 123.2,
+            "r": 8
+          }
+        ]
+      }
+    },
+    {
+      "slug": "skills",
+      "full": "android/skills",
+      "rank": 7,
+      "cat": "agent",
+      "lang": "Python",
+      "stars": 6.2,
+      "today": "+17",
+      "today_n": 17,
+      "auto": true,
+      "zh": {
+        "tag": "GitHub 热榜项目（描述待补充）",
+        "what": "该项目今日登上 GitHub Trending 榜单，暂无官方描述，人工深度解析待补充。",
+        "content": "",
+        "stack": "主语言 Python。",
+        "hot": "今日新增 +17 stars，位列 GitHub Trending 日榜（Python）第 7 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Trending repo (description pending)",
+        "what": "This project is on GitHub Trending. No description available yet — a human deep dive is pending.",
+        "content": "",
+        "stack": "Primarily Python.",
+        "hot": "+17 stars today, ranked #7 on the daily Python chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "ai-engineering-from-scratch",
+      "full": "rohitg00/ai-engineering-from-scratch",
+      "rank": 8,
+      "cat": "other",
+      "lang": "Python",
+      "stars": 38.7,
+      "today": "+218",
+      "today_n": 218,
+      "auto": true,
+      "zh": {
+        "tag": "Learn it. Build it. Ship it for others.",
+        "what": "Learn it. Build it. Ship it for others.（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 Python。",
+        "hot": "今日新增 +218 stars，位列 GitHub Trending 日榜（Python）第 8 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Learn it. Build it. Ship it for others.",
+        "what": "Learn it. Build it. Ship it for others. (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily Python.",
+        "hot": "+218 stars today, ranked #8 on the daily Python chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "graphify",
+      "full": "Graphify-Labs/graphify",
+      "rank": 15,
+      "cat": "agent",
+      "lang": "Python",
+      "stars": 90.0,
+      "today": "+1.5k",
+      "today_n": 1476,
+      "auto": false,
+      "zh": {
+        "tag": "把整个项目文件夹变成可查询知识图谱的 AI 技能",
+        "what": "给 Claude Code、Codex、OpenCode、Cursor、Gemini CLI 等 AI 编码助手用的 skill：输入 /graphify，它就把整个项目（代码、SQL schema、文档、PDF、图片、视频）映射成一张可查询的知识图谱，代替 grep 翻文件。代码解析走 tree-sitter AST —— 确定性、不用 LLM、完全本地；文档类内容才走模型做语义处理。不是向量索引，是真图谱，每条边标注 EXTRACTED（直接读到）还是 INFERRED（推断出来）。",
+        "content": "以 CLI 形式分发（PyPI 包 graphifyy，uv tool install 或 pipx 安装），仓库含 docs/（30 多种语言 README 翻译）和交互式 graph.html 可视化产物；默认分支 v8，迭代很快。",
+        "stack": "Python + tree-sitter 代码解析，产出力导向 HTML 图；挂到各家 CLI 助手上当 skill 用。",
+        "hot": "README 挂着 YC S26 徽章 ——「知识图谱代替向量检索给 AI 助手供上下文」正踩在 RAG 焦虑点上，88.7k 总量说明已出圈。",
+        "uses": [
+          "接手中大型老项目的开发者 —— 一条命令生成知识图谱，快速搞清代码结构",
+          "AI 重度用户 —— 给 agent 换图谱上下文，替代检索不准的向量 RAG",
+          "技术文档团队 —— 把文档 / PDF / 图纸一起纳入可查询图谱"
+        ]
+      },
+      "en": {
+        "tag": "An AI skill that turns a whole project folder into a queryable knowledge graph",
+        "what": "A skill for Claude Code, Codex, OpenCode, Cursor, Gemini CLI and more: type /graphify and your entire project — code, SQL schemas, docs, PDFs, images, videos — is mapped into a queryable knowledge graph, replacing grep-and-scroll. Code parsing uses tree-sitter AST: deterministic, no LLM, fully local; only document content goes through a model. Not a vector index — a real graph, with every edge labeled EXTRACTED (read directly) or INFERRED.",
+        "content": "Distributed as a CLI (PyPI package graphifyy, install via uv tool install or pipx); the repo holds docs/ (README translations in 30+ languages) and interactive graph.html visualizations; default branch v8, iterating fast.",
+        "stack": "Python + tree-sitter, outputting force-directed HTML graphs; hooks into each CLI assistant as a skill.",
+        "hot": "Sports a YC S26 badge — 'knowledge graphs instead of vector search for agent context' lands right on the RAG anxiety, and 88.7k total stars say it's broken out.",
+        "uses": [
+          "Developers inheriting large legacy projects — one command maps the codebase into a knowledge graph",
+          "Heavy AI users — swap vector RAG for graph context that retrieves the right thing",
+          "Docs teams — fold docs, PDFs and diagrams into one queryable graph"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-17",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-07-17",
+            "s": 89.5,
+            "r": 15
+          }
+        ]
+      }
+    },
+    {
+      "slug": "therock",
+      "full": "ROCm/TheRock",
+      "rank": 10,
+      "cat": "infra",
+      "lang": "Python",
+      "stars": 1.1,
+      "today": "+6",
+      "today_n": 6,
+      "auto": true,
+      "zh": {
+        "tag": "The HIP Environment and ROCm Kit - A lightweight open source build system for HIP and ROCm",
+        "what": "The HIP Environment and ROCm Kit - A lightweight open source build system for HIP and ROCm（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 Python。",
+        "hot": "今日新增 +6 stars，位列 GitHub Trending 日榜（Python）第 10 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "The HIP Environment and ROCm Kit - A lightweight open source build system for HIP and ROCm",
+        "what": "The HIP Environment and ROCm Kit - A lightweight open source build system for HIP and ROCm (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily Python.",
+        "hot": "+6 stars today, ranked #10 on the daily Python chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "hellogithub",
+      "full": "521xueweihan/HelloGitHub",
+      "rank": 11,
+      "cat": "infra",
+      "lang": "Python",
+      "stars": 165.7,
+      "today": "+210",
+      "today_n": 210,
+      "auto": true,
+      "zh": {
+        "tag": "分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.",
+        "what": "分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 Python。",
+        "hot": "今日新增 +210 stars，位列 GitHub Trending 日榜（Python）第 11 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.",
+        "what": "分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub. (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily Python.",
+        "hot": "+210 stars today, ranked #11 on the daily Python chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "semantic-conventions-genai",
+      "full": "open-telemetry/semantic-conventions-genai",
+      "rank": 12,
+      "cat": "ai",
+      "lang": "Python",
+      "stars": 0.2,
+      "today": "+7",
+      "today_n": 7,
+      "auto": true,
+      "zh": {
+        "tag": "GitHub 热榜项目（描述待补充）",
+        "what": "该项目今日登上 GitHub Trending 榜单，暂无官方描述，人工深度解析待补充。",
+        "content": "",
+        "stack": "主语言 Python。",
+        "hot": "今日新增 +7 stars，位列 GitHub Trending 日榜（Python）第 12 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Trending repo (description pending)",
+        "what": "This project is on GitHub Trending. No description available yet — a human deep dive is pending.",
+        "content": "",
+        "stack": "Primarily Python.",
+        "hot": "+7 stars today, ranked #12 on the daily Python chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "ccxt",
+      "full": "ccxt/ccxt",
+      "rank": 13,
+      "cat": "infra",
+      "lang": "Python",
+      "stars": 43.3,
+      "today": "+8",
+      "today_n": 8,
+      "auto": true,
+      "zh": {
+        "tag": "A cryptocurrency trading API with more than 100 crypto and prediction exchanges in JavaScript / TypeScript / Python / C# / PHP / Go / Java",
+        "what": "A cryptocurrency trading API with more than 100 crypto and prediction exchanges in JavaScript / TypeScript / Python / C# / PHP / Go / Java（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 Python。",
+        "hot": "今日新增 +8 stars，位列 GitHub Trending 日榜（Python）第 13 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "A cryptocurrency trading API with more than 100 crypto and prediction exchanges in JavaScript / TypeScript / Python / C# / PHP / Go / Java",
+        "what": "A cryptocurrency trading API with more than 100 crypto and prediction exchanges in JavaScript / TypeScript / Python / C# / PHP / Go / Java (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily Python.",
+        "hot": "+8 stars today, ranked #13 on the daily Python chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "ui-skills",
+      "full": "ibelick/ui-skills",
+      "rank": 14,
+      "cat": "agent",
+      "lang": "TypeScript",
+      "stars": 4.6,
+      "today": "+658",
+      "today_n": 658,
+      "auto": false,
+      "zh": {
+        "tag": "给设计工程师准备的一套 UI 类 Agent Skills",
+        "what": "知名设计工程师 ibelick 出品的 UI 技能包集合：让 AI 编码 agent 按任务自动走对应的 UI 技能流程，跑一行 npx ui-skills start 就能把 agent 路由到合适的技能集。",
+        "content": "skills/ 目录下 6 个技能：baseline-ui、improve-ui、fixing-accessibility、fixing-metadata、fixing-motion-performance、ui-skills-root；另有 bin/（CLI 入口）和配套网站（Astro + Cloudflare Workers）。",
+        "stack": "TypeScript，CLI 走 npx 分发，MIT；2026 年 1 月创建，官网 ui-skills.com。",
+        "hot": "作者本身就是设计工程师圈的知名人物，「给 AI agent 装设计品味技能」这个方向正当红。",
+        "uses": [
+          "前端开发者 —— 让 agent 按设计规范生成和改进 UI，告别「能跑但丑」",
+          "设计工程师 —— 把无障碍、metadata、动效性能检查自动化",
+          "独立开发者 —— 一人兼顾开发和设计时的品味兜底"
+        ]
+      },
+      "en": {
+        "tag": "A set of UI Agent Skills for design engineers",
+        "what": "A UI skill-pack collection from well-known design engineer ibelick: routes your AI coding agent through the right UI skill workflow per task — run npx ui-skills start and the agent picks the appropriate skill set.",
+        "content": "Six skills under skills/: baseline-ui, improve-ui, fixing-accessibility, fixing-metadata, fixing-motion-performance and ui-skills-root; plus bin/ (the CLI entry) and the companion site (Astro on Cloudflare Workers).",
+        "stack": "TypeScript, CLI distributed via npx, MIT; created January 2026, site at ui-skills.com.",
+        "hot": "The author is a known figure in the design-engineer scene, and 'installing design taste into AI agents' is a hot direction right now.",
+        "uses": [
+          "Frontend developers — let agents generate and improve UI to design standards, no more 'works but ugly'",
+          "Design engineers — automate accessibility, metadata and motion-performance checks",
+          "Indie hackers — a taste safety net when you cover both dev and design"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-17",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-07-17",
+            "s": 4.5,
+            "r": 14
+          }
+        ]
+      }
+    },
+    {
+      "slug": "lobehub",
+      "full": "lobehub/lobehub",
+      "rank": 9,
+      "cat": "agent",
+      "lang": "TypeScript",
+      "stars": 80.4,
+      "today": "+483",
+      "today_n": 483,
+      "auto": false,
+      "zh": {
+        "tag": "你的「AI 团队总管」：把一堆 agent 组织起来 7×24 干活",
+        "what": "定位「Chief Agent Operator」：把多个 AI agent 当工作单元统一招聘、调度和汇报。核心功能包括 Agent Builder（描述需求即可自动配置出可用 agent）、Agent Groups（多 agent 并行协作）、Pages/Schedule/Project/Workspace 协作面板，以及白盒可编辑的 Personal Memory；支持接入任意模型和模态，号称 10000+ skills 和 MCP 插件生态。",
+        "content": "可自部署的 Web 应用（Vercel/Docker/Zeabur/Sealos 一键部署），仓库含完整中英文档、Changelog、插件体系和本地开发指南；默认分支 canary，今天仍在高频 push。",
+        "stack": "TypeScript + Next.js 系 Web 应用，Docker 自托管，插件走 MCP 协议；许可证为自定义（非标准）。",
+        "hot": "80.1k 老牌项目的稳定热度：最近押注「多 agent 调度 + IM Gateway」叙事，持续曝光。",
+        "uses": [
+          "一人公司 / 自由职业者 —— 组建 7×24 自动干活的 agent 团队处理重复工作",
+          "运营团队 —— 定时调度 agent 做日报、巡检、内容分发",
+          "进阶玩家 —— 用 Personal Memory 和 10000+ skills 定制专属助手"
+        ]
+      },
+      "en": {
+        "tag": "Your 'Chief Agent Operator' — an AI team working 7×24",
+        "what": "Positioned as a 'Chief Agent Operator': hire, schedule and hear reports from multiple AI agents as work units. Key features: Agent Builder (describe the need, get a configured agent), Agent Groups (parallel multi-agent collaboration), Pages/Schedule/Project/Workspace panels, and a white-box editable Personal Memory; any model and modality, with a claimed 10,000+ skills and MCP plugin ecosystem.",
+        "content": "A self-deployable web app (one-click Vercel/Docker/Zeabur/Sealos), with full bilingual docs, a changelog, the plugin system and local dev guides; default branch canary, still pushing frequently today.",
+        "stack": "TypeScript + Next.js, self-hosted via Docker, plugins over MCP; custom (non-standard) license.",
+        "hot": "Steady heat for an 80.1k veteran: it's now betting on the 'multi-agent scheduling + IM Gateway' narrative and stays in the spotlight.",
+        "uses": [
+          "Solo founders & freelancers — run a 7×24 agent team for repetitive work",
+          "Ops teams — schedule agents for daily reports, patrols and content distribution",
+          "Power users — craft custom assistants with Personal Memory and 10,000+ skills"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-17",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-07-17",
+            "s": 80.3,
+            "r": 9
+          }
+        ]
+      }
+    },
+    {
+      "slug": "fingerprintjs",
+      "full": "fingerprintjs/fingerprintjs",
+      "rank": 6,
+      "cat": "infra",
+      "lang": "TypeScript",
+      "stars": 27.9,
+      "today": "+33",
+      "today_n": 33,
+      "auto": true,
+      "zh": {
+        "tag": "The most advanced free and open-source browser fingerprinting library",
+        "what": "The most advanced free and open-source browser fingerprinting library（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 TypeScript。",
+        "hot": "今日新增 +33 stars，位列 GitHub Trending 日榜（TypeScript）第 6 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "The most advanced free and open-source browser fingerprinting library",
+        "what": "The most advanced free and open-source browser fingerprinting library (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily TypeScript.",
+        "hot": "+33 stars today, ranked #6 on the daily TypeScript chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "n8n",
+      "full": "n8n-io/n8n",
+      "rank": 7,
+      "cat": "ai",
+      "lang": "TypeScript",
+      "stars": 196.8,
+      "today": "+165",
+      "today_n": 165,
+      "auto": true,
+      "zh": {
+        "tag": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+        "what": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 TypeScript。",
+        "hot": "今日新增 +165 stars，位列 GitHub Trending 日榜（TypeScript）第 7 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+        "what": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations. (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily TypeScript.",
+        "hot": "+165 stars today, ranked #7 on the daily TypeScript chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -4110,19 +4104,19 @@ window.TRENDING_DATA = {
     {
       "slug": "opencode",
       "full": "anomalyco/opencode",
-      "rank": 4,
+      "rank": 8,
       "cat": "agent",
       "lang": "TypeScript",
-      "stars": 186.7,
-      "today": "+404",
-      "today_n": 404,
+      "stars": 186.9,
+      "today": "+383",
+      "today_n": 383,
       "auto": true,
       "zh": {
         "tag": "The open source coding agent.",
         "what": "The open source coding agent.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 TypeScript。",
-        "hot": "今日新增 +404 stars，位列 GitHub Trending 日榜（TypeScript）第 4 名。",
+        "hot": "今日新增 +383 stars，位列 GitHub Trending 日榜（TypeScript）第 8 名。",
         "uses": []
       },
       "en": {
@@ -4130,46 +4124,46 @@ window.TRENDING_DATA = {
         "what": "The open source coding agent. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily TypeScript.",
-        "hot": "+404 stars today, ranked #4 on the daily TypeScript chart.",
+        "hot": "+383 stars today, ranked #8 on the daily TypeScript chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "maths-cs-ai-compendium",
-      "full": "HenryNdubuaku/maths-cs-ai-compendium",
-      "rank": 5,
-      "cat": "ai",
+      "slug": "sourcebot",
+      "full": "sourcebot-dev/sourcebot",
+      "rank": 9,
+      "cat": "agent",
       "lang": "TypeScript",
-      "stars": 6.3,
-      "today": "+511",
-      "today_n": 511,
+      "stars": 3.6,
+      "today": "+5",
+      "today_n": 5,
       "auto": true,
       "zh": {
-        "tag": "Become a cracked AI/ML Research Engineer",
-        "what": "Become a cracked AI/ML Research Engineer（自动摘要，人工深度解析待补充。）",
+        "tag": "Sourcebot is a self-hosted tool that helps humans and agents understand your codebase.",
+        "what": "Sourcebot is a self-hosted tool that helps humans and agents understand your codebase.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 TypeScript。",
-        "hot": "今日新增 +511 stars，位列 GitHub Trending 日榜（TypeScript）第 5 名。",
+        "hot": "今日新增 +5 stars，位列 GitHub Trending 日榜（TypeScript）第 9 名。",
         "uses": []
       },
       "en": {
-        "tag": "Become a cracked AI/ML Research Engineer",
-        "what": "Become a cracked AI/ML Research Engineer (Auto summary — a human deep dive is pending.)",
+        "tag": "Sourcebot is a self-hosted tool that helps humans and agents understand your codebase.",
+        "what": "Sourcebot is a self-hosted tool that helps humans and agents understand your codebase. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily TypeScript.",
-        "hot": "+511 stars today, ranked #5 on the daily TypeScript chart.",
+        "hot": "+5 stars today, ranked #9 on the daily TypeScript chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -4178,19 +4172,19 @@ window.TRENDING_DATA = {
     {
       "slug": "airi",
       "full": "moeru-ai/airi",
-      "rank": 6,
+      "rank": 10,
       "cat": "infra",
       "lang": "TypeScript",
       "stars": 42.8,
-      "today": "+402",
-      "today_n": 402,
+      "today": "+45",
+      "today_n": 45,
       "auto": true,
       "zh": {
         "tag": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
         "what": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 TypeScript。",
-        "hot": "今日新增 +402 stars，位列 GitHub Trending 日榜（TypeScript）第 6 名。",
+        "hot": "今日新增 +45 stars，位列 GitHub Trending 日榜（TypeScript）第 10 名。",
         "uses": []
       },
       "en": {
@@ -4198,216 +4192,12 @@ window.TRENDING_DATA = {
         "what": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily TypeScript.",
-        "hot": "+402 stars today, ranked #6 on the daily TypeScript chart.",
+        "hot": "+45 stars today, ranked #10 on the daily TypeScript chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "agent-device",
-      "full": "callstack/agent-device",
-      "rank": 7,
-      "cat": "agent",
-      "lang": "TypeScript",
-      "stars": 3.4,
-      "today": "+38",
-      "today_n": 38,
-      "auto": true,
-      "zh": {
-        "tag": "CLI to control iOS and Android devices for AI agents",
-        "what": "CLI to control iOS and Android devices for AI agents（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 TypeScript。",
-        "hot": "今日新增 +38 stars，位列 GitHub Trending 日榜（TypeScript）第 7 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "CLI to control iOS and Android devices for AI agents",
-        "what": "CLI to control iOS and Android devices for AI agents (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily TypeScript.",
-        "hot": "+38 stars today, ranked #7 on the daily TypeScript chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "pinia",
-      "full": "vuejs/pinia",
-      "rank": 8,
-      "cat": "infra",
-      "lang": "TypeScript",
-      "stars": 14.7,
-      "today": "+11",
-      "today_n": 11,
-      "auto": true,
-      "zh": {
-        "tag": "🍍 Intuitive, type safe, light and flexible Store for Vue using the composition api with DevTools support",
-        "what": "🍍 Intuitive, type safe, light and flexible Store for Vue using the composition api with DevTools support（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 TypeScript。",
-        "hot": "今日新增 +11 stars，位列 GitHub Trending 日榜（TypeScript）第 8 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "🍍 Intuitive, type safe, light and flexible Store for Vue using the composition api with DevTools support",
-        "what": "🍍 Intuitive, type safe, light and flexible Store for Vue using the composition api with DevTools support (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily TypeScript.",
-        "hot": "+11 stars today, ranked #8 on the daily TypeScript chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "pi-computer-use",
-      "full": "injaneity/pi-computer-use",
-      "rank": 9,
-      "cat": "infra",
-      "lang": "TypeScript",
-      "stars": 1.4,
-      "today": "+138",
-      "today_n": 138,
-      "auto": true,
-      "zh": {
-        "tag": "Let Pi control your apps on MacOS & Windows",
-        "what": "Let Pi control your apps on MacOS & Windows（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 TypeScript。",
-        "hot": "今日新增 +138 stars，位列 GitHub Trending 日榜（TypeScript）第 9 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "Let Pi control your apps on MacOS & Windows",
-        "what": "Let Pi control your apps on MacOS & Windows (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily TypeScript.",
-        "hot": "+138 stars today, ranked #9 on the daily TypeScript chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "dictionary-of-ai-coding",
-      "full": "mattpocock/dictionary-of-ai-coding",
-      "rank": 10,
-      "cat": "ai",
-      "lang": "TypeScript",
-      "stars": 2.8,
-      "today": "+100",
-      "today_n": 100,
-      "auto": true,
-      "zh": {
-        "tag": "AI coding jargon, explained in plain English.",
-        "what": "AI coding jargon, explained in plain English.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 TypeScript。",
-        "hot": "今日新增 +100 stars，位列 GitHub Trending 日榜（TypeScript）第 10 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "AI coding jargon, explained in plain English.",
-        "what": "AI coding jargon, explained in plain English. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily TypeScript.",
-        "hot": "+100 stars today, ranked #10 on the daily TypeScript chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "superdoc",
-      "full": "superdoc-dev/superdoc",
-      "rank": 11,
-      "cat": "agent",
-      "lang": "TypeScript",
-      "stars": 0.9,
-      "today": "+8",
-      "today_n": 8,
-      "auto": true,
-      "zh": {
-        "tag": "🦋️ SuperDoc - Modern DOCX Editor and Agent SDK",
-        "what": "🦋️ SuperDoc - Modern DOCX Editor and Agent SDK（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 TypeScript。",
-        "hot": "今日新增 +8 stars，位列 GitHub Trending 日榜（TypeScript）第 11 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "🦋️ SuperDoc - Modern DOCX Editor and Agent SDK",
-        "what": "🦋️ SuperDoc - Modern DOCX Editor and Agent SDK (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily TypeScript.",
-        "hot": "+8 stars today, ranked #11 on the daily TypeScript chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "renovate",
-      "full": "renovatebot/renovate",
-      "rank": 12,
-      "cat": "infra",
-      "lang": "TypeScript",
-      "stars": 22.0,
-      "today": "+8",
-      "today_n": 8,
-      "auto": true,
-      "zh": {
-        "tag": "Home of the Renovate CLI: Cross-platform Dependency Automation by Mend.io",
-        "what": "Home of the Renovate CLI: Cross-platform Dependency Automation by Mend.io（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 TypeScript。",
-        "hot": "今日新增 +8 stars，位列 GitHub Trending 日榜（TypeScript）第 12 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "Home of the Renovate CLI: Cross-platform Dependency Automation by Mend.io",
-        "what": "Home of the Renovate CLI: Cross-platform Dependency Automation by Mend.io (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily TypeScript.",
-        "hot": "+8 stars today, ranked #12 on the daily TypeScript chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -4416,19 +4206,19 @@ window.TRENDING_DATA = {
     {
       "slug": "hermes-studio",
       "full": "EKKOLearnAI/hermes-studio",
-      "rank": 13,
+      "rank": 11,
       "cat": "agent",
       "lang": "TypeScript",
       "stars": 9.2,
-      "today": "+48",
-      "today_n": 48,
+      "today": "+60",
+      "today_n": 60,
       "auto": true,
       "zh": {
         "tag": "Web dashboard for Hermes Agent — multi-platform AI chat, session management, scheduled jobs, usage analytics",
         "what": "Web dashboard for Hermes Agent — multi-platform AI chat, session management, scheduled jobs, usage analytics（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 TypeScript。",
-        "hot": "今日新增 +48 stars，位列 GitHub Trending 日榜（TypeScript）第 13 名。",
+        "hot": "今日新增 +60 stars，位列 GitHub Trending 日榜（TypeScript）第 11 名。",
         "uses": []
       },
       "en": {
@@ -4436,182 +4226,258 @@ window.TRENDING_DATA = {
         "what": "Web dashboard for Hermes Agent — multi-platform AI chat, session management, scheduled jobs, usage analytics (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily TypeScript.",
-        "hot": "+48 stars today, ranked #13 on the daily TypeScript chart.",
+        "hot": "+60 stars today, ranked #11 on the daily TypeScript chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "documenso",
-      "full": "documenso/documenso",
+      "slug": "just-bash",
+      "full": "vercel-labs/just-bash",
+      "rank": 12,
+      "cat": "agent",
+      "lang": "TypeScript",
+      "stars": 3.9,
+      "today": "+6",
+      "today_n": 6,
+      "auto": true,
+      "zh": {
+        "tag": "Bash for Agents",
+        "what": "Bash for Agents（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 TypeScript。",
+        "hot": "今日新增 +6 stars，位列 GitHub Trending 日榜（TypeScript）第 12 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Bash for Agents",
+        "what": "Bash for Agents (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily TypeScript.",
+        "hot": "+6 stars today, ranked #12 on the daily TypeScript chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "neko-master",
+      "full": "foru17/neko-master",
+      "rank": 13,
+      "cat": "infra",
+      "lang": "TypeScript",
+      "stars": 2.8,
+      "today": "+186",
+      "today_n": 186,
+      "auto": true,
+      "zh": {
+        "tag": "A modern and elegant dashboard for network traffic visualization and analysis.",
+        "what": "A modern and elegant dashboard for network traffic visualization and analysis.（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 TypeScript。",
+        "hot": "今日新增 +186 stars，位列 GitHub Trending 日榜（TypeScript）第 13 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "A modern and elegant dashboard for network traffic visualization and analysis.",
+        "what": "A modern and elegant dashboard for network traffic visualization and analysis. (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily TypeScript.",
+        "hot": "+186 stars today, ranked #13 on the daily TypeScript chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "open-lovable",
+      "full": "firecrawl/open-lovable",
       "rank": 14,
       "cat": "infra",
       "lang": "TypeScript",
-      "stars": 13.9,
-      "today": "+36",
-      "today_n": 36,
+      "stars": 27.8,
+      "today": "+364",
+      "today_n": 364,
       "auto": true,
       "zh": {
-        "tag": "The Open Source DocuSign Alternative.",
-        "what": "The Open Source DocuSign Alternative.（自动摘要，人工深度解析待补充。）",
+        "tag": "🔥 Clone and recreate any website as a modern React app in seconds",
+        "what": "🔥 Clone and recreate any website as a modern React app in seconds（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 TypeScript。",
-        "hot": "今日新增 +36 stars，位列 GitHub Trending 日榜（TypeScript）第 14 名。",
+        "hot": "今日新增 +364 stars，位列 GitHub Trending 日榜（TypeScript）第 14 名。",
         "uses": []
       },
       "en": {
-        "tag": "The Open Source DocuSign Alternative.",
-        "what": "The Open Source DocuSign Alternative. (Auto summary — a human deep dive is pending.)",
+        "tag": "🔥 Clone and recreate any website as a modern React app in seconds",
+        "what": "🔥 Clone and recreate any website as a modern React app in seconds (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily TypeScript.",
-        "hot": "+36 stars today, ranked #14 on the daily TypeScript chart.",
+        "hot": "+364 stars today, ranked #14 on the daily TypeScript chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "browseros",
-      "full": "browseros-ai/BrowserOS",
-      "rank": 15,
-      "cat": "agent",
-      "lang": "TypeScript",
-      "stars": 12.3,
-      "today": "+63",
-      "today_n": 63,
-      "auto": true,
-      "zh": {
-        "tag": "🌐 The open-source Agentic browser; alternative to ChatGPT Atlas, Perplexity Comet, Dia.",
-        "what": "🌐 The open-source Agentic browser; alternative to ChatGPT Atlas, Perplexity Comet, Dia.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 TypeScript。",
-        "hot": "今日新增 +63 stars，位列 GitHub Trending 日榜（TypeScript）第 15 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "🌐 The open-source Agentic browser; alternative to ChatGPT Atlas, Perplexity Comet, Dia.",
-        "what": "🌐 The open-source Agentic browser; alternative to ChatGPT Atlas, Perplexity Comet, Dia. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily TypeScript.",
-        "hot": "+63 stars today, ranked #15 on the daily TypeScript chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "ant-design",
-      "full": "ant-design/ant-design",
-      "rank": 16,
-      "cat": "infra",
-      "lang": "TypeScript",
-      "stars": 98.8,
-      "today": "+16",
-      "today_n": 16,
-      "auto": true,
-      "zh": {
-        "tag": "An enterprise-class UI design language and React UI library",
-        "what": "An enterprise-class UI design language and React UI library（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 TypeScript。",
-        "hot": "今日新增 +16 stars，位列 GitHub Trending 日榜（TypeScript）第 16 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "An enterprise-class UI design language and React UI library",
-        "what": "An enterprise-class UI design language and React UI library (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily TypeScript.",
-        "hot": "+16 stars today, ranked #16 on the daily TypeScript chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "altersend",
-      "full": "denislupookov/altersend",
-      "rank": 17,
-      "cat": "ai",
-      "lang": "TypeScript",
-      "stars": 1.1,
-      "today": "+29",
-      "today_n": 29,
-      "auto": true,
-      "zh": {
-        "tag": "Send files directly between devices over the internet - no cloud storage, no size limits.",
-        "what": "Send files directly between devices over the internet - no cloud storage, no size limits.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 TypeScript。",
-        "hot": "今日新增 +29 stars，位列 GitHub Trending 日榜（TypeScript）第 17 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "Send files directly between devices over the internet - no cloud storage, no size limits.",
-        "what": "Send files directly between devices over the internet - no cloud storage, no size limits. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily TypeScript.",
-        "hot": "+29 stars today, ranked #17 on the daily TypeScript chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "open-generative-ai",
-      "full": "Anil-matcha/Open-Generative-AI",
+      "slug": "hiring-without-whiteboards",
+      "full": "poteto/hiring-without-whiteboards",
       "rank": 1,
-      "cat": "ai",
+      "cat": "other",
       "lang": "JavaScript",
-      "stars": 23.8,
-      "today": "+111",
-      "today_n": 111,
+      "stars": 51.1,
+      "today": "+73",
+      "today_n": 73,
+      "auto": false,
+      "zh": {
+        "tag": "收录拒绝白板算法面试、采用实战考核的科技公司名单",
+        "what": "这个仓库维护了一份全球科技公司名单，专门收录那些不采用传统白板面试或 LeetCode 式算法题的企业。它们转而使用结对编程、真实业务问题讨论、带回家作业等更贴近日常工作的考核方式，帮助开发者识别更人性化的雇主。",
+        "content": "仓库核心是一份按字母顺序排列的公司名录，每条记录包含所在地与具体面试流程说明；此外还提供 RECOMMENDATIONS.md，分享如何设计更合理的面试环节。",
+        "stack": "仓库以 Markdown 文档为主要形态，并配合轻量 Node.js 工具链进行格式校验和自动化 lint，整体技术栈简洁。",
+        "hot": "该仓库拥有 5.1 万 Star，今日新增 73 星并登顶 JavaScript 日榜，精准反映了开发者对“八股文”面试的普遍反感，成为技术招聘改革的重要参考。",
+        "uses": [
+          "开发者求职：快速定位不考算法 puzzle、注重实战能力的潜在雇主",
+          "技术招聘方：参考名单中的面试流程，优化自家技术考核设计",
+          "职业规划者：获取全球化、接地气的真实技术面试案例库"
+        ]
+      },
+      "en": {
+        "tag": "A curated list of companies rejecting whiteboard interviews for real-world assessments",
+        "what": "This repository curates a crowdsourced list of companies that avoid traditional 'whiteboard' interviews and algorithmic trivia. These employers adopt practical assessment methods—such as pair programming, real-world problem discussions, and take-home exercises—to better reflect day-to-day engineering work.",
+        "content": "The core content is an alphabetically sorted directory of companies with location and interview-process details. It also includes a RECOMMENDATIONS.md offering guidelines for designing fairer, more practical interviews.",
+        "stack": "The repo is primarily Markdown-based, supported by lightweight Node.js tooling for linting and format validation, keeping the stack minimal and accessible.",
+        "hot": "With 51.1k stars and 73 new stars today—topping the JavaScript daily trending list—it taps into widespread developer frustration with 'whiteboard' CS trivia and has become a key reference for reforming technical hiring.",
+        "uses": [
+          "Job-seeking developers: quickly identify employers that value practical skills over algorithmic trivia",
+          "Engineering hiring teams: reference real-world interview processes to redesign their own assessments",
+          "Career coaches and HR professionals: access a global, community-verified playbook for fairer technical interviews"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "drawio",
+      "full": "jgraph/drawio",
+      "rank": 2,
+      "cat": "infra",
+      "lang": "JavaScript",
+      "stars": 6.8,
+      "today": "+23",
+      "today_n": 23,
       "auto": true,
       "zh": {
-        "tag": "Unrestricted Open-source alternative to AI video platforms — Free AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
-        "what": "Unrestricted Open-source alternative to AI video platforms — Free AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.（自动摘要，人工深度解析待补充。）",
+        "tag": "draw.io is a JavaScript, client-side editor for general diagramming.",
+        "what": "draw.io is a JavaScript, client-side editor for general diagramming.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 JavaScript。",
-        "hot": "今日新增 +111 stars，位列 GitHub Trending 日榜（JavaScript）第 1 名。",
+        "hot": "今日新增 +23 stars，位列 GitHub Trending 日榜（JavaScript）第 2 名。",
         "uses": []
       },
       "en": {
-        "tag": "Unrestricted Open-source alternative to AI video platforms — Free AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
-        "what": "Unrestricted Open-source alternative to AI video platforms — Free AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed. (Auto summary — a human deep dive is pending.)",
+        "tag": "draw.io is a JavaScript, client-side editor for general diagramming.",
+        "what": "draw.io is a JavaScript, client-side editor for general diagramming. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily JavaScript.",
-        "hot": "+111 stars today, ranked #1 on the daily JavaScript chart.",
+        "hot": "+23 stars today, ranked #2 on the daily JavaScript chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "cheating-daddy",
+      "full": "sohzm/cheating-daddy",
+      "rank": 3,
+      "cat": "other",
+      "lang": "JavaScript",
+      "stars": 5.5,
+      "today": "+57",
+      "today_n": 57,
+      "auto": true,
+      "zh": {
+        "tag": "a free and opensource app that lets you gain an unfair advantage",
+        "what": "a free and opensource app that lets you gain an unfair advantage（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 JavaScript。",
+        "hot": "今日新增 +57 stars，位列 GitHub Trending 日榜（JavaScript）第 3 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "a free and opensource app that lets you gain an unfair advantage",
+        "what": "a free and opensource app that lets you gain an unfair advantage (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily JavaScript.",
+        "hot": "+57 stars today, ranked #3 on the daily JavaScript chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "atlassian-mcp-server",
+      "full": "atlassian/atlassian-mcp-server",
+      "rank": 4,
+      "cat": "agent",
+      "lang": "JavaScript",
+      "stars": 0.9,
+      "today": "+4",
+      "today_n": 4,
+      "auto": true,
+      "zh": {
+        "tag": "Official remote MCP server for Atlassian. Securely connect Jira, Confluence, Jira Service Management, Bitbucket, and Compass to Claude, ChatGPT, Cursor, VS Code, and other AI tools using OAuth 2.1 or API tokens.",
+        "what": "Official remote MCP server for Atlassian. Securely connect Jira, Confluence, Jira Service Management, Bitbucket, and Compass to Claude, ChatGPT, Cursor, VS Code, and other AI tools using OAuth 2.1 or API tokens.（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 JavaScript。",
+        "hot": "今日新增 +4 stars，位列 GitHub Trending 日榜（JavaScript）第 4 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Official remote MCP server for Atlassian. Securely connect Jira, Confluence, Jira Service Management, Bitbucket, and Compass to Claude, ChatGPT, Cursor, VS Code, and other AI tools using OAuth 2.1 or API tokens.",
+        "what": "Official remote MCP server for Atlassian. Securely connect Jira, Confluence, Jira Service Management, Bitbucket, and Compass to Claude, ChatGPT, Cursor, VS Code, and other AI tools using OAuth 2.1 or API tokens. (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily JavaScript.",
+        "hot": "+4 stars today, ranked #4 on the daily JavaScript chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -4620,19 +4486,19 @@ window.TRENDING_DATA = {
     {
       "slug": "marketingskills",
       "full": "coreyhaines31/marketingskills",
-      "rank": 2,
+      "rank": 5,
       "cat": "agent",
       "lang": "JavaScript",
-      "stars": 40.2,
-      "today": "+627",
-      "today_n": 627,
+      "stars": 40.4,
+      "today": "+213",
+      "today_n": 213,
       "auto": true,
       "zh": {
         "tag": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
         "what": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 JavaScript。",
-        "hot": "今日新增 +627 stars，位列 GitHub Trending 日榜（JavaScript）第 2 名。",
+        "hot": "今日新增 +213 stars，位列 GitHub Trending 日榜（JavaScript）第 5 名。",
         "uses": []
       },
       "en": {
@@ -4640,148 +4506,46 @@ window.TRENDING_DATA = {
         "what": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily JavaScript.",
-        "hot": "+627 stars today, ranked #2 on the daily JavaScript chart.",
+        "hot": "+213 stars today, ranked #5 on the daily JavaScript chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "whatsapp-web.js",
-      "full": "wwebjs/whatsapp-web.js",
-      "rank": 3,
+      "slug": "fleetbase",
+      "full": "fleetbase/fleetbase",
+      "rank": 6,
       "cat": "infra",
       "lang": "JavaScript",
-      "stars": 22.2,
-      "today": "+11",
-      "today_n": 11,
+      "stars": 2.1,
+      "today": "+7",
+      "today_n": 7,
       "auto": true,
       "zh": {
-        "tag": "A WhatsApp client library for NodeJS that connects through the WhatsApp Web browser app",
-        "what": "A WhatsApp client library for NodeJS that connects through the WhatsApp Web browser app（自动摘要，人工深度解析待补充。）",
+        "tag": "Modular logistics and supply chain operating system (LSOS)",
+        "what": "Modular logistics and supply chain operating system (LSOS)（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 JavaScript。",
-        "hot": "今日新增 +11 stars，位列 GitHub Trending 日榜（JavaScript）第 3 名。",
+        "hot": "今日新增 +7 stars，位列 GitHub Trending 日榜（JavaScript）第 6 名。",
         "uses": []
       },
       "en": {
-        "tag": "A WhatsApp client library for NodeJS that connects through the WhatsApp Web browser app",
-        "what": "A WhatsApp client library for NodeJS that connects through the WhatsApp Web browser app (Auto summary — a human deep dive is pending.)",
+        "tag": "Modular logistics and supply chain operating system (LSOS)",
+        "what": "Modular logistics and supply chain operating system (LSOS) (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily JavaScript.",
-        "hot": "+11 stars today, ranked #3 on the daily JavaScript chart.",
+        "hot": "+7 stars today, ranked #6 on the daily JavaScript chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "claude-mem",
-      "full": "thedotmack/claude-mem",
-      "rank": 4,
-      "cat": "agent",
-      "lang": "JavaScript",
-      "stars": 87.5,
-      "today": "+132",
-      "today_n": 132,
-      "auto": true,
-      "zh": {
-        "tag": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-        "what": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 JavaScript。",
-        "hot": "今日新增 +132 stars，位列 GitHub Trending 日榜（JavaScript）第 4 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-        "what": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily JavaScript.",
-        "hot": "+132 stars today, ranked #4 on the daily JavaScript chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "tokentracker",
-      "full": "mm7894215/TokenTracker",
-      "rank": 5,
-      "cat": "ai",
-      "lang": "JavaScript",
-      "stars": 1.0,
-      "today": "+11",
-      "today_n": 11,
-      "auto": true,
-      "zh": {
-        "tag": "Local-first AI token usage & cost tracker for 27 coding tools — with a desktop pet, 4 widgets, achievements, native macOS/Windows apps, and a one-command CLI. Never reads prompts.",
-        "what": "Local-first AI token usage & cost tracker for 27 coding tools — with a desktop pet, 4 widgets, achievements, native macOS/Windows apps, and a one-command CLI. Never reads prompts.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 JavaScript。",
-        "hot": "今日新增 +11 stars，位列 GitHub Trending 日榜（JavaScript）第 5 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "Local-first AI token usage & cost tracker for 27 coding tools — with a desktop pet, 4 widgets, achievements, native macOS/Windows apps, and a one-command CLI. Never reads prompts.",
-        "what": "Local-first AI token usage & cost tracker for 27 coding tools — with a desktop pet, 4 widgets, achievements, native macOS/Windows apps, and a one-command CLI. Never reads prompts. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily JavaScript.",
-        "hot": "+11 stars today, ranked #5 on the daily JavaScript chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "awesome-free-apps",
-      "full": "Axorax/awesome-free-apps",
-      "rank": 6,
-      "cat": "other",
-      "lang": "JavaScript",
-      "stars": 6.9,
-      "today": "+13",
-      "today_n": 13,
-      "auto": true,
-      "zh": {
-        "tag": "Curated list of the best free apps for PC and mobile",
-        "what": "Curated list of the best free apps for PC and mobile（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 JavaScript。",
-        "hot": "今日新增 +13 stars，位列 GitHub Trending 日榜（JavaScript）第 6 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "Curated list of the best free apps for PC and mobile",
-        "what": "Curated list of the best free apps for PC and mobile (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily JavaScript.",
-        "hot": "+13 stars today, ranked #6 on the daily JavaScript chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -4793,16 +4557,16 @@ window.TRENDING_DATA = {
       "rank": 7,
       "cat": "infra",
       "lang": "JavaScript",
-      "stars": 10.9,
-      "today": "+120",
-      "today_n": 120,
+      "stars": 11.0,
+      "today": "+35",
+      "today_n": 35,
       "auto": true,
       "zh": {
         "tag": "PairDrop: Transfer Files Cross-Platform. No Setup, No Signup.",
         "what": "PairDrop: Transfer Files Cross-Platform. No Setup, No Signup.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 JavaScript。",
-        "hot": "今日新增 +120 stars，位列 GitHub Trending 日榜（JavaScript）第 7 名。",
+        "hot": "今日新增 +35 stars，位列 GitHub Trending 日榜（JavaScript）第 7 名。",
         "uses": []
       },
       "en": {
@@ -4810,148 +4574,318 @@ window.TRENDING_DATA = {
         "what": "PairDrop: Transfer Files Cross-Platform. No Setup, No Signup. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily JavaScript.",
-        "hot": "+120 stars today, ranked #7 on the daily JavaScript chart.",
+        "hot": "+35 stars today, ranked #7 on the daily JavaScript chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "bentopdf",
-      "full": "alam00000/bentopdf",
+      "slug": "monaco-editor",
+      "full": "microsoft/monaco-editor",
       "rank": 8,
       "cat": "infra",
       "lang": "JavaScript",
-      "stars": 14.1,
-      "today": "+34",
-      "today_n": 34,
+      "stars": 46.4,
+      "today": "+10",
+      "today_n": 10,
       "auto": true,
       "zh": {
-        "tag": "The Privacy First PDF Toolkit",
-        "what": "The Privacy First PDF Toolkit（自动摘要，人工深度解析待补充。）",
+        "tag": "A browser based code editor",
+        "what": "A browser based code editor（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 JavaScript。",
-        "hot": "今日新增 +34 stars，位列 GitHub Trending 日榜（JavaScript）第 8 名。",
+        "hot": "今日新增 +10 stars，位列 GitHub Trending 日榜（JavaScript）第 8 名。",
         "uses": []
       },
       "en": {
-        "tag": "The Privacy First PDF Toolkit",
-        "what": "The Privacy First PDF Toolkit (Auto summary — a human deep dive is pending.)",
+        "tag": "A browser based code editor",
+        "what": "A browser based code editor (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily JavaScript.",
-        "hot": "+34 stars today, ranked #8 on the daily JavaScript chart.",
+        "hot": "+10 stars today, ranked #8 on the daily JavaScript chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "fleetbase",
-      "full": "fleetbase/fleetbase",
+      "slug": "one-api",
+      "full": "songquanpeng/one-api",
       "rank": 9,
-      "cat": "infra",
-      "lang": "JavaScript",
-      "stars": 2.1,
-      "today": "+53",
-      "today_n": 53,
-      "auto": true,
-      "zh": {
-        "tag": "Modular logistics and supply chain operating system (LSOS)",
-        "what": "Modular logistics and supply chain operating system (LSOS)（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 JavaScript。",
-        "hot": "今日新增 +53 stars，位列 GitHub Trending 日榜（JavaScript）第 9 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "Modular logistics and supply chain operating system (LSOS)",
-        "what": "Modular logistics and supply chain operating system (LSOS) (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily JavaScript.",
-        "hot": "+53 stars today, ranked #9 on the daily JavaScript chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "power-platform-skills",
-      "full": "microsoft/power-platform-skills",
-      "rank": 10,
       "cat": "agent",
       "lang": "JavaScript",
-      "stars": 0.5,
-      "today": "+8",
-      "today_n": 8,
+      "stars": 35.8,
+      "today": "+24",
+      "today_n": 24,
       "auto": true,
       "zh": {
-        "tag": "A plugin marketplace for Claude Code/GitHub Copilot that provides Power Platform development plugins, including reusable skills, agents, and commands for building and deploying solutions.",
-        "what": "A plugin marketplace for Claude Code/GitHub Copilot that provides Power Platform development plugins, including reusable skills, agents, and commands for building and deploying solutions.（自动摘要，人工深度解析待补充。）",
+        "tag": "LLM API 管理 & 分发系统，支持 OpenAI、Azure、Anthropic Claude、Google Gemini、DeepSeek、字节豆包、ChatGLM、文心一言、讯飞星火、通义千问、360 智脑、腾讯混元等主流模型，统一 API 适配，可用于 key 管理与二次分发。单可执行文件，提供 Docker 镜像，一键部署，开箱即用。LLM API management & key redistribution system, unifying multiple providers under a single API. Single binary, Docker-ready, with an English UI.",
+        "what": "LLM API 管理 & 分发系统，支持 OpenAI、Azure、Anthropic Claude、Google Gemini、DeepSeek、字节豆包、ChatGLM、文心一言、讯飞星火、通义千问、360 智脑、腾讯混元等主流模型，统一 API 适配，可用于 key 管理与二次分发。单可执行文件，提供 Docker 镜像，一键部署，开箱即用。LLM API management & key redistribution system, unifying multiple providers under a single API. Single binary, Docker-ready, with an English UI.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 JavaScript。",
-        "hot": "今日新增 +8 stars，位列 GitHub Trending 日榜（JavaScript）第 10 名。",
+        "hot": "今日新增 +24 stars，位列 GitHub Trending 日榜（JavaScript）第 9 名。",
         "uses": []
       },
       "en": {
-        "tag": "A plugin marketplace for Claude Code/GitHub Copilot that provides Power Platform development plugins, including reusable skills, agents, and commands for building and deploying solutions.",
-        "what": "A plugin marketplace for Claude Code/GitHub Copilot that provides Power Platform development plugins, including reusable skills, agents, and commands for building and deploying solutions. (Auto summary — a human deep dive is pending.)",
+        "tag": "LLM API 管理 & 分发系统，支持 OpenAI、Azure、Anthropic Claude、Google Gemini、DeepSeek、字节豆包、ChatGLM、文心一言、讯飞星火、通义千问、360 智脑、腾讯混元等主流模型，统一 API 适配，可用于 key 管理与二次分发。单可执行文件，提供 Docker 镜像，一键部署，开箱即用。LLM API management & key redistribution system, unifying multiple providers under a single API. Single binary, Docker-ready, with an English UI.",
+        "what": "LLM API 管理 & 分发系统，支持 OpenAI、Azure、Anthropic Claude、Google Gemini、DeepSeek、字节豆包、ChatGLM、文心一言、讯飞星火、通义千问、360 智脑、腾讯混元等主流模型，统一 API 适配，可用于 key 管理与二次分发。单可执行文件，提供 Docker 镜像，一键部署，开箱即用。LLM API management & key redistribution system, unifying multiple providers under a single API. Single binary, Docker-ready, with an English UI. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily JavaScript.",
-        "hot": "+8 stars today, ranked #10 on the daily JavaScript chart.",
+        "hot": "+24 stars today, ranked #9 on the daily JavaScript chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "webkit",
-      "full": "WebKit/WebKit",
-      "rank": 11,
+      "slug": "whatsapp-web.js",
+      "full": "wwebjs/whatsapp-web.js",
+      "rank": 10,
       "cat": "infra",
       "lang": "JavaScript",
-      "stars": 10.0,
-      "today": "+6",
-      "today_n": 6,
+      "stars": 22.2,
+      "today": "+11",
+      "today_n": 11,
       "auto": true,
       "zh": {
-        "tag": "Home of the WebKit project, the browser engine used by Safari, Mail, App Store and many other applications on macOS, iOS and Linux.",
-        "what": "Home of the WebKit project, the browser engine used by Safari, Mail, App Store and many other applications on macOS, iOS and Linux.（自动摘要，人工深度解析待补充。）",
+        "tag": "A WhatsApp client library for NodeJS that connects through the WhatsApp Web browser app",
+        "what": "A WhatsApp client library for NodeJS that connects through the WhatsApp Web browser app（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 JavaScript。",
-        "hot": "今日新增 +6 stars，位列 GitHub Trending 日榜（JavaScript）第 11 名。",
+        "hot": "今日新增 +11 stars，位列 GitHub Trending 日榜（JavaScript）第 10 名。",
         "uses": []
       },
       "en": {
-        "tag": "Home of the WebKit project, the browser engine used by Safari, Mail, App Store and many other applications on macOS, iOS and Linux.",
-        "what": "Home of the WebKit project, the browser engine used by Safari, Mail, App Store and many other applications on macOS, iOS and Linux. (Auto summary — a human deep dive is pending.)",
+        "tag": "A WhatsApp client library for NodeJS that connects through the WhatsApp Web browser app",
+        "what": "A WhatsApp client library for NodeJS that connects through the WhatsApp Web browser app (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily JavaScript.",
-        "hot": "+6 stars today, ranked #11 on the daily JavaScript chart.",
+        "hot": "+11 stars today, ranked #10 on the daily JavaScript chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "k-skill",
+      "full": "NomaDamas/k-skill",
+      "rank": 11,
+      "cat": "agent",
+      "lang": "JavaScript",
+      "stars": 6.3,
+      "today": "+88",
+      "today_n": 88,
+      "auto": true,
+      "zh": {
+        "tag": "한국인을 위한 스킬 모음집 - SRT, KTX, 카카오톡, 한글과컴퓨터, 날씨, 미세먼지, 법령, 주식정보, 조선왕조실록, KBO, K-리그, LCK, 특허 검색, 토스 증권, 맞춤법 검사, 중고차 가격, 쿠팡, 네이버 블로그, 다이소, 올리브영, 택배 송장 조회 등등...",
+        "what": "한국인을 위한 스킬 모음집 - SRT, KTX, 카카오톡, 한글과컴퓨터, 날씨, 미세먼지, 법령, 주식정보, 조선왕조실록, KBO, K-리그, LCK, 특허 검색, 토스 증권, 맞춤법 검사, 중고차 가격, 쿠팡, 네이버 블로그, 다이소, 올리브영, 택배 송장 조회 등등...（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 JavaScript。",
+        "hot": "今日新增 +88 stars，位列 GitHub Trending 日榜（JavaScript）第 11 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "한국인을 위한 스킬 모음집 - SRT, KTX, 카카오톡, 한글과컴퓨터, 날씨, 미세먼지, 법령, 주식정보, 조선왕조실록, KBO, K-리그, LCK, 특허 검색, 토스 증권, 맞춤법 검사, 중고차 가격, 쿠팡, 네이버 블로그, 다이소, 올리브영, 택배 송장 조회 등등...",
+        "what": "한국인을 위한 스킬 모음집 - SRT, KTX, 카카오톡, 한글과컴퓨터, 날씨, 미세먼지, 법령, 주식정보, 조선왕조실록, KBO, K-리그, LCK, 특허 검색, 토스 증권, 맞춤법 검사, 중고차 가격, 쿠팡, 네이버 블로그, 다이소, 올리브영, 택배 송장 조회 등등... (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily JavaScript.",
+        "hot": "+88 stars today, ranked #11 on the daily JavaScript chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "uptime-kuma",
+      "full": "louislam/uptime-kuma",
+      "rank": 12,
+      "cat": "infra",
+      "lang": "JavaScript",
+      "stars": 89.2,
+      "today": "+47",
+      "today_n": 47,
+      "auto": true,
+      "zh": {
+        "tag": "A fancy self-hosted monitoring tool",
+        "what": "A fancy self-hosted monitoring tool（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 JavaScript。",
+        "hot": "今日新增 +47 stars，位列 GitHub Trending 日榜（JavaScript）第 12 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "A fancy self-hosted monitoring tool",
+        "what": "A fancy self-hosted monitoring tool (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily JavaScript.",
+        "hot": "+47 stars today, ranked #12 on the daily JavaScript chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "openbidkit_yibiao",
+      "full": "FB208/OpenBidKit_Yibiao",
+      "rank": 13,
+      "cat": "infra",
+      "lang": "JavaScript",
+      "stars": 1.7,
+      "today": "+318",
+      "today_n": 318,
+      "auto": true,
+      "zh": {
+        "tag": "开箱即用的AI标书编写工具，标书AI生成工具，投标工具箱、知识库、标书查重、废标项检查，完全开源免费，欢迎使用",
+        "what": "开箱即用的AI标书编写工具，标书AI生成工具，投标工具箱、知识库、标书查重、废标项检查，完全开源免费，欢迎使用（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 JavaScript。",
+        "hot": "今日新增 +318 stars，位列 GitHub Trending 日榜（JavaScript）第 13 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "开箱即用的AI标书编写工具，标书AI生成工具，投标工具箱、知识库、标书查重、废标项检查，完全开源免费，欢迎使用",
+        "what": "开箱即用的AI标书编写工具，标书AI生成工具，投标工具箱、知识库、标书查重、废标项检查，完全开源免费，欢迎使用 (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily JavaScript.",
+        "hot": "+318 stars today, ranked #13 on the daily JavaScript chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "sillytavern",
+      "full": "SillyTavern/SillyTavern",
+      "rank": 14,
+      "cat": "ai",
+      "lang": "JavaScript",
+      "stars": 30.8,
+      "today": "+46",
+      "today_n": 46,
+      "auto": true,
+      "zh": {
+        "tag": "LLM Frontend for Power Users.",
+        "what": "LLM Frontend for Power Users.（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 JavaScript。",
+        "hot": "今日新增 +46 stars，位列 GitHub Trending 日榜（JavaScript）第 14 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "LLM Frontend for Power Users.",
+        "what": "LLM Frontend for Power Users. (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily JavaScript.",
+        "hot": "+46 stars today, ranked #14 on the daily JavaScript chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "undici",
+      "full": "nodejs/undici",
+      "rank": 15,
+      "cat": "infra",
+      "lang": "JavaScript",
+      "stars": 7.6,
+      "today": "+0",
+      "today_n": 0,
+      "auto": true,
+      "zh": {
+        "tag": "An HTTP/1.1 client, written from scratch for Node.js",
+        "what": "An HTTP/1.1 client, written from scratch for Node.js（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 JavaScript。",
+        "hot": "今日新增 +0 stars，位列 GitHub Trending 日榜（JavaScript）第 15 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "An HTTP/1.1 client, written from scratch for Node.js",
+        "what": "An HTTP/1.1 client, written from scratch for Node.js (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily JavaScript.",
+        "hot": "+0 stars today, ranked #15 on the daily JavaScript chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "codex",
+      "full": "openai/codex",
+      "rank": 2,
+      "cat": "agent",
+      "lang": "Rust",
+      "stars": 99.1,
+      "today": "+323",
+      "today_n": 323,
+      "auto": true,
+      "zh": {
+        "tag": "Lightweight coding agent that runs in your terminal",
+        "what": "Lightweight coding agent that runs in your terminal（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 Rust。",
+        "hot": "今日新增 +323 stars，位列 GitHub Trending 日榜（Rust）第 2 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Lightweight coding agent that runs in your terminal",
+        "what": "Lightweight coding agent that runs in your terminal (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily Rust.",
+        "hot": "+323 stars today, ranked #2 on the daily Rust chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -4960,19 +4894,19 @@ window.TRENDING_DATA = {
     {
       "slug": "screenpipe",
       "full": "screenpipe/screenpipe",
-      "rank": 2,
+      "rank": 3,
       "cat": "agent",
       "lang": "Rust",
       "stars": 20.2,
-      "today": "+103",
-      "today_n": 103,
+      "today": "+69",
+      "today_n": 69,
       "auto": true,
       "zh": {
         "tag": "YC (S26) | Record how you work and turn that into agents. Local, private, secure. Connect to OpenClaw, Hermes agent and 100+ apps",
         "what": "YC (S26) | Record how you work and turn that into agents. Local, private, secure. Connect to OpenClaw, Hermes agent and 100+ apps（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Rust。",
-        "hot": "今日新增 +103 stars，位列 GitHub Trending 日榜（Rust）第 2 名。",
+        "hot": "今日新增 +69 stars，位列 GitHub Trending 日榜（Rust）第 3 名。",
         "uses": []
       },
       "en": {
@@ -4980,46 +4914,12 @@ window.TRENDING_DATA = {
         "what": "YC (S26) | Record how you work and turn that into agents. Local, private, secure. Connect to OpenClaw, Hermes agent and 100+ apps (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Rust.",
-        "hot": "+103 stars today, ranked #2 on the daily Rust chart.",
+        "hot": "+69 stars today, ranked #3 on the daily Rust chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "gitbutler",
-      "full": "gitbutlerapp/gitbutler",
-      "rank": 3,
-      "cat": "infra",
-      "lang": "Rust",
-      "stars": 21.3,
-      "today": "+13",
-      "today_n": 13,
-      "auto": true,
-      "zh": {
-        "tag": "The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte",
-        "what": "The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Rust。",
-        "hot": "今日新增 +13 stars，位列 GitHub Trending 日榜（Rust）第 3 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte",
-        "what": "The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Rust.",
-        "hot": "+13 stars today, ranked #3 on the daily Rust chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -5032,15 +4932,15 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "Rust",
       "stars": 43.3,
-      "today": "+29",
-      "today_n": 29,
+      "today": "+24",
+      "today_n": 24,
       "auto": true,
       "zh": {
         "tag": "Open source, composable payments platform | PCI compliant | SaaS and Self-host options | Enables connectivity to multiple payment, payout, fraud, vault and tokenization providers | Uplifts authorization with intelligent routing and revenue recovery | Reduce payment processing costs with cost observability | Reduces payment ops with reconciliation",
         "what": "Open source, composable payments platform | PCI compliant | SaaS and Self-host options | Enables connectivity to multiple payment, payout, fraud, vault and tokenization providers | Uplifts authorization with intelligent routing and revenue recovery | Reduce payment processing costs with cost observability | Reduces payment ops with reconciliation（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Rust。",
-        "hot": "今日新增 +29 stars，位列 GitHub Trending 日榜（Rust）第 4 名。",
+        "hot": "今日新增 +24 stars，位列 GitHub Trending 日榜（Rust）第 4 名。",
         "uses": []
       },
       "en": {
@@ -5048,46 +4948,12 @@ window.TRENDING_DATA = {
         "what": "Open source, composable payments platform | PCI compliant | SaaS and Self-host options | Enables connectivity to multiple payment, payout, fraud, vault and tokenization providers | Uplifts authorization with intelligent routing and revenue recovery | Reduce payment processing costs with cost observability | Reduces payment ops with reconciliation (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Rust.",
-        "hot": "+29 stars today, ranked #4 on the daily Rust chart.",
+        "hot": "+24 stars today, ranked #4 on the daily Rust chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "coreutils",
-      "full": "microsoft/coreutils",
-      "rank": 5,
-      "cat": "infra",
-      "lang": "Rust",
-      "stars": 4.8,
-      "today": "+19",
-      "today_n": 19,
-      "auto": true,
-      "zh": {
-        "tag": "Coreutils for Windows: Installer & Packaging",
-        "what": "Coreutils for Windows: Installer & Packaging（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Rust。",
-        "hot": "今日新增 +19 stars，位列 GitHub Trending 日榜（Rust）第 5 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "Coreutils for Windows: Installer & Packaging",
-        "what": "Coreutils for Windows: Installer & Packaging (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Rust.",
-        "hot": "+19 stars today, ranked #5 on the daily Rust chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -5096,19 +4962,19 @@ window.TRENDING_DATA = {
     {
       "slug": "memvid",
       "full": "memvid/memvid",
-      "rank": 6,
+      "rank": 5,
       "cat": "agent",
       "lang": "Rust",
       "stars": 16.0,
-      "today": "+81",
-      "today_n": 81,
+      "today": "+43",
+      "today_n": 43,
       "auto": true,
       "zh": {
         "tag": "Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your agents instant retrieval and long-term memory.",
         "what": "Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your agents instant retrieval and long-term memory.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Rust。",
-        "hot": "今日新增 +81 stars，位列 GitHub Trending 日榜（Rust）第 6 名。",
+        "hot": "今日新增 +43 stars，位列 GitHub Trending 日榜（Rust）第 5 名。",
         "uses": []
       },
       "en": {
@@ -5116,72 +4982,106 @@ window.TRENDING_DATA = {
         "what": "Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your agents instant retrieval and long-term memory. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Rust.",
-        "hot": "+81 stars today, ranked #6 on the daily Rust chart.",
+        "hot": "+43 stars today, ranked #5 on the daily Rust chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "codex",
-      "full": "openai/codex",
-      "rank": 7,
-      "cat": "agent",
+      "slug": "gitbutler",
+      "full": "gitbutlerapp/gitbutler",
+      "rank": 6,
+      "cat": "infra",
       "lang": "Rust",
-      "stars": 99.0,
-      "today": "+381",
-      "today_n": 381,
+      "stars": 21.3,
+      "today": "+19",
+      "today_n": 19,
       "auto": true,
       "zh": {
-        "tag": "Lightweight coding agent that runs in your terminal",
-        "what": "Lightweight coding agent that runs in your terminal（自动摘要，人工深度解析待补充。）",
+        "tag": "The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte",
+        "what": "The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Rust。",
-        "hot": "今日新增 +381 stars，位列 GitHub Trending 日榜（Rust）第 7 名。",
+        "hot": "今日新增 +19 stars，位列 GitHub Trending 日榜（Rust）第 6 名。",
         "uses": []
       },
       "en": {
-        "tag": "Lightweight coding agent that runs in your terminal",
-        "what": "Lightweight coding agent that runs in your terminal (Auto summary — a human deep dive is pending.)",
+        "tag": "The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte",
+        "what": "The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Rust.",
-        "hot": "+381 stars today, ranked #7 on the daily Rust chart.",
+        "hot": "+19 stars today, ranked #6 on the daily Rust chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "iii",
-      "full": "iii-hq/iii",
-      "rank": 8,
+      "slug": "egui",
+      "full": "emilk/egui",
+      "rank": 7,
       "cat": "infra",
       "lang": "Rust",
-      "stars": 18.5,
+      "stars": 29.7,
+      "today": "+42",
+      "today_n": 42,
+      "auto": true,
+      "zh": {
+        "tag": "egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native",
+        "what": "egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 Rust。",
+        "hot": "今日新增 +42 stars，位列 GitHub Trending 日榜（Rust）第 7 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native",
+        "what": "egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily Rust.",
+        "hot": "+42 stars today, ranked #7 on the daily Rust chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "dynamo",
+      "full": "ai-dynamo/dynamo",
+      "rank": 8,
+      "cat": "ai",
+      "lang": "Rust",
+      "stars": 7.5,
       "today": "+10",
       "today_n": 10,
       "auto": true,
       "zh": {
-        "tag": "Effortlessly compose, extend, and observe every service in real-time for the first time ever.",
-        "what": "Effortlessly compose, extend, and observe every service in real-time for the first time ever.（自动摘要，人工深度解析待补充。）",
+        "tag": "A Datacenter Scale Distributed Inference Serving Framework",
+        "what": "A Datacenter Scale Distributed Inference Serving Framework（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Rust。",
         "hot": "今日新增 +10 stars，位列 GitHub Trending 日榜（Rust）第 8 名。",
         "uses": []
       },
       "en": {
-        "tag": "Effortlessly compose, extend, and observe every service in real-time for the first time ever.",
-        "what": "Effortlessly compose, extend, and observe every service in real-time for the first time ever. (Auto summary — a human deep dive is pending.)",
+        "tag": "A Datacenter Scale Distributed Inference Serving Framework",
+        "what": "A Datacenter Scale Distributed Inference Serving Framework (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Rust.",
         "hot": "+10 stars today, ranked #8 on the daily Rust chart.",
@@ -5189,101 +5089,101 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "agentgateway",
-      "full": "agentgateway/agentgateway",
+      "slug": "baml",
+      "full": "BoundaryML/baml",
       "rank": 9,
       "cat": "agent",
       "lang": "Rust",
-      "stars": 3.9,
-      "today": "+25",
-      "today_n": 25,
+      "stars": 8.6,
+      "today": "+4",
+      "today_n": 4,
       "auto": true,
       "zh": {
-        "tag": "Next Generation Agentic Proxy for AI Agents and MCP servers",
-        "what": "Next Generation Agentic Proxy for AI Agents and MCP servers（自动摘要，人工深度解析待补充。）",
+        "tag": "The programming language for agents",
+        "what": "The programming language for agents（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Rust。",
-        "hot": "今日新增 +25 stars，位列 GitHub Trending 日榜（Rust）第 9 名。",
+        "hot": "今日新增 +4 stars，位列 GitHub Trending 日榜（Rust）第 9 名。",
         "uses": []
       },
       "en": {
-        "tag": "Next Generation Agentic Proxy for AI Agents and MCP servers",
-        "what": "Next Generation Agentic Proxy for AI Agents and MCP servers (Auto summary — a human deep dive is pending.)",
+        "tag": "The programming language for agents",
+        "what": "The programming language for agents (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Rust.",
-        "hot": "+25 stars today, ranked #9 on the daily Rust chart.",
+        "hot": "+4 stars today, ranked #9 on the daily Rust chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "embassy",
-      "full": "embassy-rs/embassy",
+      "slug": "cloud-hypervisor",
+      "full": "cloud-hypervisor/cloud-hypervisor",
       "rank": 10,
       "cat": "infra",
       "lang": "Rust",
-      "stars": 9.6,
-      "today": "+7",
-      "today_n": 7,
-      "auto": true,
-      "zh": {
-        "tag": "Modern embedded framework, using Rust and async.",
-        "what": "Modern embedded framework, using Rust and async.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Rust。",
-        "hot": "今日新增 +7 stars，位列 GitHub Trending 日榜（Rust）第 10 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "Modern embedded framework, using Rust and async.",
-        "what": "Modern embedded framework, using Rust and async. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Rust.",
-        "hot": "+7 stars today, ranked #10 on the daily Rust chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "tree-sitter",
-      "full": "tree-sitter/tree-sitter",
-      "rank": 11,
-      "cat": "infra",
-      "lang": "Rust",
-      "stars": 26.3,
+      "stars": 6.0,
       "today": "+15",
       "today_n": 15,
       "auto": true,
       "zh": {
-        "tag": "An incremental parsing system for programming tools",
-        "what": "An incremental parsing system for programming tools（自动摘要，人工深度解析待补充。）",
+        "tag": "A Virtual Machine Monitor for modern Cloud workloads. Features include CPU, memory and device hotplug, support for running Windows and Linux guests, device offload with vhost-user and a minimal compact footprint. Written in Rust with a strong focus on security.",
+        "what": "A Virtual Machine Monitor for modern Cloud workloads. Features include CPU, memory and device hotplug, support for running Windows and Linux guests, device offload with vhost-user and a minimal compact footprint. Written in Rust with a strong focus on security.（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 Rust。",
+        "hot": "今日新增 +15 stars，位列 GitHub Trending 日榜（Rust）第 10 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "A Virtual Machine Monitor for modern Cloud workloads. Features include CPU, memory and device hotplug, support for running Windows and Linux guests, device offload with vhost-user and a minimal compact footprint. Written in Rust with a strong focus on security.",
+        "what": "A Virtual Machine Monitor for modern Cloud workloads. Features include CPU, memory and device hotplug, support for running Windows and Linux guests, device offload with vhost-user and a minimal compact footprint. Written in Rust with a strong focus on security. (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily Rust.",
+        "hot": "+15 stars today, ranked #10 on the daily Rust chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "jcode",
+      "full": "1jehuang/jcode",
+      "rank": 11,
+      "cat": "agent",
+      "lang": "Rust",
+      "stars": 8.4,
+      "today": "+15",
+      "today_n": 15,
+      "auto": true,
+      "zh": {
+        "tag": "Coding Agent Harness",
+        "what": "Coding Agent Harness（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Rust。",
         "hot": "今日新增 +15 stars，位列 GitHub Trending 日榜（Rust）第 11 名。",
         "uses": []
       },
       "en": {
-        "tag": "An incremental parsing system for programming tools",
-        "what": "An incremental parsing system for programming tools (Auto summary — a human deep dive is pending.)",
+        "tag": "Coding Agent Harness",
+        "what": "Coding Agent Harness (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Rust.",
         "hot": "+15 stars today, ranked #11 on the daily Rust chart.",
@@ -5291,211 +5191,211 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "llmfit",
-      "full": "AlexsJones/llmfit",
+      "slug": "zed",
+      "full": "zed-industries/zed",
       "rank": 12,
-      "cat": "ai",
+      "cat": "infra",
       "lang": "Rust",
-      "stars": 29.5,
-      "today": "+38",
-      "today_n": 38,
+      "stars": 87.1,
+      "today": "+73",
+      "today_n": 73,
       "auto": true,
       "zh": {
-        "tag": "Hundreds of models & providers. One command to find what runs on your hardware.",
-        "what": "Hundreds of models & providers. One command to find what runs on your hardware.（自动摘要，人工深度解析待补充。）",
+        "tag": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+        "what": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Rust。",
-        "hot": "今日新增 +38 stars，位列 GitHub Trending 日榜（Rust）第 12 名。",
+        "hot": "今日新增 +73 stars，位列 GitHub Trending 日榜（Rust）第 12 名。",
         "uses": []
       },
       "en": {
-        "tag": "Hundreds of models & providers. One command to find what runs on your hardware.",
-        "what": "Hundreds of models & providers. One command to find what runs on your hardware. (Auto summary — a human deep dive is pending.)",
+        "tag": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+        "what": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Rust.",
-        "hot": "+38 stars today, ranked #12 on the daily Rust chart.",
+        "hot": "+73 stars today, ranked #12 on the daily Rust chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "agent-browser",
-      "full": "vercel-labs/agent-browser",
+      "slug": "wuwa_mod_fixer",
+      "full": "Moonholder/Wuwa_Mod_Fixer",
       "rank": 13,
-      "cat": "agent",
+      "cat": "infra",
       "lang": "Rust",
-      "stars": 38.6,
-      "today": "+81",
-      "today_n": 81,
+      "stars": 0.9,
+      "today": "+5",
+      "today_n": 5,
       "auto": true,
       "zh": {
-        "tag": "Browser automation CLI for AI agents",
-        "what": "Browser automation CLI for AI agents（自动摘要，人工深度解析待补充。）",
+        "tag": "GitHub 热榜项目（描述待补充）",
+        "what": "该项目今日登上 GitHub Trending 榜单，暂无官方描述，人工深度解析待补充。",
         "content": "",
         "stack": "主语言 Rust。",
-        "hot": "今日新增 +81 stars，位列 GitHub Trending 日榜（Rust）第 13 名。",
+        "hot": "今日新增 +5 stars，位列 GitHub Trending 日榜（Rust）第 13 名。",
         "uses": []
       },
       "en": {
-        "tag": "Browser automation CLI for AI agents",
-        "what": "Browser automation CLI for AI agents (Auto summary — a human deep dive is pending.)",
+        "tag": "Trending repo (description pending)",
+        "what": "This project is on GitHub Trending. No description available yet — a human deep dive is pending.",
         "content": "",
         "stack": "Primarily Rust.",
-        "hot": "+81 stars today, ranked #13 on the daily Rust chart.",
+        "hot": "+5 stars today, ranked #13 on the daily Rust chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "pixi",
-      "full": "prefix-dev/pixi",
+      "slug": "vector",
+      "full": "vectordotdev/vector",
       "rank": 14,
       "cat": "infra",
       "lang": "Rust",
-      "stars": 7.4,
-      "today": "+13",
-      "today_n": 13,
+      "stars": 22.2,
+      "today": "+0",
+      "today_n": 0,
       "auto": true,
       "zh": {
-        "tag": "Powerful system-level package manager for Linux, macOS and Windows written in Rust – building on top of the Conda ecosystem.",
-        "what": "Powerful system-level package manager for Linux, macOS and Windows written in Rust – building on top of the Conda ecosystem.（自动摘要，人工深度解析待补充。）",
+        "tag": "A high-performance observability data pipeline.",
+        "what": "A high-performance observability data pipeline.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Rust。",
-        "hot": "今日新增 +13 stars，位列 GitHub Trending 日榜（Rust）第 14 名。",
+        "hot": "今日新增 +0 stars，位列 GitHub Trending 日榜（Rust）第 14 名。",
         "uses": []
       },
       "en": {
-        "tag": "Powerful system-level package manager for Linux, macOS and Windows written in Rust – building on top of the Conda ecosystem.",
-        "what": "Powerful system-level package manager for Linux, macOS and Windows written in Rust – building on top of the Conda ecosystem. (Auto summary — a human deep dive is pending.)",
+        "tag": "A high-performance observability data pipeline.",
+        "what": "A high-performance observability data pipeline. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Rust.",
-        "hot": "+13 stars today, ranked #14 on the daily Rust chart.",
+        "hot": "+0 stars today, ranked #14 on the daily Rust chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "uv",
-      "full": "astral-sh/uv",
+      "slug": "git-ai",
+      "full": "git-ai-project/git-ai",
       "rank": 15,
-      "cat": "infra",
+      "cat": "ai",
       "lang": "Rust",
-      "stars": 87.6,
-      "today": "+42",
-      "today_n": 42,
+      "stars": 2.3,
+      "today": "+10",
+      "today_n": 10,
       "auto": true,
       "zh": {
-        "tag": "An extremely fast Python package and project manager, written in Rust.",
-        "what": "An extremely fast Python package and project manager, written in Rust.（自动摘要，人工深度解析待补充。）",
+        "tag": "A Git extension for tracking the AI-generated code in your repos",
+        "what": "A Git extension for tracking the AI-generated code in your repos（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Rust。",
-        "hot": "今日新增 +42 stars，位列 GitHub Trending 日榜（Rust）第 15 名。",
+        "hot": "今日新增 +10 stars，位列 GitHub Trending 日榜（Rust）第 15 名。",
         "uses": []
       },
       "en": {
-        "tag": "An extremely fast Python package and project manager, written in Rust.",
-        "what": "An extremely fast Python package and project manager, written in Rust. (Auto summary — a human deep dive is pending.)",
+        "tag": "A Git extension for tracking the AI-generated code in your repos",
+        "what": "A Git extension for tracking the AI-generated code in your repos (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Rust.",
-        "hot": "+42 stars today, ranked #15 on the daily Rust chart.",
+        "hot": "+10 stars today, ranked #15 on the daily Rust chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "switchhosts",
-      "full": "oldj/SwitchHosts",
+      "slug": "rustfs",
+      "full": "rustfs/rustfs",
       "rank": 16,
-      "cat": "infra",
+      "cat": "ai",
       "lang": "Rust",
-      "stars": 27.0,
-      "today": "+3",
-      "today_n": 3,
+      "stars": 29.9,
+      "today": "+50",
+      "today_n": 50,
       "auto": true,
       "zh": {
-        "tag": "Switch hosts quickly!",
-        "what": "Switch hosts quickly!（自动摘要，人工深度解析待补充。）",
+        "tag": "🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
+        "what": "🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Rust。",
-        "hot": "今日新增 +3 stars，位列 GitHub Trending 日榜（Rust）第 16 名。",
+        "hot": "今日新增 +50 stars，位列 GitHub Trending 日榜（Rust）第 16 名。",
         "uses": []
       },
       "en": {
-        "tag": "Switch hosts quickly!",
-        "what": "Switch hosts quickly! (Auto summary — a human deep dive is pending.)",
+        "tag": "🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
+        "what": "🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Rust.",
-        "hot": "+3 stars today, ranked #16 on the daily Rust chart.",
+        "hot": "+50 stars today, ranked #16 on the daily Rust chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "infra-controller",
-      "full": "NVIDIA/infra-controller",
+      "slug": "ripgrep",
+      "full": "BurntSushi/ripgrep",
       "rank": 17,
       "cat": "infra",
       "lang": "Rust",
-      "stars": 0.2,
-      "today": "+3",
-      "today_n": 3,
+      "stars": 66.3,
+      "today": "+110",
+      "today_n": 110,
       "auto": true,
       "zh": {
-        "tag": "NVIDIA Infra Controller - Hardware Lifecycle Management and multitenant networking",
-        "what": "NVIDIA Infra Controller - Hardware Lifecycle Management and multitenant networking（自动摘要，人工深度解析待补充。）",
+        "tag": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore",
+        "what": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Rust。",
-        "hot": "今日新增 +3 stars，位列 GitHub Trending 日榜（Rust）第 17 名。",
+        "hot": "今日新增 +110 stars，位列 GitHub Trending 日榜（Rust）第 17 名。",
         "uses": []
       },
       "en": {
-        "tag": "NVIDIA Infra Controller - Hardware Lifecycle Management and multitenant networking",
-        "what": "NVIDIA Infra Controller - Hardware Lifecycle Management and multitenant networking (Auto summary — a human deep dive is pending.)",
+        "tag": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore",
+        "what": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Rust.",
-        "hot": "+3 stars today, ranked #17 on the daily Rust chart.",
+        "hot": "+110 stars today, ranked #17 on the daily Rust chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -5508,15 +5408,15 @@ window.TRENDING_DATA = {
       "cat": "ai",
       "lang": "Rust",
       "stars": 20.4,
-      "today": "+19",
-      "today_n": 19,
+      "today": "+8",
+      "today_n": 8,
       "auto": true,
       "zh": {
         "tag": "📊 Cube Core is open-source semantic layer for AI, BI and embedded analytics",
         "what": "📊 Cube Core is open-source semantic layer for AI, BI and embedded analytics（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Rust。",
-        "hot": "今日新增 +19 stars，位列 GitHub Trending 日榜（Rust）第 18 名。",
+        "hot": "今日新增 +8 stars，位列 GitHub Trending 日榜（Rust）第 18 名。",
         "uses": []
       },
       "en": {
@@ -5524,182 +5424,90 @@ window.TRENDING_DATA = {
         "what": "📊 Cube Core is open-source semantic layer for AI, BI and embedded analytics (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Rust.",
-        "hot": "+19 stars today, ranked #18 on the daily Rust chart.",
+        "hot": "+8 stars today, ranked #18 on the daily Rust chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "rustfs",
-      "full": "rustfs/rustfs",
-      "rank": 19,
-      "cat": "ai",
-      "lang": "Rust",
-      "stars": 29.9,
-      "today": "+38",
-      "today_n": 38,
-      "auto": true,
-      "zh": {
-        "tag": "🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
-        "what": "🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Rust。",
-        "hot": "今日新增 +38 stars，位列 GitHub Trending 日榜（Rust）第 19 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
-        "what": "🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Rust.",
-        "hot": "+38 stars today, ranked #19 on the daily Rust chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "pocketbase",
-      "full": "pocketbase/pocketbase",
+      "slug": "kai-scheduler",
+      "full": "kai-scheduler/KAI-Scheduler",
       "rank": 1,
       "cat": "infra",
       "lang": "Go",
-      "stars": 59.8,
-      "today": "+65",
-      "today_n": 65,
-      "auto": true,
+      "stars": 1.4,
+      "today": "+5",
+      "today_n": 5,
+      "auto": false,
       "zh": {
-        "tag": "Open Source realtime backend in 1 file",
-        "what": "Open Source realtime backend in 1 file（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Go。",
-        "hot": "今日新增 +65 stars，位列 GitHub Trending 日榜（Go）第 1 名。",
-        "uses": []
+        "tag": "面向大规模 AI 工作负载的 Kubernetes 原生 GPU 调度器",
+        "what": "KAI Scheduler 是专为 AI 和机器学习工作负载设计的 Kubernetes 调度器，能够在大规模 GPU 集群（数千节点）中动态优化资源分配。它支持从交互式小作业到大型训练与推理的完整 AI 生命周期，并可在同一集群中与其他调度器并行运行，确保资源公平性和高吞吐量。",
+        "content": "仓库包含调度器核心代码、拓扑感知调度（TAS）与层级 Gang 调度实现、文档与示例，以及用于监控和集成的相关组件。",
+        "stack": "基于 Go 语言开发，深度集成 Kubernetes 调度框架，针对 NVIDIA GPU 等加速器进行优化，支持通过标准 Kubernetes API 进行部署。",
+        "hot": "凭借对大规模 GPU 集群的卓越调度能力和与 NVIDIA Grove/Dynamo 的集成，KAI Scheduler 在 Go 日榜登顶，目前获星 1,394 颗，今日新增 5 星，持续获得云原生 AI 基础设施领域的关注。",
+        "uses": [
+          "需要运行大规模 AI 训练或推理任务的 MLOps 团队",
+          "管理数千节点 GPU 集群的 Kubernetes 平台管理员",
+          "需要多租户 GPU 资源公平分配与拓扑感知调度的企业 AI 基础设施团队",
+          "构建与 Grove/Dynamo 集成的分布式推理流水线的开发者"
+        ]
       },
       "en": {
-        "tag": "Open Source realtime backend in 1 file",
-        "what": "Open Source realtime backend in 1 file (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Go.",
-        "hot": "+65 stars today, ranked #1 on the daily Go chart.",
-        "uses": []
+        "tag": "Kubernetes-native GPU scheduler for large-scale AI workloads",
+        "what": "KAI Scheduler is a Kubernetes-native scheduler optimized for AI and machine learning workloads, designed to dynamically allocate GPU resources across large-scale clusters with thousands of nodes. It supports the entire AI lifecycle—from small interactive jobs to large training and inference—while ensuring optimal resource utilization and fairness across multiple consumers, and can run alongside other schedulers in the same cluster.",
+        "content": "The repository contains the core scheduler implementation, Topology-Aware Scheduling (TAS) and Hierarchical Gang Scheduling logic, documentation, examples, and components for monitoring and integration with platforms like Grove and Dynamo.",
+        "stack": "Built primarily in Go, it deeply integrates with the Kubernetes scheduling framework and is optimized for NVIDIA GPU accelerators, deployable via standard Kubernetes APIs.",
+        "hot": "Its advanced scheduling capabilities for massive GPU clusters and integration with NVIDIA Grove/Dynamo have propelled it to #1 on GitHub's Go Trending daily chart, earning 1,394 stars with 5 new stars today, reflecting strong interest in cloud-native AI infrastructure.",
+        "uses": [
+          "MLOps teams running large-scale AI training or inference workloads",
+          "Kubernetes platform administrators managing GPU clusters with thousands of nodes",
+          "Enterprise AI infrastructure teams requiring multi-tenant GPU fairness and topology-aware scheduling",
+          "Developers building distributed inference pipelines integrated with Grove and Dynamo"
+        ]
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "google-maps-scraper",
-      "full": "gosom/google-maps-scraper",
+      "slug": "fleet",
+      "full": "fleetdm/fleet",
       "rank": 2,
       "cat": "infra",
       "lang": "Go",
-      "stars": 5.0,
-      "today": "+180",
-      "today_n": 180,
+      "stars": 6.6,
+      "today": "+6",
+      "today_n": 6,
       "auto": true,
       "zh": {
-        "tag": "scrape data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place",
-        "what": "scrape data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place（自动摘要，人工深度解析待补充。）",
+        "tag": "Open device management",
+        "what": "Open device management（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "今日新增 +180 stars，位列 GitHub Trending 日榜（Go）第 2 名。",
+        "hot": "今日新增 +6 stars，位列 GitHub Trending 日榜（Go）第 2 名。",
         "uses": []
       },
       "en": {
-        "tag": "scrape data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place",
-        "what": "scrape data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place (Auto summary — a human deep dive is pending.)",
+        "tag": "Open device management",
+        "what": "Open device management (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+180 stars today, ranked #2 on the daily Go chart.",
+        "hot": "+6 stars today, ranked #2 on the daily Go chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "siglens",
-      "full": "siglens/siglens",
-      "rank": 3,
-      "cat": "infra",
-      "lang": "Go",
-      "stars": 1.8,
-      "today": "+17",
-      "today_n": 17,
-      "auto": true,
-      "zh": {
-        "tag": "100x Efficient Log Management than Splunk 🚀 Reduce your observability cost by 90%",
-        "what": "100x Efficient Log Management than Splunk 🚀 Reduce your observability cost by 90%（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Go。",
-        "hot": "今日新增 +17 stars，位列 GitHub Trending 日榜（Go）第 3 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "100x Efficient Log Management than Splunk 🚀 Reduce your observability cost by 90%",
-        "what": "100x Efficient Log Management than Splunk 🚀 Reduce your observability cost by 90% (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Go.",
-        "hot": "+17 stars today, ranked #3 on the daily Go chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "goreleaser",
-      "full": "goreleaser/goreleaser",
-      "rank": 4,
-      "cat": "infra",
-      "lang": "Go",
-      "stars": 15.9,
-      "today": "+3",
-      "today_n": 3,
-      "auto": true,
-      "zh": {
-        "tag": "Release engineering, simplified",
-        "what": "Release engineering, simplified（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Go。",
-        "hot": "今日新增 +3 stars，位列 GitHub Trending 日榜（Go）第 4 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "Release engineering, simplified",
-        "what": "Release engineering, simplified (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Go.",
-        "hot": "+3 stars today, ranked #4 on the daily Go chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -5708,19 +5516,19 @@ window.TRENDING_DATA = {
     {
       "slug": "lima",
       "full": "lima-vm/lima",
-      "rank": 5,
+      "rank": 3,
       "cat": "infra",
       "lang": "Go",
       "stars": 21.5,
-      "today": "+14",
-      "today_n": 14,
+      "today": "+16",
+      "today_n": 16,
       "auto": true,
       "zh": {
         "tag": "Linux virtual machines, with a focus on running containers",
         "what": "Linux virtual machines, with a focus on running containers（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "今日新增 +14 stars，位列 GitHub Trending 日榜（Go）第 5 名。",
+        "hot": "今日新增 +16 stars，位列 GitHub Trending 日榜（Go）第 3 名。",
         "uses": []
       },
       "en": {
@@ -5728,318 +5536,182 @@ window.TRENDING_DATA = {
         "what": "Linux virtual machines, with a focus on running containers (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+14 stars today, ranked #5 on the daily Go chart.",
+        "hot": "+16 stars today, ranked #3 on the daily Go chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "registry",
-      "full": "modelcontextprotocol/registry",
-      "rank": 6,
-      "cat": "agent",
-      "lang": "Go",
-      "stars": 7.0,
-      "today": "+8",
-      "today_n": 8,
-      "auto": true,
-      "zh": {
-        "tag": "A community driven registry service for Model Context Protocol (MCP) servers.",
-        "what": "A community driven registry service for Model Context Protocol (MCP) servers.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Go。",
-        "hot": "今日新增 +8 stars，位列 GitHub Trending 日榜（Go）第 6 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "A community driven registry service for Model Context Protocol (MCP) servers.",
-        "what": "A community driven registry service for Model Context Protocol (MCP) servers. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Go.",
-        "hot": "+8 stars today, ranked #6 on the daily Go chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "grok2api",
-      "full": "chenyme/grok2api",
-      "rank": 7,
+      "slug": "terraform-provider-aws",
+      "full": "hashicorp/terraform-provider-aws",
+      "rank": 4,
       "cat": "infra",
       "lang": "Go",
-      "stars": 6.2,
-      "today": "+97",
-      "today_n": 97,
+      "stars": 11.0,
+      "today": "+0",
+      "today_n": 0,
       "auto": true,
       "zh": {
-        "tag": "面向 Grok Build、Grok Web 与 Grok Console 的多账号 API 网关",
-        "what": "面向 Grok Build、Grok Web 与 Grok Console 的多账号 API 网关（自动摘要，人工深度解析待补充。）",
+        "tag": "The AWS Provider enables Terraform to manage AWS resources.",
+        "what": "The AWS Provider enables Terraform to manage AWS resources.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "今日新增 +97 stars，位列 GitHub Trending 日榜（Go）第 7 名。",
+        "hot": "今日新增 +0 stars，位列 GitHub Trending 日榜（Go）第 4 名。",
         "uses": []
       },
       "en": {
-        "tag": "面向 Grok Build、Grok Web 与 Grok Console 的多账号 API 网关",
-        "what": "面向 Grok Build、Grok Web 与 Grok Console 的多账号 API 网关 (Auto summary — a human deep dive is pending.)",
+        "tag": "The AWS Provider enables Terraform to manage AWS resources.",
+        "what": "The AWS Provider enables Terraform to manage AWS resources. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+97 stars today, ranked #7 on the daily Go chart.",
+        "hot": "+0 stars today, ranked #4 on the daily Go chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "dapr",
-      "full": "dapr/dapr",
+      "slug": "google-maps-scraper",
+      "full": "gosom/google-maps-scraper",
+      "rank": 5,
+      "cat": "infra",
+      "lang": "Go",
+      "stars": 5.1,
+      "today": "+85",
+      "today_n": 85,
+      "auto": true,
+      "zh": {
+        "tag": "scrape data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place",
+        "what": "scrape data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 Go。",
+        "hot": "今日新增 +85 stars，位列 GitHub Trending 日榜（Go）第 5 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "scrape data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place",
+        "what": "scrape data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily Go.",
+        "hot": "+85 stars today, ranked #5 on the daily Go chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "hetty",
+      "full": "dstotijn/hetty",
+      "rank": 6,
+      "cat": "infra",
+      "lang": "Go",
+      "stars": 11.9,
+      "today": "+91",
+      "today_n": 91,
+      "auto": true,
+      "zh": {
+        "tag": "An HTTP toolkit for security research.",
+        "what": "An HTTP toolkit for security research.（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 Go。",
+        "hot": "今日新增 +91 stars，位列 GitHub Trending 日榜（Go）第 6 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "An HTTP toolkit for security research.",
+        "what": "An HTTP toolkit for security research. (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily Go.",
+        "hot": "+91 stars today, ranked #6 on the daily Go chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "substrate",
+      "full": "agent-substrate/substrate",
+      "rank": 7,
+      "cat": "agent",
+      "lang": "Go",
+      "stars": 0.8,
+      "today": "+22",
+      "today_n": 22,
+      "auto": true,
+      "zh": {
+        "tag": "Agent Substrate: the core system",
+        "what": "Agent Substrate: the core system（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 Go。",
+        "hot": "今日新增 +22 stars，位列 GitHub Trending 日榜（Go）第 7 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Agent Substrate: the core system",
+        "what": "Agent Substrate: the core system (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily Go.",
+        "hot": "+22 stars today, ranked #7 on the daily Go chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "portmaster",
+      "full": "safing/portmaster",
       "rank": 8,
       "cat": "infra",
       "lang": "Go",
-      "stars": 26.0,
-      "today": "+3",
-      "today_n": 3,
+      "stars": 13.2,
+      "today": "+66",
+      "today_n": 66,
       "auto": true,
       "zh": {
-        "tag": "Dapr is a portable runtime for building distributed applications across cloud and edge, combining event-driven architecture with workflow orchestration.",
-        "what": "Dapr is a portable runtime for building distributed applications across cloud and edge, combining event-driven architecture with workflow orchestration.（自动摘要，人工深度解析待补充。）",
+        "tag": "🏔 Love Freedom - ❌ Block Mass Surveillance",
+        "what": "🏔 Love Freedom - ❌ Block Mass Surveillance（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "今日新增 +3 stars，位列 GitHub Trending 日榜（Go）第 8 名。",
+        "hot": "今日新增 +66 stars，位列 GitHub Trending 日榜（Go）第 8 名。",
         "uses": []
       },
       "en": {
-        "tag": "Dapr is a portable runtime for building distributed applications across cloud and edge, combining event-driven architecture with workflow orchestration.",
-        "what": "Dapr is a portable runtime for building distributed applications across cloud and edge, combining event-driven architecture with workflow orchestration. (Auto summary — a human deep dive is pending.)",
+        "tag": "🏔 Love Freedom - ❌ Block Mass Surveillance",
+        "what": "🏔 Love Freedom - ❌ Block Mass Surveillance (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+3 stars today, ranked #8 on the daily Go chart.",
+        "hot": "+66 stars today, ranked #8 on the daily Go chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "vikunja",
-      "full": "go-vikunja/vikunja",
-      "rank": 9,
-      "cat": "infra",
-      "lang": "Go",
-      "stars": 4.8,
-      "today": "+11",
-      "today_n": 11,
-      "auto": true,
-      "zh": {
-        "tag": "The task manager you actually own.",
-        "what": "The task manager you actually own.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Go。",
-        "hot": "今日新增 +11 stars，位列 GitHub Trending 日榜（Go）第 9 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "The task manager you actually own.",
-        "what": "The task manager you actually own. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Go.",
-        "hot": "+11 stars today, ranked #9 on the daily Go chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "safeline",
-      "full": "chaitin/SafeLine",
-      "rank": 10,
-      "cat": "infra",
-      "lang": "Go",
-      "stars": 21.9,
-      "today": "+39",
-      "today_n": 39,
-      "auto": true,
-      "zh": {
-        "tag": "SafeLine is a self-hosted WAF(Web Application Firewall) / reverse proxy to protect your web apps from attacks and exploits.",
-        "what": "SafeLine is a self-hosted WAF(Web Application Firewall) / reverse proxy to protect your web apps from attacks and exploits.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Go。",
-        "hot": "今日新增 +39 stars，位列 GitHub Trending 日榜（Go）第 10 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "SafeLine is a self-hosted WAF(Web Application Firewall) / reverse proxy to protect your web apps from attacks and exploits.",
-        "what": "SafeLine is a self-hosted WAF(Web Application Firewall) / reverse proxy to protect your web apps from attacks and exploits. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Go.",
-        "hot": "+39 stars today, ranked #10 on the daily Go chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "multica",
-      "full": "multica-ai/multica",
-      "rank": 11,
-      "cat": "agent",
-      "lang": "Go",
-      "stars": 40.9,
-      "today": "+164",
-      "today_n": 164,
-      "auto": true,
-      "zh": {
-        "tag": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
-        "what": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Go。",
-        "hot": "今日新增 +164 stars，位列 GitHub Trending 日榜（Go）第 11 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
-        "what": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Go.",
-        "hot": "+164 stars today, ranked #11 on the daily Go chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "sing-box",
-      "full": "SagerNet/sing-box",
-      "rank": 12,
-      "cat": "infra",
-      "lang": "Go",
-      "stars": 36.2,
-      "today": "+51",
-      "today_n": 51,
-      "auto": true,
-      "zh": {
-        "tag": "The universal proxy platform",
-        "what": "The universal proxy platform（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Go。",
-        "hot": "今日新增 +51 stars，位列 GitHub Trending 日榜（Go）第 12 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "The universal proxy platform",
-        "what": "The universal proxy platform (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Go.",
-        "hot": "+51 stars today, ranked #12 on the daily Go chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "agent-framework-go",
-      "full": "microsoft/agent-framework-go",
-      "rank": 13,
-      "cat": "agent",
-      "lang": "Go",
-      "stars": 0.2,
-      "today": "+49",
-      "today_n": 49,
-      "auto": true,
-      "zh": {
-        "tag": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Go.",
-        "what": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Go.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Go。",
-        "hot": "今日新增 +49 stars，位列 GitHub Trending 日榜（Go）第 13 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Go.",
-        "what": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Go. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Go.",
-        "hot": "+49 stars today, ranked #13 on the daily Go chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "jira-cli",
-      "full": "ankitpokhrel/jira-cli",
-      "rank": 14,
-      "cat": "infra",
-      "lang": "Go",
-      "stars": 5.8,
-      "today": "+10",
-      "today_n": 10,
-      "auto": true,
-      "zh": {
-        "tag": "🔥 Feature-rich interactive Jira command line.",
-        "what": "🔥 Feature-rich interactive Jira command line.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Go。",
-        "hot": "今日新增 +10 stars，位列 GitHub Trending 日榜（Go）第 14 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "🔥 Feature-rich interactive Jira command line.",
-        "what": "🔥 Feature-rich interactive Jira command line. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Go.",
-        "hot": "+10 stars today, ranked #14 on the daily Go chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -6048,19 +5720,19 @@ window.TRENDING_DATA = {
     {
       "slug": "beads",
       "full": "gastownhall/beads",
-      "rank": 15,
+      "rank": 9,
       "cat": "agent",
       "lang": "Go",
       "stars": 25.4,
-      "today": "+65",
-      "today_n": 65,
+      "today": "+23",
+      "today_n": 23,
       "auto": true,
       "zh": {
         "tag": "Beads - A memory upgrade for your coding agent",
         "what": "Beads - A memory upgrade for your coding agent（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "今日新增 +65 stars，位列 GitHub Trending 日榜（Go）第 15 名。",
+        "hot": "今日新增 +23 stars，位列 GitHub Trending 日榜（Go）第 9 名。",
         "uses": []
       },
       "en": {
@@ -6068,12 +5740,182 @@ window.TRENDING_DATA = {
         "what": "Beads - A memory upgrade for your coding agent (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+65 stars today, ranked #15 on the daily Go chart.",
+        "hot": "+23 stars today, ranked #9 on the daily Go chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "nvidia-container-toolkit",
+      "full": "NVIDIA/nvidia-container-toolkit",
+      "rank": 10,
+      "cat": "ai",
+      "lang": "Go",
+      "stars": 4.5,
+      "today": "+2",
+      "today_n": 2,
+      "auto": true,
+      "zh": {
+        "tag": "Build and run containers leveraging NVIDIA GPUs",
+        "what": "Build and run containers leveraging NVIDIA GPUs（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 Go。",
+        "hot": "今日新增 +2 stars，位列 GitHub Trending 日榜（Go）第 10 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Build and run containers leveraging NVIDIA GPUs",
+        "what": "Build and run containers leveraging NVIDIA GPUs (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily Go.",
+        "hot": "+2 stars today, ranked #10 on the daily Go chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "syncthing",
+      "full": "syncthing/syncthing",
+      "rank": 11,
+      "cat": "infra",
+      "lang": "Go",
+      "stars": 86.6,
+      "today": "+93",
+      "today_n": 93,
+      "auto": true,
+      "zh": {
+        "tag": "Open Source Continuous File Synchronization",
+        "what": "Open Source Continuous File Synchronization（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 Go。",
+        "hot": "今日新增 +93 stars，位列 GitHub Trending 日榜（Go）第 11 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Open Source Continuous File Synchronization",
+        "what": "Open Source Continuous File Synchronization (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily Go.",
+        "hot": "+93 stars today, ranked #11 on the daily Go chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "superplane",
+      "full": "superplanehq/superplane",
+      "rank": 12,
+      "cat": "agent",
+      "lang": "Go",
+      "stars": 4.0,
+      "today": "+54",
+      "today_n": 54,
+      "auto": true,
+      "zh": {
+        "tag": "The open source control plane for agentic engineering.",
+        "what": "The open source control plane for agentic engineering.（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 Go。",
+        "hot": "今日新增 +54 stars，位列 GitHub Trending 日榜（Go）第 12 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "The open source control plane for agentic engineering.",
+        "what": "The open source control plane for agentic engineering. (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily Go.",
+        "hot": "+54 stars today, ranked #12 on the daily Go chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "files.md",
+      "full": "zakirullin/files.md",
+      "rank": 13,
+      "cat": "ai",
+      "lang": "Go",
+      "stars": 4.0,
+      "today": "+32",
+      "today_n": 32,
+      "auto": true,
+      "zh": {
+        "tag": "🌱 Private, quiet space for thinking. Simple app for .md files. AI-friendly.",
+        "what": "🌱 Private, quiet space for thinking. Simple app for .md files. AI-friendly.（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 Go。",
+        "hot": "今日新增 +32 stars，位列 GitHub Trending 日榜（Go）第 13 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "🌱 Private, quiet space for thinking. Simple app for .md files. AI-friendly.",
+        "what": "🌱 Private, quiet space for thinking. Simple app for .md files. AI-friendly. (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily Go.",
+        "hot": "+32 stars today, ranked #13 on the daily Go chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "pocketbase",
+      "full": "pocketbase/pocketbase",
+      "rank": 14,
+      "cat": "infra",
+      "lang": "Go",
+      "stars": 59.8,
+      "today": "+39",
+      "today_n": 39,
+      "auto": true,
+      "zh": {
+        "tag": "Open Source realtime backend in 1 file",
+        "what": "Open Source realtime backend in 1 file（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 Go。",
+        "hot": "今日新增 +39 stars，位列 GitHub Trending 日榜（Go）第 14 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Open Source realtime backend in 1 file",
+        "what": "Open Source realtime backend in 1 file (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily Go.",
+        "hot": "+39 stars today, ranked #14 on the daily Go chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -6082,19 +5924,19 @@ window.TRENDING_DATA = {
     {
       "slug": "openbao",
       "full": "openbao/openbao",
-      "rank": 16,
+      "rank": 15,
       "cat": "infra",
       "lang": "Go",
       "stars": 6.7,
-      "today": "+21",
-      "today_n": 21,
+      "today": "+22",
+      "today_n": 22,
       "auto": true,
       "zh": {
         "tag": "OpenBao is a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys.",
         "what": "OpenBao is a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "今日新增 +21 stars，位列 GitHub Trending 日榜（Go）第 16 名。",
+        "hot": "今日新增 +22 stars，位列 GitHub Trending 日榜（Go）第 15 名。",
         "uses": []
       },
       "en": {
@@ -6102,12 +5944,12 @@ window.TRENDING_DATA = {
         "what": "OpenBao is a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+21 stars today, ranked #16 on the daily Go chart.",
+        "hot": "+22 stars today, ranked #15 on the daily Go chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -6116,19 +5958,19 @@ window.TRENDING_DATA = {
     {
       "slug": "cloudreve",
       "full": "cloudreve/cloudreve",
-      "rank": 17,
+      "rank": 16,
       "cat": "ai",
       "lang": "Go",
       "stars": 28.3,
-      "today": "+33",
-      "today_n": 33,
+      "today": "+14",
+      "today_n": 14,
       "auto": true,
       "zh": {
         "tag": "🌩 Self-hosted file management and sharing system, supports multiple storage providers",
         "what": "🌩 Self-hosted file management and sharing system, supports multiple storage providers（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "今日新增 +33 stars，位列 GitHub Trending 日榜（Go）第 17 名。",
+        "hot": "今日新增 +14 stars，位列 GitHub Trending 日榜（Go）第 16 名。",
         "uses": []
       },
       "en": {
@@ -6136,284 +5978,216 @@ window.TRENDING_DATA = {
         "what": "🌩 Self-hosted file management and sharing system, supports multiple storage providers (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+33 stars today, ranked #17 on the daily Go chart.",
+        "hot": "+14 stars today, ranked #16 on the daily Go chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "lazygit",
-      "full": "jesseduffield/lazygit",
-      "rank": 18,
+      "slug": "nats-server",
+      "full": "nats-io/nats-server",
+      "rank": 17,
       "cat": "infra",
       "lang": "Go",
-      "stars": 80.4,
-      "today": "+41",
-      "today_n": 41,
+      "stars": 20.2,
+      "today": "+11",
+      "today_n": 11,
       "auto": true,
       "zh": {
-        "tag": "simple terminal UI for git commands",
-        "what": "simple terminal UI for git commands（自动摘要，人工深度解析待补充。）",
+        "tag": "High-Performance server for NATS.io, the cloud and edge native messaging system.",
+        "what": "High-Performance server for NATS.io, the cloud and edge native messaging system.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "今日新增 +41 stars，位列 GitHub Trending 日榜（Go）第 18 名。",
+        "hot": "今日新增 +11 stars，位列 GitHub Trending 日榜（Go）第 17 名。",
         "uses": []
       },
       "en": {
-        "tag": "simple terminal UI for git commands",
-        "what": "simple terminal UI for git commands (Auto summary — a human deep dive is pending.)",
+        "tag": "High-Performance server for NATS.io, the cloud and edge native messaging system.",
+        "what": "High-Performance server for NATS.io, the cloud and edge native messaging system. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+41 stars today, ranked #18 on the daily Go chart.",
+        "hot": "+11 stars today, ranked #17 on the daily Go chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "hydra",
-      "full": "ory/hydra",
-      "rank": 19,
-      "cat": "ai",
+      "slug": "agent-orchestrator",
+      "full": "AgentWrapper/agent-orchestrator",
+      "rank": 18,
+      "cat": "agent",
       "lang": "Go",
-      "stars": 17.4,
-      "today": "+0",
-      "today_n": 0,
+      "stars": 8.3,
+      "today": "+25",
+      "today_n": 25,
       "auto": true,
       "zh": {
-        "tag": "Internet-scale OpenID Certified™ OpenID Connect and OAuth2.1 provider that integrates with your user management through headless APIs. Solve OIDC/OAuth2 user cases over night. Consume as a service on Ory Network or self-host. Trusted by OpenAI and many others for scale and security. Written in Go.",
-        "what": "Internet-scale OpenID Certified™ OpenID Connect and OAuth2.1 provider that integrates with your user management through headless APIs. Solve OIDC/OAuth2 user cases over night. Consume as a service on Ory Network or self-host. Trusted by OpenAI and many others for scale and security. Written in Go.（自动摘要，人工深度解析待补充。）",
+        "tag": "AO is an agent IDE, that helps developers manage fleets of coding agents to do your day to day tasks for parallel coding agents. It comes with an agentic orchestrator that plans tasks, spawns agents, and autonomously handles CI fixes, merge conflicts, and code reviews.",
+        "what": "AO is an agent IDE, that helps developers manage fleets of coding agents to do your day to day tasks for parallel coding agents. It comes with an agentic orchestrator that plans tasks, spawns agents, and autonomously handles CI fixes, merge conflicts, and code reviews.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "今日新增 +0 stars，位列 GitHub Trending 日榜（Go）第 19 名。",
+        "hot": "今日新增 +25 stars，位列 GitHub Trending 日榜（Go）第 18 名。",
         "uses": []
       },
       "en": {
-        "tag": "Internet-scale OpenID Certified™ OpenID Connect and OAuth2.1 provider that integrates with your user management through headless APIs. Solve OIDC/OAuth2 user cases over night. Consume as a service on Ory Network or self-host. Trusted by OpenAI and many others for scale and security. Written in Go.",
-        "what": "Internet-scale OpenID Certified™ OpenID Connect and OAuth2.1 provider that integrates with your user management through headless APIs. Solve OIDC/OAuth2 user cases over night. Consume as a service on Ory Network or self-host. Trusted by OpenAI and many others for scale and security. Written in Go. (Auto summary — a human deep dive is pending.)",
+        "tag": "AO is an agent IDE, that helps developers manage fleets of coding agents to do your day to day tasks for parallel coding agents. It comes with an agentic orchestrator that plans tasks, spawns agents, and autonomously handles CI fixes, merge conflicts, and code reviews.",
+        "what": "AO is an agent IDE, that helps developers manage fleets of coding agents to do your day to day tasks for parallel coding agents. It comes with an agentic orchestrator that plans tasks, spawns agents, and autonomously handles CI fixes, merge conflicts, and code reviews. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+0 stars today, ranked #19 on the daily Go chart.",
+        "hot": "+25 stars today, ranked #18 on the daily Go chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "livekit",
-      "full": "livekit/livekit",
+      "slug": "grok2api",
+      "full": "chenyme/grok2api",
+      "rank": 19,
+      "cat": "infra",
+      "lang": "Go",
+      "stars": 6.2,
+      "today": "+87",
+      "today_n": 87,
+      "auto": true,
+      "zh": {
+        "tag": "面向 Grok Build、Grok Web 与 Grok Console 的多账号 API 网关",
+        "what": "面向 Grok Build、Grok Web 与 Grok Console 的多账号 API 网关（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 Go。",
+        "hot": "今日新增 +87 stars，位列 GitHub Trending 日榜（Go）第 19 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "面向 Grok Build、Grok Web 与 Grok Console 的多账号 API 网关",
+        "what": "面向 Grok Build、Grok Web 与 Grok Console 的多账号 API 网关 (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily Go.",
+        "hot": "+87 stars today, ranked #19 on the daily Go chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "higress",
+      "full": "higress-group/higress",
       "rank": 20,
       "cat": "ai",
       "lang": "Go",
-      "stars": 19.8,
-      "today": "+22",
-      "today_n": 22,
-      "auto": true,
-      "zh": {
-        "tag": "End-to-end realtime stack for connecting humans and AI",
-        "what": "End-to-end realtime stack for connecting humans and AI（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Go。",
-        "hot": "今日新增 +22 stars，位列 GitHub Trending 日榜（Go）第 20 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "End-to-end realtime stack for connecting humans and AI",
-        "what": "End-to-end realtime stack for connecting humans and AI (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Go.",
-        "hot": "+22 stars today, ranked #20 on the daily Go chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "vault",
-      "full": "hashicorp/vault",
-      "rank": 21,
-      "cat": "infra",
-      "lang": "Go",
-      "stars": 35.9,
+      "stars": 8.9,
       "today": "+9",
       "today_n": 9,
       "auto": true,
       "zh": {
-        "tag": "A tool for secrets management, encryption as a service, and privileged access management",
-        "what": "A tool for secrets management, encryption as a service, and privileged access management（自动摘要，人工深度解析待补充。）",
+        "tag": "🤖 AI Gateway | AI Native API Gateway",
+        "what": "🤖 AI Gateway | AI Native API Gateway（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "今日新增 +9 stars，位列 GitHub Trending 日榜（Go）第 21 名。",
+        "hot": "今日新增 +9 stars，位列 GitHub Trending 日榜（Go）第 20 名。",
         "uses": []
       },
       "en": {
-        "tag": "A tool for secrets management, encryption as a service, and privileged access management",
-        "what": "A tool for secrets management, encryption as a service, and privileged access management (Auto summary — a human deep dive is pending.)",
+        "tag": "🤖 AI Gateway | AI Native API Gateway",
+        "what": "🤖 AI Gateway | AI Native API Gateway (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+9 stars today, ranked #21 on the daily Go chart.",
+        "hot": "+9 stars today, ranked #20 on the daily Go chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "deskflow",
-      "full": "deskflow/deskflow",
+      "slug": "weknora",
+      "full": "Tencent/WeKnora",
+      "rank": 21,
+      "cat": "agent",
+      "lang": "Go",
+      "stars": 18.5,
+      "today": "+54",
+      "today_n": 54,
+      "auto": true,
+      "zh": {
+        "tag": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+        "what": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 Go。",
+        "hot": "今日新增 +54 stars，位列 GitHub Trending 日榜（Go）第 21 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+        "what": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki. (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily Go.",
+        "hot": "+54 stars today, ranked #21 on the daily Go chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "brave-core",
+      "full": "brave/brave-core",
       "rank": 2,
       "cat": "infra",
       "lang": "C++",
-      "stars": 27.4,
-      "today": "+38",
-      "today_n": 38,
+      "stars": 3.4,
+      "today": "+5",
+      "today_n": 5,
       "auto": true,
       "zh": {
-        "tag": "Share a single keyboard and mouse between multiple computers.",
-        "what": "Share a single keyboard and mouse between multiple computers.（自动摘要，人工深度解析待补充。）",
+        "tag": "Core engine for the Brave browser for mobile and desktop. For issues https://github.com/brave/brave-browser/issues",
+        "what": "Core engine for the Brave browser for mobile and desktop. For issues https://github.com/brave/brave-browser/issues（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 C++。",
-        "hot": "今日新增 +38 stars，位列 GitHub Trending 日榜（C++）第 2 名。",
+        "hot": "今日新增 +5 stars，位列 GitHub Trending 日榜（C++）第 2 名。",
         "uses": []
       },
       "en": {
-        "tag": "Share a single keyboard and mouse between multiple computers.",
-        "what": "Share a single keyboard and mouse between multiple computers. (Auto summary — a human deep dive is pending.)",
+        "tag": "Core engine for the Brave browser for mobile and desktop. For issues https://github.com/brave/brave-browser/issues",
+        "what": "Core engine for the Brave browser for mobile and desktop. For issues https://github.com/brave/brave-browser/issues (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily C++.",
-        "hot": "+38 stars today, ranked #2 on the daily C++ chart.",
+        "hot": "+5 stars today, ranked #2 on the daily C++ chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "perfetto",
-      "full": "google/perfetto",
-      "rank": 3,
-      "cat": "infra",
-      "lang": "C++",
-      "stars": 6.2,
-      "today": "+11",
-      "today_n": 11,
-      "auto": true,
-      "zh": {
-        "tag": "Production-grade client-side tracing, profiling, and analysis for complex software systems.",
-        "what": "Production-grade client-side tracing, profiling, and analysis for complex software systems.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 C++。",
-        "hot": "今日新增 +11 stars，位列 GitHub Trending 日榜（C++）第 3 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "Production-grade client-side tracing, profiling, and analysis for complex software systems.",
-        "what": "Production-grade client-side tracing, profiling, and analysis for complex software systems. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily C++.",
-        "hot": "+11 stars today, ranked #3 on the daily C++ chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "protobuf",
-      "full": "protocolbuffers/protobuf",
-      "rank": 4,
-      "cat": "infra",
-      "lang": "C++",
-      "stars": 71.5,
-      "today": "+11",
-      "today_n": 11,
-      "auto": true,
-      "zh": {
-        "tag": "Protocol Buffers - Google's data interchange format",
-        "what": "Protocol Buffers - Google's data interchange format（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 C++。",
-        "hot": "今日新增 +11 stars，位列 GitHub Trending 日榜（C++）第 4 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "Protocol Buffers - Google's data interchange format",
-        "what": "Protocol Buffers - Google's data interchange format (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily C++.",
-        "hot": "+11 stars today, ranked #4 on the daily C++ chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "electron",
-      "full": "electron/electron",
-      "rank": 5,
-      "cat": "ai",
-      "lang": "C++",
-      "stars": 122.1,
-      "today": "+26",
-      "today_n": 26,
-      "auto": true,
-      "zh": {
-        "tag": "Build cross-platform desktop apps with JavaScript, HTML, and CSS",
-        "what": "Build cross-platform desktop apps with JavaScript, HTML, and CSS（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 C++。",
-        "hot": "今日新增 +26 stars，位列 GitHub Trending 日榜（C++）第 5 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "Build cross-platform desktop apps with JavaScript, HTML, and CSS",
-        "what": "Build cross-platform desktop apps with JavaScript, HTML, and CSS (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily C++.",
-        "hot": "+26 stars today, ranked #5 on the daily C++ chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -6422,7 +6196,7 @@ window.TRENDING_DATA = {
     {
       "slug": "kyty",
       "full": "InoriRus/Kyty",
-      "rank": 6,
+      "rank": 3,
       "cat": "infra",
       "lang": "C++",
       "stars": 2.9,
@@ -6434,7 +6208,7 @@ window.TRENDING_DATA = {
         "what": "PS4 & PS5 emulator（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 C++。",
-        "hot": "今日新增 +36 stars，位列 GitHub Trending 日榜（C++）第 6 名。",
+        "hot": "今日新增 +36 stars，位列 GitHub Trending 日榜（C++）第 3 名。",
         "uses": []
       },
       "en": {
@@ -6442,352 +6216,522 @@ window.TRENDING_DATA = {
         "what": "PS4 & PS5 emulator (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily C++.",
-        "hot": "+36 stars today, ranked #6 on the daily C++ chart.",
+        "hot": "+36 stars today, ranked #3 on the daily C++ chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "ik_llama.cpp",
-      "full": "ikawrakow/ik_llama.cpp",
-      "rank": 7,
+      "slug": "zeek",
+      "full": "zeek/zeek",
+      "rank": 4,
       "cat": "infra",
       "lang": "C++",
-      "stars": 2.9,
-      "today": "+27",
-      "today_n": 27,
+      "stars": 7.8,
+      "today": "+6",
+      "today_n": 6,
       "auto": true,
       "zh": {
-        "tag": "llama.cpp fork with additional SOTA quants and improved performance",
-        "what": "llama.cpp fork with additional SOTA quants and improved performance（自动摘要，人工深度解析待补充。）",
+        "tag": "Zeek is a powerful network analysis framework that is much different from the typical IDS you may know.",
+        "what": "Zeek is a powerful network analysis framework that is much different from the typical IDS you may know.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 C++。",
-        "hot": "今日新增 +27 stars，位列 GitHub Trending 日榜（C++）第 7 名。",
+        "hot": "今日新增 +6 stars，位列 GitHub Trending 日榜（C++）第 4 名。",
         "uses": []
       },
       "en": {
-        "tag": "llama.cpp fork with additional SOTA quants and improved performance",
-        "what": "llama.cpp fork with additional SOTA quants and improved performance (Auto summary — a human deep dive is pending.)",
+        "tag": "Zeek is a powerful network analysis framework that is much different from the typical IDS you may know.",
+        "what": "Zeek is a powerful network analysis framework that is much different from the typical IDS you may know. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily C++.",
-        "hot": "+27 stars today, ranked #7 on the daily C++ chart.",
+        "hot": "+6 stars today, ranked #4 on the daily C++ chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "tensorflow",
-      "full": "tensorflow/tensorflow",
-      "rank": 8,
-      "cat": "other",
+      "slug": "firmware",
+      "full": "BruceDevices/firmware",
+      "rank": 5,
+      "cat": "infra",
       "lang": "C++",
-      "stars": 196.3,
-      "today": "+58",
-      "today_n": 58,
+      "stars": 6.2,
+      "today": "+37",
+      "today_n": 37,
       "auto": true,
       "zh": {
-        "tag": "An Open Source Machine Learning Framework for Everyone",
-        "what": "An Open Source Machine Learning Framework for Everyone（自动摘要，人工深度解析待补充。）",
+        "tag": "Predatory ESP32 Firmware",
+        "what": "Predatory ESP32 Firmware（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 C++。",
-        "hot": "今日新增 +58 stars，位列 GitHub Trending 日榜（C++）第 8 名。",
+        "hot": "今日新增 +37 stars，位列 GitHub Trending 日榜（C++）第 5 名。",
         "uses": []
       },
       "en": {
-        "tag": "An Open Source Machine Learning Framework for Everyone",
-        "what": "An Open Source Machine Learning Framework for Everyone (Auto summary — a human deep dive is pending.)",
+        "tag": "Predatory ESP32 Firmware",
+        "what": "Predatory ESP32 Firmware (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily C++.",
-        "hot": "+58 stars today, ranked #8 on the daily C++ chart.",
+        "hot": "+37 stars today, ranked #5 on the daily C++ chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "amnezia-client",
-      "full": "amnezia-vpn/amnezia-client",
-      "rank": 9,
+      "slug": "perfetto",
+      "full": "google/perfetto",
+      "rank": 6,
       "cat": "infra",
       "lang": "C++",
-      "stars": 12.9,
-      "today": "+15",
-      "today_n": 15,
-      "auto": true,
-      "zh": {
-        "tag": "Amnezia VPN Client (Desktop+Mobile)",
-        "what": "Amnezia VPN Client (Desktop+Mobile)（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 C++。",
-        "hot": "今日新增 +15 stars，位列 GitHub Trending 日榜（C++）第 9 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "Amnezia VPN Client (Desktop+Mobile)",
-        "what": "Amnezia VPN Client (Desktop+Mobile) (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily C++.",
-        "hot": "+15 stars today, ranked #9 on the daily C++ chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "ardupilot",
-      "full": "ArduPilot/ardupilot",
-      "rank": 10,
-      "cat": "infra",
-      "lang": "C++",
-      "stars": 15.5,
+      "stars": 6.2,
       "today": "+11",
       "today_n": 11,
       "auto": true,
       "zh": {
-        "tag": "ArduPlane, ArduCopter, ArduRover, ArduSub source",
-        "what": "ArduPlane, ArduCopter, ArduRover, ArduSub source（自动摘要，人工深度解析待补充。）",
+        "tag": "Production-grade client-side tracing, profiling, and analysis for complex software systems.",
+        "what": "Production-grade client-side tracing, profiling, and analysis for complex software systems.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 C++。",
-        "hot": "今日新增 +11 stars，位列 GitHub Trending 日榜（C++）第 10 名。",
+        "hot": "今日新增 +11 stars，位列 GitHub Trending 日榜（C++）第 6 名。",
         "uses": []
       },
       "en": {
-        "tag": "ArduPlane, ArduCopter, ArduRover, ArduSub source",
-        "what": "ArduPlane, ArduCopter, ArduRover, ArduSub source (Auto summary — a human deep dive is pending.)",
+        "tag": "Production-grade client-side tracing, profiling, and analysis for complex software systems.",
+        "what": "Production-grade client-side tracing, profiling, and analysis for complex software systems. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily C++.",
-        "hot": "+11 stars today, ranked #10 on the daily C++ chart.",
+        "hot": "+11 stars today, ranked #6 on the daily C++ chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "godot",
-      "full": "godotengine/godot",
-      "rank": 11,
-      "cat": "other",
-      "lang": "C++",
-      "stars": 114.3,
-      "today": "+71",
-      "today_n": 71,
-      "auto": true,
-      "zh": {
-        "tag": "Godot Engine – Multi-platform 2D and 3D game engine",
-        "what": "Godot Engine – Multi-platform 2D and 3D game engine（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 C++。",
-        "hot": "今日新增 +71 stars，位列 GitHub Trending 日榜（C++）第 11 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "Godot Engine – Multi-platform 2D and 3D game engine",
-        "what": "Godot Engine – Multi-platform 2D and 3D game engine (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily C++.",
-        "hot": "+71 stars today, ranked #11 on the daily C++ chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "wasmedge",
-      "full": "WasmEdge/WasmEdge",
-      "rank": 12,
+      "slug": "devilutionx",
+      "full": "diasurgical/DevilutionX",
+      "rank": 7,
       "cat": "infra",
       "lang": "C++",
-      "stars": 10.7,
-      "today": "+0",
-      "today_n": 0,
+      "stars": 9.6,
+      "today": "+8",
+      "today_n": 8,
       "auto": true,
       "zh": {
-        "tag": "WasmEdge is a lightweight, high-performance, and extensible WebAssembly runtime for cloud native, edge, and decentralized applications. It powers serverless apps, embedded functions, microservices, smart contracts, and IoT devices.",
-        "what": "WasmEdge is a lightweight, high-performance, and extensible WebAssembly runtime for cloud native, edge, and decentralized applications. It powers serverless apps, embedded functions, microservices, smart contracts, and IoT devices.（自动摘要，人工深度解析待补充。）",
+        "tag": "Diablo build for modern operating systems",
+        "what": "Diablo build for modern operating systems（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 C++。",
-        "hot": "今日新增 +0 stars，位列 GitHub Trending 日榜（C++）第 12 名。",
+        "hot": "今日新增 +8 stars，位列 GitHub Trending 日榜（C++）第 7 名。",
         "uses": []
       },
       "en": {
-        "tag": "WasmEdge is a lightweight, high-performance, and extensible WebAssembly runtime for cloud native, edge, and decentralized applications. It powers serverless apps, embedded functions, microservices, smart contracts, and IoT devices.",
-        "what": "WasmEdge is a lightweight, high-performance, and extensible WebAssembly runtime for cloud native, edge, and decentralized applications. It powers serverless apps, embedded functions, microservices, smart contracts, and IoT devices. (Auto summary — a human deep dive is pending.)",
+        "tag": "Diablo build for modern operating systems",
+        "what": "Diablo build for modern operating systems (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily C++.",
-        "hot": "+0 stars today, ranked #12 on the daily C++ chart.",
+        "hot": "+8 stars today, ranked #7 on the daily C++ chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "video-search-and-summarization",
-      "full": "NVIDIA-AI-Blueprints/video-search-and-summarization",
-      "rank": 13,
-      "cat": "agent",
+      "slug": "vision_pilot",
+      "full": "autowarefoundation/vision_pilot",
+      "rank": 8,
+      "cat": "ai",
       "lang": "C++",
-      "stars": 1.7,
+      "stars": 0.7,
       "today": "+7",
       "today_n": 7,
       "auto": true,
       "zh": {
-        "tag": "The NVIDIA VSS Blueprint is a suite of reference architectures for building GPU-accelerated vision agents and AI-powered video analytics applications.",
-        "what": "The NVIDIA VSS Blueprint is a suite of reference architectures for building GPU-accelerated vision agents and AI-powered video analytics applications.（自动摘要，人工深度解析待补充。）",
+        "tag": "Free and fully open-source L2 ADAS stack powered by End-to-End AI technology",
+        "what": "Free and fully open-source L2 ADAS stack powered by End-to-End AI technology（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 C++。",
-        "hot": "今日新增 +7 stars，位列 GitHub Trending 日榜（C++）第 13 名。",
+        "hot": "今日新增 +7 stars，位列 GitHub Trending 日榜（C++）第 8 名。",
         "uses": []
       },
       "en": {
-        "tag": "The NVIDIA VSS Blueprint is a suite of reference architectures for building GPU-accelerated vision agents and AI-powered video analytics applications.",
-        "what": "The NVIDIA VSS Blueprint is a suite of reference architectures for building GPU-accelerated vision agents and AI-powered video analytics applications. (Auto summary — a human deep dive is pending.)",
+        "tag": "Free and fully open-source L2 ADAS stack powered by End-to-End AI technology",
+        "what": "Free and fully open-source L2 ADAS stack powered by End-to-End AI technology (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily C++.",
-        "hot": "+7 stars today, ranked #13 on the daily C++ chart.",
+        "hot": "+7 stars today, ranked #8 on the daily C++ chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "rpcs3",
-      "full": "RPCS3/rpcs3",
-      "rank": 14,
-      "cat": "infra",
+      "slug": "lemonade",
+      "full": "lemonade-sdk/lemonade",
+      "rank": 9,
+      "cat": "ai",
       "lang": "C++",
-      "stars": 19.2,
-      "today": "+27",
-      "today_n": 27,
+      "stars": 5.0,
+      "today": "+19",
+      "today_n": 19,
       "auto": true,
       "zh": {
-        "tag": "PlayStation 3 emulator and debugger",
-        "what": "PlayStation 3 emulator and debugger（自动摘要，人工深度解析待补充。）",
+        "tag": "Lemonade helps users discover and run local AI apps by serving optimized LLMs right from their own GPUs and NPUs. Join our discord: https://discord.gg/5xXzkMu8Zk",
+        "what": "Lemonade helps users discover and run local AI apps by serving optimized LLMs right from their own GPUs and NPUs. Join our discord: https://discord.gg/5xXzkMu8Zk（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 C++。",
-        "hot": "今日新增 +27 stars，位列 GitHub Trending 日榜（C++）第 14 名。",
+        "hot": "今日新增 +19 stars，位列 GitHub Trending 日榜（C++）第 9 名。",
         "uses": []
       },
       "en": {
-        "tag": "PlayStation 3 emulator and debugger",
-        "what": "PlayStation 3 emulator and debugger (Auto summary — a human deep dive is pending.)",
+        "tag": "Lemonade helps users discover and run local AI apps by serving optimized LLMs right from their own GPUs and NPUs. Join our discord: https://discord.gg/5xXzkMu8Zk",
+        "what": "Lemonade helps users discover and run local AI apps by serving optimized LLMs right from their own GPUs and NPUs. Join our discord: https://discord.gg/5xXzkMu8Zk (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily C++.",
-        "hot": "+27 stars today, ranked #14 on the daily C++ chart.",
+        "hot": "+19 stars today, ranked #9 on the daily C++ chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "colmap",
-      "full": "colmap/colmap",
+      "slug": "json",
+      "full": "nlohmann/json",
+      "rank": 10,
+      "cat": "infra",
+      "lang": "C++",
+      "stars": 50.1,
+      "today": "+15",
+      "today_n": 15,
+      "auto": true,
+      "zh": {
+        "tag": "JSON for Modern C++",
+        "what": "JSON for Modern C++（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 C++。",
+        "hot": "今日新增 +15 stars，位列 GitHub Trending 日榜（C++）第 10 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "JSON for Modern C++",
+        "what": "JSON for Modern C++ (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily C++.",
+        "hot": "+15 stars today, ranked #10 on the daily C++ chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "cataclysm-dda",
+      "full": "CleverRaven/Cataclysm-DDA",
+      "rank": 11,
+      "cat": "other",
+      "lang": "C++",
+      "stars": 12.7,
+      "today": "+21",
+      "today_n": 21,
+      "auto": true,
+      "zh": {
+        "tag": "Cataclysm - Dark Days Ahead. A turn-based survival game set in a post-apocalyptic world.",
+        "what": "Cataclysm - Dark Days Ahead. A turn-based survival game set in a post-apocalyptic world.（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 C++。",
+        "hot": "今日新增 +21 stars，位列 GitHub Trending 日榜（C++）第 11 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Cataclysm - Dark Days Ahead. A turn-based survival game set in a post-apocalyptic world.",
+        "what": "Cataclysm - Dark Days Ahead. A turn-based survival game set in a post-apocalyptic world. (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily C++.",
+        "hot": "+21 stars today, ranked #11 on the daily C++ chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "openvino",
+      "full": "openvinotoolkit/openvino",
+      "rank": 12,
+      "cat": "ai",
+      "lang": "C++",
+      "stars": 10.5,
+      "today": "+6",
+      "today_n": 6,
+      "auto": true,
+      "zh": {
+        "tag": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+        "what": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 C++。",
+        "hot": "今日新增 +6 stars，位列 GitHub Trending 日榜（C++）第 12 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+        "what": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily C++.",
+        "hot": "+6 stars today, ranked #12 on the daily C++ chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "wsl",
+      "full": "microsoft/WSL",
+      "rank": 13,
+      "cat": "infra",
+      "lang": "C++",
+      "stars": 33.1,
+      "today": "+16",
+      "today_n": 16,
+      "auto": true,
+      "zh": {
+        "tag": "Windows Subsystem for Linux",
+        "what": "Windows Subsystem for Linux（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 C++。",
+        "hot": "今日新增 +16 stars，位列 GitHub Trending 日榜（C++）第 13 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Windows Subsystem for Linux",
+        "what": "Windows Subsystem for Linux (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily C++.",
+        "hot": "+16 stars today, ranked #13 on the daily C++ chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "re-ue4ss",
+      "full": "UE4SS-RE/RE-UE4SS",
+      "rank": 14,
+      "cat": "other",
+      "lang": "C++",
+      "stars": 2.7,
+      "today": "+3",
+      "today_n": 3,
+      "auto": true,
+      "zh": {
+        "tag": "Injectable LUA scripting system, SDK generator, live property editor and other dumping utilities for UE4/5 games",
+        "what": "Injectable LUA scripting system, SDK generator, live property editor and other dumping utilities for UE4/5 games（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 C++。",
+        "hot": "今日新增 +3 stars，位列 GitHub Trending 日榜（C++）第 14 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Injectable LUA scripting system, SDK generator, live property editor and other dumping utilities for UE4/5 games",
+        "what": "Injectable LUA scripting system, SDK generator, live property editor and other dumping utilities for UE4/5 games (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily C++.",
+        "hot": "+3 stars today, ranked #14 on the daily C++ chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "keepassxc",
+      "full": "keepassxreboot/keepassxc",
       "rank": 15,
       "cat": "infra",
       "lang": "C++",
-      "stars": 12.2,
-      "today": "+9",
-      "today_n": 9,
+      "stars": 28.0,
+      "today": "+21",
+      "today_n": 21,
       "auto": true,
       "zh": {
-        "tag": "COLMAP - Structure-from-Motion and Multi-View Stereo",
-        "what": "COLMAP - Structure-from-Motion and Multi-View Stereo（自动摘要，人工深度解析待补充。）",
+        "tag": "KeePassXC is a cross-platform community-driven port of the Windows application “KeePass Password Safe”.",
+        "what": "KeePassXC is a cross-platform community-driven port of the Windows application “KeePass Password Safe”.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 C++。",
-        "hot": "今日新增 +9 stars，位列 GitHub Trending 日榜（C++）第 15 名。",
+        "hot": "今日新增 +21 stars，位列 GitHub Trending 日榜（C++）第 15 名。",
         "uses": []
       },
       "en": {
-        "tag": "COLMAP - Structure-from-Motion and Multi-View Stereo",
-        "what": "COLMAP - Structure-from-Motion and Multi-View Stereo (Auto summary — a human deep dive is pending.)",
+        "tag": "KeePassXC is a cross-platform community-driven port of the Windows application “KeePass Password Safe”.",
+        "what": "KeePassXC is a cross-platform community-driven port of the Windows application “KeePass Password Safe”. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily C++.",
-        "hot": "+9 stars today, ranked #15 on the daily C++ chart.",
+        "hot": "+21 stars today, ranked #15 on the daily C++ chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "duckdb",
-      "full": "duckdb/duckdb",
+      "slug": "onnxruntime",
+      "full": "microsoft/onnxruntime",
       "rank": 16,
-      "cat": "infra",
+      "cat": "ai",
       "lang": "C++",
-      "stars": 39.5,
-      "today": "+40",
-      "today_n": 40,
+      "stars": 21.1,
+      "today": "+12",
+      "today_n": 12,
       "auto": true,
       "zh": {
-        "tag": "DuckDB is an analytical in-process SQL database management system",
-        "what": "DuckDB is an analytical in-process SQL database management system（自动摘要，人工深度解析待补充。）",
+        "tag": "ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator",
+        "what": "ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 C++。",
-        "hot": "今日新增 +40 stars，位列 GitHub Trending 日榜（C++）第 16 名。",
+        "hot": "今日新增 +12 stars，位列 GitHub Trending 日榜（C++）第 16 名。",
         "uses": []
       },
       "en": {
-        "tag": "DuckDB is an analytical in-process SQL database management system",
-        "what": "DuckDB is an analytical in-process SQL database management system (Auto summary — a human deep dive is pending.)",
+        "tag": "ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator",
+        "what": "ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily C++.",
-        "hot": "+40 stars today, ranked #16 on the daily C++ chart.",
+        "hot": "+12 stars today, ranked #16 on the daily C++ chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "adaptixc2",
+      "full": "Adaptix-Framework/AdaptixC2",
+      "rank": 17,
+      "cat": "infra",
+      "lang": "C++",
+      "stars": 3.4,
+      "today": "+5",
+      "today_n": 5,
+      "auto": true,
+      "zh": {
+        "tag": "AdaptixC2 is a highly modular advanced redteam toolkit",
+        "what": "AdaptixC2 is a highly modular advanced redteam toolkit（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 C++。",
+        "hot": "今日新增 +5 stars，位列 GitHub Trending 日榜（C++）第 17 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "AdaptixC2 is a highly modular advanced redteam toolkit",
+        "what": "AdaptixC2 is a highly modular advanced redteam toolkit (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily C++.",
+        "hot": "+5 stars today, ranked #17 on the daily C++ chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "llama.cpp",
+      "full": "ggml-org/llama.cpp",
+      "rank": 18,
+      "cat": "ai",
+      "lang": "C++",
+      "stars": 120.7,
+      "today": "+126",
+      "today_n": 126,
+      "auto": true,
+      "zh": {
+        "tag": "LLM inference in C/C++",
+        "what": "LLM inference in C/C++（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 C++。",
+        "hot": "今日新增 +126 stars，位列 GitHub Trending 日榜（C++）第 18 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "LLM inference in C/C++",
+        "what": "LLM inference in C/C++ (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily C++.",
+        "hot": "+126 stars today, ranked #18 on the daily C++ chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -6796,7 +6740,7 @@ window.TRENDING_DATA = {
     {
       "slug": "chromium",
       "full": "chromium/chromium",
-      "rank": 17,
+      "rank": 19,
       "cat": "infra",
       "lang": "C++",
       "stars": 24.3,
@@ -6808,7 +6752,7 @@ window.TRENDING_DATA = {
         "what": "The official GitHub mirror of the Chromium source（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 C++。",
-        "hot": "今日新增 +15 stars，位列 GitHub Trending 日榜（C++）第 17 名。",
+        "hot": "今日新增 +15 stars，位列 GitHub Trending 日榜（C++）第 19 名。",
         "uses": []
       },
       "en": {
@@ -6816,148 +6760,114 @@ window.TRENDING_DATA = {
         "what": "The official GitHub mirror of the Chromium source (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily C++.",
-        "hot": "+15 stars today, ranked #17 on the daily C++ chart.",
+        "hot": "+15 stars today, ranked #19 on the daily C++ chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "aseprite",
-      "full": "aseprite/aseprite",
-      "rank": 18,
-      "cat": "infra",
+      "slug": "crispasr",
+      "full": "CrispStrobe/CrispASR",
+      "rank": 20,
+      "cat": "ai",
       "lang": "C++",
-      "stars": 38.1,
-      "today": "+30",
-      "today_n": 30,
+      "stars": 0.5,
+      "today": "+7",
+      "today_n": 7,
       "auto": true,
       "zh": {
-        "tag": "Animated sprite editor & pixel art tool (Windows, macOS, Linux)",
-        "what": "Animated sprite editor & pixel art tool (Windows, macOS, Linux)（自动摘要，人工深度解析待补充。）",
+        "tag": "C++ ggml runtime hub for multilingual ASR and TTS models: Cohere Transcribe, Parakeet TDT, Voxtral, Canary 1B v2, etc, plus universal forced alignment, and more",
+        "what": "C++ ggml runtime hub for multilingual ASR and TTS models: Cohere Transcribe, Parakeet TDT, Voxtral, Canary 1B v2, etc, plus universal forced alignment, and more（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 C++。",
-        "hot": "今日新增 +30 stars，位列 GitHub Trending 日榜（C++）第 18 名。",
+        "hot": "今日新增 +7 stars，位列 GitHub Trending 日榜（C++）第 20 名。",
         "uses": []
       },
       "en": {
-        "tag": "Animated sprite editor & pixel art tool (Windows, macOS, Linux)",
-        "what": "Animated sprite editor & pixel art tool (Windows, macOS, Linux) (Auto summary — a human deep dive is pending.)",
+        "tag": "C++ ggml runtime hub for multilingual ASR and TTS models: Cohere Transcribe, Parakeet TDT, Voxtral, Canary 1B v2, etc, plus universal forced alignment, and more",
+        "what": "C++ ggml runtime hub for multilingual ASR and TTS models: Cohere Transcribe, Parakeet TDT, Voxtral, Canary 1B v2, etc, plus universal forced alignment, and more (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily C++.",
-        "hot": "+30 stars today, ranked #18 on the daily C++ chart.",
+        "hot": "+7 stars today, ranked #20 on the daily C++ chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "finceptterminal",
-      "full": "Fincept-Corporation/FinceptTerminal",
-      "rank": 19,
-      "cat": "infra",
+      "slug": "cocos-engine",
+      "full": "cocos/cocos-engine",
+      "rank": 21,
+      "cat": "other",
       "lang": "C++",
-      "stars": 28.6,
-      "today": "+65",
-      "today_n": 65,
+      "stars": 9.7,
+      "today": "+3",
+      "today_n": 3,
       "auto": true,
       "zh": {
-        "tag": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
-        "what": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.（自动摘要，人工深度解析待补充。）",
+        "tag": "Cocos simplifies game creation and distribution with Cocos Creator, a free, open-source, cross-platform game engine. Empowering millions of developers to create high-performance, engaging 2D/3D games and instant web entertainment.",
+        "what": "Cocos simplifies game creation and distribution with Cocos Creator, a free, open-source, cross-platform game engine. Empowering millions of developers to create high-performance, engaging 2D/3D games and instant web entertainment.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 C++。",
-        "hot": "今日新增 +65 stars，位列 GitHub Trending 日榜（C++）第 19 名。",
+        "hot": "今日新增 +3 stars，位列 GitHub Trending 日榜（C++）第 21 名。",
         "uses": []
       },
       "en": {
-        "tag": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
-        "what": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment. (Auto summary — a human deep dive is pending.)",
+        "tag": "Cocos simplifies game creation and distribution with Cocos Creator, a free, open-source, cross-platform game engine. Empowering millions of developers to create high-performance, engaging 2D/3D games and instant web entertainment.",
+        "what": "Cocos simplifies game creation and distribution with Cocos Creator, a free, open-source, cross-platform game engine. Empowering millions of developers to create high-performance, engaging 2D/3D games and instant web entertainment. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily C++.",
-        "hot": "+65 stars today, ranked #19 on the daily C++ chart.",
+        "hot": "+3 stars today, ranked #21 on the daily C++ chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "stitch-skills",
-      "full": "google-labs-code/stitch-skills",
-      "rank": 1,
-      "cat": "agent",
-      "lang": "TypeScript",
-      "stars": 7.6,
-      "today": "+1.1k",
-      "today_n": 1090,
+      "slug": "lammps",
+      "full": "lammps/lammps",
+      "rank": 22,
+      "cat": "infra",
+      "lang": "C++",
+      "stars": 3.0,
+      "today": "+5",
+      "today_n": 5,
       "auto": true,
       "zh": {
-        "tag": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
-        "what": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.（自动摘要，人工深度解析待补充。）",
+        "tag": "Public development project of the LAMMPS MD software package",
+        "what": "Public development project of the LAMMPS MD software package（自动摘要，人工深度解析待补充。）",
         "content": "",
-        "stack": "主语言 TypeScript。",
-        "hot": "本周新增 +1.1k stars，位列 GitHub Trending 周榜第 1 名。",
+        "stack": "主语言 C++。",
+        "hot": "今日新增 +5 stars，位列 GitHub Trending 日榜（C++）第 22 名。",
         "uses": []
       },
       "en": {
-        "tag": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
-        "what": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor. (Auto summary — a human deep dive is pending.)",
+        "tag": "Public development project of the LAMMPS MD software package",
+        "what": "Public development project of the LAMMPS MD software package (Auto summary — a human deep dive is pending.)",
         "content": "",
-        "stack": "Primarily TypeScript.",
-        "hot": "+1.1k stars this week, ranked #1 on the weekly GitHub Trending chart.",
+        "stack": "Primarily C++.",
+        "hot": "+5 stars today, ranked #22 on the daily C++ chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "desktopcommandermcp",
-      "full": "wonderwhy-er/DesktopCommanderMCP",
-      "rank": 2,
-      "cat": "agent",
-      "lang": "TypeScript",
-      "stars": 8.4,
-      "today": "+2.0k",
-      "today_n": 1991,
-      "auto": true,
-      "zh": {
-        "tag": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
-        "what": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 TypeScript。",
-        "hot": "本周新增 +2.0k stars，位列 GitHub Trending 周榜第 2 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
-        "what": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily TypeScript.",
-        "hot": "+2.0k stars this week, ranked #2 on the weekly GitHub Trending chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -6966,7 +6876,7 @@ window.TRENDING_DATA = {
     {
       "slug": "abseil-cpp",
       "full": "abseil/abseil-cpp",
-      "rank": 3,
+      "rank": 2,
       "cat": "infra",
       "lang": "C++",
       "stars": 18.0,
@@ -6978,7 +6888,7 @@ window.TRENDING_DATA = {
         "what": "Abseil Common Libraries (C++)（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 C++。",
-        "hot": "本周新增 +678 stars，位列 GitHub Trending 周榜第 3 名。",
+        "hot": "本周新增 +678 stars，位列 GitHub Trending 周榜第 2 名。",
         "uses": []
       },
       "en": {
@@ -6986,46 +6896,114 @@ window.TRENDING_DATA = {
         "what": "Abseil Common Libraries (C++) (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily C++.",
-        "hot": "+678 stars this week, ranked #3 on the weekly GitHub Trending chart.",
+        "hot": "+678 stars this week, ranked #2 on the weekly GitHub Trending chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "asio",
-      "full": "chriskohlhoff/asio",
-      "rank": 6,
-      "cat": "infra",
-      "lang": "C++",
-      "stars": 6.1,
-      "today": "+271",
-      "today_n": 271,
+      "slug": "stitch-skills",
+      "full": "google-labs-code/stitch-skills",
+      "rank": 3,
+      "cat": "agent",
+      "lang": "TypeScript",
+      "stars": 7.6,
+      "today": "+1.1k",
+      "today_n": 1090,
       "auto": true,
       "zh": {
-        "tag": "Asio C++ Library",
-        "what": "Asio C++ Library（自动摘要，人工深度解析待补充。）",
+        "tag": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+        "what": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.（自动摘要，人工深度解析待补充。）",
         "content": "",
-        "stack": "主语言 C++。",
-        "hot": "本周新增 +271 stars，位列 GitHub Trending 周榜第 6 名。",
+        "stack": "主语言 TypeScript。",
+        "hot": "本周新增 +1.1k stars，位列 GitHub Trending 周榜第 3 名。",
         "uses": []
       },
       "en": {
-        "tag": "Asio C++ Library",
-        "what": "Asio C++ Library (Auto summary — a human deep dive is pending.)",
+        "tag": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+        "what": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor. (Auto summary — a human deep dive is pending.)",
         "content": "",
-        "stack": "Primarily C++.",
-        "hot": "+271 stars this week, ranked #6 on the weekly GitHub Trending chart.",
+        "stack": "Primarily TypeScript.",
+        "hot": "+1.1k stars this week, ranked #3 on the weekly GitHub Trending chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "vibe-trading",
+      "full": "HKUDS/Vibe-Trading",
+      "rank": 4,
+      "cat": "agent",
+      "lang": "Python",
+      "stars": 24.6,
+      "today": "+5.4k",
+      "today_n": 5407,
+      "auto": true,
+      "zh": {
+        "tag": "\"Vibe-Trading: Your Personal Trading Agent\"",
+        "what": "\"Vibe-Trading: Your Personal Trading Agent\"（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 Python。",
+        "hot": "本周新增 +5.4k stars，位列 GitHub Trending 周榜第 4 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "\"Vibe-Trading: Your Personal Trading Agent\"",
+        "what": "\"Vibe-Trading: Your Personal Trading Agent\" (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily Python.",
+        "hot": "+5.4k stars this week, ranked #4 on the weekly GitHub Trending chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "desktopcommandermcp",
+      "full": "wonderwhy-er/DesktopCommanderMCP",
+      "rank": 5,
+      "cat": "agent",
+      "lang": "TypeScript",
+      "stars": 8.4,
+      "today": "+2.0k",
+      "today_n": 1991,
+      "auto": true,
+      "zh": {
+        "tag": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+        "what": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 TypeScript。",
+        "hot": "本周新增 +2.0k stars，位列 GitHub Trending 周榜第 5 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+        "what": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily TypeScript.",
+        "hot": "+2.0k stars this week, ranked #5 on the weekly GitHub Trending chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -7037,7 +7015,7 @@ window.TRENDING_DATA = {
       "rank": 7,
       "cat": "agent",
       "lang": "TypeScript",
-      "stars": 20.8,
+      "stars": 21.0,
       "today": "+5.7k",
       "today_n": 5736,
       "auto": true,
@@ -7059,7 +7037,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -7068,7 +7046,7 @@ window.TRENDING_DATA = {
     {
       "slug": "bun",
       "full": "oven-sh/bun",
-      "rank": 8,
+      "rank": 9,
       "cat": "infra",
       "lang": "Rust",
       "stars": 94.8,
@@ -7080,7 +7058,7 @@ window.TRENDING_DATA = {
         "what": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Rust。",
-        "hot": "本周新增 +1.3k stars，位列 GitHub Trending 周榜第 8 名。",
+        "hot": "本周新增 +1.3k stars，位列 GitHub Trending 周榜第 9 名。",
         "uses": []
       },
       "en": {
@@ -7088,46 +7066,12 @@ window.TRENDING_DATA = {
         "what": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Rust.",
-        "hot": "+1.3k stars this week, ranked #8 on the weekly GitHub Trending chart.",
+        "hot": "+1.3k stars this week, ranked #9 on the weekly GitHub Trending chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "ai-job-search",
-      "full": "MadsLorentzen/ai-job-search",
-      "rank": 10,
-      "cat": "agent",
-      "lang": "TypeScript",
-      "stars": 23.3,
-      "today": "+3.6k",
-      "today_n": 3558,
-      "auto": true,
-      "zh": {
-        "tag": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
-        "what": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 TypeScript。",
-        "hot": "本周新增 +3.6k stars，位列 GitHub Trending 周榜第 10 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
-        "what": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily TypeScript.",
-        "hot": "+3.6k stars this week, ranked #10 on the weekly GitHub Trending chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -7136,10 +7080,10 @@ window.TRENDING_DATA = {
     {
       "slug": "officecli",
       "full": "iOfficeAI/OfficeCLI",
-      "rank": 11,
+      "rank": 10,
       "cat": "agent",
       "lang": "C#",
-      "stars": 18.6,
+      "stars": 18.7,
       "today": "+5.3k",
       "today_n": 5342,
       "auto": true,
@@ -7148,7 +7092,7 @@ window.TRENDING_DATA = {
         "what": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 C#。",
-        "hot": "本周新增 +5.3k stars，位列 GitHub Trending 周榜第 11 名。",
+        "hot": "本周新增 +5.3k stars，位列 GitHub Trending 周榜第 10 名。",
         "uses": []
       },
       "en": {
@@ -7156,80 +7100,12 @@ window.TRENDING_DATA = {
         "what": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily C#.",
-        "hot": "+5.3k stars this week, ranked #11 on the weekly GitHub Trending chart.",
+        "hot": "+5.3k stars this week, ranked #10 on the weekly GitHub Trending chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "codex-plugin-cc",
-      "full": "openai/codex-plugin-cc",
-      "rank": 13,
-      "cat": "agent",
-      "lang": "JavaScript",
-      "stars": 29.0,
-      "today": "+1.9k",
-      "today_n": 1908,
-      "auto": true,
-      "zh": {
-        "tag": "Use Codex from Claude Code to review code or delegate tasks.",
-        "what": "Use Codex from Claude Code to review code or delegate tasks.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 JavaScript。",
-        "hot": "本周新增 +1.9k stars，位列 GitHub Trending 周榜第 13 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "Use Codex from Claude Code to review code or delegate tasks.",
-        "what": "Use Codex from Claude Code to review code or delegate tasks. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily JavaScript.",
-        "hot": "+1.9k stars this week, ranked #13 on the weekly GitHub Trending chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "omniroute",
-      "full": "diegosouzapw/OmniRoute",
-      "rank": 14,
-      "cat": "agent",
-      "lang": "TypeScript",
-      "stars": 18.1,
-      "today": "+3.9k",
-      "today_n": 3920,
-      "auto": true,
-      "zh": {
-        "tag": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
-        "what": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 TypeScript。",
-        "hot": "本周新增 +3.9k stars，位列 GitHub Trending 周榜第 14 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
-        "what": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily TypeScript.",
-        "hot": "+3.9k stars this week, ranked #14 on the weekly GitHub Trending chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -7238,10 +7114,10 @@ window.TRENDING_DATA = {
     {
       "slug": "claude-code-templates",
       "full": "davila7/claude-code-templates",
-      "rank": 15,
+      "rank": 11,
       "cat": "agent",
       "lang": "Python",
-      "stars": 29.6,
+      "stars": 29.7,
       "today": "+1.1k",
       "today_n": 1101,
       "auto": true,
@@ -7250,7 +7126,7 @@ window.TRENDING_DATA = {
         "what": "CLI tool for configuring and monitoring Claude Code（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Python。",
-        "hot": "本周新增 +1.1k stars，位列 GitHub Trending 周榜第 15 名。",
+        "hot": "本周新增 +1.1k stars，位列 GitHub Trending 周榜第 11 名。",
         "uses": []
       },
       "en": {
@@ -7258,12 +7134,46 @@ window.TRENDING_DATA = {
         "what": "CLI tool for configuring and monitoring Claude Code (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Python.",
-        "hot": "+1.1k stars this week, ranked #15 on the weekly GitHub Trending chart.",
+        "hot": "+1.1k stars this week, ranked #11 on the weekly GitHub Trending chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "codex-plugin-cc",
+      "full": "openai/codex-plugin-cc",
+      "rank": 12,
+      "cat": "agent",
+      "lang": "JavaScript",
+      "stars": 29.1,
+      "today": "+1.9k",
+      "today_n": 1908,
+      "auto": true,
+      "zh": {
+        "tag": "Use Codex from Claude Code to review code or delegate tasks.",
+        "what": "Use Codex from Claude Code to review code or delegate tasks.（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 JavaScript。",
+        "hot": "本周新增 +1.9k stars，位列 GitHub Trending 周榜第 12 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Use Codex from Claude Code to review code or delegate tasks.",
+        "what": "Use Codex from Claude Code to review code or delegate tasks. (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily JavaScript.",
+        "hot": "+1.9k stars this week, ranked #12 on the weekly GitHub Trending chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -7272,10 +7182,10 @@ window.TRENDING_DATA = {
     {
       "slug": "impeccable",
       "full": "pbakaus/impeccable",
-      "rank": 16,
+      "rank": 14,
       "cat": "ai",
       "lang": "JavaScript",
-      "stars": 47.4,
+      "stars": 47.6,
       "today": "+2.4k",
       "today_n": 2360,
       "auto": true,
@@ -7284,7 +7194,7 @@ window.TRENDING_DATA = {
         "what": "The design language that makes your AI harness better at design.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 JavaScript。",
-        "hot": "本周新增 +2.4k stars，位列 GitHub Trending 周榜第 16 名。",
+        "hot": "本周新增 +2.4k stars，位列 GitHub Trending 周榜第 14 名。",
         "uses": []
       },
       "en": {
@@ -7292,12 +7202,12 @@ window.TRENDING_DATA = {
         "what": "The design language that makes your AI harness better at design. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily JavaScript.",
-        "hot": "+2.4k stars this week, ranked #16 on the weekly GitHub Trending chart.",
+        "hot": "+2.4k stars this week, ranked #14 on the weekly GitHub Trending chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -7306,10 +7216,10 @@ window.TRENDING_DATA = {
     {
       "slug": "cangjie-skill",
       "full": "kangarooking/cangjie-skill",
-      "rank": 17,
+      "rank": 15,
       "cat": "agent",
       "lang": "Python",
-      "stars": 3.4,
+      "stars": 3.5,
       "today": "+1.0k",
       "today_n": 1043,
       "auto": true,
@@ -7318,7 +7228,7 @@ window.TRENDING_DATA = {
         "what": "把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Python。",
-        "hot": "本周新增 +1.0k stars，位列 GitHub Trending 周榜第 17 名。",
+        "hot": "本周新增 +1.0k stars，位列 GitHub Trending 周榜第 15 名。",
         "uses": []
       },
       "en": {
@@ -7326,12 +7236,46 @@ window.TRENDING_DATA = {
         "what": "把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Python.",
-        "hot": "+1.0k stars this week, ranked #17 on the weekly GitHub Trending chart.",
+        "hot": "+1.0k stars this week, ranked #15 on the weekly GitHub Trending chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "omniroute",
+      "full": "diegosouzapw/OmniRoute",
+      "rank": 16,
+      "cat": "agent",
+      "lang": "TypeScript",
+      "stars": 18.3,
+      "today": "+3.9k",
+      "today_n": 3920,
+      "auto": true,
+      "zh": {
+        "tag": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
+        "what": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 TypeScript。",
+        "hot": "本周新增 +3.9k stars，位列 GitHub Trending 周榜第 16 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
+        "what": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA. (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily TypeScript.",
+        "hot": "+3.9k stars this week, ranked #16 on the weekly GitHub Trending chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -7340,10 +7284,10 @@ window.TRENDING_DATA = {
     {
       "slug": "herdr",
       "full": "ogulcancelik/herdr",
-      "rank": 18,
+      "rank": 17,
       "cat": "agent",
       "lang": "Rust",
-      "stars": 17.3,
+      "stars": 17.5,
       "today": "+2.5k",
       "today_n": 2502,
       "auto": true,
@@ -7352,7 +7296,7 @@ window.TRENDING_DATA = {
         "what": "agent multiplexer that lives in your terminal.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Rust。",
-        "hot": "本周新增 +2.5k stars，位列 GitHub Trending 周榜第 18 名。",
+        "hot": "本周新增 +2.5k stars，位列 GitHub Trending 周榜第 17 名。",
         "uses": []
       },
       "en": {
@@ -7360,12 +7304,12 @@ window.TRENDING_DATA = {
         "what": "agent multiplexer that lives in your terminal. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Rust.",
-        "hot": "+2.5k stars this week, ranked #18 on the weekly GitHub Trending chart.",
+        "hot": "+2.5k stars this week, ranked #17 on the weekly GitHub Trending chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -7374,7 +7318,7 @@ window.TRENDING_DATA = {
     {
       "slug": "checkout",
       "full": "actions/checkout",
-      "rank": 19,
+      "rank": 18,
       "cat": "infra",
       "lang": "TypeScript",
       "stars": 8.5,
@@ -7386,7 +7330,7 @@ window.TRENDING_DATA = {
         "what": "Action for checking out a repo（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 TypeScript。",
-        "hot": "本周新增 +211 stars，位列 GitHub Trending 周榜第 19 名。",
+        "hot": "本周新增 +211 stars，位列 GitHub Trending 周榜第 18 名。",
         "uses": []
       },
       "en": {
@@ -7394,114 +7338,114 @@ window.TRENDING_DATA = {
         "what": "Action for checking out a repo (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily TypeScript.",
-        "hot": "+211 stars this week, ranked #19 on the weekly GitHub Trending chart.",
+        "hot": "+211 stars this week, ranked #18 on the weekly GitHub Trending chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "joltphysics",
-      "full": "jrouwe/JoltPhysics",
-      "rank": 21,
-      "cat": "other",
-      "lang": "C++",
-      "stars": 10.9,
-      "today": "+286",
-      "today_n": 286,
+      "slug": "native",
+      "full": "vercel-labs/native",
+      "rank": 19,
+      "cat": "infra",
+      "lang": "Zig",
+      "stars": 6.5,
+      "today": "+1.0k",
+      "today_n": 1003,
       "auto": true,
       "zh": {
-        "tag": "A multi core friendly rigid body physics and collision detection library. Written in C++. Suitable for games and VR applications. Used by Horizon Forbidden West and Death Stranding 2.",
-        "what": "A multi core friendly rigid body physics and collision detection library. Written in C++. Suitable for games and VR applications. Used by Horizon Forbidden West and Death Stranding 2.（自动摘要，人工深度解析待补充。）",
+        "tag": "Toolkit for building native desktop apps",
+        "what": "Toolkit for building native desktop apps（自动摘要，人工深度解析待补充。）",
         "content": "",
-        "stack": "主语言 C++。",
-        "hot": "本周新增 +286 stars，位列 GitHub Trending 周榜第 21 名。",
+        "stack": "主语言 Zig。",
+        "hot": "本周新增 +1.0k stars，位列 GitHub Trending 周榜第 19 名。",
         "uses": []
       },
       "en": {
-        "tag": "A multi core friendly rigid body physics and collision detection library. Written in C++. Suitable for games and VR applications. Used by Horizon Forbidden West and Death Stranding 2.",
-        "what": "A multi core friendly rigid body physics and collision detection library. Written in C++. Suitable for games and VR applications. Used by Horizon Forbidden West and Death Stranding 2. (Auto summary — a human deep dive is pending.)",
+        "tag": "Toolkit for building native desktop apps",
+        "what": "Toolkit for building native desktop apps (Auto summary — a human deep dive is pending.)",
         "content": "",
-        "stack": "Primarily C++.",
-        "hot": "+286 stars this week, ranked #21 on the weekly GitHub Trending chart.",
+        "stack": "Primarily Zig.",
+        "hot": "+1.0k stars this week, ranked #19 on the weekly GitHub Trending chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "speech-to-speech",
-      "full": "huggingface/speech-to-speech",
+      "slug": "prefect",
+      "full": "PrefectHQ/prefect",
       "rank": 7,
-      "cat": "agent",
-      "lang": "Python",
-      "stars": 6.1,
-      "today": "+418",
-      "today_n": 418,
-      "auto": true,
-      "zh": {
-        "tag": "Build local voice agents with open-source models",
-        "what": "Build local voice agents with open-source models（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Python。",
-        "hot": "本周新增 +418 stars，位列 GitHub Trending 周榜（Python）第 7 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "Build local voice agents with open-source models",
-        "what": "Build local voice agents with open-source models (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Python.",
-        "hot": "+418 stars this week, ranked #7 on the weekly Python chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "cpython",
-      "full": "python/cpython",
-      "rank": 8,
       "cat": "infra",
       "lang": "Python",
-      "stars": 73.8,
-      "today": "+429",
-      "today_n": 429,
+      "stars": 23.4,
+      "today": "+575",
+      "today_n": 575,
       "auto": true,
       "zh": {
-        "tag": "The Python programming language",
-        "what": "The Python programming language（自动摘要，人工深度解析待补充。）",
+        "tag": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python.",
+        "what": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Python。",
-        "hot": "本周新增 +429 stars，位列 GitHub Trending 周榜（Python）第 8 名。",
+        "hot": "本周新增 +575 stars，位列 GitHub Trending 周榜（Python）第 7 名。",
         "uses": []
       },
       "en": {
-        "tag": "The Python programming language",
-        "what": "The Python programming language (Auto summary — a human deep dive is pending.)",
+        "tag": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python.",
+        "what": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Python.",
-        "hot": "+429 stars this week, ranked #8 on the weekly Python chart.",
+        "hot": "+575 stars this week, ranked #7 on the weekly Python chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "nanobot",
+      "full": "HKUDS/nanobot",
+      "rank": 8,
+      "cat": "agent",
+      "lang": "Python",
+      "stars": 45.8,
+      "today": "+625",
+      "today_n": 625,
+      "auto": true,
+      "zh": {
+        "tag": "Lightweight, open-source AI agent for your tools, chats, and workflows.",
+        "what": "Lightweight, open-source AI agent for your tools, chats, and workflows.（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 Python。",
+        "hot": "本周新增 +625 stars，位列 GitHub Trending 周榜（Python）第 8 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Lightweight, open-source AI agent for your tools, chats, and workflows.",
+        "what": "Lightweight, open-source AI agent for your tools, chats, and workflows. (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily Python.",
+        "hot": "+625 stars this week, ranked #8 on the weekly Python chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -7535,41 +7479,41 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "prefect",
-      "full": "PrefectHQ/prefect",
+      "slug": "cpython",
+      "full": "python/cpython",
       "rank": 10,
       "cat": "infra",
       "lang": "Python",
-      "stars": 23.4,
-      "today": "+575",
-      "today_n": 575,
+      "stars": 73.8,
+      "today": "+429",
+      "today_n": 429,
       "auto": true,
       "zh": {
-        "tag": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python.",
-        "what": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python.（自动摘要，人工深度解析待补充。）",
+        "tag": "The Python programming language",
+        "what": "The Python programming language（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Python。",
-        "hot": "本周新增 +575 stars，位列 GitHub Trending 周榜（Python）第 10 名。",
+        "hot": "本周新增 +429 stars，位列 GitHub Trending 周榜（Python）第 10 名。",
         "uses": []
       },
       "en": {
-        "tag": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python.",
-        "what": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python. (Auto summary — a human deep dive is pending.)",
+        "tag": "The Python programming language",
+        "what": "The Python programming language (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Python.",
-        "hot": "+575 stars this week, ranked #10 on the weekly Python chart.",
+        "hot": "+429 stars this week, ranked #10 on the weekly Python chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -7603,41 +7547,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "pixelle-video",
-      "full": "ATH-MaaS/Pixelle-Video",
-      "rank": 12,
-      "cat": "ai",
-      "lang": "Python",
-      "stars": 25.6,
-      "today": "+912",
-      "today_n": 912,
-      "auto": true,
-      "zh": {
-        "tag": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine",
-        "what": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Python。",
-        "hot": "本周新增 +912 stars，位列 GitHub Trending 周榜（Python）第 12 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine",
-        "what": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Python.",
-        "hot": "+912 stars this week, ranked #12 on the weekly Python chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -7646,7 +7556,7 @@ window.TRENDING_DATA = {
     {
       "slug": "core",
       "full": "home-assistant/core",
-      "rank": 13,
+      "rank": 12,
       "cat": "infra",
       "lang": "Python",
       "stars": 89.3,
@@ -7658,7 +7568,7 @@ window.TRENDING_DATA = {
         "what": "🏡 Open source home automation that puts local control and privacy first.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Python。",
-        "hot": "本周新增 +1.2k stars，位列 GitHub Trending 周榜（Python）第 13 名。",
+        "hot": "本周新增 +1.2k stars，位列 GitHub Trending 周榜（Python）第 12 名。",
         "uses": []
       },
       "en": {
@@ -7666,12 +7576,46 @@ window.TRENDING_DATA = {
         "what": "🏡 Open source home automation that puts local control and privacy first. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Python.",
-        "hot": "+1.2k stars this week, ranked #13 on the weekly Python chart.",
+        "hot": "+1.2k stars this week, ranked #12 on the weekly Python chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "pocket-tts",
+      "full": "kyutai-labs/pocket-tts",
+      "rank": 13,
+      "cat": "infra",
+      "lang": "Python",
+      "stars": 7.7,
+      "today": "+846",
+      "today_n": 846,
+      "auto": true,
+      "zh": {
+        "tag": "A TTS that fits in your CPU (and pocket)",
+        "what": "A TTS that fits in your CPU (and pocket)（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 Python。",
+        "hot": "本周新增 +846 stars，位列 GitHub Trending 周榜（Python）第 13 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "A TTS that fits in your CPU (and pocket)",
+        "what": "A TTS that fits in your CPU (and pocket) (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily Python.",
+        "hot": "+846 stars this week, ranked #13 on the weekly Python chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -7705,75 +7649,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "omnivoice-studio",
-      "full": "debpalash/OmniVoice-Studio",
-      "rank": 15,
-      "cat": "other",
-      "lang": "Python",
-      "stars": 8.5,
-      "today": "+357",
-      "today_n": 357,
-      "auto": true,
-      "zh": {
-        "tag": "Local voice clone, video dubbing, dictation and audiobook maker. The open-source ElevenLabs alternative.",
-        "what": "Local voice clone, video dubbing, dictation and audiobook maker. The open-source ElevenLabs alternative.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Python。",
-        "hot": "本周新增 +357 stars，位列 GitHub Trending 周榜（Python）第 15 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "Local voice clone, video dubbing, dictation and audiobook maker. The open-source ElevenLabs alternative.",
-        "what": "Local voice clone, video dubbing, dictation and audiobook maker. The open-source ElevenLabs alternative. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Python.",
-        "hot": "+357 stars this week, ranked #15 on the weekly Python chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "pocket-tts",
-      "full": "kyutai-labs/pocket-tts",
-      "rank": 16,
-      "cat": "infra",
-      "lang": "Python",
-      "stars": 7.7,
-      "today": "+846",
-      "today_n": 846,
-      "auto": true,
-      "zh": {
-        "tag": "A TTS that fits in your CPU (and pocket)",
-        "what": "A TTS that fits in your CPU (and pocket)（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Python。",
-        "hot": "本周新增 +846 stars，位列 GitHub Trending 周榜（Python）第 16 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "A TTS that fits in your CPU (and pocket)",
-        "what": "A TTS that fits in your CPU (and pocket) (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Python.",
-        "hot": "+846 stars this week, ranked #16 on the weekly Python chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -7782,7 +7658,7 @@ window.TRENDING_DATA = {
     {
       "slug": "claude-video",
       "full": "bradautomates/claude-video",
-      "rank": 22,
+      "rank": 15,
       "cat": "agent",
       "lang": "Python",
       "stars": 8.9,
@@ -7794,7 +7670,7 @@ window.TRENDING_DATA = {
         "what": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Python。",
-        "hot": "本月新增 +2.3k stars，位列 GitHub Trending 月榜第 22 名。",
+        "hot": "本周新增 +2.3k stars，位列 GitHub Trending 周榜（Python）第 15 名。",
         "uses": []
       },
       "en": {
@@ -7802,182 +7678,114 @@ window.TRENDING_DATA = {
         "what": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Python.",
-        "hot": "+2.3k stars this month, ranked #22 on the monthly GitHub Trending chart.",
+        "hot": "+2.3k stars this week, ranked #15 on the weekly Python chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "agent-skills-for-context-engineering",
-      "full": "muratcankoylan/Agent-Skills-for-Context-Engineering",
-      "rank": 18,
-      "cat": "agent",
+      "slug": "zapret",
+      "full": "youtubediscord/zapret",
+      "rank": 16,
+      "cat": "infra",
       "lang": "Python",
-      "stars": 17.3,
-      "today": "+259",
-      "today_n": 259,
+      "stars": 1.5,
+      "today": "+179",
+      "today_n": 179,
       "auto": true,
       "zh": {
-        "tag": "A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management.",
-        "what": "A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management.（自动摘要，人工深度解析待补充。）",
+        "tag": "Zapret (Запрет обход блокировки Дискорда и Ютуба)",
+        "what": "Zapret (Запрет обход блокировки Дискорда и Ютуба)（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Python。",
-        "hot": "本周新增 +259 stars，位列 GitHub Trending 周榜（Python）第 18 名。",
+        "hot": "本周新增 +179 stars，位列 GitHub Trending 周榜（Python）第 16 名。",
         "uses": []
       },
       "en": {
-        "tag": "A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management.",
-        "what": "A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management. (Auto summary — a human deep dive is pending.)",
+        "tag": "Zapret (Запрет обход блокировки Дискорда и Ютуба)",
+        "what": "Zapret (Запрет обход блокировки Дискорда и Ютуба) (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Python.",
-        "hot": "+259 stars this week, ranked #18 on the weekly Python chart.",
+        "hot": "+179 stars this week, ranked #16 on the weekly Python chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "rowboat",
-      "full": "rowboatlabs/rowboat",
-      "rank": 8,
-      "cat": "ai",
-      "lang": "TypeScript",
-      "stars": 16.6,
-      "today": "+731",
-      "today_n": 731,
-      "auto": true,
-      "zh": {
-        "tag": "Open-source AI coworker, with memory",
-        "what": "Open-source AI coworker, with memory（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 TypeScript。",
-        "hot": "本周新增 +731 stars，位列 GitHub Trending 周榜（TypeScript）第 8 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "Open-source AI coworker, with memory",
-        "what": "Open-source AI coworker, with memory (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily TypeScript.",
-        "hot": "+731 stars this week, ranked #8 on the weekly TypeScript chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "astryx",
-      "full": "facebook/astryx",
-      "rank": 9,
+      "slug": "claude-code",
+      "full": "anthropics/claude-code",
+      "rank": 17,
       "cat": "agent",
-      "lang": "TypeScript",
-      "stars": 9.1,
-      "today": "+1.8k",
-      "today_n": 1809,
+      "lang": "Python",
+      "stars": 138.1,
+      "today": "+1.1k",
+      "today_n": 1070,
       "auto": true,
       "zh": {
-        "tag": "An open source design system that's fully customizable and agent ready",
-        "what": "An open source design system that's fully customizable and agent ready（自动摘要，人工深度解析待补充。）",
+        "tag": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+        "what": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.（自动摘要，人工深度解析待补充。）",
         "content": "",
-        "stack": "主语言 TypeScript。",
-        "hot": "本周新增 +1.8k stars，位列 GitHub Trending 周榜（TypeScript）第 9 名。",
+        "stack": "主语言 Python。",
+        "hot": "本周新增 +1.1k stars，位列 GitHub Trending 周榜（Python）第 17 名。",
         "uses": []
       },
       "en": {
-        "tag": "An open source design system that's fully customizable and agent ready",
-        "what": "An open source design system that's fully customizable and agent ready (Auto summary — a human deep dive is pending.)",
+        "tag": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+        "what": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands. (Auto summary — a human deep dive is pending.)",
         "content": "",
-        "stack": "Primarily TypeScript.",
-        "hot": "+1.8k stars this week, ranked #9 on the weekly TypeScript chart.",
+        "stack": "Primarily Python.",
+        "hot": "+1.1k stars this week, ranked #17 on the weekly Python chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "next-ai-draw-io",
-      "full": "DayuanJiang/next-ai-draw-io",
-      "rank": 10,
-      "cat": "ai",
-      "lang": "TypeScript",
-      "stars": 33.6,
-      "today": "+710",
-      "today_n": 710,
+      "slug": "verifiers",
+      "full": "PrimeIntellect-ai/verifiers",
+      "rank": 19,
+      "cat": "infra",
+      "lang": "Python",
+      "stars": 4.4,
+      "today": "+90",
+      "today_n": 90,
       "auto": true,
       "zh": {
-        "tag": "A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.",
-        "what": "A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.（自动摘要，人工深度解析待补充。）",
+        "tag": "Our library for RL environments + evals",
+        "what": "Our library for RL environments + evals（自动摘要，人工深度解析待补充。）",
         "content": "",
-        "stack": "主语言 TypeScript。",
-        "hot": "本周新增 +710 stars，位列 GitHub Trending 周榜（TypeScript）第 10 名。",
+        "stack": "主语言 Python。",
+        "hot": "本周新增 +90 stars，位列 GitHub Trending 周榜（Python）第 19 名。",
         "uses": []
       },
       "en": {
-        "tag": "A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.",
-        "what": "A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization. (Auto summary — a human deep dive is pending.)",
+        "tag": "Our library for RL environments + evals",
+        "what": "Our library for RL environments + evals (Auto summary — a human deep dive is pending.)",
         "content": "",
-        "stack": "Primarily TypeScript.",
-        "hot": "+710 stars this week, ranked #10 on the weekly TypeScript chart.",
+        "stack": "Primarily Python.",
+        "hot": "+90 stars this week, ranked #19 on the weekly Python chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "tencentdb-agent-memory",
-      "full": "TencentCloud/TencentDB-Agent-Memory",
-      "rank": 11,
-      "cat": "agent",
-      "lang": "TypeScript",
-      "stars": 9.0,
-      "today": "+1.0k",
-      "today_n": 1044,
-      "auto": true,
-      "zh": {
-        "tag": "TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies.",
-        "what": "TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 TypeScript。",
-        "hot": "本周新增 +1.0k stars，位列 GitHub Trending 周榜（TypeScript）第 11 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies.",
-        "what": "TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily TypeScript.",
-        "hot": "+1.0k stars this week, ranked #11 on the weekly TypeScript chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -7986,7 +7794,7 @@ window.TRENDING_DATA = {
     {
       "slug": "t3code",
       "full": "pingdotgg/t3code",
-      "rank": 12,
+      "rank": 7,
       "cat": "infra",
       "lang": "TypeScript",
       "stars": 14.1,
@@ -7998,7 +7806,7 @@ window.TRENDING_DATA = {
         "what": "该项目今日登上 GitHub Trending 榜单，暂无官方描述，人工深度解析待补充。",
         "content": "",
         "stack": "主语言 TypeScript。",
-        "hot": "本周新增 +631 stars，位列 GitHub Trending 周榜（TypeScript）第 12 名。",
+        "hot": "本周新增 +631 stars，位列 GitHub Trending 周榜（TypeScript）第 7 名。",
         "uses": []
       },
       "en": {
@@ -8006,46 +7814,114 @@ window.TRENDING_DATA = {
         "what": "This project is on GitHub Trending. No description available yet — a human deep dive is pending.",
         "content": "",
         "stack": "Primarily TypeScript.",
-        "hot": "+631 stars this week, ranked #12 on the weekly TypeScript chart.",
+        "hot": "+631 stars this week, ranked #7 on the weekly TypeScript chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "background-agents",
-      "full": "ColeMurray/background-agents",
-      "rank": 13,
-      "cat": "agent",
+      "slug": "next-ai-draw-io",
+      "full": "DayuanJiang/next-ai-draw-io",
+      "rank": 8,
+      "cat": "ai",
       "lang": "TypeScript",
-      "stars": 2.5,
-      "today": "+378",
-      "today_n": 378,
+      "stars": 33.6,
+      "today": "+710",
+      "today_n": 710,
       "auto": true,
       "zh": {
-        "tag": "An open-source background agents coding system",
-        "what": "An open-source background agents coding system（自动摘要，人工深度解析待补充。）",
+        "tag": "A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.",
+        "what": "A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 TypeScript。",
-        "hot": "本周新增 +378 stars，位列 GitHub Trending 周榜（TypeScript）第 13 名。",
+        "hot": "本周新增 +710 stars，位列 GitHub Trending 周榜（TypeScript）第 8 名。",
         "uses": []
       },
       "en": {
-        "tag": "An open-source background agents coding system",
-        "what": "An open-source background agents coding system (Auto summary — a human deep dive is pending.)",
+        "tag": "A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.",
+        "what": "A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily TypeScript.",
-        "hot": "+378 stars this week, ranked #13 on the weekly TypeScript chart.",
+        "hot": "+710 stars this week, ranked #8 on the weekly TypeScript chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "rowboat",
+      "full": "rowboatlabs/rowboat",
+      "rank": 9,
+      "cat": "ai",
+      "lang": "TypeScript",
+      "stars": 16.6,
+      "today": "+731",
+      "today_n": 731,
+      "auto": true,
+      "zh": {
+        "tag": "Open-source AI coworker, with memory",
+        "what": "Open-source AI coworker, with memory（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 TypeScript。",
+        "hot": "本周新增 +731 stars，位列 GitHub Trending 周榜（TypeScript）第 9 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Open-source AI coworker, with memory",
+        "what": "Open-source AI coworker, with memory (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily TypeScript.",
+        "hot": "+731 stars this week, ranked #9 on the weekly TypeScript chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "browseros",
+      "full": "browseros-ai/BrowserOS",
+      "rank": 10,
+      "cat": "agent",
+      "lang": "TypeScript",
+      "stars": 12.3,
+      "today": "+509",
+      "today_n": 509,
+      "auto": true,
+      "zh": {
+        "tag": "🌐 The open-source Agentic browser; alternative to ChatGPT Atlas, Perplexity Comet, Dia.",
+        "what": "🌐 The open-source Agentic browser; alternative to ChatGPT Atlas, Perplexity Comet, Dia.（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 TypeScript。",
+        "hot": "本周新增 +509 stars，位列 GitHub Trending 周榜（TypeScript）第 10 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "🌐 The open-source Agentic browser; alternative to ChatGPT Atlas, Perplexity Comet, Dia.",
+        "what": "🌐 The open-source Agentic browser; alternative to ChatGPT Atlas, Perplexity Comet, Dia. (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily TypeScript.",
+        "hot": "+509 stars this week, ranked #10 on the weekly TypeScript chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -8054,7 +7930,7 @@ window.TRENDING_DATA = {
     {
       "slug": "vue",
       "full": "vuejs/vue",
-      "rank": 14,
+      "rank": 11,
       "cat": "infra",
       "lang": "TypeScript",
       "stars": 210.1,
@@ -8066,7 +7942,7 @@ window.TRENDING_DATA = {
         "what": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 TypeScript。",
-        "hot": "本周新增 +356 stars，位列 GitHub Trending 周榜（TypeScript）第 14 名。",
+        "hot": "本周新增 +356 stars，位列 GitHub Trending 周榜（TypeScript）第 11 名。",
         "uses": []
       },
       "en": {
@@ -8074,12 +7950,80 @@ window.TRENDING_DATA = {
         "what": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily TypeScript.",
-        "hot": "+356 stars this week, ranked #14 on the weekly TypeScript chart.",
+        "hot": "+356 stars this week, ranked #11 on the weekly TypeScript chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "background-agents",
+      "full": "ColeMurray/background-agents",
+      "rank": 12,
+      "cat": "agent",
+      "lang": "TypeScript",
+      "stars": 2.5,
+      "today": "+378",
+      "today_n": 378,
+      "auto": true,
+      "zh": {
+        "tag": "An open-source background agents coding system",
+        "what": "An open-source background agents coding system（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 TypeScript。",
+        "hot": "本周新增 +378 stars，位列 GitHub Trending 周榜（TypeScript）第 12 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "An open-source background agents coding system",
+        "what": "An open-source background agents coding system (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily TypeScript.",
+        "hot": "+378 stars this week, ranked #12 on the weekly TypeScript chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "ai-job-search",
+      "full": "MadsLorentzen/ai-job-search",
+      "rank": 3,
+      "cat": "agent",
+      "lang": "TypeScript",
+      "stars": 23.4,
+      "today": "+3.6k",
+      "today_n": 3558,
+      "auto": true,
+      "zh": {
+        "tag": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+        "what": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 TypeScript。",
+        "hot": "本月新增 +3.6k stars，位列 GitHub Trending 月榜第 3 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+        "what": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it. (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily TypeScript.",
+        "hot": "+3.6k stars this month, ranked #3 on the monthly GitHub Trending chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -8088,7 +8032,7 @@ window.TRENDING_DATA = {
     {
       "slug": "typescript",
       "full": "microsoft/TypeScript",
-      "rank": 15,
+      "rank": 16,
       "cat": "infra",
       "lang": "TypeScript",
       "stars": 109.8,
@@ -8100,7 +8044,7 @@ window.TRENDING_DATA = {
         "what": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 TypeScript。",
-        "hot": "本周新增 +464 stars，位列 GitHub Trending 周榜（TypeScript）第 15 名。",
+        "hot": "本周新增 +464 stars，位列 GitHub Trending 周榜（TypeScript）第 16 名。",
         "uses": []
       },
       "en": {
@@ -8108,46 +8052,12 @@ window.TRENDING_DATA = {
         "what": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily TypeScript.",
-        "hot": "+464 stars this week, ranked #15 on the weekly TypeScript chart.",
+        "hot": "+464 stars this week, ranked #16 on the weekly TypeScript chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "prisma",
-      "full": "prisma/prisma",
-      "rank": 16,
-      "cat": "infra",
-      "lang": "TypeScript",
-      "stars": 47.4,
-      "today": "+671",
-      "today_n": 671,
-      "auto": true,
-      "zh": {
-        "tag": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB",
-        "what": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 TypeScript。",
-        "hot": "本周新增 +671 stars，位列 GitHub Trending 周榜（TypeScript）第 16 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB",
-        "what": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily TypeScript.",
-        "hot": "+671 stars this week, ranked #16 on the weekly TypeScript chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -8181,7 +8091,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -8190,10 +8100,10 @@ window.TRENDING_DATA = {
     {
       "slug": "pi",
       "full": "earendil-works/pi",
-      "rank": 19,
+      "rank": 18,
       "cat": "agent",
       "lang": "TypeScript",
-      "stars": 72.0,
+      "stars": 72.1,
       "today": "+2.7k",
       "today_n": 2732,
       "auto": true,
@@ -8202,7 +8112,7 @@ window.TRENDING_DATA = {
         "what": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 TypeScript。",
-        "hot": "本周新增 +2.7k stars，位列 GitHub Trending 周榜（TypeScript）第 19 名。",
+        "hot": "本周新增 +2.7k stars，位列 GitHub Trending 周榜（TypeScript）第 18 名。",
         "uses": []
       },
       "en": {
@@ -8210,80 +8120,114 @@ window.TRENDING_DATA = {
         "what": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily TypeScript.",
-        "hot": "+2.7k stars this week, ranked #19 on the weekly TypeScript chart.",
+        "hot": "+2.7k stars this week, ranked #18 on the weekly TypeScript chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "flint-chart",
-      "full": "microsoft/flint-chart",
+      "slug": "prisma",
+      "full": "prisma/prisma",
+      "rank": 19,
+      "cat": "infra",
+      "lang": "TypeScript",
+      "stars": 47.3,
+      "today": "+671",
+      "today_n": 671,
+      "auto": true,
+      "zh": {
+        "tag": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB",
+        "what": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 TypeScript。",
+        "hot": "本周新增 +671 stars，位列 GitHub Trending 周榜（TypeScript）第 19 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB",
+        "what": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily TypeScript.",
+        "hot": "+671 stars this week, ranked #19 on the weekly TypeScript chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "ui",
+      "full": "shadcn-ui/ui",
       "rank": 20,
+      "cat": "infra",
+      "lang": "TypeScript",
+      "stars": 119.2,
+      "today": "+704",
+      "today_n": 704,
+      "auto": true,
+      "zh": {
+        "tag": "A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.",
+        "what": "A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 TypeScript。",
+        "hot": "本周新增 +704 stars，位列 GitHub Trending 周榜（TypeScript）第 20 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.",
+        "what": "A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code. (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily TypeScript.",
+        "hot": "+704 stars this week, ranked #20 on the weekly TypeScript chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "claudian",
+      "full": "YishenTu/claudian",
+      "rank": 21,
       "cat": "agent",
       "lang": "TypeScript",
-      "stars": 1.8,
-      "today": "+949",
-      "today_n": 949,
+      "stars": 14.1,
+      "today": "+337",
+      "today_n": 337,
       "auto": true,
       "zh": {
-        "tag": "🪄 Flint is a visualization language that lets AI agents reliably create expressive, good-looking charts from simple, human-editable chart specs.",
-        "what": "🪄 Flint is a visualization language that lets AI agents reliably create expressive, good-looking charts from simple, human-editable chart specs.（自动摘要，人工深度解析待补充。）",
+        "tag": "An Obsidian plugin that embeds Claude Code/Codex as an AI collaborator in your vault",
+        "what": "An Obsidian plugin that embeds Claude Code/Codex as an AI collaborator in your vault（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 TypeScript。",
-        "hot": "本周新增 +949 stars，位列 GitHub Trending 周榜（TypeScript）第 20 名。",
+        "hot": "本周新增 +337 stars，位列 GitHub Trending 周榜（TypeScript）第 21 名。",
         "uses": []
       },
       "en": {
-        "tag": "🪄 Flint is a visualization language that lets AI agents reliably create expressive, good-looking charts from simple, human-editable chart specs.",
-        "what": "🪄 Flint is a visualization language that lets AI agents reliably create expressive, good-looking charts from simple, human-editable chart specs. (Auto summary — a human deep dive is pending.)",
+        "tag": "An Obsidian plugin that embeds Claude Code/Codex as an AI collaborator in your vault",
+        "what": "An Obsidian plugin that embeds Claude Code/Codex as an AI collaborator in your vault (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily TypeScript.",
-        "hot": "+949 stars this week, ranked #20 on the weekly TypeScript chart.",
+        "hot": "+337 stars this week, ranked #21 on the weekly TypeScript chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "storybook",
-      "full": "storybookjs/storybook",
-      "rank": 21,
-      "cat": "other",
-      "lang": "TypeScript",
-      "stars": 90.6,
-      "today": "+216",
-      "today_n": 216,
-      "auto": true,
-      "zh": {
-        "tag": "Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation",
-        "what": "Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 TypeScript。",
-        "hot": "本周新增 +216 stars，位列 GitHub Trending 周榜（TypeScript）第 21 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation",
-        "what": "Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily TypeScript.",
-        "hot": "+216 stars this week, ranked #21 on the weekly TypeScript chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -8317,7 +8261,41 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "codex-desktop-linux",
+      "full": "ilysenko/codex-desktop-linux",
+      "rank": 5,
+      "cat": "agent",
+      "lang": "JavaScript",
+      "stars": 2.7,
+      "today": "+424",
+      "today_n": 424,
+      "auto": true,
+      "zh": {
+        "tag": "Unofficial ChatGPT desktop app for Linux (formerly the Codex app), built locally from OpenAI’s official macOS app. Includes Chat, Work, and Codex. Packages for Debian/Ubuntu (.deb), Fedora/openSUSE (.rpm), Arch (pacman), Nix/NixOS, and AppImage, with Wayland and X11 support.",
+        "what": "Unofficial ChatGPT desktop app for Linux (formerly the Codex app), built locally from OpenAI’s official macOS app. Includes Chat, Work, and Codex. Packages for Debian/Ubuntu (.deb), Fedora/openSUSE (.rpm), Arch (pacman), Nix/NixOS, and AppImage, with Wayland and X11 support.（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 JavaScript。",
+        "hot": "本周新增 +424 stars，位列 GitHub Trending 周榜（JavaScript）第 5 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Unofficial ChatGPT desktop app for Linux (formerly the Codex app), built locally from OpenAI’s official macOS app. Includes Chat, Work, and Codex. Packages for Debian/Ubuntu (.deb), Fedora/openSUSE (.rpm), Arch (pacman), Nix/NixOS, and AppImage, with Wayland and X11 support.",
+        "what": "Unofficial ChatGPT desktop app for Linux (formerly the Codex app), built locally from OpenAI’s official macOS app. Includes Chat, Work, and Codex. Packages for Debian/Ubuntu (.deb), Fedora/openSUSE (.rpm), Arch (pacman), Nix/NixOS, and AppImage, with Wayland and X11 support. (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily JavaScript.",
+        "hot": "+424 stars this week, ranked #5 on the weekly JavaScript chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -8329,7 +8307,7 @@ window.TRENDING_DATA = {
       "rank": 4,
       "cat": "agent",
       "lang": "JavaScript",
-      "stars": 58.5,
+      "stars": 58.6,
       "today": "+3.4k",
       "today_n": 3402,
       "auto": true,
@@ -8351,177 +8329,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "9router",
-      "full": "decolua/9router",
-      "rank": 5,
-      "cat": "agent",
-      "lang": "JavaScript",
-      "stars": 22.4,
-      "today": "+1.1k",
-      "today_n": 1081,
-      "auto": true,
-      "zh": {
-        "tag": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
-        "what": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 JavaScript。",
-        "hot": "本周新增 +1.1k stars，位列 GitHub Trending 周榜（JavaScript）第 5 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
-        "what": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily JavaScript.",
-        "hot": "+1.1k stars this week, ranked #5 on the weekly JavaScript chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "prettier",
-      "full": "prettier/prettier",
-      "rank": 6,
-      "cat": "infra",
-      "lang": "JavaScript",
-      "stars": 52.1,
-      "today": "+126",
-      "today_n": 126,
-      "auto": true,
-      "zh": {
-        "tag": "Prettier is an opinionated code formatter.",
-        "what": "Prettier is an opinionated code formatter.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 JavaScript。",
-        "hot": "本周新增 +126 stars，位列 GitHub Trending 周榜（JavaScript）第 6 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "Prettier is an opinionated code formatter.",
-        "what": "Prettier is an opinionated code formatter. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily JavaScript.",
-        "hot": "+126 stars this week, ranked #6 on the weekly JavaScript chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "eslint",
-      "full": "eslint/eslint",
-      "rank": 7,
-      "cat": "infra",
-      "lang": "JavaScript",
-      "stars": 27.4,
-      "today": "+99",
-      "today_n": 99,
-      "auto": true,
-      "zh": {
-        "tag": "Find and fix problems in your JavaScript code.",
-        "what": "Find and fix problems in your JavaScript code.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 JavaScript。",
-        "hot": "本周新增 +99 stars，位列 GitHub Trending 周榜（JavaScript）第 7 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "Find and fix problems in your JavaScript code.",
-        "what": "Find and fix problems in your JavaScript code. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily JavaScript.",
-        "hot": "+99 stars this week, ranked #7 on the weekly JavaScript chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "codex-desktop-linux",
-      "full": "ilysenko/codex-desktop-linux",
-      "rank": 8,
-      "cat": "agent",
-      "lang": "JavaScript",
-      "stars": 2.7,
-      "today": "+424",
-      "today_n": 424,
-      "auto": true,
-      "zh": {
-        "tag": "Unofficial ChatGPT desktop app for Linux (formerly the Codex app), built locally from OpenAI’s official macOS app. Includes Chat, Work, and Codex. Packages for Debian/Ubuntu (.deb), Fedora/openSUSE (.rpm), Arch (pacman), Nix/NixOS, and AppImage, with Wayland and X11 support.",
-        "what": "Unofficial ChatGPT desktop app for Linux (formerly the Codex app), built locally from OpenAI’s official macOS app. Includes Chat, Work, and Codex. Packages for Debian/Ubuntu (.deb), Fedora/openSUSE (.rpm), Arch (pacman), Nix/NixOS, and AppImage, with Wayland and X11 support.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 JavaScript。",
-        "hot": "本周新增 +424 stars，位列 GitHub Trending 周榜（JavaScript）第 8 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "Unofficial ChatGPT desktop app for Linux (formerly the Codex app), built locally from OpenAI’s official macOS app. Includes Chat, Work, and Codex. Packages for Debian/Ubuntu (.deb), Fedora/openSUSE (.rpm), Arch (pacman), Nix/NixOS, and AppImage, with Wayland and X11 support.",
-        "what": "Unofficial ChatGPT desktop app for Linux (formerly the Codex app), built locally from OpenAI’s official macOS app. Includes Chat, Work, and Codex. Packages for Debian/Ubuntu (.deb), Fedora/openSUSE (.rpm), Arch (pacman), Nix/NixOS, and AppImage, with Wayland and X11 support. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily JavaScript.",
-        "hot": "+424 stars this week, ranked #8 on the weekly JavaScript chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "whatsapp-business-jaspers-market",
-      "full": "fbsamples/whatsapp-business-jaspers-market",
-      "rank": 9,
-      "cat": "infra",
-      "lang": "JavaScript",
-      "stars": 0.5,
-      "today": "+77",
-      "today_n": 77,
-      "auto": true,
-      "zh": {
-        "tag": "Sample Whatsapp App - Jasper's Market",
-        "what": "Sample Whatsapp App - Jasper's Market（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 JavaScript。",
-        "hot": "本周新增 +77 stars，位列 GitHub Trending 周榜（JavaScript）第 9 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "Sample Whatsapp App - Jasper's Market",
-        "what": "Sample Whatsapp App - Jasper's Market (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily JavaScript.",
-        "hot": "+77 stars this week, ranked #9 on the weekly JavaScript chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -8530,7 +8338,7 @@ window.TRENDING_DATA = {
     {
       "slug": "fastify",
       "full": "fastify/fastify",
-      "rank": 10,
+      "rank": 7,
       "cat": "infra",
       "lang": "JavaScript",
       "stars": 36.7,
@@ -8542,7 +8350,7 @@ window.TRENDING_DATA = {
         "what": "Fast and low overhead web framework, for Node.js（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 JavaScript。",
-        "hot": "本周新增 +168 stars，位列 GitHub Trending 周榜（JavaScript）第 10 名。",
+        "hot": "本周新增 +168 stars，位列 GitHub Trending 周榜（JavaScript）第 7 名。",
         "uses": []
       },
       "en": {
@@ -8550,148 +8358,46 @@ window.TRENDING_DATA = {
         "what": "Fast and low overhead web framework, for Node.js (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily JavaScript.",
-        "hot": "+168 stars this week, ranked #10 on the weekly JavaScript chart.",
+        "hot": "+168 stars this week, ranked #7 on the weekly JavaScript chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "node",
-      "full": "nodejs/node",
-      "rank": 11,
-      "cat": "infra",
+      "slug": "9router",
+      "full": "decolua/9router",
+      "rank": 8,
+      "cat": "agent",
       "lang": "JavaScript",
-      "stars": 118.3,
-      "today": "+455",
-      "today_n": 455,
+      "stars": 22.4,
+      "today": "+1.1k",
+      "today_n": 1081,
       "auto": true,
       "zh": {
-        "tag": "Node.js JavaScript runtime ✨🐢🚀✨",
-        "what": "Node.js JavaScript runtime ✨🐢🚀✨（自动摘要，人工深度解析待补充。）",
+        "tag": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+        "what": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 JavaScript。",
-        "hot": "本周新增 +455 stars，位列 GitHub Trending 周榜（JavaScript）第 11 名。",
+        "hot": "本周新增 +1.1k stars，位列 GitHub Trending 周榜（JavaScript）第 8 名。",
         "uses": []
       },
       "en": {
-        "tag": "Node.js JavaScript runtime ✨🐢🚀✨",
-        "what": "Node.js JavaScript runtime ✨🐢🚀✨ (Auto summary — a human deep dive is pending.)",
+        "tag": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+        "what": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily JavaScript.",
-        "hot": "+455 stars this week, ranked #11 on the weekly JavaScript chart.",
+        "hot": "+1.1k stars this week, ranked #8 on the weekly JavaScript chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "webtorrent",
-      "full": "webtorrent/webtorrent",
-      "rank": 12,
-      "cat": "infra",
-      "lang": "JavaScript",
-      "stars": 31.3,
-      "today": "+129",
-      "today_n": 129,
-      "auto": true,
-      "zh": {
-        "tag": "⚡️ Streaming torrent client for the web",
-        "what": "⚡️ Streaming torrent client for the web（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 JavaScript。",
-        "hot": "本周新增 +129 stars，位列 GitHub Trending 周榜（JavaScript）第 12 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "⚡️ Streaming torrent client for the web",
-        "what": "⚡️ Streaming torrent client for the web (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily JavaScript.",
-        "hot": "+129 stars this week, ranked #12 on the weekly JavaScript chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "gemini-watermark-remover",
-      "full": "GargantuaX/gemini-watermark-remover",
-      "rank": 13,
-      "cat": "ai",
-      "lang": "JavaScript",
-      "stars": 4.9,
-      "today": "+200",
-      "today_n": 200,
-      "auto": true,
-      "zh": {
-        "tag": "A high-performance, 100% client-side tool for removing Gemini AI image & video watermarks. Built with pure JavaScript using mathematically precise Reverse Alpha Blending. / 基于 JavaScript 的纯浏览器端 Gemini AI 图像和视频无损去水印工具，使用数学精确的反向 Alpha 混合算法",
-        "what": "A high-performance, 100% client-side tool for removing Gemini AI image & video watermarks. Built with pure JavaScript using mathematically precise Reverse Alpha Blending. / 基于 JavaScript 的纯浏览器端 Gemini AI 图像和视频无损去水印工具，使用数学精确的反向 Alpha 混合算法（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 JavaScript。",
-        "hot": "本周新增 +200 stars，位列 GitHub Trending 周榜（JavaScript）第 13 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "A high-performance, 100% client-side tool for removing Gemini AI image & video watermarks. Built with pure JavaScript using mathematically precise Reverse Alpha Blending. / 基于 JavaScript 的纯浏览器端 Gemini AI 图像和视频无损去水印工具，使用数学精确的反向 Alpha 混合算法",
-        "what": "A high-performance, 100% client-side tool for removing Gemini AI image & video watermarks. Built with pure JavaScript using mathematically precise Reverse Alpha Blending. / 基于 JavaScript 的纯浏览器端 Gemini AI 图像和视频无损去水印工具，使用数学精确的反向 Alpha 混合算法 (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily JavaScript.",
-        "hot": "+200 stars this week, ranked #13 on the weekly JavaScript chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "follow-builders",
-      "full": "zarazhangrui/follow-builders",
-      "rank": 14,
-      "cat": "ai",
-      "lang": "JavaScript",
-      "stars": 5.9,
-      "today": "+170",
-      "today_n": 170,
-      "auto": true,
-      "zh": {
-        "tag": "AI builders digest — monitors top AI builders on X and YouTube podcasts, remixes their content into digestible summaries. Follow builders, not influencers.",
-        "what": "AI builders digest — monitors top AI builders on X and YouTube podcasts, remixes their content into digestible summaries. Follow builders, not influencers.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 JavaScript。",
-        "hot": "本周新增 +170 stars，位列 GitHub Trending 周榜（JavaScript）第 14 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "AI builders digest — monitors top AI builders on X and YouTube podcasts, remixes their content into digestible summaries. Follow builders, not influencers.",
-        "what": "AI builders digest — monitors top AI builders on X and YouTube podcasts, remixes their content into digestible summaries. Follow builders, not influencers. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily JavaScript.",
-        "hot": "+170 stars this week, ranked #14 on the weekly JavaScript chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -8700,7 +8406,7 @@ window.TRENDING_DATA = {
     {
       "slug": "plugins",
       "full": "openai/plugins",
-      "rank": 15,
+      "rank": 9,
       "cat": "ai",
       "lang": "JavaScript",
       "stars": 4.6,
@@ -8712,7 +8418,7 @@ window.TRENDING_DATA = {
         "what": "OpenAI Plugins（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 JavaScript。",
-        "hot": "本周新增 +454 stars，位列 GitHub Trending 周榜（JavaScript）第 15 名。",
+        "hot": "本周新增 +454 stars，位列 GitHub Trending 周榜（JavaScript）第 9 名。",
         "uses": []
       },
       "en": {
@@ -8720,12 +8426,114 @@ window.TRENDING_DATA = {
         "what": "OpenAI Plugins (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily JavaScript.",
-        "hot": "+454 stars this week, ranked #15 on the weekly JavaScript chart.",
+        "hot": "+454 stars this week, ranked #9 on the weekly JavaScript chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "node",
+      "full": "nodejs/node",
+      "rank": 10,
+      "cat": "infra",
+      "lang": "JavaScript",
+      "stars": 118.3,
+      "today": "+455",
+      "today_n": 455,
+      "auto": true,
+      "zh": {
+        "tag": "Node.js JavaScript runtime ✨🐢🚀✨",
+        "what": "Node.js JavaScript runtime ✨🐢🚀✨（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 JavaScript。",
+        "hot": "本周新增 +455 stars，位列 GitHub Trending 周榜（JavaScript）第 10 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Node.js JavaScript runtime ✨🐢🚀✨",
+        "what": "Node.js JavaScript runtime ✨🐢🚀✨ (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily JavaScript.",
+        "hot": "+455 stars this week, ranked #10 on the weekly JavaScript chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "whatsapp-business-jaspers-market",
+      "full": "fbsamples/whatsapp-business-jaspers-market",
+      "rank": 12,
+      "cat": "infra",
+      "lang": "JavaScript",
+      "stars": 0.5,
+      "today": "+77",
+      "today_n": 77,
+      "auto": true,
+      "zh": {
+        "tag": "Sample Whatsapp App - Jasper's Market",
+        "what": "Sample Whatsapp App - Jasper's Market（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 JavaScript。",
+        "hot": "本周新增 +77 stars，位列 GitHub Trending 周榜（JavaScript）第 12 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Sample Whatsapp App - Jasper's Market",
+        "what": "Sample Whatsapp App - Jasper's Market (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily JavaScript.",
+        "hot": "+77 stars this week, ranked #12 on the weekly JavaScript chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "webpack",
+      "full": "webpack/webpack",
+      "rank": 13,
+      "cat": "infra",
+      "lang": "JavaScript",
+      "stars": 65.8,
+      "today": "+120",
+      "today_n": 120,
+      "auto": true,
+      "zh": {
+        "tag": "A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through \"loaders\", modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff.",
+        "what": "A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through \"loaders\", modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff.（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 JavaScript。",
+        "hot": "本周新增 +120 stars，位列 GitHub Trending 周榜（JavaScript）第 13 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through \"loaders\", modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff.",
+        "what": "A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through \"loaders\", modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff. (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily JavaScript.",
+        "hot": "+120 stars this week, ranked #13 on the weekly JavaScript chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -8734,7 +8542,7 @@ window.TRENDING_DATA = {
     {
       "slug": "svelte",
       "full": "sveltejs/svelte",
-      "rank": 16,
+      "rank": 14,
       "cat": "infra",
       "lang": "JavaScript",
       "stars": 87.6,
@@ -8746,7 +8554,7 @@ window.TRENDING_DATA = {
         "what": "web development for the rest of us（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 JavaScript。",
-        "hot": "本周新增 +275 stars，位列 GitHub Trending 周榜（JavaScript）第 16 名。",
+        "hot": "本周新增 +275 stars，位列 GitHub Trending 周榜（JavaScript）第 14 名。",
         "uses": []
       },
       "en": {
@@ -8754,12 +8562,80 @@ window.TRENDING_DATA = {
         "what": "web development for the rest of us (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily JavaScript.",
-        "hot": "+275 stars this week, ranked #16 on the weekly JavaScript chart.",
+        "hot": "+275 stars this week, ranked #14 on the weekly JavaScript chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "gemini-watermark-remover",
+      "full": "GargantuaX/gemini-watermark-remover",
+      "rank": 15,
+      "cat": "ai",
+      "lang": "JavaScript",
+      "stars": 4.9,
+      "today": "+200",
+      "today_n": 200,
+      "auto": true,
+      "zh": {
+        "tag": "A high-performance, 100% client-side tool for removing Gemini AI image & video watermarks. Built with pure JavaScript using mathematically precise Reverse Alpha Blending. / 基于 JavaScript 的纯浏览器端 Gemini AI 图像和视频无损去水印工具，使用数学精确的反向 Alpha 混合算法",
+        "what": "A high-performance, 100% client-side tool for removing Gemini AI image & video watermarks. Built with pure JavaScript using mathematically precise Reverse Alpha Blending. / 基于 JavaScript 的纯浏览器端 Gemini AI 图像和视频无损去水印工具，使用数学精确的反向 Alpha 混合算法（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 JavaScript。",
+        "hot": "本周新增 +200 stars，位列 GitHub Trending 周榜（JavaScript）第 15 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "A high-performance, 100% client-side tool for removing Gemini AI image & video watermarks. Built with pure JavaScript using mathematically precise Reverse Alpha Blending. / 基于 JavaScript 的纯浏览器端 Gemini AI 图像和视频无损去水印工具，使用数学精确的反向 Alpha 混合算法",
+        "what": "A high-performance, 100% client-side tool for removing Gemini AI image & video watermarks. Built with pure JavaScript using mathematically precise Reverse Alpha Blending. / 基于 JavaScript 的纯浏览器端 Gemini AI 图像和视频无损去水印工具，使用数学精确的反向 Alpha 混合算法 (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily JavaScript.",
+        "hot": "+200 stars this week, ranked #15 on the weekly JavaScript chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "follow-builders",
+      "full": "zarazhangrui/follow-builders",
+      "rank": 16,
+      "cat": "ai",
+      "lang": "JavaScript",
+      "stars": 5.9,
+      "today": "+170",
+      "today_n": 170,
+      "auto": true,
+      "zh": {
+        "tag": "AI builders digest — monitors top AI builders on X and YouTube podcasts, remixes their content into digestible summaries. Follow builders, not influencers.",
+        "what": "AI builders digest — monitors top AI builders on X and YouTube podcasts, remixes their content into digestible summaries. Follow builders, not influencers.（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 JavaScript。",
+        "hot": "本周新增 +170 stars，位列 GitHub Trending 周榜（JavaScript）第 16 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "AI builders digest — monitors top AI builders on X and YouTube podcasts, remixes their content into digestible summaries. Follow builders, not influencers.",
+        "what": "AI builders digest — monitors top AI builders on X and YouTube podcasts, remixes their content into digestible summaries. Follow builders, not influencers. (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily JavaScript.",
+        "hot": "+170 stars this week, ranked #16 on the weekly JavaScript chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -8793,75 +8669,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "webpack",
-      "full": "webpack/webpack",
-      "rank": 18,
-      "cat": "infra",
-      "lang": "JavaScript",
-      "stars": 65.8,
-      "today": "+120",
-      "today_n": 120,
-      "auto": true,
-      "zh": {
-        "tag": "A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through \"loaders\", modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff.",
-        "what": "A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through \"loaders\", modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 JavaScript。",
-        "hot": "本周新增 +120 stars，位列 GitHub Trending 周榜（JavaScript）第 18 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through \"loaders\", modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff.",
-        "what": "A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through \"loaders\", modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily JavaScript.",
-        "hot": "+120 stars this week, ranked #18 on the weekly JavaScript chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "font-awesome",
-      "full": "FortAwesome/Font-Awesome",
-      "rank": 19,
-      "cat": "other",
-      "lang": "JavaScript",
-      "stars": 76.8,
-      "today": "+41",
-      "today_n": 41,
-      "auto": true,
-      "zh": {
-        "tag": "The iconic SVG, font, and CSS toolkit",
-        "what": "The iconic SVG, font, and CSS toolkit（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 JavaScript。",
-        "hot": "本周新增 +41 stars，位列 GitHub Trending 周榜（JavaScript）第 19 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "The iconic SVG, font, and CSS toolkit",
-        "what": "The iconic SVG, font, and CSS toolkit (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily JavaScript.",
-        "hot": "+41 stars this week, ranked #19 on the weekly JavaScript chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -8870,7 +8678,7 @@ window.TRENDING_DATA = {
     {
       "slug": "cubesandbox",
       "full": "TencentCloud/CubeSandbox",
-      "rank": 3,
+      "rank": 4,
       "cat": "agent",
       "lang": "Rust",
       "stars": 10.4,
@@ -8882,7 +8690,7 @@ window.TRENDING_DATA = {
         "what": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Rust。",
-        "hot": "本周新增 +1.1k stars，位列 GitHub Trending 周榜（Rust）第 3 名。",
+        "hot": "本周新增 +1.1k stars，位列 GitHub Trending 周榜（Rust）第 4 名。",
         "uses": []
       },
       "en": {
@@ -8890,12 +8698,12 @@ window.TRENDING_DATA = {
         "what": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Rust.",
-        "hot": "+1.1k stars this week, ranked #3 on the weekly Rust chart.",
+        "hot": "+1.1k stars this week, ranked #4 on the weekly Rust chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -8929,7 +8737,41 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "pgrust",
+      "full": "malisper/pgrust",
+      "rank": 7,
+      "cat": "infra",
+      "lang": "Rust",
+      "stars": 3.3,
+      "today": "+2.4k",
+      "today_n": 2352,
+      "auto": true,
+      "zh": {
+        "tag": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
+        "what": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 Rust。",
+        "hot": "本周新增 +2.4k stars，位列 GitHub Trending 周榜（Rust）第 7 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
+        "what": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily Rust.",
+        "hot": "+2.4k stars this week, ranked #7 on the weekly Rust chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -8938,7 +8780,7 @@ window.TRENDING_DATA = {
     {
       "slug": "rust",
       "full": "rust-lang/rust",
-      "rank": 7,
+      "rank": 9,
       "cat": "infra",
       "lang": "Rust",
       "stars": 114.7,
@@ -8950,7 +8792,7 @@ window.TRENDING_DATA = {
         "what": "Empowering everyone to build reliable and efficient software.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Rust。",
-        "hot": "本周新增 +525 stars，位列 GitHub Trending 周榜（Rust）第 7 名。",
+        "hot": "本周新增 +525 stars，位列 GitHub Trending 周榜（Rust）第 9 名。",
         "uses": []
       },
       "en": {
@@ -8958,12 +8800,12 @@ window.TRENDING_DATA = {
         "what": "Empowering everyone to build reliable and efficient software. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Rust.",
-        "hot": "+525 stars this week, ranked #7 on the weekly Rust chart.",
+        "hot": "+525 stars this week, ranked #9 on the weekly Rust chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -8972,7 +8814,7 @@ window.TRENDING_DATA = {
     {
       "slug": "openshell",
       "full": "NVIDIA/OpenShell",
-      "rank": 8,
+      "rank": 10,
       "cat": "agent",
       "lang": "Rust",
       "stars": 7.6,
@@ -8984,7 +8826,7 @@ window.TRENDING_DATA = {
         "what": "OpenShell is the safe, private runtime for autonomous AI agents.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Rust。",
-        "hot": "本周新增 +238 stars，位列 GitHub Trending 周榜（Rust）第 8 名。",
+        "hot": "本周新增 +238 stars，位列 GitHub Trending 周榜（Rust）第 10 名。",
         "uses": []
       },
       "en": {
@@ -8992,46 +8834,12 @@ window.TRENDING_DATA = {
         "what": "OpenShell is the safe, private runtime for autonomous AI agents. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Rust.",
-        "hot": "+238 stars this week, ranked #8 on the weekly Rust chart.",
+        "hot": "+238 stars this week, ranked #10 on the weekly Rust chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "deno",
-      "full": "denoland/deno",
-      "rank": 9,
-      "cat": "infra",
-      "lang": "Rust",
-      "stars": 107.7,
-      "today": "+380",
-      "today_n": 380,
-      "auto": true,
-      "zh": {
-        "tag": "A modern runtime for JavaScript and TypeScript.",
-        "what": "A modern runtime for JavaScript and TypeScript.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Rust。",
-        "hot": "本周新增 +380 stars，位列 GitHub Trending 周榜（Rust）第 9 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "A modern runtime for JavaScript and TypeScript.",
-        "what": "A modern runtime for JavaScript and TypeScript. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Rust.",
-        "hot": "+380 stars this week, ranked #9 on the weekly Rust chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -9040,7 +8848,7 @@ window.TRENDING_DATA = {
     {
       "slug": "tokscale",
       "full": "junhoyeo/tokscale",
-      "rank": 10,
+      "rank": 11,
       "cat": "agent",
       "lang": "Rust",
       "stars": 4.4,
@@ -9052,7 +8860,7 @@ window.TRENDING_DATA = {
         "what": "🛰️ A CLI tool for tracking token usage from OpenCode, Claude Code, 🦞OpenClaw, Pi, Codex, Gemini, Cursor, AmpCode, Factory Droid, Kimi, and more! • 🏅Global Leaderboard + 2D/3D Contributions Graph（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Rust。",
-        "hot": "本周新增 +259 stars，位列 GitHub Trending 周榜（Rust）第 10 名。",
+        "hot": "本周新增 +259 stars，位列 GitHub Trending 周榜（Rust）第 11 名。",
         "uses": []
       },
       "en": {
@@ -9060,148 +8868,148 @@ window.TRENDING_DATA = {
         "what": "🛰️ A CLI tool for tracking token usage from OpenCode, Claude Code, 🦞OpenClaw, Pi, Codex, Gemini, Cursor, AmpCode, Factory Droid, Kimi, and more! • 🏅Global Leaderboard + 2D/3D Contributions Graph (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Rust.",
-        "hot": "+259 stars this week, ranked #10 on the weekly Rust chart.",
+        "hot": "+259 stars this week, ranked #11 on the weekly Rust chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "biome",
-      "full": "biomejs/biome",
-      "rank": 11,
-      "cat": "ai",
-      "lang": "Rust",
-      "stars": 25.3,
-      "today": "+171",
-      "today_n": 171,
-      "auto": true,
-      "zh": {
-        "tag": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP.",
-        "what": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Rust。",
-        "hot": "本周新增 +171 stars，位列 GitHub Trending 周榜（Rust）第 11 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP.",
-        "what": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Rust.",
-        "hot": "+171 stars this week, ranked #11 on the weekly Rust chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "cs2-dumper",
-      "full": "a2x/cs2-dumper",
-      "rank": 13,
+      "slug": "deno",
+      "full": "denoland/deno",
+      "rank": 12,
       "cat": "infra",
       "lang": "Rust",
-      "stars": 2.2,
-      "today": "+33",
-      "today_n": 33,
+      "stars": 107.7,
+      "today": "+380",
+      "today_n": 380,
       "auto": true,
       "zh": {
-        "tag": "Counter-Strike: 2 Offset Dumper",
-        "what": "Counter-Strike: 2 Offset Dumper（自动摘要，人工深度解析待补充。）",
+        "tag": "A modern runtime for JavaScript and TypeScript.",
+        "what": "A modern runtime for JavaScript and TypeScript.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Rust。",
-        "hot": "本周新增 +33 stars，位列 GitHub Trending 周榜（Rust）第 13 名。",
+        "hot": "本周新增 +380 stars，位列 GitHub Trending 周榜（Rust）第 12 名。",
         "uses": []
       },
       "en": {
-        "tag": "Counter-Strike: 2 Offset Dumper",
-        "what": "Counter-Strike: 2 Offset Dumper (Auto summary — a human deep dive is pending.)",
+        "tag": "A modern runtime for JavaScript and TypeScript.",
+        "what": "A modern runtime for JavaScript and TypeScript. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Rust.",
-        "hot": "+33 stars this week, ranked #13 on the weekly Rust chart.",
+        "hot": "+380 stars this week, ranked #12 on the weekly Rust chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "wealthfolio",
-      "full": "wealthfolio/wealthfolio",
+      "slug": "uv",
+      "full": "astral-sh/uv",
       "rank": 14,
       "cat": "infra",
       "lang": "Rust",
-      "stars": 8.3,
-      "today": "+214",
-      "today_n": 214,
+      "stars": 87.6,
+      "today": "+311",
+      "today_n": 311,
       "auto": true,
       "zh": {
-        "tag": "A beautiful, private, local-first personal finance tracker. Investments, net worth, spending, and simulations.",
-        "what": "A beautiful, private, local-first personal finance tracker. Investments, net worth, spending, and simulations.（自动摘要，人工深度解析待补充。）",
+        "tag": "An extremely fast Python package and project manager, written in Rust.",
+        "what": "An extremely fast Python package and project manager, written in Rust.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Rust。",
-        "hot": "本周新增 +214 stars，位列 GitHub Trending 周榜（Rust）第 14 名。",
+        "hot": "本周新增 +311 stars，位列 GitHub Trending 周榜（Rust）第 14 名。",
         "uses": []
       },
       "en": {
-        "tag": "A beautiful, private, local-first personal finance tracker. Investments, net worth, spending, and simulations.",
-        "what": "A beautiful, private, local-first personal finance tracker. Investments, net worth, spending, and simulations. (Auto summary — a human deep dive is pending.)",
+        "tag": "An extremely fast Python package and project manager, written in Rust.",
+        "what": "An extremely fast Python package and project manager, written in Rust. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Rust.",
-        "hot": "+214 stars this week, ranked #14 on the weekly Rust chart.",
+        "hot": "+311 stars this week, ranked #14 on the weekly Rust chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "rolldown",
-      "full": "rolldown/rolldown",
+      "slug": "workmux",
+      "full": "raine/workmux",
       "rank": 15,
       "cat": "infra",
       "lang": "Rust",
-      "stars": 13.8,
-      "today": "+130",
-      "today_n": 130,
+      "stars": 1.8,
+      "today": "+73",
+      "today_n": 73,
       "auto": true,
       "zh": {
-        "tag": "Fast Rust bundler for JavaScript/TypeScript with Rollup-compatible API.",
-        "what": "Fast Rust bundler for JavaScript/TypeScript with Rollup-compatible API.（自动摘要，人工深度解析待补充。）",
+        "tag": "git worktrees + tmux windows for zero-friction parallel dev",
+        "what": "git worktrees + tmux windows for zero-friction parallel dev（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Rust。",
-        "hot": "本周新增 +130 stars，位列 GitHub Trending 周榜（Rust）第 15 名。",
+        "hot": "本周新增 +73 stars，位列 GitHub Trending 周榜（Rust）第 15 名。",
         "uses": []
       },
       "en": {
-        "tag": "Fast Rust bundler for JavaScript/TypeScript with Rollup-compatible API.",
-        "what": "Fast Rust bundler for JavaScript/TypeScript with Rollup-compatible API. (Auto summary — a human deep dive is pending.)",
+        "tag": "git worktrees + tmux windows for zero-friction parallel dev",
+        "what": "git worktrees + tmux windows for zero-friction parallel dev (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Rust.",
-        "hot": "+130 stars this week, ranked #15 on the weekly Rust chart.",
+        "hot": "+73 stars this week, ranked #15 on the weekly Rust chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "lance",
+      "full": "lance-format/lance",
+      "rank": 16,
+      "cat": "ai",
+      "lang": "Rust",
+      "stars": 6.8,
+      "today": "+43",
+      "today_n": 43,
+      "auto": true,
+      "zh": {
+        "tag": "Open Lakehouse Format for Multimodal AI. Convert from Parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more integrations coming..",
+        "what": "Open Lakehouse Format for Multimodal AI. Convert from Parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more integrations coming..（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 Rust。",
+        "hot": "本周新增 +43 stars，位列 GitHub Trending 周榜（Rust）第 16 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Open Lakehouse Format for Multimodal AI. Convert from Parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more integrations coming..",
+        "what": "Open Lakehouse Format for Multimodal AI. Convert from Parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more integrations coming.. (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily Rust.",
+        "hot": "+43 stars this week, ranked #16 on the weekly Rust chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -9210,7 +9018,7 @@ window.TRENDING_DATA = {
     {
       "slug": "arnis",
       "full": "louis-e/arnis",
-      "rank": 16,
+      "rank": 17,
       "cat": "infra",
       "lang": "Rust",
       "stars": 17.0,
@@ -9222,7 +9030,7 @@ window.TRENDING_DATA = {
         "what": "Generate any location from the real world in Minecraft with a high level of detail.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Rust。",
-        "hot": "本周新增 +279 stars，位列 GitHub Trending 周榜（Rust）第 16 名。",
+        "hot": "本周新增 +279 stars，位列 GitHub Trending 周榜（Rust）第 17 名。",
         "uses": []
       },
       "en": {
@@ -9230,80 +9038,46 @@ window.TRENDING_DATA = {
         "what": "Generate any location from the real world in Minecraft with a high level of detail. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Rust.",
-        "hot": "+279 stars this week, ranked #16 on the weekly Rust chart.",
+        "hot": "+279 stars this week, ranked #17 on the weekly Rust chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "omnigraph",
-      "full": "ModernRelay/omnigraph",
-      "rank": 17,
+      "slug": "dioxus",
+      "full": "DioxusLabs/dioxus",
+      "rank": 18,
       "cat": "infra",
       "lang": "Rust",
-      "stars": 0.9,
-      "today": "+160",
-      "today_n": 160,
+      "stars": 36.8,
+      "today": "+122",
+      "today_n": 122,
       "auto": true,
       "zh": {
-        "tag": "Lakehouse native graph engine with git-style workflows",
-        "what": "Lakehouse native graph engine with git-style workflows（自动摘要，人工深度解析待补充。）",
+        "tag": "Fullstack app framework for web, desktop, and mobile.",
+        "what": "Fullstack app framework for web, desktop, and mobile.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Rust。",
-        "hot": "本周新增 +160 stars，位列 GitHub Trending 周榜（Rust）第 17 名。",
+        "hot": "本周新增 +122 stars，位列 GitHub Trending 周榜（Rust）第 18 名。",
         "uses": []
       },
       "en": {
-        "tag": "Lakehouse native graph engine with git-style workflows",
-        "what": "Lakehouse native graph engine with git-style workflows (Auto summary — a human deep dive is pending.)",
+        "tag": "Fullstack app framework for web, desktop, and mobile.",
+        "what": "Fullstack app framework for web, desktop, and mobile. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Rust.",
-        "hot": "+160 stars this week, ranked #17 on the weekly Rust chart.",
+        "hot": "+122 stars this week, ranked #18 on the weekly Rust chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "pg_durable",
-      "full": "microsoft/pg_durable",
-      "rank": 19,
-      "cat": "infra",
-      "lang": "Rust",
-      "stars": 2.6,
-      "today": "+408",
-      "today_n": 408,
-      "auto": true,
-      "zh": {
-        "tag": "PostgreSQL in-database durable execution",
-        "what": "PostgreSQL in-database durable execution（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Rust。",
-        "hot": "本周新增 +408 stars，位列 GitHub Trending 周榜（Rust）第 19 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "PostgreSQL in-database durable execution",
-        "what": "PostgreSQL in-database durable execution (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Rust.",
-        "hot": "+408 stars this week, ranked #19 on the weekly Rust chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -9312,7 +9086,7 @@ window.TRENDING_DATA = {
     {
       "slug": "macro",
       "full": "macro-inc/macro",
-      "rank": 20,
+      "rank": 19,
       "cat": "agent",
       "lang": "Rust",
       "stars": 0.5,
@@ -9324,7 +9098,7 @@ window.TRENDING_DATA = {
         "what": "Macro is a unified interface for email, messages, tasks, calls, agents, pull requests, docs, crm — linked together with shared AI memory.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Rust。",
-        "hot": "本周新增 +233 stars，位列 GitHub Trending 周榜（Rust）第 20 名。",
+        "hot": "本周新增 +233 stars，位列 GitHub Trending 周榜（Rust）第 19 名。",
         "uses": []
       },
       "en": {
@@ -9332,80 +9106,12 @@ window.TRENDING_DATA = {
         "what": "Macro is a unified interface for email, messages, tasks, calls, agents, pull requests, docs, crm — linked together with shared AI memory. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Rust.",
-        "hot": "+233 stars this week, ranked #20 on the weekly Rust chart.",
+        "hot": "+233 stars this week, ranked #19 on the weekly Rust chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "openwiki",
-      "full": "kdsz001/OpenWiki",
-      "rank": 21,
-      "cat": "ai",
-      "lang": "Rust",
-      "stars": 0.6,
-      "today": "+129",
-      "today_n": 129,
-      "auto": true,
-      "zh": {
-        "tag": "OpenWiki — Mac desktop AI knowledge management tool. Capture clipboard, build personal wiki, get AI insights.",
-        "what": "OpenWiki — Mac desktop AI knowledge management tool. Capture clipboard, build personal wiki, get AI insights.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Rust。",
-        "hot": "本周新增 +129 stars，位列 GitHub Trending 周榜（Rust）第 21 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "OpenWiki — Mac desktop AI knowledge management tool. Capture clipboard, build personal wiki, get AI insights.",
-        "what": "OpenWiki — Mac desktop AI knowledge management tool. Capture clipboard, build personal wiki, get AI insights. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Rust.",
-        "hot": "+129 stars this week, ranked #21 on the weekly Rust chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "argo-cd",
-      "full": "argoproj/argo-cd",
-      "rank": 1,
-      "cat": "infra",
-      "lang": "Go",
-      "stars": 23.6,
-      "today": "+237",
-      "today_n": 237,
-      "auto": true,
-      "zh": {
-        "tag": "Declarative Continuous Deployment for Kubernetes",
-        "what": "Declarative Continuous Deployment for Kubernetes（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Go。",
-        "hot": "本周新增 +237 stars，位列 GitHub Trending 周榜（Go）第 1 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "Declarative Continuous Deployment for Kubernetes",
-        "what": "Declarative Continuous Deployment for Kubernetes (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Go.",
-        "hot": "+237 stars this week, ranked #1 on the weekly Go chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -9414,7 +9120,7 @@ window.TRENDING_DATA = {
     {
       "slug": "terraform",
       "full": "hashicorp/terraform",
-      "rank": 2,
+      "rank": 1,
       "cat": "infra",
       "lang": "Go",
       "stars": 49.2,
@@ -9426,7 +9132,7 @@ window.TRENDING_DATA = {
         "what": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "本周新增 +642 stars，位列 GitHub Trending 周榜（Go）第 2 名。",
+        "hot": "本周新增 +642 stars，位列 GitHub Trending 周榜（Go）第 1 名。",
         "uses": []
       },
       "en": {
@@ -9434,12 +9140,12 @@ window.TRENDING_DATA = {
         "what": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+642 stars this week, ranked #2 on the weekly Go chart.",
+        "hot": "+642 stars this week, ranked #1 on the weekly Go chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -9448,7 +9154,7 @@ window.TRENDING_DATA = {
     {
       "slug": "tailscale",
       "full": "tailscale/tailscale",
-      "rank": 3,
+      "rank": 2,
       "cat": "infra",
       "lang": "Go",
       "stars": 34.0,
@@ -9460,7 +9166,7 @@ window.TRENDING_DATA = {
         "what": "The easiest, most secure way to use WireGuard and 2FA.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "本周新增 +764 stars，位列 GitHub Trending 周榜（Go）第 3 名。",
+        "hot": "本周新增 +764 stars，位列 GitHub Trending 周榜（Go）第 2 名。",
         "uses": []
       },
       "en": {
@@ -9468,12 +9174,12 @@ window.TRENDING_DATA = {
         "what": "The easiest, most secure way to use WireGuard and 2FA. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+764 stars this week, ranked #3 on the weekly Go chart.",
+        "hot": "+764 stars this week, ranked #2 on the weekly Go chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -9482,7 +9188,7 @@ window.TRENDING_DATA = {
     {
       "slug": "typescript-go",
       "full": "microsoft/typescript-go",
-      "rank": 4,
+      "rank": 3,
       "cat": "infra",
       "lang": "Go",
       "stars": 26.0,
@@ -9494,7 +9200,7 @@ window.TRENDING_DATA = {
         "what": "Staging repo for development of native port of TypeScript（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "本周新增 +130 stars，位列 GitHub Trending 周榜（Go）第 4 名。",
+        "hot": "本周新增 +130 stars，位列 GitHub Trending 周榜（Go）第 3 名。",
         "uses": []
       },
       "en": {
@@ -9502,250 +9208,46 @@ window.TRENDING_DATA = {
         "what": "Staging repo for development of native port of TypeScript (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+130 stars this week, ranked #4 on the weekly Go chart.",
+        "hot": "+130 stars this week, ranked #3 on the weekly Go chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "pentagi",
-      "full": "vxcontrol/pentagi",
-      "rank": 5,
-      "cat": "agent",
-      "lang": "Go",
-      "stars": 20.8,
-      "today": "+1.6k",
-      "today_n": 1614,
-      "auto": true,
-      "zh": {
-        "tag": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
-        "what": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Go。",
-        "hot": "本周新增 +1.6k stars，位列 GitHub Trending 周榜（Go）第 5 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
-        "what": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Go.",
-        "hot": "+1.6k stars this week, ranked #5 on the weekly Go chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "go",
-      "full": "golang/go",
-      "rank": 6,
+      "slug": "argo-cd",
+      "full": "argoproj/argo-cd",
+      "rank": 4,
       "cat": "infra",
       "lang": "Go",
-      "stars": 135.3,
-      "today": "+456",
-      "today_n": 456,
+      "stars": 23.6,
+      "today": "+237",
+      "today_n": 237,
       "auto": true,
       "zh": {
-        "tag": "The Go programming language",
-        "what": "The Go programming language（自动摘要，人工深度解析待补充。）",
+        "tag": "Declarative Continuous Deployment for Kubernetes",
+        "what": "Declarative Continuous Deployment for Kubernetes（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "本周新增 +456 stars，位列 GitHub Trending 周榜（Go）第 6 名。",
+        "hot": "本周新增 +237 stars，位列 GitHub Trending 周榜（Go）第 4 名。",
         "uses": []
       },
       "en": {
-        "tag": "The Go programming language",
-        "what": "The Go programming language (Auto summary — a human deep dive is pending.)",
+        "tag": "Declarative Continuous Deployment for Kubernetes",
+        "what": "Declarative Continuous Deployment for Kubernetes (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+456 stars this week, ranked #6 on the weekly Go chart.",
+        "hot": "+237 stars this week, ranked #4 on the weekly Go chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "gvisor",
-      "full": "google/gvisor",
-      "rank": 7,
-      "cat": "infra",
-      "lang": "Go",
-      "stars": 18.8,
-      "today": "+161",
-      "today_n": 161,
-      "auto": true,
-      "zh": {
-        "tag": "Application Kernel for Containers",
-        "what": "Application Kernel for Containers（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Go。",
-        "hot": "本周新增 +161 stars，位列 GitHub Trending 周榜（Go）第 7 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "Application Kernel for Containers",
-        "what": "Application Kernel for Containers (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Go.",
-        "hot": "+161 stars this week, ranked #7 on the weekly Go chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "cli",
-      "full": "larksuite/cli",
-      "rank": 8,
-      "cat": "agent",
-      "lang": "Go",
-      "stars": 15.6,
-      "today": "+353",
-      "today_n": 353,
-      "auto": true,
-      "zh": {
-        "tag": "The official Lark/Feishu CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 20+ AI Agent Skills.",
-        "what": "The official Lark/Feishu CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 20+ AI Agent Skills.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Go。",
-        "hot": "本周新增 +353 stars，位列 GitHub Trending 周榜（Go）第 8 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "The official Lark/Feishu CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 20+ AI Agent Skills.",
-        "what": "The official Lark/Feishu CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 20+ AI Agent Skills. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Go.",
-        "hot": "+353 stars this week, ranked #8 on the weekly Go chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "testify",
-      "full": "stretchr/testify",
-      "rank": 9,
-      "cat": "infra",
-      "lang": "Go",
-      "stars": 26.1,
-      "today": "+121",
-      "today_n": 121,
-      "auto": true,
-      "zh": {
-        "tag": "A toolkit with common assertions and mocks that plays nicely with the standard library",
-        "what": "A toolkit with common assertions and mocks that plays nicely with the standard library（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Go。",
-        "hot": "本周新增 +121 stars，位列 GitHub Trending 周榜（Go）第 9 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "A toolkit with common assertions and mocks that plays nicely with the standard library",
-        "what": "A toolkit with common assertions and mocks that plays nicely with the standard library (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Go.",
-        "hot": "+121 stars this week, ranked #9 on the weekly Go chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "headscale",
-      "full": "juanfont/headscale",
-      "rank": 10,
-      "cat": "infra",
-      "lang": "Go",
-      "stars": 41.8,
-      "today": "+527",
-      "today_n": 527,
-      "auto": true,
-      "zh": {
-        "tag": "An open source, self-hosted implementation of the Tailscale control server",
-        "what": "An open source, self-hosted implementation of the Tailscale control server（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Go。",
-        "hot": "本周新增 +527 stars，位列 GitHub Trending 周榜（Go）第 10 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "An open source, self-hosted implementation of the Tailscale control server",
-        "what": "An open source, self-hosted implementation of the Tailscale control server (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Go.",
-        "hot": "+527 stars this week, ranked #10 on the weekly Go chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "sub2api",
-      "full": "Wei-Shaw/sub2api",
-      "rank": 12,
-      "cat": "agent",
-      "lang": "Go",
-      "stars": 32.6,
-      "today": "+1.5k",
-      "today_n": 1482,
-      "auto": true,
-      "zh": {
-        "tag": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
-        "what": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Go。",
-        "hot": "本周新增 +1.5k stars，位列 GitHub Trending 周榜（Go）第 12 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
-        "what": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。 (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Go.",
-        "hot": "+1.5k stars this week, ranked #12 on the weekly Go chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -9754,7 +9256,7 @@ window.TRENDING_DATA = {
     {
       "slug": "moby",
       "full": "moby/moby",
-      "rank": 13,
+      "rank": 5,
       "cat": "infra",
       "lang": "Go",
       "stars": 71.9,
@@ -9766,7 +9268,7 @@ window.TRENDING_DATA = {
         "what": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "本周新增 +140 stars，位列 GitHub Trending 周榜（Go）第 13 名。",
+        "hot": "本周新增 +140 stars，位列 GitHub Trending 周榜（Go）第 5 名。",
         "uses": []
       },
       "en": {
@@ -9774,114 +9276,114 @@ window.TRENDING_DATA = {
         "what": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+140 stars this week, ranked #13 on the weekly Go chart.",
+        "hot": "+140 stars this week, ranked #5 on the weekly Go chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "opencode-ai-opencode",
-      "full": "opencode-ai/opencode",
-      "rank": 14,
+      "slug": "sub2api",
+      "full": "Wei-Shaw/sub2api",
+      "rank": 7,
       "cat": "agent",
       "lang": "Go",
-      "stars": 13.4,
-      "today": "+227",
-      "today_n": 227,
+      "stars": 32.7,
+      "today": "+1.5k",
+      "today_n": 1482,
       "auto": true,
       "zh": {
-        "tag": "A powerful AI coding agent. Built for the terminal.",
-        "what": "A powerful AI coding agent. Built for the terminal.（自动摘要，人工深度解析待补充。）",
+        "tag": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+        "what": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "本周新增 +227 stars，位列 GitHub Trending 周榜（Go）第 14 名。",
+        "hot": "本周新增 +1.5k stars，位列 GitHub Trending 周榜（Go）第 7 名。",
         "uses": []
       },
       "en": {
-        "tag": "A powerful AI coding agent. Built for the terminal.",
-        "what": "A powerful AI coding agent. Built for the terminal. (Auto summary — a human deep dive is pending.)",
+        "tag": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+        "what": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。 (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+227 stars this week, ranked #14 on the weekly Go chart.",
+        "hot": "+1.5k stars this week, ranked #7 on the weekly Go chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "go-ethereum",
-      "full": "ethereum/go-ethereum",
-      "rank": 15,
+      "slug": "headscale",
+      "full": "juanfont/headscale",
+      "rank": 8,
       "cat": "infra",
       "lang": "Go",
-      "stars": 51.2,
-      "today": "+149",
-      "today_n": 149,
+      "stars": 41.8,
+      "today": "+527",
+      "today_n": 527,
       "auto": true,
       "zh": {
-        "tag": "Go implementation of the Ethereum protocol",
-        "what": "Go implementation of the Ethereum protocol（自动摘要，人工深度解析待补充。）",
+        "tag": "An open source, self-hosted implementation of the Tailscale control server",
+        "what": "An open source, self-hosted implementation of the Tailscale control server（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "本周新增 +149 stars，位列 GitHub Trending 周榜（Go）第 15 名。",
+        "hot": "本周新增 +527 stars，位列 GitHub Trending 周榜（Go）第 8 名。",
         "uses": []
       },
       "en": {
-        "tag": "Go implementation of the Ethereum protocol",
-        "what": "Go implementation of the Ethereum protocol (Auto summary — a human deep dive is pending.)",
+        "tag": "An open source, self-hosted implementation of the Tailscale control server",
+        "what": "An open source, self-hosted implementation of the Tailscale control server (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+149 stars this week, ranked #15 on the weekly Go chart.",
+        "hot": "+527 stars this week, ranked #8 on the weekly Go chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "prometheus",
-      "full": "prometheus/prometheus",
-      "rank": 16,
+      "slug": "go",
+      "full": "golang/go",
+      "rank": 10,
       "cat": "infra",
       "lang": "Go",
-      "stars": 65.2,
-      "today": "+331",
-      "today_n": 331,
+      "stars": 135.3,
+      "today": "+456",
+      "today_n": 456,
       "auto": true,
       "zh": {
-        "tag": "The Prometheus monitoring system and time series database.",
-        "what": "The Prometheus monitoring system and time series database.（自动摘要，人工深度解析待补充。）",
+        "tag": "The Go programming language",
+        "what": "The Go programming language（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "本周新增 +331 stars，位列 GitHub Trending 周榜（Go）第 16 名。",
+        "hot": "本周新增 +456 stars，位列 GitHub Trending 周榜（Go）第 10 名。",
         "uses": []
       },
       "en": {
-        "tag": "The Prometheus monitoring system and time series database.",
-        "what": "The Prometheus monitoring system and time series database. (Auto summary — a human deep dive is pending.)",
+        "tag": "The Go programming language",
+        "what": "The Go programming language (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+331 stars this week, ranked #16 on the weekly Go chart.",
+        "hot": "+456 stars this week, ranked #10 on the weekly Go chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -9890,7 +9392,7 @@ window.TRENDING_DATA = {
     {
       "slug": "nuclei",
       "full": "projectdiscovery/nuclei",
-      "rank": 17,
+      "rank": 11,
       "cat": "ai",
       "lang": "Go",
       "stars": 29.8,
@@ -9902,7 +9404,7 @@ window.TRENDING_DATA = {
         "what": "Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "本周新增 +311 stars，位列 GitHub Trending 周榜（Go）第 17 名。",
+        "hot": "本周新增 +311 stars，位列 GitHub Trending 周榜（Go）第 11 名。",
         "uses": []
       },
       "en": {
@@ -9910,12 +9412,12 @@ window.TRENDING_DATA = {
         "what": "Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+311 stars this week, ranked #17 on the weekly Go chart.",
+        "hot": "+311 stars this week, ranked #11 on the weekly Go chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -9924,7 +9426,7 @@ window.TRENDING_DATA = {
     {
       "slug": "phoneinfoga",
       "full": "sundowndev/phoneinfoga",
-      "rank": 18,
+      "rank": 12,
       "cat": "infra",
       "lang": "Go",
       "stars": 17.0,
@@ -9936,7 +9438,7 @@ window.TRENDING_DATA = {
         "what": "Information gathering framework for phone numbers（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "本周新增 +198 stars，位列 GitHub Trending 周榜（Go）第 18 名。",
+        "hot": "本周新增 +198 stars，位列 GitHub Trending 周榜（Go）第 12 名。",
         "uses": []
       },
       "en": {
@@ -9944,12 +9446,250 @@ window.TRENDING_DATA = {
         "what": "Information gathering framework for phone numbers (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+198 stars this week, ranked #18 on the weekly Go chart.",
+        "hot": "+198 stars this week, ranked #12 on the weekly Go chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "opencode-ai-opencode",
+      "full": "opencode-ai/opencode",
+      "rank": 13,
+      "cat": "agent",
+      "lang": "Go",
+      "stars": 13.4,
+      "today": "+227",
+      "today_n": 227,
+      "auto": true,
+      "zh": {
+        "tag": "A powerful AI coding agent. Built for the terminal.",
+        "what": "A powerful AI coding agent. Built for the terminal.（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 Go。",
+        "hot": "本周新增 +227 stars，位列 GitHub Trending 周榜（Go）第 13 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "A powerful AI coding agent. Built for the terminal.",
+        "what": "A powerful AI coding agent. Built for the terminal. (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily Go.",
+        "hot": "+227 stars this week, ranked #13 on the weekly Go chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "gvisor",
+      "full": "google/gvisor",
+      "rank": 14,
+      "cat": "infra",
+      "lang": "Go",
+      "stars": 18.8,
+      "today": "+161",
+      "today_n": 161,
+      "auto": true,
+      "zh": {
+        "tag": "Application Kernel for Containers",
+        "what": "Application Kernel for Containers（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 Go。",
+        "hot": "本周新增 +161 stars，位列 GitHub Trending 周榜（Go）第 14 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Application Kernel for Containers",
+        "what": "Application Kernel for Containers (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily Go.",
+        "hot": "+161 stars this week, ranked #14 on the weekly Go chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "prometheus",
+      "full": "prometheus/prometheus",
+      "rank": 15,
+      "cat": "infra",
+      "lang": "Go",
+      "stars": 65.2,
+      "today": "+331",
+      "today_n": 331,
+      "auto": true,
+      "zh": {
+        "tag": "The Prometheus monitoring system and time series database.",
+        "what": "The Prometheus monitoring system and time series database.（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 Go。",
+        "hot": "本周新增 +331 stars，位列 GitHub Trending 周榜（Go）第 15 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "The Prometheus monitoring system and time series database.",
+        "what": "The Prometheus monitoring system and time series database. (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily Go.",
+        "hot": "+331 stars this week, ranked #15 on the weekly Go chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "pentagi",
+      "full": "vxcontrol/pentagi",
+      "rank": 16,
+      "cat": "agent",
+      "lang": "Go",
+      "stars": 20.9,
+      "today": "+1.6k",
+      "today_n": 1614,
+      "auto": true,
+      "zh": {
+        "tag": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+        "what": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 Go。",
+        "hot": "本周新增 +1.6k stars，位列 GitHub Trending 周榜（Go）第 16 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+        "what": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily Go.",
+        "hot": "+1.6k stars this week, ranked #16 on the weekly Go chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "cli",
+      "full": "larksuite/cli",
+      "rank": 17,
+      "cat": "agent",
+      "lang": "Go",
+      "stars": 15.6,
+      "today": "+353",
+      "today_n": 353,
+      "auto": true,
+      "zh": {
+        "tag": "The official Lark/Feishu CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 20+ AI Agent Skills.",
+        "what": "The official Lark/Feishu CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 20+ AI Agent Skills.（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 Go。",
+        "hot": "本周新增 +353 stars，位列 GitHub Trending 周榜（Go）第 17 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "The official Lark/Feishu CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 20+ AI Agent Skills.",
+        "what": "The official Lark/Feishu CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 20+ AI Agent Skills. (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily Go.",
+        "hot": "+353 stars this week, ranked #17 on the weekly Go chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "testify",
+      "full": "stretchr/testify",
+      "rank": 18,
+      "cat": "infra",
+      "lang": "Go",
+      "stars": 26.1,
+      "today": "+121",
+      "today_n": 121,
+      "auto": true,
+      "zh": {
+        "tag": "A toolkit with common assertions and mocks that plays nicely with the standard library",
+        "what": "A toolkit with common assertions and mocks that plays nicely with the standard library（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 Go。",
+        "hot": "本周新增 +121 stars，位列 GitHub Trending 周榜（Go）第 18 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "A toolkit with common assertions and mocks that plays nicely with the standard library",
+        "what": "A toolkit with common assertions and mocks that plays nicely with the standard library (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily Go.",
+        "hot": "+121 stars this week, ranked #18 on the weekly Go chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "go-ethereum",
+      "full": "ethereum/go-ethereum",
+      "rank": 20,
+      "cat": "infra",
+      "lang": "Go",
+      "stars": 51.2,
+      "today": "+149",
+      "today_n": 149,
+      "auto": true,
+      "zh": {
+        "tag": "Go implementation of the Ethereum protocol",
+        "what": "Go implementation of the Ethereum protocol（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 Go。",
+        "hot": "本周新增 +149 stars，位列 GitHub Trending 周榜（Go）第 20 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Go implementation of the Ethereum protocol",
+        "what": "Go implementation of the Ethereum protocol (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily Go.",
+        "hot": "+149 stars this week, ranked #20 on the weekly Go chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -9958,7 +9698,7 @@ window.TRENDING_DATA = {
     {
       "slug": "croc",
       "full": "schollz/croc",
-      "rank": 19,
+      "rank": 21,
       "cat": "infra",
       "lang": "Go",
       "stars": 35.6,
@@ -9970,7 +9710,7 @@ window.TRENDING_DATA = {
         "what": "Easily and securely send things from one computer to another 🐊 📦（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "本周新增 +164 stars，位列 GitHub Trending 周榜（Go）第 19 名。",
+        "hot": "本周新增 +164 stars，位列 GitHub Trending 周榜（Go）第 21 名。",
         "uses": []
       },
       "en": {
@@ -9978,80 +9718,12 @@ window.TRENDING_DATA = {
         "what": "Easily and securely send things from one computer to another 🐊 📦 (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+164 stars this week, ranked #19 on the weekly Go chart.",
+        "hot": "+164 stars this week, ranked #21 on the weekly Go chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "picoclaw",
-      "full": "sipeed/picoclaw",
-      "rank": 20,
-      "cat": "infra",
-      "lang": "Go",
-      "stars": 29.7,
-      "today": "+159",
-      "today_n": 159,
-      "auto": true,
-      "zh": {
-        "tag": "Tiny, Fast, and Deployable anywhere — automate the mundane, unleash your creativity",
-        "what": "Tiny, Fast, and Deployable anywhere — automate the mundane, unleash your creativity（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Go。",
-        "hot": "本周新增 +159 stars，位列 GitHub Trending 周榜（Go）第 20 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "Tiny, Fast, and Deployable anywhere — automate the mundane, unleash your creativity",
-        "what": "Tiny, Fast, and Deployable anywhere — automate the mundane, unleash your creativity (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Go.",
-        "hot": "+159 stars this week, ranked #20 on the weekly Go chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "gentle-ai",
-      "full": "Gentleman-Programming/gentle-ai",
-      "rank": 21,
-      "cat": "ai",
-      "lang": "Go",
-      "stars": 4.9,
-      "today": "+159",
-      "today_n": 159,
-      "auto": true,
-      "zh": {
-        "tag": "GitHub 热榜项目（描述待补充）",
-        "what": "该项目今日登上 GitHub Trending 榜单，暂无官方描述，人工深度解析待补充。",
-        "content": "",
-        "stack": "主语言 Go。",
-        "hot": "本周新增 +159 stars，位列 GitHub Trending 周榜（Go）第 21 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "Trending repo (description pending)",
-        "what": "This project is on GitHub Trending. No description available yet — a human deep dive is pending.",
-        "content": "",
-        "stack": "Primarily Go.",
-        "hot": "+159 stars this week, ranked #21 on the weekly Go chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -10085,41 +9757,41 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "entireio-cli",
-      "full": "entireio/cli",
-      "rank": 24,
-      "cat": "agent",
-      "lang": "Go",
-      "stars": 4.8,
-      "today": "+94",
-      "today_n": 94,
+      "slug": "joltphysics",
+      "full": "jrouwe/JoltPhysics",
+      "rank": 2,
+      "cat": "other",
+      "lang": "C++",
+      "stars": 11.0,
+      "today": "+286",
+      "today_n": 286,
       "auto": true,
       "zh": {
-        "tag": "📜 Entire CLI hooks into your Git workflow to capture AI agent sessions as you work. Sessions are indexed alongside commits, creating a searchable record of how code was written in your repo.",
-        "what": "📜 Entire CLI hooks into your Git workflow to capture AI agent sessions as you work. Sessions are indexed alongside commits, creating a searchable record of how code was written in your repo.（自动摘要，人工深度解析待补充。）",
+        "tag": "A multi core friendly rigid body physics and collision detection library. Written in C++. Suitable for games and VR applications. Used by Horizon Forbidden West and Death Stranding 2.",
+        "what": "A multi core friendly rigid body physics and collision detection library. Written in C++. Suitable for games and VR applications. Used by Horizon Forbidden West and Death Stranding 2.（自动摘要，人工深度解析待补充。）",
         "content": "",
-        "stack": "主语言 Go。",
-        "hot": "本周新增 +94 stars，位列 GitHub Trending 周榜（Go）第 24 名。",
+        "stack": "主语言 C++。",
+        "hot": "本周新增 +286 stars，位列 GitHub Trending 周榜（C++）第 2 名。",
         "uses": []
       },
       "en": {
-        "tag": "📜 Entire CLI hooks into your Git workflow to capture AI agent sessions as you work. Sessions are indexed alongside commits, creating a searchable record of how code was written in your repo.",
-        "what": "📜 Entire CLI hooks into your Git workflow to capture AI agent sessions as you work. Sessions are indexed alongside commits, creating a searchable record of how code was written in your repo. (Auto summary — a human deep dive is pending.)",
+        "tag": "A multi core friendly rigid body physics and collision detection library. Written in C++. Suitable for games and VR applications. Used by Horizon Forbidden West and Death Stranding 2.",
+        "what": "A multi core friendly rigid body physics and collision detection library. Written in C++. Suitable for games and VR applications. Used by Horizon Forbidden West and Death Stranding 2. (Auto summary — a human deep dive is pending.)",
         "content": "",
-        "stack": "Primarily Go.",
-        "hot": "+94 stars this week, ranked #24 on the weekly Go chart.",
+        "stack": "Primarily C++.",
+        "hot": "+286 stars this week, ranked #2 on the weekly C++ chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -10128,7 +9800,7 @@ window.TRENDING_DATA = {
     {
       "slug": "meshoptimizer",
       "full": "zeux/meshoptimizer",
-      "rank": 4,
+      "rank": 3,
       "cat": "infra",
       "lang": "C++",
       "stars": 8.1,
@@ -10140,7 +9812,7 @@ window.TRENDING_DATA = {
         "what": "Mesh optimization library that makes meshes smaller and faster to render（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 C++。",
-        "hot": "本周新增 +336 stars，位列 GitHub Trending 周榜（C++）第 4 名。",
+        "hot": "本周新增 +336 stars，位列 GitHub Trending 周榜（C++）第 3 名。",
         "uses": []
       },
       "en": {
@@ -10148,46 +9820,12 @@ window.TRENDING_DATA = {
         "what": "Mesh optimization library that makes meshes smaller and faster to render (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily C++.",
-        "hot": "+336 stars this week, ranked #4 on the weekly C++ chart.",
+        "hot": "+336 stars this week, ranked #3 on the weekly C++ chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "yaml-cpp",
-      "full": "jbeder/yaml-cpp",
-      "rank": 5,
-      "cat": "ai",
-      "lang": "C++",
-      "stars": 6.1,
-      "today": "+165",
-      "today_n": 165,
-      "auto": true,
-      "zh": {
-        "tag": "A YAML parser and emitter in C++",
-        "what": "A YAML parser and emitter in C++（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 C++。",
-        "hot": "本周新增 +165 stars，位列 GitHub Trending 周榜（C++）第 5 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "A YAML parser and emitter in C++",
-        "what": "A YAML parser and emitter in C++ (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily C++.",
-        "hot": "+165 stars this week, ranked #5 on the weekly C++ chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -10196,7 +9834,7 @@ window.TRENDING_DATA = {
     {
       "slug": "grpc",
       "full": "grpc/grpc",
-      "rank": 6,
+      "rank": 4,
       "cat": "infra",
       "lang": "C++",
       "stars": 45.2,
@@ -10208,7 +9846,7 @@ window.TRENDING_DATA = {
         "what": "C++ based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 C++。",
-        "hot": "本周新增 +253 stars，位列 GitHub Trending 周榜（C++）第 6 名。",
+        "hot": "本周新增 +253 stars，位列 GitHub Trending 周榜（C++）第 4 名。",
         "uses": []
       },
       "en": {
@@ -10216,12 +9854,46 @@ window.TRENDING_DATA = {
         "what": "C++ based gRPC (C++, Python, Ruby, Objective-C, PHP, C#) (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily C++.",
-        "hot": "+253 stars this week, ranked #6 on the weekly C++ chart.",
+        "hot": "+253 stars this week, ranked #4 on the weekly C++ chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "tensorflow",
+      "full": "tensorflow/tensorflow",
+      "rank": 5,
+      "cat": "other",
+      "lang": "C++",
+      "stars": 196.3,
+      "today": "+483",
+      "today_n": 483,
+      "auto": true,
+      "zh": {
+        "tag": "An Open Source Machine Learning Framework for Everyone",
+        "what": "An Open Source Machine Learning Framework for Everyone（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 C++。",
+        "hot": "本周新增 +483 stars，位列 GitHub Trending 周榜（C++）第 5 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "An Open Source Machine Learning Framework for Everyone",
+        "what": "An Open Source Machine Learning Framework for Everyone (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily C++.",
+        "hot": "+483 stars this week, ranked #5 on the weekly C++ chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -10230,7 +9902,7 @@ window.TRENDING_DATA = {
     {
       "slug": "whisper.cpp",
       "full": "ggml-org/whisper.cpp",
-      "rank": 8,
+      "rank": 6,
       "cat": "ai",
       "lang": "C++",
       "stars": 51.8,
@@ -10242,7 +9914,7 @@ window.TRENDING_DATA = {
         "what": "Port of OpenAI's Whisper model in C/C++（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 C++。",
-        "hot": "本周新增 +345 stars，位列 GitHub Trending 周榜（C++）第 8 名。",
+        "hot": "本周新增 +345 stars，位列 GitHub Trending 周榜（C++）第 6 名。",
         "uses": []
       },
       "en": {
@@ -10250,12 +9922,12 @@ window.TRENDING_DATA = {
         "what": "Port of OpenAI's Whisper model in C/C++ (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily C++.",
-        "hot": "+345 stars this week, ranked #8 on the weekly C++ chart.",
+        "hot": "+345 stars this week, ranked #6 on the weekly C++ chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -10264,7 +9936,7 @@ window.TRENDING_DATA = {
     {
       "slug": "catch2",
       "full": "catchorg/Catch2",
-      "rank": 9,
+      "rank": 7,
       "cat": "infra",
       "lang": "C++",
       "stars": 21.2,
@@ -10276,7 +9948,7 @@ window.TRENDING_DATA = {
         "what": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 C++。",
-        "hot": "本周新增 +854 stars，位列 GitHub Trending 周榜（C++）第 9 名。",
+        "hot": "本周新增 +854 stars，位列 GitHub Trending 周榜（C++）第 7 名。",
         "uses": []
       },
       "en": {
@@ -10284,89 +9956,137 @@ window.TRENDING_DATA = {
         "what": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch) (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily C++.",
-        "hot": "+854 stars this week, ranked #9 on the weekly C++ chart.",
+        "hot": "+854 stars this week, ranked #7 on the weekly C++ chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "vllm-ascend",
-      "full": "vllm-project/vllm-ascend",
-      "rank": 10,
-      "cat": "ai",
-      "lang": "C++",
-      "stars": 2.4,
-      "today": "+135",
-      "today_n": 135,
-      "auto": true,
-      "zh": {
-        "tag": "Community maintained hardware plugin for vLLM on Ascend",
-        "what": "Community maintained hardware plugin for vLLM on Ascend（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 C++。",
-        "hot": "本周新增 +135 stars，位列 GitHub Trending 周榜（C++）第 10 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "Community maintained hardware plugin for vLLM on Ascend",
-        "what": "Community maintained hardware plugin for vLLM on Ascend (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily C++.",
-        "hot": "+135 stars this week, ranked #10 on the weekly C++ chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "spdlog",
-      "full": "gabime/spdlog",
-      "rank": 13,
+      "slug": "asio",
+      "full": "chriskohlhoff/asio",
+      "rank": 8,
       "cat": "infra",
       "lang": "C++",
-      "stars": 29.2,
-      "today": "+212",
-      "today_n": 212,
+      "stars": 6.1,
+      "today": "+271",
+      "today_n": 271,
       "auto": true,
       "zh": {
-        "tag": "Fast C++ logging library.",
-        "what": "Fast C++ logging library.（自动摘要，人工深度解析待补充。）",
+        "tag": "Asio C++ Library",
+        "what": "Asio C++ Library（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 C++。",
-        "hot": "本月新增 +212 stars，位列 GitHub Trending 月榜第 13 名。",
+        "hot": "本周新增 +271 stars，位列 GitHub Trending 周榜（C++）第 8 名。",
         "uses": []
       },
       "en": {
-        "tag": "Fast C++ logging library.",
-        "what": "Fast C++ logging library. (Auto summary — a human deep dive is pending.)",
+        "tag": "Asio C++ Library",
+        "what": "Asio C++ Library (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily C++.",
-        "hot": "+212 stars this month, ranked #13 on the monthly GitHub Trending chart.",
+        "hot": "+271 stars this week, ranked #8 on the weekly C++ chart.",
         "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "yaml-cpp",
+      "full": "jbeder/yaml-cpp",
+      "rank": 9,
+      "cat": "ai",
+      "lang": "C++",
+      "stars": 6.1,
+      "today": "+165",
+      "today_n": 165,
+      "auto": true,
+      "zh": {
+        "tag": "A YAML parser and emitter in C++",
+        "what": "A YAML parser and emitter in C++（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 C++。",
+        "hot": "本周新增 +165 stars，位列 GitHub Trending 周榜（C++）第 9 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "A YAML parser and emitter in C++",
+        "what": "A YAML parser and emitter in C++ (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily C++.",
+        "hot": "+165 stars this week, ranked #9 on the weekly C++ chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "yimmenuv2",
+      "full": "YimMenu/YimMenuV2",
+      "rank": 10,
+      "cat": "other",
+      "lang": "C++",
+      "stars": 1.5,
+      "today": "+176",
+      "today_n": 176,
+      "auto": false,
+      "zh": {
+        "tag": "GTA 5 增强版的开源作弊菜单 DLL",
+        "what": "《GTA 5: Enhanced》的实验性修改菜单（mod menu）：编译成 DLL 后用 Xenos 等注入器在游戏主菜单注入，按 INSERT 或 Ctrl+\\ 呼出菜单。建议配合 FSL 把存档数据重定向到本地磁盘以保号，且需要关闭 BattlEye 反作弊（目前没有 BE 绕过，公共战局会被心跳检测踢出）。",
+        "content": "C++ 源码 + 一份简短 README，讲清使用步骤（FSL → 下载 nightly release → 注入器 → 关 BattlEye → 注入）和常见问题修复（掉线、存档消失、游戏起不来）。",
+        "stack": "C++，DLL 注入式单机/联机修改器，依赖外部注入器和 FSL，GPL-2.0；默认分支 enhanced。",
+        "hot": "GTA5 增强版 mod 圈刚需工具，YimMenu 系在这类开源菜单里口碑最老，7 月 12 日仍在更新。",
+        "uses": [
+          "GTA5 单机玩家 —— 刷车刷钱体验全部游戏内容",
+          "mod 开发者 —— 基于源码学习或二次开发游戏菜单",
+          "离线娱乐 —— 关 BattlEye 后在私人战局整活"
+        ]
+      },
+      "en": {
+        "tag": "The open-source mod menu DLL for GTA 5: Enhanced",
+        "what": "An experimental mod menu for GTA 5: Enhanced: compile to a DLL, inject at the main menu with an injector like Xenos, then press INSERT or Ctrl+\\ to open. Pairing with FSL (redirecting save data to local disk) is recommended to protect your account, and BattlEye anti-cheat must be disabled (there's no BE bypass — public sessions will kick you via heartbeat checks).",
+        "content": "C++ source plus a short README covering the workflow (FSL → nightly release → injector → disable BattlEye → inject) and fixes for common issues (disconnects, missing saves, game won't launch).",
+        "stack": "C++, a DLL-injection single/multiplayer mod menu relying on external injectors and FSL; GPL-2.0; default branch enhanced.",
+        "hot": "A must-have in the GTA5 Enhanced modding scene — the YimMenu line is the most established of these open menus, still updated on July 12.",
+        "uses": [
+          "GTA5 single-player fans — unlock vehicles and cash to experience all content",
+          "mod developers — learn from or fork the source for custom game menus",
+          "Offline fun — mess around in private sessions with BattlEye off"
+        ]
       },
       "track": {
         "days": 0,
         "first": "2026-07-17",
         "is_new": false,
         "is_back": false,
-        "hist": []
+        "hist": [
+          {
+            "d": "2026-07-17",
+            "s": 1.5,
+            "r": 10
+          }
+        ]
       }
     },
     {
       "slug": "fprime",
       "full": "nasa/fprime",
-      "rank": 12,
+      "rank": 11,
       "cat": "infra",
       "lang": "C++",
       "stars": 11.5,
@@ -10378,7 +10098,7 @@ window.TRENDING_DATA = {
         "what": "F´ - A flight software and embedded systems framework（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 C++。",
-        "hot": "本周新增 +322 stars，位列 GitHub Trending 周榜（C++）第 12 名。",
+        "hot": "本周新增 +322 stars，位列 GitHub Trending 周榜（C++）第 11 名。",
         "uses": []
       },
       "en": {
@@ -10386,12 +10106,80 @@ window.TRENDING_DATA = {
         "what": "F´ - A flight software and embedded systems framework (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily C++.",
-        "hot": "+322 stars this week, ranked #12 on the weekly C++ chart.",
+        "hot": "+322 stars this week, ranked #11 on the weekly C++ chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "spdlog",
+      "full": "gabime/spdlog",
+      "rank": 17,
+      "cat": "infra",
+      "lang": "C++",
+      "stars": 29.2,
+      "today": "+212",
+      "today_n": 212,
+      "auto": true,
+      "zh": {
+        "tag": "Fast C++ logging library.",
+        "what": "Fast C++ logging library.（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 C++。",
+        "hot": "本月新增 +212 stars，位列 GitHub Trending 月榜第 17 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Fast C++ logging library.",
+        "what": "Fast C++ logging library. (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily C++.",
+        "hot": "+212 stars this month, ranked #17 on the monthly GitHub Trending chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "vllm-ascend",
+      "full": "vllm-project/vllm-ascend",
+      "rank": 13,
+      "cat": "ai",
+      "lang": "C++",
+      "stars": 2.4,
+      "today": "+135",
+      "today_n": 135,
+      "auto": true,
+      "zh": {
+        "tag": "Community maintained hardware plugin for vLLM on Ascend",
+        "what": "Community maintained hardware plugin for vLLM on Ascend（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 C++。",
+        "hot": "本周新增 +135 stars，位列 GitHub Trending 周榜（C++）第 13 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Community maintained hardware plugin for vLLM on Ascend",
+        "what": "Community maintained hardware plugin for vLLM on Ascend (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily C++.",
+        "hot": "+135 stars this week, ranked #13 on the weekly C++ chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -10400,7 +10188,7 @@ window.TRENDING_DATA = {
     {
       "slug": "librecad",
       "full": "LibreCAD/LibreCAD",
-      "rank": 13,
+      "rank": 14,
       "cat": "infra",
       "lang": "C++",
       "stars": 6.1,
@@ -10412,7 +10200,7 @@ window.TRENDING_DATA = {
         "what": "LibreCAD is a cross-platform 2D CAD program. It can read DXF/DWG, and write DXF/DWG/PDF/SVG files. It supports point/line/circle/ellipse/parabola/hyperbola/spline primitives. The GUI is highly customizable, and has dozens of translations.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 C++。",
-        "hot": "本周新增 +102 stars，位列 GitHub Trending 周榜（C++）第 13 名。",
+        "hot": "本周新增 +102 stars，位列 GitHub Trending 周榜（C++）第 14 名。",
         "uses": []
       },
       "en": {
@@ -10420,114 +10208,12 @@ window.TRENDING_DATA = {
         "what": "LibreCAD is a cross-platform 2D CAD program. It can read DXF/DWG, and write DXF/DWG/PDF/SVG files. It supports point/line/circle/ellipse/parabola/hyperbola/spline primitives. The GUI is highly customizable, and has dozens of translations. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily C++.",
-        "hot": "+102 stars this week, ranked #13 on the weekly C++ chart.",
+        "hot": "+102 stars this week, ranked #14 on the weekly C++ chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "autoremesher",
-      "full": "huxingyi/autoremesher",
-      "rank": 14,
-      "cat": "infra",
-      "lang": "C++",
-      "stars": 2.8,
-      "today": "+504",
-      "today_n": 504,
-      "auto": true,
-      "zh": {
-        "tag": "Automatic quad remeshing tool",
-        "what": "Automatic quad remeshing tool（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 C++。",
-        "hot": "本周新增 +504 stars，位列 GitHub Trending 周榜（C++）第 14 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "Automatic quad remeshing tool",
-        "what": "Automatic quad remeshing tool (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily C++.",
-        "hot": "+504 stars this week, ranked #14 on the weekly C++ chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "openscad",
-      "full": "openscad/openscad",
-      "rank": 16,
-      "cat": "ai",
-      "lang": "C++",
-      "stars": 9.8,
-      "today": "+139",
-      "today_n": 139,
-      "auto": true,
-      "zh": {
-        "tag": "OpenSCAD - The Programmers Solid 3D CAD Modeller",
-        "what": "OpenSCAD - The Programmers Solid 3D CAD Modeller（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 C++。",
-        "hot": "本周新增 +139 stars，位列 GitHub Trending 周榜（C++）第 16 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "OpenSCAD - The Programmers Solid 3D CAD Modeller",
-        "what": "OpenSCAD - The Programmers Solid 3D CAD Modeller (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily C++.",
-        "hot": "+139 stars this week, ranked #16 on the weekly C++ chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "bitcoin",
-      "full": "bitcoin/bitcoin",
-      "rank": 17,
-      "cat": "infra",
-      "lang": "C++",
-      "stars": 89.6,
-      "today": "+170",
-      "today_n": 170,
-      "auto": true,
-      "zh": {
-        "tag": "Bitcoin Core integration/staging tree",
-        "what": "Bitcoin Core integration/staging tree（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 C++。",
-        "hot": "本周新增 +170 stars，位列 GitHub Trending 周榜（C++）第 17 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "Bitcoin Core integration/staging tree",
-        "what": "Bitcoin Core integration/staging tree (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily C++.",
-        "hot": "+170 stars this week, ranked #17 on the weekly C++ chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -10536,7 +10222,7 @@ window.TRENDING_DATA = {
     {
       "slug": "imgui",
       "full": "ocornut/imgui",
-      "rank": 15,
+      "rank": 14,
       "cat": "infra",
       "lang": "C++",
       "stars": 74.7,
@@ -10548,7 +10234,7 @@ window.TRENDING_DATA = {
         "what": "Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 C++。",
-        "hot": "本月新增 +400 stars，位列 GitHub Trending 月榜第 15 名。",
+        "hot": "本月新增 +400 stars，位列 GitHub Trending 月榜第 14 名。",
         "uses": []
       },
       "en": {
@@ -10556,46 +10242,12 @@ window.TRENDING_DATA = {
         "what": "Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily C++.",
-        "hot": "+400 stars this month, ranked #15 on the monthly GitHub Trending chart.",
+        "hot": "+400 stars this month, ranked #14 on the monthly GitHub Trending chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "carbon-lang",
-      "full": "carbon-language/carbon-lang",
-      "rank": 19,
-      "cat": "infra",
-      "lang": "C++",
-      "stars": 33.8,
-      "today": "+128",
-      "today_n": 128,
-      "auto": true,
-      "zh": {
-        "tag": "Carbon Language's main repository: documents, design, implementation, and related tools. (NOTE: Carbon Language is experimental; see README)",
-        "what": "Carbon Language's main repository: documents, design, implementation, and related tools. (NOTE: Carbon Language is experimental; see README)（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 C++。",
-        "hot": "本周新增 +128 stars，位列 GitHub Trending 周榜（C++）第 19 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "Carbon Language's main repository: documents, design, implementation, and related tools. (NOTE: Carbon Language is experimental; see README)",
-        "what": "Carbon Language's main repository: documents, design, implementation, and related tools. (NOTE: Carbon Language is experimental; see README) (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily C++.",
-        "hot": "+128 stars this week, ranked #19 on the weekly C++ chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -10604,10 +10256,10 @@ window.TRENDING_DATA = {
     {
       "slug": "shadps4",
       "full": "shadps4-emu/shadPS4",
-      "rank": 20,
+      "rank": 16,
       "cat": "infra",
       "lang": "C++",
-      "stars": 32.0,
+      "stars": 32.1,
       "today": "+320",
       "today_n": 320,
       "auto": true,
@@ -10616,7 +10268,7 @@ window.TRENDING_DATA = {
         "what": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 C++。",
-        "hot": "本周新增 +320 stars，位列 GitHub Trending 周榜（C++）第 20 名。",
+        "hot": "本周新增 +320 stars，位列 GitHub Trending 周榜（C++）第 16 名。",
         "uses": []
       },
       "en": {
@@ -10624,80 +10276,12 @@ window.TRENDING_DATA = {
         "what": "PlayStation 4 emulator for Windows, Linux, macOS and FreeBSD written in C++ (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily C++.",
-        "hot": "+320 stars this week, ranked #20 on the weekly C++ chart.",
+        "hot": "+320 stars this week, ranked #16 on the weekly C++ chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "llamafile",
-      "full": "mozilla-ai/llamafile",
-      "rank": 21,
-      "cat": "ai",
-      "lang": "C++",
-      "stars": 25.3,
-      "today": "+176",
-      "today_n": 176,
-      "auto": true,
-      "zh": {
-        "tag": "Distribute and run LLMs with a single file.",
-        "what": "Distribute and run LLMs with a single file.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 C++。",
-        "hot": "本周新增 +176 stars，位列 GitHub Trending 周榜（C++）第 21 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "Distribute and run LLMs with a single file.",
-        "what": "Distribute and run LLMs with a single file. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily C++.",
-        "hot": "+176 stars this week, ranked #21 on the weekly C++ chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "serenity",
-      "full": "SerenityOS/serenity",
-      "rank": 22,
-      "cat": "infra",
-      "lang": "C++",
-      "stars": 33.6,
-      "today": "+123",
-      "today_n": 123,
-      "auto": true,
-      "zh": {
-        "tag": "The Serenity Operating System 🐞",
-        "what": "The Serenity Operating System 🐞（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 C++。",
-        "hot": "本周新增 +123 stars，位列 GitHub Trending 周榜（C++）第 22 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "The Serenity Operating System 🐞",
-        "what": "The Serenity Operating System 🐞 (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily C++.",
-        "hot": "+123 stars this week, ranked #22 on the weekly C++ chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -10706,7 +10290,7 @@ window.TRENDING_DATA = {
     {
       "slug": "dogecoin",
       "full": "dogecoin/dogecoin",
-      "rank": 23,
+      "rank": 17,
       "cat": "infra",
       "lang": "C++",
       "stars": 15.2,
@@ -10718,7 +10302,7 @@ window.TRENDING_DATA = {
         "what": "very currency（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 C++。",
-        "hot": "本周新增 +101 stars，位列 GitHub Trending 周榜（C++）第 23 名。",
+        "hot": "本周新增 +101 stars，位列 GitHub Trending 周榜（C++）第 17 名。",
         "uses": []
       },
       "en": {
@@ -10726,12 +10310,216 @@ window.TRENDING_DATA = {
         "what": "very currency (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily C++.",
-        "hot": "+101 stars this week, ranked #23 on the weekly C++ chart.",
+        "hot": "+101 stars this week, ranked #17 on the weekly C++ chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "carbon-lang",
+      "full": "carbon-language/carbon-lang",
+      "rank": 18,
+      "cat": "infra",
+      "lang": "C++",
+      "stars": 33.8,
+      "today": "+128",
+      "today_n": 128,
+      "auto": true,
+      "zh": {
+        "tag": "Carbon Language's main repository: documents, design, implementation, and related tools. (NOTE: Carbon Language is experimental; see README)",
+        "what": "Carbon Language's main repository: documents, design, implementation, and related tools. (NOTE: Carbon Language is experimental; see README)（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 C++。",
+        "hot": "本周新增 +128 stars，位列 GitHub Trending 周榜（C++）第 18 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Carbon Language's main repository: documents, design, implementation, and related tools. (NOTE: Carbon Language is experimental; see README)",
+        "what": "Carbon Language's main repository: documents, design, implementation, and related tools. (NOTE: Carbon Language is experimental; see README) (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily C++.",
+        "hot": "+128 stars this week, ranked #18 on the weekly C++ chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "aseprite",
+      "full": "aseprite/aseprite",
+      "rank": 19,
+      "cat": "infra",
+      "lang": "C++",
+      "stars": 38.1,
+      "today": "+203",
+      "today_n": 203,
+      "auto": true,
+      "zh": {
+        "tag": "Animated sprite editor & pixel art tool (Windows, macOS, Linux)",
+        "what": "Animated sprite editor & pixel art tool (Windows, macOS, Linux)（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 C++。",
+        "hot": "本周新增 +203 stars，位列 GitHub Trending 周榜（C++）第 19 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Animated sprite editor & pixel art tool (Windows, macOS, Linux)",
+        "what": "Animated sprite editor & pixel art tool (Windows, macOS, Linux) (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily C++.",
+        "hot": "+203 stars this week, ranked #19 on the weekly C++ chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "openscad",
+      "full": "openscad/openscad",
+      "rank": 21,
+      "cat": "ai",
+      "lang": "C++",
+      "stars": 9.8,
+      "today": "+139",
+      "today_n": 139,
+      "auto": true,
+      "zh": {
+        "tag": "OpenSCAD - The Programmers Solid 3D CAD Modeller",
+        "what": "OpenSCAD - The Programmers Solid 3D CAD Modeller（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 C++。",
+        "hot": "本周新增 +139 stars，位列 GitHub Trending 周榜（C++）第 21 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "OpenSCAD - The Programmers Solid 3D CAD Modeller",
+        "what": "OpenSCAD - The Programmers Solid 3D CAD Modeller (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily C++.",
+        "hot": "+139 stars this week, ranked #21 on the weekly C++ chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "autoremesher",
+      "full": "huxingyi/autoremesher",
+      "rank": 22,
+      "cat": "infra",
+      "lang": "C++",
+      "stars": 2.8,
+      "today": "+504",
+      "today_n": 504,
+      "auto": true,
+      "zh": {
+        "tag": "Automatic quad remeshing tool",
+        "what": "Automatic quad remeshing tool（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 C++。",
+        "hot": "本周新增 +504 stars，位列 GitHub Trending 周榜（C++）第 22 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Automatic quad remeshing tool",
+        "what": "Automatic quad remeshing tool (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily C++.",
+        "hot": "+504 stars this week, ranked #22 on the weekly C++ chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "rpcs3",
+      "full": "RPCS3/rpcs3",
+      "rank": 23,
+      "cat": "infra",
+      "lang": "C++",
+      "stars": 19.2,
+      "today": "+94",
+      "today_n": 94,
+      "auto": true,
+      "zh": {
+        "tag": "PlayStation 3 emulator and debugger",
+        "what": "PlayStation 3 emulator and debugger（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 C++。",
+        "hot": "本周新增 +94 stars，位列 GitHub Trending 周榜（C++）第 23 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "PlayStation 3 emulator and debugger",
+        "what": "PlayStation 3 emulator and debugger (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily C++.",
+        "hot": "+94 stars this week, ranked #23 on the weekly C++ chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "serenity",
+      "full": "SerenityOS/serenity",
+      "rank": 24,
+      "cat": "infra",
+      "lang": "C++",
+      "stars": 33.6,
+      "today": "+123",
+      "today_n": 123,
+      "auto": true,
+      "zh": {
+        "tag": "The Serenity Operating System 🐞",
+        "what": "The Serenity Operating System 🐞（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 C++。",
+        "hot": "本周新增 +123 stars，位列 GitHub Trending 周榜（C++）第 24 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "The Serenity Operating System 🐞",
+        "what": "The Serenity Operating System 🐞 (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily C++.",
+        "hot": "+123 stars this week, ranked #24 on the weekly C++ chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -10743,7 +10531,7 @@ window.TRENDING_DATA = {
       "rank": 1,
       "cat": "agent",
       "lang": "Python",
-      "stars": 39.3,
+      "stars": 39.5,
       "today": "+34.6k",
       "today_n": 34552,
       "auto": true,
@@ -10765,7 +10553,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -10777,7 +10565,7 @@ window.TRENDING_DATA = {
       "rank": 2,
       "cat": "agent",
       "lang": "C",
-      "stars": 32.2,
+      "stars": 32.3,
       "today": "+28.4k",
       "today_n": 28389,
       "auto": true,
@@ -10799,7 +10587,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -10833,7 +10621,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -10845,7 +10633,7 @@ window.TRENDING_DATA = {
       "rank": 6,
       "cat": "ai",
       "lang": "Python",
-      "stars": 42.1,
+      "stars": 42.2,
       "today": "+16.2k",
       "today_n": 16246,
       "auto": true,
@@ -10867,41 +10655,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "agent-reach",
-      "full": "Panniantong/Agent-Reach",
-      "rank": 11,
-      "cat": "agent",
-      "lang": "Python",
-      "stars": 57.3,
-      "today": "+26.0k",
-      "today_n": 26023,
-      "auto": true,
-      "zh": {
-        "tag": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-        "what": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Python。",
-        "hot": "本月新增 +26.0k stars，位列 GitHub Trending 月榜第 11 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-        "what": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Python.",
-        "hot": "+26.0k stars this month, ranked #11 on the monthly GitHub Trending chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -10910,10 +10664,10 @@ window.TRENDING_DATA = {
     {
       "slug": "page-agent",
       "full": "alibaba/page-agent",
-      "rank": 12,
+      "rank": 11,
       "cat": "agent",
       "lang": "TypeScript",
-      "stars": 26.8,
+      "stars": 26.9,
       "today": "+8.4k",
       "today_n": 8408,
       "auto": true,
@@ -10922,7 +10676,7 @@ window.TRENDING_DATA = {
         "what": "JavaScript in-page GUI agent. Control web interfaces with natural language.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 TypeScript。",
-        "hot": "本月新增 +8.4k stars，位列 GitHub Trending 月榜第 12 名。",
+        "hot": "本月新增 +8.4k stars，位列 GitHub Trending 月榜第 11 名。",
         "uses": []
       },
       "en": {
@@ -10930,12 +10684,46 @@ window.TRENDING_DATA = {
         "what": "JavaScript in-page GUI agent. Control web interfaces with natural language. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily TypeScript.",
-        "hot": "+8.4k stars this month, ranked #12 on the monthly GitHub Trending chart.",
+        "hot": "+8.4k stars this month, ranked #11 on the monthly GitHub Trending chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "agent-reach",
+      "full": "Panniantong/Agent-Reach",
+      "rank": 12,
+      "cat": "agent",
+      "lang": "Python",
+      "stars": 57.4,
+      "today": "+26.0k",
+      "today_n": 26023,
+      "auto": true,
+      "zh": {
+        "tag": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+        "what": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 Python。",
+        "hot": "本月新增 +26.0k stars，位列 GitHub Trending 月榜第 12 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+        "what": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees. (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily Python.",
+        "hot": "+26.0k stars this month, ranked #12 on the monthly GitHub Trending chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -10944,7 +10732,7 @@ window.TRENDING_DATA = {
     {
       "slug": "hiring-agent",
       "full": "interviewstreet/hiring-agent",
-      "rank": 14,
+      "rank": 13,
       "cat": "agent",
       "lang": "Python",
       "stars": 6.0,
@@ -10956,7 +10744,7 @@ window.TRENDING_DATA = {
         "what": "AI agent to evaluate and score resumes.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Python。",
-        "hot": "本月新增 +4.9k stars，位列 GitHub Trending 月榜第 14 名。",
+        "hot": "本月新增 +4.9k stars，位列 GitHub Trending 月榜第 13 名。",
         "uses": []
       },
       "en": {
@@ -10964,12 +10752,12 @@ window.TRENDING_DATA = {
         "what": "AI agent to evaluate and score resumes. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Python.",
-        "hot": "+4.9k stars this month, ranked #14 on the monthly GitHub Trending chart.",
+        "hot": "+4.9k stars this month, ranked #13 on the monthly GitHub Trending chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -10978,10 +10766,10 @@ window.TRENDING_DATA = {
     {
       "slug": "simplex-chat",
       "full": "simplex-chat/simplex-chat",
-      "rank": 16,
+      "rank": 15,
       "cat": "infra",
       "lang": "Haskell",
-      "stars": 18.6,
+      "stars": 18.7,
       "today": "+7.6k",
       "today_n": 7609,
       "auto": true,
@@ -10990,7 +10778,7 @@ window.TRENDING_DATA = {
         "what": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Haskell。",
-        "hot": "本月新增 +7.6k stars，位列 GitHub Trending 月榜第 16 名。",
+        "hot": "本月新增 +7.6k stars，位列 GitHub Trending 月榜第 15 名。",
         "uses": []
       },
       "en": {
@@ -10998,46 +10786,46 @@ window.TRENDING_DATA = {
         "what": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱! (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Haskell.",
-        "hot": "+7.6k stars this month, ranked #16 on the monthly GitHub Trending chart.",
+        "hot": "+7.6k stars this month, ranked #15 on the monthly GitHub Trending chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "knowledge-catalog",
-      "full": "GoogleCloudPlatform/knowledge-catalog",
-      "rank": 18,
-      "cat": "infra",
-      "lang": "HTML",
-      "stars": 7.3,
-      "today": "+4.4k",
-      "today_n": 4375,
+      "slug": "agent-native",
+      "full": "BuilderIO/agent-native",
+      "rank": 16,
+      "cat": "agent",
+      "lang": "TypeScript",
+      "stars": 3.7,
+      "today": "+3.2k",
+      "today_n": 3249,
       "auto": true,
       "zh": {
-        "tag": "Google Cloud Knowledge Catalog Tools and Samples",
-        "what": "Google Cloud Knowledge Catalog Tools and Samples（自动摘要，人工深度解析待补充。）",
+        "tag": "A framework for building agent-native applications.",
+        "what": "A framework for building agent-native applications.（自动摘要，人工深度解析待补充。）",
         "content": "",
-        "stack": "主语言 HTML。",
-        "hot": "本月新增 +4.4k stars，位列 GitHub Trending 月榜第 18 名。",
+        "stack": "主语言 TypeScript。",
+        "hot": "本月新增 +3.2k stars，位列 GitHub Trending 月榜第 16 名。",
         "uses": []
       },
       "en": {
-        "tag": "Google Cloud Knowledge Catalog Tools and Samples",
-        "what": "Google Cloud Knowledge Catalog Tools and Samples (Auto summary — a human deep dive is pending.)",
+        "tag": "A framework for building agent-native applications.",
+        "what": "A framework for building agent-native applications. (Auto summary — a human deep dive is pending.)",
         "content": "",
-        "stack": "Primarily HTML.",
-        "hot": "+4.4k stars this month, ranked #18 on the monthly GitHub Trending chart.",
+        "stack": "Primarily TypeScript.",
+        "hot": "+3.2k stars this month, ranked #16 on the monthly GitHub Trending chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11046,7 +10834,7 @@ window.TRENDING_DATA = {
     {
       "slug": "cognee",
       "full": "topoteretes/cognee",
-      "rank": 21,
+      "rank": 5,
       "cat": "agent",
       "lang": "Python",
       "stars": 28.0,
@@ -11058,7 +10846,7 @@ window.TRENDING_DATA = {
         "what": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Python。",
-        "hot": "本月新增 +10.2k stars，位列 GitHub Trending 月榜第 21 名。",
+        "hot": "本月新增 +10.2k stars，位列 GitHub Trending 月榜（Python）第 5 名。",
         "uses": []
       },
       "en": {
@@ -11066,12 +10854,12 @@ window.TRENDING_DATA = {
         "what": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Python.",
-        "hot": "+10.2k stars this month, ranked #21 on the monthly GitHub Trending chart.",
+        "hot": "+10.2k stars this month, ranked #5 on the monthly Python chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11080,10 +10868,10 @@ window.TRENDING_DATA = {
     {
       "slug": "mediacrawler",
       "full": "NanmiCoder/MediaCrawler",
-      "rank": 7,
+      "rank": 8,
       "cat": "infra",
       "lang": "Python",
-      "stars": 56.7,
+      "stars": 56.8,
       "today": "+5.6k",
       "today_n": 5591,
       "auto": true,
@@ -11092,7 +10880,7 @@ window.TRENDING_DATA = {
         "what": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Python。",
-        "hot": "本月新增 +5.6k stars，位列 GitHub Trending 月榜（Python）第 7 名。",
+        "hot": "本月新增 +5.6k stars，位列 GitHub Trending 月榜（Python）第 8 名。",
         "uses": []
       },
       "en": {
@@ -11100,12 +10888,12 @@ window.TRENDING_DATA = {
         "what": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫 (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Python.",
-        "hot": "+5.6k stars this month, ranked #7 on the monthly Python chart.",
+        "hot": "+5.6k stars this month, ranked #8 on the monthly Python chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11114,7 +10902,7 @@ window.TRENDING_DATA = {
     {
       "slug": "daily_stock_analysis",
       "full": "ZhuLinsen/daily_stock_analysis",
-      "rank": 10,
+      "rank": 9,
       "cat": "ai",
       "lang": "Python",
       "stars": 57.6,
@@ -11126,7 +10914,7 @@ window.TRENDING_DATA = {
         "what": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Python。",
-        "hot": "本月新增 +15.1k stars，位列 GitHub Trending 月榜（Python）第 10 名。",
+        "hot": "本月新增 +15.1k stars，位列 GitHub Trending 月榜（Python）第 9 名。",
         "uses": []
       },
       "en": {
@@ -11134,12 +10922,46 @@ window.TRENDING_DATA = {
         "what": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Python.",
-        "hot": "+15.1k stars this month, ranked #10 on the monthly Python chart.",
+        "hot": "+15.1k stars this month, ranked #9 on the monthly Python chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "speech-to-speech",
+      "full": "huggingface/speech-to-speech",
+      "rank": 10,
+      "cat": "agent",
+      "lang": "Python",
+      "stars": 6.1,
+      "today": "+1.3k",
+      "today_n": 1325,
+      "auto": true,
+      "zh": {
+        "tag": "Build local voice agents with open-source models",
+        "what": "Build local voice agents with open-source models（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 Python。",
+        "hot": "本月新增 +1.3k stars，位列 GitHub Trending 月榜（Python）第 10 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Build local voice agents with open-source models",
+        "what": "Build local voice agents with open-source models (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily Python.",
+        "hot": "+1.3k stars this month, ranked #10 on the monthly Python chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11173,41 +10995,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "cupy",
-      "full": "cupy/cupy",
-      "rank": 12,
-      "cat": "infra",
-      "lang": "Python",
-      "stars": 12.2,
-      "today": "+1.2k",
-      "today_n": 1166,
-      "auto": true,
-      "zh": {
-        "tag": "NumPy & SciPy for GPU",
-        "what": "NumPy & SciPy for GPU（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Python。",
-        "hot": "本月新增 +1.2k stars，位列 GitHub Trending 月榜（Python）第 12 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "NumPy & SciPy for GPU",
-        "what": "NumPy & SciPy for GPU (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Python.",
-        "hot": "+1.2k stars this month, ranked #12 on the monthly Python chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11216,7 +11004,7 @@ window.TRENDING_DATA = {
     {
       "slug": "romm",
       "full": "rommapp/romm",
-      "rank": 13,
+      "rank": 12,
       "cat": "infra",
       "lang": "Python",
       "stars": 11.1,
@@ -11228,7 +11016,7 @@ window.TRENDING_DATA = {
         "what": "A beautiful, powerful, self-hosted rom manager and player.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Python。",
-        "hot": "本月新增 +2.2k stars，位列 GitHub Trending 月榜（Python）第 13 名。",
+        "hot": "本月新增 +2.2k stars，位列 GitHub Trending 月榜（Python）第 12 名。",
         "uses": []
       },
       "en": {
@@ -11236,12 +11024,12 @@ window.TRENDING_DATA = {
         "what": "A beautiful, powerful, self-hosted rom manager and player. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Python.",
-        "hot": "+2.2k stars this month, ranked #13 on the monthly Python chart.",
+        "hot": "+2.2k stars this month, ranked #12 on the monthly Python chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11250,7 +11038,7 @@ window.TRENDING_DATA = {
     {
       "slug": "cs249r_book",
       "full": "harvard-edge/cs249r_book",
-      "rank": 14,
+      "rank": 13,
       "cat": "other",
       "lang": "Python",
       "stars": 27.4,
@@ -11262,7 +11050,7 @@ window.TRENDING_DATA = {
         "what": "Machine Learning Systems（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Python。",
-        "hot": "本月新增 +2.7k stars，位列 GitHub Trending 月榜（Python）第 14 名。",
+        "hot": "本月新增 +2.7k stars，位列 GitHub Trending 月榜（Python）第 13 名。",
         "uses": []
       },
       "en": {
@@ -11270,12 +11058,12 @@ window.TRENDING_DATA = {
         "what": "Machine Learning Systems (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Python.",
-        "hot": "+2.7k stars this month, ranked #14 on the monthly Python chart.",
+        "hot": "+2.7k stars this month, ranked #13 on the monthly Python chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11284,7 +11072,7 @@ window.TRENDING_DATA = {
     {
       "slug": "skills-for-fabric",
       "full": "microsoft/skills-for-fabric",
-      "rank": 15,
+      "rank": 14,
       "cat": "agent",
       "lang": "Python",
       "stars": 0.8,
@@ -11296,7 +11084,7 @@ window.TRENDING_DATA = {
         "what": "A collection of skills and MCP systems to enable users of CLI, VSCode, Claude to operate over Microsoft Fabric（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Python。",
-        "hot": "本月新增 +286 stars，位列 GitHub Trending 月榜（Python）第 15 名。",
+        "hot": "本月新增 +286 stars，位列 GitHub Trending 月榜（Python）第 14 名。",
         "uses": []
       },
       "en": {
@@ -11304,12 +11092,12 @@ window.TRENDING_DATA = {
         "what": "A collection of skills and MCP systems to enable users of CLI, VSCode, Claude to operate over Microsoft Fabric (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Python.",
-        "hot": "+286 stars this month, ranked #15 on the monthly Python chart.",
+        "hot": "+286 stars this month, ranked #14 on the monthly Python chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11318,7 +11106,7 @@ window.TRENDING_DATA = {
     {
       "slug": "nvidia-skills",
       "full": "NVIDIA/skills",
-      "rank": 16,
+      "rank": 15,
       "cat": "agent",
       "lang": "Python",
       "stars": 2.6,
@@ -11330,7 +11118,7 @@ window.TRENDING_DATA = {
         "what": "AI agent skills published by NVIDIA（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Python。",
-        "hot": "本月新增 +1.3k stars，位列 GitHub Trending 月榜（Python）第 16 名。",
+        "hot": "本月新增 +1.3k stars，位列 GitHub Trending 月榜（Python）第 15 名。",
         "uses": []
       },
       "en": {
@@ -11338,46 +11126,12 @@ window.TRENDING_DATA = {
         "what": "AI agent skills published by NVIDIA (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Python.",
-        "hot": "+1.3k stars this month, ranked #16 on the monthly Python chart.",
+        "hot": "+1.3k stars this month, ranked #15 on the monthly Python chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "timesfm",
-      "full": "google-research/timesfm",
-      "rank": 17,
-      "cat": "ai",
-      "lang": "Python",
-      "stars": 26.9,
-      "today": "+6.1k",
-      "today_n": 6076,
-      "auto": true,
-      "zh": {
-        "tag": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
-        "what": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Python。",
-        "hot": "本月新增 +6.1k stars，位列 GitHub Trending 月榜（Python）第 17 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
-        "what": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Python.",
-        "hot": "+6.1k stars this month, ranked #17 on the monthly Python chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11386,7 +11140,7 @@ window.TRENDING_DATA = {
     {
       "slug": "slime",
       "full": "THUDM/slime",
-      "rank": 18,
+      "rank": 16,
       "cat": "ai",
       "lang": "Python",
       "stars": 7.5,
@@ -11398,7 +11152,7 @@ window.TRENDING_DATA = {
         "what": "slime is an LLM post-training framework for RL Scaling.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Python。",
-        "hot": "本月新增 +1.4k stars，位列 GitHub Trending 月榜（Python）第 18 名。",
+        "hot": "本月新增 +1.4k stars，位列 GitHub Trending 月榜（Python）第 16 名。",
         "uses": []
       },
       "en": {
@@ -11406,12 +11160,12 @@ window.TRENDING_DATA = {
         "what": "slime is an LLM post-training framework for RL Scaling. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Python.",
-        "hot": "+1.4k stars this month, ranked #18 on the monthly Python chart.",
+        "hot": "+1.4k stars this month, ranked #16 on the monthly Python chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11420,7 +11174,7 @@ window.TRENDING_DATA = {
     {
       "slug": "cupp",
       "full": "Mebus/cupp",
-      "rank": 19,
+      "rank": 17,
       "cat": "infra",
       "lang": "Python",
       "stars": 6.4,
@@ -11432,7 +11186,7 @@ window.TRENDING_DATA = {
         "what": "Common User Passwords Profiler (CUPP)（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Python。",
-        "hot": "本月新增 +458 stars，位列 GitHub Trending 月榜（Python）第 19 名。",
+        "hot": "本月新增 +458 stars，位列 GitHub Trending 月榜（Python）第 17 名。",
         "uses": []
       },
       "en": {
@@ -11440,12 +11194,80 @@ window.TRENDING_DATA = {
         "what": "Common User Passwords Profiler (CUPP) (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Python.",
-        "hot": "+458 stars this month, ranked #19 on the monthly Python chart.",
+        "hot": "+458 stars this month, ranked #17 on the monthly Python chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "lingbot-map",
+      "full": "Robbyant/lingbot-map",
+      "rank": 18,
+      "cat": "ai",
+      "lang": "Python",
+      "stars": 11.9,
+      "today": "+4.5k",
+      "today_n": 4475,
+      "auto": true,
+      "zh": {
+        "tag": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
+        "what": "A feed-forward 3D foundation model for reconstructing scenes from streaming data（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 Python。",
+        "hot": "本月新增 +4.5k stars，位列 GitHub Trending 月榜（Python）第 18 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
+        "what": "A feed-forward 3D foundation model for reconstructing scenes from streaming data (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily Python.",
+        "hot": "+4.5k stars this month, ranked #18 on the monthly Python chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "hyper-extract",
+      "full": "yifanfeng97/Hyper-Extract",
+      "rank": 19,
+      "cat": "ai",
+      "lang": "Python",
+      "stars": 3.1,
+      "today": "+1.7k",
+      "today_n": 1660,
+      "auto": true,
+      "zh": {
+        "tag": "Hypergraph is more powerful. Transform unstructured text into structured knowledge with LLMs. Graphs, hypergraphs, and spatio-temporal extractions — with one command.",
+        "what": "Hypergraph is more powerful. Transform unstructured text into structured knowledge with LLMs. Graphs, hypergraphs, and spatio-temporal extractions — with one command.（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 Python。",
+        "hot": "本月新增 +1.7k stars，位列 GitHub Trending 月榜（Python）第 19 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Hypergraph is more powerful. Transform unstructured text into structured knowledge with LLMs. Graphs, hypergraphs, and spatio-temporal extractions — with one command.",
+        "what": "Hypergraph is more powerful. Transform unstructured text into structured knowledge with LLMs. Graphs, hypergraphs, and spatio-temporal extractions — with one command. (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily Python.",
+        "hot": "+1.7k stars this month, ranked #19 on the monthly Python chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11454,10 +11276,10 @@ window.TRENDING_DATA = {
     {
       "slug": "ai-website-cloner-template",
       "full": "JCodesMore/ai-website-cloner-template",
-      "rank": 7,
+      "rank": 8,
       "cat": "agent",
       "lang": "TypeScript",
-      "stars": 28.5,
+      "stars": 28.6,
       "today": "+11.7k",
       "today_n": 11695,
       "auto": true,
@@ -11466,7 +11288,7 @@ window.TRENDING_DATA = {
         "what": "Clone any website with one command using AI coding agents（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 TypeScript。",
-        "hot": "本月新增 +11.7k stars，位列 GitHub Trending 月榜（TypeScript）第 7 名。",
+        "hot": "本月新增 +11.7k stars，位列 GitHub Trending 月榜（TypeScript）第 8 名。",
         "uses": []
       },
       "en": {
@@ -11474,12 +11296,12 @@ window.TRENDING_DATA = {
         "what": "Clone any website with one command using AI coding agents (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily TypeScript.",
-        "hot": "+11.7k stars this month, ranked #7 on the monthly TypeScript chart.",
+        "hot": "+11.7k stars this month, ranked #8 on the monthly TypeScript chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11488,10 +11310,10 @@ window.TRENDING_DATA = {
     {
       "slug": "voicebox",
       "full": "jamiepine/voicebox",
-      "rank": 8,
+      "rank": 9,
       "cat": "ai",
       "lang": "TypeScript",
-      "stars": 41.9,
+      "stars": 42.0,
       "today": "+12.0k",
       "today_n": 11970,
       "auto": true,
@@ -11500,7 +11322,7 @@ window.TRENDING_DATA = {
         "what": "The open-source AI voice studio. Clone, dictate, create.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 TypeScript。",
-        "hot": "本月新增 +12.0k stars，位列 GitHub Trending 月榜（TypeScript）第 8 名。",
+        "hot": "本月新增 +12.0k stars，位列 GitHub Trending 月榜（TypeScript）第 9 名。",
         "uses": []
       },
       "en": {
@@ -11508,12 +11330,46 @@ window.TRENDING_DATA = {
         "what": "The open-source AI voice studio. Clone, dictate, create. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily TypeScript.",
-        "hot": "+12.0k stars this month, ranked #8 on the monthly TypeScript chart.",
+        "hot": "+12.0k stars this month, ranked #9 on the monthly TypeScript chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "logto",
+      "full": "logto-io/logto",
+      "rank": 10,
+      "cat": "ai",
+      "lang": "TypeScript",
+      "stars": 14.1,
+      "today": "+2.1k",
+      "today_n": 2060,
+      "auto": true,
+      "zh": {
+        "tag": "🧑‍🚀 Authentication and authorization infrastructure for SaaS and AI apps, built on OIDC and OAuth 2.1 with multi-tenancy, SSO, and RBAC.",
+        "what": "🧑‍🚀 Authentication and authorization infrastructure for SaaS and AI apps, built on OIDC and OAuth 2.1 with multi-tenancy, SSO, and RBAC.（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 TypeScript。",
+        "hot": "本月新增 +2.1k stars，位列 GitHub Trending 月榜（TypeScript）第 10 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "🧑‍🚀 Authentication and authorization infrastructure for SaaS and AI apps, built on OIDC and OAuth 2.1 with multi-tenancy, SSO, and RBAC.",
+        "what": "🧑‍🚀 Authentication and authorization infrastructure for SaaS and AI apps, built on OIDC and OAuth 2.1 with multi-tenancy, SSO, and RBAC. (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily TypeScript.",
+        "hot": "+2.1k stars this month, ranked #10 on the monthly TypeScript chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11522,7 +11378,7 @@ window.TRENDING_DATA = {
     {
       "slug": "gnhf",
       "full": "kunchenguid/gnhf",
-      "rank": 9,
+      "rank": 11,
       "cat": "agent",
       "lang": "TypeScript",
       "stars": 3.2,
@@ -11534,7 +11390,7 @@ window.TRENDING_DATA = {
         "what": "Before I go to bed, I tell my agents: good night, have fun（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 TypeScript。",
-        "hot": "本月新增 +1.1k stars，位列 GitHub Trending 月榜（TypeScript）第 9 名。",
+        "hot": "本月新增 +1.1k stars，位列 GitHub Trending 月榜（TypeScript）第 11 名。",
         "uses": []
       },
       "en": {
@@ -11542,46 +11398,46 @@ window.TRENDING_DATA = {
         "what": "Before I go to bed, I tell my agents: good night, have fun (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily TypeScript.",
-        "hot": "+1.1k stars this month, ranked #9 on the monthly TypeScript chart.",
+        "hot": "+1.1k stars this month, ranked #11 on the monthly TypeScript chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "agent-native",
-      "full": "BuilderIO/agent-native",
-      "rank": 10,
-      "cat": "agent",
+      "slug": "immich",
+      "full": "immich-app/immich",
+      "rank": 12,
+      "cat": "infra",
       "lang": "TypeScript",
-      "stars": 3.7,
-      "today": "+3.2k",
-      "today_n": 3249,
+      "stars": 108.0,
+      "today": "+4.6k",
+      "today_n": 4579,
       "auto": true,
       "zh": {
-        "tag": "A framework for building agent-native applications.",
-        "what": "A framework for building agent-native applications.（自动摘要，人工深度解析待补充。）",
+        "tag": "High performance self-hosted photo and video management solution.",
+        "what": "High performance self-hosted photo and video management solution.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 TypeScript。",
-        "hot": "本月新增 +3.2k stars，位列 GitHub Trending 月榜（TypeScript）第 10 名。",
+        "hot": "本月新增 +4.6k stars，位列 GitHub Trending 月榜（TypeScript）第 12 名。",
         "uses": []
       },
       "en": {
-        "tag": "A framework for building agent-native applications.",
-        "what": "A framework for building agent-native applications. (Auto summary — a human deep dive is pending.)",
+        "tag": "High performance self-hosted photo and video management solution.",
+        "what": "High performance self-hosted photo and video management solution. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily TypeScript.",
-        "hot": "+3.2k stars this month, ranked #10 on the monthly TypeScript chart.",
+        "hot": "+4.6k stars this month, ranked #12 on the monthly TypeScript chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11590,7 +11446,7 @@ window.TRENDING_DATA = {
     {
       "slug": "wacrm",
       "full": "ArnasDon/wacrm",
-      "rank": 12,
+      "rank": 13,
       "cat": "infra",
       "lang": "TypeScript",
       "stars": 1.6,
@@ -11602,7 +11458,7 @@ window.TRENDING_DATA = {
         "what": "Self-hostable CRM template for WhatsApp — shared inbox, contacts, sales pipelines, broadcasts, and no-code automations. Fork it, brand it, host it.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 TypeScript。",
-        "hot": "本月新增 +694 stars，位列 GitHub Trending 月榜（TypeScript）第 12 名。",
+        "hot": "本月新增 +694 stars，位列 GitHub Trending 月榜（TypeScript）第 13 名。",
         "uses": []
       },
       "en": {
@@ -11610,80 +11466,12 @@ window.TRENDING_DATA = {
         "what": "Self-hostable CRM template for WhatsApp — shared inbox, contacts, sales pipelines, broadcasts, and no-code automations. Fork it, brand it, host it. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily TypeScript.",
-        "hot": "+694 stars this month, ranked #12 on the monthly TypeScript chart.",
+        "hot": "+694 stars this month, ranked #13 on the monthly TypeScript chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "worldmonitor",
-      "full": "koala73/worldmonitor",
-      "rank": 13,
-      "cat": "ai",
-      "lang": "TypeScript",
-      "stars": 61.9,
-      "today": "+5.6k",
-      "today_n": 5587,
-      "auto": true,
-      "zh": {
-        "tag": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
-        "what": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 TypeScript。",
-        "hot": "本月新增 +5.6k stars，位列 GitHub Trending 月榜（TypeScript）第 13 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
-        "what": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily TypeScript.",
-        "hot": "+5.6k stars this month, ranked #13 on the monthly TypeScript chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "iptv",
-      "full": "iptv-org/iptv",
-      "rank": 14,
-      "cat": "infra",
-      "lang": "TypeScript",
-      "stars": 133.1,
-      "today": "+9.7k",
-      "today_n": 9736,
-      "auto": true,
-      "zh": {
-        "tag": "Collection of publicly available IPTV channels from all over the world",
-        "what": "Collection of publicly available IPTV channels from all over the world（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 TypeScript。",
-        "hot": "本月新增 +9.7k stars，位列 GitHub Trending 月榜（TypeScript）第 14 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "Collection of publicly available IPTV channels from all over the world",
-        "what": "Collection of publicly available IPTV channels from all over the world (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily TypeScript.",
-        "hot": "+9.7k stars this month, ranked #14 on the monthly TypeScript chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11695,7 +11483,7 @@ window.TRENDING_DATA = {
       "rank": 15,
       "cat": "infra",
       "lang": "TypeScript",
-      "stars": 10.3,
+      "stars": 10.4,
       "today": "+4.8k",
       "today_n": 4780,
       "auto": true,
@@ -11717,7 +11505,75 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "iptv",
+      "full": "iptv-org/iptv",
+      "rank": 16,
+      "cat": "infra",
+      "lang": "TypeScript",
+      "stars": 133.2,
+      "today": "+9.7k",
+      "today_n": 9736,
+      "auto": true,
+      "zh": {
+        "tag": "Collection of publicly available IPTV channels from all over the world",
+        "what": "Collection of publicly available IPTV channels from all over the world（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 TypeScript。",
+        "hot": "本月新增 +9.7k stars，位列 GitHub Trending 月榜（TypeScript）第 16 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Collection of publicly available IPTV channels from all over the world",
+        "what": "Collection of publicly available IPTV channels from all over the world (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily TypeScript.",
+        "hot": "+9.7k stars this month, ranked #16 on the monthly TypeScript chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "worldmonitor",
+      "full": "koala73/worldmonitor",
+      "rank": 17,
+      "cat": "ai",
+      "lang": "TypeScript",
+      "stars": 62.0,
+      "today": "+5.6k",
+      "today_n": 5587,
+      "auto": true,
+      "zh": {
+        "tag": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+        "what": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 TypeScript。",
+        "hot": "本月新增 +5.6k stars，位列 GitHub Trending 月榜（TypeScript）第 17 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+        "what": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily TypeScript.",
+        "hot": "+5.6k stars this month, ranked #17 on the monthly TypeScript chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11726,7 +11582,7 @@ window.TRENDING_DATA = {
     {
       "slug": "open-seo",
       "full": "every-app/open-seo",
-      "rank": 16,
+      "rank": 18,
       "cat": "infra",
       "lang": "TypeScript",
       "stars": 4.4,
@@ -11738,7 +11594,7 @@ window.TRENDING_DATA = {
         "what": "Open source alternative to Semrush and Ahrefs（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 TypeScript。",
-        "hot": "本月新增 +2.2k stars，位列 GitHub Trending 月榜（TypeScript）第 16 名。",
+        "hot": "本月新增 +2.2k stars，位列 GitHub Trending 月榜（TypeScript）第 18 名。",
         "uses": []
       },
       "en": {
@@ -11746,80 +11602,12 @@ window.TRENDING_DATA = {
         "what": "Open source alternative to Semrush and Ahrefs (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily TypeScript.",
-        "hot": "+2.2k stars this month, ranked #16 on the monthly TypeScript chart.",
+        "hot": "+2.2k stars this month, ranked #18 on the monthly TypeScript chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "immich",
-      "full": "immich-app/immich",
-      "rank": 17,
-      "cat": "infra",
-      "lang": "TypeScript",
-      "stars": 107.9,
-      "today": "+4.6k",
-      "today_n": 4579,
-      "auto": true,
-      "zh": {
-        "tag": "High performance self-hosted photo and video management solution.",
-        "what": "High performance self-hosted photo and video management solution.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 TypeScript。",
-        "hot": "本月新增 +4.6k stars，位列 GitHub Trending 月榜（TypeScript）第 17 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "High performance self-hosted photo and video management solution.",
-        "what": "High performance self-hosted photo and video management solution. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily TypeScript.",
-        "hot": "+4.6k stars this month, ranked #17 on the monthly TypeScript chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "firecrawl",
-      "full": "firecrawl/firecrawl",
-      "rank": 19,
-      "cat": "infra",
-      "lang": "TypeScript",
-      "stars": 152.1,
-      "today": "+19.1k",
-      "today_n": 19071,
-      "auto": true,
-      "zh": {
-        "tag": "The API to search, scrape, and interact with the web at scale. 🔥",
-        "what": "The API to search, scrape, and interact with the web at scale. 🔥（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 TypeScript。",
-        "hot": "本月新增 +19.1k stars，位列 GitHub Trending 月榜（TypeScript）第 19 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "The API to search, scrape, and interact with the web at scale. 🔥",
-        "what": "The API to search, scrape, and interact with the web at scale. 🔥 (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily TypeScript.",
-        "hot": "+19.1k stars this month, ranked #19 on the monthly TypeScript chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11853,7 +11641,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11862,7 +11650,7 @@ window.TRENDING_DATA = {
     {
       "slug": "grafana",
       "full": "grafana/grafana",
-      "rank": 22,
+      "rank": 21,
       "cat": "infra",
       "lang": "TypeScript",
       "stars": 75.6,
@@ -11874,7 +11662,7 @@ window.TRENDING_DATA = {
         "what": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 TypeScript。",
-        "hot": "本月新增 +1.7k stars，位列 GitHub Trending 月榜（TypeScript）第 22 名。",
+        "hot": "本月新增 +1.7k stars，位列 GitHub Trending 月榜（TypeScript）第 21 名。",
         "uses": []
       },
       "en": {
@@ -11882,12 +11670,12 @@ window.TRENDING_DATA = {
         "what": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily TypeScript.",
-        "hot": "+1.7k stars this month, ranked #22 on the monthly TypeScript chart.",
+        "hot": "+1.7k stars this month, ranked #21 on the monthly TypeScript chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11899,7 +11687,7 @@ window.TRENDING_DATA = {
       "rank": 3,
       "cat": "agent",
       "lang": "JavaScript",
-      "stars": 64.4,
+      "stars": 64.5,
       "today": "+19.4k",
       "today_n": 19418,
       "auto": true,
@@ -11921,41 +11709,41 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "glm-coding-grabber",
-      "full": "Spanky96/glm-coding-grabber",
-      "rank": 7,
-      "cat": "infra",
+      "slug": "lavish-axi",
+      "full": "kunchenguid/lavish-axi",
+      "rank": 5,
+      "cat": "ai",
       "lang": "JavaScript",
-      "stars": 0.5,
-      "today": "+229",
-      "today_n": 229,
+      "stars": 1.9,
+      "today": "+1.4k",
+      "today_n": 1444,
       "auto": true,
       "zh": {
-        "tag": "glm 智谱 codingplan 抢购助手 tempermonkey + python验证码自动识别",
-        "what": "glm 智谱 codingplan 抢购助手 tempermonkey + python验证码自动识别（自动摘要，人工深度解析待补充。）",
+        "tag": "HTML is the new markdown. Lavish is the new editor for your HTML artifacts.",
+        "what": "HTML is the new markdown. Lavish is the new editor for your HTML artifacts.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 JavaScript。",
-        "hot": "本月新增 +229 stars，位列 GitHub Trending 月榜（JavaScript）第 7 名。",
+        "hot": "本月新增 +1.4k stars，位列 GitHub Trending 月榜（JavaScript）第 5 名。",
         "uses": []
       },
       "en": {
-        "tag": "glm 智谱 codingplan 抢购助手 tempermonkey + python验证码自动识别",
-        "what": "glm 智谱 codingplan 抢购助手 tempermonkey + python验证码自动识别 (Auto summary — a human deep dive is pending.)",
+        "tag": "HTML is the new markdown. Lavish is the new editor for your HTML artifacts.",
+        "what": "HTML is the new markdown. Lavish is the new editor for your HTML artifacts. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily JavaScript.",
-        "hot": "+229 stars this month, ranked #7 on the monthly JavaScript chart.",
+        "hot": "+1.4k stars this month, ranked #5 on the monthly JavaScript chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11964,7 +11752,7 @@ window.TRENDING_DATA = {
     {
       "slug": "chinese-poetry",
       "full": "chinese-poetry/chinese-poetry",
-      "rank": 10,
+      "rank": 9,
       "cat": "infra",
       "lang": "JavaScript",
       "stars": 52.6,
@@ -11976,7 +11764,7 @@ window.TRENDING_DATA = {
         "what": "The most comprehensive database of Chinese poetry 🧶最全中华古诗词数据库, 唐宋两朝近一万四千古诗人, 接近5.5万首唐诗加26万宋诗. 两宋时期1564位词人，21050首词。（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 JavaScript。",
-        "hot": "本月新增 +676 stars，位列 GitHub Trending 月榜（JavaScript）第 10 名。",
+        "hot": "本月新增 +676 stars，位列 GitHub Trending 月榜（JavaScript）第 9 名。",
         "uses": []
       },
       "en": {
@@ -11984,12 +11772,12 @@ window.TRENDING_DATA = {
         "what": "The most comprehensive database of Chinese poetry 🧶最全中华古诗词数据库, 唐宋两朝近一万四千古诗人, 接近5.5万首唐诗加26万宋诗. 两宋时期1564位词人，21050首词。 (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily JavaScript.",
-        "hot": "+676 stars this month, ranked #10 on the monthly JavaScript chart.",
+        "hot": "+676 stars this month, ranked #9 on the monthly JavaScript chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11998,7 +11786,7 @@ window.TRENDING_DATA = {
     {
       "slug": "openwhispr",
       "full": "OpenWhispr/openwhispr",
-      "rank": 14,
+      "rank": 10,
       "cat": "ai",
       "lang": "JavaScript",
       "stars": 4.6,
@@ -12010,7 +11798,7 @@ window.TRENDING_DATA = {
         "what": "Voice-to-text dictation app with local (Nvidia Parakeet/Whisper) and cloud models (BYOK). Privacy-first and available cross-platform.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 JavaScript。",
-        "hot": "本月新增 +778 stars，位列 GitHub Trending 月榜（JavaScript）第 14 名。",
+        "hot": "本月新增 +778 stars，位列 GitHub Trending 月榜（JavaScript）第 10 名。",
         "uses": []
       },
       "en": {
@@ -12018,46 +11806,148 @@ window.TRENDING_DATA = {
         "what": "Voice-to-text dictation app with local (Nvidia Parakeet/Whisper) and cloud models (BYOK). Privacy-first and available cross-platform. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily JavaScript.",
-        "hot": "+778 stars this month, ranked #14 on the monthly JavaScript chart.",
+        "hot": "+778 stars this month, ranked #10 on the monthly JavaScript chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "iroh",
-      "full": "n0-computer/iroh",
-      "rank": 3,
+      "slug": "prettier",
+      "full": "prettier/prettier",
+      "rank": 11,
       "cat": "infra",
-      "lang": "Rust",
-      "stars": 11.7,
-      "today": "+2.7k",
-      "today_n": 2705,
+      "lang": "JavaScript",
+      "stars": 52.1,
+      "today": "+368",
+      "today_n": 368,
       "auto": true,
       "zh": {
-        "tag": "IP addresses break, dial keys instead. A library that adds QUIC + NAT Traversal to your apps.",
-        "what": "IP addresses break, dial keys instead. A library that adds QUIC + NAT Traversal to your apps.（自动摘要，人工深度解析待补充。）",
+        "tag": "Prettier is an opinionated code formatter.",
+        "what": "Prettier is an opinionated code formatter.（自动摘要，人工深度解析待补充。）",
         "content": "",
-        "stack": "主语言 Rust。",
-        "hot": "本月新增 +2.7k stars，位列 GitHub Trending 月榜（Rust）第 3 名。",
+        "stack": "主语言 JavaScript。",
+        "hot": "本月新增 +368 stars，位列 GitHub Trending 月榜（JavaScript）第 11 名。",
         "uses": []
       },
       "en": {
-        "tag": "IP addresses break, dial keys instead. A library that adds QUIC + NAT Traversal to your apps.",
-        "what": "IP addresses break, dial keys instead. A library that adds QUIC + NAT Traversal to your apps. (Auto summary — a human deep dive is pending.)",
+        "tag": "Prettier is an opinionated code formatter.",
+        "what": "Prettier is an opinionated code formatter. (Auto summary — a human deep dive is pending.)",
         "content": "",
-        "stack": "Primarily Rust.",
-        "hot": "+2.7k stars this month, ranked #3 on the monthly Rust chart.",
+        "stack": "Primarily JavaScript.",
+        "hot": "+368 stars this month, ranked #11 on the monthly JavaScript chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "webtorrent",
+      "full": "webtorrent/webtorrent",
+      "rank": 12,
+      "cat": "infra",
+      "lang": "JavaScript",
+      "stars": 31.3,
+      "today": "+489",
+      "today_n": 489,
+      "auto": true,
+      "zh": {
+        "tag": "⚡️ Streaming torrent client for the web",
+        "what": "⚡️ Streaming torrent client for the web（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 JavaScript。",
+        "hot": "本月新增 +489 stars，位列 GitHub Trending 月榜（JavaScript）第 12 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "⚡️ Streaming torrent client for the web",
+        "what": "⚡️ Streaming torrent client for the web (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily JavaScript.",
+        "hot": "+489 stars this month, ranked #12 on the monthly JavaScript chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "clean-code-javascript",
+      "full": "ryanmcdermott/clean-code-javascript",
+      "rank": 13,
+      "cat": "infra",
+      "lang": "JavaScript",
+      "stars": 94.7,
+      "today": "+469",
+      "today_n": 469,
+      "auto": true,
+      "zh": {
+        "tag": "Clean Code concepts adapted for JavaScript",
+        "what": "Clean Code concepts adapted for JavaScript（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 JavaScript。",
+        "hot": "本月新增 +469 stars，位列 GitHub Trending 月榜（JavaScript）第 13 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Clean Code concepts adapted for JavaScript",
+        "what": "Clean Code concepts adapted for JavaScript (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily JavaScript.",
+        "hot": "+469 stars this month, ranked #13 on the monthly JavaScript chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "caveman",
+      "full": "JuliusBrussee/caveman",
+      "rank": 15,
+      "cat": "agent",
+      "lang": "JavaScript",
+      "stars": 90.3,
+      "today": "+17.0k",
+      "today_n": 17004,
+      "auto": true,
+      "zh": {
+        "tag": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+        "what": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 JavaScript。",
+        "hot": "本月新增 +17.0k stars，位列 GitHub Trending 月榜（JavaScript）第 15 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+        "what": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily JavaScript.",
+        "hot": "+17.0k stars this month, ranked #15 on the monthly JavaScript chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -12066,32 +11956,32 @@ window.TRENDING_DATA = {
     {
       "slug": "turso",
       "full": "tursodatabase/turso",
-      "rank": 4,
+      "rank": 3,
       "cat": "infra",
       "lang": "Rust",
-      "stars": 23.0,
+      "stars": 23.1,
       "today": "+3.8k",
       "today_n": 3757,
       "auto": true,
       "zh": {
-        "tag": "A SQL database in Rust: SQLite-compatible, now speaking Postgres. The LLVM of databases.",
-        "what": "A SQL database in Rust: SQLite-compatible, now speaking Postgres. The LLVM of databases.（自动摘要，人工深度解析待补充。）",
+        "tag": "A SQL database in Rust: SQLite-compatible, now also speaking Postgres (experimental). The LLVM of databases.",
+        "what": "A SQL database in Rust: SQLite-compatible, now also speaking Postgres (experimental). The LLVM of databases.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Rust。",
-        "hot": "本月新增 +3.8k stars，位列 GitHub Trending 月榜（Rust）第 4 名。",
+        "hot": "本月新增 +3.8k stars，位列 GitHub Trending 月榜（Rust）第 3 名。",
         "uses": []
       },
       "en": {
-        "tag": "A SQL database in Rust: SQLite-compatible, now speaking Postgres. The LLVM of databases.",
-        "what": "A SQL database in Rust: SQLite-compatible, now speaking Postgres. The LLVM of databases. (Auto summary — a human deep dive is pending.)",
+        "tag": "A SQL database in Rust: SQLite-compatible, now also speaking Postgres (experimental). The LLVM of databases.",
+        "what": "A SQL database in Rust: SQLite-compatible, now also speaking Postgres (experimental). The LLVM of databases. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Rust.",
-        "hot": "+3.8k stars this month, ranked #4 on the monthly Rust chart.",
+        "hot": "+3.8k stars this month, ranked #3 on the monthly Rust chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -12100,7 +11990,7 @@ window.TRENDING_DATA = {
     {
       "slug": "dbx",
       "full": "t8y2/dbx",
-      "rank": 5,
+      "rank": 4,
       "cat": "infra",
       "lang": "Rust",
       "stars": 10.2,
@@ -12112,7 +12002,7 @@ window.TRENDING_DATA = {
         "what": "20MB, lightweight, cross-platform database client. Supports MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, ClickHouse, SQL Server and more.20MB，轻量级跨平台数据库客户端、数据库管理工具。支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB、ClickHouse、SQL Server 等。（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Rust。",
-        "hot": "本月新增 +4.5k stars，位列 GitHub Trending 月榜（Rust）第 5 名。",
+        "hot": "本月新增 +4.5k stars，位列 GitHub Trending 月榜（Rust）第 4 名。",
         "uses": []
       },
       "en": {
@@ -12120,80 +12010,80 @@ window.TRENDING_DATA = {
         "what": "20MB, lightweight, cross-platform database client. Supports MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, ClickHouse, SQL Server and more.20MB，轻量级跨平台数据库客户端、数据库管理工具。支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB、ClickHouse、SQL Server 等。 (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Rust.",
-        "hot": "+4.5k stars this month, ranked #5 on the monthly Rust chart.",
+        "hot": "+4.5k stars this month, ranked #4 on the monthly Rust chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "workmux",
-      "full": "raine/workmux",
-      "rank": 10,
+      "slug": "iroh",
+      "full": "n0-computer/iroh",
+      "rank": 6,
       "cat": "infra",
       "lang": "Rust",
-      "stars": 1.8,
-      "today": "+283",
-      "today_n": 283,
+      "stars": 11.7,
+      "today": "+2.7k",
+      "today_n": 2705,
       "auto": true,
       "zh": {
-        "tag": "git worktrees + tmux windows for zero-friction parallel dev",
-        "what": "git worktrees + tmux windows for zero-friction parallel dev（自动摘要，人工深度解析待补充。）",
+        "tag": "IP addresses break, dial keys instead. A library that adds QUIC + NAT Traversal to your apps.",
+        "what": "IP addresses break, dial keys instead. A library that adds QUIC + NAT Traversal to your apps.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Rust。",
-        "hot": "本月新增 +283 stars，位列 GitHub Trending 月榜（Rust）第 10 名。",
+        "hot": "本月新增 +2.7k stars，位列 GitHub Trending 月榜（Rust）第 6 名。",
         "uses": []
       },
       "en": {
-        "tag": "git worktrees + tmux windows for zero-friction parallel dev",
-        "what": "git worktrees + tmux windows for zero-friction parallel dev (Auto summary — a human deep dive is pending.)",
+        "tag": "IP addresses break, dial keys instead. A library that adds QUIC + NAT Traversal to your apps.",
+        "what": "IP addresses break, dial keys instead. A library that adds QUIC + NAT Traversal to your apps. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Rust.",
-        "hot": "+283 stars this month, ranked #10 on the monthly Rust chart.",
+        "hot": "+2.7k stars this month, ranked #6 on the monthly Rust chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "ripgrep",
-      "full": "BurntSushi/ripgrep",
-      "rank": 12,
-      "cat": "infra",
+      "slug": "agentgateway",
+      "full": "agentgateway/agentgateway",
+      "rank": 9,
+      "cat": "agent",
       "lang": "Rust",
-      "stars": 66.3,
-      "today": "+1.4k",
-      "today_n": 1405,
+      "stars": 3.9,
+      "today": "+599",
+      "today_n": 599,
       "auto": true,
       "zh": {
-        "tag": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore",
-        "what": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore（自动摘要，人工深度解析待补充。）",
+        "tag": "Next Generation Agentic Proxy for AI Agents and MCP servers",
+        "what": "Next Generation Agentic Proxy for AI Agents and MCP servers（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Rust。",
-        "hot": "本月新增 +1.4k stars，位列 GitHub Trending 月榜（Rust）第 12 名。",
+        "hot": "本月新增 +599 stars，位列 GitHub Trending 月榜（Rust）第 9 名。",
         "uses": []
       },
       "en": {
-        "tag": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore",
-        "what": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore (Auto summary — a human deep dive is pending.)",
+        "tag": "Next Generation Agentic Proxy for AI Agents and MCP servers",
+        "what": "Next Generation Agentic Proxy for AI Agents and MCP servers (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Rust.",
-        "hot": "+1.4k stars this month, ranked #12 on the monthly Rust chart.",
+        "hot": "+599 stars this month, ranked #9 on the monthly Rust chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -12202,7 +12092,7 @@ window.TRENDING_DATA = {
     {
       "slug": "helix",
       "full": "helix-editor/helix",
-      "rank": 13,
+      "rank": 12,
       "cat": "infra",
       "lang": "Rust",
       "stars": 45.5,
@@ -12214,7 +12104,7 @@ window.TRENDING_DATA = {
         "what": "A post-modern modal text editor.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Rust。",
-        "hot": "本月新增 +727 stars，位列 GitHub Trending 月榜（Rust）第 13 名。",
+        "hot": "本月新增 +727 stars，位列 GitHub Trending 月榜（Rust）第 12 名。",
         "uses": []
       },
       "en": {
@@ -12222,80 +12112,80 @@ window.TRENDING_DATA = {
         "what": "A post-modern modal text editor. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Rust.",
-        "hot": "+727 stars this month, ranked #13 on the monthly Rust chart.",
+        "hot": "+727 stars this month, ranked #12 on the monthly Rust chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "nautilus_trader",
-      "full": "nautechsystems/nautilus_trader",
+      "slug": "omnigraph",
+      "full": "ModernRelay/omnigraph",
+      "rank": 13,
+      "cat": "infra",
+      "lang": "Rust",
+      "stars": 0.9,
+      "today": "+683",
+      "today_n": 683,
+      "auto": true,
+      "zh": {
+        "tag": "Lakehouse native graph engine with git-style workflows",
+        "what": "Lakehouse native graph engine with git-style workflows（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 Rust。",
+        "hot": "本月新增 +683 stars，位列 GitHub Trending 月榜（Rust）第 13 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Lakehouse native graph engine with git-style workflows",
+        "what": "Lakehouse native graph engine with git-style workflows (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily Rust.",
+        "hot": "+683 stars this month, ranked #13 on the monthly Rust chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "wezterm",
+      "full": "wezterm/wezterm",
       "rank": 15,
       "cat": "infra",
       "lang": "Rust",
-      "stars": 24.7,
-      "today": "+1.2k",
-      "today_n": 1242,
+      "stars": 27.6,
+      "today": "+1.1k",
+      "today_n": 1069,
       "auto": true,
       "zh": {
-        "tag": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
-        "what": "Production-grade Rust-native trading engine with deterministic event-driven architecture（自动摘要，人工深度解析待补充。）",
+        "tag": "A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust",
+        "what": "A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Rust。",
-        "hot": "本月新增 +1.2k stars，位列 GitHub Trending 月榜（Rust）第 15 名。",
+        "hot": "本月新增 +1.1k stars，位列 GitHub Trending 月榜（Rust）第 15 名。",
         "uses": []
       },
       "en": {
-        "tag": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
-        "what": "Production-grade Rust-native trading engine with deterministic event-driven architecture (Auto summary — a human deep dive is pending.)",
+        "tag": "A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust",
+        "what": "A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Rust.",
-        "hot": "+1.2k stars this month, ranked #15 on the monthly Rust chart.",
+        "hot": "+1.1k stars this month, ranked #15 on the monthly Rust chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "bat",
-      "full": "sharkdp/bat",
-      "rank": 17,
-      "cat": "infra",
-      "lang": "Rust",
-      "stars": 59.8,
-      "today": "+830",
-      "today_n": 830,
-      "auto": true,
-      "zh": {
-        "tag": "A cat(1) clone with wings.",
-        "what": "A cat(1) clone with wings.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Rust。",
-        "hot": "本月新增 +830 stars，位列 GitHub Trending 月榜（Rust）第 17 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "A cat(1) clone with wings.",
-        "what": "A cat(1) clone with wings. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Rust.",
-        "hot": "+830 stars this month, ranked #17 on the monthly Rust chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -12304,7 +12194,7 @@ window.TRENDING_DATA = {
     {
       "slug": "googleworkspace-cli",
       "full": "googleworkspace/cli",
-      "rank": 18,
+      "rank": 16,
       "cat": "agent",
       "lang": "Rust",
       "stars": 29.8,
@@ -12316,7 +12206,7 @@ window.TRENDING_DATA = {
         "what": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Rust。",
-        "hot": "本月新增 +2.8k stars，位列 GitHub Trending 月榜（Rust）第 18 名。",
+        "hot": "本月新增 +2.8k stars，位列 GitHub Trending 月榜（Rust）第 16 名。",
         "uses": []
       },
       "en": {
@@ -12324,12 +12214,12 @@ window.TRENDING_DATA = {
         "what": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Rust.",
-        "hot": "+2.8k stars this month, ranked #18 on the monthly Rust chart.",
+        "hot": "+2.8k stars this month, ranked #16 on the monthly Rust chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -12338,10 +12228,10 @@ window.TRENDING_DATA = {
     {
       "slug": "handy",
       "full": "cjpais/Handy",
-      "rank": 19,
+      "rank": 17,
       "cat": "infra",
       "lang": "Rust",
-      "stars": 26.7,
+      "stars": 26.8,
       "today": "+3.0k",
       "today_n": 2970,
       "auto": true,
@@ -12350,7 +12240,7 @@ window.TRENDING_DATA = {
         "what": "A free, open source, and extensible speech-to-text application that works completely offline.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Rust。",
-        "hot": "本月新增 +3.0k stars，位列 GitHub Trending 月榜（Rust）第 19 名。",
+        "hot": "本月新增 +3.0k stars，位列 GitHub Trending 月榜（Rust）第 17 名。",
         "uses": []
       },
       "en": {
@@ -12358,12 +12248,12 @@ window.TRENDING_DATA = {
         "what": "A free, open source, and extensible speech-to-text application that works completely offline. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Rust.",
-        "hot": "+3.0k stars this month, ranked #19 on the monthly Rust chart.",
+        "hot": "+3.0k stars this month, ranked #17 on the monthly Rust chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -12372,10 +12262,10 @@ window.TRENDING_DATA = {
     {
       "slug": "destructive_command_guard",
       "full": "Dicklesworthstone/destructive_command_guard",
-      "rank": 21,
+      "rank": 19,
       "cat": "agent",
       "lang": "Rust",
-      "stars": 5.0,
+      "stars": 5.1,
       "today": "+3.9k",
       "today_n": 3912,
       "auto": true,
@@ -12384,7 +12274,7 @@ window.TRENDING_DATA = {
         "what": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Rust。",
-        "hot": "本月新增 +3.9k stars，位列 GitHub Trending 月榜（Rust）第 21 名。",
+        "hot": "本月新增 +3.9k stars，位列 GitHub Trending 月榜（Rust）第 19 名。",
         "uses": []
       },
       "en": {
@@ -12392,80 +12282,148 @@ window.TRENDING_DATA = {
         "what": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Rust.",
-        "hot": "+3.9k stars this month, ranked #21 on the monthly Rust chart.",
+        "hot": "+3.9k stars this month, ranked #19 on the monthly Rust chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "bevy",
-      "full": "bevyengine/bevy",
-      "rank": 22,
-      "cat": "other",
+      "slug": "wealthfolio",
+      "full": "wealthfolio/wealthfolio",
+      "rank": 20,
+      "cat": "infra",
       "lang": "Rust",
-      "stars": 47.2,
-      "today": "+644",
-      "today_n": 644,
+      "stars": 8.3,
+      "today": "+676",
+      "today_n": 676,
       "auto": true,
       "zh": {
-        "tag": "A refreshingly simple data-driven game engine built in Rust",
-        "what": "A refreshingly simple data-driven game engine built in Rust（自动摘要，人工深度解析待补充。）",
+        "tag": "A beautiful, private, local-first personal finance tracker. Investments, net worth, spending, and simulations.",
+        "what": "A beautiful, private, local-first personal finance tracker. Investments, net worth, spending, and simulations.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Rust。",
-        "hot": "本月新增 +644 stars，位列 GitHub Trending 月榜（Rust）第 22 名。",
+        "hot": "本月新增 +676 stars，位列 GitHub Trending 月榜（Rust）第 20 名。",
         "uses": []
       },
       "en": {
-        "tag": "A refreshingly simple data-driven game engine built in Rust",
-        "what": "A refreshingly simple data-driven game engine built in Rust (Auto summary — a human deep dive is pending.)",
+        "tag": "A beautiful, private, local-first personal finance tracker. Investments, net worth, spending, and simulations.",
+        "what": "A beautiful, private, local-first personal finance tracker. Investments, net worth, spending, and simulations. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Rust.",
-        "hot": "+644 stars this month, ranked #22 on the monthly Rust chart.",
+        "hot": "+676 stars this month, ranked #20 on the monthly Rust chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "kubernetes",
-      "full": "kubernetes/kubernetes",
+      "slug": "geniex",
+      "full": "qualcomm/GenieX",
+      "rank": 21,
+      "cat": "ai",
+      "lang": "Rust",
+      "stars": 8.2,
+      "today": "+147",
+      "today_n": 147,
+      "auto": true,
+      "zh": {
+        "tag": "Run frontier LLMs and VLMs locally on Qualcomm devices across NPU, GPU, and CPU with a few lines of code",
+        "what": "Run frontier LLMs and VLMs locally on Qualcomm devices across NPU, GPU, and CPU with a few lines of code（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 Rust。",
+        "hot": "本月新增 +147 stars，位列 GitHub Trending 月榜（Rust）第 21 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Run frontier LLMs and VLMs locally on Qualcomm devices across NPU, GPU, and CPU with a few lines of code",
+        "what": "Run frontier LLMs and VLMs locally on Qualcomm devices across NPU, GPU, and CPU with a few lines of code (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily Rust.",
+        "hot": "+147 stars this month, ranked #21 on the monthly Rust chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "rustdesk",
+      "full": "rustdesk/rustdesk",
+      "rank": 22,
+      "cat": "infra",
+      "lang": "Rust",
+      "stars": 118.4,
+      "today": "+2.4k",
+      "today_n": 2387,
+      "auto": true,
+      "zh": {
+        "tag": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+        "what": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 Rust。",
+        "hot": "本月新增 +2.4k stars，位列 GitHub Trending 月榜（Rust）第 22 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+        "what": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer. (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily Rust.",
+        "hot": "+2.4k stars this month, ranked #22 on the monthly Rust chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "fzf",
+      "full": "junegunn/fzf",
       "rank": 2,
       "cat": "infra",
       "lang": "Go",
-      "stars": 123.8,
-      "today": "+1.9k",
-      "today_n": 1887,
+      "stars": 81.8,
+      "today": "+1.1k",
+      "today_n": 1115,
       "auto": true,
       "zh": {
-        "tag": "Production-Grade Container Scheduling and Management",
-        "what": "Production-Grade Container Scheduling and Management（自动摘要，人工深度解析待补充。）",
+        "tag": "🌸 A command-line fuzzy finder",
+        "what": "🌸 A command-line fuzzy finder（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "本月新增 +1.9k stars，位列 GitHub Trending 月榜（Go）第 2 名。",
+        "hot": "本月新增 +1.1k stars，位列 GitHub Trending 月榜（Go）第 2 名。",
         "uses": []
       },
       "en": {
-        "tag": "Production-Grade Container Scheduling and Management",
-        "what": "Production-Grade Container Scheduling and Management (Auto summary — a human deep dive is pending.)",
+        "tag": "🌸 A command-line fuzzy finder",
+        "what": "🌸 A command-line fuzzy finder (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+1.9k stars this month, ranked #2 on the monthly Go chart.",
+        "hot": "+1.1k stars this month, ranked #2 on the monthly Go chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -12499,75 +12457,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "fzf",
-      "full": "junegunn/fzf",
-      "rank": 4,
-      "cat": "infra",
-      "lang": "Go",
-      "stars": 81.8,
-      "today": "+1.1k",
-      "today_n": 1115,
-      "auto": true,
-      "zh": {
-        "tag": "🌸 A command-line fuzzy finder",
-        "what": "🌸 A command-line fuzzy finder（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Go。",
-        "hot": "本月新增 +1.1k stars，位列 GitHub Trending 月榜（Go）第 4 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "🌸 A command-line fuzzy finder",
-        "what": "🌸 A command-line fuzzy finder (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Go.",
-        "hot": "+1.1k stars this month, ranked #4 on the monthly Go chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "weknora",
-      "full": "Tencent/WeKnora",
-      "rank": 8,
-      "cat": "agent",
-      "lang": "Go",
-      "stars": 18.4,
-      "today": "+2.2k",
-      "today_n": 2152,
-      "auto": true,
-      "zh": {
-        "tag": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-        "what": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Go。",
-        "hot": "本月新增 +2.2k stars，位列 GitHub Trending 月榜（Go）第 8 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-        "what": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Go.",
-        "hot": "+2.2k stars this month, ranked #8 on the monthly Go chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -12576,10 +12466,10 @@ window.TRENDING_DATA = {
     {
       "slug": "ntfy",
       "full": "binwiederhier/ntfy",
-      "rank": 9,
+      "rank": 8,
       "cat": "infra",
       "lang": "Go",
-      "stars": 31.9,
+      "stars": 32.0,
       "today": "+1.2k",
       "today_n": 1179,
       "auto": true,
@@ -12588,7 +12478,7 @@ window.TRENDING_DATA = {
         "what": "Send push notifications to your phone or desktop using PUT/POST（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "本月新增 +1.2k stars，位列 GitHub Trending 月榜（Go）第 9 名。",
+        "hot": "本月新增 +1.2k stars，位列 GitHub Trending 月榜（Go）第 8 名。",
         "uses": []
       },
       "en": {
@@ -12596,12 +12486,80 @@ window.TRENDING_DATA = {
         "what": "Send push notifications to your phone or desktop using PUT/POST (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+1.2k stars this month, ranked #9 on the monthly Go chart.",
+        "hot": "+1.2k stars this month, ranked #8 on the monthly Go chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "casaos",
+      "full": "IceWhaleTech/CasaOS",
+      "rank": 11,
+      "cat": "infra",
+      "lang": "Go",
+      "stars": 36.7,
+      "today": "+2.7k",
+      "today_n": 2749,
+      "auto": true,
+      "zh": {
+        "tag": "CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.",
+        "what": "CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 Go。",
+        "hot": "本月新增 +2.7k stars，位列 GitHub Trending 月榜（Go）第 11 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.",
+        "what": "CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system. (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily Go.",
+        "hot": "+2.7k stars this month, ranked #11 on the monthly Go chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "superfile",
+      "full": "yorukot/superfile",
+      "rank": 12,
+      "cat": "infra",
+      "lang": "Go",
+      "stars": 18.7,
+      "today": "+1.3k",
+      "today_n": 1290,
+      "auto": true,
+      "zh": {
+        "tag": "Pretty fancy and modern terminal file manager",
+        "what": "Pretty fancy and modern terminal file manager（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 Go。",
+        "hot": "本月新增 +1.3k stars，位列 GitHub Trending 月榜（Go）第 12 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Pretty fancy and modern terminal file manager",
+        "what": "Pretty fancy and modern terminal file manager (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily Go.",
+        "hot": "+1.3k stars this month, ranked #12 on the monthly Go chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -12610,7 +12568,7 @@ window.TRENDING_DATA = {
     {
       "slug": "adk-go",
       "full": "google/adk-go",
-      "rank": 10,
+      "rank": 13,
       "cat": "agent",
       "lang": "Go",
       "stars": 8.5,
@@ -12622,7 +12580,7 @@ window.TRENDING_DATA = {
         "what": "An open-source, code-first Go toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "本月新增 +432 stars，位列 GitHub Trending 月榜（Go）第 10 名。",
+        "hot": "本月新增 +432 stars，位列 GitHub Trending 月榜（Go）第 13 名。",
         "uses": []
       },
       "en": {
@@ -12630,114 +12588,80 @@ window.TRENDING_DATA = {
         "what": "An open-source, code-first Go toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+432 stars this month, ranked #10 on the monthly Go chart.",
+        "hot": "+432 stars this month, ranked #13 on the monthly Go chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "superfile",
-      "full": "yorukot/superfile",
-      "rank": 13,
+      "slug": "kubernetes",
+      "full": "kubernetes/kubernetes",
+      "rank": 14,
       "cat": "infra",
       "lang": "Go",
-      "stars": 18.6,
-      "today": "+1.3k",
-      "today_n": 1290,
+      "stars": 123.8,
+      "today": "+1.9k",
+      "today_n": 1887,
       "auto": true,
       "zh": {
-        "tag": "Pretty fancy and modern terminal file manager",
-        "what": "Pretty fancy and modern terminal file manager（自动摘要，人工深度解析待补充。）",
+        "tag": "Production-Grade Container Scheduling and Management",
+        "what": "Production-Grade Container Scheduling and Management（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "本月新增 +1.3k stars，位列 GitHub Trending 月榜（Go）第 13 名。",
+        "hot": "本月新增 +1.9k stars，位列 GitHub Trending 月榜（Go）第 14 名。",
         "uses": []
       },
       "en": {
-        "tag": "Pretty fancy and modern terminal file manager",
-        "what": "Pretty fancy and modern terminal file manager (Auto summary — a human deep dive is pending.)",
+        "tag": "Production-Grade Container Scheduling and Management",
+        "what": "Production-Grade Container Scheduling and Management (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+1.3k stars this month, ranked #13 on the monthly Go chart.",
+        "hot": "+1.9k stars this month, ranked #14 on the monthly Go chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "ragflow",
-      "full": "infiniflow/ragflow",
-      "rank": 15,
-      "cat": "agent",
-      "lang": "Go",
-      "stars": 85.3,
-      "today": "+2.5k",
-      "today_n": 2492,
-      "auto": true,
-      "zh": {
-        "tag": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
-        "what": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Go。",
-        "hot": "本月新增 +2.5k stars，位列 GitHub Trending 月榜（Go）第 15 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
-        "what": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Go.",
-        "hot": "+2.5k stars this month, ranked #15 on the monthly Go chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "opentofu",
-      "full": "opentofu/opentofu",
-      "rank": 21,
+      "slug": "frp",
+      "full": "fatedier/frp",
+      "rank": 17,
       "cat": "infra",
       "lang": "Go",
-      "stars": 29.5,
-      "today": "+424",
-      "today_n": 424,
+      "stars": 108.1,
+      "today": "+880",
+      "today_n": 880,
       "auto": true,
       "zh": {
-        "tag": "OpenTofu lets you declaratively manage your cloud infrastructure.",
-        "what": "OpenTofu lets you declaratively manage your cloud infrastructure.（自动摘要，人工深度解析待补充。）",
+        "tag": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
+        "what": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "本月新增 +424 stars，位列 GitHub Trending 月榜（Go）第 21 名。",
+        "hot": "本月新增 +880 stars，位列 GitHub Trending 月榜（Go）第 17 名。",
         "uses": []
       },
       "en": {
-        "tag": "OpenTofu lets you declaratively manage your cloud infrastructure.",
-        "what": "OpenTofu lets you declaratively manage your cloud infrastructure. (Auto summary — a human deep dive is pending.)",
+        "tag": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
+        "what": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+424 stars this month, ranked #21 on the monthly Go chart.",
+        "hot": "+880 stars this month, ranked #17 on the monthly Go chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -12746,7 +12670,7 @@ window.TRENDING_DATA = {
     {
       "slug": "compose",
       "full": "docker/compose",
-      "rank": 22,
+      "rank": 19,
       "cat": "infra",
       "lang": "Go",
       "stars": 37.9,
@@ -12758,7 +12682,7 @@ window.TRENDING_DATA = {
         "what": "Define and run multi-container applications with Docker（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "本月新增 +627 stars，位列 GitHub Trending 月榜（Go）第 22 名。",
+        "hot": "本月新增 +627 stars，位列 GitHub Trending 月榜（Go）第 19 名。",
         "uses": []
       },
       "en": {
@@ -12766,12 +12690,80 @@ window.TRENDING_DATA = {
         "what": "Define and run multi-container applications with Docker (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+627 stars this month, ranked #22 on the monthly Go chart.",
+        "hot": "+627 stars this month, ranked #19 on the monthly Go chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "crush",
+      "full": "charmbracelet/crush",
+      "rank": 21,
+      "cat": "agent",
+      "lang": "Go",
+      "stars": 26.6,
+      "today": "+1.4k",
+      "today_n": 1355,
+      "auto": true,
+      "zh": {
+        "tag": "Glamourous agentic coding for all 💘",
+        "what": "Glamourous agentic coding for all 💘（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 Go。",
+        "hot": "本月新增 +1.4k stars，位列 GitHub Trending 月榜（Go）第 21 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Glamourous agentic coding for all 💘",
+        "what": "Glamourous agentic coding for all 💘 (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily Go.",
+        "hot": "+1.4k stars this month, ranked #21 on the monthly Go chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "arcane",
+      "full": "getarcaneapp/arcane",
+      "rank": 22,
+      "cat": "infra",
+      "lang": "Go",
+      "stars": 6.5,
+      "today": "+732",
+      "today_n": 732,
+      "auto": true,
+      "zh": {
+        "tag": "Modern Docker Management, Designed for Everyone",
+        "what": "Modern Docker Management, Designed for Everyone（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 Go。",
+        "hot": "本月新增 +732 stars，位列 GitHub Trending 月榜（Go）第 22 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Modern Docker Management, Designed for Everyone",
+        "what": "Modern Docker Management, Designed for Everyone (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily Go.",
+        "hot": "+732 stars this month, ranked #22 on the monthly Go chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -12805,7 +12797,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -12814,7 +12806,7 @@ window.TRENDING_DATA = {
     {
       "slug": "tracy",
       "full": "wolfpld/tracy",
-      "rank": 4,
+      "rank": 10,
       "cat": "infra",
       "lang": "C++",
       "stars": 16.4,
@@ -12826,7 +12818,7 @@ window.TRENDING_DATA = {
         "what": "Frame profiler（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 C++。",
-        "hot": "本月新增 +334 stars，位列 GitHub Trending 月榜（C++）第 4 名。",
+        "hot": "本月新增 +334 stars，位列 GitHub Trending 月榜（C++）第 10 名。",
         "uses": []
       },
       "en": {
@@ -12834,12 +12826,80 @@ window.TRENDING_DATA = {
         "what": "Frame profiler (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily C++.",
-        "hot": "+334 stars this month, ranked #4 on the monthly C++ chart.",
+        "hot": "+334 stars this month, ranked #10 on the monthly C++ chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "colmap",
+      "full": "colmap/colmap",
+      "rank": 12,
+      "cat": "infra",
+      "lang": "C++",
+      "stars": 12.2,
+      "today": "+302",
+      "today_n": 302,
+      "auto": true,
+      "zh": {
+        "tag": "COLMAP - Structure-from-Motion and Multi-View Stereo",
+        "what": "COLMAP - Structure-from-Motion and Multi-View Stereo（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 C++。",
+        "hot": "本月新增 +302 stars，位列 GitHub Trending 月榜（C++）第 12 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "COLMAP - Structure-from-Motion and Multi-View Stereo",
+        "what": "COLMAP - Structure-from-Motion and Multi-View Stereo (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily C++.",
+        "hot": "+302 stars this month, ranked #12 on the monthly C++ chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "bitcoin",
+      "full": "bitcoin/bitcoin",
+      "rank": 14,
+      "cat": "infra",
+      "lang": "C++",
+      "stars": 89.6,
+      "today": "+555",
+      "today_n": 555,
+      "auto": true,
+      "zh": {
+        "tag": "Bitcoin Core integration/staging tree",
+        "what": "Bitcoin Core integration/staging tree（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 C++。",
+        "hot": "本月新增 +555 stars，位列 GitHub Trending 月榜（C++）第 14 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Bitcoin Core integration/staging tree",
+        "what": "Bitcoin Core integration/staging tree (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily C++.",
+        "hot": "+555 stars this month, ranked #14 on the monthly C++ chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -12848,7 +12908,7 @@ window.TRENDING_DATA = {
     {
       "slug": "googletest",
       "full": "google/googletest",
-      "rank": 18,
+      "rank": 16,
       "cat": "infra",
       "lang": "C++",
       "stars": 38.8,
@@ -12860,7 +12920,7 @@ window.TRENDING_DATA = {
         "what": "GoogleTest - Google Testing and Mocking Framework（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 C++。",
-        "hot": "本月新增 +169 stars，位列 GitHub Trending 月榜（C++）第 18 名。",
+        "hot": "本月新增 +169 stars，位列 GitHub Trending 月榜（C++）第 16 名。",
         "uses": []
       },
       "en": {
@@ -12868,12 +12928,46 @@ window.TRENDING_DATA = {
         "what": "GoogleTest - Google Testing and Mocking Framework (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily C++.",
-        "hot": "+169 stars this month, ranked #18 on the monthly C++ chart.",
+        "hot": "+169 stars this month, ranked #16 on the monthly C++ chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "emscripten",
+      "full": "emscripten-core/emscripten",
+      "rank": 20,
+      "cat": "infra",
+      "lang": "C++",
+      "stars": 27.5,
+      "today": "+103",
+      "today_n": 103,
+      "auto": true,
+      "zh": {
+        "tag": "Emscripten: An LLVM-to-WebAssembly Compiler",
+        "what": "Emscripten: An LLVM-to-WebAssembly Compiler（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 C++。",
+        "hot": "本月新增 +103 stars，位列 GitHub Trending 月榜（C++）第 20 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Emscripten: An LLVM-to-WebAssembly Compiler",
+        "what": "Emscripten: An LLVM-to-WebAssembly Compiler (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily C++.",
+        "hot": "+103 stars this month, ranked #20 on the monthly C++ chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -12907,41 +13001,75 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "benchmark",
-      "full": "google/benchmark",
-      "rank": 23,
+      "slug": "cutlass",
+      "full": "NVIDIA/cutlass",
+      "rank": 22,
       "cat": "infra",
       "lang": "C++",
-      "stars": 10.3,
-      "today": "+64",
-      "today_n": 64,
+      "stars": 10.1,
+      "today": "+192",
+      "today_n": 192,
       "auto": true,
       "zh": {
-        "tag": "A microbenchmark support library",
-        "what": "A microbenchmark support library（自动摘要，人工深度解析待补充。）",
+        "tag": "CUDA Templates and Python DSLs for High-Performance Linear Algebra",
+        "what": "CUDA Templates and Python DSLs for High-Performance Linear Algebra（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 C++。",
-        "hot": "本月新增 +64 stars，位列 GitHub Trending 月榜（C++）第 23 名。",
+        "hot": "本月新增 +192 stars，位列 GitHub Trending 月榜（C++）第 22 名。",
         "uses": []
       },
       "en": {
-        "tag": "A microbenchmark support library",
-        "what": "A microbenchmark support library (Auto summary — a human deep dive is pending.)",
+        "tag": "CUDA Templates and Python DSLs for High-Performance Linear Algebra",
+        "what": "CUDA Templates and Python DSLs for High-Performance Linear Algebra (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily C++.",
-        "hot": "+64 stars this month, ranked #23 on the monthly C++ chart.",
+        "hot": "+192 stars this month, ranked #22 on the monthly C++ chart.",
         "uses": []
       },
       "track": {
         "days": 0,
-        "first": "2026-07-17",
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "godot",
+      "full": "godotengine/godot",
+      "rank": 23,
+      "cat": "other",
+      "lang": "C++",
+      "stars": 114.3,
+      "today": "+2.0k",
+      "today_n": 1995,
+      "auto": true,
+      "zh": {
+        "tag": "Godot Engine – Multi-platform 2D and 3D game engine",
+        "what": "Godot Engine – Multi-platform 2D and 3D game engine（自动摘要，人工深度解析待补充。）",
+        "content": "",
+        "stack": "主语言 C++。",
+        "hot": "本月新增 +2.0k stars，位列 GitHub Trending 月榜（C++）第 23 名。",
+        "uses": []
+      },
+      "en": {
+        "tag": "Godot Engine – Multi-platform 2D and 3D game engine",
+        "what": "Godot Engine – Multi-platform 2D and 3D game engine (Auto summary — a human deep dive is pending.)",
+        "content": "",
+        "stack": "Primarily C++.",
+        "hot": "+2.0k stars this month, ranked #23 on the monthly C++ chart.",
+        "uses": []
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": []
