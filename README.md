@@ -19,7 +19,7 @@
 
 GitHub Trending is just a list of links. **Trending Scope** turns it into a single-file, zero-dependency local web page:
 
-- **17+ 上榜仓库的深度解析** / Deep dives for every trending repo —— 点击卡片弹出：是做什么的 / 仓库里有什么 / 技术栈 / 应用场景 / 为什么火（What it does · What's inside · Tech stack · Use cases · Why it's hot）
+- **17+ 上榜仓库的深度解析** / Deep dives for every trending repo —— 点击卡片弹出：是做什么的 / 仓库里有什么 / 技术栈 / 应用场景 / 为什么火（What it does · What's inside · Tech stack · Use cases · Why it's hot），附一键复制 Markdown 分享（one-click Markdown copy）
 - **中英双语** / Bilingual —— `index.html`（中文）与 `index-en.html`（English）一键切换
 - **图表洞察** / Charts —— 分类环形图 + Star 热度 TOP 8 条形图，动画呈现
 - **交互** / Interactions —— 分类筛选、实时搜索（防抖）、四种排序（榜单排名 / Stars / 名称）、「今日 +N」新增 star 徽章、卡片 / 紧凑列表双视图（cards or compact list view）

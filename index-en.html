@@ -186,6 +186,8 @@
   .btn.pri:hover{background:var(--acc1);box-shadow:0 8px 26px -8px #cf4a1f88}
   .btn.sec2{color:var(--sub);border:1px solid var(--line);flex:0 0 110px}
   .btn.sec2:hover{color:var(--txt);border-color:var(--acc2)}
+  .btn.sec2.wide{flex:0 0 auto;padding-left:16px;padding-right:16px}
+  .btn.ok{color:var(--acc2);border-color:var(--acc2);font-weight:700}
   footer{max-width:1240px;margin:20px auto 0;padding:34px 24px 46px;color:var(--dim);font-size:12.5px;text-align:center;line-height:2}
   /* ---------- 主题按钮 & SVG 颜色变量化 ---------- */
   .themebtn{width:34px;height:34px;border-radius:50%;border:1px solid var(--line);background:#fffdf8aa;color:var(--sub);cursor:pointer;display:grid;place-items:center;transition:.25s;padding:0}
@@ -388,7 +390,9 @@ const L = {
   lhLang: "Language",
   lhStars: "Stars",
   lhCat: "Category",
-  gainCol: b => `Gained ${L.rangeShort[b]}`
+  gainCol: b => `Gained ${L.rangeShort[b]}`,
+  copyBtn: "Copy Markdown",
+  copied: "Copied ✓"
 };
 
 const LANGC = {Python:"#3572A5",TypeScript:"#3178c6",JavaScript:"#d4b014",Java:"#b07219",Rust:"#c4743a",Shell:"#6a9e3f",Markdown:"#4a7ba6",CSS:"#884ea0","C++":"#f34b7d",HTML:"#e34c26",Go:"#00ADD8",Jupyter:"#DA5B0B",C:"#555555","C#":"#178600",Kotlin:"#A97BFF",Swift:"#F05138",PHP:"#4F5D95",Ruby:"#701516"};
@@ -723,6 +727,20 @@ function renderGrid(){
   wireItems(g);
 }
 
+/* ---------- Clipboard (with fallback) ---------- */
+function copyText(t, ok){
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(t).then(ok, ()=>fallbackCopy(t, ok));
+  } else fallbackCopy(t, ok);
+}
+function fallbackCopy(t, ok){
+  const ta = document.createElement("textarea");
+  ta.value = t; ta.style.position = "fixed"; ta.style.opacity = "0";
+  document.body.appendChild(ta); ta.select();
+  try{ document.execCommand("copy"); ok && ok(); }catch(e){}
+  document.body.removeChild(ta);
+}
+
 /* ---------- Modal ---------- */
 function findRepo(s){
   s = s.toLowerCase();
@@ -774,6 +792,7 @@ function openModal(s){
       ${sec(L.secs.hot, r.hot)}
       <div class="m-foot">
         <a class="btn pri" href="https://github.com/${r.full}" target="_blank" rel="noopener">${L.openBtn}</a>
+        <a class="btn sec2 wide" href="#" id="mcopy">${L.copyBtn}</a>
         <a class="btn sec2" href="#" id="mback">${L.backBtn}</a>
       </div>
     </div>`;
@@ -782,6 +801,15 @@ function openModal(s){
   syncHash();
   $("#mclose").onclick = closeModal;
   $("#mback").onclick = e=>{e.preventDefault();closeModal();};
+  const mc = $("#mcopy");
+  mc.onclick = e=>{
+    e.preventDefault();
+    const md = `[${r.full}](https://github.com/${r.full}) — ${r.tag}`;
+    copyText(md, ()=>{
+      mc.textContent = L.copied; mc.classList.add("ok");
+      setTimeout(()=>{ mc.textContent = L.copyBtn; mc.classList.remove("ok"); },1600);
+    });
+  };
 }
 function closeModal(){
   openSlug = null;
