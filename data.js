@@ -3,7 +3,7 @@ window.TRENDING_DATA = {
   "schema": 1,
   "meta": {
     "date": "2026-07-17",
-    "generated_at": "2026-07-17 14:05 (CST)",
+    "generated_at": "2026-07-17 14:14 (CST)",
     "source": "github.com/trending",
     "criteria": "Repositories · Today · All languages · logged out",
     "kicker_zh": "每日自动更新 · 2026-07-17 · 每日榜 · 全语言 · 17 个仓库",
@@ -12,8 +12,8 @@ window.TRENDING_DATA = {
     "headline_en": "Agent Skills packs storm the chart",
     "sub_zh": "17 个上榜仓库中 7 个属于 Agent 工具链，其中 5 个是「给 AI 装技能」的 Skills 包 —— 从反 AI 味设计（hallmark）到知识图谱上下文（graphify）。老牌神仓 build-your-own-x（526k stars）与 OSSU 自学路线依然稳居榜上。点击任意卡片查看深度解析。",
     "sub_en": "7 of the 17 trending repos are agent tooling — and 5 of those are \"give your AI a skill\" packs, from anti-slop design (hallmark) to knowledge-graph context (graphify). Evergreen giants build-your-own-x (526k stars) and OSSU hold their ground. Click any card for a deep dive.",
-    "footer_zh": "Trending Scope · 数据更新于 2026-07-17 14:05 (CST)，由自动化管线直连 github.com 抓取",
-    "footer_en": "Trending Scope · Data updated 2026-07-17 14:05 (CST) by the automated pipeline, fetched directly from github.com"
+    "footer_zh": "Trending Scope · 数据更新于 2026-07-17 14:14 (CST)，由自动化管线直连 github.com 抓取",
+    "footer_en": "Trending Scope · Data updated 2026-07-17 14:14 (CST) by the automated pipeline, fetched directly from github.com"
   },
   "cats": {
     "agent": {
