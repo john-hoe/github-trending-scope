@@ -39,12 +39,14 @@
   - URL hash 支持 `#board=weekly&lang=python&repo=slug` 深链；旧版 `#repo=xxx` 深链保持兼容（弹窗查找顺序：当前口径 → 每日榜 → 全部榜单）。
 - 已用 headless Chrome 验证：日 / 周 / 月榜 × 语言筛选 × 中英双语 × 弹窗深链渲染全部正确。
 
+### 5. OG / Twitter 分享卡片（本轮完成 · 2026-07-17）
+- **分享图**：`og-zh.png` / `og-en.png`（1200×630，headless Chrome 直截线上新版首屏：导航 + kicker + 渐变大标题 + 统计条，各约 0.5 MB）。
+- **meta**：中英两页 `<head>` 加入 `description`、Open Graph（`og:type/site_name/title/description/url/image(+宽高+alt)/locale`，zh_CN 与 en_US）与 Twitter Card（`summary_large_image` + 标题/描述/图）。
+- og:image / og:url 均用生产域名绝对地址（`https://trending.cosolution.cc/` 与 `/index-en`），抓取器不执行 JS 也能拿到完整预览。
+
 ## 🔜 候选方向 / Candidates（按价值排序）
 
-### 5. OG / Twitter 分享卡片 ⭐ 下一个最值得做（低成本高回报）
-- `<head>` 增加 `og:title` / `og:description` / `og:image`（用 `preview-zh.png` / `preview-en.png`）/ `twitter:card`，社媒分享带预览图。
-
-### 6. 暗色模式
+### 6. 暗色模式 ⭐ 下一个最值得做
 - 暖纸米的对应面：墨黑底 + 暖橙点缀，延续编辑部气质；`prefers-color-scheme` + 手动切换。
 
 ### 7. 紧凑列表视图
