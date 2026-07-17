@@ -29,13 +29,19 @@
 - 已用合成三日数据验证：连续 3 天、回榜、首次上榜三种状态计算与渲染全部正确。
 - 日历式历史榜单回看（按日期切换查看往日榜单）留待后续，归档数据已具备。
 
+### 4. 榜单口径切换（本轮完成 · 2026-07-17）
+- **抓取**：update.py 重写为多口径版 —— 每日 / 每周 / 每月 × 7 个语言筛选（All / Python / TypeScript / JavaScript / Rust / Go / C++）共 **21 个榜单**一次抓全（`github.com/trending/<lang>?since=` 原生口径）。单榜失败只告警跳过，主榜（每日·全语言）解析少于 10 个才失败退出。
+- **数据结构 schema 2**：`boards.{daily|weekly|monthly}.<lang>` 存各榜排名 / stars / 区间新增；`repos[]` 改为按 `full` 去重的**注册表**（本轮 285 个仓库：17 个人工精评保留 + 268 个自动摘要），双语字段只存一份，`data.json` 433 KB。
+- **在榜追踪口径不变**：`track` 仍只从每日·全语言归档计算，语言榜 / 周月榜不干扰连续在榜语义。
+- **前端**：
+  - 工具栏新增**口径分段选择器**（每日榜 / 每周榜 / 每月榜）+ **语言下拉**；统计四项、分类环形图、TOP8 条形图、分类 chips、卡片网格全部跟随当前口径实时重算。
+  - kicker 改为前端模板生成（`每日自动更新 · 日期 · 口径 · 语言 · N 个仓库`），卡片与弹窗的新增 stars 文案跟随口径（今日 / 本周 / 本月）。
+  - URL hash 支持 `#board=weekly&lang=python&repo=slug` 深链；旧版 `#repo=xxx` 深链保持兼容（弹窗查找顺序：当前口径 → 每日榜 → 全部榜单）。
+- 已用 headless Chrome 验证：日 / 周 / 月榜 × 语言筛选 × 中英双语 × 弹窗深链渲染全部正确。
+
 ## 🔜 候选方向 / Candidates（按价值排序）
 
-### 4. 榜单口径切换 ⭐ 下一个最值得做
-- Today / This week / This month、按编程语言过滤（github.com/trending 原生支持 `?since=` 与语言路径）。
-- update.py 增加参数化抓取，前端加口径切换器。
-
-### 5. OG / Twitter 分享卡片（低成本高回报）
+### 5. OG / Twitter 分享卡片 ⭐ 下一个最值得做（低成本高回报）
 - `<head>` 增加 `og:title` / `og:description` / `og:image`（用 `preview-zh.png` / `preview-en.png`）/ `twitter:card`，社媒分享带预览图。
 
 ### 6. 暗色模式

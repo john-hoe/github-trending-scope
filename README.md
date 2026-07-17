@@ -44,7 +44,9 @@ open index-en.html   # English version
 
 The trending data is refreshed daily by GitHub Actions (~08:23 Beijing time):
 
-- `scripts/update.py` 直连 `github.com/trending` 抓取当日榜单，刷新 `data.json` + `data.js`，并把当日快照归档到 `archive/YYYY-MM-DD.json`
+- `scripts/update.py` 直连 `github.com/trending` 抓取榜单，刷新 `data.json` + `data.js`，并把当日快照归档到 `archive/YYYY-MM-DD.json`
+- **多口径榜单**：每日 / 每周 / 每月 × 7 个语言筛选（All / Python / TypeScript / JavaScript / Rust / Go / C++）共 21 个榜单一次抓全，页面工具栏可切换口径与语言，支持 `#board=weekly&lang=python` 深链
+- Daily / Weekly / Monthly × 7 language filters (21 boards total) — switchable in the toolbar, with `#board=…&lang=…` deep links
 - 仍在榜的仓库**保留人工深度解析**，只更新排名与 star 数；新上榜仓库自动生成带 ⚡ 标记的摘要，人工精评随后补充
 - **在榜追踪**：卡片显示「首次上榜 / 回榜 / 在榜 N 天」徽章，弹窗含 star 增长 sparkline（自 2026-07-17 起逐日积累）
 - Repos that stay on the chart keep their human-written deep dives (only rank/stars update); new entries get an auto summary flagged ⚡ pending a human write-up. On-chart tracking badges and a star-history sparkline build up from the daily archives
@@ -53,7 +55,7 @@ The trending data is refreshed daily by GitHub Actions (~08:23 Beijing time):
 
 ## 数据说明 / Data notes
 
-- 当前数据时间见页脚与 `data.json` 的 `meta.generated_at`，口径为 `github.com/trending`（Repositories · Today · All languages · 未登录）。
+- 当前数据时间见页脚与 `data.json` 的 `meta.generated_at`，抓取口径为 `github.com/trending`（Repositories · 每日/每周/每月 × 语言筛选 · 未登录），页面默认展示每日·全语言榜。
 - 登录 GitHub 账号或切换语言/时间筛选，看到的榜单可能不同。
 - Data timestamp: see the page footer or `meta.generated_at` in `data.json` (Repositories · Today · All languages · logged out). Signed-in users or other filters may see a different list.
 

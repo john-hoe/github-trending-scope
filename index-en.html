@@ -83,10 +83,14 @@
   .bar-row{display:grid;grid-template-columns:170px 1fr 62px;gap:12px;align-items:center;font-size:13px}
   .bar-row .nm{color:var(--sub);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   .bar-row .tr{height:9px;border-radius:99px;background:#ece3cf;overflow:hidden}
-  .bar-row .fl{display:block;height:100%;border-radius:99px;width:0;background:linear-gradient(90deg,var(--acc1),#e07b39)}
+  .bar-row .fl{display:block;height:100%;border-radius:99px;width:0;background:linear-gradient(90deg,var(--acc1),#e07b39);transition:width 1s cubic-bezier(.6,0,.2,1)}
   .bar-row .vl{text-align:right;color:var(--txt);font-weight:700;font-variant-numeric:tabular-nums}
   /* ---------- Toolbar ---------- */
   .toolbar{max-width:1240px;margin:52px auto 26px;padding:0 24px;display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+  .ranges{display:flex;gap:4px;background:var(--card);border:1px solid var(--line);border-radius:13px;padding:4px;box-shadow:0 2px 8px #8a7a5a10}
+  .ranges .rb{padding:7px 16px;border-radius:9px;font-size:13px;color:var(--sub);cursor:pointer;transition:.25s;user-select:none;font-weight:600;white-space:nowrap}
+  .ranges .rb:hover{color:var(--txt)}
+  .ranges .rb.on{background:#221d15;color:#fff8ef;box-shadow:0 3px 10px #221d1533}
   .chips{display:flex;gap:8px;flex-wrap:wrap}
   .chip{padding:8px 16px;border-radius:99px;border:1px solid var(--line);background:var(--card);color:var(--sub);
     font-size:13px;cursor:pointer;transition:.25s;user-select:none}
@@ -218,6 +222,8 @@
 </section>
 
 <section class="toolbar" id="explore">
+  <div class="ranges" id="ranges"></div>
+  <select class="sortsel" id="langsel"></select>
   <div class="chips" id="chips"></div>
   <div class="search">
     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#a3967f" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
@@ -239,7 +245,7 @@
 
 <footer>
   <span id="foot1">Trending Scope</span><br>
-  Basis: Repositories · Today · All languages · logged out — sign-in or other language/date filters may show a different list<br>
+  Basis: Repositories · Daily / Weekly / Monthly × 7 language filters · logged out — sign-in may show a different list<br>
   For reference only · click any card for a deep dive
 </footer>
 
@@ -249,11 +255,15 @@
 const LOCALE = "en";
 const L = {
   multiLang: "Multi-lang",
-  today: t => `${t} today`,
+  langAll: "All languages",
+  ranges: {daily:"Daily", weekly:"Weekly", monthly:"Monthly"},
+  rangeShort: {daily:"today", weekly:"this week", monthly:"this month"},
+  gain: (t,b) => `${t} ${L.rangeShort[b]}`,
+  kicker: (date,rng,lang,n) => `Auto-updated daily · ${date} · ${rng} · ${lang} · ${n} repos`,
   all: n => `All · ${n}`,
   empty: "No matches — try another keyword.",
   err: "Failed to load data: make sure data.js sits next to this page.",
-  rankSub: r => `Trending rank #${r}`,
+  rankSub: (r,b) => `${L.ranges[b]} rank #${r}`,
   autoTag: "⚡ Auto summary",
   secs: {what:"◆ WHAT IT DOES", content:"◆ WHAT'S INSIDE", stack:"◆ TECH STACK", uses:"◆ USE CASES", hot:"◆ WHY IT'S HOT"},
   openBtn: "Open on GitHub ↗",
@@ -261,30 +271,40 @@ const L = {
   titleSuffix: d => `GitHub Trending Scope · ${d}`,
   langSuffix: "",
   trackSec: "◆ ON-CHART TRACKING",
-  streak: n => `${n}d streak`,
-  newBadge: "NEW",
-  backBadge: "BACK",
-  trackInfo: t => t.is_new ? "First time on the chart today"
-                : t.is_back ? `Back on the chart · first seen ${t.first}`
-                : t.days <= 1 ? "On-chart tracking starts today"
-                : `${t.days}-day streak · first seen ${t.first}`,
-  collecting: d => `(trend data accrues daily from ${d})`
+  streak: n => `${n}d on chart`,
+  newBadge: "First time",
+  backBadge: "Back on chart",
+  trackInfo: t => t.is_new ? "First appearance today"
+                : t.is_back ? `Back on chart · first seen ${t.first}`
+                : t.days <= 1 ? "Tracking starts today"
+                : `${t.days} consecutive days · first seen ${t.first}`,
+  collecting: d => `(trend data accumulates daily from ${d})`
 };
 
 const LANGC = {Python:"#3572A5",TypeScript:"#3178c6",JavaScript:"#d4b014",Java:"#b07219",Rust:"#c4743a",Shell:"#6a9e3f",Markdown:"#4a7ba6",CSS:"#884ea0","C++":"#f34b7d",HTML:"#e34c26",Go:"#00ADD8",Jupyter:"#DA5B0B",C:"#555555","C#":"#178600",Kotlin:"#A97BFF",Swift:"#F05138",PHP:"#4F5D95",Ruby:"#701516"};
+const RANGES = ["daily","weekly","monthly"];
 
 /* ---------- State & helpers ---------- */
 const $ = s => document.querySelector(s);
-const state = {cat:"all", q:"", sort:"rank"};
-let REPOS = [], USES = {}, CATS = {};
-const slug = r => r.slug.toLowerCase();
+const state = {board:"daily", lang:"all", cat:"all", q:"", sort:"rank"};
+let D = null, REG = {}, USES = {}, CATS = {}, openSlug = null;
 const og = r => `https://opengraph.githubassets.com/1/${r.full}`;
 const avatar = r => `https://github.com/${r.full.split("/")[0]}.png?size=400`;
 const esc = s => String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;");
 const langLabel = r => r.lang || L.multiLang;
 const langColor = r => r.lang ? (LANGC[r.lang]||"#888") : "#8a7f68";
 
-/* ---------- On-chart tracking badges & trend ---------- */
+/* ---------- Active board list ---------- */
+function activeList(){
+  const b = D.boards[state.board] || {};
+  const arr = b[state.lang] || b.all || [];
+  return arr.map(be=>{
+    const base = REG[be.full]; if(!base) return null;
+    return Object.assign({}, base, {r:be.rank, stars:be.stars, today:be.today});
+  }).filter(Boolean);
+}
+
+/* ---------- Tracking badges & sparkline ---------- */
 const trackBadge = r => {
   const t = r.track; if(!t) return "";
   if(t.is_new)  return `<span class="trkb new">${L.newBadge}</span>`;
@@ -323,41 +343,96 @@ function countUp(el){
 
 /* ---------- Bootstrap from data.js ---------- */
 function bootstrap(){
-  const D = window.TRENDING_DATA;
-  if(!D || !D.repos || !D.repos.length){
+  D = window.TRENDING_DATA;
+  if(!D || !D.boards || !D.repos || !D.repos.length){
     $("#grid").innerHTML = `<div class="empty">${L.err}</div>`;
     return;
   }
   Object.entries(D.cats).forEach(([k,v])=>CATS[k]={name:v[LOCALE], color:v.color});
-  REPOS = D.repos.map(r=>({
-    r:r.rank, slug:r.slug, full:r.full, cat:r.cat, lang:r.lang,
-    stars:r.stars, today:r.today, auto:!!r.auto, track:r.track||null,
-    tag:r[LOCALE].tag||"", what:r[LOCALE].what||"", content:r[LOCALE].content||"",
-    stack:r[LOCALE].stack||"", hot:r[LOCALE].hot||""
-  }));
-  USES = {}; D.repos.forEach(r=>USES[r.slug]=(r[LOCALE].uses||[]));
-  applyMeta(D.meta);
-  initStats();
-  renderDonut(); renderBars(); renderChips(); renderGrid();
-  /* #repo=xxx deep link (also used for self-checks) */
+  REG = {}; USES = {};
+  D.repos.forEach(r=>{
+    REG[r.full] = {
+      slug:r.slug, full:r.full, cat:r.cat, lang:r.lang,
+      auto:!!r.auto, track:r.track||null,
+      tag:(r[LOCALE]||{}).tag||"", what:(r[LOCALE]||{}).what||"", content:(r[LOCALE]||{}).content||"",
+      stack:(r[LOCALE]||{}).stack||"", hot:(r[LOCALE]||{}).hot||""
+    };
+    USES[r.slug] = (r[LOCALE]||{}).uses||[];
+  });
+  parseHash();           // parse #board=&lang= before first render
+  /* capture #repo=xxx first — syncHash inside refreshAll rewrites the hash */
   const m = location.hash.match(/repo=([\w-]+)/);
+  applyMeta(D.meta);
+  refreshAll();
+  /* #repo=xxx deep link (also used by self-checks) */
   if(m) setTimeout(()=>openModal(m[1]),600);
+}
+
+function parseHash(){
+  const h = location.hash;
+  const mb = h.match(/board=(daily|weekly|monthly)/);
+  if(mb) state.board = mb[1];
+  const ml = h.match(/lang=([A-Za-z0-9+%_-]+)/);
+  if(ml){
+    const id = decodeURIComponent(ml[1]);
+    if(D.langs.some(l=>l.id===id)) state.lang = id;
+  }
+}
+
+function syncHash(){
+  const p = [];
+  if(state.board!=="daily") p.push("board="+state.board);
+  if(state.lang!=="all") p.push("lang="+encodeURIComponent(state.lang));
+  if(openSlug) p.push("repo="+openSlug);
+  history.replaceState(null,"", p.length ? "#"+p.join("&") : location.pathname);
 }
 
 function applyMeta(M){
   const S = k => M[k+"_"+LOCALE] || "";
   document.title = L.titleSuffix(M.date);
-  $("#kicktxt").textContent = S("kicker");
   $("#headline").textContent = S("headline");
   $("#sub").textContent = S("sub");
   $("#foot1").textContent = S("footer");
 }
 
+function updateKicker(){
+  const n = activeList().length;
+  const langName = state.lang==="all" ? L.langAll
+    : (D.langs.find(l=>l.id===state.lang)||{}).name || state.lang;
+  $("#kicktxt").textContent = L.kicker(D.meta.date, L.ranges[state.board], langName, n);
+}
+
+/* Full refresh after board/lang switch */
+function refreshAll(){
+  renderRanges(); renderLangs();
+  updateKicker();
+  initStats();
+  renderDonut(); renderBars(); renderChips(); renderGrid();
+  syncHash();
+}
+
+/* ---------- Range switcher ---------- */
+function renderRanges(){
+  $("#ranges").innerHTML = RANGES.map(b=>
+    `<div class="rb${b===state.board?" on":""}" data-b="${b}">${L.ranges[b]}</div>`).join("");
+  document.querySelectorAll("#ranges .rb").forEach(el=>el.onclick=()=>{
+    if(state.board!==el.dataset.b){ state.board = el.dataset.b; refreshAll(); }
+  });
+}
+
+/* ---------- Language filter ---------- */
+function renderLangs(){
+  const sel = $("#langsel");
+  sel.innerHTML = D.langs.map(l=>
+    `<option value="${esc(l.id)}"${l.id===state.lang?" selected":""}>${l.id==="all"?L.langAll:esc(l.name)}</option>`).join("");
+}
+
 function initStats(){
-  const total = REPOS.length;
-  const sumK = REPOS.reduce((a,r)=>a+r.stars,0);
-  const agentN = REPOS.filter(r=>r.cat==="agent").length;
-  const langs = new Set(REPOS.map(langLabel)).size;
+  const LIST = activeList();
+  const total = LIST.length;
+  const sumK = LIST.reduce((a,r)=>a+r.stars,0);
+  const agentN = LIST.filter(r=>r.cat==="agent").length;
+  const langs = new Set(LIST.map(langLabel)).size;
   const cfg = [
     ["st1", total,     0, ""],
     ["st2", sumK/1000, 2, "M+"],
@@ -371,13 +446,14 @@ function initStats(){
   });
 }
 
-/* ---------- Donut ---------- */
+/* ---------- Category donut ---------- */
 function renderDonut(){
+  const LIST = activeList(), total = LIST.length || 1;
   const svg = $("#donut"), legend = $("#legend");
-  const counts = {}; REPOS.forEach(r=>counts[r.cat]=(counts[r.cat]||0)+1);
+  const counts = {}; LIST.forEach(r=>counts[r.cat]=(counts[r.cat]||0)+1);
   const R=54, C=2*Math.PI*R; let off=0, segs="", leg="";
   Object.keys(CATS).forEach(k=>{
-    const n = counts[k]||0, frac = n/REPOS.length, len = frac*C - 4;
+    const n = counts[k]||0, frac = n/total, len = Math.max(frac*C-4,0);
     segs += `<circle cx="65" cy="65" r="${R}" stroke="${CATS[k].color}"
       stroke-dasharray="0 ${C}" data-t="${len}" data-o="${-off}"
       style="stroke-dashoffset:${-off}"></circle>`;
@@ -385,7 +461,7 @@ function renderDonut(){
     off += frac*C;
   });
   svg.innerHTML = `<circle class="track" cx="65" cy="65" r="${R}"></circle>${segs}
-    <text x="65" y="61" text-anchor="middle" fill="#221d15" font-size="22" font-weight="800" transform="rotate(90 65 65)">${REPOS.length}</text>
+    <text x="65" y="61" text-anchor="middle" fill="#221d15" font-size="22" font-weight="800" transform="rotate(90 65 65)">${LIST.length}</text>
     <text x="65" y="80" text-anchor="middle" fill="#a3967f" font-size="9.5" transform="rotate(90 65 65)">REPOS</text>`;
   legend.innerHTML = leg;
   requestAnimationFrame(()=>setTimeout(()=>{
@@ -395,32 +471,40 @@ function renderDonut(){
   },200));
 }
 
-/* ---------- Top-8 bars ---------- */
+/* ---------- TOP8 bars ---------- */
 function renderBars(){
-  const top = [...REPOS].sort((a,b)=>b.stars-a.stars).slice(0,8), max = top[0].stars;
+  const LIST = activeList();
+  if(!LIST.length){ $("#bars").innerHTML = ""; return; }
+  const top = [...LIST].sort((a,b)=>b.stars-a.stars).slice(0,8), max = top[0].stars;
   $("#bars").innerHTML = top.map(r=>`
     <div class="bar-row">
       <span class="nm">${r.full.split("/")[1]}</span>
-      <span class="tr"><span class="fl" style="width:${(r.stars/max*100).toFixed(1)}%"></span></span>
+      <span class="tr"><span class="fl" data-w="${(r.stars/max*100).toFixed(1)}" style="width:0%"></span></span>
       <span class="vl">${r.stars}k</span>
     </div>`).join("");
+  requestAnimationFrame(()=>setTimeout(()=>{
+    document.querySelectorAll("#bars .fl").forEach(f=>f.style.width=f.dataset.w+"%");
+  },60));
 }
 
 /* ---------- Filter chips ---------- */
 function renderChips(){
-  const counts = {all:REPOS.length}; REPOS.forEach(r=>counts[r.cat]=(counts[r.cat]||0)+1);
-  $("#chips").innerHTML = `<div class="chip on" data-c="all">${L.all(counts.all)}</div>` +
-    Object.keys(CATS).map(k=>`<div class="chip" data-c="${k}">${CATS[k].name} · ${counts[k]||0}</div>`).join("");
+  const LIST = activeList();
+  const counts = {all:LIST.length}; LIST.forEach(r=>counts[r.cat]=(counts[r.cat]||0)+1);
+  if(![ "all", ...Object.keys(CATS) ].includes(state.cat)) state.cat = "all";
+  $("#chips").innerHTML = `<div class="chip${state.cat==="all"?" on":""}" data-c="all">${L.all(counts.all)}</div>` +
+    Object.keys(CATS).map(k=>`<div class="chip${state.cat===k?" on":""}" data-c="${k}">${CATS[k].name} · ${counts[k]||0}</div>`).join("");
   document.querySelectorAll(".chip").forEach(c=>c.onclick=()=>{
-    document.querySelectorAll(".chip").forEach(x=>x.classList.remove("on"));
-    c.classList.add("on"); state.cat=c.dataset.c; renderGrid();
+    state.cat=c.dataset.c;
+    document.querySelectorAll(".chip").forEach(x=>x.classList.toggle("on",x===c));
+    renderGrid();
   });
 }
 
 /* ---------- Card grid ---------- */
 let io;
 function renderGrid(){
-  let list = REPOS.filter(r =>
+  let list = activeList().filter(r =>
     (state.cat==="all"||r.cat===state.cat) &&
     (!state.q || (r.full+r.tag+r.what+(r.lang||"")).toLowerCase().includes(state.q)));
   if(state.sort==="rank") list.sort((a,b)=>a.r-b.r);
@@ -429,7 +513,7 @@ function renderGrid(){
   else list.sort((a,b)=>a.full.localeCompare(b.full));
   const g = $("#grid");
   g.innerHTML = list.length ? list.map(r=>`
-    <article class="card" data-slug="${slug(r)}" tabindex="0" style="border-top:3px solid ${CATS[r.cat].color}">
+    <article class="card" data-slug="${r.slug.toLowerCase()}" tabindex="0" style="border-top:3px solid ${CATS[r.cat].color}">
       <div class="thumb">
         <img loading="lazy" src="${og(r)}" alt="${esc(r.full)}"
              onerror="this.onerror=null;this.src='${avatar(r)}'">
@@ -440,7 +524,7 @@ function renderGrid(){
         <div class="meta">
           <span class="ldot"><i style="background:${langColor(r)}"></i>${langLabel(r)}</span>
           <span class="stars">★ ${r.stars}k</span>
-          <span class="today">${L.today(r.today)}</span>${trackBadge(r)}
+          <span class="today">${L.gain(r.today,state.board)}</span>${trackBadge(r)}
           <span class="catpill" style="color:${CATS[r.cat].color};border-color:${CATS[r.cat].color}55;background:${CATS[r.cat].color}0e">${CATS[r.cat].name}</span>
         </div>
       </div>
@@ -459,8 +543,27 @@ function renderGrid(){
 }
 
 /* ---------- Modal ---------- */
+function findRepo(s){
+  s = s.toLowerCase();
+  const scan = (b,l)=>{
+    const arr = (D.boards[b]||{})[l] || [];
+    for(const be of arr){
+      const base = REG[be.full];
+      if(base && base.slug.toLowerCase()===s)
+        return {r:Object.assign({},base,{r:be.rank,stars:be.stars,today:be.today}), board:b};
+    }
+    return null;
+  };
+  return scan(state.board,state.lang) || scan("daily","all") || (()=>{
+    for(const b of RANGES) for(const l of D.langs){ const f = scan(b,l.id); if(f) return f; }
+    return null;
+  })();
+}
+
 function openModal(s){
-  const r = REPOS.find(x=>slug(x)===s.toLowerCase()); if(!r) return;
+  const f = findRepo(s); if(!f) return;
+  const r = f.r, bd = f.board;
+  openSlug = r.slug.toLowerCase();
   const sec = (h,t) => t ? `<div class="sec"><h5>${h}</h5><p>${esc(t)}</p></div>` : "";
   const uses = USES[r.slug] || [];
   const usesSec = uses.length
@@ -474,10 +577,10 @@ function openModal(s){
     </div>
     <div class="m-body">
       <h2>${esc(r.full)}</h2>
-      <div class="m-sub">${L.rankSub(r.r)} · ${esc(r.tag)}</div>
+      <div class="m-sub">${L.rankSub(r.r,bd)} · ${esc(r.tag)}</div>
       <div class="m-tags">
         <span class="m-tag hl">★ ${r.stars}k stars</span>
-        <span class="m-tag hl2">${L.today(r.today)}</span>
+        <span class="m-tag hl2">${L.gain(r.today,bd)}</span>
         <span class="m-tag" style="color:${CATS[r.cat].color};border-color:${CATS[r.cat].color}55;background:${CATS[r.cat].color}0e">${CATS[r.cat].name}</span>
         <span class="m-tag">${langLabel(r)}</span>
         ${autoTag}
@@ -495,25 +598,27 @@ function openModal(s){
     </div>`;
   $("#overlay").classList.add("open");
   document.body.style.overflow="hidden";
-  history.replaceState(null,"","#repo="+s);
+  syncHash();
   $("#mclose").onclick = closeModal;
   $("#mback").onclick = e=>{e.preventDefault();closeModal();};
 }
 function closeModal(){
+  openSlug = null;
   $("#overlay").classList.remove("open");
   document.body.style.overflow="";
-  history.replaceState(null,"",location.pathname);
+  syncHash();
 }
 $("#overlay").addEventListener("click",e=>{ if(e.target.id==="overlay") closeModal(); });
 document.addEventListener("keydown",e=>{ if(e.key==="Escape") closeModal(); });
 
-/* ---------- Search & sort ---------- */
+/* ---------- Search & sort & language ---------- */
 let deb;
 $("#q").addEventListener("input",e=>{
   clearTimeout(deb);
   deb=setTimeout(()=>{ state.q=e.target.value.trim().toLowerCase(); renderGrid(); },180);
 });
 $("#sort").addEventListener("change",e=>{ state.sort=e.target.value; renderGrid(); });
+$("#langsel").addEventListener("change",e=>{ state.lang=e.target.value; refreshAll(); });
 
 /* ---------- Init ---------- */
 bootstrap();

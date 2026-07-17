@@ -1,16 +1,21 @@
 #!/usr/bin/env python3
 """Trending Scope 每日更新管线
 
-直连 github.com/trending 抓取当日榜单（Repositories · Today · All languages · 未登录口径），
-刷新 data.json（双语数据源）与 data.js（页面运行时加载的包装）。
+直连 github.com/trending 抓取榜单（每日/每周/每月 × 全语言+6 种语言），
+刷新 data.json（双语数据源 + 多口径榜单）与 data.js（页面运行时加载的包装）。
+
+结构：
+- boards[range][lang]：各口径榜单（排名 / stars / 区间新增）
+- repos[]：注册表（按 full 去重），保存双语解析、分类、在榜追踪
+- archive/YYYY-MM-DD.json：每日·全语言榜快照，在榜追踪的历史依据
 
 规则：
-- 仍在榜的仓库：保留人工撰写的 zh/en 深度解析，仅更新排名 / stars / 今日新增 / 语言。
-- 新上榜仓库：自动生成带 auto 标记的简摘要（取自 GitHub 描述），待人工补充精评。
-- 解析结果少于 --min-repos 个（页面结构变更）时失败退出，绝不覆盖现有数据。
+- 已在册的仓库：保留人工撰写的 zh/en 深度解析，仅更新动态字段。
+- 新出现的仓库：自动生成带 auto 标记的简摘要（取自 GitHub 描述），待人工补充精评。
+- 每日·全语言主榜解析少于 --min-repos 个（页面结构变更）时失败退出，绝不覆盖现有数据。
 
 用法：
-    python3 scripts/update.py [--dry-run] [--data PATH] [--min-repos 10]
+    python3 scripts/update.py [--dry-run] [--data PATH] [--html PATH] [--min-repos 10]
 环境：
     无需任何第三方依赖（Python 3.9+ 标准库）。
 """
@@ -21,6 +26,8 @@ import json
 import os
 import re
 import sys
+import time
+import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
 
@@ -28,6 +35,15 @@ TRENDING_URL = "https://github.com/trending"
 CN_TZ = timezone(timedelta(hours=8), "CST")
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36")
+
+RANGES = ["daily", "weekly", "monthly"]
+LANGS = [("all", "All languages"), ("python", "Python"), ("typescript", "TypeScript"),
+         ("javascript", "JavaScript"), ("rust", "Rust"), ("go", "Go"), ("c++", "C++")]
+LANG_NAME = dict(LANGS)
+RNG_ZH = {"daily": "日", "weekly": "周", "monthly": "月"}
+RNG_EN = {"daily": "daily", "weekly": "weekly", "monthly": "monthly"}
+GAIN_ZH = {"daily": "今日", "weekly": "本周", "monthly": "本月"}
+GAIN_EN = {"daily": "today", "weekly": "this week", "monthly": "this month"}
 
 CATS = {
     "agent": {"zh": "Agent 工具链", "en": "Agent Tooling", "color": "#cf4a1f"},
@@ -42,6 +58,11 @@ HIST_DAYS = 14  # sparkline 最多保留的历史点数
 
 
 # ---------------------------------------------------------------- 抓取与解析
+
+def board_url(lang_id: str, rng: str) -> str:
+    path = "" if lang_id == "all" else "/" + urllib.parse.quote(lang_id, safe="+")
+    return f"{TRENDING_URL}{path}?since={rng}"
+
 
 def fetch_html(url: str, timeout: int = 30) -> str:
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "en-US,en;q=0.9"})
@@ -75,7 +96,7 @@ def parse_trending(page: str) -> list:
         lang = lang_m.group(1).strip() if lang_m else None
         stars_m = re.search(r"/stargazers\"[^>]*>(.*?)</a>", ch, re.S)
         stars_n = _to_int(_strip_tags(stars_m.group(1))) if stars_m else 0
-        today_m = re.search(r"([\d,]+)\s*stars\s+today", ch)
+        today_m = re.search(r"([\d,]+)\s*stars\s+(today|this\s+week|this\s+month)", ch)
         today_n = _to_int(today_m.group(1)) if today_m else 0
         repos.append({"full": full, "desc": desc, "lang": lang,
                       "stars_n": stars_n, "today_n": today_n})
@@ -121,7 +142,8 @@ def make_slug(full: str, taken: set) -> str:
 
 # ---------------------------------------------------------------- 自动摘要
 
-def auto_entry(full: str, rank: int, desc: str, lang, stars_n: int, today_n: int, slug: str) -> dict:
+def auto_entry(full: str, rank: int, desc: str, lang, stars_n: int, today_n: int, slug: str,
+               rng: str = "daily", lang_id: str = "all") -> dict:
     cat = classify(full, desc)
     today = fmt_today(today_n)
     stars = fmt_stars_k(stars_n)
@@ -132,12 +154,16 @@ def auto_entry(full: str, rank: int, desc: str, lang, stars_n: int, today_n: int
     else:
         tag_zh = "GitHub 热榜项目（描述待补充）"
         tag_en = "Trending repo (description pending)"
-        what_zh = "该项目今日登上 GitHub Trending 日榜，暂无官方描述，人工深度解析待补充。"
-        what_en = "This project is on today's GitHub Trending. No description available yet — a human deep dive is pending."
+        what_zh = "该项目今日登上 GitHub Trending 榜单，暂无官方描述，人工深度解析待补充。"
+        what_en = "This project is on GitHub Trending. No description available yet — a human deep dive is pending."
     stack_zh = f"主语言 {lang}。" if lang else ""
     stack_en = f"Primarily {lang}." if lang else ""
-    hot_zh = f"今日新增 {today} stars，位列 GitHub Trending 日榜第 {rank} 名。"
-    hot_en = f"{today} stars today, ranked #{rank} on today's GitHub Trending."
+    if lang_id == "all":
+        hot_zh = f"{GAIN_ZH[rng]}新增 {today} stars，位列 GitHub Trending {RNG_ZH[rng]}榜第 {rank} 名。"
+        hot_en = f"{today} stars {GAIN_EN[rng]}, ranked #{rank} on the {RNG_EN[rng]} GitHub Trending chart."
+    else:
+        hot_zh = f"{GAIN_ZH[rng]}新增 {today} stars，位列 GitHub Trending {RNG_ZH[rng]}榜（{LANG_NAME.get(lang_id, lang_id)}）第 {rank} 名。"
+        hot_en = f"{today} stars {GAIN_EN[rng]}, ranked #{rank} on the {RNG_EN[rng]} {LANG_NAME.get(lang_id, lang_id)} chart."
     return {
         "slug": slug, "full": full, "rank": rank, "cat": cat, "lang": lang,
         "stars": stars, "today": today, "today_n": today_n, "auto": True,
@@ -148,14 +174,15 @@ def auto_entry(full: str, rank: int, desc: str, lang, stars_n: int, today_n: int
 
 # ---------------------------------------------------------------- 每日归档 & 在榜追踪
 
-def snapshot(date: str, stamp: str, repos: list) -> dict:
-    """当日榜单快照（写入 archive/<date>.json）。"""
+def snapshot(date: str, stamp: str, board_entries: list, registry: dict) -> dict:
+    """当日（每日·全语言榜）快照，写入 archive/<date>.json。"""
     return {
         "date": date,
         "generated_at": stamp,
-        "repos": [{"full": r["full"], "rank": r["rank"], "stars": r["stars"],
-                   "today_n": r["today_n"], "slug": r["slug"], "cat": r["cat"],
-                   "lang": r["lang"]} for r in repos],
+        "repos": [{"full": e["full"], "rank": e["rank"], "stars": e["stars"],
+                   "today_n": e["today_n"],
+                   "slug": registry[e["full"]]["slug"], "cat": registry[e["full"]]["cat"],
+                   "lang": registry[e["full"]]["lang"]} for e in board_entries],
     }
 
 
@@ -175,11 +202,11 @@ def load_archives(archive_dir: str) -> list:
 
 
 def compute_track(archives: list, full: str, today_str: str) -> dict:
-    """从归档计算单个仓库的在榜追踪信息。
+    """从归档（每日·全语言榜）计算单个仓库的在榜追踪信息。
 
     days:     截至今日的连续在榜天数
     first:    首次上榜日期
-    is_new:   今日首次上榜
+    is_new:   今日首次上榜（归档 ≥2 天才判定，首日无法区分「新上榜」与「追踪刚启动」）
     is_back:  曾在榜、昨日不在、今日回榜
     hist:     最近 HIST_DAYS 个在榜日 [{d, s, r}]（sparkline 数据）
     """
@@ -196,7 +223,6 @@ def compute_track(archives: list, full: str, today_str: str) -> dict:
         else:
             break
     first = points[0]["d"] if points else today_str
-    # 归档只有 1 天（追踪刚启动）时不判 NEW——无法区分「首次上榜」与「追踪刚开始」
     is_new = len(points) == 1 and points[0]["d"] == today_str and len(archives) >= 2
     is_back = (not is_new and len(points) >= 1 and points[-1]["d"] == today_str
                and len(archives) >= 2
@@ -206,30 +232,28 @@ def compute_track(archives: list, full: str, today_str: str) -> dict:
 
 # ---------------------------------------------------------------- 元信息
 
-def build_meta(prev_meta: dict, list_changed: bool, now: datetime, repos: list) -> dict:
+def build_meta(prev_meta: dict, list_changed: bool, now: datetime, daily_entries: list) -> dict:
     date = now.strftime("%Y-%m-%d")
     stamp = now.strftime("%Y-%m-%d %H:%M (CST)")
-    n = len(repos)
+    n = len(daily_entries)
     meta = dict(prev_meta or {})
     meta.update({
         "date": date,
         "generated_at": stamp,
         "source": "github.com/trending",
-        "criteria": "Repositories · Today · All languages · logged out",
-        "kicker_zh": f"每日自动更新 · {date} · 每日榜 · 全语言 · {n} 个仓库",
-        "kicker_en": f"Auto-updated · {date} · Daily · All languages · {n} repos",
+        "criteria": "Repositories · Today/Week/Month · All languages · logged out",
         "footer_zh": f"Trending Scope · 数据更新于 {stamp}，由自动化管线直连 github.com 抓取",
         "footer_en": f"Trending Scope · Data updated {stamp} by the automated pipeline, fetched directly from github.com",
     })
     if list_changed or not meta.get("headline_zh"):
         counts = {}
-        for r in repos:
-            counts[r["cat"]] = counts.get(r["cat"], 0) + 1
+        for e in daily_entries:
+            counts[e["cat"]] = counts.get(e["cat"], 0) + 1
         cat_zh = "、".join(f"{CATS[c]['zh']} {k} 个" for c, k in counts.items())
         cat_en = ", ".join(f"{k} {CATS[c]['en']}" for c, k in counts.items())
-        top3 = sorted(repos, key=lambda r: -r["today_n"])[:3]
-        top3_zh = "、".join(f"{r['full']}（{r['today']}）" for r in top3)
-        top3_en = ", ".join(f"{r['full']} ({r['today']})" for r in top3)
+        top3 = sorted(daily_entries, key=lambda e: -e["today_n"])[:3]
+        top3_zh = "、".join(f"{e['full']}（{e['today']}）" for e in top3)
+        top3_en = ", ".join(f"{e['full']} ({e['today']})" for e in top3)
         meta["headline_zh"] = "今日热榜全景速递"
         meta["headline_en"] = "Your daily trending digest"
         meta["sub_zh"] = (f"{n} 个上榜仓库：{cat_zh}。今日新增 Star 前三：{top3_zh}。"
@@ -241,9 +265,18 @@ def build_meta(prev_meta: dict, list_changed: bool, now: datetime, repos: list) 
 
 # ---------------------------------------------------------------- 校验
 
-def validate(data: dict) -> list:
+def validate(data: dict, min_repos: int) -> list:
     errors = []
-    if not isinstance(data.get("repos"), list) or not data["repos"]:
+    daily = data.get("boards", {}).get("daily", {}).get("all", [])
+    if len(daily) < min_repos:
+        errors.append(f"daily/all board has only {len(daily)} entries (< {min_repos})")
+    registry = {r["full"] for r in data.get("repos", [])}
+    for rng, langs in data.get("boards", {}).items():
+        for lid, entries in langs.items():
+            for e in entries:
+                if e["full"] not in registry:
+                    errors.append(f"board {rng}/{lid}: {e['full']} not in registry")
+    if not data.get("repos"):
         errors.append("repos is empty")
         return errors
     slugs = set()
@@ -275,97 +308,162 @@ def main() -> int:
     ap = argparse.ArgumentParser(description="Refresh Trending Scope data.json from github.com/trending")
     here = os.path.dirname(os.path.abspath(__file__))
     ap.add_argument("--data", default=os.path.join(here, "..", "data.json"), help="data.json 路径")
-    ap.add_argument("--url", default=TRENDING_URL, help="trending 页面 URL")
-    ap.add_argument("--min-repos", type=int, default=10, help="解析少于该数量视为页面结构变更，失败退出")
-    ap.add_argument("--html", help="从本地 HTML 文件解析（离线测试用），跳过网络抓取")
+    ap.add_argument("--min-repos", type=int, default=10, help="主榜解析少于该数量视为页面结构变更，失败退出")
+    ap.add_argument("--html", help="从本地 HTML 文件解析主榜（离线测试用），跳过网络抓取")
     ap.add_argument("--dry-run", action="store_true", help="只打印将要发生的变化，不写文件")
     args = ap.parse_args()
 
     data_path = os.path.abspath(args.data)
-    if args.html:
-        print(f"[update] parsing local page {args.html} ...")
-        with open(args.html, encoding="utf-8") as f:
-            page = f.read()
-    else:
-        print(f"[update] fetching {args.url} ...")
-        page = fetch_html(args.url)
-    fetched = parse_trending(page)
-    print(f"[update] parsed {len(fetched)} repos from trending page")
-    if len(fetched) < args.min_repos:
-        print(f"[update] ERROR: only {len(fetched)} repos parsed (< {args.min_repos}). "
-              f"Trending page markup may have changed; existing data left untouched.", file=sys.stderr)
-        return 1
 
-    prev = {}
-    prev_meta = {}
+    # ---------------- 抓取全部榜单 ----------------
+    boards = {rng: {} for rng in RANGES}
+    info = {}     # full -> {desc, lang, stars_n, today_n}（首次出现时的原始值）
+    order = []    # full 首次出现顺序（daily/all → weekly/all → monthly/all → 语言榜）
+    fetched_boards = 0
+    for rng in RANGES:
+        for lang_id, _lang_name in LANGS:
+            if args.html:
+                if not (rng == "daily" and lang_id == "all"):
+                    continue
+                print(f"[update] parsing local page {args.html} ...")
+                with open(args.html, encoding="utf-8") as f:
+                    page = f.read()
+            else:
+                url = board_url(lang_id, rng)
+                try:
+                    page = fetch_html(url)
+                    fetched_boards += 1
+                    time.sleep(0.3)
+                except Exception as e:  # noqa: BLE001 —— 单榜失败不拖垮整轮
+                    print(f"[update] WARN: {rng}/{lang_id} fetch failed: {e}", file=sys.stderr)
+                    continue
+            lst = parse_trending(page)
+            if rng == "daily" and lang_id == "all" and len(lst) < args.min_repos:
+                print(f"[update] ERROR: only {len(lst)} repos parsed on daily/all (< {args.min_repos}). "
+                      f"Trending page markup may have changed; existing data left untouched.", file=sys.stderr)
+                return 1
+            if not lst:
+                print(f"[update] WARN: {rng}/{lang_id} parsed 0 repos, skipped", file=sys.stderr)
+                continue
+            boards[rng][lang_id] = [{
+                "full": r["full"], "rank": i + 1,
+                "stars": fmt_stars_k(r["stars_n"]),
+                "today": fmt_today(r["today_n"]), "today_n": r["today_n"],
+            } for i, r in enumerate(lst)]
+            for r in lst:
+                if r["full"] not in info:
+                    info[r["full"]] = r
+                    order.append(r["full"])
+    if not args.html:
+        print(f"[update] fetched {fetched_boards} boards; registry candidates: {len(order)} repos")
+
+    daily_board = boards["daily"].get("all", [])
+    daily_fulls = {e["full"] for e in daily_board}
+
+    # ---------------- 读取旧数据 ----------------
+    prev, prev_meta, prev_daily_fulls = {}, {}, set()
     if os.path.exists(data_path):
         with open(data_path, encoding="utf-8") as f:
             old = json.load(f)
         prev = {r["full"]: r for r in old.get("repos", [])}
         prev_meta = old.get("meta", {})
+        old_daily = old.get("boards", {}).get("daily", {}).get("all")
+        if old_daily:
+            prev_daily_fulls = {e["full"] for e in old_daily}
+        else:  # v1 数据：repos 即日榜
+            prev_daily_fulls = set(prev)
 
+    # ---------------- 注册表构建 ----------------
     taken_slugs = set()
-    repos, kept, new, auto_kept = [], 0, 0, 0
-    for i, fr in enumerate(fetched, 1):
-        full = fr["full"]
+    registry = {}   # full -> entry
+    kept, new, auto_kept = 0, 0, 0
+    for full in order:
         old = prev.get(full)
+        fr = info[full]
         if old and not old.get("auto"):
-            # 仍在榜 + 已有人工精评：保留 zh/en 文本与分类，仅刷新动态字段
             slug = old["slug"]
             taken_slugs.add(slug)
             entry = dict(old)
             entry.update({
-                "rank": i,
+                "lang": fr["lang"] or old.get("lang"),
                 "stars": fmt_stars_k(fr["stars_n"]),
                 "today": fmt_today(fr["today_n"]),
                 "today_n": fr["today_n"],
-                "lang": fr["lang"] or old.get("lang"),
             })
+            if full in daily_fulls:
+                entry["rank"] = next(e["rank"] for e in daily_board if e["full"] == full)
             kept += 1
-        elif old and old.get("auto"):
-            # 仍在榜但此前是自动摘要：刷新自动文本
-            slug = old["slug"]
-            taken_slugs.add(slug)
-            entry = auto_entry(full, i, fr["desc"], fr["lang"], fr["stars_n"], fr["today_n"], slug)
-            auto_kept += 1
         else:
-            slug = make_slug(full, taken_slugs)
-            entry = auto_entry(full, i, fr["desc"], fr["lang"], fr["stars_n"], fr["today_n"], slug)
-            new += 1
-        repos.append(entry)
+            slug = old["slug"] if old else make_slug(full, taken_slugs)
+            if old:
+                taken_slugs.add(slug)
+            # 找到该仓库最具代表性的榜单（daily/all → weekly/all → monthly/all → 语言榜）
+            pres = None
+            for rng in RANGES:
+                e = next((x for x in boards[rng].get("all", []) if x["full"] == full), None)
+                if e:
+                    pres = (rng, "all", e)
+                    break
+            if not pres:
+                for rng in RANGES:
+                    for lang_id, _ in LANGS[1:]:
+                        e = next((x for x in boards[rng].get(lang_id, []) if x["full"] == full), None)
+                        if e:
+                            pres = (rng, lang_id, e)
+                            break
+                    if pres:
+                        break
+            rng_p, lid_p, e_p = pres
+            entry = auto_entry(full, e_p["rank"], fr["desc"], fr["lang"],
+                               fr["stars_n"], fr["today_n"], slug, rng=rng_p, lang_id=lid_p)
+            if old:
+                auto_kept += 1
+            else:
+                new += 1
+        registry[full] = entry
 
-    old_fulls = set(prev)
-    new_fulls = {r["full"] for r in repos}
-    dropped = sorted(old_fulls - new_fulls)
-    list_changed = old_fulls != new_fulls
+    dropped = sorted(set(prev) - set(order))
+    list_changed = prev_daily_fulls != daily_fulls
 
+    # ---------------- 归档 & 在榜追踪 ----------------
     now = datetime.now(CN_TZ)
     today_str = now.strftime("%Y-%m-%d")
     stamp = now.strftime("%Y-%m-%d %H:%M (CST)")
 
-    # 每日归档：今日快照与历史合并（同日期覆盖），据此计算每个仓库的在榜追踪
     archive_dir = os.path.join(os.path.dirname(data_path), "archive")
     archives = [a for a in load_archives(archive_dir) if a["date"] != today_str]
-    today_snap = snapshot(today_str, stamp, repos)
+    today_snap = snapshot(today_str, stamp, daily_board, registry)
     archives.append(today_snap)
-    for r in repos:
-        r["track"] = compute_track(archives, r["full"], today_str)
+    for full, entry in registry.items():
+        entry["track"] = compute_track(archives, full, today_str)
 
+    repos = [registry[full] for full in order]
+
+    # 主榜条目补上分类（build_meta 统计用）
+    for e in daily_board:
+        e["cat"] = registry[e["full"]]["cat"]
+
+    langs_out = [{"id": lid, "name": lname} for lid, lname in LANGS
+                 if lid == "all" or any(lid in boards[rng] for rng in RANGES)]
     data = {
-        "schema": 1,
-        "meta": build_meta(prev_meta, list_changed, now, repos),
+        "schema": 2,
+        "meta": build_meta(prev_meta, list_changed, now, daily_board),
         "cats": CATS,
+        "langs": langs_out,
+        "boards": boards,
         "repos": repos,
     }
 
-    errors = validate(data)
+    errors = validate(data, args.min_repos)
     if errors:
         print("[update] ERROR: validation failed:", file=sys.stderr)
         for e in errors:
             print("  -", e, file=sys.stderr)
         return 1
 
-    print(f"[update] kept {kept} curated, refreshed {auto_kept} auto, new {new}, dropped {len(dropped)}")
+    n_boards = sum(len(v) for v in boards.values())
+    print(f"[update] registry {len(repos)} repos (kept {kept} curated, refreshed {auto_kept} auto, "
+          f"new {new}, dropped {len(dropped)}), boards: {n_boards}")
     if dropped:
         print("[update] dropped:", ", ".join(dropped))
     n_new = sum(1 for r in repos if r["track"]["is_new"])
@@ -395,7 +493,8 @@ def main() -> int:
     with open(js_path, "w", encoding="utf-8") as f:
         f.write("/* Auto-generated from data.json — do not edit by hand. */\n")
         f.write("window.TRENDING_DATA = " + payload)
-    print(f"[update] wrote {data_path} and {js_path}")
+    print(f"[update] wrote {data_path} ({len(payload)//1024} KB) and {js_path}")
+    print(f"[update] wrote archive {arch_path}")
     return 0
 
 
