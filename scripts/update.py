@@ -23,7 +23,9 @@
     无需任何第三方依赖（Python 3.9+ 标准库）。
     LLM_API_KEY / LLM_BASE_URL：OpenAI 兼容接口的密钥与地址（如 https://api.openai.com/v1），
         两者都配置才启用 LLM 精评；未配置则全程保持自动摘要。
-    LLM_MODEL：模型名（默认 gpt-4o-mini）。LLM_LIMIT：每轮最多精评仓库数（默认 25）。
+    LLM_PROTOCOL：接口协议 openai（默认）或 anthropic（Kimi Code 网关等 Anthropic
+        Messages 兼容服务，base_url 形如 https://agent-gw.kimi.com/coding）。
+    LLM_MODEL：模型名（默认随协议：gpt-4o-mini / kimi-k2-0711-preview）。LLM_LIMIT：每轮最多精评仓库数（默认 25）。
     LLM_README=0：不把 README 摘录放入 prompt 上下文（默认取 README 前 3000 字符）。
 """
 import argparse
@@ -206,9 +208,14 @@ def llm_config(args) -> "dict | None":
     base = os.environ.get("LLM_BASE_URL", "").strip().rstrip("/")
     if not key or not base:
         return None
+    protocol = (os.environ.get("LLM_PROTOCOL") or "openai").strip().lower() or "openai"
+    if protocol not in ("openai", "anthropic"):
+        print(f"[llm] WARN: unknown LLM_PROTOCOL {protocol!r}, falling back to openai")
+        protocol = "openai"
+    default_model = "kimi-k2-0711-preview" if protocol == "anthropic" else "gpt-4o-mini"
     return {
-        "key": key, "base": base,
-        "model": os.environ.get("LLM_MODEL", "").strip() or "gpt-4o-mini",
+        "key": key, "base": base, "protocol": protocol,
+        "model": os.environ.get("LLM_MODEL", "").strip() or default_model,
         "limit": args.llm_limit,
         "readme": os.environ.get("LLM_README", "1").strip() != "0",
     }
@@ -238,22 +245,38 @@ def llm_review(full: str, desc: str, lang, stars_n: int, today_n: int,
         stars_n=stars_n, gain_zh=GAIN_ZH[rng], today_n=today_n,
         board_desc=board_desc, rank=rank,
         readme_block=f"README 摘录：{readme}" if readme else "")
-    body = json.dumps({
-        "model": cfg["model"],
-        "messages": [
-            {"role": "system", "content": "You are a meticulous bilingual editor. Reply with JSON only."},
-            {"role": "user", "content": prompt},
-        ],
-        "temperature": 0.4,
-    }).encode("utf-8")
-    req = urllib.request.Request(
-        cfg["base"] + "/chat/completions", data=body, method="POST",
-        headers={"User-Agent": UA, "Content-Type": "application/json",
-                 "Authorization": f"Bearer {cfg['key']}"})
+    if cfg.get("protocol") == "anthropic":
+        body = json.dumps({
+            "model": cfg["model"], "max_tokens": 4000,
+            "system": "You are a meticulous bilingual editor. Reply with JSON only.",
+            "messages": [{"role": "user", "content": prompt}],
+            "temperature": 0.4,
+        }).encode("utf-8")
+        req = urllib.request.Request(
+            cfg["base"] + "/v1/messages", data=body, method="POST",
+            headers={"User-Agent": UA, "Content-Type": "application/json",
+                     "x-api-key": cfg["key"], "anthropic-version": "2023-06-01"})
+    else:
+        body = json.dumps({
+            "model": cfg["model"],
+            "messages": [
+                {"role": "system", "content": "You are a meticulous bilingual editor. Reply with JSON only."},
+                {"role": "user", "content": prompt},
+            ],
+            "temperature": 0.4,
+        }).encode("utf-8")
+        req = urllib.request.Request(
+            cfg["base"] + "/chat/completions", data=body, method="POST",
+            headers={"User-Agent": UA, "Content-Type": "application/json",
+                     "Authorization": f"Bearer {cfg['key']}"})
     try:
         with urllib.request.urlopen(req, timeout=60) as resp:
             payload = json.loads(resp.read().decode("utf-8", "replace"))
-        text = payload["choices"][0]["message"]["content"]
+        if cfg.get("protocol") == "anthropic":
+            text = "".join(b.get("text", "") for b in payload.get("content", [])
+                           if b.get("type") == "text")
+        else:
+            text = payload["choices"][0]["message"]["content"]
     except Exception as e:  # noqa: BLE001 —— 网络/鉴权/格式问题都降级
         print(f"[llm] {full}: request failed: {e}")
         return None
@@ -446,7 +469,7 @@ def main() -> int:
     ap.add_argument("--min-repos", type=int, default=10, help="主榜解析少于该数量视为页面结构变更，失败退出")
     ap.add_argument("--html", help="从本地 HTML 文件解析主榜（离线测试用），跳过网络抓取")
     ap.add_argument("--dry-run", action="store_true", help="只打印将要发生的变化，不写文件")
-    ap.add_argument("--llm-limit", type=int, default=int(os.environ.get("LLM_LIMIT", "25")),
+    ap.add_argument("--llm-limit", type=int, default=int(os.environ.get("LLM_LIMIT") or "25"),
                     help="每轮最多 LLM 精评的仓库数（默认 25，可用 env LLM_LIMIT 覆盖）")
     args = ap.parse_args()
 

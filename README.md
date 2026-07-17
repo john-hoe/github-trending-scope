@@ -50,7 +50,7 @@ The trending data is refreshed daily by GitHub Actions (~08:23 Beijing time):
 - 仍在榜的仓库**保留人工深度解析**，只更新排名与 star 数；新上榜仓库自动生成带 ⚡ 标记的摘要；配置 LLM（见下）后由模型自动生成双语精评并永久保留，否则人工精评随后补充
 - **在榜追踪**：卡片显示「首次上榜 / 回榜 / 在榜 N 天」徽章，弹窗含 star 增长 sparkline（自 2026-07-17 起逐日积累）
 - Repos that stay on the chart keep their human-written deep dives (only rank/stars update); new entries get an auto summary flagged ⚡ pending a human write-up. On-chart tracking badges and a star-history sparkline build up from the daily archives
-- **可选 LLM 精评** / Optional LLM write-ups —— 仓库 Secrets 配置 `LLM_API_KEY` + `LLM_BASE_URL`（OpenAI 兼容接口），Variables 可选 `LLM_MODEL`；每轮为新上榜及历史 ⚡ 仓库生成双语深度解析（每轮上限 `LLM_LIMIT`，默认 25，新上榜优先），失败或未配置自动保持摘要降级
+- **可选 LLM 精评** / Optional LLM write-ups —— 仓库 Secrets 配置 `LLM_API_KEY` + `LLM_BASE_URL`（OpenAI 兼容接口；Kimi Code 网关 `https://agent-gw.kimi.com/coding` 亦可，Variables 设 `LLM_PROTOCOL=anthropic`），Variables 可选 `LLM_MODEL`；每轮为新上榜及历史 ⚡ 仓库生成双语深度解析（每轮上限 `LLM_LIMIT`，默认 25，新上榜优先），失败或未配置自动保持摘要降级
 - 手动更新 / Manual refresh: `python3 scripts/update.py`（纯标准库，无依赖 / stdlib only）
 - 改进方向见 / See `docs/improvement-roadmap.md`
 

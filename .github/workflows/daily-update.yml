@@ -8,6 +8,11 @@ on:
   schedule:
     - cron: "23 0 * * *"
   workflow_dispatch:
+    inputs:
+      llm_limit:
+        description: "本轮 LLM 精评上限（留空则用默认 25；可用 vars.LLM_LIMIT 全局覆盖）"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -31,6 +36,8 @@ jobs:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
+          LLM_PROTOCOL: ${{ vars.LLM_PROTOCOL }}
+          LLM_LIMIT: ${{ github.event.inputs.llm_limit || vars.LLM_LIMIT }}
 
       - name: Commit data if changed
         run: |
