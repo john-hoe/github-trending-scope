@@ -3,6 +3,14 @@
 > 把 github.com/trending 变成一页可看、可搜、可交互的双语全景报告
 > Turn github.com/trending into an interactive bilingual one-page report.
 
+## 宣传视频 / Promo Video · 45s
+
+| 🇨🇳 中文宣传片 | 🇺🇸 English Promo |
+| --- | --- |
+| <video src="https://john-hoe.github.io/github-trending-scope/videos/promo-zh.mp4" poster="preview-zh.png" controls muted playsinline width="100%"></video> | <video src="https://john-hoe.github.io/github-trending-scope/videos/promo-en.mp4" poster="preview-en.png" controls muted playsinline width="100%"></video> |
+
+无法内嵌播放？/ Can't play inline? 直接下载 / Download：[中文宣传片](videos/promo-zh.mp4) · [English Promo](videos/promo-en.mp4)
+
 ![中文预览](preview-zh.png)
 
 ## 这是什么 / What is this
@@ -41,6 +49,7 @@ open index-en.html   # English version
 ```
 ├── index.html        # 中文版页面（单文件，含全部样式与脚本）
 ├── index-en.html     # English page (single file, styles + scripts inline)
+├── videos/           # 45s 宣传视频（中文 promo-zh.mp4 / English promo-en.mp4）
 ├── preview-zh.png    # 中文版整页预览
 ├── preview-en.png    # English full-page preview
 └── LICENSE           # MIT
