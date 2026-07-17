@@ -183,16 +183,16 @@
 </header>
 
 <section class="hero">
-  <span class="kicker"><span class="pulse"></span>本机直连抓取 · 2026-07-17 · 每日榜 · 全语言 · 17 个仓库</span>
-  <h1>今日 GitHub 热榜<br><span class="grad">Agent Skills 技能包集体屠榜</span></h1>
-  <p class="sub">17 个上榜仓库中 7 个属于 Agent 工具链，其中 5 个是「给 AI 装技能」的 Skills 包 —— 从反 AI 味设计（hallmark）到知识图谱上下文（graphify）。老牌神仓 build-your-own-x（526k stars）与 OSSU 自学路线依然稳居榜上。点击任意卡片查看深度解析。</p>
+  <span class="kicker"><span class="pulse"></span><span id="kicktxt">数据加载中…</span></span>
+  <h1>今日 GitHub 热榜<br><span class="grad" id="headline"></span></h1>
+  <p class="sub" id="sub"></p>
 </section>
 
 <section class="stats" id="stats">
-  <div class="stat"><div class="num" data-n="17" data-suf="">0</div><div class="lbl">上榜仓库</div></div>
-  <div class="stat"><div class="num" data-n="1.44" data-dec="2" data-suf="M+">0</div><div class="lbl">合计 Stars</div></div>
-  <div class="stat"><div class="num" data-n="7" data-suf=" / 17">0</div><div class="lbl">Agent 工具链占比</div></div>
-  <div class="stat"><div class="num" data-n="9" data-suf=" 种">0</div><div class="lbl">覆盖编程语言</div></div>
+  <div class="stat"><div class="num" id="st1">0</div><div class="lbl">上榜仓库</div></div>
+  <div class="stat"><div class="num" id="st2">0</div><div class="lbl">合计 Stars</div></div>
+  <div class="stat"><div class="num" id="st3">0</div><div class="lbl">Agent 工具链占比</div></div>
+  <div class="stat"><div class="num" id="st4">0</div><div class="lbl">覆盖编程语言</div></div>
 </section>
 
 <section class="insight">
@@ -230,159 +230,98 @@
 </div>
 
 <footer>
-  Trending Scope · 数据核验于 2026-07-17 02:10 (CST)，由本机网络直连 github.com 抓取<br>
+  <span id="foot1">Trending Scope</span><br>
   榜单口径：Repositories · Today · All languages · 未登录 —— 登录账号或切换语言/时间筛选会看到不同结果<br>
   仅供学习参考 · 点击卡片可查看每个项目的深度解析
 </footer>
 
+<script src="data.js"></script>
 <script>
-const CATS = {
-  agent:{name:"Agent 工具链", color:"#cf4a1f"},
-  ai:{name:"AI 应用与模型", color:"#0e6f63"},
-  infra:{name:"平台·数据·应用", color:"#b07a1e"},
-  other:{name:"学习 & 游戏", color:"#5a7a3a"}
+/* ---------- 语言相关 UI 文案 ---------- */
+const LOCALE = "zh";
+const L = {
+  multiLang: "多语言",
+  today: t => `今日 ${t}`,
+  all: n => `全部 · ${n}`,
+  empty: "没有匹配的项目，换个关键词试试？",
+  err: "数据加载失败：请确认 data.js 与本页面在同一目录。",
+  rankSub: r => `Trending 排名 #${r}`,
+  autoTag: "⚡ 自动摘要",
+  secs: {what:"◆ 是做什么的", content:"◆ 仓库里有什么", stack:"◆ 技术栈", uses:"◆ 应用场景", hot:"◆ 为什么火"},
+  openBtn: "在 GitHub 打开 ↗",
+  backBtn: "返回列表",
+  titleSuffix: d => `GitHub Trending 全景 · ${d}`,
+  langSuffix: " 种"
 };
-const LANGC = {Python:"#3572A5",TypeScript:"#3178c6",JavaScript:"#d4b014",Java:"#b07219",Rust:"#c4743a",Shell:"#6a9e3f",Markdown:"#4a7ba6",CSS:"#884ea0","C++":"#f34b7d",HTML:"#e34c26","多语言":"#8a7f68"};
 
-const REPOS = [
-{r:1,slug:"ossie",full:"apache/ossie",cat:"infra",lang:"Python",stars:0.8,today:"+81",
- tag:"Apache 孵化的语义交换标准，让 BI/AI 工具说同一种指标语言",
- what:"行业级开放规范（原名 Open Semantic Interchange / OSI，现为 Apache 孵化项目），目标是标准化语义元数据在数据分析、AI 与 BI 平台之间的交换：用一套 JSON/YAML 规范统一定义 KPI、指标和业务逻辑，解决「同一个指标在不同工具里定义不一致」的老大难，让 AI agent 基于一致的业务语义输出可靠结果。",
- content:"以规范文档为主：core-spec/（spec.md、spec.yaml、osi-schema.json）、converters/（与 dbt、GoodData、Polaris、Salesforce 等格式互转的参考实现）、examples/（含完整 TPC-DS 示例模型）、validation/（schema 校验工具）。",
- stack:"主语言 Python，规范本体是 JSON Schema + YAML，Apache-2.0，走 Apache 基金会孵化流程。",
- hot:"「AI agent 要消费企业数据语义」带火了语义层标准化；项目刚转入 Apache 孵化、今天仍在高频提交，处于规范成型的关键曝光期。"},
-{r:2,slug:"hallmark",full:"Nutlope/hallmark",cat:"agent",lang:"CSS",stars:10.5,today:"+3.2k",
- tag:"专治「AI 味」网页的设计 skill，让 AI 生成的 UI 不像模板货",
- what:"Together AI 出品的设计 skill 包：装进 Claude Code、Cursor 或 Codex 后，AI 生成网页 UI 时会从 20 套主题里选宏观结构，并跑 57 项「anti-slop」检查加自我批判，拒绝 LLM 默认那套千篇一律的渐变卡片风。提供生成、hallmark audit（给现有代码打分）、hallmark redesign（换结构重写）、hallmark study（从截图/URL 提取设计 DNA）四个动词。",
- content:"核心是 skills/hallmark/ 下的 SKILL.md + references/ 规则文件；docs/ 有 recipes 和示例，site/ 是官网及大量自包含 HTML+CSS 示例页（语言占比因此显示为 CSS）。",
- stack:"Markdown 规则 + 参考文档的 skill 包（符合 Agent Skills 规范），示例为纯 HTML/CSS，MIT，无运行时依赖，一行 npx skills add nutlope/hallmark 安装。",
- hot:"今日 +3.2k，病毒式传播 ——「AI 生成的网站都长一个样」是当下普遍痛点，「反 AI slop」定位精准踩中情绪，还有在线 demo 可直接体验。"},
-{r:3,slug:"opencut",full:"OpenCut-app/OpenCut",cat:"infra",lang:"TypeScript",stars:73.8,today:"+3.3k",
- tag:"开源版 CapCut（剪映），免费跨平台视频编辑器",
- what:"免费开源视频编辑器，对标 CapCut，目标覆盖 Web、桌面和移动端。项目正在从零重写：Editor API、插件优先架构、Rust 核心（一套代码跑桌面/移动/浏览器）、供 AI agent 调用的 MCP server、无头批量渲染模式和编辑器内置脚本页。旧版代码已迁至 opencut-classic 继续维护。",
- content:"monorepo：apps/web、apps/desktop、apps/api 三个应用，根目录 Cargo.toml（Rust 核心）；用 moonrepo + proto 管理工具链，moon run web:dev 即可起本地开发。",
- stack:"TypeScript（Web 前端）+ Rust 核心，Bun 包管理，MIT；重写期间暂不接受外部代码贡献。",
- hot:"今日 +3.3k，今日榜热度头部 ——「开源剪映平替」需求巨大（存量 73.8k stars），Rust 重写 +「让 AI 剪视频」的 MCP 叙事又推了一波。"},
-{r:4,slug:"posthog",full:"PostHog/posthog",cat:"infra",lang:"Python",stars:35.8,today:"+146",
- tag:"开源一体化产品数据平台：分析、回放、实验、LLM 观测全包",
- what:"知名开源产品数据平台：产品分析、Web 分析、session 回放、feature flag、A/B 实验、错误追踪、日志、问卷、数据仓库、CDP、LLM 可观测性全部集成在一个系统。最新定位「构建自驱动产品（self-driving products）」：把错误、rage click 等产品信号自动转成分析报告和 PR 供你 review 合并，可从 Slack、Web、桌面端或 MCP 操作，支持 Docker 自托管。",
- content:"超大型 monorepo：posthog/（Django 后端）、frontend/、products/（各产品线）、rust/、services/、ee/（企业版，单独授权），大量 docker-compose 部署文件与全平台 SDK。",
- stack:"Python/Django + TypeScript/React + Rust 服务，底层 ClickHouse；MIT（ee/ 目录除外）。",
- hot:"35.8k 的成熟项目仍每日活跃提交；近期把整条产品线重定位为面向 AI agent 的「self-driving」叙事，稳稳吃到 AI 生态流量。"},
-{r:5,slug:"openinterpreter",full:"openinterpreter/openinterpreter",cat:"agent",lang:"Rust",stars:65.9,today:"+633",
- tag:"终端里的编程 agent，专为便宜小模型优化",
- what:"跑在终端里的 AI 编程助手（OpenAI Codex 的 fork），核心思路「换 harness 不换模型」：内置 claude-code、kimi-cli、qwen-code、deepseek-tui 等多种 agent 运行框架，让低成本开源模型也打出好表现。自带 QA 技能，可驱动真实浏览器或原生 App 做界面测试，支持 macOS/Linux/Windows 原生沙箱执行。",
- content:"完整 Rust 工程：终端 TUI、文档站（openinterpreter.com/docs）、安装脚本；配置与会话存本地 ~/.openinterpreter，支持 /model 切模型、/harness 切框架、MCP、hooks、AGENTS.md。",
- stack:"Rust（2023 年创建的老牌项目，刚从 Python 重写），Apache-2.0；支持 ACP 协议接入编辑器，可接多家模型 provider。",
- hot:"老树开新花：刚完成 Rust 重写并转型「低成本模型的 harness」，今天仍在提交，踩中「便宜模型 + 编程 agent」风口。"},
-{r:6,slug:"bonsai-demo",full:"PrismML-Eng/Bonsai-demo",cat:"ai",lang:"Shell",stars:1.5,today:"+323",
- tag:"1-bit/三值超压缩大模型 Bonsai 的本地运行 demo",
- what:"PrismML 的 Bonsai 系列语言模型官方演示仓库，主打极致量化：1-bit 版每权重约 1.125 bit，27B 模型能塞进现代 iPhone；三值（Ternary）版约 1.7 bit，是质量更高的默认选项。最新 27B 是视觉语言模型，支持看图、tool calling、MCP、256k+ 长上下文和推理努力度调节。",
- content:"纯 Shell 脚本工程：setup.sh / setup.ps1 一键装依赖下模型，scripts/ 放运行和下载脚本，另有三份白皮书 PDF、AGENTS.md（写给 AI agent 看的配置指南）、VISION/TOOLS 等专题文档与社区 benchmark。",
- stack:"Shell + llama.cpp 服务端，模型托管在 HuggingFace；支持 Mac Metal、CUDA/Vulkan/ROCm 和纯 CPU，Apache-2.0。",
- hot:"昨天刚发布家族最大、首个视觉语言模型 Bonsai 27B ——「27B 模型跑在 iPhone 上」的噱头加上开箱即用脚本，传播力极强。"},
-{r:7,slug:"exercises-dataset",full:"hasaneyldrm/exercises-dataset",cat:"infra",lang:"HTML",stars:14.9,today:"+697",
- tag:"1324 个健身动作数据集，带动图和 10 国语言说明",
- what:"开箱即用的健身动作数据集：1324 个动作，每个配动画 GIF、180×180 缩略图、目标肌群/器械/分类等结构化字段，以及 10 种语言（含中文）的分步动作说明。定位「健身应用的数据层」—— 作者是 LogPress 健身打卡 App 的开发者，这个库就是他 App 背后的数据，适合做健身 App、动作推荐 ML 项目或教学演示。",
- content:"data/exercises.json（结构化数据）+ videos/（1324 个 GIF）+ images/（缩略图），外加 index.html 交互式浏览器和 setup.html 开发者接入指南。",
- stack:"纯数据仓库：JSON + GIF + 静态 HTML，无运行时依赖。注意：代码 MIT，GIF 媒体版权归 Gym visual 所有，商用需留意。",
- hot:"健身类数据集稀缺，带版权清晰的动图和多语言说明的更少 —— 做健身 App / AI 教练的开发者拿去就能用。"},
-{r:8,slug:"awesome-llm-apps",full:"Shubhamsaboo/awesome-llm-apps",cat:"ai",lang:"Python",stars:122.7,today:"+935",
- tag:"100+ 个能直接跑起来的 AI Agent 和 RAG 应用合集",
- what:"超大号 LLM 应用模板库：收录 100 多个亲手构建并端到端测试过的 AI agent、agent skill 和 RAG 应用，全部 Apache-2.0 可商用。兼容 Claude、Gemini、GPT、DeepSeek、Llama、Qwen 等主流模型，克隆下来装依赖就能跑，口号「clone, customize, ship」。",
- content:"按难度和形态分目录：agent_skills/（npx 一键装技能）、starter_ai_agents/（单文件入门）、advanced_ai_agents/（多智能体团队）、voice_ai_agents/、always_on_agents/、RAG 教程等；每个模板配 README 和依赖清单，场景覆盖旅行规划、金融分析、播客生成、房屋装修等。",
- stack:"Python 为主，常见 Streamlit 前端 + 各家模型 SDK，部分用 CrewAI/AG2 等多智能体框架。",
- hot:"122.7k 的存量巨无霸还在涨：最近押注 agent skills 新形态、每周更新模板，配 Unwind AI 教程引流，LLM 应用层常青树。"},
-{r:9,slug:"lobehub",full:"lobehub/lobehub",cat:"agent",lang:"TypeScript",stars:80.1,today:"+51",
- tag:"你的「AI 团队总管」：把一堆 agent 组织起来 7×24 干活",
- what:"定位「Chief Agent Operator」：把多个 AI agent 当工作单元统一招聘、调度和汇报。核心功能包括 Agent Builder（描述需求即可自动配置出可用 agent）、Agent Groups（多 agent 并行协作）、Pages/Schedule/Project/Workspace 协作面板，以及白盒可编辑的 Personal Memory；支持接入任意模型和模态，号称 10000+ skills 和 MCP 插件生态。",
- content:"可自部署的 Web 应用（Vercel/Docker/Zeabur/Sealos 一键部署），仓库含完整中英文档、Changelog、插件体系和本地开发指南；默认分支 canary，今天仍在高频 push。",
- stack:"TypeScript + Next.js 系 Web 应用，Docker 自托管，插件走 MCP 协议；许可证为自定义（非标准）。",
- hot:"80.1k 老牌项目的稳定热度：最近押注「多 agent 调度 + IM Gateway」叙事，持续曝光。"},
-{r:10,slug:"yimmenuv2",full:"YimMenu/YimMenuV2",cat:"other",lang:"C++",stars:1.5,today:"+122",
- tag:"GTA 5 增强版的开源作弊菜单 DLL",
- what:"《GTA 5: Enhanced》的实验性修改菜单（mod menu）：编译成 DLL 后用 Xenos 等注入器在游戏主菜单注入，按 INSERT 或 Ctrl+\\ 呼出菜单。建议配合 FSL 把存档数据重定向到本地磁盘以保号，且需要关闭 BattlEye 反作弊（目前没有 BE 绕过，公共战局会被心跳检测踢出）。",
- content:"C++ 源码 + 一份简短 README，讲清使用步骤（FSL → 下载 nightly release → 注入器 → 关 BattlEye → 注入）和常见问题修复（掉线、存档消失、游戏起不来）。",
- stack:"C++，DLL 注入式单机/联机修改器，依赖外部注入器和 FSL，GPL-2.0；默认分支 enhanced。",
- hot:"GTA5 增强版 mod 圈刚需工具，YimMenu 系在这类开源菜单里口碑最老，7 月 12 日仍在更新。"},
-{r:11,slug:"deeptutor",full:"HKUDS/DeepTutor",cat:"ai",lang:"Python",stars:26.8,today:"+647",
- tag:"港大出品的 AI 私人家教：个性化终身学习工作区",
- what:"香港大学 HKUDS 实验室的「agent 原生」学习平台：聊天辅导、刷题测验、深度研究、可视化、解题、Mastery Path 掌握度练习跑在同一套 agent 循环上。支持多引擎 RAG 知识库（LlamaIndex、PageIndex、GraphRAG、LightRAG，可挂 Obsidian 库），可从任意对话呼叫 Claude Code / Codex 等子 agent；带三层可检查记忆（L1 trace / L2 摘要 / L3 综合）和 Memory Graph 溯源。",
- content:"完整 Web 应用（Python 后端 + Next.js 16 前端），附 11 种语言 README、Docker 部署、CLI/agent-native 接口、EduHub 社区 skills 生态；发版极勤。",
- stack:"Python 3.11+ + Next.js 16，RAG 多引擎 + MCP 工具 + FAISS 向量库，Apache-2.0；2025 年 12 月底创建，有 arXiv 论文背书。",
- hot:"上线半年多冲到 26.8k ——「AI 教育 + agent 原生」双热点，高校实验室背书 + 极密发版节奏，社区运营齐全。"},
-{r:12,slug:"skills",full:"mattpocock/skills",cat:"agent",lang:"Shell",stars:173.9,today:"+2.1k",
- tag:"TypeScript 网红 Matt Pocock 自用的 Claude 技能包",
- what:"Matt Pocock（Total TypeScript 作者）把自己 .claude 目录里日常用的 agent skills 原样开源，主打「真工程，不是 vibe coding」。每个 skill 解决一个具体失败模式：/grill-me、/grill-with-docs 让 agent 先反问对齐需求，/tdd 强制红绿重构，/diagnosing-bugs 调试循环，还有 /triage、/to-spec、/to-tickets、/code-review 等。设计哲学是小、可组合、模型无关 —— 把控制权留给人。",
- content:"skills/ 目录下的 Markdown skill 文件（engineering / productivity / misc，engineering 下 18 个 skill）+ ADR 文档和安装脚本；两种装法：npx skills add 拷进项目随便改，或 Claude Code 插件市场订阅式安装，兼容 Agent-Skills 标准的 harness。",
- stack:"Markdown skills + Shell 安装脚本，MIT；走 Claude Code 插件市场和 skills.sh 生态。",
- hot:"2026 年 2 月才建仓库，5 个多月冲到 173.9k —— 作者本人流量 +「skills 取代重型流程框架」的叙事，踩中 skills 生态爆发风口。"},
-{r:13,slug:"copilot-sdk",full:"github/copilot-sdk",cat:"agent",lang:"多语言",stars:9.6,today:"+62",
- tag:"把 GitHub Copilot 智能体嵌进你自己应用的官方 SDK",
- what:"GitHub 官方出的多语言 SDK：在自己的应用或服务里直接调用 Copilot Agent 的能力。它暴露的是 Copilot CLI 背后同一套经过生产验证的 agent 运行时 —— 你不用自己搭编排层，定义好 agent 行为，规划、工具调用、文件编辑都交给 Copilot 处理。",
- content:"单仓库 6 套 SDK，按目录分：nodejs/、python/、go/、dotnet/、java/、rust/，另有 docs/、test/ 和 cookbook 示例；各语言经 npm / PyPI / NuGet / Maven Central / crates.io 分发。",
- stack:"多语言 monorepo（TS/Python/Go/.NET/Java/Rust 六个 SDK），MIT；2026 年 1 月创建，推送非常活跃。",
- hot:"「Copilot agent 能力开放给第三方应用」的定位自带关注度，GitHub 官方背书。"},
-{r:14,slug:"ui-skills",full:"ibelick/ui-skills",cat:"agent",lang:"TypeScript",stars:4.1,today:"+141",
- tag:"给设计工程师准备的一套 UI 类 Agent Skills",
- what:"知名设计工程师 ibelick 出品的 UI 技能包集合：让 AI 编码 agent 按任务自动走对应的 UI 技能流程，跑一行 npx ui-skills start 就能把 agent 路由到合适的技能集。",
- content:"skills/ 目录下 6 个技能：baseline-ui、improve-ui、fixing-accessibility、fixing-metadata、fixing-motion-performance、ui-skills-root；另有 bin/（CLI 入口）和配套网站（Astro + Cloudflare Workers）。",
- stack:"TypeScript，CLI 走 npx 分发，MIT；2026 年 1 月创建，官网 ui-skills.com。",
- hot:"作者本身就是设计工程师圈的知名人物，「给 AI agent 装设计品味技能」这个方向正当红。"},
-{r:15,slug:"graphify",full:"Graphify-Labs/graphify",cat:"agent",lang:"Python",stars:88.7,today:"+1.1k",
- tag:"把整个项目文件夹变成可查询知识图谱的 AI 技能",
- what:"给 Claude Code、Codex、OpenCode、Cursor、Gemini CLI 等 AI 编码助手用的 skill：输入 /graphify，它就把整个项目（代码、SQL schema、文档、PDF、图片、视频）映射成一张可查询的知识图谱，代替 grep 翻文件。代码解析走 tree-sitter AST —— 确定性、不用 LLM、完全本地；文档类内容才走模型做语义处理。不是向量索引，是真图谱，每条边标注 EXTRACTED（直接读到）还是 INFERRED（推断出来）。",
- content:"以 CLI 形式分发（PyPI 包 graphifyy，uv tool install 或 pipx 安装），仓库含 docs/（30 多种语言 README 翻译）和交互式 graph.html 可视化产物；默认分支 v8，迭代很快。",
- stack:"Python + tree-sitter 代码解析，产出力导向 HTML 图；挂到各家 CLI 助手上当 skill 用。",
- hot:"README 挂着 YC S26 徽章 ——「知识图谱代替向量检索给 AI 助手供上下文」正踩在 RAG 焦虑点上，88.7k 总量说明已出圈。"},
-{r:16,slug:"build-your-own-x",full:"codecrafters-io/build-your-own-x",cat:"other",lang:"Markdown",stars:526.1,today:"+549",
- tag:"教你从零重写各种技术的教程大合集",
- what:"CodeCrafters 维护的著名教程索引仓库，理念是费曼那句「我不能创造的东西，我就不理解」。收录大量「从零重写某技术」的 step-by-step 教程链接，覆盖数据库、操作系统、Git、Docker、编程语言、神经网络、Web 浏览器等约 30 个类别。",
- content:"主体是一个巨大的 README 列表，按「Build your own X」分类组织，每条标注所用编程语言和链接（如用 Python 写 LLM、用 C++ 写光线追踪）；无代码本体。",
- stack:"纯 Markdown 文档；收录的教程本身横跨 C/C++/Python/Go/Rust 等各种语言。",
- hot:"52.6 万 star 的神仓、GitHub 全站 star 最多的仓库之一 —— AI 时代「亲手造一遍理解原理」反而更有市场，常青树稳定进账。"},
-{r:17,slug:"computer-science",full:"ossu/computer-science",cat:"other",lang:"HTML",stars:206.4,today:"+125",
- tag:"用免费网课自学完整个 CS 本科的路线",
- what:"Open Source Society University 的计算机科学课程体系：用免费的在线材料（多来自哈佛、MIT、普林斯顿等名校课程）拼出一套完整的 CS 本科教育。课程按 CS 2013 本科课程标准挑选，分 Intro CS、Core CS、Advanced CS 和毕业项目四个阶段，每周 20 小时约 2 年可完成，材料基本全免费。",
- content:"README 即完整课程大纲和学习路径，另有 extras/（补充课程和书单）、CURRICULAR_GUIDELINES.md，配套网站 cs.ossu.dev 和进度估算电子表格。",
- stack:"文档仓库（HTML/Markdown），内容聚合自 Coursera、edX 等平台的公开课。",
- hot:"206.4k stars 的自学 CS 领域标杆 ——「免费系统自学」的需求长盛不衰，稳定涨星。"}
-];
-
-/* ---------- 应用场景（谁 —— 用它干什么） ---------- */
-const USES = {
-ossie:["数据团队 —— 统一各 BI 工具里的指标定义，告别「同指标不同口径」","AI 应用开发者 —— 让 agent 基于一致的语义层查询企业数据，减少幻觉","平台厂商 —— 用参考转换器接入 dbt / Salesforce 等生态"],
-hallmark:["独立开发者 / 小团队 —— 没有设计师，也能让 AI 生成不撞脸的官网和落地页","设计师 —— 用 hallmark study 从优秀网站提取设计 DNA 做参考","前端工程师 —— 用 audit 给存量项目打分，找出「AI 味」重灾区"],
-opencut:["自媒体创作者 —— 免费替代剪映专业版，无水印跨平台剪片","开发者 / 自动化团队 —— 通过 MCP server 让 AI agent 批量剪视频","企业 —— 基于 Editor API 和插件架构搭建内部视频流水线"],
-posthog:["产品团队 —— 一个平台替代 GA + 回放 + 实验工具的组合订阅","注重数据合规的公司 —— 自托管部署，用户数据不出机房","AI 产品团队 —— 用 LLM 可观测性追踪自家 agent 的成本与质量"],
-openinterpreter:["预算有限的开发者 —— 用 DeepSeek / Qwen 等便宜模型跑编程 agent，成本降一个量级","多工具用户 —— 一套终端切换 claude-code、kimi-cli 等不同框架","QA 团队 —— 让 agent 驱动真实浏览器做界面自动化测试"],
-"bonsai-demo":["手机 / 边缘设备开发者 —— 在 iPhone 上离线跑 27B 视觉语言模型","隐私敏感场景 —— 医疗、法律等数据不出本地的本地 AI 助手","硬件玩家 —— 在树莓派等低功耗设备上体验大模型"],
-"exercises-dataset":["健身 App 开发者 —— 直接拿 1324 个动作数据做产品，省去数月内容制作","AI 教练 / 推荐系统开发者 —— 用结构化字段训练动作推荐模型","教学演示 —— 数据集 + 可视化页面拿来就能讲课"],
-"awesome-llm-apps":["AI 入门开发者 —— 克隆单文件模板，一天跑通第一个 LLM 应用","创业团队 —— 基于成熟模板二开（旅行规划 / 金融分析 / 播客生成）快速验证 idea","企业技术选型 —— 横向对比 CrewAI / AG2 等框架的真实代码"],
-lobehub:["一人公司 / 自由职业者 —— 组建 7×24 自动干活的 agent 团队处理重复工作","运营团队 —— 定时调度 agent 做日报、巡检、内容分发","进阶玩家 —— 用 Personal Memory 和 10000+ skills 定制专属助手"],
-yimmenuv2:["GTA5 单机玩家 —— 刷车刷钱体验全部游戏内容","mod 开发者 —— 基于源码学习或二次开发游戏菜单","离线娱乐 —— 关 BattlEye 后在私人战局整活"],
-deeptutor:["学生 / 自学者 —— 把教材和论文喂进去，得到 24 小时私人家教","考研 / 考证党 —— 用刷题测验 + 掌握度路径系统备考","知识管理玩家 —— 直接挂 Obsidian 库做 RAG 问答"],
-skills:["Claude Code 用户 —— 一行命令装进项目，立刻获得 TDD / 调试 / 需求澄清工作流","团队 Lead —— 把 skill 拷进仓库，统一全组的 AI 协作方式","方法论学习者 —— 读 ADR 学「怎么写好一个 skill」"],
-"copilot-sdk":["SaaS 厂商 —— 在产品里内嵌 Copilot 级 AI 助手（IDE、低代码平台等）","企业内部工具 —— 快速给内部系统加 agent 能力，不用自研编排","多语言团队 —— JS / Python / Go / .NET / Java / Rust 任选"],
-"ui-skills":["前端开发者 —— 让 agent 按设计规范生成和改进 UI，告别「能跑但丑」","设计工程师 —— 把无障碍、metadata、动效性能检查自动化","独立开发者 —— 一人兼顾开发和设计时的品味兜底"],
-graphify:["接手中大型老项目的开发者 —— 一条命令生成知识图谱，快速搞清代码结构","AI 重度用户 —— 给 agent 换图谱上下文，替代检索不准的向量 RAG","技术文档团队 —— 把文档 / PDF / 图纸一起纳入可查询图谱"],
-"build-your-own-x":["在校生 / 转行者 —— 按「造一遍」路线真正理解数据库、操作系统原理","资深工程师 —— 面试前用手写 Git / Docker 项目补底层功底","技术布道者 —— 按分类找写作和分享素材"],
-"computer-science":["转码自学者 —— 零成本获得体系化 CS 本科教育路线","在职补基础 —— 每周 20 小时，约两年补完核心课程","培训班学员 —— 用作课外补充和毕业项目参考"]
-};
+const LANGC = {Python:"#3572A5",TypeScript:"#3178c6",JavaScript:"#d4b014",Java:"#b07219",Rust:"#c4743a",Shell:"#6a9e3f",Markdown:"#4a7ba6",CSS:"#884ea0","C++":"#f34b7d",HTML:"#e34c26",Go:"#00ADD8",Jupyter:"#DA5B0B",C:"#555555","C#":"#178600",Kotlin:"#A97BFF",Swift:"#F05138",PHP:"#4F5D95",Ruby:"#701516"};
 
 /* ---------- 状态 & 工具 ---------- */
 const $ = s => document.querySelector(s);
 const state = {cat:"all", q:"", sort:"rank"};
+let REPOS = [], USES = {}, CATS = {};
 const slug = r => r.slug.toLowerCase();
 const og = r => `https://opengraph.githubassets.com/1/${r.full}`;
 const avatar = r => `https://github.com/${r.full.split("/")[0]}.png?size=400`;
-const esc = s => s.replace(/&/g,"&amp;").replace(/</g,"&lt;");
+const esc = s => String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;");
+const langLabel = r => r.lang || L.multiLang;
+const langColor = r => r.lang ? (LANGC[r.lang]||"#888") : "#8a7f68";
 
 /* ---------- 数字滚动 ---------- */
 function countUp(el){
   const n = +el.dataset.n, suf = el.dataset.suf||"", dec = +(el.dataset.dec||0), t0 = performance.now(), dur = 1400;
   requestAnimationFrame(function f(t){ const p=Math.min(1,(t-t0)/dur), e=1-Math.pow(1-p,3);
     el.textContent = (n*e).toFixed(dec)+suf; if(p<1) requestAnimationFrame(f); });
+}
+
+/* ---------- 从 data.js 引导 ---------- */
+function bootstrap(){
+  const D = window.TRENDING_DATA;
+  if(!D || !D.repos || !D.repos.length){
+    $("#grid").innerHTML = `<div class="empty">${L.err}</div>`;
+    return;
+  }
+  Object.entries(D.cats).forEach(([k,v])=>CATS[k]={name:v[LOCALE], color:v.color});
+  REPOS = D.repos.map(r=>({
+    r:r.rank, slug:r.slug, full:r.full, cat:r.cat, lang:r.lang,
+    stars:r.stars, today:r.today, auto:!!r.auto,
+    tag:r[LOCALE].tag||"", what:r[LOCALE].what||"", content:r[LOCALE].content||"",
+    stack:r[LOCALE].stack||"", hot:r[LOCALE].hot||""
+  }));
+  USES = {}; D.repos.forEach(r=>USES[r.slug]=(r[LOCALE].uses||[]));
+  applyMeta(D.meta);
+  initStats();
+  renderDonut(); renderBars(); renderChips(); renderGrid();
+  /* 支持 #repo=xxx 直接打开弹窗（也便于自检） */
+  const m = location.hash.match(/repo=([\w-]+)/);
+  if(m) setTimeout(()=>openModal(m[1]),600);
+}
+
+function applyMeta(M){
+  const S = k => M[k+"_"+LOCALE] || "";
+  document.title = L.titleSuffix(M.date);
+  $("#kicktxt").textContent = S("kicker");
+  $("#headline").textContent = S("headline");
+  $("#sub").textContent = S("sub");
+  $("#foot1").textContent = S("footer");
+}
+
+function initStats(){
+  const total = REPOS.length;
+  const sumK = REPOS.reduce((a,r)=>a+r.stars,0);
+  const agentN = REPOS.filter(r=>r.cat==="agent").length;
+  const langs = new Set(REPOS.map(langLabel)).size;
+  const cfg = [
+    ["st1", total,     0, ""],
+    ["st2", sumK/1000, 2, "M+"],
+    ["st3", agentN,    0, " / "+total],
+    ["st4", langs,     0, L.langSuffix]
+  ];
+  cfg.forEach(([id,n,dec,suf])=>{
+    const el = document.getElementById(id);
+    el.dataset.n = n; el.dataset.dec = dec; el.dataset.suf = suf;
+    countUp(el);
+  });
 }
 
 /* ---------- 分类环形图 ---------- */
@@ -423,8 +362,8 @@ function renderBars(){
 /* ---------- 筛选 chips ---------- */
 function renderChips(){
   const counts = {all:REPOS.length}; REPOS.forEach(r=>counts[r.cat]=(counts[r.cat]||0)+1);
-  $("#chips").innerHTML = `<div class="chip on" data-c="all">全部 · ${counts.all}</div>` +
-    Object.keys(CATS).map(k=>`<div class="chip" data-c="${k}">${CATS[k].name} · ${counts[k]}</div>`).join("");
+  $("#chips").innerHTML = `<div class="chip on" data-c="all">${L.all(counts.all)}</div>` +
+    Object.keys(CATS).map(k=>`<div class="chip" data-c="${k}">${CATS[k].name} · ${counts[k]||0}</div>`).join("");
   document.querySelectorAll(".chip").forEach(c=>c.onclick=()=>{
     document.querySelectorAll(".chip").forEach(x=>x.classList.remove("on"));
     c.classList.add("on"); state.cat=c.dataset.c; renderGrid();
@@ -436,7 +375,7 @@ let io;
 function renderGrid(){
   let list = REPOS.filter(r =>
     (state.cat==="all"||r.cat===state.cat) &&
-    (!state.q || (r.full+r.tag+r.what+r.lang).toLowerCase().includes(state.q)));
+    (!state.q || (r.full+r.tag+r.what+(r.lang||"")).toLowerCase().includes(state.q)));
   if(state.sort==="rank") list.sort((a,b)=>a.r-b.r);
   else if(state.sort==="stars-desc") list.sort((a,b)=>b.stars-a.stars);
   else if(state.sort==="stars-asc") list.sort((a,b)=>a.stars-b.stars);
@@ -452,14 +391,14 @@ function renderGrid(){
         <h4><span class="rank">#${r.r}</span> ${esc(r.full)} <span class="arrow">→</span></h4>
         <p class="tag">${esc(r.tag)}</p>
         <div class="meta">
-          <span class="ldot"><i style="background:${LANGC[r.lang]||'#888'}"></i>${r.lang}</span>
+          <span class="ldot"><i style="background:${langColor(r)}"></i>${langLabel(r)}</span>
           <span class="stars">★ ${r.stars}k</span>
-          <span class="today">今日 ${r.today}</span>
+          <span class="today">${L.today(r.today)}</span>
           <span class="catpill" style="color:${CATS[r.cat].color};border-color:${CATS[r.cat].color}55;background:${CATS[r.cat].color}0e">${CATS[r.cat].name}</span>
         </div>
       </div>
     </article>`).join("")
-    : `<div class="empty">没有匹配的项目，换个关键词试试？</div>`;
+    : `<div class="empty">${L.empty}</div>`;
   if(io) io.disconnect();
   io = new IntersectionObserver(es=>es.forEach(e=>{
     if(e.isIntersecting){ e.target.classList.add("show"); io.unobserve(e.target); }
@@ -475,6 +414,12 @@ function renderGrid(){
 /* ---------- 弹窗 ---------- */
 function openModal(s){
   const r = REPOS.find(x=>slug(x)===s.toLowerCase()); if(!r) return;
+  const sec = (h,t) => t ? `<div class="sec"><h5>${h}</h5><p>${esc(t)}</p></div>` : "";
+  const uses = USES[r.slug] || [];
+  const usesSec = uses.length
+    ? `<div class="sec"><h5>${L.secs.uses}</h5><ul class="uses">${uses.map(u=>`<li>${esc(u)}</li>`).join("")}</ul></div>` : "";
+  const autoTag = r.auto
+    ? `<span class="m-tag" style="color:var(--acc3);border-color:#b07a1e55;background:#b07a1e0e">${L.autoTag}</span>` : "";
   $("#modal").innerHTML = `
     <div class="m-hero">
       <button class="m-close" id="mclose" aria-label="关闭">✕</button>
@@ -482,21 +427,22 @@ function openModal(s){
     </div>
     <div class="m-body">
       <h2>${esc(r.full)}</h2>
-      <div class="m-sub">Trending 排名 #${r.r} · ${esc(r.tag)}</div>
+      <div class="m-sub">${L.rankSub(r.r)} · ${esc(r.tag)}</div>
       <div class="m-tags">
         <span class="m-tag hl">★ ${r.stars}k stars</span>
-        <span class="m-tag hl2">今日 ${r.today}</span>
+        <span class="m-tag hl2">${L.today(r.today)}</span>
         <span class="m-tag" style="color:${CATS[r.cat].color};border-color:${CATS[r.cat].color}55;background:${CATS[r.cat].color}0e">${CATS[r.cat].name}</span>
-        <span class="m-tag">${r.lang}</span>
+        <span class="m-tag">${langLabel(r)}</span>
+        ${autoTag}
       </div>
-      <div class="sec"><h5>◆ 是做什么的</h5><p>${esc(r.what)}</p></div>
-      <div class="sec"><h5>◆ 仓库里有什么</h5><p>${esc(r.content)}</p></div>
-      <div class="sec"><h5>◆ 技术栈</h5><p>${esc(r.stack)}</p></div>
-      <div class="sec"><h5>◆ 应用场景</h5><ul class="uses">${USES[r.slug].map(u=>`<li>${esc(u)}</li>`).join("")}</ul></div>
-      <div class="sec"><h5>◆ 为什么火</h5><p>${esc(r.hot)}</p></div>
+      ${sec(L.secs.what, r.what)}
+      ${sec(L.secs.content, r.content)}
+      ${sec(L.secs.stack, r.stack)}
+      ${usesSec}
+      ${sec(L.secs.hot, r.hot)}
       <div class="m-foot">
-        <a class="btn pri" href="https://github.com/${r.full}" target="_blank" rel="noopener">在 GitHub 打开 ↗</a>
-        <a class="btn sec2" href="#" id="mback">返回列表</a>
+        <a class="btn pri" href="https://github.com/${r.full}" target="_blank" rel="noopener">${L.openBtn}</a>
+        <a class="btn sec2" href="#" id="mback">${L.backBtn}</a>
       </div>
     </div>`;
   $("#overlay").classList.add("open");
@@ -522,11 +468,7 @@ $("#q").addEventListener("input",e=>{
 $("#sort").addEventListener("change",e=>{ state.sort=e.target.value; renderGrid(); });
 
 /* ---------- 初始化 ---------- */
-document.querySelectorAll("#stats .num").forEach(countUp);
-renderDonut(); renderBars(); renderChips(); renderGrid();
-/* 支持 #repo=xxx 直接打开弹窗（也便于自检） */
-const m = location.hash.match(/repo=([\w-]+)/);
-if(m) setTimeout(()=>openModal(m[1]),600);
+bootstrap();
 </script>
 </body>
 </html>

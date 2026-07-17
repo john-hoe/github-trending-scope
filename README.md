@@ -38,17 +38,34 @@ open index.html      # 中文版
 open index-en.html   # English version
 ```
 
+## 每日自动更新 / Daily auto-update
+
+榜单数据由 **GitHub Actions 每天自动刷新**（北京时间约 08:23，见 `.github/workflows/daily-update.yml`）：
+
+The trending data is refreshed daily by GitHub Actions (~08:23 Beijing time):
+
+- `scripts/update.py` 直连 `github.com/trending` 抓取当日榜单，刷新 `data.json` + `data.js`
+- 仍在榜的仓库**保留人工深度解析**，只更新排名与 star 数；新上榜仓库自动生成带 ⚡ 标记的摘要，人工精评随后补充
+- Repos that stay on the chart keep their human-written deep dives (only rank/stars update); new entries get an auto summary flagged ⚡ pending a human write-up
+- 手动更新 / Manual refresh: `python3 scripts/update.py`（纯标准库，无依赖 / stdlib only）
+- 改进方向见 / See `docs/improvement-roadmap.md`
+
 ## 数据说明 / Data notes
 
-- 数据核验于 **2026-07-17 02:10 (CST)**，由本机网络直连 `github.com/trending` 抓取（Repositories · Today · All languages · 未登录口径）。
+- 当前数据时间见页脚与 `data.json` 的 `meta.generated_at`，口径为 `github.com/trending`（Repositories · Today · All languages · 未登录）。
 - 登录 GitHub 账号或切换语言/时间筛选，看到的榜单可能不同。
-- Data verified **2026-07-17 02:10 (CST)**, fetched directly from `github.com/trending` (Repositories · Today · All languages · logged out). Signed-in users or other filters may see a different list.
+- Data timestamp: see the page footer or `meta.generated_at` in `data.json` (Repositories · Today · All languages · logged out). Signed-in users or other filters may see a different list.
 
 ## 仓库结构 / Structure
 
 ```
-├── index.html        # 中文版页面（单文件，含全部样式与脚本）
-├── index-en.html     # English page (single file, styles + scripts inline)
+├── index.html        # 中文版页面（样式+渲染逻辑，数据来自 data.js）
+├── index-en.html     # English page (styles + rendering, data from data.js)
+├── data.json         # 双语数据源（canonical dataset, zh + en）
+├── data.js           # data.json 的页面加载包装（window.TRENDING_DATA，自动生成）
+├── scripts/update.py # 每日抓取更新脚本（stdlib only）
+├── .github/workflows/daily-update.yml  # GitHub Actions 每日自动更新
+├── docs/improvement-roadmap.md         # 改进路线
 ├── videos/           # 45s 宣传视频（中文 promo-zh.mp4 / English promo-en.mp4）
 ├── preview-zh.png    # 中文版整页预览
 ├── preview-en.png    # English full-page preview

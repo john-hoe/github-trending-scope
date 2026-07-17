@@ -1,0 +1,38 @@
+name: Daily trending update
+
+# 每天 00:23 UTC（北京时间 08:23）自动抓取 github.com/trending 并刷新 data.json / data.js。
+# 数据无变化时不产生提交；推送后 GitHub Pages 自动重新发布。
+# 也可在 Actions 页面手动触发（workflow_dispatch）。
+
+on:
+  schedule:
+    - cron: "23 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch trending and refresh data
+        run: python3 scripts/update.py
+
+      - name: Commit data if changed
+        run: |
+          git config user.name "trending-scope-bot"
+          git config user.email "trending-scope-bot@users.noreply.github.com"
+          git add data.json data.js
+          if git diff --staged --quiet; then
+            echo "No data changes — nothing to commit."
+          else
+            git commit -m "chore(data): daily trending update $(date -u +%Y-%m-%d)"
+            git push
+          fi

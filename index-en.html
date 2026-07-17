@@ -183,16 +183,16 @@
 </header>
 
 <section class="hero">
-  <span class="kicker"><span class="pulse"></span>Fetched directly from github.com · 2026-07-17 · Daily · All languages · 17 repos</span>
-  <h1>Today's GitHub Trending<br><span class="grad">Agent Skills packs storm the chart</span></h1>
-  <p class="sub">7 of the 17 trending repos are agent tooling — and 5 of those are "give your AI a skill" packs, from anti-slop design (hallmark) to knowledge-graph context (graphify). Evergreen giants build-your-own-x (526k stars) and OSSU hold their ground. Click any card for a deep dive.</p>
+  <span class="kicker"><span class="pulse"></span><span id="kicktxt">Loading data…</span></span>
+  <h1>Today's GitHub Trending<br><span class="grad" id="headline"></span></h1>
+  <p class="sub" id="sub"></p>
 </section>
 
 <section class="stats" id="stats">
-  <div class="stat"><div class="num" data-n="17" data-suf="">0</div><div class="lbl">Trending repos</div></div>
-  <div class="stat"><div class="num" data-n="1.44" data-dec="2" data-suf="M+">0</div><div class="lbl">Combined stars</div></div>
-  <div class="stat"><div class="num" data-n="7" data-suf=" / 17">0</div><div class="lbl">Agent tooling share</div></div>
-  <div class="stat"><div class="num" data-n="9" data-suf="">0</div><div class="lbl">Languages covered</div></div>
+  <div class="stat"><div class="num" id="st1">0</div><div class="lbl">Trending repos</div></div>
+  <div class="stat"><div class="num" id="st2">0</div><div class="lbl">Combined stars</div></div>
+  <div class="stat"><div class="num" id="st3">0</div><div class="lbl">Agent tooling share</div></div>
+  <div class="stat"><div class="num" id="st4">0</div><div class="lbl">Languages covered</div></div>
 </section>
 
 <section class="insight">
@@ -230,159 +230,98 @@
 </div>
 
 <footer>
-  Trending Scope · Data verified 2026-07-17 02:10 (CST), fetched directly from github.com on this machine<br>
+  <span id="foot1">Trending Scope</span><br>
   Basis: Repositories · Today · All languages · logged out — sign-in or other language/date filters may show a different list<br>
   For reference only · click any card for a deep dive
 </footer>
 
+<script src="data.js"></script>
 <script>
-const CATS = {
-  agent:{name:"Agent Tooling", color:"#cf4a1f"},
-  ai:{name:"AI Apps & Models", color:"#0e6f63"},
-  infra:{name:"Platforms, Data & Apps", color:"#b07a1e"},
-  other:{name:"Learning & Gaming", color:"#5a7a3a"}
+/* ---------- Locale UI strings ---------- */
+const LOCALE = "en";
+const L = {
+  multiLang: "Multi-lang",
+  today: t => `${t} today`,
+  all: n => `All · ${n}`,
+  empty: "No matches — try another keyword.",
+  err: "Failed to load data: make sure data.js sits next to this page.",
+  rankSub: r => `Trending rank #${r}`,
+  autoTag: "⚡ Auto summary",
+  secs: {what:"◆ WHAT IT DOES", content:"◆ WHAT'S INSIDE", stack:"◆ TECH STACK", uses:"◆ USE CASES", hot:"◆ WHY IT'S HOT"},
+  openBtn: "Open on GitHub ↗",
+  backBtn: "Back to list",
+  titleSuffix: d => `GitHub Trending Scope · ${d}`,
+  langSuffix: ""
 };
-const LANGC = {Python:"#3572A5",TypeScript:"#3178c6",JavaScript:"#d4b014",Java:"#b07219",Rust:"#c4743a",Shell:"#6a9e3f",Markdown:"#4a7ba6",CSS:"#884ea0","C++":"#f34b7d",HTML:"#e34c26","Multi-lang":"#8a7f68"};
 
-const REPOS = [
-{r:1,slug:"ossie",full:"apache/ossie",cat:"infra",lang:"Python",stars:0.8,today:"+81",
- tag:"Apache-incubated semantic interchange spec — one metric language for BI & AI",
- what:"An industry-wide open specification (formerly Open Semantic Interchange / OSI, now an Apache incubator project) standardizing how semantic metadata is exchanged across analytics, AI and BI platforms. One JSON/YAML spec defines KPIs, metrics and business logic consistently — ending the classic 'same metric, different definition in every tool' problem, so AI agents can reason over consistent business semantics.",
- content:"Mostly spec documents: core-spec/ (spec.md, spec.yaml, osi-schema.json), converters/ (reference converters for dbt, GoodData, Polaris, Salesforce formats), examples/ (including a full TPC-DS sample model) and validation/ (schema tooling).",
- stack:"Python as the main language; the spec itself is JSON Schema + YAML; Apache-2.0, going through the Apache incubation process.",
- hot:"'AI agents consuming enterprise data semantics' made the semantic layer a hot topic; the project just moved into Apache incubation and is committing at high frequency — peak visibility during spec formation."},
-{r:2,slug:"hallmark",full:"Nutlope/hallmark",cat:"agent",lang:"CSS",stars:10.5,today:"+3.2k",
- tag:"The anti-'AI-slop' design skill — AI-built UIs that don't look like templates",
- what:"A design skill pack from Together AI: once installed in Claude Code, Cursor or Codex, your agent picks a macro-structure from 20 themes when generating web UIs, then runs 57 'anti-slop' checks plus self-critique — rejecting the default LLM look of identical gradient cards. Four verbs: generate, hallmark audit (score existing code), hallmark redesign (rewrite with a new structure), hallmark study (extract design DNA from a screenshot or URL).",
- content:"The core is SKILL.md plus rule files under skills/hallmark/ and references/; docs/ holds recipes and examples; site/ contains the homepage and many self-contained HTML+CSS example pages (which is why the language stat reads CSS).",
- stack:"A Markdown-rules skill pack (Agent Skills compliant) with pure HTML/CSS examples; MIT, zero runtime dependencies; install via npx skills add nutlope/hallmark.",
- hot:"+3.2k stars today and going viral — 'AI-generated websites all look the same' is a universal pain point, the anti-slop positioning hits it precisely, and the live demo makes trying it frictionless."},
-{r:3,slug:"opencut",full:"OpenCut-app/OpenCut",cat:"infra",lang:"TypeScript",stars:73.8,today:"+3.3k",
- tag:"The open-source CapCut alternative — free, cross-platform video editing",
- what:"A free, open-source video editor rivaling CapCut, targeting web, desktop and mobile. The project is being rewritten from scratch: an Editor API, plugin-first architecture, a Rust core (one codebase for desktop/mobile/browser), an MCP server so AI agents can edit video, a headless mode for automated batch rendering, and built-in editor scripting. Legacy code lives on in opencut-classic.",
- content:"A monorepo: apps/web, apps/desktop and apps/api, with a root Cargo.toml for the Rust core; toolchain managed by moonrepo + proto — `moon run web:dev` starts local dev.",
- stack:"TypeScript (web frontend) + Rust core, Bun for packages, MIT; external code contributions are paused during the rewrite.",
- hot:"+3.3k today, the hottest riser on the list — 'open-source CapCut' is a massive latent demand (73.8k stars banked), and the Rust rewrite plus 'let AI edit your video' MCP narrative pushed it further."},
-{r:4,slug:"posthog",full:"PostHog/posthog",cat:"infra",lang:"Python",stars:35.8,today:"+146",
- tag:"The open-source all-in-one product data platform",
- what:"The well-known open-source product data platform: product analytics, web analytics, session replay, feature flags, A/B experiments, error tracking, logs, surveys, a data warehouse, CDP pipelines and LLM observability in one system. Its latest positioning is 'self-driving products': product signals like errors and rage clicks are automatically turned into analysis reports and PRs for you to review and merge — operable from Slack, web, desktop or MCP, and self-hostable via Docker.",
- content:"A huge monorepo: posthog/ (Django backend), frontend/, products/ (each product line), rust/, services/, ee/ (enterprise code, separately licensed), lots of docker-compose files and SDKs for every platform.",
- stack:"Python/Django + TypeScript/React + Rust services over ClickHouse; MIT (except ee/).",
- hot:"A mature 35.8k-star project still committing daily; it recently repositioned its whole product line around an agent-facing 'self-driving' narrative and is riding the AI ecosystem wave."},
-{r:5,slug:"openinterpreter",full:"openinterpreter/openinterpreter",cat:"agent",lang:"Rust",stars:65.9,today:"+633",
- tag:"A coding agent in your terminal, tuned for low-cost models",
- what:"An AI coding assistant in your terminal (a fork of OpenAI Codex) built on the idea of 'swap the harness, not the model': it bundles multiple agent runtimes — claude-code, kimi-cli, qwen-code, deepseek-tui — so cheap open models still perform well. It ships a QA skill that drives real browsers or native apps for UI testing, with native sandboxing on macOS/Linux/Windows.",
- content:"A full Rust project: the terminal TUI, a docs site (openinterpreter.com/docs) and install scripts; config and sessions live in ~/.openinterpreter, with /model to switch models, /harness to switch runtimes, plus MCP, hooks and AGENTS.md support.",
- stack:"Rust (a 2023 veteran, freshly rewritten from Python), Apache-2.0; supports ACP (Agent Client Protocol) for editors and multiple model providers.",
- hot:"An old tree blooming again: the Rust rewrite and its new role as 'a harness for low-cost models' — still committing today — landed right on the 'cheap models + coding agents' wave."},
-{r:6,slug:"bonsai-demo",full:"PrismML-Eng/Bonsai-demo",cat:"ai",lang:"Shell",stars:1.5,today:"+323",
- tag:"Local-run demo of Bonsai, the 1-bit / ternary ultra-compressed LLMs",
- what:"The official demo repo for PrismML's Bonsai model family, built around extreme quantization: the 1-bit version uses ~1.125 bits per weight so a 27B model fits a modern iPhone; the ternary version (~1.7 bits) is the higher-quality default. The newest 27B is a vision-language model with image input, tool calling, MCP, 256k+ context and adjustable reasoning effort.",
- content:"A pure Shell project: setup.sh / setup.ps1 one-liners install dependencies and pull models, scripts/ holds run/download scripts, plus three whitepaper PDFs, an AGENTS.md (a config guide written for AI agents), topical docs (VISION/TOOLS/…) and community benchmarks.",
- stack:"Shell + a llama.cpp server, models hosted on HuggingFace; runs on Mac Metal, CUDA/Vulkan/ROCm or plain CPU; Apache-2.0.",
- hot:"The family's biggest model — its first vision-language release, Bonsai 27B — dropped yesterday; 'a 27B model running on an iPhone' plus batteries-included scripts travels far."},
-{r:7,slug:"exercises-dataset",full:"hasaneyldrm/exercises-dataset",cat:"infra",lang:"HTML",stars:14.9,today:"+697",
- tag:"1,324-exercise fitness dataset with animated GIFs in 10 languages",
- what:"A ready-to-use fitness exercise dataset: 1,324 exercises, each with an animated GIF, a 180×180 thumbnail, structured fields (target muscles / equipment / category) and step-by-step instructions in 10 languages including Chinese. Positioned as 'the data layer for fitness apps' — the author built the LogPress workout-tracking app on top of it. Great for fitness apps, exercise-recommendation ML projects or teaching demos.",
- content:"data/exercises.json (structured data) + videos/ (1,324 GIFs) + images/ (thumbnails), plus an interactive index.html browser and a setup.html developer onboarding guide.",
- stack:"A pure data repo: JSON + GIFs + static HTML, no runtime. Note: code is MIT, but the GIF media is copyrighted by Gym visual — check before commercial use.",
- hot:"Fitness datasets are scarce, and ones with clean animated GIFs and multilingual instructions are scarcer — developers building fitness apps or AI coaches can use it as-is."},
-{r:8,slug:"awesome-llm-apps",full:"Shubhamsaboo/awesome-llm-apps",cat:"ai",lang:"Python",stars:122.7,today:"+935",
- tag:"100+ AI Agent & RAG apps you can actually run",
- what:"A giant library of LLM app templates: 100+ hand-built, end-to-end-tested AI agents, agent skills and RAG apps, all Apache-2.0 (commercial use OK). Works with Claude, Gemini, GPT, DeepSeek, Llama, Qwen and more — clone, install deps, run. The motto: 'clone, customize, ship'.",
- content:"Organized by difficulty and form: agent_skills/ (one-line npx installs), starter_ai_agents/ (single-file starters), advanced_ai_agents/ (multi-agent teams), voice_ai_agents/, always_on_agents/, RAG tutorials and more; each template ships a README and requirements, covering travel planning, financial analysis, podcast generation, home renovation…",
- stack:"Mostly Python, usually a Streamlit frontend over OpenAI/Gemini/Anthropic SDKs, some CrewAI/AG2 multi-agent frameworks.",
- hot:"A 122.7k-star giant that keeps growing: it recently bet on the agent-skills form factor, ships new templates weekly, and funnels readers from the Unwind AI tutorials."},
-{r:9,slug:"lobehub",full:"lobehub/lobehub",cat:"agent",lang:"TypeScript",stars:80.1,today:"+51",
- tag:"Your 'Chief Agent Operator' — an AI team working 7×24",
- what:"Positioned as a 'Chief Agent Operator': hire, schedule and hear reports from multiple AI agents as work units. Key features: Agent Builder (describe the need, get a configured agent), Agent Groups (parallel multi-agent collaboration), Pages/Schedule/Project/Workspace panels, and a white-box editable Personal Memory; any model and modality, with a claimed 10,000+ skills and MCP plugin ecosystem.",
- content:"A self-deployable web app (one-click Vercel/Docker/Zeabur/Sealos), with full bilingual docs, a changelog, the plugin system and local dev guides; default branch canary, still pushing frequently today.",
- stack:"TypeScript + Next.js, self-hosted via Docker, plugins over MCP; custom (non-standard) license.",
- hot:"Steady heat for an 80.1k veteran: it's now betting on the 'multi-agent scheduling + IM Gateway' narrative and stays in the spotlight."},
-{r:10,slug:"yimmenuv2",full:"YimMenu/YimMenuV2",cat:"other",lang:"C++",stars:1.5,today:"+122",
- tag:"The open-source mod menu DLL for GTA 5: Enhanced",
- what:"An experimental mod menu for GTA 5: Enhanced: compile to a DLL, inject at the main menu with an injector like Xenos, then press INSERT or Ctrl+\\ to open. Pairing with FSL (redirecting save data to local disk) is recommended to protect your account, and BattlEye anti-cheat must be disabled (there's no BE bypass — public sessions will kick you via heartbeat checks).",
- content:"C++ source plus a short README covering the workflow (FSL → nightly release → injector → disable BattlEye → inject) and fixes for common issues (disconnects, missing saves, game won't launch).",
- stack:"C++, a DLL-injection single/multiplayer mod menu relying on external injectors and FSL; GPL-2.0; default branch enhanced.",
- hot:"A must-have in the GTA5 Enhanced modding scene — the YimMenu line is the most established of these open menus, still updated on July 12."},
-{r:11,slug:"deeptutor",full:"HKUDS/DeepTutor",cat:"ai",lang:"Python",stars:26.8,today:"+647",
- tag:"An AI personal tutor from HKU: a lifelong, personalized learning workspace",
- what:"An 'agent-native' learning platform from HKU's HKUDS lab: chat tutoring, quizzes, deep research, visualization, problem solving and Mastery-Path practice all run on one agent loop. It supports multi-engine RAG knowledge bases (LlamaIndex, PageIndex, GraphRAG, LightRAG — even your Obsidian vault), lets you call Claude Code / Codex sub-agents from any conversation, and ships three-layer inspectable memory (L1 trace / L2 summary / L3 synthesis) with a Memory Graph for provenance.",
- content:"A full web app (Python backend + Next.js 16 frontend) with READMEs in 11 languages, Docker deployment, CLI/agent-native interfaces and the EduHub community skills ecosystem; releases ship very frequently.",
- stack:"Python 3.11+ + Next.js 16, multi-engine RAG + MCP tools + FAISS; Apache-2.0; created late December 2025 with an arXiv paper behind it.",
- hot:"26.8k stars in just over half a year — riding both 'AI education' and 'agent-native' trends, with a university lab's credibility and a relentless release cadence."},
-{r:12,slug:"skills",full:"mattpocock/skills",cat:"agent",lang:"Shell",stars:173.9,today:"+2.1k",
- tag:"TypeScript celebrity Matt Pocock's own Claude skill pack",
- what:"Matt Pocock (author of Total TypeScript) open-sourced the agent skills he actually uses from his .claude directory — 'real engineering, not vibe coding'. Each skill fixes one concrete failure mode: /grill-me and /grill-with-docs make the agent interrogate requirements first, /tdd enforces red-green-refactor, /diagnosing-bugs runs a debug loop, plus /triage, /to-spec, /to-tickets, /code-review and more. The philosophy: small, composable, model-agnostic — control stays with the human.",
- content:"Markdown skill files under skills/ (engineering / productivity / misc — 18 in engineering alone) plus ADR docs and install scripts; install via npx skills add (copy into your project, edit freely) or as a Claude Code plugin subscription; works with any Agent-Skills-compliant harness.",
- stack:"Markdown skills + Shell installers, MIT; distributed via the Claude Code plugin marketplace and the skills.sh ecosystem.",
- hot:"Created February 2026 and already at 173.9k stars — the author's reach plus the 'skills replace heavy process frameworks' narrative, right on the skills-ecosystem explosion."},
-{r:13,slug:"copilot-sdk",full:"github/copilot-sdk",cat:"agent",lang:"Multi-lang",stars:9.6,today:"+62",
- tag:"GitHub's official SDK for embedding the Copilot agent in your own apps",
- what:"GitHub's official multi-language SDK: call the Copilot Agent's capabilities directly from your own apps and services. It exposes the same production-proven agent runtime behind the Copilot CLI — no need to build your own orchestration layer: define the agent's behavior and let Copilot handle planning, tool calls and file edits.",
- content:"Six SDKs in one repo, by directory: nodejs/, python/, go/, dotnet/, java/, rust/, plus docs/, test/ and cookbook examples; distributed via npm / PyPI / NuGet / Maven Central / crates.io.",
- stack:"A multi-language monorepo (TS/Python/Go/.NET/Java/Rust), MIT; created January 2026, committing very actively.",
- hot:"'Copilot agent capabilities opened to third-party apps' draws attention by itself — with GitHub's official stamp on it."},
-{r:14,slug:"ui-skills",full:"ibelick/ui-skills",cat:"agent",lang:"TypeScript",stars:4.1,today:"+141",
- tag:"A set of UI Agent Skills for design engineers",
- what:"A UI skill-pack collection from well-known design engineer ibelick: routes your AI coding agent through the right UI skill workflow per task — run npx ui-skills start and the agent picks the appropriate skill set.",
- content:"Six skills under skills/: baseline-ui, improve-ui, fixing-accessibility, fixing-metadata, fixing-motion-performance and ui-skills-root; plus bin/ (the CLI entry) and the companion site (Astro on Cloudflare Workers).",
- stack:"TypeScript, CLI distributed via npx, MIT; created January 2026, site at ui-skills.com.",
- hot:"The author is a known figure in the design-engineer scene, and 'installing design taste into AI agents' is a hot direction right now."},
-{r:15,slug:"graphify",full:"Graphify-Labs/graphify",cat:"agent",lang:"Python",stars:88.7,today:"+1.1k",
- tag:"An AI skill that turns a whole project folder into a queryable knowledge graph",
- what:"A skill for Claude Code, Codex, OpenCode, Cursor, Gemini CLI and more: type /graphify and your entire project — code, SQL schemas, docs, PDFs, images, videos — is mapped into a queryable knowledge graph, replacing grep-and-scroll. Code parsing uses tree-sitter AST: deterministic, no LLM, fully local; only document content goes through a model. Not a vector index — a real graph, with every edge labeled EXTRACTED (read directly) or INFERRED.",
- content:"Distributed as a CLI (PyPI package graphifyy, install via uv tool install or pipx); the repo holds docs/ (README translations in 30+ languages) and interactive graph.html visualizations; default branch v8, iterating fast.",
- stack:"Python + tree-sitter, outputting force-directed HTML graphs; hooks into each CLI assistant as a skill.",
- hot:"Sports a YC S26 badge — 'knowledge graphs instead of vector search for agent context' lands right on the RAG anxiety, and 88.7k total stars say it's broken out."},
-{r:16,slug:"build-your-own-x",full:"codecrafters-io/build-your-own-x",cat:"other",lang:"Markdown",stars:526.1,today:"+549",
- tag:"The giant collection of 'rebuild your favorite tech from scratch' tutorials",
- what:"CodeCrafters' famous tutorial index, founded on Feynman's 'What I cannot create, I do not understand'. It collects step-by-step 'build your own X' tutorial links across ~30 categories: databases, operating systems, Git, Docker, programming languages, neural networks, web browsers and more.",
- content:"Essentially one huge README list organized by 'Build your own X' categories, each entry tagged with its language and link (e.g. write an LLM in Python, a raytracer in C++); no code of its own.",
- stack:"Pure Markdown; the tutorials themselves span C/C++/Python/Go/Rust and more.",
- hot:"A 526.1k-star legend — one of the most-starred repos on all of GitHub; in the AI era, 'build it once to understand it' is more valuable than ever."},
-{r:17,slug:"computer-science",full:"ossu/computer-science",cat:"other",lang:"HTML",stars:206.4,today:"+125",
- tag:"A complete CS undergrad education from free online courses",
- what:"The Open Source Society University's computer-science curriculum: a full CS undergrad education assembled from free online materials (largely Harvard, MIT and Princeton courses). Courses are chosen per the CS 2013 curricular standard across four stages — Intro CS, Core CS, Advanced CS and a final project; at ~20 hours a week it takes about 2 years, and the materials are almost entirely free.",
- content:"The README is the complete syllabus and learning path; extras/ holds additional courses and reading lists, plus CURRICULAR_GUIDELINES.md, the cs.ossu.dev site and a progress-estimating spreadsheet.",
- stack:"A documentation repo (HTML/Markdown) aggregating courses from Coursera, edX and similar platforms.",
- hot:"The 206.4k-star benchmark for self-taught CS — demand for 'a free, systematic way to learn' never fades."}
-];
-
-/* ---------- Use cases (who — does what with it) ---------- */
-const USES = {
-ossie:["Data teams — unify metric definitions across BI tools, ending 'same metric, different numbers'","AI app builders — let agents query enterprise data over a consistent semantic layer, cutting hallucinations","Platform vendors — plug into the dbt / Salesforce ecosystems with the reference converters"],
-hallmark:["Indie devs & small teams — generate distinctive sites and landing pages without a designer","Designers — extract design DNA from great sites with hallmark study","Frontend engineers — audit existing projects to find the worst 'AI-slop' offenders"],
-opencut:["Content creators — a free, watermark-free CapCut Pro alternative across platforms","Dev & automation teams — batch-edit video via AI agents over the MCP server","Companies — build internal video pipelines on the Editor API and plugin architecture"],
-posthog:["Product teams — replace the GA + replay + experimentation stack with one platform","Compliance-sensitive companies — self-host so user data never leaves your infra","AI product teams — track your agents' cost and quality with LLM observability"],
-openinterpreter:["Budget-conscious devs — run coding agents on cheap models like DeepSeek / Qwen, an order of magnitude cheaper","Multi-tool users — swap between claude-code, kimi-cli and other harnesses in one terminal","QA teams — let agents drive real browsers for UI automation testing"],
-"bonsai-demo":["Mobile / edge developers — run a 27B vision-language model offline on an iPhone","Privacy-sensitive settings — local AI assistants for medical or legal data that can't leave the device","Hardware tinkerers — run LLMs on low-power boards like a Raspberry Pi"],
-"exercises-dataset":["Fitness app developers — ship faster with 1,324 ready-made exercises, skipping months of content production","AI coach / recommendation builders — train exercise recommenders on the structured fields","Educators — the dataset plus its visual browser is demo-ready"],
-"awesome-llm-apps":["AI beginners — clone a single-file template and ship your first LLM app in a day","Startup teams — fork mature templates (travel planning, finance analysis, podcast generation) to validate ideas fast","Enterprise evaluators — compare CrewAI / AG2 and other frameworks on real code"],
-lobehub:["Solo founders & freelancers — run a 7×24 agent team for repetitive work","Ops teams — schedule agents for daily reports, patrols and content distribution","Power users — craft custom assistants with Personal Memory and 10,000+ skills"],
-yimmenuv2:["GTA5 single-player fans — unlock vehicles and cash to experience all content","mod developers — learn from or fork the source for custom game menus","Offline fun — mess around in private sessions with BattlEye off"],
-deeptutor:["Students & self-learners — feed in textbooks and papers, get a 24/7 personal tutor","Exam candidates — prepare systematically with quizzes and the mastery path","PKM enthusiasts — plug your Obsidian vault straight in for RAG Q&A"],
-skills:["Claude Code users — one command adds TDD / debugging / requirements-clarification workflows","Team leads — commit skills into the repo to standardize how the team works with AI","Methodology learners — read the ADRs to learn how to write a good skill"],
-"copilot-sdk":["SaaS vendors — embed Copilot-grade AI assistance into products (IDEs, low-code platforms)","Internal tooling — add agent capabilities to internal systems without building orchestration","Polyglot teams — pick from JS / Python / Go / .NET / Java / Rust"],
-"ui-skills":["Frontend developers — let agents generate and improve UI to design standards, no more 'works but ugly'","Design engineers — automate accessibility, metadata and motion-performance checks","Indie hackers — a taste safety net when you cover both dev and design"],
-graphify:["Developers inheriting large legacy projects — one command maps the codebase into a knowledge graph","Heavy AI users — swap vector RAG for graph context that retrieves the right thing","Docs teams — fold docs, PDFs and diagrams into one queryable graph"],
-"build-your-own-x":["Students & career switchers — truly understand databases and OS internals by building them","Senior engineers — shore up fundamentals before interviews by hand-rolling Git / Docker","Tech writers — find writing and talk material by category"],
-"computer-science":["Self-taught switchers — a structured CS undergrad path at zero cost","Working professionals — finish the core courses in ~2 years at 20 hrs/week","Bootcamp students — use it as a supplement and final-project reference"]
-};
+const LANGC = {Python:"#3572A5",TypeScript:"#3178c6",JavaScript:"#d4b014",Java:"#b07219",Rust:"#c4743a",Shell:"#6a9e3f",Markdown:"#4a7ba6",CSS:"#884ea0","C++":"#f34b7d",HTML:"#e34c26",Go:"#00ADD8",Jupyter:"#DA5B0B",C:"#555555","C#":"#178600",Kotlin:"#A97BFF",Swift:"#F05138",PHP:"#4F5D95",Ruby:"#701516"};
 
 /* ---------- State & helpers ---------- */
 const $ = s => document.querySelector(s);
 const state = {cat:"all", q:"", sort:"rank"};
+let REPOS = [], USES = {}, CATS = {};
 const slug = r => r.slug.toLowerCase();
 const og = r => `https://opengraph.githubassets.com/1/${r.full}`;
 const avatar = r => `https://github.com/${r.full.split("/")[0]}.png?size=400`;
-const esc = s => s.replace(/&/g,"&amp;").replace(/</g,"&lt;");
+const esc = s => String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;");
+const langLabel = r => r.lang || L.multiLang;
+const langColor = r => r.lang ? (LANGC[r.lang]||"#888") : "#8a7f68";
 
 /* ---------- Count-up ---------- */
 function countUp(el){
   const n = +el.dataset.n, suf = el.dataset.suf||"", dec = +(el.dataset.dec||0), t0 = performance.now(), dur = 1400;
   requestAnimationFrame(function f(t){ const p=Math.min(1,(t-t0)/dur), e=1-Math.pow(1-p,3);
     el.textContent = (n*e).toFixed(dec)+suf; if(p<1) requestAnimationFrame(f); });
+}
+
+/* ---------- Bootstrap from data.js ---------- */
+function bootstrap(){
+  const D = window.TRENDING_DATA;
+  if(!D || !D.repos || !D.repos.length){
+    $("#grid").innerHTML = `<div class="empty">${L.err}</div>`;
+    return;
+  }
+  Object.entries(D.cats).forEach(([k,v])=>CATS[k]={name:v[LOCALE], color:v.color});
+  REPOS = D.repos.map(r=>({
+    r:r.rank, slug:r.slug, full:r.full, cat:r.cat, lang:r.lang,
+    stars:r.stars, today:r.today, auto:!!r.auto,
+    tag:r[LOCALE].tag||"", what:r[LOCALE].what||"", content:r[LOCALE].content||"",
+    stack:r[LOCALE].stack||"", hot:r[LOCALE].hot||""
+  }));
+  USES = {}; D.repos.forEach(r=>USES[r.slug]=(r[LOCALE].uses||[]));
+  applyMeta(D.meta);
+  initStats();
+  renderDonut(); renderBars(); renderChips(); renderGrid();
+  /* #repo=xxx deep link (also used for self-checks) */
+  const m = location.hash.match(/repo=([\w-]+)/);
+  if(m) setTimeout(()=>openModal(m[1]),600);
+}
+
+function applyMeta(M){
+  const S = k => M[k+"_"+LOCALE] || "";
+  document.title = L.titleSuffix(M.date);
+  $("#kicktxt").textContent = S("kicker");
+  $("#headline").textContent = S("headline");
+  $("#sub").textContent = S("sub");
+  $("#foot1").textContent = S("footer");
+}
+
+function initStats(){
+  const total = REPOS.length;
+  const sumK = REPOS.reduce((a,r)=>a+r.stars,0);
+  const agentN = REPOS.filter(r=>r.cat==="agent").length;
+  const langs = new Set(REPOS.map(langLabel)).size;
+  const cfg = [
+    ["st1", total,     0, ""],
+    ["st2", sumK/1000, 2, "M+"],
+    ["st3", agentN,    0, " / "+total],
+    ["st4", langs,     0, L.langSuffix]
+  ];
+  cfg.forEach(([id,n,dec,suf])=>{
+    const el = document.getElementById(id);
+    el.dataset.n = n; el.dataset.dec = dec; el.dataset.suf = suf;
+    countUp(el);
+  });
 }
 
 /* ---------- Donut ---------- */
@@ -423,8 +362,8 @@ function renderBars(){
 /* ---------- Filter chips ---------- */
 function renderChips(){
   const counts = {all:REPOS.length}; REPOS.forEach(r=>counts[r.cat]=(counts[r.cat]||0)+1);
-  $("#chips").innerHTML = `<div class="chip on" data-c="all">All · ${counts.all}</div>` +
-    Object.keys(CATS).map(k=>`<div class="chip" data-c="${k}">${CATS[k].name} · ${counts[k]}</div>`).join("");
+  $("#chips").innerHTML = `<div class="chip on" data-c="all">${L.all(counts.all)}</div>` +
+    Object.keys(CATS).map(k=>`<div class="chip" data-c="${k}">${CATS[k].name} · ${counts[k]||0}</div>`).join("");
   document.querySelectorAll(".chip").forEach(c=>c.onclick=()=>{
     document.querySelectorAll(".chip").forEach(x=>x.classList.remove("on"));
     c.classList.add("on"); state.cat=c.dataset.c; renderGrid();
@@ -436,7 +375,7 @@ let io;
 function renderGrid(){
   let list = REPOS.filter(r =>
     (state.cat==="all"||r.cat===state.cat) &&
-    (!state.q || (r.full+r.tag+r.what+r.lang).toLowerCase().includes(state.q)));
+    (!state.q || (r.full+r.tag+r.what+(r.lang||"")).toLowerCase().includes(state.q)));
   if(state.sort==="rank") list.sort((a,b)=>a.r-b.r);
   else if(state.sort==="stars-desc") list.sort((a,b)=>b.stars-a.stars);
   else if(state.sort==="stars-asc") list.sort((a,b)=>a.stars-b.stars);
@@ -452,14 +391,14 @@ function renderGrid(){
         <h4><span class="rank">#${r.r}</span> ${esc(r.full)} <span class="arrow">→</span></h4>
         <p class="tag">${esc(r.tag)}</p>
         <div class="meta">
-          <span class="ldot"><i style="background:${LANGC[r.lang]||'#888'}"></i>${r.lang}</span>
+          <span class="ldot"><i style="background:${langColor(r)}"></i>${langLabel(r)}</span>
           <span class="stars">★ ${r.stars}k</span>
-          <span class="today">${r.today} today</span>
+          <span class="today">${L.today(r.today)}</span>
           <span class="catpill" style="color:${CATS[r.cat].color};border-color:${CATS[r.cat].color}55;background:${CATS[r.cat].color}0e">${CATS[r.cat].name}</span>
         </div>
       </div>
     </article>`).join("")
-    : `<div class="empty">No matches — try another keyword.</div>`;
+    : `<div class="empty">${L.empty}</div>`;
   if(io) io.disconnect();
   io = new IntersectionObserver(es=>es.forEach(e=>{
     if(e.isIntersecting){ e.target.classList.add("show"); io.unobserve(e.target); }
@@ -475,6 +414,12 @@ function renderGrid(){
 /* ---------- Modal ---------- */
 function openModal(s){
   const r = REPOS.find(x=>slug(x)===s.toLowerCase()); if(!r) return;
+  const sec = (h,t) => t ? `<div class="sec"><h5>${h}</h5><p>${esc(t)}</p></div>` : "";
+  const uses = USES[r.slug] || [];
+  const usesSec = uses.length
+    ? `<div class="sec"><h5>${L.secs.uses}</h5><ul class="uses">${uses.map(u=>`<li>${esc(u)}</li>`).join("")}</ul></div>` : "";
+  const autoTag = r.auto
+    ? `<span class="m-tag" style="color:var(--acc3);border-color:#b07a1e55;background:#b07a1e0e">${L.autoTag}</span>` : "";
   $("#modal").innerHTML = `
     <div class="m-hero">
       <button class="m-close" id="mclose" aria-label="Close">✕</button>
@@ -482,21 +427,22 @@ function openModal(s){
     </div>
     <div class="m-body">
       <h2>${esc(r.full)}</h2>
-      <div class="m-sub">Trending rank #${r.r} · ${esc(r.tag)}</div>
+      <div class="m-sub">${L.rankSub(r.r)} · ${esc(r.tag)}</div>
       <div class="m-tags">
         <span class="m-tag hl">★ ${r.stars}k stars</span>
-        <span class="m-tag hl2">${r.today} today</span>
+        <span class="m-tag hl2">${L.today(r.today)}</span>
         <span class="m-tag" style="color:${CATS[r.cat].color};border-color:${CATS[r.cat].color}55;background:${CATS[r.cat].color}0e">${CATS[r.cat].name}</span>
-        <span class="m-tag">${r.lang}</span>
+        <span class="m-tag">${langLabel(r)}</span>
+        ${autoTag}
       </div>
-      <div class="sec"><h5>◆ WHAT IT DOES</h5><p>${esc(r.what)}</p></div>
-      <div class="sec"><h5>◆ WHAT'S INSIDE</h5><p>${esc(r.content)}</p></div>
-      <div class="sec"><h5>◆ TECH STACK</h5><p>${esc(r.stack)}</p></div>
-      <div class="sec"><h5>◆ USE CASES</h5><ul class="uses">${USES[r.slug].map(u=>`<li>${esc(u)}</li>`).join("")}</ul></div>
-      <div class="sec"><h5>◆ WHY IT'S HOT</h5><p>${esc(r.hot)}</p></div>
+      ${sec(L.secs.what, r.what)}
+      ${sec(L.secs.content, r.content)}
+      ${sec(L.secs.stack, r.stack)}
+      ${usesSec}
+      ${sec(L.secs.hot, r.hot)}
       <div class="m-foot">
-        <a class="btn pri" href="https://github.com/${r.full}" target="_blank" rel="noopener">Open on GitHub ↗</a>
-        <a class="btn sec2" href="#" id="mback">Back to list</a>
+        <a class="btn pri" href="https://github.com/${r.full}" target="_blank" rel="noopener">${L.openBtn}</a>
+        <a class="btn sec2" href="#" id="mback">${L.backBtn}</a>
       </div>
     </div>`;
   $("#overlay").classList.add("open");
@@ -522,11 +468,7 @@ $("#q").addEventListener("input",e=>{
 $("#sort").addEventListener("change",e=>{ state.sort=e.target.value; renderGrid(); });
 
 /* ---------- Init ---------- */
-document.querySelectorAll("#stats .num").forEach(countUp);
-renderDonut(); renderBars(); renderChips(); renderGrid();
-/* #repo=xxx deep link (also used for self-checks) */
-const m = location.hash.match(/repo=([\w-]+)/);
-if(m) setTimeout(()=>openModal(m[1]),600);
+bootstrap();
 </script>
 </body>
 </html>
