@@ -19,6 +19,7 @@
 <meta name="twitter:title" content="GitHub Trending Scope · Daily deep dives">
 <meta name="twitter:description" content="Today's GitHub Trending with deep dives: daily / weekly / monthly boards × language filters, repo write-ups + on-chart tracking, auto-updated every day.">
 <meta name="twitter:image" content="https://trending.cosolution.cc/og-en.png">
+<script>!function(){try{var t=localStorage.getItem("ts-theme");if(t!=="dark"&&t!=="light"){t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}document.documentElement.dataset.theme=t}catch(e){document.documentElement.dataset.theme="light"}}()</script>
 <style>
   :root{
     --bg:#f6f1e7; --card:#fffdf8; --line:#e4dbc9;
@@ -186,6 +187,60 @@
   .btn.sec2{color:var(--sub);border:1px solid var(--line);flex:0 0 110px}
   .btn.sec2:hover{color:var(--txt);border-color:var(--acc2)}
   footer{max-width:1240px;margin:20px auto 0;padding:34px 24px 46px;color:var(--dim);font-size:12.5px;text-align:center;line-height:2}
+  /* ---------- 主题按钮 & SVG 颜色变量化 ---------- */
+  .themebtn{width:34px;height:34px;border-radius:50%;border:1px solid var(--line);background:#fffdf8aa;color:var(--sub);cursor:pointer;display:grid;place-items:center;transition:.25s;padding:0}
+  .themebtn:hover{color:var(--txt);border-color:var(--acc1);box-shadow:0 4px 12px #cf4a1f22}
+  .donut .dnum{fill:var(--txt)}
+  .donut .dsub{fill:var(--dim)}
+  .spark polyline{stroke:var(--acc1)}
+  .spark circle{fill:var(--card);stroke:var(--acc1)}
+  /* ---------- 暗色模式 ---------- */
+  html[data-theme="dark"]{
+    color-scheme:dark;
+    --bg:#16120d; --card:#221c15; --line:#3d342a;
+    --txt:#f2ead9; --sub:#b3a78e; --dim:#7f7461;
+    --acc1:#e05828; --acc2:#2ba892; --acc3:#d09a2e;
+    --gold:#e0a42c;
+  }
+  html[data-theme="dark"] .aurora .b1{background:radial-gradient(circle,#5e2c16,transparent 65%);opacity:.5}
+  html[data-theme="dark"] .aurora .b2{background:radial-gradient(circle,#143b33,transparent 65%);opacity:.55}
+  html[data-theme="dark"] .aurora .b3{background:radial-gradient(circle,#4d3a12,transparent 65%);opacity:.45}
+  html[data-theme="dark"] header.nav{background:linear-gradient(180deg,rgba(22,18,13,.92),rgba(22,18,13,.6));transition:background-color .35s ease}
+  html[data-theme="dark"] .nav-right a{background:#221c15aa}
+  html[data-theme="dark"] .nav-right a:hover{box-shadow:0 4px 12px #e0582833}
+  html[data-theme="dark"] .themebtn{background:#221c15aa}
+  html[data-theme="dark"] .themebtn:hover{box-shadow:0 4px 12px #e0582833}
+  html[data-theme="dark"] .hero .kicker{border-color:#2ba89255;background:#2ba89214}
+  html[data-theme="dark"] .hero .kicker .pulse{animation:pulseD 1.6s infinite}
+  @keyframes pulseD{0%,100%{box-shadow:0 0 0 0 #2ba89255}50%{box-shadow:0 0 0 7px transparent}}
+  html[data-theme="dark"] .grad{background:linear-gradient(92deg,#e05828 5%,#d09a2e 45%,#2ba892 90%,#e05828);background-size:250% 100%;-webkit-background-clip:text;background-clip:text;color:transparent}
+  html[data-theme="dark"] .stat{box-shadow:0 2px 10px #00000033}
+  html[data-theme="dark"] .stat:hover{border-color:#e0582866;box-shadow:0 10px 24px -8px #e0582840}
+  html[data-theme="dark"] .panel{box-shadow:0 2px 12px #00000030}
+  html[data-theme="dark"] .donut .track{stroke:#383026}
+  html[data-theme="dark"] .bar-row .tr{background:#383026}
+  html[data-theme="dark"] .ranges{box-shadow:0 2px 8px #00000033}
+  html[data-theme="dark"] .ranges .rb.on{background:#f2ead9;color:#221c15;box-shadow:0 3px 10px #00000066}
+  html[data-theme="dark"] .chip.on{background:#e0582820;box-shadow:0 4px 12px #e0582826}
+  html[data-theme="dark"] .search input:focus{box-shadow:0 0 0 3px #2ba89230}
+  html[data-theme="dark"] .card{box-shadow:0 2px 10px #00000033}
+  html[data-theme="dark"] .card:hover{border-color:#e0582877;box-shadow:0 18px 40px -14px #00000088,0 4px 16px #00000044}
+  html[data-theme="dark"] .card .thumb{background:linear-gradient(120deg,#2c251c,#241e16)}
+  html[data-theme="dark"] .card .thumb::after{background:linear-gradient(180deg,transparent 42%,#221c15f2)}
+  html[data-theme="dark"] .rank{background:#f2ead9;color:#221c15}
+  html[data-theme="dark"] .trkb{border-color:#2ba89266;color:var(--acc2);background:#2ba89214}
+  html[data-theme="dark"] .trkb.new{border-color:#e0582866;color:var(--acc1);background:#e0582818}
+  html[data-theme="dark"] .trkb.back{border-color:#d09a2e66;color:var(--acc3);background:#d09a2e14}
+  html[data-theme="dark"] .m-tag.hl2{border-color:#2ba89266;color:var(--acc2);background:#2ba89214}
+  html[data-theme="dark"] .overlay{background:#0a0806cc}
+  html[data-theme="dark"] .modal{background:linear-gradient(180deg,#221c15,#1c1712);box-shadow:0 40px 90px -20px #000000cc}
+  html[data-theme="dark"] .modal::-webkit-scrollbar-thumb{background:#4a4032}
+  html[data-theme="dark"] .m-hero::after{background:linear-gradient(180deg,#221c1500 30%,#221c15f0)}
+  html[data-theme="dark"] .m-close{background:#0a0806b3;color:#f2ead9}
+  html[data-theme="dark"] .m-tag{background:#2c251c}
+  html[data-theme="dark"] .sec p,html[data-theme="dark"] .sec ul.uses li{color:#cfc3ab}
+  html[data-theme="dark"] .btn.pri{background:#f2ead9;color:#221c15}
+  html[data-theme="dark"] .btn.pri:hover{background:var(--acc1);color:#fff8ef;box-shadow:0 8px 26px -8px #e0582888}
   @media(max-width:860px){
     .insight{grid-template-columns:1fr}
     .stats{grid-template-columns:repeat(2,1fr)}
@@ -203,6 +258,7 @@
     <div class="nav-title">Trending Scope<small>GitHub Trending at a glance</small></div>
     <div class="nav-right">
       <a href="#explore">Deep dives</a>
+      <button class="themebtn" id="themebtn" aria-label="Toggle theme"></button>
       <a href="index.html" class="lang">中文</a>
       <a href="https://github.com/trending" target="_blank" rel="noopener">github.com/trending ↗</a>
     </div>
@@ -293,7 +349,9 @@ const L = {
                 : t.is_back ? `Back on chart · first seen ${t.first}`
                 : t.days <= 1 ? "Tracking starts today"
                 : `${t.days} consecutive days · first seen ${t.first}`,
-  collecting: d => `(trend data accumulates daily from ${d})`
+  collecting: d => `(trend data accumulates daily from ${d})`,
+  toDark: "Switch to dark mode",
+  toLight: "Switch to light mode"
 };
 
 const LANGC = {Python:"#3572A5",TypeScript:"#3178c6",JavaScript:"#d4b014",Java:"#b07219",Rust:"#c4743a",Shell:"#6a9e3f",Markdown:"#4a7ba6",CSS:"#884ea0","C++":"#f34b7d",HTML:"#e34c26",Go:"#00ADD8",Jupyter:"#DA5B0B",C:"#555555","C#":"#178600",Kotlin:"#A97BFF",Swift:"#F05138",PHP:"#4F5D95",Ruby:"#701516"};
@@ -356,6 +414,38 @@ function countUp(el){
     el.textContent = (n*e).toFixed(dec)+suf; if(p<1) requestAnimationFrame(f); });
 }
 
+/* ---------- 主题切换 ---------- */
+const SUN = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2M12 19.5v2M4.6 4.6l1.4 1.4M18 18l1.4 1.4M2.5 12h2M19.5 12h2M4.6 19.4 6 18M18 6l1.4-1.4"/></svg>`;
+const MOON = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>`;
+const themeMedia = matchMedia("(prefers-color-scheme: dark)");
+const CATDARK = {agent:"#e05828", ai:"#2ba892", infra:"#d09a2e", other:"#8aa851"};
+function applyTheme(t){
+  document.documentElement.dataset.theme = t;
+  const dark = t==="dark";
+  Object.keys(CATS).forEach(k=>{ CATS[k].color = (dark && CATDARK[k]) ? CATDARK[k] : CATS[k].base; });
+  const btn = $("#themebtn");
+  if(btn){
+    btn.innerHTML = dark ? SUN : MOON;
+    const lb = dark ? L.toLight : L.toDark;
+    btn.title = lb; btn.setAttribute("aria-label", lb);
+  }
+  if(window.__booted) refreshAll();
+}
+function initTheme(){
+  let saved = null;
+  try{ saved = localStorage.getItem("ts-theme"); }catch(e){}
+  applyTheme((saved==="dark"||saved==="light") ? saved : (themeMedia.matches ? "dark" : "light"));
+  themeMedia.addEventListener("change",e=>{
+    let s = null; try{ s = localStorage.getItem("ts-theme"); }catch(_){}
+    if(s!=="dark" && s!=="light") applyTheme(e.matches ? "dark" : "light");
+  });
+  $("#themebtn").onclick = ()=>{
+    const next = document.documentElement.dataset.theme==="dark" ? "light" : "dark";
+    try{ localStorage.setItem("ts-theme", next); }catch(e){}
+    applyTheme(next);
+  };
+}
+
 /* ---------- Bootstrap from data.js ---------- */
 function bootstrap(){
   D = window.TRENDING_DATA;
@@ -363,7 +453,7 @@ function bootstrap(){
     $("#grid").innerHTML = `<div class="empty">${L.err}</div>`;
     return;
   }
-  Object.entries(D.cats).forEach(([k,v])=>CATS[k]={name:v[LOCALE], color:v.color});
+  Object.entries(D.cats).forEach(([k,v])=>CATS[k]={name:v[LOCALE], color:v.color, base:v.color});
   REG = {}; USES = {};
   D.repos.forEach(r=>{
     REG[r.full] = {
@@ -377,8 +467,10 @@ function bootstrap(){
   parseHash();           // parse #board=&lang= before first render
   /* capture #repo=xxx first — syncHash inside refreshAll rewrites the hash */
   const m = location.hash.match(/repo=([\w-]+)/);
+  initTheme();
   applyMeta(D.meta);
   refreshAll();
+  window.__booted = true;
   /* #repo=xxx deep link (also used by self-checks) */
   if(m) setTimeout(()=>openModal(m[1]),600);
 }
@@ -476,8 +568,8 @@ function renderDonut(){
     off += frac*C;
   });
   svg.innerHTML = `<circle class="track" cx="65" cy="65" r="${R}"></circle>${segs}
-    <text x="65" y="61" text-anchor="middle" fill="#221d15" font-size="22" font-weight="800" transform="rotate(90 65 65)">${LIST.length}</text>
-    <text x="65" y="80" text-anchor="middle" fill="#a3967f" font-size="9.5" transform="rotate(90 65 65)">REPOS</text>`;
+    <text class="dnum" x="65" y="61" text-anchor="middle" font-size="22" font-weight="800" transform="rotate(90 65 65)">${LIST.length}</text>
+    <text class="dsub" x="65" y="80" text-anchor="middle" font-size="9.5" transform="rotate(90 65 65)">REPOS</text>`;
   legend.innerHTML = leg;
   requestAnimationFrame(()=>setTimeout(()=>{
     svg.querySelectorAll("circle[data-t]").forEach(c=>{

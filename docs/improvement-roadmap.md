@@ -44,12 +44,15 @@
 - **meta**：中英两页 `<head>` 加入 `description`、Open Graph（`og:type/site_name/title/description/url/image(+宽高+alt)/locale`，zh_CN 与 en_US）与 Twitter Card（`summary_large_image` + 标题/描述/图）。
 - og:image / og:url 均用生产域名绝对地址（`https://trending.cosolution.cc/` 与 `/index-en`），抓取器不执行 JS 也能拿到完整预览。
 
+### 6. 暗色模式（本轮完成 · 2026-07-17）
+- **调色板**：暖纸米的对应面 —— 墨黑底（#16120d）+ 暖橙/青/金提亮版强调色，延续编辑部气质；分类色（agent/ai/infra/other）在暗色下切换为高对比变体并全量重渲染。
+- **实现**：全站 CSS 变量换肤（`html[data-theme="dark"]` 覆盖约 40 条硬编码色规则：极光背景、导航、卡片、弹窗、徽章、滚动条等），`color-scheme: dark` 让下拉框/滚动条原生变暗；环形图与 sparkline 的内联 fill/stroke 改为 CSS 变量类。
+- **行为**：`<head>` 内联脚本首帧前定主题（无闪烁）；未选择过时跟随 `prefers-color-scheme` 并监听系统切换；导航栏日/月按钮手动切换并写入 localStorage 记忆。
+- 已验证：暗色中/英整页、暗色弹窗（标题/徽章/板块对比度）、亮色回归无变化、按钮切换 + 记忆探测全部通过。
+
 ## 🔜 候选方向 / Candidates（按价值排序）
 
-### 6. 暗色模式 ⭐ 下一个最值得做
-- 暖纸米的对应面：墨黑底 + 暖橙点缀，延续编辑部气质；`prefers-color-scheme` + 手动切换。
-
-### 7. 紧凑列表视图
+### 7. 紧凑列表视图 ⭐ 下一个最值得做
 - 卡片之外加高密度表格视图（排名 / 仓库 / 语言 / stars / 今日新增），扫榜更快。
 
 ### 8. 一键复制分享
