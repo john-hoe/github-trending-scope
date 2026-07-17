@@ -272,6 +272,44 @@
     .lrow{grid-template-columns:52px 1fr 90px 110px;gap:10px;padding:12px 14px}
     .c-lang,.c-cat{display:none}
   }
+  /* ---------- 项目对比 ---------- */
+  .cmpbtn{position:absolute;top:10px;right:10px;z-index:3;width:30px;height:30px;border-radius:50%;border:1px solid var(--line);background:#fffdf8d9;color:var(--sub);font-size:15px;font-weight:700;cursor:pointer;transition:.25s;backdrop-filter:blur(4px);display:grid;place-items:center;padding:0;line-height:1}
+  .cmpbtn:hover{border-color:var(--acc1);color:var(--acc1);transform:scale(1.1)}
+  .cmpbtn.on{background:var(--acc1);border-color:var(--acc1);color:#fff8ef}
+  .cmpbtn.row{position:static;width:28px;height:28px;flex:none;justify-self:end}
+  html[data-theme="dark"] .cmpbtn{background:#221c15d9}
+  html[data-theme="dark"] .cmpbtn.on{background:var(--acc1);border-color:var(--acc1);color:#fff8ef}
+  .lrow{grid-template-columns:64px 1fr 130px 100px 120px auto 36px}
+  .ctray{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);z-index:90;display:flex;align-items:center;gap:10px;background:#221d15f0;color:#f2ead9;border-radius:99px;padding:9px 12px 9px 18px;box-shadow:0 14px 40px -10px #221d1566;backdrop-filter:blur(8px);font-size:13px;flex-wrap:wrap;justify-content:center;max-width:94vw}
+  .ctray .tcount{color:#b3a78e;font-weight:600;white-space:nowrap}
+  .ctray .tchip{display:inline-flex;align-items:center;gap:6px;background:#f2ead91a;border:1px solid #f2ead92e;border-radius:99px;padding:4px 6px 4px 12px;font-weight:600;white-space:nowrap;max-width:220px;overflow:hidden;text-overflow:ellipsis}
+  .ctray .tchip button{background:none;border:none;color:#b3a78e;cursor:pointer;font-size:12px;padding:2px 4px}
+  .ctray .tchip button:hover{color:#fff}
+  .ctray .tgo{background:var(--acc1);color:#fff8ef;border:none;border-radius:99px;padding:8px 18px;font-weight:700;cursor:pointer;font-size:13px;transition:.25s}
+  .ctray .tgo:hover:not(:disabled){box-shadow:0 6px 18px -4px #cf4a1f88}
+  .ctray .tgo:disabled{opacity:.45;cursor:not-allowed}
+  .ctray .tclear{background:none;border:1px solid #f2ead92e;color:#b3a78e;border-radius:99px;padding:8px 14px;cursor:pointer;font-size:13px}
+  .ctray .tclear:hover{color:#f2ead9}
+  .ctray.shake{animation:shake .4s}
+  @keyframes shake{0%,100%{transform:translateX(-50%)}25%{transform:translateX(calc(-50% - 6px))}75%{transform:translateX(calc(-50% + 6px))}}
+  .modal.cmp{width:min(1080px,96vw);position:relative}
+  .cmpbody{padding:26px 30px 30px}
+  .cmptitle{font-size:22px;font-weight:800;letter-spacing:-.3px;margin-bottom:18px}
+  .cmpwrap{overflow-x:auto}
+  .ctable{display:grid;min-width:680px}
+  .cc{padding:12px 14px;border-bottom:1px solid var(--line);font-size:13.5px;line-height:1.7;color:#4c4335;align-self:start;min-width:0}
+  .cc.lab{color:var(--dim);font-size:12px;letter-spacing:1px;font-weight:600;padding-top:16px}
+  .cc.chead{display:flex;gap:10px;align-items:center;border-bottom:2px solid var(--line)}
+  .cc.chead img{width:30px;height:30px;border-radius:8px;flex:none}
+  .cc.chead b{display:block;font-size:14px;word-break:break-all}
+  .cc.chead a{color:var(--acc2);font-size:12px;text-decoration:none}
+  .ctable .uses{list-style:none;margin:0}
+  .ctable .uses li{position:relative;padding-left:14px;margin-top:3px}
+  .ctable .uses li::before{content:"▸";position:absolute;left:0;color:var(--acc2);font-weight:700}
+  html[data-theme="dark"] .cc{color:#cfc3ab}
+  @media(max-width:960px){
+    .lrow{grid-template-columns:52px 1fr 90px 110px 32px}
+  }
   @media(max-width:860px){
     .insight{grid-template-columns:1fr}
     .stats{grid-template-columns:repeat(2,1fr)}
@@ -392,7 +430,13 @@ const L = {
   lhCat: "分类",
   gainCol: b => `${L.rangeShort[b]}新增`,
   copyBtn: "复制 Markdown",
-  copied: "已复制 ✓"
+  copied: "已复制 ✓",
+  compareAdd: "加入对比",
+  trayText: n => `已选 ${n}/3`,
+  compareGo: "开始对比",
+  compareClear: "清空",
+  compareTitle: "项目对比",
+  rows: {rank:"排名", stars:"Stars", gain:"区间新增", lang:"语言", cat:"分类", track:"在榜", tag:"定位", what:"是做什么的", stack:"技术栈", uses:"应用场景", hot:"为什么火"}
 };
 
 const LANGC = {Python:"#3572A5",TypeScript:"#3178c6",JavaScript:"#d4b014",Java:"#b07219",Rust:"#c4743a",Shell:"#6a9e3f",Markdown:"#4a7ba6",CSS:"#884ea0","C++":"#f34b7d",HTML:"#e34c26",Go:"#00ADD8",Jupyter:"#DA5B0B",C:"#555555","C#":"#178600",Kotlin:"#A97BFF",Swift:"#F05138",PHP:"#4F5D95",Ruby:"#701516"};
@@ -685,6 +729,10 @@ function wireItems(g){
     c.onclick = ()=>openModal(c.dataset.slug);
     c.onkeydown = e=>{ if(e.key==="Enter") openModal(c.dataset.slug); };
   });
+  g.querySelectorAll(".cmpbtn").forEach(b=>b.onclick = e=>{
+    e.stopPropagation();
+    toggleCompare(b.dataset.cmp);
+  });
 }
 function renderListRows(g,list){
   g.innerHTML = list.length ? `<div class="listview">
@@ -698,6 +746,7 @@ function renderListRows(g,list){
       <span class="c-stars stars">★ ${r.stars}k</span>
       <span class="c-gain today">${L.gain(r.today,state.board)}</span>
       <span class="c-cat"><span class="catpill" style="color:${CATS[r.cat].color};border-color:${CATS[r.cat].color}55;background:${CATS[r.cat].color}0e">${CATS[r.cat].name}</span></span>
+      <button class="cmpbtn row${inCmp(r)?" on":""}" data-cmp="${r.slug.toLowerCase()}" title="${L.compareAdd}">${inCmp(r)?"✓":"+"}</button>
     </div>`).join("") + `</div>`
     : `<div class="empty">${L.empty}</div>`;
 }
@@ -711,6 +760,7 @@ function renderGrid(){
       <div class="thumb">
         <img loading="lazy" src="${og(r)}" alt="${esc(r.full)}"
              onerror="this.onerror=null;this.src='${avatar(r)}'">
+        <button class="cmpbtn${inCmp(r)?" on":""}" data-cmp="${r.slug.toLowerCase()}" title="${L.compareAdd}">${inCmp(r)?"✓":"+"}</button>
       </div>
       <div class="body">
         <h4><span class="rank">#${r.r}</span> ${esc(r.full)} <span class="arrow">→</span></h4>
@@ -739,6 +789,90 @@ function fallbackCopy(t, ok){
   document.body.appendChild(ta); ta.select();
   try{ document.execCommand("copy"); ok && ok(); }catch(e){}
   document.body.removeChild(ta);
+}
+
+/* ---------- 项目对比 ---------- */
+let CMP = [];
+const inCmp = r => CMP.includes(r.slug.toLowerCase());
+function toggleCompare(sl){
+  sl = (sl||"").toLowerCase();
+  const i = CMP.indexOf(sl);
+  if(i>=0) CMP.splice(i,1);
+  else{
+    if(CMP.length>=3){
+      const t=$("#ctray");
+      if(t){ t.classList.remove("shake"); void t.offsetWidth; t.classList.add("shake"); }
+      return;
+    }
+    CMP.push(sl);
+  }
+  renderTray();
+  document.querySelectorAll(`.cmpbtn[data-cmp="${sl}"]`).forEach(b=>{
+    const on = CMP.includes(sl);
+    b.classList.toggle("on", on);
+    b.textContent = on ? "✓" : "+";
+  });
+}
+function renderTray(){
+  let t = $("#ctray");
+  if(!CMP.length){ if(t) t.remove(); return; }
+  const names = CMP.map(sl=>{ const f=findRepo(sl); return f ? {sl, name:f.r.full} : null; }).filter(Boolean);
+  if(!t){
+    t = document.createElement("div");
+    t.id = "ctray"; t.className = "ctray";
+    document.body.appendChild(t);
+  }
+  t.innerHTML = `
+    <span class="tcount">${L.trayText(CMP.length)}</span>
+    ${names.map(n=>`<span class="tchip">${esc(n.name)}<button data-x="${n.sl}" aria-label="✕">✕</button></span>`).join("")}
+    <button class="tgo" id="cmpgo" ${CMP.length<2?"disabled":""}>${L.compareGo}</button>
+    <button class="tclear" id="cmpclear">${L.compareClear}</button>`;
+  t.querySelectorAll(".tchip button").forEach(b=>b.onclick=()=>toggleCompare(b.dataset.x));
+  $("#cmpgo").onclick = openCompare;
+  $("#cmpclear").onclick = ()=>{
+    CMP = []; renderTray();
+    document.querySelectorAll(".cmpbtn.on").forEach(b=>{ b.classList.remove("on"); b.textContent="+"; });
+  };
+}
+function openCompare(){
+  if(CMP.length<2) return;
+  const items = CMP.map(sl=>findRepo(sl)).filter(Boolean);
+  if(items.length<2) return;
+  const rows = [
+    ["rank",  it=>L.rankSub(it.r.r,it.board)],
+    ["stars", it=>`★ ${it.r.stars}k`],
+    ["gain",  it=>L.gain(it.r.today,it.board)],
+    ["lang",  it=>langLabel(it.r)],
+    ["cat",   it=>CATS[it.r.cat].name],
+    ["track", it=>it.r.track ? L.trackInfo(it.r.track) : "—"],
+    ["tag",   it=>it.r.tag ? esc(it.r.tag) : "—"],
+    ["what",  it=>it.r.what ? esc(it.r.what) : "—"],
+    ["stack", it=>it.r.stack ? esc(it.r.stack) : "—"],
+    ["uses",  it=>(USES[it.r.slug]||[]).length ? `<ul class="uses">${USES[it.r.slug].map(u=>`<li>${esc(u)}</li>`).join("")}</ul>` : "—"],
+    ["hot",   it=>it.r.hot ? esc(it.r.hot) : "—"]
+  ];
+  const n = items.length;
+  $("#modal").innerHTML = `
+    <button class="m-close" id="mclose" aria-label="✕">✕</button>
+    <div class="cmpbody">
+      <h2 class="cmptitle">${L.compareTitle}</h2>
+      <div class="cmpwrap">
+        <div class="ctable" style="grid-template-columns:104px repeat(${n},1fr)">
+          <div class="cc lab"></div>
+          ${items.map(it=>`<div class="cc chead">
+            <img src="${avatar(it.r)}" alt="" onerror="this.style.display='none'">
+            <div><b>${esc(it.r.full)}</b><a href="https://github.com/${it.r.full}" target="_blank" rel="noopener">GitHub ↗</a></div>
+          </div>`).join("")}
+          ${rows.map(([k,fn])=>`
+            <div class="cc lab">${L.rows[k]}</div>
+            ${items.map(it=>`<div class="cc">${fn(it)}</div>`).join("")}`).join("")}
+        </div>
+      </div>
+    </div>`;
+  $("#modal").classList.add("cmp");
+  $("#overlay").classList.add("open");
+  document.body.style.overflow="hidden";
+  $("#mclose").onclick = closeModal;
 }
 
 /* ---------- 弹窗 ---------- */
@@ -812,6 +946,7 @@ function openModal(s){
   };
 }
 function closeModal(){
+  $("#modal").classList.remove("cmp");
   openSlug = null;
   $("#overlay").classList.remove("open");
   document.body.style.overflow="";
