@@ -69,15 +69,22 @@
 - **修过一处渲染 bug**：排名行误把整个仓库对象传给文案函数（渲染成 `[object Object]`），截图自查发现后改为传排名数值，重新生成测试页复检通过。
 - 已验证：中文 2 列、暗色 3 列、英文 2 列对比视图，托盘交互（添加 / 移除 / 上限抖动），普通详情弹窗回归，全部通过。
 
-## 🔜 候选方向 / Candidates（按价值排序）
+### 10. 视觉打磨（本轮完成 · 2026-07-17）
+- **衬线 Hero**：大标题改用 Noto Serif（拉丁）+ Noto Serif SC（中文）900 字重（Google Fonts，`display=swap`，加载失败回退系统衬线），行距与字距随衬线重调。
+- **区间新增 racing bar**：原「Star 热度 TOP 8（总 stars）」改为「今日 / 本周 / 本月新增 TOP 8」—— 按当前口径的区间新增排序、数值显示 +N，行入场 70ms 阶梯延迟形成竞速感；`activeList()` 合并 `today_n` 供排序。
+- 已验证：h1 字体栈 / 标题跟随口径 / 数值探针，中、英、暗三端首屏截图，全部通过。
 
-### 10. RSS feed ⭐ 下一个最值得做
-- 管线顺带生成 `feed.xml`，老派用户可订阅每日榜。
+### 11. LLM 精评自动化（本轮完成 · 2026-07-17）
+- **update.py 可选精评**：配置 `LLM_API_KEY` + `LLM_BASE_URL`（OpenAI 兼容接口）后，每轮对新上榜及历史 auto 仓库调用 `/chat/completions` 生成双语六字段精评（tag / what / content / stack / hot / uses）+ 四选一分类；成功即清除 auto 标记，视同人工精评永久保留。
+- **上下文与限速**：prompt 附 README 前 3000 字符摘录（`LLM_README=0` 可关）；每轮上限 `--llm-limit`（默认 25，env `LLM_LIMIT`），新上榜优先，请求间隔 0.4s。
+- **降级矩阵**：未配置密钥 / 连接失败 / 返回非 JSON / 字段不完整 → 全部静默保持自动摘要，绝不影响管线主流程；模型名 `LLM_MODEL`（默认 gpt-4o-mini）。
+- **Actions**：workflow 注入 `secrets.LLM_API_KEY` / `secrets.LLM_BASE_URL` + `vars.LLM_MODEL`（未配置时展开为空字符串 → 自动降级）。
+- 已验证：mock 接口成功路径（3 仓库精评落盘）、坏 JSON 降级、连接失败降级、无密钥降级、精评结果次日 kept 保留，全部通过。
 
-### 11. 视觉打磨
-- Hero 引入衬线大标题（如 Noto Serif SC）强化「每日编辑部」气质；今日新增 stars 做横向 racing bar，突出榜单脉搏。
+## 🔜 候选方向 / Candidates
+
+当前无排期候选 —— 新方向随每日运营观察补充。（RSS feed 经评估暂不采用。）
 
 ## 可选增强 / Optional
 
-- **LLM 精评自动化**：update.py 预留了人工精评字段（`what/content/stack/hot/uses`）。如需新上榜仓库自动生成双语深度解析，可在仓库 Secrets 配置 LLM API（如 `LLM_API_KEY` + `LLM_BASE_URL`），脚本检测到后调用 OpenAI 兼容接口补全，未配置则保持「自动摘要」降级。
 - **Cloudflare Pages 同步**：生产域名 trending.cosolution.cc 目前经 wrangler 手动部署。如需 Actions 自动部署，配置 `CLOUDFLARE_API_TOKEN` + `CLOUDFLARE_ACCOUNT_ID` 两个 Secrets 后在 workflow 里加一步 `cloudflare/wrangler-action`。

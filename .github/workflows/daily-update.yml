@@ -24,6 +24,13 @@ jobs:
 
       - name: Fetch trending and refresh data
         run: python3 scripts/update.py
+        env:
+          # 可选 LLM 精评：在仓库 Settings → Secrets and variables 配置
+          # LLM_API_KEY / LLM_BASE_URL（secrets）与 LLM_MODEL（variables）后启用；
+          # 未配置时以下变量为空字符串，脚本自动保持「自动摘要」降级。
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
 
       - name: Commit data if changed
         run: |

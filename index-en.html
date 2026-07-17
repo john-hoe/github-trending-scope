@@ -20,6 +20,9 @@
 <meta name="twitter:description" content="Today's GitHub Trending with deep dives: daily / weekly / monthly boards × language filters, repo write-ups + on-chart tracking, auto-updated every day.">
 <meta name="twitter:image" content="https://trending.cosolution.cc/og-en.png">
 <script>!function(){try{var t=localStorage.getItem("ts-theme");if(t!=="dark"&&t!=="light"){t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}document.documentElement.dataset.theme=t}catch(e){document.documentElement.dataset.theme="light"}}()</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700;900&family=Noto+Serif+SC:wght@700;900&display=swap" rel="stylesheet">
 <style>
   :root{
     --bg:#f6f1e7; --card:#fffdf8; --line:#e4dbc9;
@@ -67,7 +70,7 @@
     animation:fadeUp .8s .1s both}
   .hero .kicker .pulse{width:8px;height:8px;border-radius:50%;background:var(--acc2);animation:pulse 1.6s infinite}
   @keyframes pulse{0%,100%{box-shadow:0 0 0 0 #0e6f6355}50%{box-shadow:0 0 0 7px transparent}}
-  .hero h1{font-size:clamp(38px,6vw,72px);line-height:1.12;margin:22px 0 14px;font-weight:800;letter-spacing:-1.5px;
+  .hero h1{font-family:"Noto Serif","Noto Serif SC",serif;font-size:clamp(38px,6vw,72px);line-height:1.16;margin:22px 0 14px;font-weight:900;letter-spacing:-0.01em;
     animation:fadeUp .8s .25s both}
   .grad{background:linear-gradient(92deg,#cf4a1f 5%,#b07a1e 45%,#0e6f63 90%,#cf4a1f);
     background-size:250% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;
@@ -356,7 +359,7 @@
     </div>
   </div>
   <div class="panel">
-    <h3>TOP 8 BY STARS</h3>
+    <h3 id="barstitle">TOP 8 BY STARS</h3>
     <div class="bars" id="bars"></div>
   </div>
 </section>
@@ -429,6 +432,7 @@ const L = {
   lhStars: "Stars",
   lhCat: "Category",
   gainCol: b => `Gained ${L.rangeShort[b]}`,
+  barsTitle: b => `TOP 8 gained ${L.rangeShort[b]}`,
   copyBtn: "Copy Markdown",
   copied: "Copied ✓",
   compareAdd: "Add to compare",
@@ -458,7 +462,7 @@ function activeList(){
   const arr = b[state.lang] || b.all || [];
   return arr.map(be=>{
     const base = REG[be.full]; if(!base) return null;
-    return Object.assign({}, base, {r:be.rank, stars:be.stars, today:be.today});
+    return Object.assign({}, base, {r:be.rank, stars:be.stars, today:be.today, today_n:be.today_n||0});
   }).filter(Boolean);
 }
 
@@ -666,13 +670,15 @@ function renderDonut(){
 /* ---------- TOP8 bars ---------- */
 function renderBars(){
   const LIST = activeList();
+  $("#barstitle").textContent = L.barsTitle(state.board);
   if(!LIST.length){ $("#bars").innerHTML = ""; return; }
-  const top = [...LIST].sort((a,b)=>b.stars-a.stars).slice(0,8), max = top[0].stars;
-  $("#bars").innerHTML = top.map(r=>`
+  const top = [...LIST].sort((a,b)=>(b.today_n||0)-(a.today_n||0)).slice(0,8),
+        max = Math.max(top[0].today_n||0, 1);
+  $("#bars").innerHTML = top.map((r,i)=>`
     <div class="bar-row">
       <span class="nm">${r.full.split("/")[1]}</span>
-      <span class="tr"><span class="fl" data-w="${(r.stars/max*100).toFixed(1)}" style="width:0%"></span></span>
-      <span class="vl">${r.stars}k</span>
+      <span class="tr"><span class="fl" data-w="${((r.today_n||0)/max*100).toFixed(1)}" style="width:0%;transition-delay:${i*70}ms"></span></span>
+      <span class="vl">${r.today}</span>
     </div>`).join("");
   requestAnimationFrame(()=>setTimeout(()=>{
     document.querySelectorAll("#bars .fl").forEach(f=>f.style.width=f.dataset.w+"%");
