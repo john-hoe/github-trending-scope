@@ -2,15 +2,15 @@
   "schema": 2,
   "meta": {
     "date": "2026-07-18",
-    "generated_at": "2026-07-18 14:57 (CST)",
+    "generated_at": "2026-07-18 15:00 (CST)",
     "source": "github.com/trending",
     "criteria": "Repositories · Today/Week/Month · All languages · logged out",
     "headline_zh": "今日热榜全景速递",
     "headline_en": "Your daily trending digest",
     "sub_zh": "14 个上榜仓库：学习 & 游戏 1 个、平台·数据·应用 6 个、AI 应用与模型 3 个、Agent 工具链 4 个。今日新增 Star 前三：Nutlope/hallmark（+1.5k）、OpenCut-app/OpenCut（+1.1k）、codecrafters-io/build-your-own-x（+1.1k）。点击任意卡片查看深度解析。",
     "sub_en": "14 trending repos: 1 Learning & Gaming, 6 Platforms, Data & Apps, 3 AI Apps & Models, 4 Agent Tooling. Biggest star gainers today: Nutlope/hallmark (+1.5k), OpenCut-app/OpenCut (+1.1k), codecrafters-io/build-your-own-x (+1.1k). Click any card for a deep dive.",
-    "footer_zh": "Trending Scope · 数据更新于 2026-07-18 14:57 (CST)，由自动化管线直连 github.com 抓取",
-    "footer_en": "Trending Scope · Data updated 2026-07-18 14:57 (CST) by the automated pipeline, fetched directly from github.com"
+    "footer_zh": "Trending Scope · 数据更新于 2026-07-18 15:00 (CST)，由自动化管线直连 github.com 抓取",
+    "footer_en": "Trending Scope · Data updated 2026-07-18 15:00 (CST) by the automated pipeline, fetched directly from github.com"
   },
   "cats": {
     "agent": {
@@ -1038,7 +1038,7 @@
         {
           "full": "ogulcancelik/herdr",
           "rank": 17,
-          "stars": 17.7,
+          "stars": 17.8,
           "today": "+2.5k",
           "today_n": 2512
         },
@@ -1466,7 +1466,7 @@
         {
           "full": "ogulcancelik/herdr",
           "rank": 2,
-          "stars": 17.7,
+          "stars": 17.8,
           "today": "+2.5k",
           "today_n": 2512
         },
@@ -1971,7 +1971,7 @@
         {
           "full": "ogulcancelik/herdr",
           "rank": 7,
-          "stars": 17.7,
+          "stars": 17.8,
           "today": "+11.6k",
           "today_n": 11568
         },
@@ -2441,7 +2441,7 @@
         {
           "full": "ogulcancelik/herdr",
           "rank": 1,
-          "stars": 17.7,
+          "stars": 17.8,
           "today": "+11.6k",
           "today_n": 11568
         },
@@ -7297,7 +7297,7 @@
       "rank": 17,
       "cat": "agent",
       "lang": "Rust",
-      "stars": 17.7,
+      "stars": 17.8,
       "today": "+2.5k",
       "today_n": 2512,
       "auto": true,
