@@ -4214,22 +4214,32 @@
       "stars": 196.9,
       "today": "+160",
       "today_n": 160,
-      "auto": true,
+      "auto": false,
       "zh": {
-        "tag": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-        "what": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 TypeScript。",
-        "hot": "今日新增 +160 stars，位列 GitHub Trending 日榜（TypeScript）第 7 名。",
-        "uses": []
+        "tag": "可视化编排与代码扩展兼备的 AI 工作流自动化平台",
+        "what": "n8n 是面向技术团队的 fair-code 工作流自动化平台，可在可视化画布中连接应用、数据和 AI 模型，也允许在流程节点里编写自定义代码。它既支持官方云服务，也可自行部署，从原型验证延伸到带审批、日志与权限控制的生产流程。",
+        "content": "仓库包含工作流编辑器、执行引擎、节点与凭证体系、命令行工具及大量内置集成。官方 README 说明平台可连接 1500 多种集成并复用 9000 多个工作流模板，同时支持多步骤 AI Agent、人工审批、可观测性和多模型切换。",
+        "stack": "核心代码以 TypeScript 为主，前端大量使用 Vue，并包含少量 JavaScript、SCSS 与 Python。可通过 npx 快速启动，也提供 Docker 自托管方案；高级节点可运行 JavaScript、Python 和 npm 包。",
+        "hot": "仓库已接近 19.7 万 Star，今日新增 160，位列 GitHub Trending TypeScript 日榜第 7。AI Agent 与传统业务自动化合流，使兼顾低代码效率、代码扩展性和数据自托管的平台持续受到关注。",
+        "uses": [
+          "技术团队 —— 用可视化节点快速串联 SaaS、数据库、Webhook 与内部 API",
+          "AI 应用团队 —— 编排多模型、工具调用、人工审批和可观测的 Agent 流程",
+          "重视数据主权的组织 —— 通过 Docker 自托管，将敏感工作流留在自有环境",
+          "自动化开发者 —— 在低代码流程中插入 JavaScript、Python 或 npm 包处理复杂逻辑"
+        ]
       },
       "en": {
-        "tag": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-        "what": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily TypeScript.",
-        "hot": "+160 stars today, ranked #7 on the daily TypeScript chart.",
-        "uses": []
+        "tag": "AI workflow automation that combines a visual canvas with custom code",
+        "what": "n8n is a fair-code workflow automation platform for technical teams. It connects apps, data, and AI models on a visual canvas while allowing custom code inside workflows. Teams can use the hosted service or self-host it, taking automations from prototypes to production with approvals, logs, and access controls.",
+        "content": "The repository contains the workflow editor, execution engine, node and credential systems, CLI tooling, and a large integration catalog. Its official README describes 1,500+ integrations and 9,000+ workflow templates, plus multi-step AI agents, human approvals, observability, and model-provider flexibility.",
+        "stack": "The codebase is primarily TypeScript, with a Vue-heavy frontend and smaller amounts of JavaScript, SCSS, and Python. It can be started with npx or self-hosted through Docker; advanced workflow nodes can run JavaScript, Python, and npm packages.",
+        "hot": "The repository is approaching 197K stars and gained 160 today, ranking #7 on GitHub Trending's TypeScript daily chart. As AI agents converge with conventional business automation, a platform that combines low-code speed, code-level extensibility, and self-hosting remains highly relevant.",
+        "uses": [
+          "Technical teams — connect SaaS tools, databases, webhooks, and internal APIs with visual nodes",
+          "AI product teams — orchestrate models, tool calls, human approvals, and observable agent workflows",
+          "Data-sovereignty-focused organizations — self-host with Docker and keep sensitive workflows in-house",
+          "Automation developers — add JavaScript, Python, or npm packages when low-code nodes are not enough"
+        ]
       },
       "track": {
         "days": 0,

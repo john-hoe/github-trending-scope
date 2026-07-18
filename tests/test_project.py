@@ -53,6 +53,10 @@ class AutomationContractTests(unittest.TestCase):
         self.assertIn('LLM_CONCURRENCY: "4"', self.workflow)
         self.assertIn('LLM_RETRIES: "3"', self.workflow)
 
+    def test_workflow_blocks_placeholder_content_from_production(self):
+        self.assertIn("scripts/update.py --require-reviewed", self.workflow)
+        self.assertIn("vars.LLM_LIMIT || '400'", self.workflow)
+
     def test_third_party_actions_are_pinned_to_commits(self):
         uses = re.findall(r"(?m)^\s*-?\s*uses:\s*[^@\s]+@([^\s#]+)", self.workflow)
         self.assertTrue(uses)

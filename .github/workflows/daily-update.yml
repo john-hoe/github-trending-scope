@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
     inputs:
       llm_limit:
-        description: "本轮 LLM 精评上限（留空则用默认 25；可用 vars.LLM_LIMIT 全局覆盖）"
+        description: "本轮 LLM 精评上限（留空则用默认 400；可用 vars.LLM_LIMIT 全局覆盖）"
         required: false
         default: ""
 
@@ -38,16 +38,16 @@ jobs:
         run: python3 -m unittest discover -s tests -v
 
       - name: Fetch trending and refresh data
-        run: python3 scripts/update.py
+        run: python3 scripts/update.py --require-reviewed
         env:
           # 可选 LLM 精评：在仓库 Settings → Secrets and variables 配置
           # LLM_API_KEY / LLM_BASE_URL（secrets）与 LLM_MODEL（variables）后启用；
-          # 未配置时以下变量为空字符串，脚本自动保持「自动摘要」降级。
+          # 生产更新要求零占位；未配置 LLM 或精评失败时本步骤会失败并阻止发布。
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
           LLM_PROTOCOL: ${{ vars.LLM_PROTOCOL }}
-          LLM_LIMIT: ${{ github.event.inputs.llm_limit || vars.LLM_LIMIT }}
+          LLM_LIMIT: ${{ github.event.inputs.llm_limit || vars.LLM_LIMIT || '400' }}
           LLM_CONCURRENCY: "4"
           LLM_RETRIES: "3"
           GITHUB_API_TOKEN: ${{ github.token }}
