@@ -9,8 +9,12 @@ from pathlib import Path
 from urllib.parse import urljoin, urlsplit
 from xml.etree import ElementTree
 
+from scripts import build_site
+
 
 ROOT = Path(__file__).resolve().parents[1]
+GA4_MEASUREMENT_ID = "G-P3808E86C2"
+GA4_SCRIPT_URL = f"https://www.googletagmanager.com/gtag/js?id={GA4_MEASUREMENT_ID}"
 
 
 class DataIntegrityTests(unittest.TestCase):
@@ -249,7 +253,59 @@ class SEOProductionContractTests(unittest.TestCase):
         source = sample.read_text(encoding="utf-8")
         self.assertIn("GitHub Trending · Weekly · Python", source)
         self.assertIn('class="board-row"', source)
-        self.assertNotIn("<script src=", source)
+        self.assertNotIn('<script src="data.js"', source)
+
+    def test_ga4_tracks_each_real_content_page_once_without_redirect_or_404_noise(self):
+        html_paths = sorted(self.output.rglob("*.html"))
+        excluded = {self.output / "404.html", self.output / "index-en.html"}
+        tracked = []
+        for path in html_paths:
+            source = path.read_text(encoding="utf-8")
+            with self.subTest(path=path.relative_to(self.output)):
+                if path in excluded:
+                    self.assertNotIn(GA4_MEASUREMENT_ID, source)
+                    self.assertNotIn("googletagmanager.com/gtag/js", source)
+                    continue
+                tracked.append(path)
+                self.assertEqual(source.count(GA4_SCRIPT_URL), 1)
+                self.assertEqual(source.count(f"gtag('config', '{GA4_MEASUREMENT_ID}'"), 1)
+                self.assertEqual(source.count(GA4_MEASUREMENT_ID), 2)
+                self.assertNotIn("gtag('event', 'page_view'", source)
+                self.assertIn("'allow_google_signals': false", source)
+                self.assertIn("'allow_ad_personalization_signals': false", source)
+                directives = build_site.csp_directives(source)
+                for directive, required_sources in build_site.GA4_CSP_REQUIREMENTS:
+                    self.assertEqual(required_sources - directives.get(directive, set()), set())
+        self.assertEqual(len(tracked), self.report["html_pages"] - 2)
+        self.assertGreater(len(tracked), self.report["urls"])
+
+    def test_ga4_validator_rejects_csp_domains_hidden_in_body_text(self):
+        path = self.output / "index.html"
+        original = path.read_text(encoding="utf-8")
+        match = re.search(r'(<meta http-equiv="Content-Security-Policy" content=")([^"]+)(">)', original)
+        self.assertIsNotNone(match)
+        broken_csp = match.group(2)
+        for marker in (
+            "https://*.googletagmanager.com",
+            "https://*.google-analytics.com",
+            "https://*.analytics.google.com",
+        ):
+            broken_csp = broken_csp.replace(marker, "https://blocked.invalid")
+        decoy = "<!-- https://*.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com -->"
+        modified = original[: match.start(2)] + broken_csp + original[match.end(2) :] + decoy
+        path.write_text(modified, encoding="utf-8")
+        try:
+            with self.assertRaisesRegex(ValueError, "GA4 CSP"):
+                build_site.validate_output(self.output, self.urls)
+        finally:
+            path.write_text(original, encoding="utf-8")
+
+    def test_ga4_exists_only_in_production_output(self):
+        for name in ("index.html", "index-zh.html", "index-en.html"):
+            with self.subTest(name=name):
+                source = (ROOT / name).read_text(encoding="utf-8")
+                self.assertNotIn(GA4_MEASUREMENT_ID, source)
+                self.assertNotIn("googletagmanager.com/gtag/js", source)
 
     def test_only_original_editorial_subset_is_indexed(self):
         manifest = json.loads((ROOT / "seo-index.json").read_text(encoding="utf-8"))
