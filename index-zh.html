@@ -1,31 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://github.com https://avatars.githubusercontent.com https://opengraph.githubassets.com; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="no-referrer">
-<title>GitHub Trending Scope</title>
-<link rel="canonical" href="https://trending.cosolution.cc/">
+<title>GitHub Trending 全景 · Trending Scope</title>
+<link rel="canonical" href="https://trending.cosolution.cc/index-zh">
 <link rel="alternate" hreflang="zh-CN" href="https://trending.cosolution.cc/index-zh">
 <link rel="alternate" hreflang="en" href="https://trending.cosolution.cc/">
 <link rel="alternate" hreflang="x-default" href="https://trending.cosolution.cc/">
 <link rel="icon" type="image/png" sizes="512x512" href="favicon.png">
-<meta name="description" content="Turn github.com/trending into an interactive bilingual one-page report: daily / weekly / monthly boards × 7 language filters, deep dives and on-chart tracking, auto-updated every day.">
+<meta name="description" content="把 github.com/trending 变成一页双语全景报告：每日 / 每周 / 每月榜 × 7 个语言筛选，上榜仓库深度解析与在榜追踪，每天自动更新。">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Trending Scope">
-<meta property="og:title" content="GitHub Trending Scope · Daily deep dives">
-<meta property="og:description" content="Today's GitHub Trending with deep dives: daily / weekly / monthly boards × language filters, repo write-ups + on-chart tracking, auto-updated every day.">
-<meta property="og:url" content="https://trending.cosolution.cc/">
-<meta property="og:image" content="https://trending.cosolution.cc/og-en.png">
+<meta property="og:title" content="GitHub Trending 全景 · Trending Scope">
+<meta property="og:description" content="每日 GitHub 热榜深度解析：每日 / 每周 / 每月榜 × 语言筛选，上榜仓库点评 + 在榜追踪，每天自动更新。">
+<meta property="og:url" content="https://trending.cosolution.cc/index-zh">
+<meta property="og:image" content="https://trending.cosolution.cc/og-zh.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Trending Scope preview: today's GitHub Trending and board stats">
-<meta property="og:locale" content="en_US">
+<meta property="og:image:alt" content="Trending Scope 站点预览：今日 GitHub 热榜与上榜仓库统计">
+<meta property="og:locale" content="zh_CN">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="GitHub Trending Scope · Daily deep dives">
-<meta name="twitter:description" content="Today's GitHub Trending with deep dives: daily / weekly / monthly boards × language filters, repo write-ups + on-chart tracking, auto-updated every day.">
-<meta name="twitter:image" content="https://trending.cosolution.cc/og-en.png">
+<meta name="twitter:title" content="GitHub Trending 全景 · Trending Scope">
+<meta name="twitter:description" content="每日 GitHub 热榜深度解析：每日 / 每周 / 每月榜 × 语言筛选，上榜仓库点评 + 在榜追踪，每天自动更新。">
+<meta name="twitter:image" content="https://trending.cosolution.cc/og-zh.png">
 <script>!function(){try{var t=localStorage.getItem("ts-theme");if(t!=="dark"&&t!=="light"){t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}document.documentElement.dataset.theme=t}catch(e){document.documentElement.dataset.theme="light"}}()</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,11 +42,11 @@
   html{scroll-behavior:smooth}
   :focus-visible{outline:3px solid var(--acc2);outline-offset:3px}
   body{
-    font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+    font-family:-apple-system,BlinkMacSystemFont,"SF Pro SC","PingFang SC","Segoe UI",Roboto,sans-serif;
     background:var(--bg); color:var(--txt); overflow-x:hidden;
     -webkit-font-smoothing:antialiased;
   }
-  /* ---------- Background ---------- */
+  /* ---------- 背景 ---------- */
   .aurora{position:fixed; inset:0; z-index:-2; overflow:hidden}
   .aurora .blob{position:absolute; border-radius:50%; filter:blur(120px); will-change:transform}
   .b1{width:54vw;height:54vw;left:-14vw;top:-18vw;background:radial-gradient(circle,#f3c39a,transparent 65%);opacity:.55;animation:drift1 26s ease-in-out infinite alternate}
@@ -57,7 +57,7 @@
   @keyframes drift3{to{transform:translate(-10vw,-8vh) scale(1.15)}}
   .grain{position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:.05;
     background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.6'/%3E%3C/svg%3E");}
-  /* ---------- Nav ---------- */
+  /* ---------- 顶部导航 ---------- */
   header.nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);
     background:linear-gradient(180deg,rgba(246,241,231,.92),rgba(246,241,231,.6));
     border-bottom:1px solid var(--line)}
@@ -84,16 +84,16 @@
     background-size:250% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;
     animation:gradShift 7s linear infinite}
   @keyframes gradShift{to{background-position:250% 0}}
-  .hero p.sub{color:var(--sub);font-size:clamp(14px,1.6vw,17px);max-width:740px;margin:0 auto;line-height:1.75;animation:fadeUp .8s .4s both}
+  .hero p.sub{color:var(--sub);font-size:clamp(14px,1.6vw,17px);max-width:700px;margin:0 auto;line-height:1.75;animation:fadeUp .8s .4s both}
   @keyframes fadeUp{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
-  /* ---------- Stats ---------- */
+  /* ---------- 统计条 ---------- */
   .stats{max-width:980px;margin:44px auto 0;display:grid;grid-template-columns:repeat(4,1fr);gap:14px;padding:0 24px;animation:fadeUp .8s .55s both}
   .stat{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 12px;
     box-shadow:0 2px 10px #8a7a5a14;transition:transform .3s,border-color .3s,box-shadow .3s}
   .stat:hover{transform:translateY(-4px);border-color:#cf4a1f66;box-shadow:0 10px 24px -8px #cf4a1f33}
   .stat .num{font-size:clamp(24px,3.4vw,36px);font-weight:800;color:var(--txt)}
   .stat .lbl{color:var(--dim);font-size:12.5px;margin-top:6px;letter-spacing:.5px}
-  /* ---------- Charts ---------- */
+  /* ---------- 图表区 ---------- */
   .insight{max-width:1240px;margin:56px auto 0;padding:0 24px;display:grid;grid-template-columns:340px 1fr;gap:22px}
   .panel{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:26px;box-shadow:0 2px 12px #8a7a5a12}
   .panel h3{font-size:15px;color:var(--sub);font-weight:600;letter-spacing:1px;margin-bottom:18px;display:flex;align-items:center;gap:8px}
@@ -112,7 +112,7 @@
   .bar-row .tr{height:9px;border-radius:99px;background:#ece3cf;overflow:hidden}
   .bar-row .fl{display:block;height:100%;border-radius:99px;width:0;background:linear-gradient(90deg,var(--acc1),#e07b39);transition:width 1s cubic-bezier(.6,0,.2,1)}
   .bar-row .vl{text-align:right;color:var(--txt);font-weight:700;font-variant-numeric:tabular-nums}
-  /* ---------- Toolbar ---------- */
+  /* ---------- 工具栏 ---------- */
   .toolbar{max-width:1240px;margin:52px auto 26px;padding:0 24px;display:flex;flex-wrap:wrap;gap:12px;align-items:center}
   .ranges{display:flex;gap:4px;background:var(--card);border:1px solid var(--line);border-radius:13px;padding:4px;box-shadow:0 2px 8px #8a7a5a10}
   .ranges .rb{padding:7px 16px;min-height:44px;border:0;background:transparent;border-radius:9px;font-family:inherit;font-size:13px;font-weight:600;color:var(--sub);cursor:pointer;transition:.25s;user-select:none;white-space:nowrap}
@@ -129,7 +129,7 @@
   .search input:focus{border-color:var(--acc2);box-shadow:0 0 0 3px #0e6f6322;width:270px}
   .search svg{position:absolute;left:12px;top:50%;transform:translateY(-50%)}
   .sortsel{padding:10px 14px;min-height:44px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--sub);font-size:13px;cursor:pointer}
-  /* ---------- Cards ---------- */
+  /* ---------- 卡片 ---------- */
   .grid{max-width:1240px;margin:0 auto;padding:0 24px 30px;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(350px,100%),1fr));gap:20px}
   .card{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;cursor:pointer;
     position:relative;box-shadow:0 2px 10px #8a7a5a12;
@@ -157,7 +157,7 @@
   .stars{color:var(--gold);font-weight:700;display:inline-flex;align-items:center;gap:5px}
   .today{color:var(--acc2);font-weight:700}
   .empty{grid-column:1/-1;text-align:center;color:var(--dim);padding:70px 0;font-size:15px}
-  /* ---------- On-chart tracking ---------- */
+  /* ---------- 在榜追踪 ---------- */
   .trkb{font-size:11px;padding:3px 9px;border-radius:99px;border:1px solid #0e6f6355;color:var(--acc2);background:#0e6f630e;font-weight:600;line-height:1.5;white-space:nowrap}
   .trkb.new{color:var(--acc1);border-color:#cf4a1f55;background:#cf4a1f12}
   .trkb.back{color:var(--acc3);border-color:#b07a1e55;background:#b07a1e0e}
@@ -165,7 +165,7 @@
   .spark{width:100%;height:44px;display:block}
   .spark-cap{display:flex;justify-content:space-between;font-size:11px;color:var(--dim);margin-top:4px;font-variant-numeric:tabular-nums}
   .spark-note{font-size:11.5px;color:var(--dim);margin-top:6px}
-  /* ---------- Modal ---------- */
+  /* ---------- 弹窗 ---------- */
   .overlay{position:fixed;inset:0;z-index:100;background:#221d15b8;backdrop-filter:blur(10px);
     display:grid;place-items:center;padding:24px;opacity:0;pointer-events:none;transition:opacity .3s}
   .overlay.open{opacity:1;pointer-events:auto}
@@ -355,58 +355,58 @@
 <header class="nav">
   <div class="nav-inner">
     <div class="logo" aria-hidden="true">⌥</div>
-    <div class="nav-title">Trending Scope<small>GitHub Trending at a glance</small></div>
+    <div class="nav-title">Trending Scope<small>GitHub 趋势全景</small></div>
     <div class="nav-right">
-      <a href="#explore" class="nav-project">Deep dives</a>
-      <button class="themebtn" id="themebtn" aria-label="Toggle theme"></button>
-      <a href="index-zh.html" class="lang">中文</a>
+      <a href="#explore" class="nav-project">项目解析</a>
+      <button class="themebtn" id="themebtn" aria-label="切换主题"></button>
+      <a href="index.html" class="lang">EN</a>
       <a href="https://github.com/trending" class="nav-source" target="_blank" rel="noopener">github.com/trending ↗</a>
     </div>
   </div>
 </header>
 
 <section class="hero">
-  <span class="kicker"><span class="pulse"></span><span id="kicktxt">Loading data…</span></span>
-  <h1>Today's GitHub Trending<br><span class="grad" id="headline"></span></h1>
+  <span class="kicker"><span class="pulse"></span><span id="kicktxt">数据加载中…</span></span>
+  <h1>今日 GitHub 热榜<br><span class="grad" id="headline"></span></h1>
   <p class="sub" id="sub"></p>
 </section>
 
 <section class="stats" id="stats">
-  <div class="stat"><div class="num" id="st1">0</div><div class="lbl">Trending repos</div></div>
-  <div class="stat"><div class="num" id="st2">0</div><div class="lbl">Combined stars</div></div>
-  <div class="stat"><div class="num" id="st3">0</div><div class="lbl">Agent tooling share</div></div>
-  <div class="stat"><div class="num" id="st4">0</div><div class="lbl">Languages covered</div></div>
+  <div class="stat"><div class="num" id="st1">0</div><div class="lbl">上榜仓库</div></div>
+  <div class="stat"><div class="num" id="st2">0</div><div class="lbl">合计 Stars</div></div>
+  <div class="stat"><div class="num" id="st3">0</div><div class="lbl">Agent 工具链占比</div></div>
+  <div class="stat"><div class="num" id="st4">0</div><div class="lbl">覆盖编程语言</div></div>
 </section>
 
 <section class="insight">
   <div class="panel">
-    <h3>BY CATEGORY</h3>
+    <h3>分类分布</h3>
     <div class="donut-wrap">
       <svg class="donut" aria-hidden="true" width="130" height="130" viewBox="0 0 130 130" id="donut"></svg>
       <div class="legend" id="legend"></div>
     </div>
   </div>
   <div class="panel">
-    <h3 id="barstitle">TOP 8 BY STARS</h3>
+    <h3 id="barstitle">Star 热度 TOP 8</h3>
     <div class="bars" id="bars"></div>
   </div>
 </section>
 
 <section class="toolbar" id="explore">
-  <div class="ranges" id="ranges" role="group" aria-label="Chart period"></div>
-  <select class="sortsel" id="langsel" aria-label="Programming language"></select>
-  <div class="chips" id="chips" role="group" aria-label="Repository category"></div>
+  <div class="ranges" id="ranges" role="group" aria-label="榜单周期"></div>
+  <select class="sortsel" id="langsel" aria-label="编程语言"></select>
+  <div class="chips" id="chips" role="group" aria-label="项目分类"></div>
   <div class="search">
     <svg aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#a3967f" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-    <input id="q" type="search" aria-label="Search repositories or keywords" placeholder="Search repos or keywords…">
+    <input id="q" type="search" aria-label="搜索项目或关键词" placeholder="搜索项目 / 关键词…">
   </div>
-  <select class="sortsel" id="sort" aria-label="Sort repositories">
-    <option value="rank">Trending rank</option>
-    <option value="stars-desc">Stars: high → low</option>
-    <option value="stars-asc">Stars: low → high</option>
-    <option value="name">Name A → Z</option>
+  <select class="sortsel" id="sort" aria-label="排序方式">
+    <option value="rank">按榜单排名</option>
+    <option value="stars-desc">Stars 从高到低</option>
+    <option value="stars-asc">Stars 从低到高</option>
+    <option value="name">按名称 A→Z</option>
   </select>
-  <div class="views" id="views" role="group" aria-label="View layout"></div>
+  <div class="views" id="views" role="group" aria-label="视图方式"></div>
 </section>
 
 <main class="grid" id="grid"></main>
@@ -417,70 +417,70 @@
 
 <footer>
   <span id="foot1">Trending Scope</span><br>
-  Basis: Repositories · Daily / Weekly / Monthly × 7 language filters · logged out — sign-in may show a different list<br>
-  For reference only · click any card for a deep dive
+  榜单口径：Repositories · 每日 / 每周 / 每月 × 7 个语言筛选 · 未登录 —— 登录账号可能看到不同结果<br>
+  仅供学习参考 · 点击卡片可查看每个项目的深度解析
 </footer>
 
 <script src="data.js"></script>
 <script>
-/* ---------- Locale UI strings ---------- */
-const LOCALE = "en";
+/* ---------- 语言相关 UI 文案 ---------- */
+const LOCALE = "zh";
 const L = {
-  multiLang: "Multi-lang",
-  langAll: "All languages",
-  ranges: {daily:"Daily", weekly:"Weekly", monthly:"Monthly"},
-  rangeShort: {daily:"today", weekly:"this week", monthly:"this month"},
-  gain: (t,b) => `${t} ${L.rangeShort[b]}`,
-  kicker: (date,rng,lang,n) => `Auto-updated daily · ${date} · ${rng} · ${lang} · ${n} repos`,
-  all: n => `All · ${n}`,
-  empty: "No matches — try another keyword.",
-  err: "Failed to load data: make sure data.js sits next to this page.",
-  rankSub: (r,b) => `${L.ranges[b]} rank #${r}`,
-  autoTag: "⚡ Auto summary",
-  secs: {what:"◆ WHAT IT DOES", content:"◆ WHAT'S INSIDE", stack:"◆ TECH STACK", uses:"◆ USE CASES", hot:"◆ WHY IT'S HOT"},
-  openBtn: "Open on GitHub ↗",
-  backBtn: "Back to list",
-  titleSuffix: d => `GitHub Trending Scope · ${d}`,
-  langSuffix: "",
-  trackSec: "◆ ON-CHART TRACKING",
-  streak: n => `${n}d on chart`,
-  newBadge: "First time",
-  backBadge: "Back on chart",
-  trackInfo: t => t.is_new ? "First appearance today"
-                : t.is_back ? `Back on chart · first seen ${t.first}`
-                : t.days === 0 ? `Not on today's all-language daily chart · last seen ${(t.hist&&t.hist.length)?t.hist[t.hist.length-1].d:t.first}`
-                : t.days <= 1 ? "Tracking starts today"
-                : `${t.days} consecutive days · first seen ${t.first}`,
-  collecting: d => `(trend data accumulates daily from ${d})`,
-  toDark: "Switch to dark mode",
-  toLight: "Switch to light mode",
-  viewGrid: "Cards",
-  viewList: "List",
-  lhRepo: "Repo",
-  lhLang: "Language",
+  multiLang: "多语言",
+  langAll: "全语言",
+  ranges: {daily:"每日榜", weekly:"每周榜", monthly:"每月榜"},
+  rangeShort: {daily:"今日", weekly:"本周", monthly:"本月"},
+  gain: (t,b) => `${L.rangeShort[b]} ${t}`,
+  kicker: (date,rng,lang,n) => `每日自动更新 · ${date} · ${rng} · ${lang} · ${n} 个仓库`,
+  all: n => `全部 · ${n}`,
+  empty: "没有匹配的项目，换个关键词试试？",
+  err: "数据加载失败：请确认 data.js 与本页面在同一目录。",
+  rankSub: (r,b) => `${L.ranges[b]}排名 #${r}`,
+  autoTag: "⚡ 自动摘要",
+  secs: {what:"◆ 是做什么的", content:"◆ 仓库里有什么", stack:"◆ 技术栈", uses:"◆ 应用场景", hot:"◆ 为什么火"},
+  openBtn: "在 GitHub 打开 ↗",
+  backBtn: "返回列表",
+  titleSuffix: d => `GitHub Trending 全景 · ${d}`,
+  langSuffix: " 种",
+  trackSec: "◆ 在榜追踪",
+  streak: n => `在榜 ${n} 天`,
+  newBadge: "首次上榜",
+  backBadge: "回榜",
+  trackInfo: t => t.is_new ? "今日首次上榜"
+                : t.is_back ? `回榜 · 首次出现 ${t.first}`
+                : t.days === 0 ? `未在今日每日·全语言榜 · 最后出现 ${(t.hist&&t.hist.length)?t.hist[t.hist.length-1].d:t.first}`
+                : t.days <= 1 ? "在榜追踪今日启动"
+                : `连续在榜 ${t.days} 天 · 首次出现 ${t.first}`,
+  collecting: d => `（趋势数据自 ${d} 起逐日积累）`,
+  toDark: "切换到暗色模式",
+  toLight: "切换到亮色模式",
+  viewGrid: "卡片",
+  viewList: "列表",
+  lhRepo: "仓库",
+  lhLang: "语言",
   lhStars: "Stars",
-  lhCat: "Category",
-  gainCol: b => `Gained ${L.rangeShort[b]}`,
-  barsTitle: b => `TOP 8 gained ${L.rangeShort[b]}`,
-  copyBtn: "Copy Markdown",
-  copied: "Copied ✓",
-  compareAdd: "Add to compare",
-  compareRemove: "Remove from compare",
-  compareLabel: (full,on) => `${on?L.compareRemove:L.compareAdd}: ${full}`,
-  openRepo: full => `Open ${full} details`,
-  removeCompare: full => `Remove from compare: ${full}`,
-  close: "Close",
-  trayText: n => `${n}/3 selected`,
-  compareGo: "Compare now",
-  compareClear: "Clear",
-  compareTitle: "Repo comparison",
-  rows: {rank:"Rank", stars:"Stars", gain:"Gained", lang:"Language", cat:"Category", track:"On chart", tag:"Positioning", what:"What it does", stack:"Tech stack", uses:"Use cases", hot:"Why it's hot"}
+  lhCat: "分类",
+  gainCol: b => `${L.rangeShort[b]}新增`,
+  barsTitle: b => `${L.rangeShort[b]}新增 TOP 8`,
+  copyBtn: "复制 Markdown",
+  copied: "已复制 ✓",
+  compareAdd: "加入对比",
+  compareRemove: "移出对比",
+  compareLabel: (full,on) => `${on?L.compareRemove:L.compareAdd}：${full}`,
+  openRepo: full => `打开 ${full} 详情`,
+  removeCompare: full => `移出对比：${full}`,
+  close: "关闭",
+  trayText: n => `已选 ${n}/3`,
+  compareGo: "开始对比",
+  compareClear: "清空",
+  compareTitle: "项目对比",
+  rows: {rank:"排名", stars:"Stars", gain:"区间新增", lang:"语言", cat:"分类", track:"在榜", tag:"定位", what:"是做什么的", stack:"技术栈", uses:"应用场景", hot:"为什么火"}
 };
 
 const LANGC = {Python:"#3572A5",TypeScript:"#3178c6",JavaScript:"#d4b014",Java:"#b07219",Rust:"#c4743a",Shell:"#6a9e3f",Markdown:"#4a7ba6",CSS:"#884ea0","C++":"#f34b7d",HTML:"#e34c26",Go:"#00ADD8",Jupyter:"#DA5B0B",C:"#555555","C#":"#178600",Kotlin:"#A97BFF",Swift:"#F05138",PHP:"#4F5D95",Ruby:"#701516"};
 const RANGES = ["daily","weekly","monthly"];
 
-/* ---------- State & helpers ---------- */
+/* ---------- 状态 & 工具 ---------- */
 const $ = s => document.querySelector(s);
 const state = {board:"daily", lang:"all", cat:"all", q:"", sort:"rank", view:(()=>{try{const v=localStorage.getItem("ts-view");return v==="list"?"list":"grid"}catch(e){return "grid"}})()};
 let D = null, REG = {}, USES = {}, CATS = {}, openSlug = null, lastModalFocus = null;
@@ -490,7 +490,7 @@ const esc = s => String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/"
 const langLabel = r => r.lang || L.multiLang;
 const langColor = r => r.lang ? (LANGC[r.lang]||"#888") : "#8a7f68";
 
-/* ---------- Active board list ---------- */
+/* ---------- 当前看板列表 ---------- */
 function activeList(){
   const b = D.boards[state.board] || {};
   const arr = b[state.lang] || b.all || [];
@@ -500,7 +500,7 @@ function activeList(){
   }).filter(Boolean);
 }
 
-/* ---------- Tracking badges & sparkline ---------- */
+/* ---------- 在榜追踪徽章 & 趋势 ---------- */
 const trackBadge = r => {
   const t = r.track; if(!t) return "";
   if(t.is_new)  return `<span class="trkb new">${L.newBadge}</span>`;
@@ -530,7 +530,7 @@ const trackSec = r => {
   </div>`;
 };
 
-/* ---------- Count-up ---------- */
+/* ---------- 数字滚动 ---------- */
 function countUp(el){
   const n = +el.dataset.n, suf = el.dataset.suf||"", dec = +(el.dataset.dec||0), t0 = performance.now(), dur = 1400;
   requestAnimationFrame(function f(t){ const p=Math.min(1,(t-t0)/dur), e=1-Math.pow(1-p,3);
@@ -569,7 +569,7 @@ function initTheme(){
   };
 }
 
-/* ---------- Bootstrap from data.js ---------- */
+/* ---------- 从 data.js 引导 ---------- */
 function bootstrap(){
   D = window.TRENDING_DATA;
   if(!D || !D.boards || !D.repos || !D.repos.length){
@@ -587,14 +587,14 @@ function bootstrap(){
     };
     USES[r.slug] = (r[LOCALE]||{}).uses||[];
   });
-  parseHash();           // parse #board=&lang= before first render
-  /* capture #repo=xxx first — syncHash inside refreshAll rewrites the hash */
+  parseHash();           // 先解析 #board=&lang=，再渲染
+  /* 先取出 #repo=xxx —— refreshAll 里的 syncHash 会重写 hash，必须在重写前捕获 */
   const m = location.hash.match(/repo=([A-Za-z0-9._-]+)/);
   initTheme();
   applyMeta(D.meta);
   refreshAll();
   window.__booted = true;
-  /* #repo=xxx deep link (also used by self-checks) */
+  /* 支持 #repo=xxx 直接打开弹窗（也便于自检） */
   if(m) setTimeout(()=>openModal(m[1]),600);
 }
 
@@ -632,7 +632,7 @@ function updateKicker(){
   $("#kicktxt").textContent = L.kicker(D.meta.date, L.ranges[state.board], langName, n);
 }
 
-/* Full refresh after board/lang switch */
+/* 切换口径/语言后的整体刷新 */
 function refreshAll(){
   renderRanges(); renderLangs();
   updateKicker();
@@ -641,7 +641,7 @@ function refreshAll(){
   syncHash();
 }
 
-/* ---------- Range switcher ---------- */
+/* ---------- 口径切换器 ---------- */
 function renderRanges(){
   $("#ranges").innerHTML = RANGES.map(b=>
     `<button type="button" class="rb${b===state.board?" on":""}" data-b="${b}" aria-pressed="${b===state.board}">${L.ranges[b]}</button>`).join("");
@@ -650,7 +650,7 @@ function renderRanges(){
   });
 }
 
-/* ---------- Language filter ---------- */
+/* ---------- 语言筛选 ---------- */
 function renderLangs(){
   const sel = $("#langsel");
   sel.innerHTML = D.langs.map(l=>
@@ -676,7 +676,7 @@ function initStats(){
   });
 }
 
-/* ---------- Category donut ---------- */
+/* ---------- 分类环形图 ---------- */
 function renderDonut(){
   const LIST = activeList(), total = LIST.length || 1;
   const svg = $("#donut"), legend = $("#legend");
@@ -701,7 +701,7 @@ function renderDonut(){
   },200));
 }
 
-/* ---------- TOP8 bars ---------- */
+/* ---------- TOP8 条形图 ---------- */
 function renderBars(){
   const LIST = activeList();
   $("#barstitle").textContent = L.barsTitle(state.board);
@@ -719,7 +719,7 @@ function renderBars(){
   },60));
 }
 
-/* ---------- Filter chips ---------- */
+/* ---------- 筛选 chips ---------- */
 function renderChips(){
   const LIST = activeList();
   const counts = {all:LIST.length}; LIST.forEach(r=>counts[r.cat]=(counts[r.cat]||0)+1);
@@ -821,7 +821,7 @@ function renderGrid(){
   wireItems(g);
 }
 
-/* ---------- Clipboard (with fallback) ---------- */
+/* ---------- 剪贴板（含降级） ---------- */
 function copyText(t, ok){
   if(navigator.clipboard && navigator.clipboard.writeText){
     navigator.clipboard.writeText(t).then(ok, ()=>fallbackCopy(t, ok));
@@ -835,7 +835,7 @@ function fallbackCopy(t, ok){
   document.body.removeChild(ta);
 }
 
-/* ---------- Repo comparison ---------- */
+/* ---------- 项目对比 ---------- */
 let CMP = [];
 const inCmp = r => CMP.includes(r.slug.toLowerCase());
 function toggleCompare(sl){
@@ -928,7 +928,7 @@ function openCompare(){
   $("#mclose").onclick = closeModal;
 }
 
-/* ---------- Modal ---------- */
+/* ---------- 弹窗 ---------- */
 function findRepo(s){
   s = s.toLowerCase();
   const scan = (b,l)=>{
@@ -1022,7 +1022,7 @@ document.addEventListener("keydown",e=>{
   else if(!e.shiftKey && document.activeElement===last){ e.preventDefault(); first.focus(); }
 });
 
-/* ---------- Search & sort & language ---------- */
+/* ---------- 搜索 & 排序 & 语言 ---------- */
 let deb;
 $("#q").addEventListener("input",e=>{
   clearTimeout(deb);
@@ -1031,7 +1031,7 @@ $("#q").addEventListener("input",e=>{
 $("#sort").addEventListener("change",e=>{ state.sort=e.target.value; renderGrid(); });
 $("#langsel").addEventListener("change",e=>{ state.lang=e.target.value; refreshAll(); });
 
-/* ---------- Init ---------- */
+/* ---------- 初始化 ---------- */
 bootstrap();
 </script>
 </body>

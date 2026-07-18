@@ -39,6 +39,7 @@ class AutomationContractTests(unittest.TestCase):
     def test_workflow_serializes_updates_and_tracks_archives(self):
         self.assertRegex(self.workflow, r"(?m)^concurrency:")
         self.assertIn("git add data.json data.js archive/", self.workflow)
+        self.assertIn("cp index.html index-zh.html index-en.html", self.workflow)
         self.assertIn("pages deploy dist", self.workflow)
         self.assertNotIn("pages deploy . ", self.workflow)
 
@@ -74,7 +75,7 @@ class FrontendAccessibilityContractTests(unittest.TestCase):
         return (high + 0.05) / (low + 0.05)
 
     def test_both_locales_include_keyboard_and_modal_contracts(self):
-        for name in ("index.html", "index-en.html"):
+        for name in ("index.html", "index-zh.html"):
             with self.subTest(name=name):
                 text = (ROOT / name).read_text(encoding="utf-8")
                 self.assertIn('aria-hidden="true"', text)
@@ -89,6 +90,20 @@ class FrontendAccessibilityContractTests(unittest.TestCase):
                 self.assertIn("object-src 'none'", text)
                 self.assertIn('rel="canonical"', text)
                 self.assertEqual(text.count('rel="alternate"'), 3)
+
+    def test_english_is_default_and_chinese_remains_switchable(self):
+        english = (ROOT / "index.html").read_text(encoding="utf-8")
+        chinese = (ROOT / "index-zh.html").read_text(encoding="utf-8")
+        legacy = (ROOT / "index-en.html").read_text(encoding="utf-8")
+
+        self.assertIn('<html lang="en">', english)
+        self.assertIn('<link rel="canonical" href="https://trending.cosolution.cc/">', english)
+        self.assertIn('<a href="index-zh.html" class="lang">中文</a>', english)
+        self.assertIn('<html lang="zh-CN">', chinese)
+        self.assertIn('<link rel="canonical" href="https://trending.cosolution.cc/index-zh">', chinese)
+        self.assertIn('<a href="index.html" class="lang">EN</a>', chinese)
+        self.assertIn('window.location.search + window.location.hash', legacy)
+        self.assertIn('<meta name="robots" content="noindex">', legacy)
 
     def test_light_theme_small_text_colors_meet_wcag_aa(self):
         for color in ("#6f6452", "#776c5b", "#b83d15", "#0e6f63", "#8a5c0c", "#805900"):

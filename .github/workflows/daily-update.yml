@@ -69,7 +69,7 @@ jobs:
         if: ${{ env.CLOUDFLARE_API_TOKEN != '' && env.CLOUDFLARE_ACCOUNT_ID != '' }}
         run: |
           mkdir -p dist
-          cp index.html index-en.html data.json data.js favicon.png og-zh.png og-en.png dist/
+          cp index.html index-zh.html index-en.html data.json data.js favicon.png og-zh.png og-en.png dist/
           cp -R archive videos dist/
 
       - name: Publish Cloudflare Pages bundle
