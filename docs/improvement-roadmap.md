@@ -11,7 +11,7 @@
   - `scripts/update.py` —— 直连 `github.com/trending` 抓取当日榜单（Repositories · Today · All languages · 未登录口径），解析排名 / 描述 / 语言 / 总 stars / 今日新增。
   - 已在榜仓库**保留人工撰写的深度解析**，只更新排名与 star 数；新上榜仓库自动生成带 `⚡ 自动摘要` 标记的条目（取自 GitHub 描述），待人工补充精评。
   - `.github/workflows/daily-update.yml` —— GitHub Actions 每天 **00:23 UTC（北京时间 08:23）** 自动运行，数据有变化才提交，推送后 GitHub Pages 自动重新发布。也可在 Actions 页手动触发（workflow_dispatch）。
-- **保护**：解析结果少于 10 个仓库（页面结构变更）时脚本直接失败退出，不会用坏数据覆盖 `data.json`。
+- **保护**：21 个榜单均三次重试并校验完整矩阵、最低条目数、连续排名与重复项；任一榜单异常即失败，不覆盖数据。
 
 ### 2. 数据与页面分离（本轮完成 · 2026-07-17）
 - **问题**：数据硬编码在两个 HTML 文件里，中英两份各自维护，改数据必须动页面。
@@ -30,7 +30,7 @@
 - 日历式历史榜单回看（按日期切换查看往日榜单）留待后续，归档数据已具备。
 
 ### 4. 榜单口径切换（本轮完成 · 2026-07-17）
-- **抓取**：update.py 重写为多口径版 —— 每日 / 每周 / 每月 × 7 个语言筛选（All / Python / TypeScript / JavaScript / Rust / Go / C++）共 **21 个榜单**一次抓全（`github.com/trending/<lang>?since=` 原生口径）。单榜失败只告警跳过，主榜（每日·全语言）解析少于 10 个才失败退出。
+- **抓取**：update.py 重写为多口径版 —— 每日 / 每周 / 每月 × 7 个语言筛选（All / Python / TypeScript / JavaScript / Rust / Go / C++）共 **21 个榜单**一次抓全（`github.com/trending/<lang>?since=` 原生口径）；现已改为任一榜单失败或不完整即整轮失败，避免发布部分数据。
 - **数据结构 schema 2**：`boards.{daily|weekly|monthly}.<lang>` 存各榜排名 / stars / 区间新增；`repos[]` 改为按 `full` 去重的**注册表**（本轮 285 个仓库：17 个人工精评保留 + 268 个自动摘要），双语字段只存一份，`data.json` 433 KB。
 - **在榜追踪口径不变**：`track` 仍只从每日·全语言归档计算，语言榜 / 周月榜不干扰连续在榜语义。
 - **前端**：
@@ -87,4 +87,4 @@
 
 ## 可选增强 / Optional
 
-- **Cloudflare Pages 同步**：生产域名 trending.cosolution.cc 目前经 wrangler 手动部署。如需 Actions 自动部署，配置 `CLOUDFLARE_API_TOKEN` + `CLOUDFLARE_ACCOUNT_ID` 两个 Secrets 后在 workflow 里加一步 `cloudflare/wrangler-action`。
+- **Cloudflare Pages 同步**：workflow 已包含条件部署；配置 `CLOUDFLARE_API_TOKEN` + `CLOUDFLARE_ACCOUNT_ID` 两个 Secrets 后自动同步 `trending-scope`，未配置时安全跳过。

@@ -12,7 +12,7 @@
 规则：
 - 已在册的仓库：保留人工撰写的 zh/en 深度解析，仅更新动态字段。
 - 新出现的仓库：自动生成带 auto 标记的简摘要（取自 GitHub 描述），待人工补充精评。
-- 每日·全语言主榜解析少于 --min-repos 个（页面结构变更）时失败退出，绝不覆盖现有数据。
+- 任一预期榜单抓取失败、缺失或解析数量不足时失败退出，绝不发布部分数据。
 - 可选 LLM 精评：配置环境变量后，每轮对新上榜及历史 auto 仓库调用 OpenAI 兼容
   接口生成双语深度解析（成功后清除 auto 标记，视同人工精评永久保留）；未配置或
   调用失败时保持自动摘要降级。每轮最多处理 --llm-limit 个，新上榜优先。
@@ -55,15 +55,18 @@ GAIN_ZH = {"daily": "今日", "weekly": "本周", "monthly": "本月"}
 GAIN_EN = {"daily": "today", "weekly": "this week", "monthly": "this month"}
 
 CATS = {
-    "agent": {"zh": "Agent 工具链", "en": "Agent Tooling", "color": "#cf4a1f"},
+    "agent": {"zh": "Agent 工具链", "en": "Agent Tooling", "color": "#b83d15"},
     "ai":    {"zh": "AI 应用与模型", "en": "AI Apps & Models", "color": "#0e6f63"},
-    "infra": {"zh": "平台·数据·应用", "en": "Platforms, Data & Apps", "color": "#b07a1e"},
+    "infra": {"zh": "平台·数据·应用", "en": "Platforms, Data & Apps", "color": "#8a5c0c"},
     "other": {"zh": "学习 & 游戏", "en": "Learning & Gaming", "color": "#5a7a3a"},
 }
 
 REQUIRED_REPO_KEYS = ("slug", "full", "rank", "cat", "lang", "stars", "today", "today_n", "auto", "track", "zh", "en")
 REQUIRED_TEXT_KEYS = ("tag", "what", "content", "stack", "hot", "uses")
 HIST_DAYS = 14  # sparkline 最多保留的历史点数
+EXPECTED_BOARDS = tuple((rng, lang_id) for rng in RANGES for lang_id, _ in LANGS)
+FULL_NAME_RE = re.compile(r"^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$")
+SLUG_RE = re.compile(r"^[a-z0-9._-]+$")
 
 
 # ---------------------------------------------------------------- 抓取与解析
@@ -73,10 +76,20 @@ def board_url(lang_id: str, rng: str) -> str:
     return f"{TRENDING_URL}{path}?since={rng}"
 
 
-def fetch_html(url: str, timeout: int = 30) -> str:
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "en-US,en;q=0.9"})
-    with urllib.request.urlopen(req, timeout=timeout) as resp:
-        return resp.read().decode("utf-8", "replace")
+def fetch_html(url: str, timeout: int = 30, retries: int = 3, backoff: float = 1.0) -> str:
+    """抓取页面；瞬时网络错误按指数退避重试，最终错误交给调用方处理。"""
+    last_error = None
+    for attempt in range(retries):
+        req = urllib.request.Request(
+            url, headers={"User-Agent": UA, "Accept-Language": "en-US,en;q=0.9"})
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                return resp.read().decode("utf-8", "replace")
+        except Exception as exc:  # noqa: BLE001 —— 统一重试网络层瞬时失败
+            last_error = exc
+            if attempt + 1 < retries:
+                time.sleep(backoff * (2 ** attempt))
+    raise last_error
 
 
 def _strip_tags(fragment: str) -> str:
@@ -90,14 +103,14 @@ def _to_int(s: str) -> int:
 
 def parse_trending(page: str) -> list:
     """解析 trending 页面，返回 [{full, desc, lang, stars_n, today_n}, ...]（按榜单顺序）。"""
-    chunks = page.split('<article class="Box-row">')[1:]
+    chunks = re.split(r'<article\b[^>]*\bclass="[^"]*\bBox-row\b[^"]*"[^>]*>', page)[1:]
     repos = []
     for ch in chunks:
         m = re.search(r"<h2[^>]*>.*?href=\"/([^\"]+)\"", ch, re.S)
         if not m:
             continue
         full = m.group(1).strip()
-        if "/" not in full:
+        if not FULL_NAME_RE.fullmatch(full):
             continue
         desc_m = re.search(r'<p class="col-9[^"]*">(.*?)</p>', ch, re.S)
         desc = _strip_tags(desc_m.group(1)) if desc_m else ""
@@ -126,16 +139,24 @@ AGENT_KW = ("agent", "mcp", "claude", "codex", "copilot", "cursor", "skill", "op
 OTHER_KW = ("game", "cheat", "mod menu", "gta", "learn", "course", "tutorial", "curriculum",
             "interview", "roadmap", "book", "awesome", "self-taught", "education")
 AI_KW = ("llm", "gpt", "model", "diffusion", "rag", "neural", "transformer", "inference",
-         "machine learning", "deep learning", " ai", "ai ", "ml", "tokenizer", "embedding")
+         "machine learning", "deep learning", "ai", "genai", "openai", "vllm", "ml",
+         "tokenizer", "embedding")
+
+
+def _contains_keyword(text: str, keyword: str) -> bool:
+    """按字母数字边界匹配，避免 `ml` 将 `html` 误判为 AI。"""
+    plural = r"(?:s|es)?" if keyword.isalpha() else ""
+    pattern = rf"(?<![a-z0-9]){re.escape(keyword)}{plural}(?![a-z0-9])"
+    return re.search(pattern, text) is not None
 
 
 def classify(full: str, desc: str) -> str:
     text = (full + " " + desc).lower()
-    if any(k in text for k in AGENT_KW):
+    if any(_contains_keyword(text, k) for k in AGENT_KW):
         return "agent"
-    if any(k in text for k in OTHER_KW):
+    if any(_contains_keyword(text, k) for k in OTHER_KW):
         return "other"
-    if any(k in text for k in AI_KW):
+    if any(_contains_keyword(text, k) for k in AI_KW):
         return "ai"
     return "infra"
 
@@ -345,16 +366,22 @@ def snapshot(date: str, stamp: str, board_entries: list, registry: dict) -> dict
 
 
 def load_archives(archive_dir: str) -> list:
-    """读取全部历史快照，按日期升序。"""
+    """读取全部历史快照，按日期升序；损坏历史会阻止发布错误追踪数据。"""
     out = []
     for p in sorted(glob.glob(os.path.join(archive_dir, "????-??-??.json"))):
         try:
             with open(p, encoding="utf-8") as f:
                 a = json.load(f)
-            if a.get("date") and isinstance(a.get("repos"), list):
-                out.append(a)
-        except (OSError, json.JSONDecodeError):
-            print(f"[update] WARN: skipping unreadable archive {p}", file=sys.stderr)
+        except (OSError, json.JSONDecodeError) as exc:
+            raise ValueError(f"unreadable archive {p}: {exc}") from exc
+        expected_date = os.path.basename(p)[:-5]
+        try:
+            datetime.strptime(expected_date, "%Y-%m-%d")
+        except ValueError as exc:
+            raise ValueError(f"invalid archive filename date: {p}") from exc
+        if a.get("date") != expected_date or not isinstance(a.get("repos"), list):
+            raise ValueError(f"malformed archive {p}: date must match filename and repos must be a list")
+        out.append(a)
     out.sort(key=lambda a: a["date"])
     return out
 
@@ -368,23 +395,27 @@ def compute_track(archives: list, full: str, today_str: str) -> dict:
     is_back:  曾在榜、昨日不在、今日回榜
     hist:     最近 HIST_DAYS 个在榜日 [{d, s, r}]（sparkline 数据）
     """
+    ordered = sorted(archives, key=lambda a: a["date"])
     points = []
-    for a in archives:
+    hits_by_date = {}
+    for a in ordered:
         hit = next((r for r in a["repos"] if r["full"] == full), None)
         if hit:
-            points.append({"d": a["date"], "s": hit["stars"], "r": hit["rank"]})
+            point = {"d": a["date"], "s": hit["stars"], "r": hit["rank"]}
+            points.append(point)
+            hits_by_date[a["date"]] = point
     hist = points[-HIST_DAYS:]
     days = 0
-    for a in reversed(archives):
-        if any(r["full"] == full for r in a["repos"]):
-            days += 1
-        else:
-            break
+    expected = datetime.strptime(today_str, "%Y-%m-%d").date()
+    while expected.isoformat() in hits_by_date:
+        days += 1
+        expected -= timedelta(days=1)
     first = points[0]["d"] if points else today_str
-    is_new = len(points) == 1 and points[0]["d"] == today_str and len(archives) >= 2
+    is_new = len(points) == 1 and points[0]["d"] == today_str and len(ordered) >= 2
+    yesterday = (datetime.strptime(today_str, "%Y-%m-%d").date() - timedelta(days=1)).isoformat()
+    has_yesterday_archive = any(a["date"] == yesterday for a in ordered)
     is_back = (not is_new and len(points) >= 1 and points[-1]["d"] == today_str
-               and len(archives) >= 2
-               and not any(r["full"] == full for r in archives[-2]["repos"]))
+               and has_yesterday_archive and yesterday not in hits_by_date)
     return {"days": days, "first": first, "is_new": is_new, "is_back": is_back, "hist": hist}
 
 
@@ -395,6 +426,8 @@ def build_meta(prev_meta: dict, list_changed: bool, now: datetime, daily_entries
     stamp = now.strftime("%Y-%m-%d %H:%M (CST)")
     n = len(daily_entries)
     meta = dict(prev_meta or {})
+    meta.pop("kicker_zh", None)
+    meta.pop("kicker_en", None)
     meta.update({
         "date": date,
         "generated_at": stamp,
@@ -403,50 +436,113 @@ def build_meta(prev_meta: dict, list_changed: bool, now: datetime, daily_entries
         "footer_zh": f"Trending Scope · 数据更新于 {stamp}，由自动化管线直连 github.com 抓取",
         "footer_en": f"Trending Scope · Data updated {stamp} by the automated pipeline, fetched directly from github.com",
     })
-    if list_changed or not meta.get("headline_zh"):
-        counts = {}
-        for e in daily_entries:
-            counts[e["cat"]] = counts.get(e["cat"], 0) + 1
-        cat_zh = "、".join(f"{CATS[c]['zh']} {k} 个" for c, k in counts.items())
-        cat_en = ", ".join(f"{k} {CATS[c]['en']}" for c, k in counts.items())
-        top3 = sorted(daily_entries, key=lambda e: -e["today_n"])[:3]
-        top3_zh = "、".join(f"{e['full']}（{e['today']}）" for e in top3)
-        top3_en = ", ".join(f"{e['full']} ({e['today']})" for e in top3)
-        meta["headline_zh"] = "今日热榜全景速递"
-        meta["headline_en"] = "Your daily trending digest"
-        meta["sub_zh"] = (f"{n} 个上榜仓库：{cat_zh}。今日新增 Star 前三：{top3_zh}。"
-                          f"点击任意卡片查看深度解析。")
-        meta["sub_en"] = (f"{n} trending repos: {cat_en}. Biggest star gainers today: {top3_en}. "
-                          f"Click any card for a deep dive.")
+    counts = {}
+    for e in daily_entries:
+        counts[e["cat"]] = counts.get(e["cat"], 0) + 1
+    cat_zh = "、".join(f"{CATS[c]['zh']} {k} 个" for c, k in counts.items())
+    cat_en = ", ".join(f"{k} {CATS[c]['en']}" for c, k in counts.items())
+    top3 = sorted(daily_entries, key=lambda e: -e["today_n"])[:3]
+    top3_zh = "、".join(f"{e['full']}（{e['today']}）" for e in top3)
+    top3_en = ", ".join(f"{e['full']} ({e['today']})" for e in top3)
+    meta["headline_zh"] = "今日热榜全景速递"
+    meta["headline_en"] = "Your daily trending digest"
+    meta["sub_zh"] = (f"{n} 个上榜仓库：{cat_zh}。今日新增 Star 前三：{top3_zh}。"
+                      f"点击任意卡片查看深度解析。")
+    meta["sub_en"] = (f"{n} trending repos: {cat_en}. Biggest star gainers today: {top3_en}. "
+                      f"Click any card for a deep dive.")
     return meta
 
 
 # ---------------------------------------------------------------- 校验
 
-def validate(data: dict, min_repos: int) -> list:
+def validate(data: dict, min_repos: int, min_board_repos: int = 1,
+             require_all_boards: bool = True) -> list:
     errors = []
-    daily = data.get("boards", {}).get("daily", {}).get("all", [])
+    if data.get("schema") != 2:
+        errors.append(f"unsupported schema {data.get('schema')}")
+    meta = data.get("meta", {})
+    for key in ("date", "generated_at", "source", "headline_zh", "headline_en", "sub_zh", "sub_en"):
+        if not meta.get(key):
+            errors.append(f"meta missing {key}")
+    if meta.get("date"):
+        try:
+            datetime.strptime(meta["date"], "%Y-%m-%d")
+        except (TypeError, ValueError):
+            errors.append(f"meta has invalid date {meta.get('date')}")
+    if set(data.get("cats", {})) != set(CATS):
+        errors.append("category definitions do not match expected categories")
+    lang_ids = [item.get("id") for item in data.get("langs", []) if isinstance(item, dict)]
+    if require_all_boards and lang_ids != [lid for lid, _ in LANGS]:
+        errors.append("language definitions do not match expected languages")
+    boards = data.get("boards", {})
+    daily = boards.get("daily", {}).get("all", [])
     if len(daily) < min_repos:
         errors.append(f"daily/all board has only {len(daily)} entries (< {min_repos})")
-    registry = {r["full"] for r in data.get("repos", [])}
-    for rng, langs in data.get("boards", {}).items():
+    if require_all_boards:
+        for rng, lid in EXPECTED_BOARDS:
+            if lid not in boards.get(rng, {}):
+                errors.append(f"missing board {rng}/{lid}")
+
+    repos = data.get("repos", [])
+    fulls = [r.get("full") for r in repos if isinstance(r, dict)]
+    registry = set(fulls)
+    if len(fulls) != len(registry):
+        errors.append("registry contains duplicate full names")
+    for rng, langs in boards.items():
+        if rng not in RANGES or not isinstance(langs, dict):
+            errors.append(f"unexpected or invalid range {rng}")
+            continue
         for lid, entries in langs.items():
+            board_name = f"{rng}/{lid}"
+            if lid not in dict(LANGS):
+                errors.append(f"unexpected language board {board_name}")
+            if not isinstance(entries, list):
+                errors.append(f"board {board_name}: entries is not a list")
+                continue
+            required_count = min_repos if board_name == "daily/all" else min_board_repos
+            if len(entries) < required_count:
+                errors.append(f"board {board_name} has only {len(entries)} entries (< {required_count})")
+            ranks = [e.get("rank") for e in entries if isinstance(e, dict)]
+            if ranks != list(range(1, len(entries) + 1)):
+                errors.append(f"board {board_name}: ranks are not sequential")
+            board_fulls = [e.get("full") for e in entries if isinstance(e, dict)]
+            if len(board_fulls) != len(set(board_fulls)):
+                errors.append(f"board {board_name}: duplicate repo")
             for e in entries:
-                if e["full"] not in registry:
-                    errors.append(f"board {rng}/{lid}: {e['full']} not in registry")
-    if not data.get("repos"):
+                if not isinstance(e, dict):
+                    errors.append(f"board {board_name}: entry is not an object")
+                    continue
+                full = e.get("full")
+                if full not in registry:
+                    errors.append(f"board {board_name}: {full} not in registry")
+                if not isinstance(e.get("stars"), (int, float)) or e.get("stars", -1) < 0:
+                    errors.append(f"board {board_name}: {full} has invalid stars")
+                if not isinstance(e.get("today_n"), int) or e.get("today_n", -1) < 0:
+                    errors.append(f"board {board_name}: {full} has invalid today_n")
+    if not repos:
         errors.append("repos is empty")
         return errors
     slugs = set()
-    for r in data["repos"]:
+    for r in repos:
+        if not isinstance(r, dict):
+            errors.append("registry entry is not an object")
+            continue
         for k in REQUIRED_REPO_KEYS:
             if k not in r:
                 errors.append(f"{r.get('full','?')}: missing key {k}")
         if r.get("cat") not in CATS:
             errors.append(f"{r.get('full','?')}: bad cat {r.get('cat')}")
+        if not isinstance(r.get("full"), str) or not FULL_NAME_RE.fullmatch(r["full"]):
+            errors.append(f"{r.get('full','?')}: invalid GitHub full name")
+        if not isinstance(r.get("slug"), str) or not SLUG_RE.fullmatch(r["slug"]):
+            errors.append(f"{r.get('full','?')}: invalid slug {r.get('slug')}")
         if r.get("slug") in slugs:
             errors.append(f"{r.get('full','?')}: duplicate slug {r.get('slug')}")
         slugs.add(r.get("slug"))
+        if not isinstance(r.get("stars"), (int, float)) or r.get("stars", -1) < 0:
+            errors.append(f"{r.get('full','?')}: bad stars")
+        if not isinstance(r.get("today_n"), int) or r.get("today_n", -1) < 0:
+            errors.append(f"{r.get('full','?')}: bad today_n")
         tr = r.get("track", {})
         if not isinstance(tr.get("hist"), list) or not isinstance(tr.get("days"), int):
             errors.append(f"{r.get('full','?')}: bad track")
@@ -467,11 +563,16 @@ def main() -> int:
     here = os.path.dirname(os.path.abspath(__file__))
     ap.add_argument("--data", default=os.path.join(here, "..", "data.json"), help="data.json 路径")
     ap.add_argument("--min-repos", type=int, default=10, help="主榜解析少于该数量视为页面结构变更，失败退出")
+    ap.add_argument("--min-board-repos", type=int, default=5,
+                    help="任一非主榜解析少于该数量视为部分数据，失败退出（默认 5）")
     ap.add_argument("--html", help="从本地 HTML 文件解析主榜（离线测试用），跳过网络抓取")
     ap.add_argument("--dry-run", action="store_true", help="只打印将要发生的变化，不写文件")
     ap.add_argument("--llm-limit", type=int, default=int(os.environ.get("LLM_LIMIT") or "25"),
                     help="每轮最多 LLM 精评的仓库数（默认 25，可用 env LLM_LIMIT 覆盖）")
     args = ap.parse_args()
+
+    if args.min_repos < 1 or args.min_board_repos < 1 or args.llm_limit < 0:
+        ap.error("--min-repos and --min-board-repos must be >= 1; --llm-limit must be >= 0")
 
     data_path = os.path.abspath(args.data)
 
@@ -494,16 +595,18 @@ def main() -> int:
                     page = fetch_html(url)
                     fetched_boards += 1
                     time.sleep(0.3)
-                except Exception as e:  # noqa: BLE001 —— 单榜失败不拖垮整轮
-                    print(f"[update] WARN: {rng}/{lang_id} fetch failed: {e}", file=sys.stderr)
+                except Exception as e:  # noqa: BLE001 —— 记录失败，最终校验阻止部分数据发布
+                    print(f"[update] ERROR: {rng}/{lang_id} fetch failed after retries: {e}", file=sys.stderr)
                     continue
             lst = parse_trending(page)
             if rng == "daily" and lang_id == "all" and len(lst) < args.min_repos:
                 print(f"[update] ERROR: only {len(lst)} repos parsed on daily/all (< {args.min_repos}). "
                       f"Trending page markup may have changed; existing data left untouched.", file=sys.stderr)
                 return 1
-            if not lst:
-                print(f"[update] WARN: {rng}/{lang_id} parsed 0 repos, skipped", file=sys.stderr)
+            required_count = args.min_repos if (rng == "daily" and lang_id == "all") else args.min_board_repos
+            if len(lst) < required_count:
+                print(f"[update] ERROR: {rng}/{lang_id} parsed {len(lst)} repos (< {required_count})",
+                      file=sys.stderr)
                 continue
             boards[rng][lang_id] = [{
                 "full": r["full"], "rank": i + 1,
@@ -601,7 +704,11 @@ def main() -> int:
     stamp = now.strftime("%Y-%m-%d %H:%M (CST)")
 
     archive_dir = os.path.join(os.path.dirname(data_path), "archive")
-    archives = [a for a in load_archives(archive_dir) if a["date"] != today_str]
+    try:
+        archives = [a for a in load_archives(archive_dir) if a["date"] != today_str]
+    except ValueError as exc:
+        print(f"[update] ERROR: {exc}; existing data left untouched.", file=sys.stderr)
+        return 1
     today_snap = snapshot(today_str, stamp, daily_board, registry)
     archives.append(today_snap)
     for full, entry in registry.items():
@@ -624,7 +731,7 @@ def main() -> int:
         "repos": repos,
     }
 
-    errors = validate(data, args.min_repos)
+    errors = validate(data, args.min_repos, args.min_board_repos, require_all_boards=not bool(args.html))
     if errors:
         print("[update] ERROR: validation failed:", file=sys.stderr)
         for e in errors:
@@ -650,19 +757,25 @@ def main() -> int:
 
     os.makedirs(archive_dir, exist_ok=True)
     arch_path = os.path.join(archive_dir, today_str + ".json")
-    with open(arch_path + ".tmp", "w", encoding="utf-8") as f:
-        f.write(json.dumps(today_snap, ensure_ascii=False, indent=2) + "\n")
-    os.replace(arch_path + ".tmp", arch_path)
-
     payload = json.dumps(data, ensure_ascii=False, indent=2) + "\n"
-    tmp = data_path + ".tmp"
-    with open(tmp, "w", encoding="utf-8") as f:
-        f.write(payload)
-    os.replace(tmp, data_path)
     js_path = os.path.join(os.path.dirname(data_path), "data.js")
-    with open(js_path, "w", encoding="utf-8") as f:
-        f.write("/* Auto-generated from data.json — do not edit by hand. */\n")
-        f.write("window.TRENDING_DATA = " + payload)
+    outputs = {
+        arch_path: json.dumps(today_snap, ensure_ascii=False, indent=2) + "\n",
+        data_path: payload,
+        js_path: "/* Auto-generated from data.json — do not edit by hand. */\nwindow.TRENDING_DATA = " + payload,
+    }
+    try:
+        for path, content in outputs.items():
+            with open(path + ".tmp", "w", encoding="utf-8") as f:
+                f.write(content)
+        for path in outputs:
+            os.replace(path + ".tmp", path)
+    finally:
+        for path in outputs:
+            try:
+                os.unlink(path + ".tmp")
+            except FileNotFoundError:
+                pass
     print(f"[update] wrote {data_path} ({len(payload)//1024} KB) and {js_path}")
     print(f"[update] wrote archive {arch_path}")
     return 0
