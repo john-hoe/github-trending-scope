@@ -1,6 +1,6 @@
 {
   "date": "2026-07-18",
-  "generated_at": "2026-07-18 15:21 (CST)",
+  "generated_at": "2026-07-18 16:15 (CST)",
   "repos": [
     {
       "full": "codecrafters-io/build-your-own-x",
@@ -26,7 +26,7 @@
       "stars": 6.8,
       "today_n": 200,
       "slug": "maths-cs-ai-compendium",
-      "cat": "ai",
+      "cat": "other",
       "lang": "TypeScript"
     },
     {
@@ -53,7 +53,7 @@
       "stars": 1.6,
       "today_n": 45,
       "slug": "cwc-workshops",
-      "cat": "infra",
+      "cat": "agent",
       "lang": "TypeScript"
     },
     {
