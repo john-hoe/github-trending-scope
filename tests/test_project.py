@@ -132,12 +132,24 @@ class FrontendAccessibilityContractTests(unittest.TestCase):
 
         self.assertIn('<html lang="en">', english)
         self.assertIn('<link rel="canonical" href="https://trending.cosolution.cc/">', english)
-        self.assertIn('<a href="/index-zh" class="lang">中文</a>', english)
+        self.assertIn('<a href="index-zh.html" class="lang">中文</a>', english)
         self.assertIn('<html lang="zh-CN">', chinese)
         self.assertIn('<link rel="canonical" href="https://trending.cosolution.cc/index-zh">', chinese)
-        self.assertIn('<a href="/" class="lang">EN</a>', chinese)
+        self.assertIn('<a href="index.html" class="lang">EN</a>', chinese)
         self.assertIn('window.location.search + window.location.hash', legacy)
         self.assertIn('<meta name="robots" content="noindex">', legacy)
+
+    def test_locale_switch_stays_with_the_site_in_portable_contexts(self):
+        english = (ROOT / "index.html").read_text(encoding="utf-8")
+        chinese = (ROOT / "index-zh.html").read_text(encoding="utf-8")
+        english_href = re.search(r'<a href="([^"]+)" class="lang">', english).group(1)
+        chinese_href = re.search(r'<a href="([^"]+)" class="lang">', chinese).group(1)
+
+        self.assertEqual(urljoin((ROOT / "index.html").as_uri(), english_href), (ROOT / "index-zh.html").as_uri())
+        self.assertEqual(urljoin((ROOT / "index-zh.html").as_uri(), chinese_href), (ROOT / "index.html").as_uri())
+        project_root = "https://john-hoe.github.io/github-trending-scope/"
+        self.assertEqual(urljoin(project_root + "index.html", english_href), project_root + "index-zh.html")
+        self.assertEqual(urljoin(project_root + "index-zh.html", chinese_href), project_root + "index.html")
 
     def test_light_theme_small_text_colors_meet_wcag_aa(self):
         for color in ("#6f6452", "#776c5b", "#b83d15", "#0e6f63", "#8a5c0c", "#805900"):
@@ -222,6 +234,11 @@ class SEOProductionContractTests(unittest.TestCase):
             nav = re.search(r'<nav class="seo-board-links".*?</nav>', source, re.S).group(0)
             self.assertEqual(nav.count("<a "), 21)
         english = (self.output / "index.html").read_text(encoding="utf-8")
+        chinese = (self.output / "index-zh.html").read_text(encoding="utf-8")
+        self.assertIn('<a href="/index-zh" class="lang">中文</a>', english)
+        self.assertIn('<a href="/" class="lang">EN</a>', chinese)
+        self.assertNotIn('<a href="index-zh.html" class="lang">中文</a>', english)
+        self.assertNotIn('<a href="index.html" class="lang">EN</a>', chinese)
         self.assertIn('href="https://github.com/HenryNdubuaku/maths-cs-ai-compendium"', english)
         self.assertIn('href="/repos/codecrafters-io/build-your-own-x/"', english)
 
