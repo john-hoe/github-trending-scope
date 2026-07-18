@@ -1,8 +1,13 @@
 import json
 import re
+import subprocess
 import struct
+import sys
+import tempfile
 import unittest
 from pathlib import Path
+from urllib.parse import urljoin, urlsplit
+from xml.etree import ElementTree
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -31,6 +36,21 @@ class DataIntegrityTests(unittest.TestCase):
             [row["full"] for row in data["boards"]["daily"]["all"]],
         )
 
+    def test_indexed_editorial_notes_avoid_volatile_rank_and_star_claims(self):
+        data = json.loads((ROOT / "data.json").read_text(encoding="utf-8"))
+        indexed = set(json.loads((ROOT / "seo-index.json").read_text(encoding="utf-8"))["repos"])
+        volatile = re.compile(
+            r"(?:\d+(?:\.\d+)?k[- ]?star|\+\d|stars? today|today|yesterday|recently|"
+            r"今日|昨天|近期|本周|本月|上线半年|\d+\s*万\s*star)",
+            re.IGNORECASE,
+        )
+        for repo in data["repos"]:
+            if repo["full"] not in indexed:
+                continue
+            for locale in ("en", "zh"):
+                with self.subTest(repo=repo["full"], locale=locale):
+                    self.assertIsNone(volatile.search(repo[locale]["hot"]))
+
 
 class AutomationContractTests(unittest.TestCase):
     def setUp(self):
@@ -39,7 +59,8 @@ class AutomationContractTests(unittest.TestCase):
     def test_workflow_serializes_updates_and_tracks_archives(self):
         self.assertRegex(self.workflow, r"(?m)^concurrency:")
         self.assertIn("git add data.json data.js archive/", self.workflow)
-        self.assertIn("cp index.html index-zh.html index-en.html", self.workflow)
+        self.assertIn("scripts/build_site.py --output dist", self.workflow)
+        self.assertNotIn("cp index.html index-zh.html index-en.html", self.workflow)
         self.assertIn("pages deploy dist", self.workflow)
         self.assertNotIn("pages deploy . ", self.workflow)
 
@@ -62,7 +83,13 @@ class AutomationContractTests(unittest.TestCase):
         self.assertRegex(self.workflow, r"(?m)^\s{6}deploy_only:")
         self.assertIn('type: boolean', self.workflow)
         self.assertEqual(self.workflow.count('if: ${{ inputs.deploy_only != true }}'), 2)
-        self.assertIn("cp index.html index-zh.html index-en.html", self.workflow)
+        self.assertIn("scripts/build_site.py --output dist", self.workflow)
+
+    def test_production_build_runs_before_data_commit(self):
+        build_at = self.workflow.find("scripts/build_site.py --output dist")
+        commit_at = self.workflow.find("git add data.json data.js archive/")
+        self.assertGreaterEqual(build_at, 0)
+        self.assertGreater(commit_at, build_at)
 
     def test_third_party_actions_are_pinned_to_commits(self):
         uses = re.findall(r"(?m)^\s*-?\s*uses:\s*[^@\s]+@([^\s#]+)", self.workflow)
@@ -85,11 +112,12 @@ class FrontendAccessibilityContractTests(unittest.TestCase):
             with self.subTest(name=name):
                 text = (ROOT / name).read_text(encoding="utf-8")
                 self.assertIn('aria-hidden="true"', text)
-                self.assertIn('e.key===" "', text)
                 self.assertIn('aria-pressed=', text)
                 self.assertIn('prefers-reduced-motion:reduce', text)
                 self.assertIn(':focus-visible', text)
                 self.assertIn('class="openhit"', text)
+                self.assertIn('href="${crawlUrl(r)}"', text)
+                self.assertIn('<span class="sr-only">${esc(r.full)}</span>', text)
                 self.assertNotIn('role="button"', text)
                 self.assertNotIn('minmax(350px,1fr)', text)
                 self.assertIn('repo=([A-Za-z0-9._-]+)', text)
@@ -104,10 +132,10 @@ class FrontendAccessibilityContractTests(unittest.TestCase):
 
         self.assertIn('<html lang="en">', english)
         self.assertIn('<link rel="canonical" href="https://trending.cosolution.cc/">', english)
-        self.assertIn('<a href="index-zh.html" class="lang">中文</a>', english)
+        self.assertIn('<a href="/index-zh" class="lang">中文</a>', english)
         self.assertIn('<html lang="zh-CN">', chinese)
         self.assertIn('<link rel="canonical" href="https://trending.cosolution.cc/index-zh">', chinese)
-        self.assertIn('<a href="index.html" class="lang">EN</a>', chinese)
+        self.assertIn('<a href="/" class="lang">EN</a>', chinese)
         self.assertIn('window.location.search + window.location.hash', legacy)
         self.assertIn('<meta name="robots" content="noindex">', legacy)
 
@@ -120,6 +148,134 @@ class FrontendAccessibilityContractTests(unittest.TestCase):
         for color in ("#b3a78e", "#9b907b", "#e45c2d", "#2ba892", "#d09a2e", "#8aa851", "#e0a42c"):
             with self.subTest(color=color):
                 self.assertGreaterEqual(self.contrast(color, "#221c15"), 4.5)
+
+
+class SEOProductionContractTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.temp_dir = tempfile.TemporaryDirectory()
+        cls.output = Path(cls.temp_dir.name) / "dist"
+        completed = subprocess.run(
+            [sys.executable, str(ROOT / "scripts" / "build_site.py"), "--output", str(cls.output)],
+            cwd=ROOT,
+            check=True,
+            capture_output=True,
+            text=True,
+        )
+        cls.report = json.loads(completed.stdout)
+        cls.sitemap_text = (cls.output / "sitemap.xml").read_text(encoding="utf-8")
+        tree = ElementTree.fromstring(cls.sitemap_text)
+        ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+        cls.urls = [node.text for node in tree.findall("sm:url/sm:loc", ns)]
+
+    @classmethod
+    def tearDownClass(cls):
+        cls.temp_dir.cleanup()
+
+    @classmethod
+    def file_for_url(cls, url):
+        path = urlsplit(url).path
+        if path == "/":
+            return cls.output / "index.html"
+        if path == "/index-zh":
+            return cls.output / "index-zh.html"
+        return cls.output / path.lstrip("/") / "index.html"
+
+    def test_crawl_contract_and_sitemap_scope(self):
+        robots = (self.output / "robots.txt").read_text(encoding="utf-8")
+        self.assertEqual(robots.count("Sitemap:"), 1)
+        self.assertIn("https://trending.cosolution.cc/sitemap.xml", robots)
+        self.assertTrue((self.output / "404.html").is_file())
+        self.assertIn('name="robots" content="noindex,follow"', (self.output / "404.html").read_text())
+        self.assertNotIn('rel="canonical"', (self.output / "404.html").read_text())
+        self.assertNotIn('rel="alternate"', (self.output / "404.html").read_text())
+        self.assertIn("/index-en / 301", (self.output / "_redirects").read_text())
+        self.assertEqual(len(self.urls), 70)
+        self.assertEqual(len(self.urls), len(set(self.urls)))
+        self.assertEqual(self.report["urls"], 70)
+
+    def test_every_sitemap_url_is_a_unique_indexable_canonical(self):
+        titles = set()
+        descriptions = set()
+        for url in self.urls:
+            with self.subTest(url=url):
+                source = self.file_for_url(url).read_text(encoding="utf-8")
+                self.assertIn(f'<link rel="canonical" href="{url}">', source)
+                self.assertNotIn("noindex", source.lower())
+                title = re.search(r"<title>(.*?)</title>", source, re.S).group(1)
+                description = re.search(r'<meta name="description" content="([^"]+)">', source).group(1)
+                self.assertNotIn(title, titles)
+                self.assertNotIn(description, descriptions)
+                titles.add(title)
+                descriptions.add(description)
+                scripts = re.findall(r'<script type="application/ld\+json">(.*?)</script>', source, re.S)
+                self.assertTrue(scripts)
+                for script in scripts:
+                    json.loads(script.replace("<\\/", "</"))
+
+    def test_landing_pages_are_server_rendered_and_link_all_chart_views(self):
+        for name in ("index.html", "index-zh.html"):
+            source = (self.output / name).read_text(encoding="utf-8")
+            self.assertNotIn('<main class="grid" id="grid"></main>', source)
+            self.assertEqual(source.count('class="card show"'), 14)
+            self.assertEqual(source.count('class="seo-board-links"'), 1)
+            nav = re.search(r'<nav class="seo-board-links".*?</nav>', source, re.S).group(0)
+            self.assertEqual(nav.count("<a "), 21)
+        english = (self.output / "index.html").read_text(encoding="utf-8")
+        self.assertIn('href="https://github.com/HenryNdubuaku/maths-cs-ai-compendium"', english)
+        self.assertIn('href="/repos/codecrafters-io/build-your-own-x/"', english)
+
+    def test_all_board_views_exist_bilingually(self):
+        board_urls = [url for url in self.urls if "/trending/" in url]
+        self.assertEqual(len(board_urls), 40)
+        sample = self.output / "trending" / "weekly" / "python" / "index.html"
+        source = sample.read_text(encoding="utf-8")
+        self.assertIn("GitHub Trending · Weekly · Python", source)
+        self.assertIn('class="board-row"', source)
+        self.assertNotIn("<script src=", source)
+
+    def test_only_original_editorial_subset_is_indexed(self):
+        manifest = json.loads((ROOT / "seo-index.json").read_text(encoding="utf-8"))
+        self.assertEqual(len(manifest["repos"]), 13)
+        indexed = "https://trending.cosolution.cc/repos/codecrafters-io/build-your-own-x/"
+        self.assertIn(indexed, self.urls)
+        selected_source = self.file_for_url(indexed).read_text(encoding="utf-8")
+        self.assertIn("What it does", selected_source)
+        unselected = self.output / "repos" / "protocolbuffers" / "protobuf" / "index.html"
+        self.assertTrue(unselected.is_file())
+        self.assertIn('name="robots" content="noindex,follow"', unselected.read_text(encoding="utf-8"))
+        self.assertNotIn("/repos/protocolbuffers/protobuf/", self.sitemap_text)
+
+    def test_directory_links_every_indexed_detail(self):
+        manifest = json.loads((ROOT / "seo-index.json").read_text(encoding="utf-8"))
+        english = (self.output / "repos" / "index.html").read_text(encoding="utf-8").lower()
+        chinese = (self.output / "zh" / "repos" / "index.html").read_text(encoding="utf-8").lower()
+        for full_name in manifest["repos"]:
+            path = full_name.lower() + "/"
+            self.assertIn(f'href="/repos/{path}"', english)
+            self.assertIn(f'href="/zh/repos/{path}"', chinese)
+
+    def test_sitemap_pages_are_reachable_within_two_clicks_per_locale(self):
+        sitemap_urls = set(self.urls)
+
+        def links_from(url):
+            source = self.file_for_url(url).read_text(encoding="utf-8")
+            return {
+                urljoin(url, href)
+                for href in re.findall(r'<a\b[^>]*\bhref="([^"]+)"', source)
+                if not href.startswith(("#", "mailto:"))
+            } & sitemap_urls
+
+        for root, locale_urls in (
+            ("https://trending.cosolution.cc/", {u for u in sitemap_urls if "/zh/" not in u and not u.endswith("/index-zh")}),
+            ("https://trending.cosolution.cc/index-zh", {u for u in sitemap_urls if "/zh/" in u or u.endswith("/index-zh")}),
+        ):
+            reached = {root}
+            frontier = {root}
+            for _ in range(2):
+                frontier = set().union(*(links_from(url) for url in frontier)) - reached
+                reached.update(frontier)
+            self.assertEqual(locale_urls - reached, set())
 
 
 if __name__ == "__main__":

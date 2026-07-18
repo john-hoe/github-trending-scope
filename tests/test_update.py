@@ -118,6 +118,28 @@ class ArchiveTests(unittest.TestCase):
                 UPDATE.load_archives(directory)
 
 
+class PinnedCatalogTests(unittest.TestCase):
+    def test_indexed_repo_is_retained_after_leaving_all_live_boards(self):
+        old = {
+            "owner/repo": {
+                "full": "owner/repo", "slug": "repo", "auto": False,
+                "zh": {}, "en": {}, "track": {},
+            }
+        }
+        registry, order, slugs = {}, [], {"repo"}
+        retained = UPDATE.retain_pinned_repos(
+            registry, order, old, ["owner/repo"], slugs
+        )
+        self.assertEqual(retained, 1)
+        self.assertEqual(order, ["owner/repo"])
+        self.assertEqual(registry["owner/repo"]["slug"], "repo")
+
+    def test_automatic_placeholder_cannot_be_pinned_for_indexing(self):
+        old = {"owner/repo": {"full": "owner/repo", "slug": "repo", "auto": True}}
+        with self.assertRaisesRegex(ValueError, "automatic placeholder"):
+            UPDATE.retain_pinned_repos({}, [], old, ["owner/repo"], set())
+
+
 class TrackingTests(unittest.TestCase):
     def test_missing_calendar_day_breaks_streak(self):
         archives = [
@@ -181,12 +203,36 @@ class ValidationTests(unittest.TestCase):
     def test_reviewed_gate_accepts_complete_review(self):
         self.repo["auto"] = False
         self.repo["zh"] = {
-            "tag": "中文一句话", "what": "中文项目介绍", "content": "中文仓库内容",
-            "stack": "中文技术栈", "hot": "中文热度原因", "uses": ["中文应用场景"],
+            "tag": "这是完整的中文一句话定位", "what": "这是足够完整的中文项目功能介绍，用于质量门槛测试。",
+            "content": "这里说明仓库包含的核心模块、文档与示例结构。",
+            "stack": "这里说明主要技术栈、运行环境以及关键依赖。",
+            "hot": "这里用不依赖实时数字的方式说明项目受到关注的原因。",
+            "uses": ["开发者学习项目内部实现的具体使用场景", "团队评估技术路线与依赖的具体使用场景"],
         }
-        self.repo["en"]["content"] = "content"
-        self.repo["en"]["uses"] = ["use case"]
+        self.repo["en"] = {
+            "tag": "A complete project positioning line",
+            "what": "A complete explanation of what this repository does and who it helps.",
+            "content": "A clear description of the modules, documentation, and examples included.",
+            "stack": "A clear description of the technology stack and important dependencies.",
+            "hot": "A durable explanation of why the project attracts developer attention.",
+            "uses": ["Developers learning how the project works internally", "Teams evaluating the architecture and dependencies"],
+        }
         self.assertEqual(UPDATE.validate(self.data, 1, 1, True, require_reviewed=True), [])
+
+    def test_reviewed_gate_rejects_structurally_complete_but_thin_copy(self):
+        self.repo["auto"] = False
+        for locale in ("zh", "en"):
+            self.repo[locale] = {
+                "tag": "中文短句" if locale == "zh" else "Short tag",
+                "what": "中文说明" if locale == "zh" else "Short explanation",
+                "content": "中文内容" if locale == "zh" else "Short content",
+                "stack": "中文技术" if locale == "zh" else "Short stack",
+                "hot": "中文原因" if locale == "zh" else "Short reason",
+                "uses": ["中文场景" if locale == "zh" else "Use case"],
+            }
+        errors = UPDATE.validate(self.data, 1, 1, True, require_reviewed=True)
+        self.assertTrue(any("shorter than" in error for error in errors), errors)
+        self.assertTrue(any("uses need at least 2" in error for error in errors), errors)
 
     def test_reviewed_gate_rejects_non_chinese_zh_copy(self):
         self.repo["auto"] = False

@@ -10,11 +10,11 @@
 - archive/YYYY-MM-DD.json：每日·全语言榜快照，在榜追踪的历史依据
 
 规则：
-- 已在册的仓库：保留人工撰写的 zh/en 深度解析，仅更新动态字段。
+- 已在册的仓库：保留已有 zh/en 深度解析，仅更新动态字段。
 - 新出现的仓库：自动生成带 auto 标记的简摘要（取自 GitHub 描述），待人工补充精评。
 - 任一预期榜单抓取失败、缺失或解析数量不足时失败退出，绝不发布部分数据。
-- 可选 LLM 精评：配置环境变量后，每轮对新上榜及历史 auto 仓库调用 OpenAI 兼容
-  接口生成双语深度解析（成功后清除 auto 标记，视同人工精评永久保留）；未配置或
+- 可选 LLM 解析：配置环境变量后，每轮对新上榜及历史 auto 仓库调用 OpenAI 兼容
+  接口生成双语深度解析（成功后清除 auto 占位标记，但不等同人工事实核验）；未配置或
   调用失败时保持自动摘要降级。支持并发、退避重试和 GitHub Token 鉴权读取 README；
   每轮最多处理 --llm-limit 个，新上榜及全语言主榜优先。
 
@@ -177,6 +177,43 @@ def make_slug(full: str, taken: set) -> str:
         slug = re.sub(r"[^a-z0-9]+", "-", f"{owner}-{name}".lower()).strip("-")
     taken.add(slug)
     return slug
+
+
+def load_pinned_repo_names(data_path: str) -> list:
+    """Load the explicit SEO catalog next to data.json, if present."""
+    path = os.path.join(os.path.dirname(data_path), "seo-index.json")
+    if not os.path.exists(path):
+        return []
+    with open(path, encoding="utf-8") as f:
+        manifest = json.load(f)
+    names = manifest.get("repos", [])
+    if not isinstance(names, list) or len(names) != len(set(names)):
+        raise ValueError("seo-index.json repos must be a unique list")
+    if any(not isinstance(name, str) or not FULL_NAME_RE.fullmatch(name) for name in names):
+        raise ValueError("seo-index.json contains an invalid repository name")
+    return names
+
+
+def retain_pinned_repos(registry: dict, order: list, previous: dict, pinned_names: list, taken_slugs: set) -> int:
+    """Keep explicitly indexed editorial pages stable after they leave all live charts."""
+    retained = 0
+    for full in pinned_names:
+        if full in registry:
+            continue
+        old = previous.get(full)
+        if not old:
+            raise ValueError(f"indexed repository is missing from both current and previous data: {full}")
+        if old.get("auto"):
+            raise ValueError(f"indexed repository is still an automatic placeholder: {full}")
+        slug = old.get("slug")
+        if (not isinstance(slug, str)
+                or any(entry.get("slug") == slug for entry in registry.values())):
+            raise ValueError(f"indexed repository has an invalid or duplicate slug: {full}")
+        registry[full] = dict(old)
+        order.append(full)
+        taken_slugs.add(slug)
+        retained += 1
+    return retained
 
 
 # ---------------------------------------------------------------- 自动摘要
@@ -604,6 +641,20 @@ def validate(data: dict, min_repos: int, min_board_repos: int = 1,
                 ).lower()
                 if any(marker in reviewed_text for marker in PLACEHOLDER_MARKERS):
                     errors.append(f"{r.get('full','?')}/{loc}: reviewed placeholder text remains")
+                if require_reviewed:
+                    for k in REQUIRED_TEXT_KEYS[:-1]:
+                        minimum = 8 if k == "tag" else 20
+                        value = blk.get(k)
+                        if not isinstance(value, str) or len(" ".join(value.split())) < minimum:
+                            errors.append(
+                                f"{r.get('full','?')}/{loc}: reviewed {k} is shorter than {minimum} characters"
+                            )
+                    uses = blk.get("uses")
+                    if (not isinstance(uses, list) or len(uses) < 2
+                            or any(not isinstance(use, str) or len(" ".join(use.split())) < 10 for use in uses)):
+                        errors.append(
+                            f"{r.get('full','?')}/{loc}: reviewed uses need at least 2 items of 10 characters"
+                        )
                 if loc == "zh":
                     for k in REQUIRED_TEXT_KEYS[:-1]:
                         value = blk.get(k)
@@ -702,8 +753,17 @@ def main() -> int:
         else:  # v1 数据：repos 即日榜
             prev_daily_fulls = set(prev)
 
+    try:
+        pinned_names = load_pinned_repo_names(data_path)
+    except (OSError, ValueError, json.JSONDecodeError) as exc:
+        print(f"[update] ERROR: invalid SEO index: {exc}", file=sys.stderr)
+        return 1
+
     # ---------------- 注册表构建 ----------------
-    taken_slugs = set()
+    taken_slugs = {
+        prev[full]["slug"] for full in pinned_names
+        if full in prev and isinstance(prev[full].get("slug"), str)
+    }
     registry = {}   # full -> entry
     pres_map = {}   # full -> (rng, lang_id, board_entry)：auto 仓库的代表性榜单
     new_fulls = set()
@@ -754,6 +814,12 @@ def main() -> int:
                 new += 1
                 new_fulls.add(full)
         registry[full] = entry
+
+    try:
+        pinned_retained = retain_pinned_repos(registry, order, prev, pinned_names, taken_slugs)
+    except ValueError as exc:
+        print(f"[update] ERROR: cannot retain SEO catalog: {exc}", file=sys.stderr)
+        return 1
 
     # ---------------- 可选：LLM 精评 ----------------
     llm_cfg = llm_config(args)
@@ -806,8 +872,8 @@ def main() -> int:
         return 1
 
     n_boards = sum(len(v) for v in boards.values())
-    print(f"[update] registry {len(repos)} repos (kept {kept} curated, refreshed {auto_kept} auto, "
-          f"new {new}, dropped {len(dropped)}), boards: {n_boards}")
+    print(f"[update] registry {len(repos)} repos (kept {kept} existing, retained {pinned_retained} indexed, "
+          f"refreshed {auto_kept} auto, new {new}, dropped {len(dropped)}), boards: {n_boards}")
     if dropped:
         print("[update] dropped:", ", ".join(dropped))
     n_new = sum(1 for r in repos if r["track"]["is_new"])
