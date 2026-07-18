@@ -594,6 +594,19 @@ def board_page(data: dict, board: str, language_id: str, locale: str, indexed_na
 
 
 def prerender_landing(source: str, data: dict, locale: str, indexed_names: set[str]) -> str:
+    source_switch, production_switch = {
+        "en": (
+            '<a href="index-zh.html" class="lang">中文</a>',
+            '<a href="/index-zh" class="lang">中文</a>',
+        ),
+        "zh": (
+            '<a href="index.html" class="lang">EN</a>',
+            '<a href="/" class="lang">EN</a>',
+        ),
+    }[locale]
+    if source.count(source_switch) != 1:
+        raise ValueError(f"Expected exactly one {locale} locale switch")
+    source = source.replace(source_switch, production_switch, 1)
     source = source.replace(
         "const SEO_INDEXED = new Set([]);",
         "const SEO_INDEXED = new Set(" + json.dumps(sorted(indexed_names), ensure_ascii=False) + ");",
