@@ -3,15 +3,15 @@ window.TRENDING_DATA = {
   "schema": 2,
   "meta": {
     "date": "2026-07-18",
-    "generated_at": "2026-07-18 15:00 (CST)",
+    "generated_at": "2026-07-18 15:21 (CST)",
     "source": "github.com/trending",
     "criteria": "Repositories · Today/Week/Month · All languages · logged out",
     "headline_zh": "今日热榜全景速递",
     "headline_en": "Your daily trending digest",
     "sub_zh": "14 个上榜仓库：学习 & 游戏 1 个、平台·数据·应用 6 个、AI 应用与模型 3 个、Agent 工具链 4 个。今日新增 Star 前三：Nutlope/hallmark（+1.5k）、OpenCut-app/OpenCut（+1.1k）、codecrafters-io/build-your-own-x（+1.1k）。点击任意卡片查看深度解析。",
     "sub_en": "14 trending repos: 1 Learning & Gaming, 6 Platforms, Data & Apps, 3 AI Apps & Models, 4 Agent Tooling. Biggest star gainers today: Nutlope/hallmark (+1.5k), OpenCut-app/OpenCut (+1.1k), codecrafters-io/build-your-own-x (+1.1k). Click any card for a deep dive.",
-    "footer_zh": "Trending Scope · 数据更新于 2026-07-18 15:00 (CST)，由自动化管线直连 github.com 抓取",
-    "footer_en": "Trending Scope · Data updated 2026-07-18 15:00 (CST) by the automated pipeline, fetched directly from github.com"
+    "footer_zh": "Trending Scope · 数据更新于 2026-07-18 15:21 (CST)，由自动化管线直连 github.com 抓取",
+    "footer_en": "Trending Scope · Data updated 2026-07-18 15:21 (CST) by the automated pipeline, fetched directly from github.com"
   },
   "cats": {
     "agent": {
@@ -597,7 +597,7 @@ window.TRENDING_DATA = {
         {
           "full": "rustfs/rustfs",
           "rank": 16,
-          "stars": 29.9,
+          "stars": 30.0,
           "today": "+51",
           "today_n": 51
         },
@@ -744,22 +744,15 @@ window.TRENDING_DATA = {
           "today_n": 30
         },
         {
-          "full": "chenyme/grok2api",
-          "rank": 19,
-          "stars": 6.2,
-          "today": "+88",
-          "today_n": 88
-        },
-        {
           "full": "higress-group/higress",
-          "rank": 20,
+          "rank": 19,
           "stars": 8.9,
           "today": "+9",
           "today_n": 9
         },
         {
           "full": "Tencent/WeKnora",
-          "rank": 21,
+          "rank": 20,
           "stars": 18.5,
           "today": "+49",
           "today_n": 49
@@ -1628,127 +1621,120 @@ window.TRENDING_DATA = {
           "today_n": 62
         },
         {
-          "full": "chenyme/grok2api",
-          "rank": 6,
-          "stars": 6.2,
-          "today": "+848",
-          "today_n": 848
-        },
-        {
           "full": "Wei-Shaw/sub2api",
-          "rank": 7,
+          "rank": 6,
           "stars": 32.8,
           "today": "+1.4k",
           "today_n": 1416
         },
         {
           "full": "juanfont/headscale",
-          "rank": 8,
+          "rank": 7,
           "stars": 41.8,
           "today": "+369",
           "today_n": 369
         },
         {
           "full": "pocketbase/pocketbase",
-          "rank": 9,
+          "rank": 8,
           "stars": 59.8,
           "today": "+315",
           "today_n": 315
         },
         {
           "full": "golang/go",
-          "rank": 10,
+          "rank": 9,
           "stars": 135.3,
           "today": "+321",
           "today_n": 321
         },
         {
           "full": "projectdiscovery/nuclei",
-          "rank": 11,
+          "rank": 10,
           "stars": 29.8,
           "today": "+228",
           "today_n": 228
         },
         {
           "full": "sundowndev/phoneinfoga",
-          "rank": 12,
+          "rank": 11,
           "stars": 17.0,
           "today": "+180",
           "today_n": 180
         },
         {
           "full": "opencode-ai/opencode",
-          "rank": 13,
+          "rank": 12,
           "stars": 13.4,
           "today": "+130",
           "today_n": 130
         },
         {
           "full": "google/gvisor",
-          "rank": 14,
+          "rank": 13,
           "stars": 18.8,
           "today": "+85",
           "today_n": 85
         },
         {
           "full": "prometheus/prometheus",
-          "rank": 15,
+          "rank": 14,
           "stars": 65.2,
           "today": "+277",
           "today_n": 277
         },
         {
           "full": "vxcontrol/pentagi",
-          "rank": 16,
+          "rank": 15,
           "stars": 20.9,
           "today": "+1.1k",
           "today_n": 1111
         },
         {
           "full": "larksuite/cli",
-          "rank": 17,
+          "rank": 16,
           "stars": 15.6,
           "today": "+265",
           "today_n": 265
         },
         {
           "full": "stretchr/testify",
-          "rank": 18,
+          "rank": 17,
           "stars": 26.1,
           "today": "+36",
           "today_n": 36
         },
         {
           "full": "gosom/google-maps-scraper",
-          "rank": 19,
+          "rank": 18,
           "stars": 5.1,
           "today": "+323",
           "today_n": 323
         },
         {
           "full": "ethereum/go-ethereum",
-          "rank": 20,
+          "rank": 19,
           "stars": 51.2,
           "today": "+53",
           "today_n": 53
         },
         {
           "full": "schollz/croc",
-          "rank": 21,
+          "rank": 20,
           "stars": 35.6,
           "today": "+167",
           "today_n": 167
         },
         {
           "full": "Gentleman-Programming/engram",
-          "rank": 22,
+          "rank": 21,
           "stars": 5.5,
           "today": "+525",
           "today_n": 525
         },
         {
           "full": "gastownhall/beads",
-          "rank": 23,
+          "rank": 22,
           "stars": 25.4,
           "today": "+200",
           "today_n": 200
@@ -2652,99 +2638,92 @@ window.TRENDING_DATA = {
           "today_n": 1195
         },
         {
-          "full": "chenyme/grok2api",
-          "rank": 9,
-          "stars": 6.2,
-          "today": "+1.0k",
-          "today_n": 1035
-        },
-        {
           "full": "tailscale/tailscale",
-          "rank": 10,
+          "rank": 9,
           "stars": 34.0,
           "today": "+1.6k",
           "today_n": 1556
         },
         {
           "full": "IceWhaleTech/CasaOS",
-          "rank": 11,
+          "rank": 10,
           "stars": 36.7,
           "today": "+2.8k",
           "today_n": 2754
         },
         {
           "full": "yorukot/superfile",
-          "rank": 12,
+          "rank": 11,
           "stars": 18.7,
           "today": "+1.3k",
           "today_n": 1295
         },
         {
           "full": "google/adk-go",
-          "rank": 13,
+          "rank": 12,
           "stars": 8.5,
           "today": "+425",
           "today_n": 425
         },
         {
           "full": "kubernetes/kubernetes",
-          "rank": 14,
+          "rank": 13,
           "stars": 123.8,
           "today": "+1.9k",
           "today_n": 1895
         },
         {
           "full": "google/gvisor",
-          "rank": 15,
+          "rank": 14,
           "stars": 18.8,
           "today": "+359",
           "today_n": 359
         },
         {
           "full": "projectdiscovery/nuclei",
-          "rank": 16,
+          "rank": 15,
           "stars": 29.8,
           "today": "+745",
           "today_n": 745
         },
         {
           "full": "fatedier/frp",
-          "rank": 17,
+          "rank": 16,
           "stars": 108.1,
           "today": "+879",
           "today_n": 879
         },
         {
           "full": "hashicorp/terraform",
-          "rank": 18,
+          "rank": 17,
           "stars": 49.2,
           "today": "+952",
           "today_n": 952
         },
         {
           "full": "docker/compose",
-          "rank": 19,
+          "rank": 18,
           "stars": 37.9,
           "today": "+645",
           "today_n": 645
         },
         {
           "full": "gosom/google-maps-scraper",
-          "rank": 20,
+          "rank": 19,
           "stars": 5.1,
           "today": "+681",
           "today_n": 681
         },
         {
           "full": "charmbracelet/crush",
-          "rank": 21,
+          "rank": 20,
           "stars": 26.6,
           "today": "+1.4k",
           "today_n": 1356
         },
         {
           "full": "getarcaneapp/arcane",
-          "rank": 22,
+          "rank": 21,
           "stars": 6.5,
           "today": "+737",
           "today_n": 737
@@ -4877,22 +4856,32 @@ window.TRENDING_DATA = {
       "stars": 99.2,
       "today": "+328",
       "today_n": 328,
-      "auto": true,
+      "auto": false,
       "zh": {
-        "tag": "Lightweight coding agent that runs in your terminal",
-        "what": "Lightweight coding agent that runs in your terminal（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Rust。",
-        "hot": "今日新增 +328 stars，位列 GitHub Trending 日榜（Rust）第 2 名。",
-        "uses": []
+        "tag": "OpenAI 官方轻量级终端 AI 编码代理",
+        "what": "Codex CLI 是 OpenAI 推出的终端原生 AI 编码代理，可在本地计算机上直接运行。它能理解自然语言指令，协助完成代码编写、重构、调试等任务。用户可通过 ChatGPT 账户或 API 密钥接入，无需离开终端即可进行智能开发。",
+        "content": "仓库包含 Codex CLI 的 Rust 源码、跨平台编译构建脚本，以及支持 macOS/Linux/Windows 的预编译二进制发布。除终端版外，项目还指向 IDE 插件和云端 Codex Web 的入口。",
+        "stack": "核心采用 Rust 开发，保证高性能与低资源占用；提供 curl、npm、Homebrew 等多种安装方式，支持通过 ChatGPT 账号或 OpenAI API 密钥进行身份验证。",
+        "hot": "作为 OpenAI 官方出品的终端编码工具，凭借 99.2k Stars 的超高人气和单日新增 328 Stars 的强劲势头，成功登顶 Rust 日榜第二。它将 AI 编程能力直接嵌入开发者最熟悉的终端环境，轻量且开源。",
+        "uses": [
+          "终端重度使用者 —— 希望在命令行中直接调用 AI 辅助编程的开发者",
+          "全栈工程师 —— 需要快速完成代码生成、重构与调试的敏捷开发场景",
+          "开源贡献者 —— 希望基于 Apache-2.0 协议研究或扩展 AI Agent 能力的工程师",
+          "ChatGPT 订阅用户 —— 想将现有 Plus/Pro/Edu 等计划权益延伸至本地开发环境"
+        ]
       },
       "en": {
-        "tag": "Lightweight coding agent that runs in your terminal",
-        "what": "Lightweight coding agent that runs in your terminal (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Rust.",
-        "hot": "+328 stars today, ranked #2 on the daily Rust chart.",
-        "uses": []
+        "tag": "OpenAI's official lightweight coding agent for your terminal",
+        "what": "Codex CLI is a terminal-native AI coding agent from OpenAI that runs locally on your machine. It interprets natural language instructions to help write, refactor, and debug code without leaving your terminal. Users can authenticate via their ChatGPT plan or an OpenAI API key.",
+        "content": "The repository contains the Rust source code for Codex CLI, cross-platform build scripts, and precompiled binaries for macOS, Linux, and Windows. It also points to IDE extensions and the cloud-based Codex Web agent.",
+        "stack": "Core is built in Rust for high performance and low resource usage. It supports multiple installation methods including curl, npm, and Homebrew, and authenticates via ChatGPT accounts or OpenAI API keys.",
+        "hot": "As an official OpenAI terminal coding tool, it commands massive attention with 99.2k Stars and 328 new Stars today, ranking second on the Rust daily trending list. It brings AI coding directly into the familiar terminal environment in a lightweight, open-source package.",
+        "uses": [
+          "Terminal power users — developers who want AI assistance directly in their command line",
+          "Full-stack engineers — those needing rapid code generation, refactoring, and debugging",
+          "Open-source contributors — engineers looking to study or extend an Apache-2.0 AI agent",
+          "ChatGPT subscribers — users wanting to extend their Plus/Pro/Edu benefits to local development"
+        ]
       },
       "track": {
         "days": 0,
@@ -5350,7 +5339,7 @@ window.TRENDING_DATA = {
       "rank": 16,
       "cat": "infra",
       "lang": "Rust",
-      "stars": 29.9,
+      "stars": 30.0,
       "today": "+51",
       "today_n": 51,
       "auto": true,
@@ -5499,22 +5488,32 @@ window.TRENDING_DATA = {
       "stars": 6.6,
       "today": "+6",
       "today_n": 6,
-      "auto": true,
+      "auto": false,
       "zh": {
-        "tag": "Open device management",
-        "what": "Open device management（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Go。",
-        "hot": "今日新增 +6 stars，位列 GitHub Trending 日榜（Go）第 2 名。",
-        "uses": []
+        "tag": "开源跨平台设备管理引擎，支持 GitOps 与 API 驱动",
+        "what": "Fleet 是一个开源的集中式设备管理平台，让 IT 和安全团队能够远程管理、加固和审计数千至数十万台终端。它集成了 MDM、补丁管理、软件分发与合规核查，并原生支持跨操作系统（Linux、macOS、Windows、iOS、Android、ChromeOS 及云主机/容器/IoT）。",
+        "content": "仓库包含基于 Go 开发的核心服务端、Osquery 集成代理、 fleetctl CLI 工具、REST API 以及 GitOps 所需的 YAML 配置体系；同时提供 Web 管理后台、Webhook 事件和 CIS 基准合规模板。",
+        "stack": "以 Go 为主语言构建高性能服务端，前端结合 React，依赖 osquery 采集底层系统数据，支持 MySQL/Redis 存储并通过 Docker/Kubernetes 部署。",
+        "hot": "在设备管理 SaaS 闭源主导的赛道中，Fleet 以全开源、透明、隐私优先的设计脱颖而出，Go 生态日榜第 2 的曝光助推其 Star 数稳步增长至 6,599+，尤其受到重视合规与基础设施即代码的企业青睐。",
+        "uses": [
+          "IT 运维团队——需要统一管理跨平台（Linux/macOS/Windows/iOS/Android）数千台终端并实施远程加固",
+          "安全合规团队——需快速采集设备审计证据、执行 CIS 基准检查并生成合规报告",
+          "SRE/平台工程师——希望通过 GitOps/YAML 和 REST API 将设备管理纳入基础设施即代码流水线",
+          "多云/混合云企业——需同时覆盖云主机、容器、数据中心与边缘 IoT 设备的统一可见性"
+        ]
       },
       "en": {
-        "tag": "Open device management",
-        "what": "Open device management (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Go.",
-        "hot": "+6 stars today, ranked #2 on the daily Go chart.",
-        "uses": []
+        "tag": "Open-source cross-platform device management engine for GitOps and API-driven fleets",
+        "what": "Fleet is an open-source, centralized device management platform that lets IT and security teams secure, patch, and audit thousands to hundreds of thousands of endpoints remotely. It unifies MDM, patch management, software deployment, and compliance verification across every major OS, as well as cloud VMs, containers, and IoT devices.",
+        "content": "The repository contains a Go-based core server, an osquery-integrated agent, the fleetctl CLI, REST APIs, and YAML-driven GitOps configurations; it also ships with a web admin console, webhook events, and built-in CIS benchmark templates.",
+        "stack": "Built primarily in Go for high-performance backend services with a React frontend; it leverages osquery for low-level system telemetry, persists data in MySQL/Redis, and deploys via Docker/Kubernetes.",
+        "hot": "Standing out in a market dominated by closed-source MDM SaaS, Fleet’s fully open, transparent, and privacy-first design resonates with enterprise users; its #2 spot on GitHub’s Go daily trending boosts visibility and has helped it reach 6,599+ stars, drawing organizations that prioritize compliance and GitOps.",
+        "uses": [
+          "IT operations teams managing thousands of heterogeneous endpoints (Linux, macOS, Windows, iOS, Android) that need remote hardening and patching",
+          "Security and compliance teams seeking rapid audit evidence collection, CIS benchmark enforcement, and compliance reporting",
+          "SRE and platform engineers wanting to integrate device management into IaC pipelines via GitOps, YAML, and REST APIs",
+          "Multi-cloud or hybrid enterprises requiring unified visibility across cloud VMs, containers, data centers, and edge IoT devices"
+        ]
       },
       "track": {
         "days": 0,
@@ -6069,43 +6068,9 @@ window.TRENDING_DATA = {
       }
     },
     {
-      "slug": "grok2api",
-      "full": "chenyme/grok2api",
-      "rank": 19,
-      "cat": "infra",
-      "lang": "Go",
-      "stars": 6.2,
-      "today": "+88",
-      "today_n": 88,
-      "auto": true,
-      "zh": {
-        "tag": "面向 Grok Build、Grok Web 与 Grok Console 的多账号 API 网关",
-        "what": "面向 Grok Build、Grok Web 与 Grok Console 的多账号 API 网关（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Go。",
-        "hot": "今日新增 +88 stars，位列 GitHub Trending 日榜（Go）第 19 名。",
-        "uses": []
-      },
-      "en": {
-        "tag": "面向 Grok Build、Grok Web 与 Grok Console 的多账号 API 网关",
-        "what": "面向 Grok Build、Grok Web 与 Grok Console 的多账号 API 网关 (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Go.",
-        "hot": "+88 stars today, ranked #19 on the daily Go chart.",
-        "uses": []
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-18",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
       "slug": "higress",
       "full": "higress-group/higress",
-      "rank": 20,
+      "rank": 19,
       "cat": "ai",
       "lang": "Go",
       "stars": 8.9,
@@ -6117,7 +6082,7 @@ window.TRENDING_DATA = {
         "what": "🤖 AI Gateway | AI Native API Gateway（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "今日新增 +9 stars，位列 GitHub Trending 日榜（Go）第 20 名。",
+        "hot": "今日新增 +9 stars，位列 GitHub Trending 日榜（Go）第 19 名。",
         "uses": []
       },
       "en": {
@@ -6125,7 +6090,7 @@ window.TRENDING_DATA = {
         "what": "🤖 AI Gateway | AI Native API Gateway (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+9 stars today, ranked #20 on the daily Go chart.",
+        "hot": "+9 stars today, ranked #19 on the daily Go chart.",
         "uses": []
       },
       "track": {
@@ -6139,7 +6104,7 @@ window.TRENDING_DATA = {
     {
       "slug": "weknora",
       "full": "Tencent/WeKnora",
-      "rank": 21,
+      "rank": 20,
       "cat": "agent",
       "lang": "Go",
       "stars": 18.5,
@@ -6151,7 +6116,7 @@ window.TRENDING_DATA = {
         "what": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "今日新增 +49 stars，位列 GitHub Trending 日榜（Go）第 21 名。",
+        "hot": "今日新增 +49 stars，位列 GitHub Trending 日榜（Go）第 20 名。",
         "uses": []
       },
       "en": {
@@ -6159,7 +6124,7 @@ window.TRENDING_DATA = {
         "what": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+49 stars today, ranked #21 on the daily Go chart.",
+        "hot": "+49 stars today, ranked #20 on the daily Go chart.",
         "uses": []
       },
       "track": {
@@ -9103,22 +9068,30 @@ window.TRENDING_DATA = {
       "stars": 49.2,
       "today": "+429",
       "today_n": 429,
-      "auto": true,
+      "auto": false,
       "zh": {
-        "tag": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
-        "what": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Go。",
-        "hot": "本周新增 +429 stars，位列 GitHub Trending 周榜（Go）第 1 名。",
-        "uses": []
+        "tag": "开源基础设施即代码工具，多云资源配置与管理利器",
+        "what": "Terraform 是 HashiCorp 推出的基础设施即代码（IaC）工具，允许用户使用声明式配置文件安全、可预测地创建、修改和管理基础设施资源。它将各类云服务商和本地环境的 API 抽象为代码，支持版本控制、团队协作和自动化变更。",
+        "content": "仓库包含 Terraform 核心引擎、声明式 HCL 语言解析器、资源状态管理机制，以及大量官方 Provider 插件，覆盖 AWS、Azure、GCP 等主流云平台。",
+        "stack": "核心采用 Go 语言编写，配置语言为 HashiCorp Configuration Language（HCL），通过 Provider 插件架构对接各类云 API，依赖 gRPC 与 Go 插件系统实现扩展。",
+        "hot": "作为基础设施即代码领域的标杆项目，Terraform 在 GitHub 已积累 49,219 Stars，本周新增 429 Stars 并登顶 Go 语言周榜第 1 名，反映出云原生时代开发运维团队对自动化、多云一致管理的强烈需求。",
+        "uses": [
+          "云架构师 / DevOps 工程师 —— 需要以代码方式统一管理 AWS、Azure、GCP 等多云基础设施",
+          "平台工程团队 —— 构建可复用、可版本控制的内部平台与标准化部署流水线",
+          "中小企业技术负责人 —— 寻求低成本、可审计的基础设施自动化方案，减少人工配置错误"
+        ]
       },
       "en": {
-        "tag": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
-        "what": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Go.",
-        "hot": "+429 stars this week, ranked #1 on the weekly Go chart.",
-        "uses": []
+        "tag": "Open-source IaC tool for safely managing multi-cloud infrastructure",
+        "what": "Terraform is HashiCorp's open-source infrastructure-as-code tool that lets you safely and predictably provision and manage cloud resources through declarative configuration files. It codifies APIs from various providers into version-controlled, reviewable code, enabling teams to automate infrastructure lifecycle across multi-cloud and on-premises environments.",
+        "content": "The repository contains Terraform core engine, HCL configuration parser, resource state management, and an extensive ecosystem of official and community providers for AWS, Azure, GCP, and other services.",
+        "stack": "Core is written in Go, uses HashiCorp Configuration Language (HCL) for declarations, and adopts a provider plugin architecture based on gRPC and Go plugins to integrate with cloud APIs.",
+        "hot": "As a de facto standard in the IaC space, Terraform has amassed 49,219 Stars on GitHub, with 429 new Stars this week and ranking #1 on the Go Trending chart, reflecting strong demand from DevOps teams for automated, consistent multi-cloud management.",
+        "uses": [
+          "Cloud architects and DevOps engineers managing multi-cloud infrastructure (AWS, Azure, GCP) as code",
+          "Platform engineering teams building reusable, version-controlled internal platforms and deployment pipelines",
+          "SME tech leads seeking cost-effective, auditable infrastructure automation to eliminate manual misconfigurations"
+        ]
       },
       "track": {
         "days": 0,
@@ -9267,7 +9240,7 @@ window.TRENDING_DATA = {
     {
       "slug": "sub2api",
       "full": "Wei-Shaw/sub2api",
-      "rank": 7,
+      "rank": 6,
       "cat": "agent",
       "lang": "Go",
       "stars": 32.8,
@@ -9279,7 +9252,7 @@ window.TRENDING_DATA = {
         "what": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "本周新增 +1.4k stars，位列 GitHub Trending 周榜（Go）第 7 名。",
+        "hot": "本周新增 +1.4k stars，位列 GitHub Trending 周榜（Go）第 6 名。",
         "uses": []
       },
       "en": {
@@ -9287,7 +9260,7 @@ window.TRENDING_DATA = {
         "what": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。 (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+1.4k stars this week, ranked #7 on the weekly Go chart.",
+        "hot": "+1.4k stars this week, ranked #6 on the weekly Go chart.",
         "uses": []
       },
       "track": {
@@ -9301,7 +9274,7 @@ window.TRENDING_DATA = {
     {
       "slug": "headscale",
       "full": "juanfont/headscale",
-      "rank": 8,
+      "rank": 7,
       "cat": "infra",
       "lang": "Go",
       "stars": 41.8,
@@ -9313,7 +9286,7 @@ window.TRENDING_DATA = {
         "what": "An open source, self-hosted implementation of the Tailscale control server（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "本周新增 +369 stars，位列 GitHub Trending 周榜（Go）第 8 名。",
+        "hot": "本周新增 +369 stars，位列 GitHub Trending 周榜（Go）第 7 名。",
         "uses": []
       },
       "en": {
@@ -9321,7 +9294,7 @@ window.TRENDING_DATA = {
         "what": "An open source, self-hosted implementation of the Tailscale control server (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+369 stars this week, ranked #8 on the weekly Go chart.",
+        "hot": "+369 stars this week, ranked #7 on the weekly Go chart.",
         "uses": []
       },
       "track": {
@@ -9335,7 +9308,7 @@ window.TRENDING_DATA = {
     {
       "slug": "go",
       "full": "golang/go",
-      "rank": 10,
+      "rank": 9,
       "cat": "infra",
       "lang": "Go",
       "stars": 135.3,
@@ -9347,7 +9320,7 @@ window.TRENDING_DATA = {
         "what": "The Go programming language（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "本周新增 +321 stars，位列 GitHub Trending 周榜（Go）第 10 名。",
+        "hot": "本周新增 +321 stars，位列 GitHub Trending 周榜（Go）第 9 名。",
         "uses": []
       },
       "en": {
@@ -9355,7 +9328,7 @@ window.TRENDING_DATA = {
         "what": "The Go programming language (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+321 stars this week, ranked #10 on the weekly Go chart.",
+        "hot": "+321 stars this week, ranked #9 on the weekly Go chart.",
         "uses": []
       },
       "track": {
@@ -9369,7 +9342,7 @@ window.TRENDING_DATA = {
     {
       "slug": "nuclei",
       "full": "projectdiscovery/nuclei",
-      "rank": 11,
+      "rank": 10,
       "cat": "infra",
       "lang": "Go",
       "stars": 29.8,
@@ -9381,7 +9354,7 @@ window.TRENDING_DATA = {
         "what": "Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "本周新增 +228 stars，位列 GitHub Trending 周榜（Go）第 11 名。",
+        "hot": "本周新增 +228 stars，位列 GitHub Trending 周榜（Go）第 10 名。",
         "uses": []
       },
       "en": {
@@ -9389,7 +9362,7 @@ window.TRENDING_DATA = {
         "what": "Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+228 stars this week, ranked #11 on the weekly Go chart.",
+        "hot": "+228 stars this week, ranked #10 on the weekly Go chart.",
         "uses": []
       },
       "track": {
@@ -9403,7 +9376,7 @@ window.TRENDING_DATA = {
     {
       "slug": "phoneinfoga",
       "full": "sundowndev/phoneinfoga",
-      "rank": 12,
+      "rank": 11,
       "cat": "infra",
       "lang": "Go",
       "stars": 17.0,
@@ -9415,7 +9388,7 @@ window.TRENDING_DATA = {
         "what": "Information gathering framework for phone numbers（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "本周新增 +180 stars，位列 GitHub Trending 周榜（Go）第 12 名。",
+        "hot": "本周新增 +180 stars，位列 GitHub Trending 周榜（Go）第 11 名。",
         "uses": []
       },
       "en": {
@@ -9423,7 +9396,7 @@ window.TRENDING_DATA = {
         "what": "Information gathering framework for phone numbers (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+180 stars this week, ranked #12 on the weekly Go chart.",
+        "hot": "+180 stars this week, ranked #11 on the weekly Go chart.",
         "uses": []
       },
       "track": {
@@ -9437,7 +9410,7 @@ window.TRENDING_DATA = {
     {
       "slug": "opencode-ai-opencode",
       "full": "opencode-ai/opencode",
-      "rank": 13,
+      "rank": 12,
       "cat": "agent",
       "lang": "Go",
       "stars": 13.4,
@@ -9449,7 +9422,7 @@ window.TRENDING_DATA = {
         "what": "A powerful AI coding agent. Built for the terminal.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "本周新增 +130 stars，位列 GitHub Trending 周榜（Go）第 13 名。",
+        "hot": "本周新增 +130 stars，位列 GitHub Trending 周榜（Go）第 12 名。",
         "uses": []
       },
       "en": {
@@ -9457,7 +9430,7 @@ window.TRENDING_DATA = {
         "what": "A powerful AI coding agent. Built for the terminal. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+130 stars this week, ranked #13 on the weekly Go chart.",
+        "hot": "+130 stars this week, ranked #12 on the weekly Go chart.",
         "uses": []
       },
       "track": {
@@ -9471,7 +9444,7 @@ window.TRENDING_DATA = {
     {
       "slug": "gvisor",
       "full": "google/gvisor",
-      "rank": 14,
+      "rank": 13,
       "cat": "infra",
       "lang": "Go",
       "stars": 18.8,
@@ -9483,7 +9456,7 @@ window.TRENDING_DATA = {
         "what": "Application Kernel for Containers（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "本周新增 +85 stars，位列 GitHub Trending 周榜（Go）第 14 名。",
+        "hot": "本周新增 +85 stars，位列 GitHub Trending 周榜（Go）第 13 名。",
         "uses": []
       },
       "en": {
@@ -9491,7 +9464,7 @@ window.TRENDING_DATA = {
         "what": "Application Kernel for Containers (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+85 stars this week, ranked #14 on the weekly Go chart.",
+        "hot": "+85 stars this week, ranked #13 on the weekly Go chart.",
         "uses": []
       },
       "track": {
@@ -9505,7 +9478,7 @@ window.TRENDING_DATA = {
     {
       "slug": "prometheus",
       "full": "prometheus/prometheus",
-      "rank": 15,
+      "rank": 14,
       "cat": "infra",
       "lang": "Go",
       "stars": 65.2,
@@ -9517,7 +9490,7 @@ window.TRENDING_DATA = {
         "what": "The Prometheus monitoring system and time series database.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "本周新增 +277 stars，位列 GitHub Trending 周榜（Go）第 15 名。",
+        "hot": "本周新增 +277 stars，位列 GitHub Trending 周榜（Go）第 14 名。",
         "uses": []
       },
       "en": {
@@ -9525,7 +9498,7 @@ window.TRENDING_DATA = {
         "what": "The Prometheus monitoring system and time series database. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+277 stars this week, ranked #15 on the weekly Go chart.",
+        "hot": "+277 stars this week, ranked #14 on the weekly Go chart.",
         "uses": []
       },
       "track": {
@@ -9539,7 +9512,7 @@ window.TRENDING_DATA = {
     {
       "slug": "pentagi",
       "full": "vxcontrol/pentagi",
-      "rank": 16,
+      "rank": 15,
       "cat": "agent",
       "lang": "Go",
       "stars": 20.9,
@@ -9551,7 +9524,7 @@ window.TRENDING_DATA = {
         "what": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "本周新增 +1.1k stars，位列 GitHub Trending 周榜（Go）第 16 名。",
+        "hot": "本周新增 +1.1k stars，位列 GitHub Trending 周榜（Go）第 15 名。",
         "uses": []
       },
       "en": {
@@ -9559,7 +9532,7 @@ window.TRENDING_DATA = {
         "what": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+1.1k stars this week, ranked #16 on the weekly Go chart.",
+        "hot": "+1.1k stars this week, ranked #15 on the weekly Go chart.",
         "uses": []
       },
       "track": {
@@ -9573,7 +9546,7 @@ window.TRENDING_DATA = {
     {
       "slug": "cli",
       "full": "larksuite/cli",
-      "rank": 17,
+      "rank": 16,
       "cat": "agent",
       "lang": "Go",
       "stars": 15.6,
@@ -9585,7 +9558,7 @@ window.TRENDING_DATA = {
         "what": "The official Lark/Feishu CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 20+ AI Agent Skills.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "本周新增 +265 stars，位列 GitHub Trending 周榜（Go）第 17 名。",
+        "hot": "本周新增 +265 stars，位列 GitHub Trending 周榜（Go）第 16 名。",
         "uses": []
       },
       "en": {
@@ -9593,7 +9566,7 @@ window.TRENDING_DATA = {
         "what": "The official Lark/Feishu CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 20+ AI Agent Skills. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+265 stars this week, ranked #17 on the weekly Go chart.",
+        "hot": "+265 stars this week, ranked #16 on the weekly Go chart.",
         "uses": []
       },
       "track": {
@@ -9607,7 +9580,7 @@ window.TRENDING_DATA = {
     {
       "slug": "testify",
       "full": "stretchr/testify",
-      "rank": 18,
+      "rank": 17,
       "cat": "infra",
       "lang": "Go",
       "stars": 26.1,
@@ -9619,7 +9592,7 @@ window.TRENDING_DATA = {
         "what": "A toolkit with common assertions and mocks that plays nicely with the standard library（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "本周新增 +36 stars，位列 GitHub Trending 周榜（Go）第 18 名。",
+        "hot": "本周新增 +36 stars，位列 GitHub Trending 周榜（Go）第 17 名。",
         "uses": []
       },
       "en": {
@@ -9627,7 +9600,7 @@ window.TRENDING_DATA = {
         "what": "A toolkit with common assertions and mocks that plays nicely with the standard library (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+36 stars this week, ranked #18 on the weekly Go chart.",
+        "hot": "+36 stars this week, ranked #17 on the weekly Go chart.",
         "uses": []
       },
       "track": {
@@ -9641,7 +9614,7 @@ window.TRENDING_DATA = {
     {
       "slug": "go-ethereum",
       "full": "ethereum/go-ethereum",
-      "rank": 20,
+      "rank": 19,
       "cat": "infra",
       "lang": "Go",
       "stars": 51.2,
@@ -9653,7 +9626,7 @@ window.TRENDING_DATA = {
         "what": "Go implementation of the Ethereum protocol（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "本周新增 +53 stars，位列 GitHub Trending 周榜（Go）第 20 名。",
+        "hot": "本周新增 +53 stars，位列 GitHub Trending 周榜（Go）第 19 名。",
         "uses": []
       },
       "en": {
@@ -9661,7 +9634,7 @@ window.TRENDING_DATA = {
         "what": "Go implementation of the Ethereum protocol (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+53 stars this week, ranked #20 on the weekly Go chart.",
+        "hot": "+53 stars this week, ranked #19 on the weekly Go chart.",
         "uses": []
       },
       "track": {
@@ -9675,7 +9648,7 @@ window.TRENDING_DATA = {
     {
       "slug": "croc",
       "full": "schollz/croc",
-      "rank": 21,
+      "rank": 20,
       "cat": "infra",
       "lang": "Go",
       "stars": 35.6,
@@ -9687,7 +9660,7 @@ window.TRENDING_DATA = {
         "what": "Easily and securely send things from one computer to another 🐊 📦（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "本周新增 +167 stars，位列 GitHub Trending 周榜（Go）第 21 名。",
+        "hot": "本周新增 +167 stars，位列 GitHub Trending 周榜（Go）第 20 名。",
         "uses": []
       },
       "en": {
@@ -9695,7 +9668,7 @@ window.TRENDING_DATA = {
         "what": "Easily and securely send things from one computer to another 🐊 📦 (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+167 stars this week, ranked #21 on the weekly Go chart.",
+        "hot": "+167 stars this week, ranked #20 on the weekly Go chart.",
         "uses": []
       },
       "track": {
@@ -9709,7 +9682,7 @@ window.TRENDING_DATA = {
     {
       "slug": "engram",
       "full": "Gentleman-Programming/engram",
-      "rank": 22,
+      "rank": 21,
       "cat": "agent",
       "lang": "Go",
       "stars": 5.5,
@@ -9721,7 +9694,7 @@ window.TRENDING_DATA = {
         "what": "Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "本周新增 +525 stars，位列 GitHub Trending 周榜（Go）第 22 名。",
+        "hot": "本周新增 +525 stars，位列 GitHub Trending 周榜（Go）第 21 名。",
         "uses": []
       },
       "en": {
@@ -9729,7 +9702,7 @@ window.TRENDING_DATA = {
         "what": "Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+525 stars this week, ranked #22 on the weekly Go chart.",
+        "hot": "+525 stars this week, ranked #21 on the weekly Go chart.",
         "uses": []
       },
       "track": {
@@ -10511,22 +10484,32 @@ window.TRENDING_DATA = {
       "stars": 39.6,
       "today": "+34.7k",
       "today_n": 34748,
-      "auto": true,
+      "auto": false,
       "zh": {
-        "tag": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
-        "what": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Python。",
-        "hot": "本月新增 +34.7k stars，位列 GitHub Trending 月榜第 1 名。",
-        "uses": []
+        "tag": "开源智能体视频制作系统，将AI编程助手升级为视频工作室",
+        "what": "OpenMontage 是全球首个开源的智能体驱动视频制作系统，通过 12 条流水线、52 款工具和 500 余项智能体技能，将用户的 AI 编程助手转化为完整的视频生产工作室。用户只需提供灵感或参考视频，即可由多智能体协作完成从脚本、素材到成片的自动化视频创作。",
+        "content": "仓库内置了 12 条可编排的视频生产流水线、52 个专用工具模块以及超过 500 项智能体技能配置，涵盖从脚本生成、素材处理到后期合成的完整链路。项目以 Python 为主语言，提供快速启动指南、提示词模板及多模型提供商接入文档。",
+        "stack": "基于 Python 构建，采用智能体编排架构，支持接入 Claude、ChatGPT、DeepSeek 等主流大模型 API，并依赖 Bloome 等多智能体协作平台与 Atlas Cloud 等全模态推理服务完成视频生成与图像合成。",
+        "hot": "项目上线短期内狂揽 39.6K Star，其中本月新增 34.7K，登顶 GitHub Trending 月榜第 1，反映出社区对「智能体驱动视频自动化」的强烈需求。其首创的「将 AI 编程助手转化为视频工作室」理念，填补了开源领域端到端智能视频生产的空白。",
+        "uses": [
+          "AI 开发者与智能体研究者——希望基于开源架构快速搭建自动化视频工作流",
+          "内容创作者与自媒体团队——需要批量生成短视频、广告或解说视频",
+          "编程爱好者与 AI 辅助用户——想将已有的 AI Coding Assistant 升级为视频生产工具",
+          "开源社区与技术布道者——寻找可扩展、可定制的多智能体协作视频方案"
+        ]
       },
       "en": {
-        "tag": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
-        "what": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Python.",
-        "hot": "+34.7k stars this month, ranked #1 on the monthly GitHub Trending chart.",
-        "uses": []
+        "tag": "Open-source agentic video production: turn AI coding assistant into studio",
+        "what": "OpenMontage is the world's first open-source, agentic video production system. It transforms your AI coding assistant into a full video production studio through 12 pipelines, 52 tools, and 500+ agent skills. Users can paste a reference video or provide prompts to automate end-to-end video creation via multi-agent collaboration.",
+        "content": "The repository contains 12 orchestrated video production pipelines, 52 dedicated tool modules, and 500+ agent skill configurations covering scripting, asset processing, and post-production. Written primarily in Python, it includes quick-start guides, prompt templates, and provider integration docs for multi-model backends.",
+        "stack": "Built on Python with an agent orchestration architecture, it supports mainstream LLM APIs such as Claude, ChatGPT, and DeepSeek. It leverages multi-agent collaboration platforms like Bloome and full-modal inference services like Atlas Cloud for video generation and image synthesis.",
+        "hot": "The project has skyrocketed to 39.6K stars with 34.7K added this month, claiming the #1 spot on GitHub Trending monthly rankings. This reflects massive community demand for agentic video automation, as its pioneering concept of turning AI coding assistants into video studios fills a gap in open-source end-to-end intelligent video production.",
+        "uses": [
+          "AI developers and agent researchers seeking to build automated video workflows on open-source architecture.",
+          "Content creators and social media teams needing batch production of short videos, ads, or explainer clips.",
+          "Coding enthusiasts and AI-assisted users who want to upgrade their existing AI coding assistant into a video production tool.",
+          "Open-source communities and tech evangelists looking for scalable, customizable multi-agent collaborative video solutions."
+        ]
       },
       "track": {
         "days": 0,
@@ -12443,7 +12426,7 @@ window.TRENDING_DATA = {
     {
       "slug": "casaos",
       "full": "IceWhaleTech/CasaOS",
-      "rank": 11,
+      "rank": 10,
       "cat": "infra",
       "lang": "Go",
       "stars": 36.7,
@@ -12455,7 +12438,7 @@ window.TRENDING_DATA = {
         "what": "CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "本月新增 +2.8k stars，位列 GitHub Trending 月榜（Go）第 11 名。",
+        "hot": "本月新增 +2.8k stars，位列 GitHub Trending 月榜（Go）第 10 名。",
         "uses": []
       },
       "en": {
@@ -12463,7 +12446,7 @@ window.TRENDING_DATA = {
         "what": "CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+2.8k stars this month, ranked #11 on the monthly Go chart.",
+        "hot": "+2.8k stars this month, ranked #10 on the monthly Go chart.",
         "uses": []
       },
       "track": {
@@ -12477,7 +12460,7 @@ window.TRENDING_DATA = {
     {
       "slug": "superfile",
       "full": "yorukot/superfile",
-      "rank": 12,
+      "rank": 11,
       "cat": "infra",
       "lang": "Go",
       "stars": 18.7,
@@ -12489,7 +12472,7 @@ window.TRENDING_DATA = {
         "what": "Pretty fancy and modern terminal file manager（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "本月新增 +1.3k stars，位列 GitHub Trending 月榜（Go）第 12 名。",
+        "hot": "本月新增 +1.3k stars，位列 GitHub Trending 月榜（Go）第 11 名。",
         "uses": []
       },
       "en": {
@@ -12497,7 +12480,7 @@ window.TRENDING_DATA = {
         "what": "Pretty fancy and modern terminal file manager (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+1.3k stars this month, ranked #12 on the monthly Go chart.",
+        "hot": "+1.3k stars this month, ranked #11 on the monthly Go chart.",
         "uses": []
       },
       "track": {
@@ -12511,7 +12494,7 @@ window.TRENDING_DATA = {
     {
       "slug": "adk-go",
       "full": "google/adk-go",
-      "rank": 13,
+      "rank": 12,
       "cat": "agent",
       "lang": "Go",
       "stars": 8.5,
@@ -12523,7 +12506,7 @@ window.TRENDING_DATA = {
         "what": "An open-source, code-first Go toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "本月新增 +425 stars，位列 GitHub Trending 月榜（Go）第 13 名。",
+        "hot": "本月新增 +425 stars，位列 GitHub Trending 月榜（Go）第 12 名。",
         "uses": []
       },
       "en": {
@@ -12531,7 +12514,7 @@ window.TRENDING_DATA = {
         "what": "An open-source, code-first Go toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+425 stars this month, ranked #13 on the monthly Go chart.",
+        "hot": "+425 stars this month, ranked #12 on the monthly Go chart.",
         "uses": []
       },
       "track": {
@@ -12545,7 +12528,7 @@ window.TRENDING_DATA = {
     {
       "slug": "kubernetes",
       "full": "kubernetes/kubernetes",
-      "rank": 14,
+      "rank": 13,
       "cat": "infra",
       "lang": "Go",
       "stars": 123.8,
@@ -12557,7 +12540,7 @@ window.TRENDING_DATA = {
         "what": "Production-Grade Container Scheduling and Management（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "本月新增 +1.9k stars，位列 GitHub Trending 月榜（Go）第 14 名。",
+        "hot": "本月新增 +1.9k stars，位列 GitHub Trending 月榜（Go）第 13 名。",
         "uses": []
       },
       "en": {
@@ -12565,7 +12548,7 @@ window.TRENDING_DATA = {
         "what": "Production-Grade Container Scheduling and Management (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+1.9k stars this month, ranked #14 on the monthly Go chart.",
+        "hot": "+1.9k stars this month, ranked #13 on the monthly Go chart.",
         "uses": []
       },
       "track": {
@@ -12579,7 +12562,7 @@ window.TRENDING_DATA = {
     {
       "slug": "frp",
       "full": "fatedier/frp",
-      "rank": 17,
+      "rank": 16,
       "cat": "infra",
       "lang": "Go",
       "stars": 108.1,
@@ -12591,7 +12574,7 @@ window.TRENDING_DATA = {
         "what": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "本月新增 +879 stars，位列 GitHub Trending 月榜（Go）第 17 名。",
+        "hot": "本月新增 +879 stars，位列 GitHub Trending 月榜（Go）第 16 名。",
         "uses": []
       },
       "en": {
@@ -12599,7 +12582,7 @@ window.TRENDING_DATA = {
         "what": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet. (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+879 stars this month, ranked #17 on the monthly Go chart.",
+        "hot": "+879 stars this month, ranked #16 on the monthly Go chart.",
         "uses": []
       },
       "track": {
@@ -12613,7 +12596,7 @@ window.TRENDING_DATA = {
     {
       "slug": "compose",
       "full": "docker/compose",
-      "rank": 19,
+      "rank": 18,
       "cat": "infra",
       "lang": "Go",
       "stars": 37.9,
@@ -12625,7 +12608,7 @@ window.TRENDING_DATA = {
         "what": "Define and run multi-container applications with Docker（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "本月新增 +645 stars，位列 GitHub Trending 月榜（Go）第 19 名。",
+        "hot": "本月新增 +645 stars，位列 GitHub Trending 月榜（Go）第 18 名。",
         "uses": []
       },
       "en": {
@@ -12633,7 +12616,7 @@ window.TRENDING_DATA = {
         "what": "Define and run multi-container applications with Docker (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+645 stars this month, ranked #19 on the monthly Go chart.",
+        "hot": "+645 stars this month, ranked #18 on the monthly Go chart.",
         "uses": []
       },
       "track": {
@@ -12647,7 +12630,7 @@ window.TRENDING_DATA = {
     {
       "slug": "crush",
       "full": "charmbracelet/crush",
-      "rank": 21,
+      "rank": 20,
       "cat": "agent",
       "lang": "Go",
       "stars": 26.6,
@@ -12659,7 +12642,7 @@ window.TRENDING_DATA = {
         "what": "Glamourous agentic coding for all 💘（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "本月新增 +1.4k stars，位列 GitHub Trending 月榜（Go）第 21 名。",
+        "hot": "本月新增 +1.4k stars，位列 GitHub Trending 月榜（Go）第 20 名。",
         "uses": []
       },
       "en": {
@@ -12667,7 +12650,7 @@ window.TRENDING_DATA = {
         "what": "Glamourous agentic coding for all 💘 (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+1.4k stars this month, ranked #21 on the monthly Go chart.",
+        "hot": "+1.4k stars this month, ranked #20 on the monthly Go chart.",
         "uses": []
       },
       "track": {
@@ -12681,7 +12664,7 @@ window.TRENDING_DATA = {
     {
       "slug": "arcane",
       "full": "getarcaneapp/arcane",
-      "rank": 22,
+      "rank": 21,
       "cat": "infra",
       "lang": "Go",
       "stars": 6.5,
@@ -12693,7 +12676,7 @@ window.TRENDING_DATA = {
         "what": "Modern Docker Management, Designed for Everyone（自动摘要，人工深度解析待补充。）",
         "content": "",
         "stack": "主语言 Go。",
-        "hot": "本月新增 +737 stars，位列 GitHub Trending 月榜（Go）第 22 名。",
+        "hot": "本月新增 +737 stars，位列 GitHub Trending 月榜（Go）第 21 名。",
         "uses": []
       },
       "en": {
@@ -12701,7 +12684,7 @@ window.TRENDING_DATA = {
         "what": "Modern Docker Management, Designed for Everyone (Auto summary — a human deep dive is pending.)",
         "content": "",
         "stack": "Primarily Go.",
-        "hot": "+737 stars this month, ranked #22 on the monthly Go chart.",
+        "hot": "+737 stars this month, ranked #21 on the monthly Go chart.",
         "uses": []
       },
       "track": {
