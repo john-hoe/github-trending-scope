@@ -15,12 +15,12 @@
 
 ## 这是什么 / What is this
 
-每天 GitHub Trending 的榜单只是一串链接。**Trending Scope** 把它做成两个静态页面与一份共享数据、零构建依赖的本地网站：
+每天 GitHub Trending 的榜单只是一串链接。**Trending Scope** 把它做成中英双语静态页面与一份共享数据、零构建依赖的本地网站：
 
 GitHub Trending is just a list of links. **Trending Scope** turns it into two static pages backed by one shared dataset, with no build dependencies:
 
 - **上榜仓库解析** / Trending repo explainers —— 人工精评与明确标记的自动摘要并存；点击卡片查看是做什么的 / 仓库内容 / 技术栈 / 应用场景 / 热度原因，并可一键复制 Markdown
-- **中英双语** / Bilingual —— `index.html`（中文）与 `index-en.html`（English）一键切换
+- **中英双语** / Bilingual —— `index.html`（English，默认）与 `index-zh.html`（中文）一键切换；旧 `index-en.html` 链接自动跳转到默认英文页
 - **图表洞察** / Charts —— 分类环形图 + 区间新增 TOP 8 竞速条形图（跟随每日/每周/每月口径，animated racing bars of gainers）
 - **交互** / Interactions —— 分类筛选、实时搜索（防抖）、四种排序（榜单排名 / Stars / 名称）、「今日 +N」新增 star 徽章、卡片 / 紧凑列表双视图（cards or compact list view）、项目对比（选 2~3 个仓库并排比较 / side-by-side compare for up to 3 repos）
 - **设计** / Design —— 衬线大标题（Noto Serif / Noto Serif SC）+ 暖纸编辑部风格配色 + 墨黑暗色模式、极光背景、尊重 reduced-motion；支持 Tab、Enter / Space 打开、Esc 关闭及弹窗焦点管理
@@ -34,8 +34,8 @@ GitHub Trending is just a list of links. **Trending Scope** turns it into two st
 No build, no dependencies — just open in a browser:
 
 ```bash
-open index.html      # 中文版
-open index-en.html   # English version
+open index.html      # English version (default)
+open index-zh.html   # 中文版
 ```
 
 ## 每日自动更新 / Daily auto-update
@@ -66,8 +66,9 @@ The trending data is refreshed daily by GitHub Actions (~08:23 Beijing time):
 ## 仓库结构 / Structure
 
 ```
-├── index.html        # 中文版页面（样式+渲染逻辑，数据来自 data.js）
-├── index-en.html     # English page (styles + rendering, data from data.js)
+├── index.html        # English page, default entry (styles + rendering from data.js)
+├── index-zh.html     # 中文版页面（样式+渲染逻辑，数据来自 data.js）
+├── index-en.html     # 旧英文入口兼容跳转 / legacy English redirect
 ├── data.json         # 双语数据源（canonical dataset, zh + en）
 ├── data.js           # data.json 的页面加载包装（window.TRENDING_DATA，自动生成）
 ├── favicon.png       # 站点图标（512×512）
