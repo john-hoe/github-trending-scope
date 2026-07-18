@@ -48,6 +48,11 @@ class AutomationContractTests(unittest.TestCase):
         self.assertGreaterEqual(test_at, 0)
         self.assertGreater(update_at, test_at)
 
+    def test_workflow_authenticates_review_context_and_retries(self):
+        self.assertIn("GITHUB_API_TOKEN: ${{ github.token }}", self.workflow)
+        self.assertIn('LLM_CONCURRENCY: "4"', self.workflow)
+        self.assertIn('LLM_RETRIES: "3"', self.workflow)
+
     def test_third_party_actions_are_pinned_to_commits(self):
         uses = re.findall(r"(?m)^\s*-?\s*uses:\s*[^@\s]+@([^\s#]+)", self.workflow)
         self.assertTrue(uses)
