@@ -1,6 +1,6 @@
 {
   "date": "2026-07-18",
-  "generated_at": "2026-07-18 16:15 (CST)",
+  "generated_at": "2026-07-18 16:23 (CST)",
   "repos": [
     {
       "full": "codecrafters-io/build-your-own-x",
@@ -50,7 +50,7 @@
     {
       "full": "anthropics/cwc-workshops",
       "rank": 6,
-      "stars": 1.6,
+      "stars": 1.7,
       "today_n": 45,
       "slug": "cwc-workshops",
       "cat": "agent",

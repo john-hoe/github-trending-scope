@@ -3,15 +3,15 @@ window.TRENDING_DATA = {
   "schema": 2,
   "meta": {
     "date": "2026-07-18",
-    "generated_at": "2026-07-18 16:15 (CST)",
+    "generated_at": "2026-07-18 16:23 (CST)",
     "source": "github.com/trending",
     "criteria": "Repositories · Today/Week/Month · All languages · logged out",
     "headline_zh": "今日热榜全景速递",
     "headline_en": "Your daily trending digest",
     "sub_zh": "14 个上榜仓库：学习 & 游戏 2 个、平台·数据·应用 5 个、Agent 工具链 5 个、AI 应用与模型 2 个。今日新增 Star 前三：Nutlope/hallmark（+1.5k）、OpenCut-app/OpenCut（+1.1k）、codecrafters-io/build-your-own-x（+1.1k）。点击任意卡片查看深度解析。",
     "sub_en": "14 trending repos: 2 Learning & Gaming, 5 Platforms, Data & Apps, 5 Agent Tooling, 2 AI Apps & Models. Biggest star gainers today: Nutlope/hallmark (+1.5k), OpenCut-app/OpenCut (+1.1k), codecrafters-io/build-your-own-x (+1.1k). Click any card for a deep dive.",
-    "footer_zh": "Trending Scope · 数据更新于 2026-07-18 16:15 (CST)，由自动化管线直连 github.com 抓取",
-    "footer_en": "Trending Scope · Data updated 2026-07-18 16:15 (CST) by the automated pipeline, fetched directly from github.com"
+    "footer_zh": "Trending Scope · 数据更新于 2026-07-18 16:23 (CST)，由自动化管线直连 github.com 抓取",
+    "footer_en": "Trending Scope · Data updated 2026-07-18 16:23 (CST) by the automated pipeline, fetched directly from github.com"
   },
   "cats": {
     "agent": {
@@ -111,7 +111,7 @@ window.TRENDING_DATA = {
         {
           "full": "anthropics/cwc-workshops",
           "rank": 6,
-          "stars": 1.6,
+          "stars": 1.7,
           "today": "+45",
           "today_n": 45,
           "cat": "agent"
@@ -241,7 +241,7 @@ window.TRENDING_DATA = {
         {
           "full": "Graphify-Labs/graphify",
           "rank": 9,
-          "stars": 90.4,
+          "stars": 90.5,
           "today": "+1.4k",
           "today_n": 1360
         },
@@ -292,7 +292,7 @@ window.TRENDING_DATA = {
         {
           "full": "anthropics/cwc-workshops",
           "rank": 2,
-          "stars": 1.6,
+          "stars": 1.7,
           "today": "+45",
           "today_n": 45
         },
@@ -941,7 +941,7 @@ window.TRENDING_DATA = {
         {
           "full": "HKUDS/Vibe-Trading",
           "rank": 4,
-          "stars": 24.7,
+          "stars": 24.8,
           "today": "+5.6k",
           "today_n": 5616
         },
@@ -962,7 +962,7 @@ window.TRENDING_DATA = {
         {
           "full": "stablyai/orca",
           "rank": 7,
-          "stars": 21.3,
+          "stars": 21.4,
           "today": "+5.4k",
           "today_n": 5409
         },
@@ -1046,7 +1046,7 @@ window.TRENDING_DATA = {
         {
           "full": "vercel-labs/native",
           "rank": 19,
-          "stars": 6.5,
+          "stars": 6.6,
           "today": "+854",
           "today_n": 854
         }
@@ -1055,7 +1055,7 @@ window.TRENDING_DATA = {
         {
           "full": "HKUDS/Vibe-Trading",
           "rank": 1,
-          "stars": 24.7,
+          "stars": 24.8,
           "today": "+5.6k",
           "today_n": 5616
         },
@@ -1090,7 +1090,7 @@ window.TRENDING_DATA = {
         {
           "full": "Graphify-Labs/graphify",
           "rank": 6,
-          "stars": 90.4,
+          "stars": 90.5,
           "today": "+8.4k",
           "today_n": 8379
         },
@@ -1211,7 +1211,7 @@ window.TRENDING_DATA = {
         {
           "full": "stablyai/orca",
           "rank": 4,
-          "stars": 21.3,
+          "stars": 21.4,
           "today": "+5.4k",
           "today_n": 5409
         },
@@ -1951,7 +1951,7 @@ window.TRENDING_DATA = {
         {
           "full": "stablyai/orca",
           "rank": 6,
-          "stars": 21.3,
+          "stars": 21.4,
           "today": "+16.0k",
           "today_n": 16048
         },
@@ -2093,7 +2093,7 @@ window.TRENDING_DATA = {
         {
           "full": "HKUDS/Vibe-Trading",
           "rank": 7,
-          "stars": 24.7,
+          "stars": 24.8,
           "today": "+12.3k",
           "today_n": 12319
         },
@@ -2114,7 +2114,7 @@ window.TRENDING_DATA = {
         {
           "full": "huggingface/speech-to-speech",
           "rank": 10,
-          "stars": 6.1,
+          "stars": 6.2,
           "today": "+1.3k",
           "today_n": 1334
         },
@@ -2179,7 +2179,7 @@ window.TRENDING_DATA = {
         {
           "full": "stablyai/orca",
           "rank": 1,
-          "stars": 21.3,
+          "stars": 21.4,
           "today": "+16.0k",
           "today_n": 16048
         },
@@ -2228,7 +2228,7 @@ window.TRENDING_DATA = {
         {
           "full": "jamiepine/voicebox",
           "rank": 8,
-          "stars": 42.2,
+          "stars": 42.3,
           "today": "+12.1k",
           "today_n": 12138
         },
@@ -2687,43 +2687,50 @@ window.TRENDING_DATA = {
           "today_n": 745
         },
         {
-          "full": "fatedier/frp",
+          "full": "NdoleStudio/httpsms",
           "rank": 16,
+          "stars": 3.5,
+          "today": "+1.5k",
+          "today_n": 1535
+        },
+        {
+          "full": "fatedier/frp",
+          "rank": 17,
           "stars": 108.1,
           "today": "+879",
           "today_n": 879
         },
         {
           "full": "hashicorp/terraform",
-          "rank": 17,
+          "rank": 18,
           "stars": 49.2,
           "today": "+952",
           "today_n": 952
         },
         {
           "full": "docker/compose",
-          "rank": 18,
+          "rank": 19,
           "stars": 37.9,
           "today": "+645",
           "today_n": 645
         },
         {
           "full": "gosom/google-maps-scraper",
-          "rank": 19,
+          "rank": 20,
           "stars": 5.1,
           "today": "+681",
           "today_n": 681
         },
         {
           "full": "charmbracelet/crush",
-          "rank": 20,
+          "rank": 21,
           "stars": 26.6,
           "today": "+1.4k",
           "today_n": 1356
         },
         {
           "full": "getarcaneapp/arcane",
-          "rank": 21,
+          "rank": 22,
           "stars": 6.5,
           "today": "+737",
           "today_n": 737
@@ -3163,7 +3170,7 @@ window.TRENDING_DATA = {
       "rank": 6,
       "cat": "agent",
       "lang": "TypeScript",
-      "stars": 1.6,
+      "stars": 1.7,
       "today": "+45",
       "today_n": 45,
       "auto": false,
@@ -3199,7 +3206,7 @@ window.TRENDING_DATA = {
         "hist": [
           {
             "d": "2026-07-18",
-            "s": 1.6,
+            "s": 1.7,
             "r": 6
           }
         ]
@@ -3317,22 +3324,32 @@ window.TRENDING_DATA = {
       "stars": 19.9,
       "today": "+74",
       "today_n": 74,
-      "auto": true,
+      "auto": false,
       "zh": {
-        "tag": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
-        "what": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Python。",
-        "hot": "今日新增 +74 stars，位列 GitHub Trending 日榜第 9 名。",
-        "uses": []
+        "tag": "面向 MCP 的本地代码智能图谱，让 AI 编码工具只读关键上下文",
+        "what": "code-review-graph 通过 Tree-sitter 解析代码库，构建持久的结构化代码地图并增量追踪变更。它作为 MCP 服务器运行，让 AI 编码助手在代码审阅或处理大型仓库时只获取真正相关的上下文，从而显著减少 token 消耗。",
+        "content": "仓库包含 CLI 工具与 MCP 服务器实现，提供 build、install 等命令，并附带 benchmark 数据、GitHub Action 集成文档及多语言 README。",
+        "stack": "基于 Python 3.10+ 开发，使用 Tree-sitter 进行代码解析，通过 MCP 协议与 AI 工具通信，支持 pip/pipx 安装。",
+        "hot": "项目精准击中 AI 编程“token 燃烧”痛点，宣称在真实仓库中实现 38 倍至 528 倍的上下文压缩；凭借近 2 万星标与单日 74 星增速登上 Trending 前十，反映出开发者对低成本、高精度 AI 代码审阅的强烈需求。",
+        "uses": [
+          "使用 AI 编码助手（如 Cursor、Claude Code）的开发者 —— 降低代码审阅时的 token 消耗与等待时间",
+          "大型代码库维护者 —— 在 monorepo 或遗留项目中为 AI 提供精准、增量更新的代码上下文",
+          "追求数据隐私的团队 —— 通过 Local-first 架构在本地构建代码图谱，避免上传源码至云端",
+          "CI/CD 集成场景 —— 借助 GitHub Action 在自动化流程中嵌入智能代码审查"
+        ]
       },
       "en": {
-        "tag": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
-        "what": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Python.",
-        "hot": "+74 stars today, ranked #9 on the daily GitHub Trending chart.",
-        "uses": []
+        "tag": "Local-first code intelligence graph feeding AI tools precise context via MCP to cut tokens",
+        "what": "It parses your codebase with Tree-sitter to build a persistent, structural code map and tracks changes incrementally. Serving as an MCP server, it feeds AI coding assistants only the relevant context during reviews or large-repo workflows, dramatically cutting token usage.",
+        "content": "The repo ships a CLI tool and MCP server implementation with commands like build and install, plus benchmark data, GitHub Action integration docs, and multi-language READMEs.",
+        "stack": "Built on Python 3.10+, it uses Tree-sitter for parsing and speaks to AI tools via the MCP protocol, installable through pip or pipx.",
+        "hot": "It directly tackles the “token burn” pain point in AI coding, claiming 38×–528× context reduction on real repos; its nearly 20k stars and 74-star daily growth landed it on Trending Top 10, showing strong demand for low-cost, high-precision AI code reviews.",
+        "uses": [
+          "Developers using AI coding assistants (e.g., Cursor, Claude Code) — slash token costs and wait times during code reviews",
+          "Large codebase maintainers — serve AI precise, incrementally-updated context in monorepos or legacy projects",
+          "Privacy-conscious teams — keep code intelligence local and avoid uploading source code to the cloud",
+          "CI/CD integrators — embed smart code reviews into automation pipelines via the provided GitHub Action"
+        ]
       },
       "track": {
         "days": 1,
@@ -3793,7 +3810,7 @@ window.TRENDING_DATA = {
       "rank": 15,
       "cat": "agent",
       "lang": "Python",
-      "stars": 90.4,
+      "stars": 90.5,
       "today": "+1.4k",
       "today_n": 1360,
       "auto": false,
@@ -4156,22 +4173,30 @@ window.TRENDING_DATA = {
       "stars": 27.9,
       "today": "+30",
       "today_n": 30,
-      "auto": true,
+      "auto": false,
       "zh": {
-        "tag": "The most advanced free and open-source browser fingerprinting library",
-        "what": "The most advanced free and open-source browser fingerprinting library（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 TypeScript。",
-        "hot": "今日新增 +30 stars，位列 GitHub Trending 日榜（TypeScript）第 6 名。",
-        "uses": []
+        "tag": "开源浏览器指纹库，无痕模式下也能稳定追踪访客身份",
+        "what": "通过采集浏览器字体、Canvas、WebGL、时区等数十项属性，生成高熵的访客哈希 ID；无需 Cookie，即可在隐私模式或数据清除后依然精准识别同一设备。",
+        "content": "主仓库包含核心 TypeScript 指纹采集与哈希逻辑、React 示例、完整 API 文档及自动化测试；同时提供官方 CDN 分发和 npm 包。",
+        "stack": "基于 TypeScript 构建，零依赖或极轻量依赖，可直接通过 npm 安装或 openfpcdn.io CDN 引入，兼容主流现代浏览器。",
+        "hot": "凭借 27.8k+ Stars 长期位居 GitHub Trending TypeScript 日榜前列，今日新增 30 Stars；在无 Cookie 时代，开发者对隐私模式下的稳定访客追踪需求激增，使其成为身份识别与反欺诈领域的首选开源方案。",
+        "uses": [
+          "前端开发者 —— 在免登录场景下实现跨会话的设备标识与风险评分",
+          "安全与风控团队 —— 用于反欺诈、爬虫识别和多账号作弊检测",
+          "数据分析平台 —— 作为 Cookie 失效后的用户去重与流量追踪补充手段"
+        ]
       },
       "en": {
-        "tag": "The most advanced free and open-source browser fingerprinting library",
-        "what": "The most advanced free and open-source browser fingerprinting library (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily TypeScript.",
-        "hot": "+30 stars today, ranked #6 on the daily TypeScript chart.",
-        "uses": []
+        "tag": "Open-source browser fingerprinting library identifying visitors even in incognito mode",
+        "what": "FingerprintJS collects dozens of browser attributes—fonts, Canvas, WebGL, timezone, etc.—to generate a high-entropy visitor hash. It identifies returning devices without relying on cookies, persisting even through incognito mode or data purges.",
+        "content": "The repository houses the core TypeScript fingerprinting engine, React usage samples, full API docs, and automated tests; official npm and CDN distributions are also provided.",
+        "stack": "Built in TypeScript with minimal or zero runtime dependencies, consumable via npm or the openfpcdn.io CDN, targeting all modern browsers.",
+        "hot": "With 27.8k+ Stars and a steady presence in GitHub's TypeScript Trending Top 10—gaining 30 stars today—it meets surging demand for cookie-less, incognito-proof visitor identification in fraud prevention and analytics.",
+        "uses": [
+          "Frontend developers needing cross-session device identification in password-less or cookie-less environments",
+          "Security & fraud-prevention teams combating multi-account abuse, bots, and suspicious behavior",
+          "Analytics platforms seeking a fallback or supplement for user deduplication when cookies are cleared or blocked"
+        ]
       },
       "track": {
         "days": 0,
@@ -7205,27 +7230,35 @@ window.TRENDING_DATA = {
       "slug": "openvino",
       "full": "openvinotoolkit/openvino",
       "rank": 12,
-      "cat": "ai",
+      "cat": "infra",
       "lang": "C++",
       "stars": 10.5,
       "today": "+7",
       "today_n": 7,
-      "auto": true,
+      "auto": false,
       "zh": {
-        "tag": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
-        "what": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 C++。",
-        "hot": "今日新增 +7 stars，位列 GitHub Trending 日榜（C++）第 12 名。",
-        "uses": []
+        "tag": "Intel 开源的 AI 模型推理优化与部署工具包",
+        "what": "OpenVINO 是 Intel 主导开发的开源工具包，专注于对深度学习模型进行推理优化与生产级部署。它支持将 PyTorch、TensorFlow、ONNX 等主流框架训练好的模型转换为高效推理格式，并能在 CPU、GPU 及 NPU 等多种硬件上实现高性能推理。",
+        "content": "仓库包含 C++ 编写的核心推理引擎、Python/JS/Node 等多语言绑定，以及模型转换器、示例代码和文档。还提供了对 Hugging Face 生态、生成式 AI 及英特尔 NPU/GPU 的专用优化插件与集成工具。",
+        "stack": "以 C++ 实现高性能推理运行时，提供 Python、Node.js 等语言前端；依赖 CMake 构建，支持 OpenMP/TBB 并行后端，并可对接 OneAPI 和英特尔硬件驱动。",
+        "hot": "在 AI 部署与边缘计算需求爆发的背景下，OpenVINO 凭借 10.5k+ Stars 位列 C++ 日榜第 12 名。其对多框架模型与英特尔全系列硬件（CPU/GPU/NPU）的广泛支持，使其成为工业界推理落地的首选基础设施之一。",
+        "uses": [
+          "边缘 AI 开发者 —— 需要在嵌入式设备或边缘端低延迟运行计算机视觉或 LLM 推理。",
+          "模型部署工程师 —— 需要将 PyTorch/TensorFlow/ONNX 模型转换为高效推理格式并部署到生产环境。",
+          "英特尔硬件用户 —— 拥有 Intel CPU、集成/独立显卡或 NPU，希望最大化本地 AI 推理性能。"
+        ]
       },
       "en": {
-        "tag": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
-        "what": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily C++.",
-        "hot": "+7 stars today, ranked #12 on the daily C++ chart.",
-        "uses": []
+        "tag": "Intel's open-source toolkit for optimizing and deploying AI inference from edge to cloud",
+        "what": "OpenVINO is an open-source toolkit led by Intel for optimizing and deploying deep learning inference. It converts and accelerates models from popular frameworks like PyTorch, TensorFlow, and ONNX, enabling high-performance inference across CPUs, GPUs, and AI accelerators from edge to cloud.",
+        "content": "The repository contains a C++ core inference engine, multi-language bindings (Python, JS/Node), model converters, samples, and docs. It also includes specialized plugins and integrations for Hugging Face, generative AI, and Intel NPU/GPU acceleration.",
+        "stack": "Built primarily in C++ for the high-performance runtime, with frontends for Python and Node.js. Uses CMake for building, supports OpenMP/TBB for parallelization, and integrates with OneAPI and Intel hardware drivers.",
+        "hot": "Amid surging demand for AI deployment and edge computing, OpenVINO ranks 12th on GitHub's C++ Trending with over 10.5k stars. Its broad support for multi-framework models and Intel hardware (CPU/GPU/NPU) makes it a go-to infrastructure for production inference.",
+        "uses": [
+          "Edge AI developers who need low-latency computer vision or LLM inference on embedded and edge devices.",
+          "MLOps engineers looking to convert PyTorch/TensorFlow/ONNX models into optimized formats for production deployment.",
+          "Intel hardware users seeking to maximize local AI inference performance on CPUs, integrated/discrete GPUs, and NPUs."
+        ]
       },
       "track": {
         "days": 0,
@@ -7462,22 +7495,32 @@ window.TRENDING_DATA = {
       "stars": 120.8,
       "today": "+127",
       "today_n": 127,
-      "auto": true,
+      "auto": false,
       "zh": {
-        "tag": "LLM inference in C/C++",
-        "what": "LLM inference in C/C++（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 C++。",
-        "hot": "今日新增 +127 stars，位列 GitHub Trending 日榜（C++）第 18 名。",
-        "uses": []
+        "tag": "C++高性能LLM推理引擎，支持本地多硬件运行与量化部署",
+        "what": "llama.cpp 是一个基于纯 C/C++ 编写的大语言模型推理框架，无需 PyTorch 等重量级依赖即可在本地运行主流开源 LLM。它通过极致的底层优化和多种量化方案，使从消费级 CPU 到 GPU 的广泛硬件都能高效执行推理。项目同时提供了命令行工具、HTTP 服务（llama-server）及全新 WebUI，方便快速集成与交互。",
+        "content": "仓库包含核心推理库 libllama、命令行示例、llama-server REST API 服务、全新 WebUI，以及面向 CUDA/Metal/Vulkan 等多后端的 ggml 计算引擎。此外还提供了丰富的模型格式转换、量化脚本和跨平台构建配置。",
+        "stack": "以 C/C++ 为内核，使用 CMake 构建系统，支持通过 CUDA、Metal、Vulkan、SYCL 等后端加速，并附带 Python 绑定与 Docker 部署方案。",
+        "hot": "作为本地 LLM 推理的标杆实现，llama.cpp 凭借轻量、高性能和跨平台特性成为开源社区首选，GitHub Star 数已突破 12 万，今日新增 127 星并跻身 C++ 日榜第 18 位。",
+        "uses": [
+          "本地 AI 开发者与研究者——需要在个人设备或边缘端快速验证、调试和部署开源大模型",
+          "硬件与嵌入式爱好者——希望在消费级 CPU、笔记本甚至低配置设备上流畅运行 LLM",
+          "下游应用/Agent 集成者——寻求轻量无依赖的推理后端，为 Chatbot、RAG 或 AI Agent 提供底层支持",
+          "企业私有化部署工程师——追求无需重型框架、可跨平台编译的私有 LLM 推理方案"
+        ]
       },
       "en": {
-        "tag": "LLM inference in C/C++",
-        "what": "LLM inference in C/C++ (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily C++.",
-        "hot": "+127 stars today, ranked #18 on the daily C++ chart.",
-        "uses": []
+        "tag": "High-performance C++ LLM inference engine for local multi-hardware deployment",
+        "what": "llama.cpp is a pure C/C++ inference framework for large language models that runs mainstream open-source LLMs locally without heavy dependencies like PyTorch. Through extreme low-level optimizations and various quantization schemes, it enables efficient inference across hardware ranging from consumer CPUs to GPUs. The project also includes CLI tools, an HTTP server (llama-server), and a new WebUI for quick integration and interaction.",
+        "content": "The repository contains the core inference library libllama, CLI examples, the llama-server REST API service, a new WebUI, and the ggml compute engine targeting multiple backends including CUDA, Metal, and Vulkan. It also provides extensive model format conversion, quantization scripts, and cross-platform build configurations.",
+        "stack": "Built on a C/C++ core with CMake, it supports acceleration via CUDA, Metal, Vulkan, SYCL, and other backends, along with Python bindings and Docker deployment options.",
+        "hot": "As the reference implementation for local LLM inference, llama.cpp has become the open-source community's go-to choice for its lightweight, high-performance, and cross-platform nature, surpassing 120k GitHub stars with 127 new stars today and ranking 18th on the C++ daily trending list.",
+        "uses": [
+          "Local AI developers and researchers who need to quickly validate, debug, and deploy open-source LLMs on personal or edge devices",
+          "Hardware and embedded enthusiasts looking to run LLMs smoothly on consumer CPUs, laptops, and low-spec devices",
+          "Downstream application and agent integrators seeking a lightweight, dependency-free inference backend for chatbots, RAG, or AI agents",
+          "Enterprise engineers pursuing private LLM inference solutions that compile across platforms without heavy frameworks"
+        ]
       },
       "track": {
         "days": 0,
@@ -7753,7 +7796,7 @@ window.TRENDING_DATA = {
       "rank": 4,
       "cat": "agent",
       "lang": "Python",
-      "stars": 24.7,
+      "stars": 24.8,
       "today": "+5.6k",
       "today_n": 5616,
       "auto": false,
@@ -7839,7 +7882,7 @@ window.TRENDING_DATA = {
       "rank": 7,
       "cat": "agent",
       "lang": "TypeScript",
-      "stars": 21.3,
+      "stars": 21.4,
       "today": "+5.4k",
       "today_n": 5409,
       "auto": false,
@@ -8104,22 +8147,32 @@ window.TRENDING_DATA = {
       "stars": 3.6,
       "today": "+1.2k",
       "today_n": 1158,
-      "auto": true,
+      "auto": false,
       "zh": {
-        "tag": "把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills",
-        "what": "把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Python。",
-        "hot": "本周新增 +1.2k stars，位列 GitHub Trending 周榜第 15 名。",
-        "uses": []
+        "tag": "将书籍、长视频与播客蒸馏为可执行 AI Agent Skill 的方法论流水线",
+        "what": "cangjie-skill 通过 RIA-TV++ 七阶段流水线，将书籍、长视频、播客等高价值长内容中可迁移的方法论抽取并结构化为可独立调用的 AI Skill。不同于简单摘要，它面向 Agent 执行产出包含技能地图、术语词典、压力测试用例及可直接安装到 Claude Code / Cursor 的 Skill 工具包，解决“看过却用不起来”的痛点。",
+        "content": "仓库核心是 RIA-TV++ 的实现脚本与规范，涵盖 Adler 分析、五路并行提取、三重验证筛选、RIA++ 结构化、Zettelkasten 索引、压力测试等七个阶段的工具链。交付物模板包括 BOOK_OVERVIEW.md、INDEX.md、DIGEST.md、GLOSSARY.md、各 SKILL.md 模块及 test-prompts.json，形成完整的多 Skill 仓库结构。",
+        "stack": "主语言为 Python，基于 Mortimer Adler 分析阅读法与赵周 RIA 拆书法设计，依赖大语言模型进行并行提取与验证，最终输出适配 Claude Code 与 Cursor 的 Skill 格式；视频处理需配合独立的 video-downloader skill 进行字幕/音频转写。",
+        "hot": "在 GitHub Trending 周榜位列第 15，一周内新增 1,158 Star，总星数达 3,558，反映出开发者对“从被动阅读到可执行 Agent 技能”这一范式的高度关注。其精准切中了知识工作者“收藏即落灰”的痛点，将长内容蒸馏为 Agent 可调用的工具包，契合当前 AI 代理工程化落地的热潮。",
+        "uses": [
+          "希望把书籍、课程、长视频里的方法论转化为 AI 可调用工具的知识工作者",
+          "使用 Claude Code / Cursor 开发，需要为项目团队沉淀可复用 Skill 的工程师",
+          "追求结构化学习、拒绝“收藏即落灰”的高效阅读者与内容创作者",
+          "需要批量处理播客、访谈、演讲并生成可验证技能库的 AI 应用开发者"
+        ]
       },
       "en": {
-        "tag": "把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills",
-        "what": "把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Python.",
-        "hot": "+1.2k stars this week, ranked #15 on the weekly GitHub Trending chart.",
-        "uses": []
+        "tag": "A methodology pipeline to distill books, videos and podcasts into executable AI agent skills",
+        "what": "cangjie-skill is a RIA-TV++ pipeline that extracts actionable methodologies from long-form content—books, videos, podcasts—and structures them into reusable AI agent skills. Instead of generating simple summaries, it produces executable skill kits including skill maps, glossaries, stress tests, and installable modules for Claude Code and Cursor, bridging the gap between passive consumption and active execution.",
+        "content": "The repo provides the RIA-TV++ implementation scripts and specifications across seven stages: Adler analysis, parallel extraction, triple verification, RIA++ structuring, Zettelkasten indexing, and stress testing. It ships with deliverable templates including BOOK_OVERVIEW.md, INDEX.md, DIGEST.md, GLOSSARY.md, individual SKILL.md modules, and test-prompts.json, forming a complete multi-skill repository.",
+        "stack": "Built primarily in Python, it combines Mortimer Adler's analytical reading and the RIA note-taking method, relying on LLMs for parallel extraction and verification to produce skills compatible with Claude Code and Cursor; video workflows require the companion video-downloader skill for subtitle and audio transcription.",
+        "hot": "Ranked #15 on GitHub Trending with 1,158 new stars this week and 3,558 total, it signals strong developer interest in moving from passive reading to executable agent skills. It directly addresses the \"read-later graveyard\" pain point by turning long-form content into callable agent toolkits, aligning with the current wave of AI agent engineering.",
+        "uses": [
+          "Knowledge workers who want to convert methodologies from books, courses, and videos into callable AI tools",
+          "Engineers using Claude Code or Cursor who need to build reusable skill libraries for their teams",
+          "Active learners and content creators seeking structured knowledge instead of endless \"read-later\" lists",
+          "AI application developers looking to batch-process podcasts, interviews, and speeches into verified skill repositories"
+        ]
       },
       "track": {
         "days": 0,
@@ -8265,7 +8318,7 @@ window.TRENDING_DATA = {
       "rank": 19,
       "cat": "infra",
       "lang": "Zig",
-      "stars": 6.5,
+      "stars": 6.6,
       "today": "+854",
       "today_n": 854,
       "auto": false,
@@ -8872,22 +8925,32 @@ window.TRENDING_DATA = {
       "stars": 33.6,
       "today": "+624",
       "today_n": 624,
-      "auto": true,
+      "auto": false,
       "zh": {
-        "tag": "A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.",
-        "what": "A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 TypeScript。",
-        "hot": "本周新增 +624 stars，位列 GitHub Trending 周榜（TypeScript）第 8 名。",
-        "uses": []
+        "tag": "AI 驱动的 draw.io 图表生成工具，支持自然语言交互与 MCP 集成",
+        "what": "该仓库是一个基于 Next.js 的 Web 应用，将 AI 能力注入 draw.io，让用户通过自然语言对话即可创建、修改和优化各类图表。它支持多模型 Provider 切换，并提供 MCP Server 与 Claude Code CLI 集成，方便嵌入现有工作流。",
+        "content": "仓库包含完整的 Next.js 全栈源码、MCP Server 实现、Claude Code CLI 扩展、管理后台（Admin Panel）以及 Docker 与多平台部署脚本（Vercel/Cloudflare/EdgeOne）。前端基于 React 19 构建，提供实时对话式图表编辑器，并附带完整的桌面应用构建能力。",
+        "stack": "基于 Next.js 16 与 React 19 构建前端，服务端支持多模型 Provider 动态切换（如 Doubao/glm-4.7），并集成了 draw.io 的图表引擎与 MCP 协议。使用 TypeScript 全栈开发，支持 Docker 容器化部署，兼容 Vercel、Cloudflare Workers 等 Serverless 平台。",
+        "hot": "项目在 GitHub 已斩获 33.6k Stars，本周新增 624 Star 并冲入 TypeScript 周榜第 8，反映出市场对“AI + 可视化”的强烈需求。它将传统 draw.io 图表工具与 LLM 自然语言交互无缝结合，并紧跟 MCP 生态热点，大幅降低了技术文档与架构图的创作门槛。",
+        "uses": [
+          "产品经理与架构师 —— 快速将自然语言需求转化为系统架构图或流程图。",
+          "开发者与技术写作者 —— 通过 MCP 或 CLI 在编码工作流中自动生成和迭代技术文档配图。",
+          "AI 工具集成者 —— 借助内置 MCP Server 将图表能力嵌入 Claude 等 Agent 工作流。",
+          "企业部署用户 —— 通过 Docker 或 Serverless 方案私有化部署，配合 Admin Panel 管理多模型配额。"
+        ]
       },
       "en": {
-        "tag": "A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.",
-        "what": "A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily TypeScript.",
-        "hot": "+624 stars this week, ranked #8 on the weekly TypeScript chart.",
-        "uses": []
+        "tag": "AI-powered diagram tool combining natural language and draw.io with MCP support",
+        "what": "This is a Next.js web app that brings AI capabilities into draw.io, enabling users to create, edit, and enhance diagrams through natural language conversations. It supports multiple AI model providers and offers an MCP server along with Claude Code CLI integration for seamless workflow embedding.",
+        "content": "The repository includes the full Next.js full-stack source code, an MCP server implementation, Claude Code CLI extension, admin panel, and deployment scripts for Docker, Vercel, Cloudflare Workers, and EdgeOne. The frontend is built on React 19 with a real-time conversational diagram editor, plus build configurations for a desktop application.",
+        "stack": "Built on Next.js 16 and React 19 for the frontend, with server-side multi-model provider switching (e.g., Doubao/glm-4.7) and integration of the draw.io diagram engine and MCP protocol. Developed in full-stack TypeScript, supporting Docker containerization and deployment to serverless platforms like Vercel and Cloudflare Workers.",
+        "hot": "The project has amassed 33.6k Stars on GitHub, gaining 624 this week and hitting #8 on the TypeScript weekly trending list, reflecting strong demand for AI-powered visualization. It seamlessly merges the classic draw.io diagramming experience with LLM natural-language interaction and embraces the MCP ecosystem, dramatically lowering the barrier for creating technical diagrams and architecture visuals.",
+        "uses": [
+          "Product managers & architects — Quickly turn natural language requirements into system architecture or flow diagrams.",
+          "Developers & technical writers — Auto-generate and iterate on documentation diagrams via MCP or CLI within coding workflows.",
+          "AI tool integrators — Embed diagramming capabilities into Claude and other agent workflows through the built-in MCP server.",
+          "Enterprise deployers — Self-host via Docker or serverless platforms and manage multi-model quotas through the admin panel."
+        ]
       },
       "track": {
         "days": 0,
@@ -9509,27 +9572,35 @@ window.TRENDING_DATA = {
       "slug": "9router",
       "full": "decolua/9router",
       "rank": 8,
-      "cat": "agent",
+      "cat": "infra",
       "lang": "JavaScript",
       "stars": 22.5,
       "today": "+948",
       "today_n": 948,
-      "auto": true,
+      "auto": false,
       "zh": {
-        "tag": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
-        "what": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 JavaScript。",
-        "hot": "本周新增 +948 stars，位列 GitHub Trending 周榜（JavaScript）第 8 名。",
-        "uses": []
+        "tag": "免费AI编程路由器：聚合40+模型，RTK省40% Token，永不撞墙",
+        "what": "9Router 是一款面向 AI 编程工具的聚合路由网关，可将 Claude Code、Cursor、Codex 等主流工具无缝接入 40 余家免费及低价 AI 提供商。它内置 RTK Token 压缩器，能自动缩减工具输出体积以节省 20–40% 的 Token 消耗；当配额耗尽时，系统会自动按「订阅→低价→免费」的优先级降级切换，确保编码不中断。",
+        "content": "仓库包含可部署的 Node.js 服务端核心、本地 OpenAI-compatible API 入口、RTK Token 压缩与格式转换中间件、配额追踪与多账户轮询模块，以及开箱即用的 Docker / npm 分发与多语言文档。",
+        "stack": "基于 JavaScript/Node.js 构建，提供兼容 OpenAI 的本地 REST API。支持通过 npm 全局安装、Docker 或 GitHub Container Registry 一键部署，无需额外依赖即可接入各类 CLI 编码工具。",
+        "hot": "该仓库已突破 22.5k Star，本周新增 948 Star 并登上 GitHub JavaScript 周榜第 8 名。其核心吸引力在于精准击中开发者痛点：以「免费+低价」模型池彻底消除订阅浪费与 rate limit 焦虑，配合 RTK 压缩让长上下文编程成本再降 40%。",
+        "uses": [
+          "独立开发者与学生——想用免费/低价模型无限制运行 Claude Code、Cursor 等 AI 编程工具",
+          "多账号/团队管理者——需要跨 40+ 提供商统一配额追踪、自动轮询与成本优化",
+          "高频 CLI 用户——在 git diff、grep 等工具输出频繁的场景下，通过 RTK 压缩显著降低 Token 消耗"
+        ]
       },
       "en": {
-        "tag": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
-        "what": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily JavaScript.",
-        "hot": "+948 stars this week, ranked #8 on the weekly JavaScript chart.",
-        "uses": []
+        "tag": "Free AI coding router: 40+ providers, auto-fallback, RTK saves 40% tokens",
+        "what": "9Router is a unified routing gateway for AI coding tools that seamlessly connects Claude Code, Cursor, Codex and others to over 40 free and low-cost AI providers. It features an RTK token compressor that automatically shrinks tool outputs to cut request volume by 20–40%, and auto-fallbacks through subscription, cheap, then free tiers to eliminate downtime.",
+        "content": "The repository ships with a deployable Node.js server core, a local OpenAI-compatible API endpoint, RTK token compression and format-translation middleware, quota tracking with multi-account round-robin, plus Docker / npm distributions and multilingual docs.",
+        "stack": "Built in JavaScript/Node.js and exposes a local OpenAI-compatible REST API. It supports global npm install, Docker, or GitHub Container Registry deployment, requiring no extra dependencies to plug into CLI coding tools.",
+        "hot": "With 22.5k stars and 948 new ones this week, it ranks 8th on the GitHub JavaScript Trending list. It resonates by eliminating subscription waste and rate-limit anxiety through a pool of free and cheap models, while RTK compression further cuts long-context coding costs by up to 40%.",
+        "uses": [
+          "Individual developers and students who want to run Claude Code, Cursor, and other AI coding tools on free or ultra-cheap models without limits",
+          "Multi-account teams and managers who need unified quota tracking, round-robin load balancing, and cost optimization across 40+ providers",
+          "Heavy CLI users who generate large tool outputs (git diff, grep, etc.) and want to slash token consumption via RTK compression"
+        ]
       },
       "track": {
         "days": 0,
@@ -9629,27 +9700,35 @@ window.TRENDING_DATA = {
       "slug": "whatsapp-business-jaspers-market",
       "full": "fbsamples/whatsapp-business-jaspers-market",
       "rank": 12,
-      "cat": "infra",
+      "cat": "agent",
       "lang": "JavaScript",
       "stars": 0.6,
       "today": "+30",
       "today_n": 30,
-      "auto": true,
+      "auto": false,
       "zh": {
-        "tag": "Sample Whatsapp App - Jasper's Market",
-        "what": "Sample Whatsapp App - Jasper's Market（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 JavaScript。",
-        "hot": "本周新增 +30 stars，位列 GitHub Trending 周榜（JavaScript）第 12 名。",
-        "uses": []
+        "tag": "Meta官方WhatsApp商业机器人示例，展示自动化客服与消息模板",
+        "what": "Jasper's Market 是 Meta 官方推出的虚构杂货品牌示例应用，旨在演示 WhatsApp Business Platform 的核心能力。它通过自动化对话与实时人工客服相结合，帮助企业构建完整的 WhatsApp 商业服务体验。",
+        "content": "仓库包含完整的 Node.js 后端实现、消息模板配置脚本及详细的接入文档，覆盖了从 Meta 开发者账号创建到 WhatsApp Business Account 绑定的全流程。",
+        "stack": "基于 Node.js 10+ 构建，使用 Express 类 Web 框架处理 WhatsApp Webhook 事件，依赖 Meta Business Platform API 与 ngrok 等隧道工具进行本地开发调试。",
+        "hot": "作为 Meta 官方维护的 WhatsApp Business 示例，本周新增 30 Star 冲上 JavaScript 周榜第 12 位，反映出企业级即时通讯与对话式商务在开发者社区中的持续升温。",
+        "uses": [
+          "电商/零售企业 —— 快速搭建 WhatsApp 订单查询与客服机器人",
+          "开发者与系统集成商 —— 学习 Meta Business Platform API 的官方最佳实践",
+          "初创公司 —— 以最小成本验证对话式商务（Conversational Commerce）流程"
+        ]
       },
       "en": {
-        "tag": "Sample Whatsapp App - Jasper's Market",
-        "what": "Sample Whatsapp App - Jasper's Market (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily JavaScript.",
-        "hot": "+30 stars this week, ranked #12 on the weekly JavaScript chart.",
-        "uses": []
+        "tag": "Meta's WhatsApp Business bot demo for automated customer service and templated messages",
+        "what": "Jasper's Market is Meta's official fictional grocery brand demo showcasing the WhatsApp Business Platform's core capabilities. It combines automated conversational flows with live customer support to help businesses build complete WhatsApp commerce experiences.",
+        "content": "The repository includes a complete Node.js backend implementation, message template configuration scripts, and detailed onboarding docs covering the full setup from Meta developer account to WhatsApp Business Account binding.",
+        "stack": "Built on Node.js 10+ with an Express-style web framework handling WhatsApp Webhook events, relying on Meta Business Platform APIs and tunneling tools like ngrok for local development.",
+        "hot": "As a Meta-maintained WhatsApp Business demo, it gained 30 stars this week and hit #12 on the JavaScript Trending list, reflecting growing developer interest in enterprise messaging and conversational commerce.",
+        "uses": [
+          "E-commerce/retail businesses — quickly build WhatsApp order inquiry and customer service bots",
+          "Developers & system integrators — learn official best practices for Meta Business Platform APIs",
+          "Startups — validate conversational commerce flows with minimal upfront investment"
+        ]
       },
       "track": {
         "days": 0,
@@ -9930,22 +10009,32 @@ window.TRENDING_DATA = {
       "stars": 25.3,
       "today": "+2.9k",
       "today_n": 2854,
-      "auto": true,
+      "auto": false,
       "zh": {
-        "tag": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows. Understand How to write meeting minutes",
-        "what": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows. Understand How to write meeting minutes（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Rust。",
-        "hot": "本月新增 +2.9k stars，位列 GitHub Trending 月榜第 8 名。",
-        "uses": []
+        "tag": "本地优先的 AI 会议助手，实时转录并自动总结纪要",
+        "what": "Meetily 是一款基于 Rust 开发的 AI 会议助手，支持在 macOS 和 Windows 上实现 100% 本地化的实时会议转录、说话人分离与智能总结。它无需云端连接，通过 Parakeet/Whisper 实现 4 倍速实时转录，并借助 Ollama 自动生成会议纪要，满足企业对隐私与合规的严苛要求。",
+        "content": "仓库包含完整的桌面客户端源码、基于 Rust 的本地音频处理与转录引擎、Ollama 集成模块，以及面向 macOS 和 Windows 的预编译安装包和演示文档。",
+        "stack": "核心采用 Rust 构建以保证高性能与低资源占用，集成 Parakeet/Whisper 语音识别模型实现实时转录，并通过 Ollama 在本地运行大模型完成会议总结。",
+        "hot": "在数据隐私监管日益严格的背景下，其「100% 本地处理、零云端」的架构精准击中了企业合规痛点；凭借 25.3K Star 和本月新增 2,854 Star 登上 GitHub Trending 月榜第 8，显示出市场对隐私优先型生产力工具的强烈需求。",
+        "uses": [
+          "企业合规团队 —— 需在完全离线环境下处理敏感会议内容，满足数据主权与隐私合规要求。",
+          "远程办公用户 —— 希望自动获得带说话人分离的实时转录与会议纪要，无需上传云端。",
+          "开发者与隐私爱好者 —— 寻求可自托管、可审计的开源会议工具，并能基于 Rust 源码二次定制。",
+          "咨询与法律行业 —— 在客户机密对话场景中，要求本地存储且可控的 AI 会议记录方案。"
+        ]
       },
       "en": {
-        "tag": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows. Understand How to write meeting minutes",
-        "what": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows. Understand How to write meeting minutes (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Rust.",
-        "hot": "+2.9k stars this month, ranked #8 on the monthly GitHub Trending chart.",
-        "uses": []
+        "tag": "Privacy-first AI meeting assistant with local transcription & summarization",
+        "what": "Meetily is a Rust-built, privacy-first AI meeting assistant that delivers 100% on-device live transcription, speaker diarization, and smart summarization for macOS and Windows. It runs entirely offline using Parakeet/Whisper for 4x faster real-time transcription and Ollama for automated meeting minutes, ensuring enterprises retain full data sovereignty without cloud dependencies.",
+        "content": "The repository houses the full desktop client source code, a Rust-based local audio processing and transcription engine, Ollama integration modules, along with pre-built installers and documentation for macOS and Windows.",
+        "stack": "The core is built in Rust for high performance and low resource usage, integrating Parakeet/Whisper speech recognition for real-time transcription and leveraging Ollama to run LLMs locally for meeting summarization.",
+        "hot": "Amid tightening data privacy regulations, its \"100% local processing, zero cloud\" architecture directly addresses enterprise compliance pain points; its 25.3K stars and 2,854 new stars this month—ranking 8th on GitHub Trending—signal strong market demand for privacy-first productivity tools.",
+        "uses": [
+          "Enterprise compliance teams —— Process sensitive meetings in fully offline environments to meet data sovereignty and privacy requirements.",
+          "Remote professionals —— Automatically obtain real-time transcripts with speaker diarization and summaries without cloud uploads.",
+          "Developers and privacy advocates —— Seek a self-hostable, auditable open-source meeting tool that can be customized via the Rust codebase.",
+          "Consulting and legal sectors —— Handle confidential client conversations with locally stored, fully controllable AI meeting records."
+        ]
       },
       "track": {
         "days": 0,
@@ -10008,22 +10097,32 @@ window.TRENDING_DATA = {
       "stars": 114.7,
       "today": "+416",
       "today_n": 416,
-      "auto": true,
+      "auto": false,
       "zh": {
-        "tag": "Empowering everyone to build reliable and efficient software.",
-        "what": "Empowering everyone to build reliable and efficient software.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Rust。",
-        "hot": "本周新增 +416 stars，位列 GitHub Trending 周榜（Rust）第 9 名。",
-        "uses": []
+        "tag": "Rust 语言官方源码仓，包含编译器与标准库",
+        "what": "Rust 编程语言官方主仓库，包含编译器、标准库及文档。致力于通过所有权模型和类型系统，让开发者构建高性能且内存安全的系统级软件。",
+        "content": "包含 Rust 编译器（rustc）、标准库、官方文档、测试套件及构建脚本。",
+        "stack": "以 Rust 自举编译，依赖 LLVM 作为后端，配合 Cargo、rustfmt、Clippy 及 rust-analyzer 构成完整工具链。",
+        "hot": "拥有 11.4 万 Star 并长期稳居 Rust 语言周榜前列，得益于其“零成本抽象”与内存安全特性，已成为系统编程、区块链及云原生基础设施的首选语言。",
+        "uses": [
+          "系统编程开发者 —— 需要高性能且内存安全的底层软件开发",
+          "区块链/Web3 工程师 —— 构建高效、可靠的智能合约与节点程序",
+          "云原生与基础设施开发者 —— 用于编写容器、微服务及 DevOps 工具",
+          "编程语言爱好者与研究者 —— 学习现代类型系统、所有权模型及编译器实现"
+        ]
       },
       "en": {
-        "tag": "Empowering everyone to build reliable and efficient software.",
-        "what": "Empowering everyone to build reliable and efficient software. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Rust.",
-        "hot": "+416 stars this week, ranked #9 on the weekly Rust chart.",
-        "uses": []
+        "tag": "Official Rust language source repo with compiler and standard library",
+        "what": "This is the official main source repository for the Rust programming language, containing the compiler, standard library, and documentation. It empowers developers to build reliable and efficient software through its ownership model and rich type system.",
+        "content": "The repository houses the Rust compiler (rustc), standard library, official documentation, test suites, and build scripts.",
+        "stack": "Self-hosted Rust compiler with LLVM backend, accompanied by Cargo, rustfmt, Clippy, and rust-analyzer for a complete toolchain.",
+        "hot": "With 114.7K stars and consistently ranking on the Rust trending list, its zero-cost abstractions and memory safety guarantees have made it the go-to choice for systems programming, blockchain, and cloud-native infrastructure.",
+        "uses": [
+          "Systems programmers building high-performance, memory-safe low-level software",
+          "Blockchain and Web3 engineers developing efficient smart contracts and node implementations",
+          "Cloud-native and infrastructure developers creating containers, microservices, and DevOps tooling",
+          "Programming language enthusiasts and researchers studying modern type systems, ownership models, and compiler design"
+        ]
       },
       "track": {
         "days": 0,
@@ -10042,22 +10141,32 @@ window.TRENDING_DATA = {
       "stars": 7.6,
       "today": "+154",
       "today_n": 154,
-      "auto": true,
+      "auto": false,
       "zh": {
-        "tag": "OpenShell is the safe, private runtime for autonomous AI agents.",
-        "what": "OpenShell is the safe, private runtime for autonomous AI agents.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Rust。",
-        "hot": "本周新增 +154 stars，位列 GitHub Trending 周榜（Rust）第 10 名。",
-        "uses": []
+        "tag": "英伟达开源的 AI Agent 安全沙箱运行时",
+        "what": "OpenShell 是 NVIDIA 推出的专为自主 AI Agent 打造的安全、私有运行时。它通过沙箱化执行环境与声明式 YAML 策略，防止数据泄露、凭证滥用和未授权网络活动，让 Agent 在受控边界内安全操作。",
+        "content": "仓库包含基于 Rust 的核心运行时、命令行工具、可发布的 PyPI 包以及 Helm 部署清单。内置面向 Claude、Codex 等主流 Agent 的预设沙箱与技能集，并支持 Docker、Podman 及 MicroVM 等多种后端。",
+        "stack": "以 Rust 构建高性能核心，提供 Python 工具链便于集成，通过 YAML 声明策略，支持 Docker、Podman 和 MicroVM 作为隔离后端。同时提供 Helm chart 用于 Kubernetes 部署。",
+        "hot": "随着 AI Agent 落地加速，安全沙箱成为刚需；作为 NVIDIA 官方开源项目，它以 7,648 Stars 和本周新增 154 Star 跻身 Rust 周榜第 10。其\"Agent-first\"设计与对 Claude、Codex 等主流工具的原生支持，精准切中了开发者对可控 Agent 运行时的迫切需求。",
+        "uses": [
+          "个人开发者 —— 想在本地为 Claude、Codex 等 Agent 建立隔离安全环境的单用户。",
+          "AI Agent 开发者 —— 需要声明式策略限制 Agent 文件与网络访问，防止数据泄露的构建者。",
+          "平台运维/ SRE —— 寻求在 Kubernetes 中部署企业级 Agent 运行时的早期采纳者。",
+          "安全架构师 —— 关注 AI Agent 合规与基础设施隔离，需要可控执行边界的技术决策者。"
+        ]
       },
       "en": {
-        "tag": "OpenShell is the safe, private runtime for autonomous AI agents.",
-        "what": "OpenShell is the safe, private runtime for autonomous AI agents. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Rust.",
-        "hot": "+154 stars this week, ranked #10 on the weekly Rust chart.",
-        "uses": []
+        "tag": "NVIDIA's open-source secure sandbox runtime for AI agents",
+        "what": "OpenShell is NVIDIA's secure, private runtime designed for autonomous AI agents. It uses sandboxed execution environments governed by declarative YAML policies to block unauthorized file access, data exfiltration, and uncontrolled network activity, ensuring agents operate within strict boundaries.",
+        "content": "The repository includes a Rust core runtime, CLI tooling, a PyPI-distributed Python package, and Helm deployment manifests. It ships with pre-configured sandboxes and agent skills for Claude, Codex, and others, supporting Docker, Podman, and MicroVM backends.",
+        "stack": "Built in Rust for performance with Python tooling for easy integration, using YAML for policy declarations and Docker/Podman/MicroVM as isolation backends. It also provides a Helm chart for Kubernetes deployments.",
+        "hot": "As AI agents move into production, secure sandboxing has become essential; as an official NVIDIA open-source project, it ranks 10th on the Rust weekly trending list with 7,648 stars and 154 added this week. Its agent-first design and native support for Claude, Codex, and other mainstream tools directly address the urgent developer need for controllable agent runtimes.",
+        "uses": [
+          "Individual developers looking to create isolated, secure local environments for Claude, Codex, and other agents.",
+          "AI agent builders who need declarative policies to restrict file and network access and prevent data exfiltration.",
+          "Platform engineers and SREs exploring early enterprise-grade agent runtime deployments on Kubernetes.",
+          "Security architects and technical decision-makers focused on AI agent compliance and infrastructure isolation."
+        ]
       },
       "track": {
         "days": 0,
@@ -10164,22 +10273,32 @@ window.TRENDING_DATA = {
       "stars": 87.6,
       "today": "+318",
       "today_n": 318,
-      "auto": true,
+      "auto": false,
       "zh": {
-        "tag": "An extremely fast Python package and project manager, written in Rust.",
-        "what": "An extremely fast Python package and project manager, written in Rust.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Rust。",
-        "hot": "本周新增 +318 stars，位列 GitHub Trending 周榜（Rust）第 14 名。",
-        "uses": []
+        "tag": "Rust 编写的极速 Python 包与项目管理器，替代 pip、poetry 等一众工具",
+        "what": "uv 是一个用 Rust 编写的高性能 Python 包与项目管理工具，旨在统一并替代 pip、poetry、pyenv、virtualenv 等多种传统工具。它支持依赖安装、Python 版本管理、脚本运行、项目构建与发布，并通过全局缓存和磁盘空间优化显著提升效率。",
+        "content": "仓库包含 Rust 源码、跨平台安装脚本、基准测试、pip 兼容层 CLI 以及支持 universal lockfile 和 Cargo-style workspaces 的项目管理体系。发行产物提供 curl 一键安装脚本与 PyPI 发布的二进制包，覆盖 macOS、Linux 和 Windows。",
+        "stack": "核心完全使用 Rust 编写，以极致性能为目标；提供与 pip 兼容的 CLI 接口，支持 Python 3 生态，并通过全局缓存机制实现依赖去重。",
+        "hot": "凭借 Rust 重构带来的 10-100 倍速度提升，uv 以单一工具整合了此前分散的 Python 工具链，极大简化了开发者体验；其 87.6k Star 与本周新增 318 Star 的热度，反映了社区对高性能 Python 基础设施的迫切需求。",
+        "uses": [
+          "Python 开发者 —— 替代 pip/poetry 进行高速依赖安装与项目构建。",
+          "DevOps / CI-CD 工程师 —— 利用极速安装与全局缓存加速流水线构建。",
+          "多项目维护者 —— 通过 Cargo-style workspaces 统一管理 monorepo 内的多个 Python 包。",
+          "数据科学与 AI 从业者 —— 快速管理不同 Python 版本和工具环境，减少环境冲突。"
+        ]
       },
       "en": {
-        "tag": "An extremely fast Python package and project manager, written in Rust.",
-        "what": "An extremely fast Python package and project manager, written in Rust. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Rust.",
-        "hot": "+318 stars this week, ranked #14 on the weekly Rust chart.",
-        "uses": []
+        "tag": "An extremely fast Python package manager written in Rust, replacing pip, poetry, and more.",
+        "what": "uv is a high-performance Python package and project manager written in Rust, designed to replace pip, poetry, pyenv, virtualenv, and more with a unified toolchain. It handles dependency resolution, Python version management, script execution, and project builds with a global cache and disk-space efficiency.",
+        "content": "The repo contains Rust source code, cross-platform installers, benchmarks, a pip-compatible CLI layer, and a project management system supporting universal lockfiles and Cargo-style workspaces. It distributes standalone binaries via curl scripts and PyPI for macOS, Linux, and Windows.",
+        "stack": "The core is built entirely in Rust for maximum performance; it offers a pip-compatible CLI, supports the Python 3 ecosystem, and implements a global cache for dependency deduplication.",
+        "hot": "By delivering 10-100x speedups over pip through a Rust rewrite, uv consolidates fragmented Python tooling into a single binary, dramatically simplifying developer workflows; its 87.6k stars and 318 new stars this week signal strong community demand for a faster Python infrastructure.",
+        "uses": [
+          "Python developers — replacing pip/poetry for high-speed dependency installation and project builds.",
+          "DevOps / CI-CD engineers — leveraging ultra-fast installs and global caches to accelerate pipeline builds.",
+          "Multi-project maintainers — using Cargo-style workspaces to manage monorepos with multiple Python packages.",
+          "Data science & AI practitioners — rapidly managing different Python versions and tool environments to reduce conflicts."
+        ]
       },
       "track": {
         "days": 0,
@@ -10330,22 +10449,30 @@ window.TRENDING_DATA = {
       "stars": 36.8,
       "today": "+134",
       "today_n": 134,
-      "auto": true,
+      "auto": false,
       "zh": {
-        "tag": "Fullstack app framework for web, desktop, and mobile.",
-        "what": "Fullstack app framework for web, desktop, and mobile.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Rust。",
-        "hot": "本周新增 +134 stars，位列 GitHub Trending 周榜（Rust）第 18 名。",
-        "uses": []
+        "tag": "Rust 全栈跨平台 UI 框架，一套代码覆盖 Web、桌面与移动端",
+        "what": "Dioxus 是一个基于 Rust 的全栈应用框架，开发者只需维护一套代码库即可构建 Web、桌面和移动应用。它提供了类似 React 的组件化开发体验，并内置基于 Signals 的状态管理、热重载与零配置启动能力。通过 Server Functions 还能直接在同一代码库中编写后端逻辑，实现真正的全栈开发。",
+        "content": "仓库包含核心 UI 库、跨平台渲染器（Web/桌面/移动端）、CLI 打包工具以及 Server Functions 全栈运行时。此外还提供了丰富的官方示例、文档站点和多语言 README，方便开发者快速上手。",
+        "stack": "完全基于 Rust 生态，核心使用自研的 Virtual DOM 与 Signals 响应式系统，编译目标涵盖 WebAssembly、桌面端（基于 Winit/Tao）及移动端原生渲染。",
+        "hot": "凭借 36.8K Star 的热度和本周 Rust 趋势榜第 18 名的成绩，Dioxus 吸引了大量希望用 Rust 替代 JavaScript 技术栈的开发者。其“一套代码、多端运行”的全栈能力，加上对热重载和零配置体验的重视，精准击中了 Rust 社区对高性能跨平台 UI 方案的强烈需求。",
+        "uses": [
+          "Rust 开发者 —— 希望用单一代码库同时覆盖前端页面与桌面/移动原生应用的项目。",
+          "全栈工程师 —— 想在前端组件中直接调用 Server Functions，减少前后端语言切换成本的团队。",
+          "跨平台应用团队 —— 需要高性能、内存安全且拒绝 Electron 厚重方案的产品组。"
+        ]
       },
       "en": {
-        "tag": "Fullstack app framework for web, desktop, and mobile.",
-        "what": "Fullstack app framework for web, desktop, and mobile. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Rust.",
-        "hot": "+134 stars this week, ranked #18 on the weekly Rust chart.",
-        "uses": []
+        "tag": "Rust fullstack cross-platform UI framework for web, desktop, and mobile",
+        "what": "Dioxus is a Rust-based fullstack framework that lets developers build for the web, desktop, and mobile from a single codebase. It offers a React-like component model with zero-config setup, integrated hot-reloading, and signals-based state management. Server Functions enable backend logic to live alongside the UI, streamlining fullstack development in Rust.",
+        "content": "The repo contains the core UI library, cross-platform renderers for web, desktop, and mobile, a CLI bundler, and a fullstack runtime for Server Functions. It also ships with extensive examples, documentation, and multilingual READMEs.",
+        "stack": "Built entirely on Rust, featuring a custom Virtual DOM and signals-based reactivity, compiling to WebAssembly, desktop (via Winit/Tao), and mobile native targets.",
+        "hot": "With 36.8K stars and ranking 18th on this week's GitHub Rust Trending, Dioxus is drawing developers eager to replace JavaScript stacks with Rust. Its promise of a single codebase spanning web, desktop, and mobile—backed by hot-reload and zero-config DX—directly addresses the Rust community's demand for high-performance cross-platform UI solutions.",
+        "uses": [
+          "Rust developers —— teams wanting a single codebase for web, desktop, and mobile apps without sacrificing performance.",
+          "Fullstack engineers —— those looking to colocate Server Functions with UI components to cut language-switching overhead.",
+          "Cross-platform product teams —— groups that need memory-safe, high-performance alternatives to heavy Electron-style solutions."
+        ]
       },
       "track": {
         "days": 0,
@@ -10793,27 +10920,37 @@ window.TRENDING_DATA = {
       "slug": "phoneinfoga",
       "full": "sundowndev/phoneinfoga",
       "rank": 11,
-      "cat": "infra",
+      "cat": "other",
       "lang": "Go",
       "stars": 17.0,
       "today": "+180",
       "today_n": 180,
-      "auto": true,
+      "auto": false,
       "zh": {
-        "tag": "Information gathering framework for phone numbers",
-        "what": "Information gathering framework for phone numbers（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Go。",
-        "hot": "本周新增 +180 stars，位列 GitHub Trending 周榜（Go）第 11 名。",
-        "uses": []
+        "tag": "电话号码OSINT信息收集与调查框架",
+        "what": "PhoneInfoga 是一款专注于国际电话号码的高级 OSINT 扫描工具，可提取国家、地区、运营商等基础信息，并通过多种技术手段深入识别 VoIP 提供商或机主身份。它并非自动化破解工具，而是提供扫描器集合辅助用户进行手动调查，需配合外部 API 与配置使用。",
+        "content": "仓库包含 CLI 命令行工具、基于浏览器的 Web GUI 和 REST API 三种使用形态，核心由可扩展的扫描器集合、Swagger 文档化的服务端以及 Go SDK 模块组成。",
+        "stack": "基于 Go 语言开发，提供 Docker 镜像与容器化部署，支持通过外部 API、电话簿和搜索引擎进行 OSINT 数据采集。",
+        "hot": "凭借 17K+ Stars 和本周新增 180 Star 上榜 Go 趋势周榜，该工具切中网络安全与隐私调查领域的刚需，电话号码作为最广泛的数字身份入口之一，其轻量、可扩展的扫描框架受到 OSINT 社区持续关注。",
+        "uses": [
+          "网络安全从业者进行社交工程防御与号码资产测绘",
+          "隐私调查人员对可疑号码进行声誉检查与归属分析",
+          "安全研究员学习 OSINT 方法论与电话号码情报收集技术",
+          "企业合规团队筛查一次性号码与 VoIP 欺诈风险"
+        ]
       },
       "en": {
-        "tag": "Information gathering framework for phone numbers",
-        "what": "Information gathering framework for phone numbers (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Go.",
-        "hot": "+180 stars this week, ranked #11 on the weekly Go chart.",
-        "uses": []
+        "tag": "Advanced OSINT framework for phone number reconnaissance",
+        "what": "PhoneInfoga is an advanced OSINT scanner for international phone numbers that extracts basic metadata like country, carrier, and line type, then attempts to identify VoIP providers or owners through multiple reconnaissance techniques. Rather than an automated exploit tool, it provides a modular scanner framework to assist manual investigation, requiring configuration with external APIs and data sources.",
+        "content": "The repository includes a CLI tool, a browser-based web GUI, and a REST API, built around an extensible set of scanners, a Swagger-documented server, and Go SDK modules.",
+        "stack": "Written primarily in Go with Docker containerization support, relying on external APIs, phone books, and search engines for OSINT data acquisition.",
+        "hot": "With over 17K stars and 180 new stars this week, it ranks on the Go Trending list by addressing strong demand in cybersecurity and privacy investigation; its lightweight, extensible scanner framework for the ubiquitous phone-number identity vector keeps it relevant in the OSINT community.",
+        "uses": [
+          "Cybersecurity professionals performing number asset mapping and social engineering defense",
+          "Privacy investigators conducting reputation checks and ownership analysis on suspicious numbers",
+          "Security researchers studying OSINT methodologies and phone number intelligence gathering",
+          "Enterprise compliance teams screening disposable numbers and VoIP fraud risks"
+        ]
       },
       "track": {
         "days": 0,
@@ -11178,22 +11315,32 @@ window.TRENDING_DATA = {
       "stars": 5.5,
       "today": "+525",
       "today_n": 525,
-      "auto": true,
+      "auto": false,
       "zh": {
-        "tag": "Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.",
-        "what": "Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Go。",
-        "hot": "本周新增 +525 stars，位列 GitHub Trending 周榜（Go）第 21 名。",
-        "uses": []
+        "tag": "为AI编程代理打造的持久化记忆系统，单二进制即插即用",
+        "what": "Engram 是一个面向 AI 编程代理的持久化记忆系统，解决会话结束后记忆丢失的问题。它通过 MCP 协议为任意 Agent 提供长期记忆能力，支持本地或云端部署。开发者只需一个命令即可让 Claude Code、Cursor、VS Code 等主流 Agent 获得\"大脑\"。",
+        "content": "仓库包含一个基于 Go 的单二进制可执行文件，内置 SQLite + FTS5 全文搜索引擎；对外提供 MCP Server、HTTP API、交互式 TUI 和 CLI 工具，并附带多 Agent 配置向导与插件文档。",
+        "stack": "基于 Go 语言构建，使用 SQLite + FTS5 实现本地全文检索与存储，零外部依赖；通过 MCP stdio 与各类 Agent 通信，支持 Brew 一键安装。",
+        "hot": "在 AI 编程代理爆发式增长的背景下，Engram 凭借\"一次配置、全 Agent 通用\"的普适性迅速走红；目前斩获 5537 Stars，本周新增 525 星，跻身 GitHub Trending Go 周榜第 21 位。",
+        "uses": [
+          "日常编码开发者 —— 让 Cursor/VS Code/Copilot 等记住项目规范与上下文，避免重复交代背景。",
+          "AI 原生工具链构建者 —— 为自研 Agent 快速接入持久化记忆层，无需自建向量数据库。",
+          "隐私敏感型团队 —— 数据完全存储在本地 SQLite，适合对代码安全有严格要求的企业内网。",
+          "多 Agent 切换用户 —— 一份记忆库同时服务 Claude Code、Gemini CLI、Codex 等多个客户端。"
+        ]
       },
       "en": {
-        "tag": "Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.",
-        "what": "Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Go.",
-        "hot": "+525 stars this week, ranked #21 on the weekly Go chart.",
-        "uses": []
+        "tag": "Persistent memory system for AI coding agents in a single Go binary",
+        "what": "Engram is a persistent memory system that gives AI coding agents long-term recall across sessions, solving the \"forgetting\" problem when chats end. It exposes memory via the MCP protocol to any compatible agent, requiring zero manual server management. A single setup command equips Claude Code, Cursor, VS Code, and others with a persistent brain.",
+        "content": "The repository ships as a single Go binary embedding SQLite with FTS5 full-text search. It bundles an MCP server, HTTP API, interactive TUI, and CLI, along with agent-specific setup wizards and plugin docs.",
+        "stack": "Built in Go with SQLite and FTS5 for embedded full-text search and zero external dependencies. Communicates with agents via MCP stdio and supports one-shot Homebrew installation.",
+        "hot": "As AI coding agents explode in popularity, Engram's agent-agnostic \"one brain, any agent\" approach has resonated strongly with developers. It has amassed 5537 stars, gaining 525 this week alone and hitting #21 on GitHub's Go Trending weekly chart.",
+        "uses": [
+          "Daily developers using Cursor/VS Code/Copilot — keeps project conventions and context across sessions without repetition.",
+          "AI toolchain builders — rapidly add persistent memory to custom agents without standing up a vector database.",
+          "Privacy-conscious teams — all data stays in a local SQLite file, ideal for strict enterprise security requirements.",
+          "Multi-agent users — one memory bank shared across Claude Code, Gemini CLI, Codex, and other MCP-compatible clients."
+        ]
       },
       "track": {
         "days": 0,
@@ -11386,22 +11533,32 @@ window.TRENDING_DATA = {
       "stars": 51.8,
       "today": "+238",
       "today_n": 238,
-      "auto": true,
+      "auto": false,
       "zh": {
-        "tag": "Port of OpenAI's Whisper model in C/C++",
-        "what": "Port of OpenAI's Whisper model in C/C++（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 C++。",
-        "hot": "本周新增 +238 stars，位列 GitHub Trending 周榜（C++）第 6 名。",
-        "uses": []
+        "tag": "OpenAI Whisper 的 C/C++ 高性能移植，支持端侧与多硬件加速",
+        "what": "whisper.cpp 是 OpenAI Whisper 自动语音识别（ASR）模型的纯 C/C++ 实现，专注于高性能推理与零依赖部署。它支持从移动端到服务器的全场景运行，可在本地完成语音转文字而无需联网。",
+        "content": "仓库核心仅包含 whisper.h 与 whisper.cpp，其余依赖 ggml 机器学习库；提供面向 iOS、Android、WebAssembly、Java 等平台的示例与绑定，以及 Docker 镜像和 C 风格 API。",
+        "stack": "基于纯 C/C++ 与 ggml 张量库，无外部依赖；通过 ARM NEON、Metal、Core ML、Vulkan、CUDA、ROCm 等后端实现跨平台硬件加速，并支持 INT8/INT4 量化。",
+        "hot": "凭借 51.8k Stars 和本周 238 新增热度，whisper.cpp 以极致轻量化和「苹果芯片优先」策略成为端侧 AI 语音标杆，几乎覆盖了从手机到 NPU 的所有推理场景。",
+        "uses": [
+          "移动端开发者 —— 需在 iOS/Android 实现离线语音输入与实时字幕",
+          "嵌入式与 IoT 工程师 —— 在树莓派等低功耗设备上部署无网 ASR",
+          "跨平台桌面应用开发者 —— 通过 C API 或 WebAssembly 集成转写功能",
+          "AI 基础设施团队 —— 构建支持多硬件（NVIDIA/AMD/昇腾）的后端推理服务"
+        ]
       },
       "en": {
-        "tag": "Port of OpenAI's Whisper model in C/C++",
-        "what": "Port of OpenAI's Whisper model in C/C++ (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily C++.",
-        "hot": "+238 stars this week, ranked #6 on the weekly C++ chart.",
-        "uses": []
+        "tag": "C/C++ Whisper port optimized for edge & multi-hardware inference",
+        "what": "whisper.cpp is a pure C/C++ implementation of OpenAI's Whisper ASR model, optimized for high-performance inference and zero-dependency deployment. It enables on-device speech-to-text across the full spectrum from mobile to server, all without requiring a network connection.",
+        "content": "The repo centers on whisper.h and whisper.cpp, leveraging the ggml library for ML primitives; it ships with platform examples and bindings for iOS, Android, WebAssembly, Java, plus Docker images and a C-style API.",
+        "stack": "Built on pure C/C++ and the ggml tensor library with zero external dependencies; it accelerates inference across hardware via ARM NEON, Metal, Core ML, Vulkan, CUDA, and ROCm, with support for INT8/INT4 quantization.",
+        "hot": "With 51.8k stars and 238 new stars this week, whisper.cpp has become the go-to edge-AI voice benchmark by pairing extreme lightweight design with an Apple Silicon-first strategy, covering nearly every inference scenario from phones to NPUs.",
+        "uses": [
+          "Mobile developers needing offline speech input and real-time captions on iOS/Android.",
+          "Embedded and IoT engineers deploying network-free ASR on Raspberry Pi and low-power devices.",
+          "Cross-platform desktop developers integrating transcription via C API or WebAssembly.",
+          "AI infrastructure teams building backend inference services across NVIDIA, AMD, and Ascend hardware."
+        ]
       },
       "track": {
         "days": 0,
@@ -11640,22 +11797,32 @@ window.TRENDING_DATA = {
       "stars": 29.2,
       "today": "+141",
       "today_n": 141,
-      "auto": true,
+      "auto": false,
       "zh": {
-        "tag": "Fast C++ logging library.",
-        "what": "Fast C++ logging library.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 C++。",
-        "hot": "本月新增 +141 stars，位列 GitHub Trending 月榜第 16 名。",
-        "uses": []
+        "tag": "极速 C++ 日志库，支持头文件-only与编译双模式",
+        "what": "spdlog 是一款高性能 C++ 日志库，支持头文件-only和编译两种集成方式。它提供丰富的日志输出目标、异步/同步模式、运行时与编译时日志级别过滤，以及基于 fmt 的现代化格式化语法。",
+        "content": "仓库包含头文件目录、CMake 构建脚本、多平台 CI 配置、示例代码及基准测试；用户可直接拷贝 include 文件夹以头文件方式使用，或通过 CMake 编译为静态/动态库。",
+        "stack": "核心为现代 C++11/14 实现，格式化层依赖 fmt 库；支持通过 CMake 构建，并覆盖 Linux、Windows、macOS、Android 等主流平台。",
+        "hot": "作为 C++ 生态最广泛采用的日志方案之一，spdlog 凭借极致性能与零成本抽象累积近 3 万 Star；本月新增 141 Star 并登 Trending 月榜第 16，足见其在高性能后端与嵌入式场景的持续热度。",
+        "uses": [
+          "高性能 C++ 后端服务开发者 —— 需要纳秒级延迟的同步或异步日志记录",
+          "跨平台桌面与嵌入式应用团队 —— 寻求覆盖 Windows、Linux、macOS 及 Android 的统一日志方案",
+          "游戏引擎与中间件开发者 —— 追求头文件-only快速集成或编译库以缩短构建时间",
+          "DevOps 与系统工具开发者 —— 需要日志轮转、syslog、环境变量级别控制等生产级特性"
+        ]
       },
       "en": {
-        "tag": "Fast C++ logging library.",
-        "what": "Fast C++ logging library. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily C++.",
-        "hot": "+141 stars this month, ranked #16 on the monthly GitHub Trending chart.",
-        "uses": []
+        "tag": "Blazing-fast C++ logging library with header-only & compiled modes",
+        "what": "spdlog is a high-performance C++ logging library offering both header-only and compiled integration modes. It supports multiple sinks, asynchronous/sync logging, runtime and compile-time level filtering, and modern formatting powered by the fmt library.",
+        "content": "The repo provides header-only sources, CMake build scripts, cross-platform CI configs, usage examples, and benchmarks. Users can either copy the include folder for header-only use or build a static/shared library via CMake.",
+        "stack": "Built on modern C++11/14, it relies on the fmt library for formatting and uses CMake for building, supporting Linux, Windows, macOS, Android, and more.",
+        "hot": "As one of the most widely adopted C++ logging solutions, spdlog has amassed nearly 30k stars thanks to its extreme performance and zero-cost abstractions; gaining 141 stars this month and ranking 16th on the Trending monthly chart reflects its enduring popularity in high-performance backends and embedded systems.",
+        "uses": [
+          "High-performance C++ backend engineers — needing nanosecond-scale sync or async logging",
+          "Cross-platform desktop and embedded teams — seeking a unified logging solution across Windows, Linux, macOS, and Android",
+          "Game engine and middleware developers — pursuing header-only quick integration or compiled libraries for faster build times",
+          "DevOps and systems tool builders — requiring production-grade features like log rotation, syslog, and environment-level controls"
+        ]
       },
       "track": {
         "days": 0,
@@ -12362,22 +12529,32 @@ window.TRENDING_DATA = {
       "stars": 57.6,
       "today": "+25.1k",
       "today_n": 25126,
-      "auto": true,
+      "auto": false,
       "zh": {
-        "tag": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-        "what": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Python。",
-        "hot": "本月新增 +25.1k stars，位列 GitHub Trending 月榜第 11 名。",
-        "uses": []
+        "tag": "给 AI Agent 一键接入全网内容的免费开源工具箱",
+        "what": "Agent Reach 是一款专为 AI Agent 设计的开源互联网接入工具，通过一条命令行即可让 Agent 读取 Twitter、Reddit、YouTube、Bilibili、小红书等主流平台内容。它采用零 API 费用的设计，通过多后端路由自动绕过平台封锁和登录限制，让 Agent 真正拥有“看”互联网的能力。",
+        "content": "仓库包含跨平台内容读取模块（网页、视频、社交媒体、RSS）、多后端智能路由系统、一键诊断工具 agent-reach doctor，以及面向 Claude Code、Cursor、Windsurf 等 Agent 的即装即用 CLI 安装脚本。",
+        "stack": "基于 Python 3.10+ 构建，核心依赖包括 yt-dlp/bili-cli 等视频解析后端、MCP 语义搜索接入、Playwright 或浏览器 Cookie 方案，以及模块化 CLI 架构支持各平台热插拔。",
+        "hot": "该仓库在一个月内新增 25,126 Star，总量突破 57,000，位列 GitHub Trending 月榜第 11。其爆火源于精准切中了 AI Agent“能思考却无法上网”的痛点，以零成本和一键安装方案替代了繁琐的 API 配置与反爬对抗。",
+        "uses": [
+          "AI Agent 开发者 —— 无需为每个平台单独写爬虫或购买 API，一行命令即可扩展 Agent 的感知边界",
+          "自动化研究员/分析师 —— 让 Agent 自动监控 Reddit、Twitter、小红书等多平台舆情与竞品动态",
+          "个人效率用户 —— 在 Claude Code、Cursor 等对话式工具中直接要求“搜索 B站教程”或“总结 GitHub Issue”",
+          "开源维护者 —— 通过诊断命令快速排查平台接口失效问题，社区自动维护多后端路由"
+        ]
       },
       "en": {
-        "tag": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-        "what": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Python.",
-        "hot": "+25.1k stars this month, ranked #11 on the monthly GitHub Trending chart.",
-        "uses": []
+        "tag": "Open-source CLI toolbox that gives AI agents free eyes across the entire internet",
+        "what": "Agent Reach is an open-source internet access toolkit designed for AI agents, enabling them to read and search Twitter, Reddit, YouTube, Bilibili, and XiaoHongShu via a single CLI command. It adopts a zero-API-fee design with multi-backend routing to automatically bypass platform blocks and login restrictions, giving agents true eyes to browse the web.",
+        "content": "The repo packs cross-platform content readers for webpages, videos, social media and RSS, a smart multi-backend routing system, a one-click diagnostic tool (`agent-reach doctor`), and ready-to-use CLI install scripts for Claude Code, Cursor, Windsurf and other agents.",
+        "stack": "Built on Python 3.10+ with core dependencies including video parsers like yt-dlp/bili-cli, MCP-based semantic search, Playwright or browser cookie solutions, and a modular CLI architecture for hot-swappable platform adapters.",
+        "hot": "It gained 25,126 stars in just one month, hitting 57,000+ total and ranking #11 on GitHub's monthly Trending. It exploded because it precisely solves the pain point of AI agents that can think but can't browse, replacing tedious API setups and anti-bot battles with a zero-cost, one-command install.",
+        "uses": [
+          "AI Agent developers —— Expand agent perception boundaries with one command instead of writing scrapers or buying APIs for each platform",
+          "Automation researchers & analysts —— Let agents monitor multi-platform sentiment and competitor trends across Reddit, Twitter, and XiaoHongShu",
+          "Personal productivity users —— Directly ask Claude Code or Cursor to search Bilibili tutorials or summarize GitHub issues within chat",
+          "Open-source maintainers —— Quickly diagnose platform outages via doctor commands while the community maintains multi-backend routes"
+        ]
       },
       "track": {
         "days": 0,
@@ -12657,7 +12834,7 @@ window.TRENDING_DATA = {
       "rank": 10,
       "cat": "agent",
       "lang": "Python",
-      "stars": 6.1,
+      "stars": 6.2,
       "today": "+1.3k",
       "today_n": 1334,
       "auto": false,
@@ -13089,7 +13266,7 @@ window.TRENDING_DATA = {
       "rank": 8,
       "cat": "ai",
       "lang": "TypeScript",
-      "stars": 42.2,
+      "stars": 42.3,
       "today": "+12.1k",
       "today_n": 12138,
       "auto": false,
@@ -13262,22 +13439,32 @@ window.TRENDING_DATA = {
       "stars": 1.6,
       "today": "+697",
       "today_n": 697,
-      "auto": true,
+      "auto": false,
       "zh": {
-        "tag": "Self-hostable CRM template for WhatsApp — shared inbox, contacts, sales pipelines, broadcasts, and no-code automations. Fork it, brand it, host it.",
-        "what": "Self-hostable CRM template for WhatsApp — shared inbox, contacts, sales pipelines, broadcasts, and no-code automations. Fork it, brand it, host it.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 TypeScript。",
-        "hot": "本月新增 +697 stars，位列 GitHub Trending 月榜（TypeScript）第 12 名。",
-        "uses": []
+        "tag": "可自托管的 WhatsApp CRM 模板，支持共享收件箱与无代码自动化",
+        "what": "wacrm 是一个可自托管的 WhatsApp CRM 模板，基于 WhatsApp Business API 提供共享团队收件箱、联系人管理、销售看板、广播群发与无代码自动化流程。它还内置 AI 回复助手与知识库，支持接入 OpenAI 或 Anthropic 实现智能草稿和自动回复，且数据由用户自己掌控。",
+        "content": "仓库包含完整的 Next.js 16 应用源码，覆盖前端看板、可视化自动化构建器、实时仪表板以及基于 Supabase 的后端服务。此外还提供了 Public REST API、MCP 服务器接入文档，以及独立的营销站点仓库供部署参考。",
+        "stack": "基于 Next.js 16 与 TypeScript 构建，后端使用 Supabase（PostgreSQL + Auth），AI 功能通过 OpenAI 或 Anthropic API 实现，知识库检索支持 Postgres 全文搜索与可选的 pgvector 语义检索。",
+        "hot": "该仓库在 30 天内新增约 697 Star，总星标达 1606，位列 GitHub Trending TypeScript 月榜第 12 名。其「Fork 即可私有化部署」的模板化定位，加上无代码自动化与 MCP 协议支持，精准切中了中小团队低成本获客与 AI 集成的需求。",
+        "uses": [
+          "中小销售与客服团队 —— 需要多人共享一个 WhatsApp 号码处理客户询盘与售后。",
+          "独立开发者 / SaaS 创业者 —— 想基于模板快速二次开发并私有化部署自有品牌 CRM。",
+          "AI 工具爱好者 —— 希望通过 MCP 服务器让 Claude、Cursor 等助手直接查询或驱动 CRM。",
+          "跨境电商与本地服务商 —— 依赖 WhatsApp 触客，需要广播群发、销售管道与自动化跟进。"
+        ]
       },
       "en": {
-        "tag": "Self-hostable CRM template for WhatsApp — shared inbox, contacts, sales pipelines, broadcasts, and no-code automations. Fork it, brand it, host it.",
-        "what": "Self-hostable CRM template for WhatsApp — shared inbox, contacts, sales pipelines, broadcasts, and no-code automations. Fork it, brand it, host it. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily TypeScript.",
-        "hot": "+697 stars this month, ranked #12 on the monthly TypeScript chart.",
-        "uses": []
+        "tag": "Self-hostable WhatsApp CRM template with shared inbox and no-code automations",
+        "what": "wacrm is a self-hostable CRM template built on the WhatsApp Business API, offering a shared team inbox, contact management, sales pipelines, broadcasts, and no-code automations. It also features an AI reply assistant and knowledge base, leveraging OpenAI or Anthropic for smart drafts and auto-replies while keeping data under your control.",
+        "content": "The repo ships the full Next.js 16 application source, including a frontend Kanban board, visual automation builder, real-time dashboard, and Supabase-backed backend. It also exposes a public REST API, MCP server integration docs, and a separate marketing-site repository.",
+        "stack": "Built with Next.js 16 and TypeScript, backed by Supabase (PostgreSQL + Auth). AI features integrate via OpenAI or Anthropic APIs, while knowledge-base retrieval uses Postgres full-text search and optional pgvector semantic search.",
+        "hot": "Gaining roughly 697 stars in 30 days for a total of 1,606 and ranking #12 on GitHub's monthly TypeScript Trending, wacrm's template-style \"fork and self-host\" model resonates with small teams seeking low-cost customer engagement, no-code workflows, and native AI integration via MCP.",
+        "uses": [
+          "Small sales & support teams that need multiple agents sharing a single WhatsApp Business number.",
+          "Indie hackers and SaaS builders who want to fork, brand, and self-host a CRM quickly.",
+          "AI power users looking to query or control their CRM through Claude, Cursor, and other MCP-compatible assistants.",
+          "E-commerce and local service businesses relying on WhatsApp for outreach, broadcasts, and pipeline tracking."
+        ]
       },
       "track": {
         "days": 0,
@@ -13423,27 +13610,37 @@ window.TRENDING_DATA = {
       "slug": "open-seo",
       "full": "every-app/open-seo",
       "rank": 17,
-      "cat": "infra",
+      "cat": "agent",
       "lang": "TypeScript",
       "stars": 4.4,
       "today": "+2.2k",
       "today_n": 2187,
-      "auto": true,
+      "auto": false,
       "zh": {
-        "tag": "Open source alternative to Semrush and Ahrefs",
-        "what": "Open source alternative to Semrush and Ahrefs（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 TypeScript。",
-        "hot": "本月新增 +2.2k stars，位列 GitHub Trending 月榜（TypeScript）第 17 名。",
-        "uses": []
+        "tag": "开源 SEO 分析平台，支持 AI Agent 与 MCP 工具链集成",
+        "what": "OpenSEO 是 Semrush 和 Ahrefs 的开源替代品，提供关键词研究、排名追踪、竞品洞察、外链审计与站点诊断等核心 SEO 工作流。它采用按量付费模式，用户只需接入自己的 DataForSEO API 密钥即可使用，无需订阅。同时，它内置 MCP 服务器和可复用的 Agent Skills，让 Claude Code、OpenClaw 等 AI 代理直接调用 SEO 数据完成自动化任务。",
+        "content": "仓库包含完整的前后端应用代码与现代化 UI，支持 Docker 和 Cloudflare 自托管，内置 MCP 服务器以及预设的 Agent Skills（如 keyword-research、competitor-analysis、link-prospecting）。文档涵盖 API 密钥配置、Google Search Console 接入、SEO 成本参考及本地开发指南。",
+        "stack": "基于 TypeScript 构建，前端采用现代 UI 框架，后端依赖 DataForSEO API 获取 SEO 数据，并通过 MCP 协议与外部 AI Agent 通信；支持 Docker 容器化部署与 Cloudflare 边缘托管。",
+        "hot": "在 SEO 工具普遍昂贵且功能臃肿的背景下，它以开源、按量付费、可自托管的定位迅速获得关注；4,405 Stars 中本月新增 2,187 颗，登上 GitHub TypeScript 月榜第 17 名，其对 MCP 与 AI Agent 的原生集成进一步放大了开发者与增长团队的兴趣。",
+        "uses": [
+          "独立开发者 / 小团队 —— 无需订阅高价 SaaS，用自有 API 密钥低成本完成 SEO 监控与关键词研究。",
+          "AI 工程师 / Agent 开发者 —— 通过 MCP 将实时 SEO 数据接入 Claude Code、OpenClaw 等智能体，实现自动化内容策略。",
+          "增长与营销团队 —— 利用预设 Agent Skills 快速完成竞品分析、外链挖掘和排名追踪。",
+          "隐私敏感企业 —— 支持 Docker/Cloudflare 自托管，完全掌控数据与成本。"
+        ]
       },
       "en": {
-        "tag": "Open source alternative to Semrush and Ahrefs",
-        "what": "Open source alternative to Semrush and Ahrefs (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily TypeScript.",
-        "hot": "+2.2k stars this month, ranked #17 on the monthly TypeScript chart.",
-        "uses": []
+        "tag": "Open-source SEO suite with AI agent & MCP integration for self-hosting",
+        "what": "OpenSEO is an open-source alternative to Semrush and Ahrefs, offering keyword research, rank tracking, competitor insights, backlink audits, and site audits. It uses a pay-as-you-go model with your own DataForSEO API key instead of expensive subscriptions. It also exposes an MCP server and reusable Agent Skills so AI agents like Claude Code and OpenClaw can interact directly with SEO data.",
+        "content": "The repository contains a full-stack application with a modern UI, supporting Docker and Cloudflare self-hosting, along with a built-in MCP server and pre-built Agent Skills (e.g., keyword-research, competitor-analysis, link-prospecting). Documentation covers API key setup, Google Search Console integration, SEO cost references, and local development guides.",
+        "stack": "Built with TypeScript, it features a modern frontend UI, relies on the DataForSEO API for search data, and communicates with external AI agents via the MCP protocol. It supports Docker containerization and Cloudflare edge hosting.",
+        "hot": "It gained rapid traction as a free, pay-as-you-go, self-hostable alternative to expensive and bloated SEO suites; with 4,405 stars and 2,187 added this month alone—ranking 17th on GitHub's monthly TypeScript trending list—its native MCP and AI Agent support has further driven interest from developers and growth teams.",
+        "uses": [
+          "Indie developers and small teams —— Avoid expensive subscriptions by using your own API key for low-cost SEO monitoring and keyword research.",
+          "AI engineers and agent builders —— Feed real-time SEO data into Claude Code, OpenClaw, or other agents via MCP for automated content strategy.",
+          "Growth and marketing teams —— Use pre-built Agent Skills to quickly run competitor analysis, link prospecting, and rank tracking.",
+          "Privacy-conscious organizations —— Self-host via Docker or Cloudflare to maintain full control over data and costs."
+        ]
       },
       "track": {
         "days": 0,
@@ -14093,27 +14290,37 @@ window.TRENDING_DATA = {
       "slug": "omnigraph",
       "full": "ModernRelay/omnigraph",
       "rank": 13,
-      "cat": "infra",
+      "cat": "agent",
       "lang": "Rust",
       "stars": 0.9,
       "today": "+683",
       "today_n": 683,
-      "auto": true,
+      "auto": false,
       "zh": {
-        "tag": "Lakehouse native graph engine with git-style workflows",
-        "what": "Lakehouse native graph engine with git-style workflows（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Rust。",
-        "hot": "本月新增 +683 stars，位列 GitHub Trending 月榜（Rust）第 13 名。",
-        "uses": []
+        "tag": "面向多智能体协作的 Lakehouse 原生图引擎，支持 Git 式分支工作流",
+        "what": "Omnigraph 是为大规模智能体集群设计的操作状态与协调层，支持数百个智能体在并行隔离分支上对图数据进行增删改查，并通过类 Git 的审查合并机制安全地收敛变更。它提供多模态检索能力，将图遍历、向量近似近邻搜索、全文检索与倒数排名融合整合到统一查询运行时中，用于为智能体组装上下文。",
+        "content": "仓库包含基于 Rust 编写的 omnigraph-server 服务端、omnigraph-cli 命令行工具，以及用于声明图结构、Schema、存储查询、嵌入模型提供方和策略的 cluster.yaml 配置体系；底层采用 Lance 列式格式实现可分支、可时间旅行的版本化对象存储，并内置基于 Cedar 的服务端安全策略引擎。",
+        "stack": "核心以 Rust 构建，采用 Lance 列式存储格式持久化数据，兼容任意 S3 兼容对象存储（如 MinIO、AWS S3、Cloudflare R2、GCS）；嵌入查询运行时整合向量 ANN 与全文检索，服务端使用 Cedar 策略语言实现细粒度权限控制。",
+        "hot": "该仓库在一个月内狂揽 683 颗 Star，总数达到 890，并跻身 GitHub Rust 语言月榜第 13 名；其「Git 式分支 + Lakehouse 架构 + 多智能体协调」的组合切中了当前 AI Agent 基础设施的核心痛点，吸引了大量关注。",
+        "uses": [
+          "构建企业级「公司大脑」的工程师与架构师——将组织知识统一为可供智能体查询的图",
+          "开发多智能体系统的 AI 工程师——需要持久化、版本化的共享记忆与任务分支隔离",
+          "重视数据主权的私有化部署团队——支持本地 MinIO/RustFS 或混合云对象存储",
+          "构建复杂上下文检索系统的开发者——需要图、向量与全文多模态融合的单一查询层"
+        ]
       },
       "en": {
-        "tag": "Lakehouse native graph engine with git-style workflows",
-        "what": "Lakehouse native graph engine with git-style workflows (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Rust.",
-        "hot": "+683 stars this month, ranked #13 on the monthly Rust chart.",
-        "uses": []
+        "tag": "Lakehouse-native graph engine for multi-agent fleets with Git-style branching",
+        "what": "Omnigraph serves as the operational state and coordination layer for fleets of agents, enabling hundreds of agents to enrich graph data on parallel isolated branches with Git-style review and merge workflows. It unifies graph traversal, vector ANN, full-text search, and Reciprocal Rank Fusion into a single query runtime for multimodal context assembly.",
+        "content": "The repository includes the Rust-based omnigraph-server, omnigraph-cli, and a declarative cluster.yaml configuration system for graphs, schemas, stored queries, embedding providers, and policies. Under the hood it uses the Lance columnar format for branchable, time-travelable versioned object storage, along with a Cedar-based server-side policy engine.",
+        "stack": "Built primarily in Rust, it persists data using the Lance columnar format atop any S3-compatible object store such as MinIO, AWS S3, R2, or GCS. The query runtime integrates vector ANN and full-text search, while Cedar policy language enforces server-side authorization.",
+        "hot": "The project surged by 683 stars in just one month to reach 890 total, ranking 13th on GitHub's monthly Rust Trending list. Its unique blend of Git-style branching, lakehouse architecture, and multi-agent coordination directly addresses critical infrastructure pain points in the AI agent boom, driving significant attention.",
+        "uses": [
+          "Engineers and architects building enterprise 'company brain' systems that unify organizational knowledge into an agent-queryable graph",
+          "AI developers building multi-agent systems requiring durable, versioned shared memory with branch isolation per task or agent",
+          "Teams prioritizing data sovereignty and private deployment via on-prem MinIO/RustFS or hybrid-cloud S3-compatible object stores",
+          "Developers building complex context-retrieval systems that need a unified query layer fusing graph, vector, and full-text search"
+        ]
       },
       "track": {
         "days": 0,
@@ -14132,22 +14339,30 @@ window.TRENDING_DATA = {
       "stars": 27.7,
       "today": "+1.1k",
       "today_n": 1068,
-      "auto": true,
+      "auto": false,
       "zh": {
-        "tag": "A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust",
-        "what": "A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 Rust。",
-        "hot": "本月新增 +1.1k stars，位列 GitHub Trending 月榜（Rust）第 15 名。",
-        "uses": []
+        "tag": "基于Rust的GPU加速跨平台终端模拟器与多路复用器",
+        "what": "WezTerm 是一款由 Rust 编写的高性能终端模拟器，内置终端多路复用功能。它利用 GPU 加速渲染，在 Windows、macOS 和 Linux 上提供一致的流畅体验，并支持通过 Lua 进行深度定制。",
+        "content": "仓库包含完整的终端仿真引擎、多路复用器实现、Lua 配置运行时以及跨平台窗口层，附带详尽的用户文档与官网源码。",
+        "stack": "核心采用 Rust 语言开发，依托 OpenGL / WebGPU 实现 GPU 加速渲染，使用 Lua 提供可编程配置接口，并基于各平台原生 API 构建窗口系统。",
+        "hot": "凭借 Rust 的安全与性能优势，WezTerm 在开发者社区迅速走红；目前拥有 27,669 Stars，本月新增 1,068 Star，跻身 GitHub Rust 月榜第 15 位，成为替代传统终端的热门选择。",
+        "uses": [
+          "进阶开发者与运维工程师 —— 需要 GPU 加速、多标签/多窗口管理的日常终端用户",
+          "跨平台工作者 —— 希望在 Windows、macOS 和 Linux 上保持统一终端体验的开发者",
+          "配置控与键盘流用户 —— 追求通过 Lua 脚本深度定制快捷键、外观与行为的极客"
+        ]
       },
       "en": {
-        "tag": "A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust",
-        "what": "A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily Rust.",
-        "hot": "+1.1k stars this month, ranked #15 on the monthly Rust chart.",
-        "uses": []
+        "tag": "GPU-accelerated cross-platform terminal emulator and multiplexer in Rust",
+        "what": "WezTerm is a high-performance terminal emulator written in Rust, featuring a built-in terminal multiplexer. It leverages GPU acceleration to deliver smooth, consistent experiences across Windows, macOS, and Linux, with deep customization via Lua configuration.",
+        "content": "The repository contains a full terminal emulation engine, built-in multiplexer, Lua configuration runtime, and cross-platform windowing layer, along with comprehensive user documentation and website source.",
+        "stack": "Core is written in Rust with GPU-accelerated rendering via OpenGL/WebGPU, programmable configuration through Lua, and native platform APIs for windowing.",
+        "hot": "Benefiting from Rust's safety and performance, WezTerm has gained strong traction among developers, amassing 27,669 stars with 1,068 added this month and ranking 15th on GitHub's Rust monthly trending list.",
+        "uses": [
+          "Advanced developers and DevOps engineers who need GPU-accelerated, multi-tab terminal sessions",
+          "Cross-platform professionals seeking a consistent terminal experience across Windows, macOS, and Linux",
+          "Power users and keyboard-driven workflow enthusiasts who want deep customization via Lua scripting"
+        ]
       },
       "track": {
         "days": 0,
@@ -14730,6 +14945,48 @@ window.TRENDING_DATA = {
       }
     },
     {
+      "slug": "httpsms",
+      "full": "NdoleStudio/httpsms",
+      "rank": 16,
+      "cat": "infra",
+      "lang": "Go",
+      "stars": 3.5,
+      "today": "+1.5k",
+      "today_n": 1535,
+      "auto": false,
+      "zh": {
+        "tag": "将Android手机变为SMS网关的HTTP API服务",
+        "what": "httpSMS是一个开源服务，让你将闲置的Android手机变成SMS网关。它提供简单的HTTP API，供开发者以编程方式发送和接收短信，无需依赖第三方短信平台。收到的短信还能自动转发到你指定的Webhook端点。",
+        "content": "仓库包含基于Go语言的后端API、Web管理界面、Android客户端源码，以及完整的Docker自托管部署指南和文档。",
+        "stack": "后端采用Go语言开发，配合Firebase进行消息推送与身份验证，前端使用Vue.js构建；支持通过Docker Compose一键自托管，并集成Cloudflare Turnstile进行人机验证。",
+        "hot": "在短信验证码、通知推送等场景下，它帮助开发者绕过昂贵的企业短信服务商，实现零成本通信；本月新增1,535星、累计3,535星并登上Go语言月榜第16，反映了开发者对自托管基础设施的高度兴趣。",
+        "uses": [
+          "需要低成本发送验证码/通知的独立开发者或初创团队",
+          "希望利用闲置Android手机搭建私有短信网关的运维人员",
+          "注重隐私、不愿将短信数据交给第三方平台的企业用户"
+        ]
+      },
+      "en": {
+        "tag": "Turn your Android phone into an SMS gateway via HTTP API",
+        "what": "httpSMS is an open-source service that turns your spare Android phone into an SMS gateway. It provides a simple HTTP API for developers to programmatically send and receive text messages without relying on third-party SMS providers. Incoming messages can also be automatically forwarded to your designated webhook endpoint.",
+        "content": "The repository includes a Go-based backend API, a web admin dashboard, Android client source code, and complete Docker self-hosting deployment guides with documentation.",
+        "stack": "The backend is built with Go, using Firebase for push notifications and authentication, with a Vue.js frontend; it supports one-click self-hosting via Docker Compose and integrates Cloudflare Turnstile for bot protection.",
+        "hot": "It helps developers bypass expensive enterprise SMS providers for verification codes and notifications, enabling zero-cost communication; gaining 1,535 stars this month and reaching 3,535 total with a top-16 spot on Go's monthly trending list reflects strong interest in self-hosted infrastructure.",
+        "uses": [
+          "Indie developers and startups needing low-cost SMS for verification codes and notifications",
+          "DevOps engineers looking to turn spare Android phones into private SMS gateways",
+          "Privacy-conscious enterprise users who prefer to keep SMS data in-house rather than with third-party platforms"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
       "slug": "frp",
       "full": "fatedier/frp",
       "rank": 16,
@@ -15086,22 +15343,30 @@ window.TRENDING_DATA = {
       "stars": 38.8,
       "today": "+173",
       "today_n": 173,
-      "auto": true,
+      "auto": false,
       "zh": {
-        "tag": "GoogleTest - Google Testing and Mocking Framework",
-        "what": "GoogleTest - Google Testing and Mocking Framework（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 C++。",
-        "hot": "本月新增 +173 stars，位列 GitHub Trending 月榜（C++）第 16 名。",
-        "uses": []
+        "tag": "Google官方C++单元测试与Mock框架，38K+ Star的行业标准",
+        "what": "GoogleTest是Google开源的C++测试框架，集单元测试与Mock能力于一体。它支持自动测试发现、丰富的断言、参数化测试和死亡测试等特性，帮助开发者高效验证C++代码的正确性。",
+        "content": "仓库合并了原GoogleTest与GoogleMock项目，包含测试框架源码、头文件、详细文档及示例代码。",
+        "stack": "基于C++17标准构建，使用CMake/Bazel编译，计划引入Abseil作为底层依赖库。",
+        "hot": "作为C++生态的事实标准测试框架，GoogleTest已积累38.8K Star，本月新增173星并持续发布1.17.x版本，保持高度活跃。",
+        "uses": [
+          "C++开发者 —— 为项目编写单元测试和集成测试，确保代码质量",
+          "需要Mock测试的工程项目 —— 模拟依赖对象，隔离测试复杂系统",
+          "开源/企业级C++项目 —— 建立标准化测试流程与CI/CD质量门禁"
+        ]
       },
       "en": {
-        "tag": "GoogleTest - Google Testing and Mocking Framework",
-        "what": "GoogleTest - Google Testing and Mocking Framework (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily C++.",
-        "hot": "+173 stars this month, ranked #16 on the monthly C++ chart.",
-        "uses": []
+        "tag": "Google's official C++ unit testing and mocking framework, the industry standard",
+        "what": "GoogleTest is Google's open-source C++ testing framework that combines unit testing and mocking capabilities. It supports automatic test discovery, rich assertions, parameterized tests, and death tests to help developers efficiently verify C++ code correctness.",
+        "content": "The repository merges the formerly separate GoogleTest and GoogleMock projects, containing framework source code, headers, comprehensive documentation, and sample code.",
+        "stack": "Built on C++17, compiled with CMake/Bazel, and planning to adopt Abseil as a foundational dependency.",
+        "hot": "With 38.8K stars and 173 new stars this month, GoogleTest remains the de facto standard C++ testing framework, actively maintained with recent 1.17.x releases requiring C++17.",
+        "uses": [
+          "C++ developers —— writing unit and integration tests to ensure code quality",
+          "Projects requiring mocking —— simulating dependencies and isolating complex systems for testing",
+          "Open-source and enterprise C++ projects —— establishing standardized testing pipelines and CI/CD quality gates"
+        ]
       },
       "track": {
         "days": 0,
