@@ -21,6 +21,24 @@ from xml.etree import ElementTree
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE_URL = "https://trending.cosolution.cc"
+GA4_MEASUREMENT_ID = "G-P3808E86C2"
+GA4_SCRIPT_URL = f"https://www.googletagmanager.com/gtag/js?id={GA4_MEASUREMENT_ID}"
+GA4_CONNECT_SOURCES = (
+    "https://*.google-analytics.com https://*.analytics.google.com "
+    "https://*.googletagmanager.com"
+)
+GA4_CSP_REQUIREMENTS = (
+    ("script-src", {"https://*.googletagmanager.com"}),
+    ("img-src", {"https://*.google-analytics.com", "https://*.googletagmanager.com"}),
+    (
+        "connect-src",
+        {
+            "https://*.google-analytics.com",
+            "https://*.analytics.google.com",
+            "https://*.googletagmanager.com",
+        },
+    ),
+)
 BOARD_ORDER = ("daily", "weekly", "monthly")
 REPO_NAME_RE = re.compile(r"^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$")
 COPY_FILES = (
@@ -264,12 +282,68 @@ def json_ld(payload: object) -> str:
     return f'<script type="application/ld+json">{raw}</script>'
 
 
+def ga4_tag() -> str:
+    return f"""<!-- Google tag (gtag.js) -->
+<script async src="{GA4_SCRIPT_URL}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){{dataLayer.push(arguments);}}
+  gtag('js', new Date());
+  gtag('config', '{GA4_MEASUREMENT_ID}', {{
+    'allow_google_signals': false,
+    'allow_ad_personalization_signals': false
+  }});
+</script>"""
+
+
+def csp_directives(source: str) -> dict[str, set[str]]:
+    match = re.search(r'<meta http-equiv="Content-Security-Policy" content="([^"]+)">', source)
+    if not match:
+        raise ValueError("HTML page is missing its Content-Security-Policy meta tag")
+    directives: dict[str, set[str]] = {}
+    for raw_directive in match.group(1).split(";"):
+        tokens = raw_directive.split()
+        if not tokens:
+            continue
+        name = tokens[0]
+        if name in directives:
+            raise ValueError(f"Duplicate CSP directive: {name}")
+        directives[name] = set(tokens[1:])
+    return directives
+
+
+def prepare_landing_analytics(source: str) -> str:
+    match = re.search(r'(<meta http-equiv="Content-Security-Policy" content=")([^"]+)(">)', source)
+    if not match:
+        raise ValueError("Landing page is missing its Content-Security-Policy meta tag")
+    csp = match.group(2)
+    replacements = (
+        (
+            "script-src 'self' 'unsafe-inline'",
+            "script-src 'self' 'unsafe-inline' https://*.googletagmanager.com",
+        ),
+        (
+            "img-src 'self' data: https://github.com https://avatars.githubusercontent.com https://opengraph.githubassets.com",
+            "img-src 'self' data: https://github.com https://avatars.githubusercontent.com "
+            "https://opengraph.githubassets.com https://*.google-analytics.com "
+            "https://*.googletagmanager.com",
+        ),
+        ("connect-src 'none'", f"connect-src {GA4_CONNECT_SOURCES}"),
+    )
+    for old, new in replacements:
+        if csp.count(old) != 1:
+            raise ValueError(f"Unexpected landing CSP directive: {old}")
+        csp = csp.replace(old, new, 1)
+    csp_meta = match.group(1) + csp + match.group(3)
+    return source[: match.start()] + csp_meta + "\n" + ga4_tag() + source[match.end() :]
+
+
 def page_shell(
     *,
     locale: str,
     title: str,
     description: str,
-    canonical: str,
+    canonical: str | None,
     alternate_en: str,
     alternate_zh: str,
     body: str,
@@ -283,12 +357,27 @@ def page_shell(
         search_links = f'<link rel="canonical" href="{esc(canonical)}">\n{hreflang_links(alternate_en, alternate_zh)}'
     language_url = (alternate_zh if locale == "en" else alternate_en) if canonical else TEXT[t["other"]]["home_path"]
     og_url = canonical or BASE_URL + t["home_path"]
+    if canonical:
+        csp = (
+            "default-src 'self'; script-src 'self' 'unsafe-inline' https://*.googletagmanager.com; "
+            "style-src 'self'; img-src 'self' data: https://*.google-analytics.com "
+            "https://*.googletagmanager.com; connect-src "
+            f"{GA4_CONNECT_SOURCES}; object-src 'none'; base-uri 'none'; form-action 'none'"
+        )
+        analytics = ga4_tag()
+    else:
+        csp = (
+            "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self'; "
+            "img-src 'self' data:; object-src 'none'; base-uri 'none'; form-action 'none'"
+        )
+        analytics = ""
     return f"""<!doctype html>
 <html lang="{t['html_lang']}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self'; img-src 'self' data:; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="{csp}">
+{analytics}
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(description)}">
 <meta name="robots" content="{esc(robots)}">
@@ -594,6 +683,7 @@ def board_page(data: dict, board: str, language_id: str, locale: str, indexed_na
 
 
 def prerender_landing(source: str, data: dict, locale: str, indexed_names: set[str]) -> str:
+    source = prepare_landing_analytics(source)
     source_switch, production_switch = {
         "en": (
             '<a href="index-zh.html" class="lang">中文</a>',
@@ -760,7 +850,30 @@ def validate_output(output: Path, expected_urls: list[str]) -> dict:
                 raise ValueError(f"Missing {marker} on {url}")
     if f"Sitemap: {BASE_URL}/sitemap.xml" not in (output / "robots.txt").read_text(encoding="utf-8"):
         raise ValueError("robots.txt does not advertise the sitemap")
-    return {"urls": len(actual_urls), "html_pages": len(list(output.rglob("*.html"))), "titles": len(titles)}
+    html_paths = sorted(output.rglob("*.html"))
+    untracked = {output / "404.html", output / "index-en.html"}
+    for path in html_paths:
+        source = path.read_text(encoding="utf-8")
+        if path in untracked:
+            if GA4_MEASUREMENT_ID in source or "googletagmanager.com/gtag/js" in source:
+                raise ValueError(f"Excluded page unexpectedly contains GA4: {path.relative_to(output)}")
+            continue
+        if source.count(GA4_SCRIPT_URL) != 1:
+            raise ValueError(f"GA4 loader must appear once: {path.relative_to(output)}")
+        if source.count(f"gtag('config', '{GA4_MEASUREMENT_ID}'") != 1:
+            raise ValueError(f"GA4 config must appear once: {path.relative_to(output)}")
+        if source.count(GA4_MEASUREMENT_ID) != 2:
+            raise ValueError(f"GA4 measurement ID count is invalid: {path.relative_to(output)}")
+        directives = csp_directives(source)
+        for directive, required_sources in GA4_CSP_REQUIREMENTS:
+            missing_sources = required_sources - directives.get(directive, set())
+            if missing_sources:
+                raise ValueError(
+                    f"GA4 CSP {directive} is missing {sorted(missing_sources)}: {path.relative_to(output)}"
+                )
+        if "'allow_google_signals': false" not in source or "'allow_ad_personalization_signals': false" not in source:
+            raise ValueError(f"GA4 privacy controls are missing: {path.relative_to(output)}")
+    return {"urls": len(actual_urls), "html_pages": len(html_paths), "titles": len(titles)}
 
 
 def build(output: Path) -> dict:
