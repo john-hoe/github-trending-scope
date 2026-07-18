@@ -3,15 +3,15 @@ window.TRENDING_DATA = {
   "schema": 2,
   "meta": {
     "date": "2026-07-18",
-    "generated_at": "2026-07-18 16:31 (CST)",
+    "generated_at": "2026-07-18 16:43 (CST)",
     "source": "github.com/trending",
     "criteria": "Repositories · Today/Week/Month · All languages · logged out",
     "headline_zh": "今日热榜全景速递",
     "headline_en": "Your daily trending digest",
     "sub_zh": "14 个上榜仓库：学习 & 游戏 2 个、平台·数据·应用 5 个、Agent 工具链 5 个、AI 应用与模型 2 个。今日新增 Star 前三：Nutlope/hallmark（+1.5k）、OpenCut-app/OpenCut（+1.1k）、codecrafters-io/build-your-own-x（+1.1k）。点击任意卡片查看深度解析。",
     "sub_en": "14 trending repos: 2 Learning & Gaming, 5 Platforms, Data & Apps, 5 Agent Tooling, 2 AI Apps & Models. Biggest star gainers today: Nutlope/hallmark (+1.5k), OpenCut-app/OpenCut (+1.1k), codecrafters-io/build-your-own-x (+1.1k). Click any card for a deep dive.",
-    "footer_zh": "Trending Scope · 数据更新于 2026-07-18 16:31 (CST)，由自动化管线直连 github.com 抓取",
-    "footer_en": "Trending Scope · Data updated 2026-07-18 16:31 (CST) by the automated pipeline, fetched directly from github.com"
+    "footer_zh": "Trending Scope · 数据更新于 2026-07-18 16:43 (CST)，由自动化管线直连 github.com 抓取",
+    "footer_en": "Trending Scope · Data updated 2026-07-18 16:43 (CST) by the automated pipeline, fetched directly from github.com"
   },
   "cats": {
     "agent": {
