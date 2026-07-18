@@ -15,7 +15,8 @@
 - 任一预期榜单抓取失败、缺失或解析数量不足时失败退出，绝不发布部分数据。
 - 可选 LLM 精评：配置环境变量后，每轮对新上榜及历史 auto 仓库调用 OpenAI 兼容
   接口生成双语深度解析（成功后清除 auto 标记，视同人工精评永久保留）；未配置或
-  调用失败时保持自动摘要降级。每轮最多处理 --llm-limit 个，新上榜优先。
+  调用失败时保持自动摘要降级。支持并发、退避重试和 GitHub Token 鉴权读取 README；
+  每轮最多处理 --llm-limit 个，新上榜及全语言主榜优先。
 
 用法：
     python3 scripts/update.py [--dry-run] [--data PATH] [--html PATH] [--min-repos 10] [--llm-limit 25]
@@ -26,6 +27,8 @@
     LLM_PROTOCOL：接口协议 openai（默认）或 anthropic（Kimi Code 网关等 Anthropic
         Messages 兼容服务，base_url 形如 https://agent-gw.kimi.com/coding）。
     LLM_MODEL：模型名（默认随协议：gpt-4o-mini / kimi-k2-0711-preview）。LLM_LIMIT：每轮最多精评仓库数（默认 25）。
+    LLM_CONCURRENCY / LLM_RETRIES：并发数与单条失败重试次数（默认 4 / 3）。
+    GITHUB_API_TOKEN / GITHUB_TOKEN：可选，用于提高 README API 额度。
     LLM_README=0：不把 README 摘录放入 prompt 上下文（默认取 README 前 3000 字符）。
 """
 import argparse
@@ -38,6 +41,7 @@ import sys
 import time
 import urllib.parse
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta, timezone
 
 TRENDING_URL = "https://github.com/trending"
@@ -238,6 +242,8 @@ def llm_config(args) -> "dict | None":
         "key": key, "base": base, "protocol": protocol,
         "model": os.environ.get("LLM_MODEL", "").strip() or default_model,
         "limit": args.llm_limit,
+        "concurrency": args.llm_concurrency,
+        "retries": args.llm_retries,
         "readme": os.environ.get("LLM_README", "1").strip() != "0",
     }
 
@@ -245,9 +251,13 @@ def llm_config(args) -> "dict | None":
 def fetch_readme(full: str, timeout: int = 15) -> str:
     """取 README 纯文本前 ~3000 字符作为 prompt 上下文；任何失败静默返回 ""。"""
     try:
+        headers = {"User-Agent": UA, "Accept": "application/vnd.github.raw"}
+        github_token = (os.environ.get("GITHUB_API_TOKEN") or os.environ.get("GITHUB_TOKEN") or "").strip()
+        if github_token:
+            headers["Authorization"] = f"Bearer {github_token}"
         req = urllib.request.Request(
             f"https://api.github.com/repos/{full}/readme",
-            headers={"User-Agent": UA, "Accept": "application/vnd.github.raw"})
+            headers=headers)
         with urllib.request.urlopen(req, timeout=timeout) as resp:
             text = resp.read().decode("utf-8", "replace")
         return re.sub(r"\s+", " ", text).strip()[:3000]
@@ -290,17 +300,23 @@ def llm_review(full: str, desc: str, lang, stars_n: int, today_n: int,
             cfg["base"] + "/chat/completions", data=body, method="POST",
             headers={"User-Agent": UA, "Content-Type": "application/json",
                      "Authorization": f"Bearer {cfg['key']}"})
-    try:
-        with urllib.request.urlopen(req, timeout=60) as resp:
-            payload = json.loads(resp.read().decode("utf-8", "replace"))
-        if cfg.get("protocol") == "anthropic":
-            text = "".join(b.get("text", "") for b in payload.get("content", [])
-                           if b.get("type") == "text")
-        else:
-            text = payload["choices"][0]["message"]["content"]
-    except Exception as e:  # noqa: BLE001 —— 网络/鉴权/格式问题都降级
-        print(f"[llm] {full}: request failed: {e}")
-        return None
+    text = ""
+    retries = max(1, int(cfg.get("retries", 3)))
+    for attempt in range(retries):
+        try:
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                payload = json.loads(resp.read().decode("utf-8", "replace"))
+            if cfg.get("protocol") == "anthropic":
+                text = "".join(b.get("text", "") for b in payload.get("content", [])
+                               if b.get("type") == "text")
+            else:
+                text = payload["choices"][0]["message"]["content"]
+            break
+        except Exception as e:  # noqa: BLE001 —— 瞬时网络/网关错误重试，最终才降级
+            if attempt + 1 == retries:
+                print(f"[llm] {full}: request failed after {retries} attempts: {e}")
+                return None
+            time.sleep(1.5 * (2 ** attempt))
     m = re.search(r"\{.*\}", text, re.S)
     if not m:
         print(f"[llm] {full}: no JSON object in reply")
@@ -334,20 +350,36 @@ def polish_with_llm(registry: dict, order: list, new_fulls: set,
                     info: dict, pres_map: dict, cfg: dict) -> int:
     """对 auto 仓库逐个调用 LLM 精评：新上榜优先，每轮最多 cfg['limit'] 个。"""
     cands = [f for f in order if registry[f].get("auto")]
-    cands.sort(key=lambda f: (f not in new_fulls, pres_map[f][2]["rank"]))
+    order_index = {full: i for i, full in enumerate(order)}
+    cands.sort(key=lambda f: (
+        f not in new_fulls,
+        pres_map[f][1] != "all",
+        RANGES.index(pres_map[f][0]),
+        pres_map[f][2]["rank"],
+        order_index[f],
+    ))
+    targets = cands[: cfg["limit"]]
     done = 0
-    for full in cands[: cfg["limit"]]:
+
+    def review_one(full: str):
         rng_p, lid_p, e_p = pres_map[full]
         fr = info[full]
         res = llm_review(full, fr["desc"], fr["lang"], fr["stars_n"], fr["today_n"],
                          e_p["rank"], rng_p, lid_p, cfg)
-        if res:
+        return full, res
+
+    workers = min(max(1, int(cfg.get("concurrency", 4))), len(targets) or 1)
+    with ThreadPoolExecutor(max_workers=workers) as executor:
+        futures = [executor.submit(review_one, full) for full in targets]
+        for future in as_completed(futures):
+            full, res = future.result()
+            if not res:
+                continue
             entry = registry[full]
             entry["cat"], entry["zh"], entry["en"] = res["cat"], res["zh"], res["en"]
             entry["auto"] = False
             done += 1
             print(f"[llm] polished {full}")
-        time.sleep(0.4)
     return done
 
 
@@ -456,7 +488,7 @@ def build_meta(prev_meta: dict, list_changed: bool, now: datetime, daily_entries
 # ---------------------------------------------------------------- 校验
 
 def validate(data: dict, min_repos: int, min_board_repos: int = 1,
-             require_all_boards: bool = True) -> list:
+             require_all_boards: bool = True, require_reviewed: bool = False) -> list:
     errors = []
     if data.get("schema") != 2:
         errors.append(f"unsupported schema {data.get('schema')}")
@@ -536,6 +568,8 @@ def validate(data: dict, min_repos: int, min_board_repos: int = 1,
             errors.append(f"{r.get('full','?')}: invalid GitHub full name")
         if not isinstance(r.get("slug"), str) or not SLUG_RE.fullmatch(r["slug"]):
             errors.append(f"{r.get('full','?')}: invalid slug {r.get('slug')}")
+        if require_reviewed and r.get("auto"):
+            errors.append(f"{r.get('full','?')}: automated placeholder remains")
         if r.get("slug") in slugs:
             errors.append(f"{r.get('full','?')}: duplicate slug {r.get('slug')}")
         slugs.add(r.get("slug"))
@@ -553,6 +587,12 @@ def validate(data: dict, min_repos: int, min_board_repos: int = 1,
                     errors.append(f"{r.get('full','?')}/{loc}: missing {k}")
             if not isinstance(blk.get("uses"), list):
                 errors.append(f"{r.get('full','?')}/{loc}: uses not a list")
+            if not r.get("auto"):
+                for k in REQUIRED_TEXT_KEYS[:-1]:
+                    if not isinstance(blk.get(k), str) or not blk[k].strip():
+                        errors.append(f"{r.get('full','?')}/{loc}: reviewed {k} is empty")
+                if not isinstance(blk.get("uses"), list) or not [u for u in blk["uses"] if isinstance(u, str) and u.strip()]:
+                    errors.append(f"{r.get('full','?')}/{loc}: reviewed uses is empty")
     return errors
 
 
@@ -569,10 +609,17 @@ def main() -> int:
     ap.add_argument("--dry-run", action="store_true", help="只打印将要发生的变化，不写文件")
     ap.add_argument("--llm-limit", type=int, default=int(os.environ.get("LLM_LIMIT") or "25"),
                     help="每轮最多 LLM 精评的仓库数（默认 25，可用 env LLM_LIMIT 覆盖）")
+    ap.add_argument("--llm-concurrency", type=int, default=int(os.environ.get("LLM_CONCURRENCY") or "4"),
+                    help="LLM 精评并发数（默认 4，可用 env LLM_CONCURRENCY 覆盖）")
+    ap.add_argument("--llm-retries", type=int, default=int(os.environ.get("LLM_RETRIES") or "3"),
+                    help="单个 LLM 精评失败重试次数（默认 3，可用 env LLM_RETRIES 覆盖）")
+    ap.add_argument("--require-reviewed", action="store_true",
+                    help="存在任何自动占位摘要时失败退出，不发布不完整深度解析")
     args = ap.parse_args()
 
-    if args.min_repos < 1 or args.min_board_repos < 1 or args.llm_limit < 0:
-        ap.error("--min-repos and --min-board-repos must be >= 1; --llm-limit must be >= 0")
+    if (args.min_repos < 1 or args.min_board_repos < 1 or args.llm_limit < 0
+            or args.llm_concurrency < 1 or args.llm_retries < 1):
+        ap.error("repo minimums/concurrency/retries must be >= 1; --llm-limit must be >= 0")
 
     data_path = os.path.abspath(args.data)
 
@@ -731,7 +778,8 @@ def main() -> int:
         "repos": repos,
     }
 
-    errors = validate(data, args.min_repos, args.min_board_repos, require_all_boards=not bool(args.html))
+    errors = validate(data, args.min_repos, args.min_board_repos,
+                      require_all_boards=not bool(args.html), require_reviewed=args.require_reviewed)
     if errors:
         print("[update] ERROR: validation failed:", file=sys.stderr)
         for e in errors:

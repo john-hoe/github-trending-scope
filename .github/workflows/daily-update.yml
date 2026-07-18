@@ -48,6 +48,9 @@ jobs:
           LLM_MODEL: ${{ vars.LLM_MODEL }}
           LLM_PROTOCOL: ${{ vars.LLM_PROTOCOL }}
           LLM_LIMIT: ${{ github.event.inputs.llm_limit || vars.LLM_LIMIT }}
+          LLM_CONCURRENCY: "4"
+          LLM_RETRIES: "3"
+          GITHUB_API_TOKEN: ${{ github.token }}
 
       - name: Commit data if changed
         run: |

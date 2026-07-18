@@ -68,6 +68,40 @@ class FetchTests(unittest.TestCase):
         self.assertEqual(open_mock.call_count, 2)
         sleep_mock.assert_called_once()
 
+    def test_readme_request_uses_github_token(self):
+        response = mock.MagicMock()
+        response.__enter__.return_value.read.return_value = b"README"
+        with mock.patch.dict(UPDATE.os.environ, {"GITHUB_API_TOKEN": "secret-token"}, clear=False), \
+             mock.patch.object(UPDATE.urllib.request, "urlopen", return_value=response) as open_mock:
+            self.assertEqual(UPDATE.fetch_readme("owner/repo"), "README")
+        request = open_mock.call_args.args[0]
+        self.assertEqual(request.get_header("Authorization"), "Bearer secret-token")
+
+
+class LLMReviewTests(unittest.TestCase):
+    def test_transient_llm_failure_is_retried(self):
+        review = {
+            "cat": "infra",
+            "tag_zh": "中文定位", "tag_en": "English positioning",
+            "what_zh": "中文说明。", "what_en": "English explanation.",
+            "content_zh": "仓库内容。", "content_en": "Repository contents.",
+            "stack_zh": "技术栈。", "stack_en": "Technology stack.",
+            "hot_zh": "热度原因。", "hot_en": "Why it is hot.",
+            "uses_zh": ["使用场景"], "uses_en": ["Use case"],
+        }
+        response = mock.MagicMock()
+        response.__enter__.return_value.read.return_value = json.dumps({
+            "choices": [{"message": {"content": json.dumps(review)}}]
+        }).encode()
+        cfg = {"protocol": "openai", "base": "https://example.test", "key": "k",
+               "model": "m", "readme": False, "retries": 2}
+        with mock.patch.object(UPDATE.urllib.request, "urlopen", side_effect=[OSError("temporary"), response]) as open_mock, \
+             mock.patch.object(UPDATE.time, "sleep") as sleep_mock:
+            result = UPDATE.llm_review("owner/repo", "desc", "Python", 10, 2, 1, "daily", "all", cfg)
+        self.assertEqual(result["zh"]["tag"], "中文定位")
+        self.assertEqual(open_mock.call_count, 2)
+        sleep_mock.assert_called_once()
+
 
 class ArchiveTests(unittest.TestCase):
     def test_corrupt_archive_fails_closed(self):
@@ -139,6 +173,17 @@ class ValidationTests(unittest.TestCase):
         errors = UPDATE.validate(self.data, 1, 1, True)
         self.assertTrue(any("duplicate repo" in e for e in errors), errors)
         self.assertTrue(any("ranks are not sequential" in e for e in errors), errors)
+
+    def test_reviewed_gate_rejects_automatic_placeholder(self):
+        errors = UPDATE.validate(self.data, 1, 1, True, require_reviewed=True)
+        self.assertTrue(any("automated placeholder remains" in e for e in errors), errors)
+
+    def test_reviewed_gate_accepts_complete_review(self):
+        self.repo["auto"] = False
+        for loc in ("zh", "en"):
+            self.repo[loc]["content"] = "content"
+            self.repo[loc]["uses"] = ["use case"]
+        self.assertEqual(UPDATE.validate(self.data, 1, 1, True, require_reviewed=True), [])
 
 
 class MetadataTests(unittest.TestCase):
