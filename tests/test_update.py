@@ -180,10 +180,33 @@ class ValidationTests(unittest.TestCase):
 
     def test_reviewed_gate_accepts_complete_review(self):
         self.repo["auto"] = False
+        self.repo["zh"] = {
+            "tag": "中文一句话", "what": "中文项目介绍", "content": "中文仓库内容",
+            "stack": "中文技术栈", "hot": "中文热度原因", "uses": ["中文应用场景"],
+        }
+        self.repo["en"]["content"] = "content"
+        self.repo["en"]["uses"] = ["use case"]
+        self.assertEqual(UPDATE.validate(self.data, 1, 1, True, require_reviewed=True), [])
+
+    def test_reviewed_gate_rejects_non_chinese_zh_copy(self):
+        self.repo["auto"] = False
         for loc in ("zh", "en"):
             self.repo[loc]["content"] = "content"
             self.repo[loc]["uses"] = ["use case"]
-        self.assertEqual(UPDATE.validate(self.data, 1, 1, True, require_reviewed=True), [])
+        errors = UPDATE.validate(self.data, 1, 1, True, require_reviewed=True)
+        self.assertTrue(any("reviewed tag has no Chinese text" in e for e in errors), errors)
+        self.assertTrue(any("reviewed use case has no Chinese text" in e for e in errors), errors)
+
+    def test_reviewed_gate_rejects_disguised_placeholder_copy(self):
+        self.repo["auto"] = False
+        self.repo["zh"] = {
+            "tag": "项目描述待补充", "what": "中文项目介绍", "content": "中文仓库内容",
+            "stack": "中文技术栈", "hot": "中文热度原因", "uses": ["中文应用场景"],
+        }
+        self.repo["en"]["content"] = "content"
+        self.repo["en"]["uses"] = ["use case"]
+        errors = UPDATE.validate(self.data, 1, 1, True, require_reviewed=True)
+        self.assertTrue(any("reviewed placeholder text remains" in e for e in errors), errors)
 
 
 class MetadataTests(unittest.TestCase):
