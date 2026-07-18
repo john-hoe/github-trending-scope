@@ -71,6 +71,11 @@ HIST_DAYS = 14  # sparkline 最多保留的历史点数
 EXPECTED_BOARDS = tuple((rng, lang_id) for rng in RANGES for lang_id, _ in LANGS)
 FULL_NAME_RE = re.compile(r"^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$")
 SLUG_RE = re.compile(r"^[a-z0-9._-]+$")
+CJK_RE = re.compile(r"[\u3400-\u9fff]")
+PLACEHOLDER_MARKERS = (
+    "自动摘要", "人工深度解析待补充", "描述待补充",
+    "auto summary", "human deep dive is pending", "description pending",
+)
 
 
 # ---------------------------------------------------------------- 抓取与解析
@@ -593,6 +598,20 @@ def validate(data: dict, min_repos: int, min_board_repos: int = 1,
                         errors.append(f"{r.get('full','?')}/{loc}: reviewed {k} is empty")
                 if not isinstance(blk.get("uses"), list) or not [u for u in blk["uses"] if isinstance(u, str) and u.strip()]:
                     errors.append(f"{r.get('full','?')}/{loc}: reviewed uses is empty")
+                reviewed_text = " ".join(
+                    [str(blk.get(k, "")) for k in REQUIRED_TEXT_KEYS[:-1]]
+                    + [str(u) for u in blk.get("uses", [])]
+                ).lower()
+                if any(marker in reviewed_text for marker in PLACEHOLDER_MARKERS):
+                    errors.append(f"{r.get('full','?')}/{loc}: reviewed placeholder text remains")
+                if loc == "zh":
+                    for k in REQUIRED_TEXT_KEYS[:-1]:
+                        value = blk.get(k)
+                        if isinstance(value, str) and value.strip() and not CJK_RE.search(value):
+                            errors.append(f"{r.get('full','?')}/zh: reviewed {k} has no Chinese text")
+                    for use in blk.get("uses", []):
+                        if isinstance(use, str) and use.strip() and not CJK_RE.search(use):
+                            errors.append(f"{r.get('full','?')}/zh: reviewed use case has no Chinese text")
     return errors
 
 
