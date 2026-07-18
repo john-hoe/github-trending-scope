@@ -15,15 +15,15 @@
 
 ## 这是什么 / What is this
 
-每天 GitHub Trending 的榜单只是一串链接。**Trending Scope** 把它做成一个单文件、零依赖的本地网页：
+每天 GitHub Trending 的榜单只是一串链接。**Trending Scope** 把它做成两个静态页面与一份共享数据、零构建依赖的本地网站：
 
-GitHub Trending is just a list of links. **Trending Scope** turns it into a single-file, zero-dependency local web page:
+GitHub Trending is just a list of links. **Trending Scope** turns it into two static pages backed by one shared dataset, with no build dependencies:
 
-- **17+ 上榜仓库的深度解析** / Deep dives for every trending repo —— 点击卡片弹出：是做什么的 / 仓库里有什么 / 技术栈 / 应用场景 / 为什么火（What it does · What's inside · Tech stack · Use cases · Why it's hot），附一键复制 Markdown 分享（one-click Markdown copy）
+- **上榜仓库解析** / Trending repo explainers —— 人工精评与明确标记的自动摘要并存；点击卡片查看是做什么的 / 仓库内容 / 技术栈 / 应用场景 / 热度原因，并可一键复制 Markdown
 - **中英双语** / Bilingual —— `index.html`（中文）与 `index-en.html`（English）一键切换
 - **图表洞察** / Charts —— 分类环形图 + 区间新增 TOP 8 竞速条形图（跟随每日/每周/每月口径，animated racing bars of gainers）
 - **交互** / Interactions —— 分类筛选、实时搜索（防抖）、四种排序（榜单排名 / Stars / 名称）、「今日 +N」新增 star 徽章、卡片 / 紧凑列表双视图（cards or compact list view）、项目对比（选 2~3 个仓库并排比较 / side-by-side compare for up to 3 repos）
-- **设计** / Design —— 衬线大标题（Noto Serif / Noto Serif SC）+ 暖纸编辑部风格配色 + 墨黑暗色模式（跟随系统 / 手动切换，dark mode follows system or manual toggle）、极光背景、滚动入场动画、键盘可访问（Enter 打开 / Esc 关闭弹窗）
+- **设计** / Design —— 衬线大标题（Noto Serif / Noto Serif SC）+ 暖纸编辑部风格配色 + 墨黑暗色模式、极光背景、尊重 reduced-motion；支持 Tab、Enter / Space 打开、Esc 关闭及弹窗焦点管理
 
 ![English preview](preview-en.png)
 
@@ -45,6 +45,7 @@ open index-en.html   # English version
 The trending data is refreshed daily by GitHub Actions (~08:23 Beijing time):
 
 - `scripts/update.py` 直连 `github.com/trending` 抓取榜单，刷新 `data.json` + `data.js`，并把当日快照归档到 `archive/YYYY-MM-DD.json`
+- 全部 21 个榜单均采用三次网络重试并做完整性校验；任一榜单缺失或条目异常时整轮失败，不发布部分数据
 - **多口径榜单**：每日 / 每周 / 每月 × 7 个语言筛选（All / Python / TypeScript / JavaScript / Rust / Go / C++）共 21 个榜单一次抓全，页面工具栏可切换口径与语言，支持 `#board=weekly&lang=python` 深链
 - Daily / Weekly / Monthly × 7 language filters (21 boards total) — switchable in the toolbar, with `#board=…&lang=…` deep links
 - 仍在榜的仓库**保留人工深度解析**，只更新排名与 star 数；新上榜仓库自动生成带 ⚡ 标记的摘要；配置 LLM（见下）后由模型自动生成双语精评并永久保留，否则人工精评随后补充
@@ -52,6 +53,8 @@ The trending data is refreshed daily by GitHub Actions (~08:23 Beijing time):
 - Repos that stay on the chart keep their human-written deep dives (only rank/stars update); new entries get an auto summary flagged ⚡ pending a human write-up. On-chart tracking badges and a star-history sparkline build up from the daily archives
 - **可选 LLM 精评** / Optional LLM write-ups —— 仓库 Secrets 配置 `LLM_API_KEY` + `LLM_BASE_URL`（OpenAI 兼容接口；Kimi Code 网关 `https://agent-gw.kimi.com/coding` 亦可，Variables 设 `LLM_PROTOCOL=anthropic`），Variables 可选 `LLM_MODEL`；每轮为新上榜及历史 ⚡ 仓库生成双语深度解析（每轮上限 `LLM_LIMIT`，默认 25，新上榜优先），失败或未配置自动保持摘要降级
 - 手动更新 / Manual refresh: `python3 scripts/update.py`（纯标准库，无依赖 / stdlib only）
+- 回归测试 / Regression tests: `python3 -m unittest discover -s tests -v`
+- 配置 `CLOUDFLARE_API_TOKEN` + `CLOUDFLARE_ACCOUNT_ID` 后，同一 workflow 会同步部署生产域名对应的 Cloudflare Pages 项目；未配置时仅更新 GitHub Pages
 - 改进方向见 / See `docs/improvement-roadmap.md`
 
 ## 数据说明 / Data notes
@@ -67,6 +70,7 @@ The trending data is refreshed daily by GitHub Actions (~08:23 Beijing time):
 ├── index-en.html     # English page (styles + rendering, data from data.js)
 ├── data.json         # 双语数据源（canonical dataset, zh + en）
 ├── data.js           # data.json 的页面加载包装（window.TRENDING_DATA，自动生成）
+├── favicon.png       # 站点图标（512×512）
 ├── archive/          # 每日榜单快照（YYYY-MM-DD.json，在榜追踪的历史依据）
 ├── scripts/update.py # 每日抓取更新脚本（stdlib only）
 ├── .github/workflows/daily-update.yml  # GitHub Actions 每日自动更新

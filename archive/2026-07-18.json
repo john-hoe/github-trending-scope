@@ -1,0 +1,132 @@
+{
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18 14:25 (CST)",
+  "repos": [
+    {
+      "full": "codecrafters-io/build-your-own-x",
+      "rank": 1,
+      "stars": 527.6,
+      "today_n": 1068,
+      "slug": "build-your-own-x",
+      "cat": "other",
+      "lang": "Markdown"
+    },
+    {
+      "full": "PostHog/posthog",
+      "rank": 2,
+      "stars": 36.3,
+      "today_n": 438,
+      "slug": "posthog",
+      "cat": "infra",
+      "lang": "Python"
+    },
+    {
+      "full": "HenryNdubuaku/maths-cs-ai-compendium",
+      "rank": 3,
+      "stars": 6.7,
+      "today_n": 200,
+      "slug": "maths-cs-ai-compendium",
+      "cat": "ai",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "Nutlope/hallmark",
+      "rank": 4,
+      "stars": 12.3,
+      "today_n": 1485,
+      "slug": "hallmark",
+      "cat": "agent",
+      "lang": "CSS"
+    },
+    {
+      "full": "github/copilot-sdk",
+      "rank": 5,
+      "stars": 9.8,
+      "today_n": 233,
+      "slug": "copilot-sdk",
+      "cat": "agent",
+      "lang": "Java"
+    },
+    {
+      "full": "anthropics/cwc-workshops",
+      "rank": 6,
+      "stars": 1.6,
+      "today_n": 45,
+      "slug": "cwc-workshops",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "PrismML-Eng/Bonsai-demo",
+      "rank": 7,
+      "stars": 1.7,
+      "today_n": 278,
+      "slug": "bonsai-demo",
+      "cat": "ai",
+      "lang": "Shell"
+    },
+    {
+      "full": "protocolbuffers/protobuf",
+      "rank": 8,
+      "stars": 71.6,
+      "today_n": 11,
+      "slug": "protobuf",
+      "cat": "infra",
+      "lang": "C++"
+    },
+    {
+      "full": "tirth8205/code-review-graph",
+      "rank": 9,
+      "stars": 19.9,
+      "today_n": 74,
+      "slug": "code-review-graph",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "docusealco/docuseal",
+      "rank": 10,
+      "stars": 17.9,
+      "today_n": 91,
+      "slug": "docuseal",
+      "cat": "infra",
+      "lang": "Ruby"
+    },
+    {
+      "full": "openinterpreter/openinterpreter",
+      "rank": 11,
+      "stars": 66.5,
+      "today_n": 431,
+      "slug": "openinterpreter",
+      "cat": "agent",
+      "lang": "Rust"
+    },
+    {
+      "full": "RyanCodrai/turbovec",
+      "rank": 12,
+      "stars": 13.4,
+      "today_n": 280,
+      "slug": "turbovec",
+      "cat": "infra",
+      "lang": "Python"
+    },
+    {
+      "full": "HKUDS/DeepTutor",
+      "rank": 13,
+      "stars": 27.5,
+      "today_n": 531,
+      "slug": "deeptutor",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "OpenCut-app/OpenCut",
+      "rank": 14,
+      "stars": 75.1,
+      "today_n": 1074,
+      "slug": "opencut",
+      "cat": "infra",
+      "lang": "TypeScript"
+    }
+  ]
+}
