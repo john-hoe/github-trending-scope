@@ -13,6 +13,11 @@ on:
         description: "本轮 LLM 精评上限（留空则用默认 400；可用 vars.LLM_LIMIT 全局覆盖）"
         required: false
         default: ""
+      deploy_only:
+        description: "仅测试并部署当前静态页面，不抓取或改写榜单数据"
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -38,6 +43,7 @@ jobs:
         run: python3 -m unittest discover -s tests -v
 
       - name: Fetch trending and refresh data
+        if: ${{ inputs.deploy_only != true }}
         run: python3 scripts/update.py --require-reviewed
         env:
           # 可选 LLM 精评：在仓库 Settings → Secrets and variables 配置
@@ -53,6 +59,7 @@ jobs:
           GITHUB_API_TOKEN: ${{ github.token }}
 
       - name: Commit data if changed
+        if: ${{ inputs.deploy_only != true }}
         run: |
           git config user.name "trending-scope-bot"
           git config user.email "trending-scope-bot@users.noreply.github.com"

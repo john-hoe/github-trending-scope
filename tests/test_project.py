@@ -58,6 +58,12 @@ class AutomationContractTests(unittest.TestCase):
         self.assertIn("scripts/update.py --require-reviewed", self.workflow)
         self.assertIn("vars.LLM_LIMIT || '400'", self.workflow)
 
+    def test_workflow_can_deploy_static_changes_without_refreshing_data(self):
+        self.assertRegex(self.workflow, r"(?m)^\s{6}deploy_only:")
+        self.assertIn('type: boolean', self.workflow)
+        self.assertEqual(self.workflow.count('if: ${{ inputs.deploy_only != true }}'), 2)
+        self.assertIn("cp index.html index-zh.html index-en.html", self.workflow)
+
     def test_third_party_actions_are_pinned_to_commits(self):
         uses = re.findall(r"(?m)^\s*-?\s*uses:\s*[^@\s]+@([^\s#]+)", self.workflow)
         self.assertTrue(uses)
