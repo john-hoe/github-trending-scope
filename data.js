@@ -3,15 +3,15 @@ window.TRENDING_DATA = {
   "schema": 2,
   "meta": {
     "date": "2026-07-18",
-    "generated_at": "2026-07-18 16:23 (CST)",
+    "generated_at": "2026-07-18 16:27 (CST)",
     "source": "github.com/trending",
     "criteria": "Repositories · Today/Week/Month · All languages · logged out",
     "headline_zh": "今日热榜全景速递",
     "headline_en": "Your daily trending digest",
     "sub_zh": "14 个上榜仓库：学习 & 游戏 2 个、平台·数据·应用 5 个、Agent 工具链 5 个、AI 应用与模型 2 个。今日新增 Star 前三：Nutlope/hallmark（+1.5k）、OpenCut-app/OpenCut（+1.1k）、codecrafters-io/build-your-own-x（+1.1k）。点击任意卡片查看深度解析。",
     "sub_en": "14 trending repos: 2 Learning & Gaming, 5 Platforms, Data & Apps, 5 Agent Tooling, 2 AI Apps & Models. Biggest star gainers today: Nutlope/hallmark (+1.5k), OpenCut-app/OpenCut (+1.1k), codecrafters-io/build-your-own-x (+1.1k). Click any card for a deep dive.",
-    "footer_zh": "Trending Scope · 数据更新于 2026-07-18 16:23 (CST)，由自动化管线直连 github.com 抓取",
-    "footer_en": "Trending Scope · Data updated 2026-07-18 16:23 (CST) by the automated pipeline, fetched directly from github.com"
+    "footer_zh": "Trending Scope · 数据更新于 2026-07-18 16:27 (CST)，由自动化管线直连 github.com 抓取",
+    "footer_en": "Trending Scope · Data updated 2026-07-18 16:27 (CST) by the automated pipeline, fetched directly from github.com"
   },
   "cats": {
     "agent": {
@@ -1665,7 +1665,7 @@ window.TRENDING_DATA = {
         {
           "full": "opencode-ai/opencode",
           "rank": 12,
-          "stars": 13.4,
+          "stars": 13.5,
           "today": "+130",
           "today_n": 130
         },
@@ -10966,7 +10966,7 @@ window.TRENDING_DATA = {
       "rank": 12,
       "cat": "agent",
       "lang": "Go",
-      "stars": 13.4,
+      "stars": 13.5,
       "today": "+130",
       "today_n": 130,
       "auto": false,
@@ -12365,22 +12365,32 @@ window.TRENDING_DATA = {
       "stars": 32.5,
       "today": "+28.2k",
       "today_n": 28151,
-      "auto": true,
+      "auto": false,
       "zh": {
-        "tag": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
-        "what": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 C。",
-        "hot": "本月新增 +28.2k stars，位列 GitHub Trending 月榜第 2 名。",
-        "uses": []
+        "tag": "高性能代码智能 MCP 服务器，毫秒级构建代码知识图谱",
+        "what": "这是一个专为 AI 编程代理设计的高性能代码智能引擎，通过 Tree-sitter AST 分析将代码库索引为持久化知识图谱。它能在毫秒内完成普通仓库的全量索引，并以亚毫秒级延迟回答结构化查询。作为 MCP 服务器，它提供 15 个工具，支持 43 种客户端接入，可将 Token 消耗降低 99%。",
+        "content": "仓库包含纯 C 编写的单静态二进制可执行文件，内置基于 Tree-sitter 的 158 语言解析器与 10 种语言的 Hybrid LSP 语义增强模块。产物为零依赖的跨平台（macOS/Linux/Windows）二进制，附带 15 个 MCP 工具与 5600+ 测试用例。",
+        "stack": "核心采用纯 C 语言实现以保证极致性能与零依赖，通过 tree-sitter 生成 AST 并辅以 Hybrid LSP 进行语义类型解析。编译为单静态二进制分发，无需任何运行时依赖。",
+        "hot": "本月暴涨 28,151 Star 至 32,528，冲上 GitHub 月榜第 2，反映出 AI Agent 生态对「极速代码理解基础设施」的迫切需求。相比逐文件探索，它实现 10 倍 Token 节省与 2.1 倍工具调用减少，成为开发者提升 AI 编码效率的热门选择。",
+        "uses": [
+          "AI 编程代理开发者 —— 为 Cursor、Claude Code 等客户端提供秒级代码库记忆与结构化查询能力",
+          "大型代码库维护者 —— 在毫秒级内索引千万行级项目（如 Linux 内核），降低 AI 辅助理解的成本",
+          "追求极致效率的工程师 —— 通过单二进制零依赖部署，快速接入 158 种语言的亚毫秒代码检索",
+          "MCP 生态集成者 —— 利用 15 个标准化工具与 43 个客户端表面，构建自动化的代码分析流水线"
+        ]
       },
       "en": {
-        "tag": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
-        "what": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies. (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily C.",
-        "hot": "+28.2k stars this month, ranked #2 on the monthly GitHub Trending chart.",
-        "uses": []
+        "tag": "High-performance code-intelligence MCP server building persistent knowledge graphs in milliseconds",
+        "what": "A high-performance code intelligence engine designed for AI coding agents that indexes entire codebases into persistent knowledge graphs via Tree-sitter AST analysis. It full-indexes average repositories in milliseconds and answers structural queries in under 1ms. As an MCP server, it exposes 15 tools across 43 client surfaces while cutting token usage by 99%.",
+        "content": "A pure-C single static binary with built-in Tree-sitter parsers for 158 languages and Hybrid LSP semantic resolution for 10 languages. Ships as a zero-dependency, cross-platform executable (macOS/Linux/Windows) with 15 MCP tools and over 5,600 passing tests.",
+        "stack": "Built entirely in C for extreme performance and zero dependencies, leveraging tree-sitter for AST generation and Hybrid LSP for semantic type resolution. Distributed as a single static binary requiring no runtime dependencies.",
+        "hot": "Skyrocketed by 28,151 stars this month to 32,528, landing at #2 on GitHub's monthly Trending—reflecting soaring demand for lightning-fast code-intelligence infrastructure in the AI Agent era. It delivers 10× fewer tokens and 2.1× fewer tool calls versus file-by-file exploration, making it a go-to choice for AI-assisted coding workflows.",
+        "uses": [
+          "AI agent developers —— Feed Cursor, Claude Code, and other MCP clients with instant codebase memory and sub-ms structural querying",
+          "Large-scale codebase maintainers —— Index multi-million-LOC projects like the Linux kernel in minutes, slashing AI comprehension costs",
+          "Efficiency-focused engineers —— Deploy a single zero-dependency binary to get sub-millisecond code search across 158 languages",
+          "MCP ecosystem integrators —— Leverage 15 standard tools and 43 client surfaces to build automated code-analysis pipelines"
+        ]
       },
       "track": {
         "days": 0,
@@ -13833,22 +13843,32 @@ window.TRENDING_DATA = {
       "stars": 52.6,
       "today": "+659",
       "today_n": 659,
-      "auto": true,
+      "auto": false,
       "zh": {
-        "tag": "The most comprehensive database of Chinese poetry 🧶最全中华古诗词数据库, 唐宋两朝近一万四千古诗人, 接近5.5万首唐诗加26万宋诗. 两宋时期1564位词人，21050首词。",
-        "what": "The most comprehensive database of Chinese poetry 🧶最全中华古诗词数据库, 唐宋两朝近一万四千古诗人, 接近5.5万首唐诗加26万宋诗. 两宋时期1564位词人，21050首词。（自动摘要，人工深度解析待补充。）",
-        "content": "",
-        "stack": "主语言 JavaScript。",
-        "hot": "本月新增 +659 stars，位列 GitHub Trending 月榜（JavaScript）第 9 名。",
-        "uses": []
+        "tag": "最全中华古诗词数据库，JSON格式收录唐宋近5.5万唐诗与26万宋诗",
+        "what": "这是一个收录最全中华古典文集的开源数据库，涵盖5.5万首唐诗、26万首宋诗及2.1万首宋词等海量作品。数据以JSON格式组织，方便开发者直接集成到各类应用与研究项目中，旨在通过数字化方式传承中华民族文化瑰宝。",
+        "content": "仓库包含按朝代与体裁分类的JSON数据文件、诗人词人元数据，以及README中展示的高频词与词牌名可视化分析图表。",
+        "stack": "项目以JSON作为核心数据格式进行分发，配套JavaScript工具链进行数据处理与可视化，无需复杂依赖即可直接读取使用。",
+        "hot": "凭借超5.2万Star和本月659新增Star位列JavaScript月榜第9名，该仓库因填补了中文古典诗词高质量结构化数据的空白而广受开发者与研究者青睐。",
+        "uses": [
+          "数字人文研究者——需要大规模结构化古典诗词语料进行文本挖掘与计量分析",
+          "中文NLP开发者——构建古诗词生成、检索或知识图谱的模型训练数据源",
+          "教育类应用开发者——为诗词学习、背诵、赏析类App或网站提供权威内容库",
+          "文化传承项目——搭建诗词可视化、互动展览或游戏化的数据基础设施"
+        ]
       },
       "en": {
-        "tag": "The most comprehensive database of Chinese poetry 🧶最全中华古诗词数据库, 唐宋两朝近一万四千古诗人, 接近5.5万首唐诗加26万宋诗. 两宋时期1564位词人，21050首词。",
-        "what": "The most comprehensive database of Chinese poetry 🧶最全中华古诗词数据库, 唐宋两朝近一万四千古诗人, 接近5.5万首唐诗加26万宋诗. 两宋时期1564位词人，21050首词。 (Auto summary — a human deep dive is pending.)",
-        "content": "",
-        "stack": "Primarily JavaScript.",
-        "hot": "+659 stars this month, ranked #9 on the monthly JavaScript chart.",
-        "uses": []
+        "tag": "The most comprehensive open-source Chinese poetry dataset in JSON format",
+        "what": "This is the most comprehensive open-source database of Chinese classical literature, containing 55,000 Tang poems, 260,000 Song poems, and 21,000 Song lyrics. Organized in JSON format, it enables developers to easily integrate the data into applications and research projects to digitally preserve Chinese cultural heritage.",
+        "content": "The repository contains JSON datasets organized by dynasty and genre, metadata for over 14,000 ancient poets and 1,500 lyricists, and visualization charts of high-frequency words and rhythmic patterns.",
+        "stack": "The project distributes data in JSON format with JavaScript tooling for processing and visualization, requiring no complex dependencies to read and use directly.",
+        "hot": "With over 52.5k stars and 659 new stars this month, ranking 9th on the JavaScript monthly trending list, it has gained widespread favor among developers and researchers by filling the gap in high-quality structured Chinese classical poetry data.",
+        "uses": [
+          "Digital humanities researchers needing large-scale structured classical poetry corpora for text mining and quantitative analysis",
+          "Chinese NLP developers seeking training data for ancient poetry generation, retrieval, or knowledge graph construction",
+          "EdTech developers building poetry learning, recitation, and appreciation apps or websites",
+          "Cultural heritage projects requiring data infrastructure for poetry visualization, interactive exhibitions, or gamification"
+        ]
       },
       "track": {
         "days": 0,
