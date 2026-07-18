@@ -3,15 +3,15 @@ window.TRENDING_DATA = {
   "schema": 2,
   "meta": {
     "date": "2026-07-18",
-    "generated_at": "2026-07-18 14:25 (CST)",
+    "generated_at": "2026-07-18 14:57 (CST)",
     "source": "github.com/trending",
     "criteria": "Repositories · Today/Week/Month · All languages · logged out",
     "headline_zh": "今日热榜全景速递",
     "headline_en": "Your daily trending digest",
     "sub_zh": "14 个上榜仓库：学习 & 游戏 1 个、平台·数据·应用 6 个、AI 应用与模型 3 个、Agent 工具链 4 个。今日新增 Star 前三：Nutlope/hallmark（+1.5k）、OpenCut-app/OpenCut（+1.1k）、codecrafters-io/build-your-own-x（+1.1k）。点击任意卡片查看深度解析。",
     "sub_en": "14 trending repos: 1 Learning & Gaming, 6 Platforms, Data & Apps, 3 AI Apps & Models, 4 Agent Tooling. Biggest star gainers today: Nutlope/hallmark (+1.5k), OpenCut-app/OpenCut (+1.1k), codecrafters-io/build-your-own-x (+1.1k). Click any card for a deep dive.",
-    "footer_zh": "Trending Scope · 数据更新于 2026-07-18 14:25 (CST)，由自动化管线直连 github.com 抓取",
-    "footer_en": "Trending Scope · Data updated 2026-07-18 14:25 (CST) by the automated pipeline, fetched directly from github.com"
+    "footer_zh": "Trending Scope · 数据更新于 2026-07-18 14:57 (CST)，由自动化管线直连 github.com 抓取",
+    "footer_en": "Trending Scope · Data updated 2026-07-18 14:57 (CST) by the automated pipeline, fetched directly from github.com"
   },
   "cats": {
     "agent": {
@@ -71,7 +71,7 @@ window.TRENDING_DATA = {
         {
           "full": "codecrafters-io/build-your-own-x",
           "rank": 1,
-          "stars": 527.6,
+          "stars": 527.7,
           "today": "+1.1k",
           "today_n": 1068,
           "cat": "other"
@@ -87,7 +87,7 @@ window.TRENDING_DATA = {
         {
           "full": "HenryNdubuaku/maths-cs-ai-compendium",
           "rank": 3,
-          "stars": 6.7,
+          "stars": 6.8,
           "today": "+200",
           "today_n": 200,
           "cat": "ai"
@@ -119,7 +119,7 @@ window.TRENDING_DATA = {
         {
           "full": "PrismML-Eng/Bonsai-demo",
           "rank": 7,
-          "stars": 1.7,
+          "stars": 1.8,
           "today": "+278",
           "today_n": 278,
           "cat": "ai"
@@ -285,7 +285,7 @@ window.TRENDING_DATA = {
         {
           "full": "HenryNdubuaku/maths-cs-ai-compendium",
           "rank": 1,
-          "stars": 6.7,
+          "stars": 6.8,
           "today": "+200",
           "today_n": 200
         },
@@ -413,7 +413,7 @@ window.TRENDING_DATA = {
         {
           "full": "coreyhaines31/marketingskills",
           "rank": 5,
-          "stars": 40.4,
+          "stars": 40.5,
           "today": "+206",
           "today_n": 206
         },
@@ -990,7 +990,7 @@ window.TRENDING_DATA = {
         {
           "full": "iOfficeAI/OfficeCLI",
           "rank": 10,
-          "stars": 18.9,
+          "stars": 19.0,
           "today": "+4.6k",
           "today_n": 4611
         },
@@ -1004,7 +1004,7 @@ window.TRENDING_DATA = {
         {
           "full": "openai/codex-plugin-cc",
           "rank": 12,
-          "stars": 29.1,
+          "stars": 29.2,
           "today": "+1.8k",
           "today_n": 1801
         },
@@ -1025,7 +1025,7 @@ window.TRENDING_DATA = {
         {
           "full": "kangarooking/cangjie-skill",
           "rank": 15,
-          "stars": 3.5,
+          "stars": 3.6,
           "today": "+1.2k",
           "today_n": 1158
         },
@@ -1090,7 +1090,7 @@ window.TRENDING_DATA = {
         {
           "full": "kangarooking/cangjie-skill",
           "rank": 5,
-          "stars": 3.5,
+          "stars": 3.6,
           "today": "+1.2k",
           "today_n": 1158
         },
@@ -1339,7 +1339,7 @@ window.TRENDING_DATA = {
         {
           "full": "openai/codex-plugin-cc",
           "rank": 1,
-          "stars": 29.1,
+          "stars": 29.2,
           "today": "+1.8k",
           "today_n": 1801
         },
@@ -1856,7 +1856,7 @@ window.TRENDING_DATA = {
         {
           "full": "ocornut/imgui",
           "rank": 15,
-          "stars": 74.7,
+          "stars": 74.8,
           "today": "+338",
           "today_n": 338
         },
@@ -1993,7 +1993,7 @@ window.TRENDING_DATA = {
         {
           "full": "alibaba/page-agent",
           "rank": 10,
-          "stars": 26.9,
+          "stars": 27.0,
           "today": "+8.5k",
           "today_n": 8521
         },
@@ -2014,7 +2014,7 @@ window.TRENDING_DATA = {
         {
           "full": "ocornut/imgui",
           "rank": 13,
-          "stars": 74.7,
+          "stars": 74.8,
           "today": "+1.0k",
           "today_n": 1007
         },
@@ -2049,7 +2049,7 @@ window.TRENDING_DATA = {
         {
           "full": "iOfficeAI/OfficeCLI",
           "rank": 18,
-          "stars": 18.9,
+          "stars": 19.0,
           "today": "+11.6k",
           "today_n": 11556
         },
@@ -2207,7 +2207,7 @@ window.TRENDING_DATA = {
         {
           "full": "alibaba/page-agent",
           "rank": 3,
-          "stars": 26.9,
+          "stars": 27.0,
           "today": "+8.5k",
           "today_n": 8521
         },
@@ -2342,7 +2342,7 @@ window.TRENDING_DATA = {
         {
           "full": "openai/codex-plugin-cc",
           "rank": 2,
-          "stars": 29.1,
+          "stars": 29.2,
           "today": "+8.1k",
           "today_n": 8101
         },
@@ -2754,7 +2754,7 @@ window.TRENDING_DATA = {
         {
           "full": "ocornut/imgui",
           "rank": 1,
-          "stars": 74.7,
+          "stars": 74.8,
           "today": "+1.0k",
           "today_n": 1007
         },
@@ -2922,7 +2922,7 @@ window.TRENDING_DATA = {
       "rank": 1,
       "cat": "other",
       "lang": "Markdown",
-      "stars": 527.6,
+      "stars": 527.7,
       "today": "+1.1k",
       "today_n": 1068,
       "auto": false,
@@ -2963,7 +2963,7 @@ window.TRENDING_DATA = {
           },
           {
             "d": "2026-07-18",
-            "s": 527.6,
+            "s": 527.7,
             "r": 1
           }
         ]
@@ -3028,7 +3028,7 @@ window.TRENDING_DATA = {
       "rank": 3,
       "cat": "ai",
       "lang": "TypeScript",
-      "stars": 6.7,
+      "stars": 6.8,
       "today": "+200",
       "today_n": 200,
       "auto": true,
@@ -3056,7 +3056,7 @@ window.TRENDING_DATA = {
         "hist": [
           {
             "d": "2026-07-18",
-            "s": 6.7,
+            "s": 6.8,
             "r": 3
           }
         ]
@@ -3214,7 +3214,7 @@ window.TRENDING_DATA = {
       "rank": 7,
       "cat": "ai",
       "lang": "Shell",
-      "stars": 1.7,
+      "stars": 1.8,
       "today": "+278",
       "today_n": 278,
       "auto": false,
@@ -3255,7 +3255,7 @@ window.TRENDING_DATA = {
           },
           {
             "d": "2026-07-18",
-            "s": 1.7,
+            "s": 1.8,
             "r": 7
           }
         ]
@@ -4500,7 +4500,7 @@ window.TRENDING_DATA = {
       "rank": 5,
       "cat": "agent",
       "lang": "JavaScript",
-      "stars": 40.4,
+      "stars": 40.5,
       "today": "+206",
       "today_n": 206,
       "auto": true,
@@ -7094,7 +7094,7 @@ window.TRENDING_DATA = {
       "rank": 10,
       "cat": "agent",
       "lang": "C#",
-      "stars": 18.9,
+      "stars": 19.0,
       "today": "+4.6k",
       "today_n": 4611,
       "auto": true,
@@ -7162,7 +7162,7 @@ window.TRENDING_DATA = {
       "rank": 12,
       "cat": "agent",
       "lang": "JavaScript",
-      "stars": 29.1,
+      "stars": 29.2,
       "today": "+1.8k",
       "today_n": 1801,
       "auto": true,
@@ -7230,7 +7230,7 @@ window.TRENDING_DATA = {
       "rank": 15,
       "cat": "agent",
       "lang": "Python",
-      "stars": 3.5,
+      "stars": 3.6,
       "today": "+1.2k",
       "today_n": 1158,
       "auto": true,
@@ -10202,7 +10202,7 @@ window.TRENDING_DATA = {
       "rank": 13,
       "cat": "infra",
       "lang": "C++",
-      "stars": 74.7,
+      "stars": 74.8,
       "today": "+338",
       "today_n": 338,
       "auto": true,
@@ -10644,7 +10644,7 @@ window.TRENDING_DATA = {
       "rank": 10,
       "cat": "agent",
       "lang": "TypeScript",
-      "stars": 26.9,
+      "stars": 27.0,
       "today": "+8.5k",
       "today_n": 8521,
       "auto": true,

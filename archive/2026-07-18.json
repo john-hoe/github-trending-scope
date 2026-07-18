@@ -1,11 +1,11 @@
 {
   "date": "2026-07-18",
-  "generated_at": "2026-07-18 14:25 (CST)",
+  "generated_at": "2026-07-18 14:57 (CST)",
   "repos": [
     {
       "full": "codecrafters-io/build-your-own-x",
       "rank": 1,
-      "stars": 527.6,
+      "stars": 527.7,
       "today_n": 1068,
       "slug": "build-your-own-x",
       "cat": "other",
@@ -23,7 +23,7 @@
     {
       "full": "HenryNdubuaku/maths-cs-ai-compendium",
       "rank": 3,
-      "stars": 6.7,
+      "stars": 6.8,
       "today_n": 200,
       "slug": "maths-cs-ai-compendium",
       "cat": "ai",
@@ -59,7 +59,7 @@
     {
       "full": "PrismML-Eng/Bonsai-demo",
       "rank": 7,
-      "stars": 1.7,
+      "stars": 1.8,
       "today_n": 278,
       "slug": "bonsai-demo",
       "cat": "ai",
