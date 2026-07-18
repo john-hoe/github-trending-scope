@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "selection_basis": "Repositories present in the original pre-automation dataset commit ec134ed0cdaae98c6c82296a57b62cac60eaca57 and still present in the current dataset.",
+  "repos": [
+    "Graphify-Labs/graphify",
+    "HKUDS/DeepTutor",
+    "Nutlope/hallmark",
+    "OpenCut-app/OpenCut",
+    "PostHog/posthog",
+    "PrismML-Eng/Bonsai-demo",
+    "Shubhamsaboo/awesome-llm-apps",
+    "YimMenu/YimMenuV2",
+    "codecrafters-io/build-your-own-x",
+    "github/copilot-sdk",
+    "ibelick/ui-skills",
+    "lobehub/lobehub",
+    "openinterpreter/openinterpreter"
+  ]
+}

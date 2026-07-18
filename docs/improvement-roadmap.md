@@ -75,11 +75,18 @@
 - 已验证：h1 字体栈 / 标题跟随口径 / 数值探针，中、英、暗三端首屏截图，全部通过。
 
 ### 11. LLM 精评自动化（本轮完成 · 2026-07-17）
-- **update.py 可选精评**：配置 `LLM_API_KEY` + `LLM_BASE_URL`（OpenAI 兼容接口）后，每轮对新上榜及历史 auto 仓库调用 `/chat/completions` 生成双语六字段精评（tag / what / content / stack / hot / uses）+ 四选一分类；成功即清除 auto 标记，视同人工精评永久保留。
+- **update.py 可选精评**：配置 `LLM_API_KEY` + `LLM_BASE_URL`（OpenAI 兼容接口）后，每轮对新上榜及历史 auto 仓库调用 `/chat/completions` 生成双语六字段解析（tag / what / content / stack / hot / uses）+ 四选一分类；成功会清除 auto 占位标记并保留内容，但不代表人工事实核验，SEO 是否开放索引由独立清单控制。
 - **上下文与限速**：prompt 附 README 前 3000 字符摘录（`LLM_README=0` 可关）；每轮上限 `--llm-limit`（默认 25，env `LLM_LIMIT`），新上榜优先，请求间隔 0.4s。
 - **降级矩阵**：未配置密钥 / 连接失败 / 返回非 JSON / 字段不完整 → 全部静默保持自动摘要，绝不影响管线主流程；模型名 `LLM_MODEL`（默认 gpt-4o-mini）。
 - **Actions**：workflow 注入 `secrets.LLM_API_KEY` / `secrets.LLM_BASE_URL` + `vars.LLM_MODEL`（未配置时展开为空字符串 → 自动降级）。
 - 已验证：mock 接口成功路径（3 仓库精评落盘）、坏 JSON 降级、连接失败降级、无密钥降级、精评结果次日 kept 保留，全部通过。
+
+### 12. SEO 抓取与内容质量闭环（本轮完成 · 2026-07-19）
+- **根因**：Cloudflare Pages 缺少顶层 `404.html`，导致 robots、sitemap 与随机路径都回退为首页 `200`；289 份仓库详情只存在于 JS 弹窗和 fragment 中，搜索引擎没有独立文档可索引。
+- **技术修复**：`scripts/build_site.py` 生成真实 `robots.txt`、70 URL 的 XML sitemap、顶层 404、单跳 redirects、canonical/hreflang、Breadcrumb + CollectionPage/SoftwareSourceCode JSON-LD，并在部署前自检所有 sitemap URL 的文件、canonical、索引状态和唯一元数据。
+- **可发现架构**：21 个每日/每周/每月 × 语言榜单视图均生成中英静态页；首页生产包预渲染 14 个卡片和 21 个榜单内链，卡片入口从 button 改为真实链接，同时保留原弹窗交互。
+- **质量护栏**：没有把 289 份内容全部推入索引。首期仅将可追溯到自动化扩充前原始数据集、且当前仍在册的 13 个仓库解析纳入 sitemap；其余详情可访问但为 `noindex,follow`。13 项中的过期 Star/“今日”表述已改为非时效描述，动态排名与增量由当日榜单字段渲染。
+- **验证**：46 项回归测试覆盖生产构建、70 个唯一 indexable canonical、双语榜单、初始 HTML 正文、JSON-LD 可解析、目录无孤儿链接、非入选详情 noindex、索引页两次点击可达、更新/构建质量门槛一致与内容时效性门槛。
 
 ## 🔜 候选方向 / Candidates
 

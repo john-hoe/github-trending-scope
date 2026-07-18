@@ -58,6 +58,9 @@ jobs:
           LLM_RETRIES: "3"
           GITHUB_API_TOKEN: ${{ github.token }}
 
+      - name: Build and validate production SEO bundle
+        run: python3 scripts/build_site.py --output dist
+
       - name: Commit data if changed
         if: ${{ inputs.deploy_only != true }}
         run: |
@@ -71,13 +74,6 @@ jobs:
             git commit -m "chore(data): daily trending update ${update_date}"
             git push
           fi
-
-      - name: Prepare Cloudflare Pages bundle if configured
-        if: ${{ env.CLOUDFLARE_API_TOKEN != '' && env.CLOUDFLARE_ACCOUNT_ID != '' }}
-        run: |
-          mkdir -p dist
-          cp index.html index-zh.html index-en.html data.json data.js favicon.png og-zh.png og-en.png dist/
-          cp -R archive videos dist/
 
       - name: Publish Cloudflare Pages bundle
         if: ${{ env.CLOUDFLARE_API_TOKEN != '' && env.CLOUDFLARE_ACCOUNT_ID != '' }}
