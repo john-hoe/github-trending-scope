@@ -13,7 +13,7 @@ from scripts import build_site
 
 
 ROOT = Path(__file__).resolve().parents[1]
-GA4_MEASUREMENT_ID = "G-P3808E86C2"
+GA4_MEASUREMENT_ID = "G-8GNR8S1LRW"
 GA4_SCRIPT_URL = f"https://www.googletagmanager.com/gtag/js?id={GA4_MEASUREMENT_ID}"
 
 
