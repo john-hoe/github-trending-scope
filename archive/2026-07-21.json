@@ -1,0 +1,195 @@
+{
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21 10:24 (CST)",
+  "repos": [
+    {
+      "full": "bojieli/ai-agent-book",
+      "rank": 1,
+      "stars": 10.4,
+      "today_n": 4434,
+      "slug": "ai-agent-book",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "tirth8205/code-review-graph",
+      "rank": 2,
+      "stars": 23.4,
+      "today_n": 1833,
+      "slug": "code-review-graph",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "1jehuang/jcode",
+      "rank": 3,
+      "stars": 9.7,
+      "today_n": 568,
+      "slug": "jcode",
+      "cat": "agent",
+      "lang": "Rust"
+    },
+    {
+      "full": "diegosouzapw/OmniRoute",
+      "rank": 4,
+      "stars": 22.0,
+      "today_n": 1107,
+      "slug": "omniroute",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "rohitg00/ai-engineering-from-scratch",
+      "rank": 5,
+      "stars": 40.6,
+      "today_n": 823,
+      "slug": "ai-engineering-from-scratch",
+      "cat": "other",
+      "lang": "Python"
+    },
+    {
+      "full": "msitarzewski/agency-agents",
+      "rank": 6,
+      "stars": 134.8,
+      "today_n": 862,
+      "slug": "agency-agents",
+      "cat": "agent",
+      "lang": "Shell"
+    },
+    {
+      "full": "kvcache-ai/ktransformers",
+      "rank": 7,
+      "stars": 18.8,
+      "today_n": 458,
+      "slug": "ktransformers",
+      "cat": "infra",
+      "lang": "Python"
+    },
+    {
+      "full": "jamiepine/voicebox",
+      "rank": 8,
+      "stars": 44.2,
+      "today_n": 821,
+      "slug": "voicebox",
+      "cat": "ai",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "topoteretes/cognee",
+      "rank": 9,
+      "stars": 28.8,
+      "today_n": 234,
+      "slug": "cognee",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "Robbyant/lingbot-map",
+      "rank": 10,
+      "stars": 14.3,
+      "today_n": 565,
+      "slug": "lingbot-map",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "every-app/open-seo",
+      "rank": 11,
+      "stars": 5.9,
+      "today_n": 939,
+      "slug": "open-seo",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "MoonshotAI/kimi-cli",
+      "rank": 12,
+      "stars": 10.3,
+      "today_n": 410,
+      "slug": "kimi-cli",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "AstrBotDevs/AstrBot",
+      "rank": 13,
+      "stars": 37.1,
+      "today_n": 317,
+      "slug": "astrbot",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "PrefectHQ/fastmcp",
+      "rank": 14,
+      "stars": 26.6,
+      "today_n": 96,
+      "slug": "fastmcp",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "KnockOutEZ/wigolo",
+      "rank": 15,
+      "stars": 2.6,
+      "today_n": 689,
+      "slug": "wigolo",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "tokio-rs/topcoat",
+      "rank": 16,
+      "stars": 1.6,
+      "today_n": 371,
+      "slug": "topcoat",
+      "cat": "infra",
+      "lang": "Rust"
+    },
+    {
+      "full": "iptv-org/iptv",
+      "rank": 17,
+      "stars": 133.8,
+      "today_n": 240,
+      "slug": "iptv",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "oblien/openship",
+      "rank": 18,
+      "stars": 4.9,
+      "today_n": 1641,
+      "slug": "openship",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "microsoft/Ontology-Playground",
+      "rank": 19,
+      "stars": 1.8,
+      "today_n": 464,
+      "slug": "ontology-playground",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "handy-computer/transcribe.cpp",
+      "rank": 20,
+      "stars": 1.3,
+      "today_n": 395,
+      "slug": "transcribe.cpp",
+      "cat": "agent",
+      "lang": "C++"
+    },
+    {
+      "full": "moonshine-ai/moonshine",
+      "rank": 21,
+      "stars": 9.9,
+      "today_n": 282,
+      "slug": "moonshine",
+      "cat": "agent",
+      "lang": "C++"
+    }
+  ]
+}
