@@ -79,6 +79,8 @@ class AutomationContractTests(unittest.TestCase):
         self.assertIn('LLM_CONCURRENCY: "4"', self.workflow)
         self.assertIn('LLM_RETRIES: "3"', self.workflow)
         self.assertIn('LLM_MAX_TOKENS: "1800"', self.workflow)
+        self.assertIn("LLM_JSON_MODE: ${{ vars.LLM_JSON_MODE }}", self.workflow)
+        self.assertIn("LLM_THINKING: ${{ vars.LLM_THINKING }}", self.workflow)
 
     def test_workflow_blocks_placeholder_content_from_production(self):
         self.assertIn("scripts/update.py --require-reviewed", self.workflow)
