@@ -179,7 +179,12 @@ def make_slug(full: str, taken: set) -> str:
     owner, name = full.split("/", 1)
     slug = name.lower()
     if slug in taken:
-        slug = re.sub(r"[^a-z0-9]+", "-", f"{owner}-{name}".lower()).strip("-")
+        base = re.sub(r"[^a-z0-9]+", "-", f"{owner}-{name}".lower()).strip("-")
+        slug = base
+        suffix = 2
+        while slug in taken:
+            slug = f"{base}-{suffix}"
+            suffix += 1
     taken.add(slug)
     return slug
 

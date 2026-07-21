@@ -233,10 +233,20 @@ class SEOProductionContractTests(unittest.TestCase):
                     json.loads(script.replace("<\\/", "</"))
 
     def test_landing_pages_are_server_rendered_and_link_all_chart_views(self):
-        for name in ("index.html", "index-zh.html"):
+        data = json.loads((ROOT / "data.json").read_text(encoding="utf-8"))
+        daily_names = [row["full"] for row in data["boards"]["daily"]["all"]]
+        indexed_names = set(json.loads(
+            (ROOT / "seo-index.json").read_text(encoding="utf-8")
+        )["repos"])
+        for name, locale in (("index.html", "en"), ("index-zh.html", "zh")):
             source = (self.output / name).read_text(encoding="utf-8")
             self.assertNotIn('<main class="grid" id="grid"></main>', source)
-            self.assertEqual(source.count('class="card show"'), 14)
+            grid = re.search(r'<main class="grid" id="grid">(.*?)</main>', source, re.S).group(1)
+            self.assertEqual(grid.count('class="card show"'), len(daily_names))
+            for full in daily_names:
+                href = build_site.repo_path(full, locale) if full in indexed_names \
+                    else f"https://github.com/{full}"
+                self.assertIn(f'href="{href}"', grid)
             self.assertEqual(source.count('class="seo-board-links"'), 1)
             nav = re.search(r'<nav class="seo-board-links".*?</nav>', source, re.S).group(0)
             self.assertEqual(nav.count("<a "), 21)
@@ -246,8 +256,6 @@ class SEOProductionContractTests(unittest.TestCase):
         self.assertIn('<a href="/" class="lang">EN</a>', chinese)
         self.assertNotIn('<a href="index-zh.html" class="lang">中文</a>', english)
         self.assertNotIn('<a href="index.html" class="lang">EN</a>', chinese)
-        self.assertIn('href="https://github.com/HenryNdubuaku/maths-cs-ai-compendium"', english)
-        self.assertIn('href="/repos/codecrafters-io/build-your-own-x/"', english)
 
     def test_all_board_views_exist_bilingually(self):
         board_urls = [url for url in self.urls if "/trending/" in url]
