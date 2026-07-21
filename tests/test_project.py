@@ -78,6 +78,7 @@ class AutomationContractTests(unittest.TestCase):
         self.assertIn("GITHUB_API_TOKEN: ${{ github.token }}", self.workflow)
         self.assertIn('LLM_CONCURRENCY: "4"', self.workflow)
         self.assertIn('LLM_RETRIES: "3"', self.workflow)
+        self.assertIn('LLM_MAX_TOKENS: "1800"', self.workflow)
 
     def test_workflow_blocks_placeholder_content_from_production(self):
         self.assertIn("scripts/update.py --require-reviewed", self.workflow)

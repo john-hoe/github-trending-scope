@@ -1,4 +1,5 @@
 import copy
+import io
 import importlib.util
 import json
 import tempfile
@@ -6,6 +7,7 @@ import unittest
 from datetime import datetime
 from pathlib import Path
 from unittest import mock
+from urllib.error import HTTPError
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -101,6 +103,59 @@ class LLMReviewTests(unittest.TestCase):
         self.assertEqual(result["zh"]["tag"], "中文定位")
         self.assertEqual(open_mock.call_count, 2)
         sleep_mock.assert_called_once()
+
+    def test_permanent_llm_failure_is_not_retried_and_surfaces_message(self):
+        error = HTTPError(
+            "https://example.test/chat/completions", 403, "Forbidden", None,
+            io.BytesIO(b'{"error":{"message":"usage limit exhausted"}}'),
+        )
+        cfg = {"protocol": "openai", "base": "https://example.test", "key": "k",
+               "model": "m", "readme": False, "retries": 3}
+        with mock.patch.object(UPDATE.urllib.request, "urlopen", side_effect=error) as open_mock, \
+             mock.patch.object(UPDATE.time, "sleep") as sleep_mock, \
+             mock.patch("builtins.print") as print_mock:
+            result = UPDATE.llm_review(
+                "owner/repo", "desc", "Python", 10, 2, 1, "daily", "all", cfg
+            )
+        self.assertIsNone(result)
+        self.assertEqual(open_mock.call_count, 1)
+        sleep_mock.assert_not_called()
+        self.assertIn("HTTP 403: usage limit exhausted", str(print_mock.call_args))
+
+    def test_llm_requests_identify_the_real_client_and_cap_output(self):
+        review = {
+            "cat": "infra",
+            "tag_zh": "中文定位", "tag_en": "English positioning",
+            "what_zh": "中文说明。", "what_en": "English explanation.",
+            "content_zh": "仓库内容。", "content_en": "Repository contents.",
+            "stack_zh": "技术栈。", "stack_en": "Technology stack.",
+            "hot_zh": "热度原因。", "hot_en": "Why it is hot.",
+            "uses_zh": ["使用场景"], "uses_en": ["Use case"],
+        }
+        response = mock.MagicMock()
+        response.__enter__.return_value.read.return_value = json.dumps({
+            "choices": [{"message": {"content": json.dumps(review)}}]
+        }).encode()
+        cfg = {"protocol": "openai", "base": "https://example.test", "key": "k",
+               "model": "m", "readme": False, "retries": 1}
+        with mock.patch.object(UPDATE.urllib.request, "urlopen", return_value=response) as open_mock:
+            UPDATE.llm_review("owner/repo", "desc", "Python", 10, 2, 1, "daily", "all", cfg)
+        request = open_mock.call_args.args[0]
+        self.assertEqual(request.get_header("User-agent"), UPDATE.LLM_UA)
+        self.assertEqual(json.loads(request.data)["max_tokens"], 1800)
+
+    def test_provider_preflight_failure_stops_fanout(self):
+        order = ["owner/one", "owner/two", "owner/three"]
+        registry = {full: {"auto": True} for full in order}
+        info = {full: {"desc": "desc", "lang": "Python", "stars_n": 10, "today_n": 1}
+                for full in order}
+        pres_map = {full: ("daily", "all", {"rank": i + 1}) for i, full in enumerate(order)}
+        cfg = {"limit": 3, "concurrency": 3}
+        with mock.patch.object(UPDATE, "llm_review", return_value=None) as review_mock:
+            polished = UPDATE.polish_with_llm(registry, order, set(order), info, pres_map, cfg)
+        self.assertEqual(polished, 0)
+        self.assertEqual(review_mock.call_count, 1)
+        self.assertTrue(all(registry[full]["auto"] for full in order))
 
 
 class ArchiveTests(unittest.TestCase):
