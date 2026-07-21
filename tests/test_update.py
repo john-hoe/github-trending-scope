@@ -218,6 +218,13 @@ class SlugTests(unittest.TestCase):
         self.assertEqual(UPDATE.make_slug("meshtastic/firmware", taken), "meshtastic-firmware")
         self.assertIn("firmware", taken)
 
+    def test_owner_fallback_is_suffixed_until_it_is_unique(self):
+        taken = {"name", "owner-name"} | {
+            f"owner-name-{suffix}" for suffix in range(2, 101)
+        }
+        self.assertEqual(UPDATE.make_slug("owner/name", taken), "owner-name-101")
+        self.assertIn("owner-name-101", taken)
+
 
 class PinnedCatalogTests(unittest.TestCase):
     def test_indexed_repo_is_retained_after_leaving_all_live_boards(self):
