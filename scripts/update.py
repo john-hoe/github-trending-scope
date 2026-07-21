@@ -24,10 +24,11 @@
     无需任何第三方依赖（Python 3.9+ 标准库）。
     LLM_API_KEY / LLM_BASE_URL：OpenAI 兼容接口的密钥与地址（如 https://api.openai.com/v1），
         两者都配置才启用 LLM 精评；未配置则全程保持自动摘要。
-    LLM_PROTOCOL：接口协议 openai（默认）或 anthropic（Kimi Code 网关等 Anthropic
-        Messages 兼容服务，base_url 形如 https://agent-gw.kimi.com/coding）。
-    LLM_MODEL：模型名（默认随协议：gpt-4o-mini / kimi-k2-0711-preview）。LLM_LIMIT：每轮最多精评仓库数（默认 25）。
-    LLM_CONCURRENCY / LLM_RETRIES：并发数与单条失败重试次数（默认 4 / 3）。
+    LLM_PROTOCOL：接口协议 openai（默认）或 anthropic（Kimi Code 等 Anthropic
+        Messages 兼容服务，base_url 形如 https://api.kimi.com/coding）。
+    LLM_MODEL：模型名（默认随协议：gpt-4o-mini / kimi-for-coding）。LLM_LIMIT：每轮最多精评仓库数（默认 25）。
+    LLM_CONCURRENCY / LLM_RETRIES / LLM_MAX_TOKENS：并发数、单条失败重试次数与单条最大输出
+        token（默认 4 / 3 / 1800）。
     GITHUB_API_TOKEN / GITHUB_TOKEN：可选，用于提高 README API 额度。
     LLM_README=0：不把 README 摘录放入 prompt 上下文（默认取 README 前 3000 字符）。
 """
@@ -43,11 +44,13 @@ import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta, timezone
+from urllib.error import HTTPError
 
 TRENDING_URL = "https://github.com/trending"
 CN_TZ = timezone(timedelta(hours=8), "CST")
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36")
+LLM_UA = "Trending-Scope/1.0 (+https://github.com/john-hoe/github-trending-scope)"
 
 RANGES = ["daily", "weekly", "monthly"]
 LANGS = [("all", "All languages"), ("python", "Python"), ("typescript", "TypeScript"),
@@ -279,13 +282,14 @@ def llm_config(args) -> "dict | None":
     if protocol not in ("openai", "anthropic"):
         print(f"[llm] WARN: unknown LLM_PROTOCOL {protocol!r}, falling back to openai")
         protocol = "openai"
-    default_model = "kimi-k2-0711-preview" if protocol == "anthropic" else "gpt-4o-mini"
+    default_model = "kimi-for-coding" if protocol == "anthropic" else "gpt-4o-mini"
     return {
         "key": key, "base": base, "protocol": protocol,
         "model": os.environ.get("LLM_MODEL", "").strip() or default_model,
         "limit": args.llm_limit,
         "concurrency": args.llm_concurrency,
         "retries": args.llm_retries,
+        "max_tokens": max(256, int(os.environ.get("LLM_MAX_TOKENS") or "1800")),
         "readme": os.environ.get("LLM_README", "1").strip() != "0",
     }
 
@@ -320,18 +324,19 @@ def llm_review(full: str, desc: str, lang, stars_n: int, today_n: int,
         readme_block=f"README 摘录：{readme}" if readme else "")
     if cfg.get("protocol") == "anthropic":
         body = json.dumps({
-            "model": cfg["model"], "max_tokens": 4000,
+            "model": cfg["model"], "max_tokens": cfg.get("max_tokens", 1800),
             "system": "You are a meticulous bilingual editor. Reply with JSON only.",
             "messages": [{"role": "user", "content": prompt}],
             "temperature": 0.4,
         }).encode("utf-8")
         req = urllib.request.Request(
             cfg["base"] + "/v1/messages", data=body, method="POST",
-            headers={"User-Agent": UA, "Content-Type": "application/json",
+            headers={"User-Agent": LLM_UA, "Content-Type": "application/json",
                      "x-api-key": cfg["key"], "anthropic-version": "2023-06-01"})
     else:
         body = json.dumps({
             "model": cfg["model"],
+            "max_tokens": cfg.get("max_tokens", 1800),
             "messages": [
                 {"role": "system", "content": "You are a meticulous bilingual editor. Reply with JSON only."},
                 {"role": "user", "content": prompt},
@@ -340,7 +345,7 @@ def llm_review(full: str, desc: str, lang, stars_n: int, today_n: int,
         }).encode("utf-8")
         req = urllib.request.Request(
             cfg["base"] + "/chat/completions", data=body, method="POST",
-            headers={"User-Agent": UA, "Content-Type": "application/json",
+            headers={"User-Agent": LLM_UA, "Content-Type": "application/json",
                      "Authorization": f"Bearer {cfg['key']}"})
     text = ""
     retries = max(1, int(cfg.get("retries", 3)))
@@ -354,6 +359,21 @@ def llm_review(full: str, desc: str, lang, stars_n: int, today_n: int,
             else:
                 text = payload["choices"][0]["message"]["content"]
             break
+        except HTTPError as e:
+            detail = f"HTTP {e.code}"
+            try:
+                payload = json.loads(e.read(4096).decode("utf-8", "replace"))
+                error = payload.get("error", {}) if isinstance(payload, dict) else {}
+                message = error.get("message") if isinstance(error, dict) else error
+                if isinstance(message, str) and message.strip():
+                    detail += ": " + re.sub(r"\s+", " ", message).strip()[:300]
+            except (OSError, UnicodeError, json.JSONDecodeError):
+                pass
+            retryable = e.code in (408, 409, 425, 429) or 500 <= e.code < 600
+            if not retryable or attempt + 1 == retries:
+                print(f"[llm] {full}: request failed after {attempt + 1} attempt(s): {detail}")
+                return None
+            time.sleep(1.5 * (2 ** attempt))
         except Exception as e:  # noqa: BLE001 —— 瞬时网络/网关错误重试，最终才降级
             if attempt + 1 == retries:
                 print(f"[llm] {full}: request failed after {retries} attempts: {e}")
@@ -410,9 +430,25 @@ def polish_with_llm(registry: dict, order: list, new_fulls: set,
                          e_p["rank"], rng_p, lid_p, cfg)
         return full, res
 
-    workers = min(max(1, int(cfg.get("concurrency", 4))), len(targets) or 1)
+    if not targets:
+        return 0
+
+    # 先用一个真实候选做健康检查，避免密钥/额度/模型错误时并发轰炸整个候选集。
+    first_full, first_res = review_one(targets[0])
+    if not first_res:
+        print(f"[llm] provider preflight failed; skipped {len(targets) - 1} remaining repos")
+        return 0
+    first_entry = registry[first_full]
+    first_entry["cat"], first_entry["zh"], first_entry["en"] = \
+        first_res["cat"], first_res["zh"], first_res["en"]
+    first_entry["auto"] = False
+    done = 1
+    print(f"[llm] polished {first_full}")
+
+    remaining = targets[1:]
+    workers = min(max(1, int(cfg.get("concurrency", 4))), len(remaining) or 1)
     with ThreadPoolExecutor(max_workers=workers) as executor:
-        futures = [executor.submit(review_one, full) for full in targets]
+        futures = [executor.submit(review_one, full) for full in remaining]
         for future in as_completed(futures):
             full, res = future.result()
             if not res:

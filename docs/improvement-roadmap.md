@@ -77,7 +77,7 @@
 ### 11. LLM 精评自动化（本轮完成 · 2026-07-17）
 - **update.py 可选精评**：配置 `LLM_API_KEY` + `LLM_BASE_URL`（OpenAI 兼容接口）后，每轮对新上榜及历史 auto 仓库调用 `/chat/completions` 生成双语六字段解析（tag / what / content / stack / hot / uses）+ 四选一分类；成功会清除 auto 占位标记并保留内容，但不代表人工事实核验，SEO 是否开放索引由独立清单控制。
 - **上下文与限速**：prompt 附 README 前 3000 字符摘录（`LLM_README=0` 可关）；每轮上限 `--llm-limit`（默认 25，env `LLM_LIMIT`），新上榜优先，请求间隔 0.4s。
-- **降级矩阵**：未配置密钥 / 连接失败 / 返回非 JSON / 字段不完整 → 全部静默保持自动摘要，绝不影响管线主流程；模型名 `LLM_MODEL`（默认 gpt-4o-mini）。
+- **降级矩阵**：未配置密钥 / 连接失败 / 返回非 JSON / 字段不完整 → 保持自动摘要；生产 `--require-reviewed` 会阻止这些占位发布。永久鉴权/额度错误不重试，并在首个候选失败后停止 fan-out；模型名 `LLM_MODEL`（OpenAI 协议默认 gpt-4o-mini，Anthropic 协议默认 kimi-for-coding）。
 - **Actions**：workflow 注入 `secrets.LLM_API_KEY` / `secrets.LLM_BASE_URL` + `vars.LLM_MODEL`（未配置时展开为空字符串 → 自动降级）。
 - 已验证：mock 接口成功路径（3 仓库精评落盘）、坏 JSON 降级、连接失败降级、无密钥降级、精评结果次日 kept 保留，全部通过。
 
