@@ -184,6 +184,14 @@ def make_slug(full: str, taken: set) -> str:
     return slug
 
 
+def reserve_existing_slugs(previous: dict) -> set:
+    """Reserve every historical slug before board-order processing can allocate new ones."""
+    return {
+        entry["slug"] for entry in previous.values()
+        if isinstance(entry.get("slug"), str)
+    }
+
+
 def load_pinned_repo_names(data_path: str) -> list:
     """Load the explicit SEO catalog next to data.json, if present."""
     path = os.path.join(os.path.dirname(data_path), "seo-index.json")
@@ -809,10 +817,7 @@ def main() -> int:
         return 1
 
     # ---------------- 注册表构建 ----------------
-    taken_slugs = {
-        prev[full]["slug"] for full in pinned_names
-        if full in prev and isinstance(prev[full].get("slug"), str)
-    }
+    taken_slugs = reserve_existing_slugs(prev)
     registry = {}   # full -> entry
     pres_map = {}   # full -> (rng, lang_id, board_entry)：auto 仓库的代表性榜单
     new_fulls = set()

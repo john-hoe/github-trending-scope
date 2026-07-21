@@ -209,6 +209,16 @@ class ArchiveTests(unittest.TestCase):
                 UPDATE.load_archives(directory)
 
 
+class SlugTests(unittest.TestCase):
+    def test_new_repo_cannot_claim_existing_slug_when_processed_first(self):
+        previous = {
+            "BruceDevices/firmware": {"slug": "firmware", "auto": False},
+        }
+        taken = UPDATE.reserve_existing_slugs(previous)
+        self.assertEqual(UPDATE.make_slug("meshtastic/firmware", taken), "meshtastic-firmware")
+        self.assertIn("firmware", taken)
+
+
 class PinnedCatalogTests(unittest.TestCase):
     def test_indexed_repo_is_retained_after_leaving_all_live_boards(self):
         old = {
