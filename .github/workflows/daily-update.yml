@@ -53,6 +53,8 @@ jobs:
           LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
           LLM_PROTOCOL: ${{ vars.LLM_PROTOCOL }}
+          LLM_JSON_MODE: ${{ vars.LLM_JSON_MODE }}
+          LLM_THINKING: ${{ vars.LLM_THINKING }}
           LLM_LIMIT: ${{ github.event.inputs.llm_limit || vars.LLM_LIMIT || '400' }}
           LLM_CONCURRENCY: "4"
           LLM_RETRIES: "3"

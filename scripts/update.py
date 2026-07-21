@@ -29,6 +29,8 @@
     LLM_MODEL：模型名（默认随协议：gpt-4o-mini / kimi-for-coding）。LLM_LIMIT：每轮最多精评仓库数（默认 25）。
     LLM_CONCURRENCY / LLM_RETRIES / LLM_MAX_TOKENS：并发数、单条失败重试次数与单条最大输出
         token（默认 4 / 3 / 1800）。
+    LLM_JSON_MODE=1：为 OpenAI 兼容接口请求 JSON Object 输出。
+    LLM_THINKING=enabled|disabled：显式控制支持该参数的 OpenAI 兼容模型的思考模式。
     GITHUB_API_TOKEN / GITHUB_TOKEN：可选，用于提高 README API 额度。
     LLM_README=0：不把 README 摘录放入 prompt 上下文（默认取 README 前 3000 字符）。
 """
@@ -283,6 +285,10 @@ def llm_config(args) -> "dict | None":
         print(f"[llm] WARN: unknown LLM_PROTOCOL {protocol!r}, falling back to openai")
         protocol = "openai"
     default_model = "kimi-for-coding" if protocol == "anthropic" else "gpt-4o-mini"
+    thinking = os.environ.get("LLM_THINKING", "").strip().lower()
+    if thinking not in ("", "enabled", "disabled"):
+        print(f"[llm] WARN: unknown LLM_THINKING {thinking!r}, omitting parameter")
+        thinking = ""
     return {
         "key": key, "base": base, "protocol": protocol,
         "model": os.environ.get("LLM_MODEL", "").strip() or default_model,
@@ -290,6 +296,8 @@ def llm_config(args) -> "dict | None":
         "concurrency": args.llm_concurrency,
         "retries": args.llm_retries,
         "max_tokens": max(256, int(os.environ.get("LLM_MAX_TOKENS") or "1800")),
+        "json_mode": os.environ.get("LLM_JSON_MODE", "").strip().lower() in ("1", "true", "yes"),
+        "thinking": thinking,
         "readme": os.environ.get("LLM_README", "1").strip() != "0",
     }
 
@@ -334,7 +342,7 @@ def llm_review(full: str, desc: str, lang, stars_n: int, today_n: int,
             headers={"User-Agent": LLM_UA, "Content-Type": "application/json",
                      "x-api-key": cfg["key"], "anthropic-version": "2023-06-01"})
     else:
-        body = json.dumps({
+        request_body = {
             "model": cfg["model"],
             "max_tokens": cfg.get("max_tokens", 1800),
             "messages": [
@@ -342,7 +350,12 @@ def llm_review(full: str, desc: str, lang, stars_n: int, today_n: int,
                 {"role": "user", "content": prompt},
             ],
             "temperature": 0.4,
-        }).encode("utf-8")
+        }
+        if cfg.get("json_mode"):
+            request_body["response_format"] = {"type": "json_object"}
+        if cfg.get("thinking") in ("enabled", "disabled"):
+            request_body["thinking"] = {"type": cfg["thinking"]}
+        body = json.dumps(request_body).encode("utf-8")
         req = urllib.request.Request(
             cfg["base"] + "/chat/completions", data=body, method="POST",
             headers={"User-Agent": LLM_UA, "Content-Type": "application/json",

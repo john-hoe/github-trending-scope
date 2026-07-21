@@ -144,6 +144,42 @@ class LLMReviewTests(unittest.TestCase):
         self.assertEqual(request.get_header("User-agent"), UPDATE.LLM_UA)
         self.assertEqual(json.loads(request.data)["max_tokens"], 1800)
 
+    def test_openai_compatible_request_supports_json_and_thinking_controls(self):
+        review = {
+            "cat": "infra",
+            "tag_zh": "中文定位", "tag_en": "English positioning",
+            "what_zh": "中文说明。", "what_en": "English explanation.",
+            "content_zh": "仓库内容。", "content_en": "Repository contents.",
+            "stack_zh": "技术栈。", "stack_en": "Technology stack.",
+            "hot_zh": "热度原因。", "hot_en": "Why it is hot.",
+            "uses_zh": ["使用场景"], "uses_en": ["Use case"],
+        }
+        response = mock.MagicMock()
+        response.__enter__.return_value.read.return_value = json.dumps({
+            "choices": [{"message": {"content": json.dumps(review)}}]
+        }).encode()
+        cfg = {"protocol": "openai", "base": "https://example.test", "key": "k",
+               "model": "m", "readme": False, "retries": 1,
+               "json_mode": True, "thinking": "disabled"}
+        with mock.patch.object(UPDATE.urllib.request, "urlopen", return_value=response) as open_mock:
+            UPDATE.llm_review("owner/repo", "desc", "Python", 10, 2, 1, "daily", "all", cfg)
+        request_body = json.loads(open_mock.call_args.args[0].data)
+        self.assertEqual(request_body["response_format"], {"type": "json_object"})
+        self.assertEqual(request_body["thinking"], {"type": "disabled"})
+
+    def test_openai_compatible_request_omits_optional_provider_controls_by_default(self):
+        response = mock.MagicMock()
+        response.__enter__.return_value.read.return_value = json.dumps({
+            "choices": [{"message": {"content": "{}"}}]
+        }).encode()
+        cfg = {"protocol": "openai", "base": "https://example.test", "key": "k",
+               "model": "m", "readme": False, "retries": 1}
+        with mock.patch.object(UPDATE.urllib.request, "urlopen", return_value=response) as open_mock:
+            UPDATE.llm_review("owner/repo", "desc", "Python", 10, 2, 1, "daily", "all", cfg)
+        request_body = json.loads(open_mock.call_args.args[0].data)
+        self.assertNotIn("response_format", request_body)
+        self.assertNotIn("thinking", request_body)
+
     def test_provider_preflight_failure_stops_fanout(self):
         order = ["owner/one", "owner/two", "owner/three"]
         registry = {full: {"auto": True} for full in order}

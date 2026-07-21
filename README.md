@@ -52,7 +52,7 @@ The trending data is refreshed daily by GitHub Actions (~08:23 Beijing time):
 - 仍在榜的仓库保留已有解析，只更新排名与 star 数；新上榜仓库先生成带 ⚡ 标记的摘要；配置 LLM（见下）后可生成完整双语解析，但这只代表通过字段完整性门槛，不代表人工事实核验
 - **在榜追踪**：卡片显示「首次上榜 / 回榜 / 在榜 N 天」徽章，弹窗含 star 增长 sparkline（自 2026-07-17 起逐日积累）
 - Repos that stay on the chart keep their existing write-ups while rank/stars update; new entries get an auto summary flagged ⚡ until a complete write-up is generated or reviewed. On-chart tracking badges and a star-history sparkline build up from the daily archives
-- **可选 LLM 精评** / Optional LLM write-ups —— 仓库 Secrets 配置 `LLM_API_KEY` + `LLM_BASE_URL`（OpenAI 兼容接口；Kimi Code Anthropic 兼容地址为 `https://api.kimi.com/coding`，Variables 设 `LLM_PROTOCOL=anthropic`、`LLM_MODEL=kimi-for-coding`），每轮为新上榜及历史 ⚡ 仓库生成双语深度解析（每轮上限 `LLM_LIMIT`，默认 25，新上榜优先；单条输出默认上限 1800 tokens）；永久鉴权/额度错误只请求一次并停止批量 fan-out，生产仍保持零占位门禁
+- **可选 LLM 精评** / Optional LLM write-ups —— 仓库 Secrets 配置 `LLM_API_KEY` + `LLM_BASE_URL`，Variables 配置模型参数；DeepSeek V4 示例：`LLM_BASE_URL=https://api.deepseek.com`、`LLM_PROTOCOL=openai`、`LLM_MODEL=deepseek-v4-flash`、`LLM_JSON_MODE=1`、`LLM_THINKING=disabled`。每轮为新上榜及历史 ⚡ 仓库生成双语深度解析（每轮上限 `LLM_LIMIT`，默认 25，新上榜优先；单条输出默认上限 1800 tokens）；永久鉴权/额度错误只请求一次并停止批量 fan-out，生产仍保持零占位门禁
 - 手动更新 / Manual refresh: `python3 scripts/update.py`（纯标准库，无依赖 / stdlib only）
 - 生产构建 / Production build: `python3 scripts/build_site.py --output dist`（生成并校验 robots、sitemap、404、榜单页与仓库页）
 - 回归测试 / Regression tests: `python3 -m unittest discover -s tests -v`
