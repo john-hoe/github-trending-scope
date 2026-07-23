@@ -1,0 +1,177 @@
+{
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23 09:00 (CST)",
+  "repos": [
+    {
+      "full": "koala73/worldmonitor",
+      "rank": 1,
+      "stars": 69.0,
+      "today_n": 4139,
+      "slug": "worldmonitor",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "ruvnet/RuView",
+      "rank": 2,
+      "stars": 83.8,
+      "today_n": 741,
+      "slug": "ruview",
+      "cat": "agent",
+      "lang": "Rust"
+    },
+    {
+      "full": "ayghri/i-have-adhd",
+      "rank": 3,
+      "stars": 8.3,
+      "today_n": 1699,
+      "slug": "i-have-adhd",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "schollz/croc",
+      "rank": 4,
+      "stars": 37.6,
+      "today_n": 739,
+      "slug": "croc",
+      "cat": "infra",
+      "lang": "Go"
+    },
+    {
+      "full": "likec4/likec4",
+      "rank": 5,
+      "stars": 4.3,
+      "today_n": 80,
+      "slug": "likec4",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "chrislgarry/Apollo-11",
+      "rank": 6,
+      "stars": 70.6,
+      "today_n": 768,
+      "slug": "apollo-11",
+      "cat": "other",
+      "lang": "Assembly"
+    },
+    {
+      "full": "jamiepine/voicebox",
+      "rank": 7,
+      "stars": 45.8,
+      "today_n": 557,
+      "slug": "voicebox",
+      "cat": "ai",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "diegosouzapw/OmniRoute",
+      "rank": 8,
+      "stars": 25.3,
+      "today_n": 1651,
+      "slug": "omniroute",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "shiyu-coder/Kronos",
+      "rank": 9,
+      "stars": 32.6,
+      "today_n": 137,
+      "slug": "kronos",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "ComposioHQ/awesome-claude-skills",
+      "rank": 10,
+      "stars": 68.8,
+      "today_n": 163,
+      "slug": "awesome-claude-skills",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "oblien/openship",
+      "rank": 11,
+      "stars": 7.3,
+      "today_n": 1302,
+      "slug": "openship",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "agegr/pi-web",
+      "rank": 12,
+      "stars": 2.1,
+      "today_n": 314,
+      "slug": "pi-web",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "rohitg00/ai-engineering-from-scratch",
+      "rank": 13,
+      "stars": 42.3,
+      "today_n": 652,
+      "slug": "ai-engineering-from-scratch",
+      "cat": "other",
+      "lang": "Python"
+    },
+    {
+      "full": "tirth8205/code-review-graph",
+      "rank": 14,
+      "stars": 25.3,
+      "today_n": 882,
+      "slug": "code-review-graph",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "dreamhunter2333/cloudflare_temp_email",
+      "rank": 15,
+      "stars": 10.8,
+      "today_n": 68,
+      "slug": "cloudflare_temp_email",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "DioxusLabs/dioxus",
+      "rank": 16,
+      "stars": 38.0,
+      "today_n": 420,
+      "slug": "dioxus",
+      "cat": "infra",
+      "lang": "Rust"
+    },
+    {
+      "full": "hyprwm/Hyprland",
+      "rank": 17,
+      "stars": 37.3,
+      "today_n": 356,
+      "slug": "hyprland",
+      "cat": "other",
+      "lang": "C++"
+    },
+    {
+      "full": "Pumpkin-MC/Pumpkin",
+      "rank": 18,
+      "stars": 8.4,
+      "today_n": 108,
+      "slug": "pumpkin",
+      "cat": "infra",
+      "lang": "Rust"
+    },
+    {
+      "full": "dottxt-ai/outlines",
+      "rank": 19,
+      "stars": 15.1,
+      "today_n": 364,
+      "slug": "outlines",
+      "cat": "agent",
+      "lang": "Python"
+    }
+  ]
+}
