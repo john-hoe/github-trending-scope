@@ -1,0 +1,141 @@
+{
+  "date": "2026-07-24",
+  "generated_at": "2026-07-24 08:56 (CST)",
+  "repos": [
+    {
+      "full": "block/buzz",
+      "rank": 1,
+      "stars": 6.9,
+      "today_n": 2162,
+      "slug": "buzz",
+      "cat": "agent",
+      "lang": "Rust"
+    },
+    {
+      "full": "koala73/worldmonitor",
+      "rank": 2,
+      "stars": 71.6,
+      "today_n": 3175,
+      "slug": "worldmonitor",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "shiyu-coder/Kronos",
+      "rank": 3,
+      "stars": 33.1,
+      "today_n": 401,
+      "slug": "kronos",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "Pumpkin-MC/Pumpkin",
+      "rank": 4,
+      "stars": 8.9,
+      "today_n": 565,
+      "slug": "pumpkin",
+      "cat": "infra",
+      "lang": "Rust"
+    },
+    {
+      "full": "citrolabs/ego-lite",
+      "rank": 5,
+      "stars": 1.6,
+      "today_n": 247,
+      "slug": "ego-lite",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "chrislgarry/Apollo-11",
+      "rank": 6,
+      "stars": 71.1,
+      "today_n": 592,
+      "slug": "apollo-11",
+      "cat": "other",
+      "lang": "Assembly"
+    },
+    {
+      "full": "diegosouzapw/OmniRoute",
+      "rank": 7,
+      "stars": 27.2,
+      "today_n": 1929,
+      "slug": "omniroute",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "ComposioHQ/awesome-claude-skills",
+      "rank": 8,
+      "stars": 69.4,
+      "today_n": 636,
+      "slug": "awesome-claude-skills",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "earthtojake/text-to-cad",
+      "rank": 9,
+      "stars": 10.0,
+      "today_n": 230,
+      "slug": "text-to-cad",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "agegr/pi-web",
+      "rank": 10,
+      "stars": 2.4,
+      "today_n": 315,
+      "slug": "pi-web",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "alibaba/open-code-review",
+      "rank": 11,
+      "stars": 11.5,
+      "today_n": 180,
+      "slug": "open-code-review",
+      "cat": "agent",
+      "lang": "Go"
+    },
+    {
+      "full": "ruvnet/RuView",
+      "rank": 12,
+      "stars": 85.2,
+      "today_n": 1708,
+      "slug": "ruview",
+      "cat": "agent",
+      "lang": "Rust"
+    },
+    {
+      "full": "likec4/likec4",
+      "rank": 13,
+      "stars": 4.7,
+      "today_n": 472,
+      "slug": "likec4",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "Automattic/harper",
+      "rank": 14,
+      "stars": 12.3,
+      "today_n": 624,
+      "slug": "harper",
+      "cat": "agent",
+      "lang": "Rust"
+    },
+    {
+      "full": "jellyfin/jellyfin",
+      "rank": 15,
+      "stars": 54.7,
+      "today_n": 66,
+      "slug": "jellyfin",
+      "cat": "infra",
+      "lang": "C#"
+    }
+  ]
+}
