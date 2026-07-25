@@ -1,0 +1,150 @@
+{
+  "date": "2026-07-25",
+  "generated_at": "2026-07-25 08:59 (CST)",
+  "repos": [
+    {
+      "full": "block/buzz",
+      "rank": 1,
+      "stars": 10.0,
+      "today_n": 3270,
+      "slug": "buzz",
+      "cat": "agent",
+      "lang": "Rust"
+    },
+    {
+      "full": "koala73/worldmonitor",
+      "rank": 2,
+      "stars": 73.3,
+      "today_n": 2184,
+      "slug": "worldmonitor",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "ComposioHQ/awesome-claude-skills",
+      "rank": 3,
+      "stars": 70.1,
+      "today_n": 663,
+      "slug": "awesome-claude-skills",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "Pumpkin-MC/Pumpkin",
+      "rank": 4,
+      "stars": 9.3,
+      "today_n": 473,
+      "slug": "pumpkin",
+      "cat": "infra",
+      "lang": "Rust"
+    },
+    {
+      "full": "shiyu-coder/Kronos",
+      "rank": 5,
+      "stars": 33.5,
+      "today_n": 499,
+      "slug": "kronos",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "Automattic/harper",
+      "rank": 6,
+      "stars": 13.0,
+      "today_n": 876,
+      "slug": "harper",
+      "cat": "agent",
+      "lang": "Rust"
+    },
+    {
+      "full": "likec4/likec4",
+      "rank": 7,
+      "stars": 5.0,
+      "today_n": 337,
+      "slug": "likec4",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "citrolabs/ego-lite",
+      "rank": 8,
+      "stars": 2.6,
+      "today_n": 880,
+      "slug": "ego-lite",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "yorukot/superfile",
+      "rank": 9,
+      "stars": 19.6,
+      "today_n": 338,
+      "slug": "superfile",
+      "cat": "infra",
+      "lang": "Go"
+    },
+    {
+      "full": "ruvnet/RuView",
+      "rank": 10,
+      "stars": 85.9,
+      "today_n": 1022,
+      "slug": "ruview",
+      "cat": "agent",
+      "lang": "Rust"
+    },
+    {
+      "full": "CoreBunch/Instatic",
+      "rank": 11,
+      "stars": 4.3,
+      "today_n": 201,
+      "slug": "instatic",
+      "cat": "other",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "chrislgarry/Apollo-11",
+      "rank": 12,
+      "stars": 71.4,
+      "today_n": 409,
+      "slug": "apollo-11",
+      "cat": "other",
+      "lang": "Assembly"
+    },
+    {
+      "full": "mattpocock/skills",
+      "rank": 13,
+      "stars": 186.7,
+      "today_n": 2251,
+      "slug": "skills",
+      "cat": "agent",
+      "lang": "Shell"
+    },
+    {
+      "full": "Lordog/dive-into-llms",
+      "rank": 14,
+      "stars": 45.0,
+      "today_n": 328,
+      "slug": "dive-into-llms",
+      "cat": "ai",
+      "lang": "Jupyter Notebook"
+    },
+    {
+      "full": "diegosouzapw/OmniRoute",
+      "rank": 15,
+      "stars": 28.8,
+      "today_n": 1841,
+      "slug": "omniroute",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "OtterMind/Chat2DB",
+      "rank": 16,
+      "stars": 26.3,
+      "today_n": 82,
+      "slug": "chat2db",
+      "cat": "agent",
+      "lang": "Java"
+    }
+  ]
+}
