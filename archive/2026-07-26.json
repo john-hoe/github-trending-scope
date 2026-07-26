@@ -1,0 +1,168 @@
+{
+  "date": "2026-07-26",
+  "generated_at": "2026-07-26 09:04 (CST)",
+  "repos": [
+    {
+      "full": "block/buzz",
+      "rank": 1,
+      "stars": 11.9,
+      "today_n": 2491,
+      "slug": "buzz",
+      "cat": "agent",
+      "lang": "Rust"
+    },
+    {
+      "full": "alibaba/open-code-review",
+      "rank": 2,
+      "stars": 13.0,
+      "today_n": 431,
+      "slug": "open-code-review",
+      "cat": "agent",
+      "lang": "Go"
+    },
+    {
+      "full": "citrolabs/ego-lite",
+      "rank": 3,
+      "stars": 3.6,
+      "today_n": 986,
+      "slug": "ego-lite",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "ComposioHQ/awesome-claude-skills",
+      "rank": 4,
+      "stars": 70.6,
+      "today_n": 577,
+      "slug": "awesome-claude-skills",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "anthropics/claude-cookbooks",
+      "rank": 5,
+      "stars": 49.9,
+      "today_n": 132,
+      "slug": "claude-cookbooks",
+      "cat": "agent",
+      "lang": "Jupyter Notebook"
+    },
+    {
+      "full": "Automattic/harper",
+      "rank": 6,
+      "stars": 13.4,
+      "today_n": 503,
+      "slug": "harper",
+      "cat": "agent",
+      "lang": "Rust"
+    },
+    {
+      "full": "shiyu-coder/Kronos",
+      "rank": 7,
+      "stars": 33.8,
+      "today_n": 319,
+      "slug": "kronos",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "obra/superpowers",
+      "rank": 8,
+      "stars": 261.1,
+      "today_n": 479,
+      "slug": "superpowers",
+      "cat": "agent",
+      "lang": "Shell"
+    },
+    {
+      "full": "Pumpkin-MC/Pumpkin",
+      "rank": 9,
+      "stars": 9.7,
+      "today_n": 358,
+      "slug": "pumpkin",
+      "cat": "infra",
+      "lang": "Rust"
+    },
+    {
+      "full": "permissionlesstech/bitchat",
+      "rank": 10,
+      "stars": 28.7,
+      "today_n": 1720,
+      "slug": "bitchat",
+      "cat": "agent",
+      "lang": "Swift"
+    },
+    {
+      "full": "mattpocock/skills",
+      "rank": 11,
+      "stars": 188.3,
+      "today_n": 1740,
+      "slug": "skills",
+      "cat": "agent",
+      "lang": "Shell"
+    },
+    {
+      "full": "palmier-io/palmier-pro",
+      "rank": 12,
+      "stars": 12.2,
+      "today_n": 412,
+      "slug": "palmier-pro",
+      "cat": "agent",
+      "lang": "Swift"
+    },
+    {
+      "full": "CoreBunch/Instatic",
+      "rank": 13,
+      "stars": 5.1,
+      "today_n": 426,
+      "slug": "instatic",
+      "cat": "other",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "Lordog/dive-into-llms",
+      "rank": 14,
+      "stars": 45.3,
+      "today_n": 408,
+      "slug": "dive-into-llms",
+      "cat": "ai",
+      "lang": "Jupyter Notebook"
+    },
+    {
+      "full": "RyanCodrai/turbovec",
+      "rank": 15,
+      "stars": 14.3,
+      "today_n": 86,
+      "slug": "turbovec",
+      "cat": "infra",
+      "lang": "Python"
+    },
+    {
+      "full": "OtterMind/Chat2DB",
+      "rank": 16,
+      "stars": 26.7,
+      "today_n": 360,
+      "slug": "chat2db",
+      "cat": "agent",
+      "lang": "Java"
+    },
+    {
+      "full": "andrewyng/aisuite",
+      "rank": 17,
+      "stars": 15.2,
+      "today_n": 77,
+      "slug": "aisuite",
+      "cat": "infra",
+      "lang": "Python"
+    },
+    {
+      "full": "affaan-m/ECC",
+      "rank": 18,
+      "stars": 233.3,
+      "today_n": 377,
+      "slug": "ecc",
+      "cat": "agent",
+      "lang": "JavaScript"
+    }
+  ]
+}
