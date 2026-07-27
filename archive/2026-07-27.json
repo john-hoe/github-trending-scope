@@ -1,0 +1,159 @@
+{
+  "date": "2026-07-27",
+  "generated_at": "2026-07-27 09:04 (CST)",
+  "repos": [
+    {
+      "full": "permissionlesstech/bitchat",
+      "rank": 1,
+      "stars": 30.3,
+      "today_n": 1166,
+      "slug": "bitchat",
+      "cat": "agent",
+      "lang": "Swift"
+    },
+    {
+      "full": "citrolabs/ego-lite",
+      "rank": 2,
+      "stars": 4.5,
+      "today_n": 900,
+      "slug": "ego-lite",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "block/buzz",
+      "rank": 3,
+      "stars": 13.3,
+      "today_n": 1710,
+      "slug": "buzz",
+      "cat": "agent",
+      "lang": "Rust"
+    },
+    {
+      "full": "pingdotgg/t3code",
+      "rank": 4,
+      "stars": 15.0,
+      "today_n": 149,
+      "slug": "t3code",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "CoreBunch/Instatic",
+      "rank": 5,
+      "stars": 5.7,
+      "today_n": 888,
+      "slug": "instatic",
+      "cat": "other",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "yorukot/superfile",
+      "rank": 6,
+      "stars": 20.2,
+      "today_n": 131,
+      "slug": "superfile",
+      "cat": "infra",
+      "lang": "Go"
+    },
+    {
+      "full": "nodejs/node",
+      "rank": 7,
+      "stars": 118.5,
+      "today_n": 36,
+      "slug": "node",
+      "cat": "infra",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "OtterMind/Chat2DB",
+      "rank": 8,
+      "stars": 27.1,
+      "today_n": 398,
+      "slug": "chat2db",
+      "cat": "agent",
+      "lang": "Java"
+    },
+    {
+      "full": "pbakaus/impeccable",
+      "rank": 9,
+      "stars": 50.7,
+      "today_n": 413,
+      "slug": "impeccable",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "shiyu-coder/Kronos",
+      "rank": 10,
+      "stars": 34.2,
+      "today_n": 321,
+      "slug": "kronos",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "alibaba/open-code-review",
+      "rank": 11,
+      "stars": 13.8,
+      "today_n": 832,
+      "slug": "open-code-review",
+      "cat": "agent",
+      "lang": "Go"
+    },
+    {
+      "full": "andrewyng/aisuite",
+      "rank": 12,
+      "stars": 15.4,
+      "today_n": 187,
+      "slug": "aisuite",
+      "cat": "infra",
+      "lang": "Python"
+    },
+    {
+      "full": "anthropics/claude-cookbooks",
+      "rank": 13,
+      "stars": 50.2,
+      "today_n": 379,
+      "slug": "claude-cookbooks",
+      "cat": "agent",
+      "lang": "Jupyter Notebook"
+    },
+    {
+      "full": "Pumpkin-MC/Pumpkin",
+      "rank": 14,
+      "stars": 10.0,
+      "today_n": 338,
+      "slug": "pumpkin",
+      "cat": "infra",
+      "lang": "Rust"
+    },
+    {
+      "full": "permissionlesstech/bitchat-android",
+      "rank": 15,
+      "stars": 6.7,
+      "today_n": 260,
+      "slug": "bitchat-android",
+      "cat": "other",
+      "lang": "Kotlin"
+    },
+    {
+      "full": "jenkinsci/jenkins",
+      "rank": 16,
+      "stars": 25.7,
+      "today_n": 18,
+      "slug": "jenkins",
+      "cat": "infra",
+      "lang": "Java"
+    },
+    {
+      "full": "amnezia-vpn/amnezia-client",
+      "rank": 17,
+      "stars": 13.3,
+      "today_n": 35,
+      "slug": "amnezia-client",
+      "cat": "infra",
+      "lang": "C++"
+    }
+  ]
+}
