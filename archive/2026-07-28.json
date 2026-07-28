@@ -1,0 +1,141 @@
+{
+  "date": "2026-07-28",
+  "generated_at": "2026-07-28 08:56 (CST)",
+  "repos": [
+    {
+      "full": "permissionlesstech/bitchat",
+      "rank": 1,
+      "stars": 32.3,
+      "today_n": 2346,
+      "slug": "bitchat",
+      "cat": "agent",
+      "lang": "Swift"
+    },
+    {
+      "full": "amnezia-vpn/amnezia-client",
+      "rank": 2,
+      "stars": 13.8,
+      "today_n": 515,
+      "slug": "amnezia-client",
+      "cat": "infra",
+      "lang": "C++"
+    },
+    {
+      "full": "moeru-ai/airi",
+      "rank": 3,
+      "stars": 44.0,
+      "today_n": 572,
+      "slug": "airi",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "opengeos/GeoLibre",
+      "rank": 4,
+      "stars": 2.7,
+      "today_n": 420,
+      "slug": "geolibre",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "yorukot/superfile",
+      "rank": 5,
+      "stars": 20.9,
+      "today_n": 600,
+      "slug": "superfile",
+      "cat": "infra",
+      "lang": "Go"
+    },
+    {
+      "full": "NanmiCoder/MediaCrawler",
+      "rank": 6,
+      "stars": 58.2,
+      "today_n": 362,
+      "slug": "mediacrawler",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "pbakaus/impeccable",
+      "rank": 7,
+      "stars": 51.5,
+      "today_n": 847,
+      "slug": "impeccable",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "shiyu-coder/Kronos",
+      "rank": 8,
+      "stars": 34.6,
+      "today_n": 441,
+      "slug": "kronos",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "alibaba/open-code-review",
+      "rank": 9,
+      "stars": 14.8,
+      "today_n": 979,
+      "slug": "open-code-review",
+      "cat": "agent",
+      "lang": "Go"
+    },
+    {
+      "full": "jenkinsci/jenkins",
+      "rank": 10,
+      "stars": 25.9,
+      "today_n": 180,
+      "slug": "jenkins",
+      "cat": "infra",
+      "lang": "Java"
+    },
+    {
+      "full": "bradautomates/claude-video",
+      "rank": 11,
+      "stars": 11.1,
+      "today_n": 434,
+      "slug": "claude-video",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "vudovn/ag-kit",
+      "rank": 12,
+      "stars": 8.0,
+      "today_n": 14,
+      "slug": "ag-kit",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "apache/cassandra",
+      "rank": 13,
+      "stars": 10.0,
+      "today_n": 11,
+      "slug": "cassandra",
+      "cat": "infra",
+      "lang": "Java"
+    },
+    {
+      "full": "mvanhorn/last30days-skill",
+      "rank": 14,
+      "stars": 54.2,
+      "today_n": 240,
+      "slug": "last30days-skill",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "ocornut/imgui",
+      "rank": 15,
+      "stars": 75.2,
+      "today_n": 51,
+      "slug": "imgui",
+      "cat": "infra",
+      "lang": "C++"
+    }
+  ]
+}
