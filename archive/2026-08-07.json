@@ -1,0 +1,123 @@
+{
+  "date": "2026-08-07",
+  "generated_at": "2026-08-07 11:10 (CST)",
+  "repos": [
+    {
+      "full": "TencentCloud/TencentDB-Agent-Memory",
+      "rank": 1,
+      "stars": 16.5,
+      "today_n": 1057,
+      "slug": "tencentdb-agent-memory",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "addyosmani/agent-skills",
+      "rank": 2,
+      "stars": 83.0,
+      "today_n": 593,
+      "slug": "agent-skills",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "cloudflare/computer",
+      "rank": 3,
+      "stars": 4.9,
+      "today_n": 2802,
+      "slug": "computer",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "mattpocock/skills",
+      "rank": 4,
+      "stars": 207.3,
+      "today_n": 1873,
+      "slug": "skills",
+      "cat": "agent",
+      "lang": "Shell"
+    },
+    {
+      "full": "goauthentik/authentik",
+      "rank": 5,
+      "stars": 23.2,
+      "today_n": 138,
+      "slug": "authentik",
+      "cat": "infra",
+      "lang": "Python"
+    },
+    {
+      "full": "huangruiteng/loopx",
+      "rank": 6,
+      "stars": 2.9,
+      "today_n": 847,
+      "slug": "loopx",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "google/guava",
+      "rank": 7,
+      "stars": 51.7,
+      "today_n": 13,
+      "slug": "guava",
+      "cat": "other",
+      "lang": "Java"
+    },
+    {
+      "full": "TapXWorld/ChinaTextbook",
+      "rank": 8,
+      "stars": 77.2,
+      "today_n": 134,
+      "slug": "chinatextbook",
+      "cat": "other",
+      "lang": "Roff"
+    },
+    {
+      "full": "Significant-Gravitas/AutoGPT",
+      "rank": 9,
+      "stars": 186.1,
+      "today_n": 37,
+      "slug": "autogpt",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "tirth8205/code-review-graph",
+      "rank": 10,
+      "stars": 29.1,
+      "today_n": 237,
+      "slug": "code-review-graph",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "esengine/DeepSeek-Reasonix",
+      "rank": 11,
+      "stars": 32.5,
+      "today_n": 888,
+      "slug": "deepseek-reasonix",
+      "cat": "agent",
+      "lang": "Go"
+    },
+    {
+      "full": "obra/superpowers",
+      "rank": 12,
+      "stars": 268.2,
+      "today_n": 858,
+      "slug": "superpowers",
+      "cat": "agent",
+      "lang": "Shell"
+    },
+    {
+      "full": "firecrawl/pdf-inspector",
+      "rank": 13,
+      "stars": 12.5,
+      "today_n": 1190,
+      "slug": "pdf-inspector",
+      "cat": "infra",
+      "lang": "Rust"
+    }
+  ]
+}
