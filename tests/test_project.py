@@ -74,6 +74,15 @@ class AutomationContractTests(unittest.TestCase):
         self.assertGreaterEqual(test_at, 0)
         self.assertGreater(update_at, test_at)
 
+    def test_workflow_retests_refreshed_data_before_build(self):
+        test_positions = [match.start() for match in re.finditer("unittest discover", self.workflow)]
+        update_at = self.workflow.find("scripts/update.py")
+        build_at = self.workflow.find("scripts/build_site.py --output dist")
+        self.assertEqual(len(test_positions), 2)
+        self.assertLess(test_positions[0], update_at)
+        self.assertLess(update_at, test_positions[1])
+        self.assertLess(test_positions[1], build_at)
+
     def test_workflow_authenticates_review_context_and_retries(self):
         self.assertIn("GITHUB_API_TOKEN: ${{ github.token }}", self.workflow)
         self.assertIn('LLM_CONCURRENCY: "4"', self.workflow)
@@ -89,7 +98,7 @@ class AutomationContractTests(unittest.TestCase):
     def test_workflow_can_deploy_static_changes_without_refreshing_data(self):
         self.assertRegex(self.workflow, r"(?m)^\s{6}deploy_only:")
         self.assertIn('type: boolean', self.workflow)
-        self.assertEqual(self.workflow.count('if: ${{ inputs.deploy_only != true }}'), 2)
+        self.assertEqual(self.workflow.count('if: ${{ inputs.deploy_only != true }}'), 3)
         self.assertIn("scripts/build_site.py --output dist", self.workflow)
 
     def test_production_build_runs_before_data_commit(self):
@@ -320,15 +329,24 @@ class SEOProductionContractTests(unittest.TestCase):
 
     def test_only_original_editorial_subset_is_indexed(self):
         manifest = json.loads((ROOT / "seo-index.json").read_text(encoding="utf-8"))
+        data = json.loads((ROOT / "data.json").read_text(encoding="utf-8"))
+        indexed_names = set(manifest["repos"])
         self.assertEqual(len(manifest["repos"]), 13)
         indexed = "https://trending.cosolution.cc/repos/codecrafters-io/build-your-own-x/"
         self.assertIn(indexed, self.urls)
         selected_source = self.file_for_url(indexed).read_text(encoding="utf-8")
         self.assertIn("What it does", selected_source)
-        unselected = self.output / "repos" / "protocolbuffers" / "protobuf" / "index.html"
-        self.assertTrue(unselected.is_file())
-        self.assertIn('name="robots" content="noindex,follow"', unselected.read_text(encoding="utf-8"))
-        self.assertNotIn("/repos/protocolbuffers/protobuf/", self.sitemap_text)
+        unselected_names = sorted(repo["full"] for repo in data["repos"] if repo["full"] not in indexed_names)
+        self.assertTrue(unselected_names)
+        for full_name in unselected_names:
+            for locale in ("en", "zh"):
+                with self.subTest(repo=full_name, locale=locale):
+                    detail_path = build_site.repo_path(full_name, locale)
+                    unselected = self.output / detail_path.strip("/") / "index.html"
+                    self.assertTrue(unselected.is_file(), unselected)
+                    source = unselected.read_text(encoding="utf-8")
+                    self.assertIn('name="robots" content="noindex,follow"', source)
+                    self.assertNotIn(detail_path, self.sitemap_text)
 
     def test_directory_links_every_indexed_detail(self):
         manifest = json.loads((ROOT / "seo-index.json").read_text(encoding="utf-8"))
