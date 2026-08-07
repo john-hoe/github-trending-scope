@@ -61,6 +61,10 @@ jobs:
           LLM_MAX_TOKENS: "1800"
           GITHUB_API_TOKEN: ${{ github.token }}
 
+      - name: Re-run regression tests after data refresh
+        if: ${{ inputs.deploy_only != true }}
+        run: python3 -m unittest discover -s tests -v
+
       - name: Build and validate production SEO bundle
         run: python3 scripts/build_site.py --output dist
 
