@@ -1,0 +1,159 @@
+{
+  "date": "2026-08-08",
+  "generated_at": "2026-08-08 08:43 (CST)",
+  "repos": [
+    {
+      "full": "PrimeIntellect-ai/prime-agent",
+      "rank": 1,
+      "stars": 6.5,
+      "today_n": 2293,
+      "slug": "prime-agent",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "addyosmani/agent-skills",
+      "rank": 2,
+      "stars": 83.9,
+      "today_n": 1131,
+      "slug": "agent-skills",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "cloudflare/computer",
+      "rank": 3,
+      "stars": 5.7,
+      "today_n": 872,
+      "slug": "computer",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "mattpocock/skills",
+      "rank": 4,
+      "stars": 208.8,
+      "today_n": 2152,
+      "slug": "skills",
+      "cat": "agent",
+      "lang": "Shell"
+    },
+    {
+      "full": "obra/superpowers",
+      "rank": 5,
+      "stars": 268.7,
+      "today_n": 782,
+      "slug": "superpowers",
+      "cat": "agent",
+      "lang": "Shell"
+    },
+    {
+      "full": "goauthentik/authentik",
+      "rank": 6,
+      "stars": 23.6,
+      "today_n": 530,
+      "slug": "authentik",
+      "cat": "infra",
+      "lang": "Python"
+    },
+    {
+      "full": "semantica-agi/semantica",
+      "rank": 7,
+      "stars": 2.3,
+      "today_n": 122,
+      "slug": "semantica",
+      "cat": "infra",
+      "lang": "Python"
+    },
+    {
+      "full": "666ghj/MiroFish",
+      "rank": 8,
+      "stars": 70.5,
+      "today_n": 141,
+      "slug": "mirofish",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "chenyme/grok2api",
+      "rank": 9,
+      "stars": 7.1,
+      "today_n": 55,
+      "slug": "grok2api",
+      "cat": "infra",
+      "lang": "Go"
+    },
+    {
+      "full": "jdx/mise",
+      "rank": 10,
+      "stars": 32.1,
+      "today_n": 135,
+      "slug": "mise",
+      "cat": "other",
+      "lang": "Rust"
+    },
+    {
+      "full": "Significant-Gravitas/AutoGPT",
+      "rank": 11,
+      "stars": 186.3,
+      "today_n": 355,
+      "slug": "autogpt",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "google/guava",
+      "rank": 12,
+      "stars": 51.8,
+      "today_n": 152,
+      "slug": "guava",
+      "cat": "other",
+      "lang": "Java"
+    },
+    {
+      "full": "unclebob/swarm-forge",
+      "rank": 13,
+      "stars": 1.8,
+      "today_n": 81,
+      "slug": "swarm-forge",
+      "cat": "agent",
+      "lang": "Clojure"
+    },
+    {
+      "full": "denoland/celld",
+      "rank": 14,
+      "stars": 2.2,
+      "today_n": 516,
+      "slug": "celld",
+      "cat": "infra",
+      "lang": "Rust"
+    },
+    {
+      "full": "K2SOsint/Legendary_OSINT",
+      "rank": 15,
+      "stars": 1.4,
+      "today_n": 109,
+      "slug": "legendary_osint",
+      "cat": "other",
+      "lang": null
+    },
+    {
+      "full": "pranshuparmar/witr",
+      "rank": 16,
+      "stars": 19.7,
+      "today_n": 234,
+      "slug": "witr",
+      "cat": "other",
+      "lang": "Go"
+    },
+    {
+      "full": "google/skills",
+      "rank": 17,
+      "stars": 16.2,
+      "today_n": 327,
+      "slug": "google-skills",
+      "cat": "agent",
+      "lang": "Python"
+    }
+  ]
+}
