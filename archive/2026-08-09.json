@@ -1,0 +1,114 @@
+{
+  "date": "2026-08-09",
+  "generated_at": "2026-08-09 08:43 (CST)",
+  "repos": [
+    {
+      "full": "PrimeIntellect-ai/prime-agent",
+      "rank": 1,
+      "stars": 8.9,
+      "today_n": 2483,
+      "slug": "prime-agent",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "addyosmani/agent-skills",
+      "rank": 2,
+      "stars": 84.6,
+      "today_n": 779,
+      "slug": "agent-skills",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "TapXWorld/ChinaTextbook",
+      "rank": 3,
+      "stars": 77.9,
+      "today_n": 118,
+      "slug": "chinatextbook",
+      "cat": "other",
+      "lang": "Roff"
+    },
+    {
+      "full": "google/skills",
+      "rank": 4,
+      "stars": 16.7,
+      "today_n": 481,
+      "slug": "google-skills",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "mattpocock/skills",
+      "rank": 5,
+      "stars": 210.0,
+      "today_n": 1359,
+      "slug": "skills",
+      "cat": "agent",
+      "lang": "Shell"
+    },
+    {
+      "full": "goauthentik/authentik",
+      "rank": 6,
+      "stars": 24.0,
+      "today_n": 467,
+      "slug": "authentik",
+      "cat": "infra",
+      "lang": "Python"
+    },
+    {
+      "full": "TauricResearch/TradingAgents",
+      "rank": 7,
+      "stars": 96.5,
+      "today_n": 153,
+      "slug": "tradingagents",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "google/guava",
+      "rank": 8,
+      "stars": 51.9,
+      "today_n": 93,
+      "slug": "guava",
+      "cat": "other",
+      "lang": "Java"
+    },
+    {
+      "full": "LadybirdBrowser/ladybird",
+      "rank": 9,
+      "stars": 65.0,
+      "today_n": 48,
+      "slug": "ladybird",
+      "cat": "other",
+      "lang": "C++"
+    },
+    {
+      "full": "denoland/celld",
+      "rank": 10,
+      "stars": 2.6,
+      "today_n": 432,
+      "slug": "celld",
+      "cat": "infra",
+      "lang": "Rust"
+    },
+    {
+      "full": "litu54/DevOps-Interview-Guide",
+      "rank": 11,
+      "stars": 0.7,
+      "today_n": 68,
+      "slug": "devops-interview-guide",
+      "cat": "other",
+      "lang": null
+    },
+    {
+      "full": "bannedbook/fanqiang",
+      "rank": 12,
+      "stars": 49.9,
+      "today_n": 101,
+      "slug": "fanqiang",
+      "cat": "other",
+      "lang": "Kotlin"
+    }
+  ]
+}
