@@ -1,0 +1,150 @@
+{
+  "date": "2026-08-11",
+  "generated_at": "2026-08-11 08:43 (CST)",
+  "repos": [
+    {
+      "full": "semantica-agi/semantica",
+      "rank": 1,
+      "stars": 4.1,
+      "today_n": 970,
+      "slug": "semantica",
+      "cat": "infra",
+      "lang": "Python"
+    },
+    {
+      "full": "msitarzewski/agency-agents",
+      "rank": 2,
+      "stars": 141.8,
+      "today_n": 1349,
+      "slug": "agency-agents",
+      "cat": "agent",
+      "lang": "Shell"
+    },
+    {
+      "full": "NanmiCoder/MediaCrawler",
+      "rank": 3,
+      "stars": 61.0,
+      "today_n": 259,
+      "slug": "mediacrawler",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "addyosmani/agent-skills",
+      "rank": 4,
+      "stars": 85.7,
+      "today_n": 659,
+      "slug": "agent-skills",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "paperclipai/paperclip",
+      "rank": 5,
+      "stars": 76.5,
+      "today_n": 198,
+      "slug": "paperclip",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "PrimeIntellect-ai/prime-agent",
+      "rank": 6,
+      "stars": 13.1,
+      "today_n": 2642,
+      "slug": "prime-agent",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "LadybirdBrowser/ladybird",
+      "rank": 7,
+      "stars": 65.3,
+      "today_n": 56,
+      "slug": "ladybird",
+      "cat": "other",
+      "lang": "C++"
+    },
+    {
+      "full": "ruvnet/RuView",
+      "rank": 8,
+      "stars": 89.4,
+      "today_n": 154,
+      "slug": "ruview",
+      "cat": "ai",
+      "lang": "Rust"
+    },
+    {
+      "full": "danielmiessler/LifeOS",
+      "rank": 9,
+      "stars": 17.9,
+      "today_n": 315,
+      "slug": "lifeos",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "firecrawl/firecrawl",
+      "rank": 10,
+      "stars": 165.1,
+      "today_n": 835,
+      "slug": "firecrawl",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "TauricResearch/TradingAgents",
+      "rank": 11,
+      "stars": 97.2,
+      "today_n": 177,
+      "slug": "tradingagents",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "google-deepmind/weathernext",
+      "rank": 12,
+      "stars": 7.3,
+      "today_n": 325,
+      "slug": "weathernext",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "vitali87/code-graph-rag",
+      "rank": 13,
+      "stars": 3.5,
+      "today_n": 682,
+      "slug": "code-graph-rag",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "pingdotgg/t3code",
+      "rank": 14,
+      "stars": 18.0,
+      "today_n": 389,
+      "slug": "t3code",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "Comfy-Org/ComfyUI",
+      "rank": 15,
+      "stars": 126.3,
+      "today_n": 922,
+      "slug": "comfyui",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "opa334/Dopamine",
+      "rank": 16,
+      "stars": 6.0,
+      "today_n": 111,
+      "slug": "dopamine",
+      "cat": "other",
+      "lang": "C"
+    }
+  ]
+}
