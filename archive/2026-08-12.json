@@ -1,0 +1,159 @@
+{
+  "date": "2026-08-12",
+  "generated_at": "2026-08-12 08:46 (CST)",
+  "repos": [
+    {
+      "full": "msitarzewski/agency-agents",
+      "rank": 1,
+      "stars": 143.2,
+      "today_n": 958,
+      "slug": "agency-agents",
+      "cat": "agent",
+      "lang": "Shell"
+    },
+    {
+      "full": "semantica-agi/semantica",
+      "rank": 2,
+      "stars": 4.9,
+      "today_n": 893,
+      "slug": "semantica",
+      "cat": "infra",
+      "lang": "Python"
+    },
+    {
+      "full": "nvm-sh/nvm",
+      "rank": 3,
+      "stars": 94.5,
+      "today_n": 22,
+      "slug": "nvm",
+      "cat": "other",
+      "lang": "Shell"
+    },
+    {
+      "full": "addyosmani/agent-skills",
+      "rank": 4,
+      "stars": 86.2,
+      "today_n": 578,
+      "slug": "agent-skills",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "ZhuLinsen/daily_stock_analysis",
+      "rank": 5,
+      "stars": 62.1,
+      "today_n": 243,
+      "slug": "daily_stock_analysis",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "vitali87/code-graph-rag",
+      "rank": 6,
+      "stars": 3.8,
+      "today_n": 341,
+      "slug": "code-graph-rag",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "anthropics/skills",
+      "rank": 7,
+      "stars": 168.1,
+      "today_n": 485,
+      "slug": "anthropics-skills",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "3b1b/manim",
+      "rank": 8,
+      "stars": 90.2,
+      "today_n": 197,
+      "slug": "manim",
+      "cat": "other",
+      "lang": "Python"
+    },
+    {
+      "full": "HKUDS/DeepTutor",
+      "rank": 9,
+      "stars": 34.7,
+      "today_n": 812,
+      "slug": "deeptutor",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "stablyai/orca",
+      "rank": 10,
+      "stars": 42.8,
+      "today_n": 875,
+      "slug": "orca",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "paperclipai/paperclip",
+      "rank": 11,
+      "stars": 77.2,
+      "today_n": 748,
+      "slug": "paperclip",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "huggingface/transformers",
+      "rank": 12,
+      "stars": 163.8,
+      "today_n": 80,
+      "slug": "transformers",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "harveyai/harvey-labs",
+      "rank": 13,
+      "stars": 1.1,
+      "today_n": 28,
+      "slug": "harvey-labs",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "jaywcjlove/awesome-mac",
+      "rank": 14,
+      "stars": 110.5,
+      "today_n": 298,
+      "slug": "awesome-mac",
+      "cat": "other",
+      "lang": "Swift"
+    },
+    {
+      "full": "calesthio/OpenMontage",
+      "rank": 15,
+      "stars": 47.3,
+      "today_n": 458,
+      "slug": "openmontage",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "practical-tutorials/project-based-learning",
+      "rank": 16,
+      "stars": 278.4,
+      "today_n": 401,
+      "slug": "project-based-learning",
+      "cat": "other",
+      "lang": "Python"
+    },
+    {
+      "full": "PrimeIntellect-ai/prime-agent",
+      "rank": 17,
+      "stars": 14.1,
+      "today_n": 1138,
+      "slug": "prime-agent",
+      "cat": "agent",
+      "lang": "TypeScript"
+    }
+  ]
+}
