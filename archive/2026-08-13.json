@@ -1,0 +1,159 @@
+{
+  "date": "2026-08-13",
+  "generated_at": "2026-08-13 08:47 (CST)",
+  "repos": [
+    {
+      "full": "cathrynlavery/diagram-design",
+      "rank": 1,
+      "stars": 10.4,
+      "today_n": 2855,
+      "slug": "diagram-design",
+      "cat": "agent",
+      "lang": "HTML"
+    },
+    {
+      "full": "macro-inc/macro",
+      "rank": 2,
+      "stars": 1.8,
+      "today_n": 227,
+      "slug": "macro",
+      "cat": "other",
+      "lang": "Rust"
+    },
+    {
+      "full": "semantica-agi/semantica",
+      "rank": 3,
+      "stars": 5.7,
+      "today_n": 845,
+      "slug": "semantica",
+      "cat": "infra",
+      "lang": "Python"
+    },
+    {
+      "full": "stablyai/orca",
+      "rank": 4,
+      "stars": 43.9,
+      "today_n": 1235,
+      "slug": "orca",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "msitarzewski/agency-agents",
+      "rank": 5,
+      "stars": 144.6,
+      "today_n": 1873,
+      "slug": "agency-agents",
+      "cat": "agent",
+      "lang": "Shell"
+    },
+    {
+      "full": "shiyu-coder/Kronos",
+      "rank": 6,
+      "stars": 36.9,
+      "today_n": 266,
+      "slug": "kronos",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "NanmiCoder/MediaCrawler",
+      "rank": 7,
+      "stars": 62.0,
+      "today_n": 215,
+      "slug": "mediacrawler",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "hugohe3/ppt-master",
+      "rank": 8,
+      "stars": 45.6,
+      "today_n": 476,
+      "slug": "ppt-master",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "infiniflow/ragflow",
+      "rank": 9,
+      "stars": 87.5,
+      "today_n": 139,
+      "slug": "ragflow",
+      "cat": "agent",
+      "lang": "Go"
+    },
+    {
+      "full": "paperclipai/paperclip",
+      "rank": 10,
+      "stars": 77.7,
+      "today_n": 571,
+      "slug": "paperclip",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "NVIDIA-NeMo/Switchyard",
+      "rank": 11,
+      "stars": 0.8,
+      "today_n": 421,
+      "slug": "switchyard",
+      "cat": "infra",
+      "lang": "Rust"
+    },
+    {
+      "full": "ZuodaoTech/everyone-can-use-english",
+      "rank": 12,
+      "stars": 36.1,
+      "today_n": 86,
+      "slug": "everyone-can-use-english",
+      "cat": "ai",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "smicallef/spiderfoot",
+      "rank": 13,
+      "stars": 20.3,
+      "today_n": 74,
+      "slug": "spiderfoot",
+      "cat": "infra",
+      "lang": "Python"
+    },
+    {
+      "full": "localsend/localsend",
+      "rank": 14,
+      "stars": 87.8,
+      "today_n": 213,
+      "slug": "localsend",
+      "cat": "other",
+      "lang": "Dart"
+    },
+    {
+      "full": "Lightricks/LTX-2",
+      "rank": 15,
+      "stars": 8.7,
+      "today_n": 65,
+      "slug": "ltx-2",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "embabel/embabel-agent",
+      "rank": 16,
+      "stars": 4.2,
+      "today_n": 40,
+      "slug": "embabel-agent",
+      "cat": "agent",
+      "lang": "Kotlin"
+    },
+    {
+      "full": "cactus-compute/needle",
+      "rank": 17,
+      "stars": 4.2,
+      "today_n": 315,
+      "slug": "needle",
+      "cat": "ai",
+      "lang": "Python"
+    }
+  ]
+}
