@@ -1,0 +1,159 @@
+{
+  "date": "2026-08-14",
+  "generated_at": "2026-08-14 08:46 (CST)",
+  "repos": [
+    {
+      "full": "cathrynlavery/diagram-design",
+      "rank": 1,
+      "stars": 14.5,
+      "today_n": 4475,
+      "slug": "diagram-design",
+      "cat": "agent",
+      "lang": "HTML"
+    },
+    {
+      "full": "semantica-agi/semantica",
+      "rank": 2,
+      "stars": 6.6,
+      "today_n": 713,
+      "slug": "semantica",
+      "cat": "infra",
+      "lang": "Python"
+    },
+    {
+      "full": "anthropics/skills",
+      "rank": 3,
+      "stars": 169.0,
+      "today_n": 312,
+      "slug": "anthropics-skills",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "cactus-compute/needle",
+      "rank": 4,
+      "stars": 4.9,
+      "today_n": 769,
+      "slug": "needle",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "altic-dev/FluidVoice",
+      "rank": 5,
+      "stars": 9.8,
+      "today_n": 76,
+      "slug": "fluidvoice",
+      "cat": "agent",
+      "lang": "Swift"
+    },
+    {
+      "full": "unslothai/unsloth",
+      "rank": 6,
+      "stars": 71.1,
+      "today_n": 328,
+      "slug": "unsloth",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "macro-inc/macro",
+      "rank": 7,
+      "stars": 2.6,
+      "today_n": 1239,
+      "slug": "macro",
+      "cat": "other",
+      "lang": "Rust"
+    },
+    {
+      "full": "megadose/holehe",
+      "rank": 8,
+      "stars": 12.4,
+      "today_n": 195,
+      "slug": "holehe",
+      "cat": "other",
+      "lang": "Python"
+    },
+    {
+      "full": "smicallef/spiderfoot",
+      "rank": 9,
+      "stars": 20.7,
+      "today_n": 283,
+      "slug": "spiderfoot",
+      "cat": "infra",
+      "lang": "Python"
+    },
+    {
+      "full": "NVIDIA-NeMo/Switchyard",
+      "rank": 10,
+      "stars": 1.2,
+      "today_n": 408,
+      "slug": "switchyard",
+      "cat": "infra",
+      "lang": "Rust"
+    },
+    {
+      "full": "holaboss-ai/holaOS",
+      "rank": 11,
+      "stars": 6.6,
+      "today_n": 241,
+      "slug": "holaos",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "kepano/obsidian-skills",
+      "rank": 12,
+      "stars": 45.7,
+      "today_n": 292,
+      "slug": "obsidian-skills",
+      "cat": "agent",
+      "lang": null
+    },
+    {
+      "full": "3b1b/manim",
+      "rank": 13,
+      "stars": 90.8,
+      "today_n": 176,
+      "slug": "manim",
+      "cat": "other",
+      "lang": "Python"
+    },
+    {
+      "full": "msitarzewski/agency-agents",
+      "rank": 14,
+      "stars": 145.2,
+      "today_n": 778,
+      "slug": "agency-agents",
+      "cat": "agent",
+      "lang": "Shell"
+    },
+    {
+      "full": "Lightricks/LTX-2",
+      "rank": 15,
+      "stars": 8.9,
+      "today_n": 205,
+      "slug": "ltx-2",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "lightningpixel/modly",
+      "rank": 16,
+      "stars": 5.4,
+      "today_n": 118,
+      "slug": "modly",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "infiniflow/ragflow",
+      "rank": 17,
+      "stars": 88.0,
+      "today_n": 465,
+      "slug": "ragflow",
+      "cat": "agent",
+      "lang": "Go"
+    }
+  ]
+}
