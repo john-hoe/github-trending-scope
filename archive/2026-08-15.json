@@ -1,0 +1,159 @@
+{
+  "date": "2026-08-15",
+  "generated_at": "2026-08-15 08:42 (CST)",
+  "repos": [
+    {
+      "full": "cathrynlavery/diagram-design",
+      "rank": 1,
+      "stars": 17.2,
+      "today_n": 3646,
+      "slug": "diagram-design",
+      "cat": "agent",
+      "lang": "HTML"
+    },
+    {
+      "full": "cactus-compute/needle",
+      "rank": 2,
+      "stars": 5.6,
+      "today_n": 662,
+      "slug": "needle",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "megadose/holehe",
+      "rank": 3,
+      "stars": 12.8,
+      "today_n": 427,
+      "slug": "holehe",
+      "cat": "other",
+      "lang": "Python"
+    },
+    {
+      "full": "macro-inc/macro",
+      "rank": 4,
+      "stars": 3.0,
+      "today_n": 436,
+      "slug": "macro",
+      "cat": "other",
+      "lang": "Rust"
+    },
+    {
+      "full": "smicallef/spiderfoot",
+      "rank": 5,
+      "stars": 20.9,
+      "today_n": 293,
+      "slug": "spiderfoot",
+      "cat": "infra",
+      "lang": "Python"
+    },
+    {
+      "full": "citrolabs/ego-lite",
+      "rank": 6,
+      "stars": 10.4,
+      "today_n": 165,
+      "slug": "ego-lite",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "holaboss-ai/holaOS",
+      "rank": 7,
+      "stars": 7.3,
+      "today_n": 769,
+      "slug": "holaos",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "github/spec-kit",
+      "rank": 8,
+      "stars": 128.5,
+      "today_n": 1160,
+      "slug": "spec-kit",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "lightningpixel/modly",
+      "rank": 9,
+      "stars": 5.9,
+      "today_n": 579,
+      "slug": "modly",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "infiniflow/ragflow",
+      "rank": 10,
+      "stars": 88.4,
+      "today_n": 473,
+      "slug": "ragflow",
+      "cat": "agent",
+      "lang": "Go"
+    },
+    {
+      "full": "cursor/plugins",
+      "rank": 11,
+      "stars": 2.8,
+      "today_n": 41,
+      "slug": "plugins",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "deepseek-ai/awesome-deepseek-agent",
+      "rank": 12,
+      "stars": 5.7,
+      "today_n": 222,
+      "slug": "awesome-deepseek-agent",
+      "cat": "agent",
+      "lang": null
+    },
+    {
+      "full": "semantica-agi/semantica",
+      "rank": 13,
+      "stars": 7.5,
+      "today_n": 1181,
+      "slug": "semantica",
+      "cat": "infra",
+      "lang": "Python"
+    },
+    {
+      "full": "rustdesk/rustdesk",
+      "rank": 14,
+      "stars": 120.6,
+      "today_n": 143,
+      "slug": "rustdesk",
+      "cat": "agent",
+      "lang": "Rust"
+    },
+    {
+      "full": "OpenCut-app/OpenCut",
+      "rank": 15,
+      "stars": 83.2,
+      "today_n": 255,
+      "slug": "opencut",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "unslothai/unsloth",
+      "rank": 16,
+      "stars": 71.5,
+      "today_n": 501,
+      "slug": "unsloth",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "ToolJet/ToolJet",
+      "rank": 17,
+      "stars": 39.1,
+      "today_n": 132,
+      "slug": "tooljet",
+      "cat": "other",
+      "lang": "JavaScript"
+    }
+  ]
+}
