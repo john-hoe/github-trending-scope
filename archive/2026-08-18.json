@@ -1,0 +1,105 @@
+{
+  "date": "2026-08-18",
+  "generated_at": "2026-08-18 08:43 (CST)",
+  "repos": [
+    {
+      "full": "harry0703/MoneyPrinterTurbo",
+      "rank": 1,
+      "stars": 106.0,
+      "today_n": 1189,
+      "slug": "moneyprinterturbo",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "usestrix/strix",
+      "rank": 2,
+      "stars": 54.2,
+      "today_n": 598,
+      "slug": "strix",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "nautechsystems/nautilus_trader",
+      "rank": 3,
+      "stars": 25.9,
+      "today_n": 120,
+      "slug": "nautilus_trader",
+      "cat": "infra",
+      "lang": "Rust"
+    },
+    {
+      "full": "akitaonrails/ai-memory",
+      "rank": 4,
+      "stars": 2.0,
+      "today_n": 207,
+      "slug": "ai-memory",
+      "cat": "agent",
+      "lang": "Rust"
+    },
+    {
+      "full": "mukul975/Anthropic-Cybersecurity-Skills",
+      "rank": 5,
+      "stars": 28.4,
+      "today_n": 198,
+      "slug": "anthropic-cybersecurity-skills",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "AlexsJones/llmfit",
+      "rank": 6,
+      "stars": 32.3,
+      "today_n": 198,
+      "slug": "llmfit",
+      "cat": "agent",
+      "lang": "Rust"
+    },
+    {
+      "full": "santifer/career-ops",
+      "rank": 7,
+      "stars": 64.6,
+      "today_n": 218,
+      "slug": "career-ops",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "jundot/omlx",
+      "rank": 8,
+      "stars": 19.0,
+      "today_n": 78,
+      "slug": "omlx",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "immich-app/immich",
+      "rank": 9,
+      "stars": 111.2,
+      "today_n": 175,
+      "slug": "immich",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "cordiverse/cordis",
+      "rank": 10,
+      "stars": 5.6,
+      "today_n": 957,
+      "slug": "cordis",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "agalwood/Motrix",
+      "rank": 11,
+      "stars": 53.1,
+      "today_n": 344,
+      "slug": "motrix",
+      "cat": "other",
+      "lang": "TypeScript"
+    }
+  ]
+}
