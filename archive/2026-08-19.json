@@ -1,0 +1,123 @@
+{
+  "date": "2026-08-19",
+  "generated_at": "2026-08-19 08:42 (CST)",
+  "repos": [
+    {
+      "full": "harry0703/MoneyPrinterTurbo",
+      "rank": 1,
+      "stars": 108.5,
+      "today_n": 2304,
+      "slug": "moneyprinterturbo",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "chaitanyagiri/munder-difflin",
+      "rank": 2,
+      "stars": 2.0,
+      "today_n": 306,
+      "slug": "munder-difflin",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "akitaonrails/ai-memory",
+      "rank": 3,
+      "stars": 2.7,
+      "today_n": 648,
+      "slug": "ai-memory",
+      "cat": "agent",
+      "lang": "Rust"
+    },
+    {
+      "full": "volcengine/OpenViking",
+      "rank": 4,
+      "stars": 29.4,
+      "today_n": 213,
+      "slug": "openviking",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "mukul975/Anthropic-Cybersecurity-Skills",
+      "rank": 5,
+      "stars": 29.2,
+      "today_n": 730,
+      "slug": "anthropic-cybersecurity-skills",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "public-apis/public-apis",
+      "rank": 6,
+      "stars": 464.5,
+      "today_n": 1005,
+      "slug": "public-apis",
+      "cat": "other",
+      "lang": "Python"
+    },
+    {
+      "full": "basecamp/omarchy",
+      "rank": 7,
+      "stars": 26.4,
+      "today_n": 356,
+      "slug": "omarchy",
+      "cat": "other",
+      "lang": "Shell"
+    },
+    {
+      "full": "agalwood/Motrix",
+      "rank": 8,
+      "stars": 53.7,
+      "today_n": 609,
+      "slug": "motrix",
+      "cat": "other",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "NawfalMotii79/PLFM_RADAR",
+      "rank": 9,
+      "stars": 24.3,
+      "today_n": 192,
+      "slug": "plfm_radar",
+      "cat": "other",
+      "lang": "PLSQL"
+    },
+    {
+      "full": "jundot/omlx",
+      "rank": 10,
+      "stars": 19.4,
+      "today_n": 370,
+      "slug": "omlx",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "bojieli/ai-agent-book",
+      "rank": 11,
+      "stars": 39.1,
+      "today_n": 543,
+      "slug": "ai-agent-book",
+      "cat": "other",
+      "lang": "Python"
+    },
+    {
+      "full": "genlayerlabs/genlayer-project-boilerplate",
+      "rank": 12,
+      "stars": 15.9,
+      "today_n": 535,
+      "slug": "genlayer-project-boilerplate",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "OpenCut-app/OpenCut",
+      "rank": 13,
+      "stars": 84.8,
+      "today_n": 192,
+      "slug": "opencut",
+      "cat": "infra",
+      "lang": "TypeScript"
+    }
+  ]
+}
