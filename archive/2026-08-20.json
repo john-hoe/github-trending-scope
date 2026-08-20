@@ -1,0 +1,123 @@
+{
+  "date": "2026-08-20",
+  "generated_at": "2026-08-20 08:42 (CST)",
+  "repos": [
+    {
+      "full": "harry0703/MoneyPrinterTurbo",
+      "rank": 1,
+      "stars": 110.6,
+      "today_n": 2221,
+      "slug": "moneyprinterturbo",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "volcengine/OpenViking",
+      "rank": 2,
+      "stars": 30.2,
+      "today_n": 804,
+      "slug": "openviking",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "chaitanyagiri/munder-difflin",
+      "rank": 3,
+      "stars": 2.7,
+      "today_n": 795,
+      "slug": "munder-difflin",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "mukul975/Anthropic-Cybersecurity-Skills",
+      "rank": 4,
+      "stars": 29.8,
+      "today_n": 766,
+      "slug": "anthropic-cybersecurity-skills",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "nautechsystems/nautilus_trader",
+      "rank": 5,
+      "stars": 26.4,
+      "today_n": 80,
+      "slug": "nautilus_trader",
+      "cat": "infra",
+      "lang": "Rust"
+    },
+    {
+      "full": "mattpocock/skills",
+      "rank": 6,
+      "stars": 223.8,
+      "today_n": 1894,
+      "slug": "skills",
+      "cat": "agent",
+      "lang": "Shell"
+    },
+    {
+      "full": "obra/superpowers",
+      "rank": 7,
+      "stars": 274.3,
+      "today_n": 557,
+      "slug": "superpowers",
+      "cat": "agent",
+      "lang": "Shell"
+    },
+    {
+      "full": "jundot/omlx",
+      "rank": 8,
+      "stars": 19.8,
+      "today_n": 472,
+      "slug": "omlx",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "santifer/career-ops",
+      "rank": 9,
+      "stars": 65.8,
+      "today_n": 198,
+      "slug": "career-ops",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "immich-app/immich",
+      "rank": 10,
+      "stars": 111.9,
+      "today_n": 128,
+      "slug": "immich",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "amadeusprotocol/node",
+      "rank": 11,
+      "stars": 4.5,
+      "today_n": 1397,
+      "slug": "node",
+      "cat": "infra",
+      "lang": "Rust"
+    },
+    {
+      "full": "marceloprates/prettymaps",
+      "rank": 12,
+      "stars": 13.1,
+      "today_n": 63,
+      "slug": "prettymaps",
+      "cat": "other",
+      "lang": "Python"
+    },
+    {
+      "full": "genlayerlabs/genlayer-project-boilerplate",
+      "rank": 13,
+      "stars": 16.2,
+      "today_n": 430,
+      "slug": "genlayer-project-boilerplate",
+      "cat": "infra",
+      "lang": "TypeScript"
+    }
+  ]
+}
