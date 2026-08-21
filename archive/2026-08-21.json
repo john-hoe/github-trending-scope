@@ -1,0 +1,159 @@
+{
+  "date": "2026-08-21",
+  "generated_at": "2026-08-21 08:43 (CST)",
+  "repos": [
+    {
+      "full": "modular/modular",
+      "rank": 1,
+      "stars": 27.9,
+      "today_n": 268,
+      "slug": "modular",
+      "cat": "infra",
+      "lang": "Mojo"
+    },
+    {
+      "full": "mattpocock/skills",
+      "rank": 2,
+      "stars": 226.5,
+      "today_n": 2192,
+      "slug": "skills",
+      "cat": "agent",
+      "lang": "Shell"
+    },
+    {
+      "full": "AprilNEA/OpenLogi",
+      "rank": 3,
+      "stars": 11.9,
+      "today_n": 1545,
+      "slug": "openlogi",
+      "cat": "other",
+      "lang": "Rust"
+    },
+    {
+      "full": "obra/superpowers",
+      "rank": 4,
+      "stars": 274.9,
+      "today_n": 727,
+      "slug": "superpowers",
+      "cat": "agent",
+      "lang": "Shell"
+    },
+    {
+      "full": "cursor/plugins",
+      "rank": 5,
+      "stars": 4.1,
+      "today_n": 449,
+      "slug": "plugins",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "santifer/career-ops",
+      "rank": 6,
+      "stars": 66.7,
+      "today_n": 816,
+      "slug": "career-ops",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "akitaonrails/ai-memory",
+      "rank": 7,
+      "stars": 3.6,
+      "today_n": 332,
+      "slug": "ai-memory",
+      "cat": "agent",
+      "lang": "Rust"
+    },
+    {
+      "full": "harry0703/MoneyPrinterTurbo",
+      "rank": 8,
+      "stars": 112.9,
+      "today_n": 2761,
+      "slug": "moneyprinterturbo",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "agent-substrate/substrate",
+      "rank": 9,
+      "stars": 1.4,
+      "today_n": 22,
+      "slug": "substrate",
+      "cat": "infra",
+      "lang": "Go"
+    },
+    {
+      "full": "chaitanyagiri/munder-difflin",
+      "rank": 10,
+      "stars": 3.1,
+      "today_n": 507,
+      "slug": "munder-difflin",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "PostHog/posthog",
+      "rank": 11,
+      "stars": 38.0,
+      "today_n": 60,
+      "slug": "posthog",
+      "cat": "infra",
+      "lang": "Python"
+    },
+    {
+      "full": "mahlernim/google-timeline-visualizer",
+      "rank": 12,
+      "stars": 1.5,
+      "today_n": 657,
+      "slug": "google-timeline-visualizer",
+      "cat": "other",
+      "lang": "Kotlin"
+    },
+    {
+      "full": "volcengine/OpenViking",
+      "rank": 13,
+      "stars": 31.0,
+      "today_n": 950,
+      "slug": "openviking",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "JuliusBrussee/caveman",
+      "rank": 14,
+      "stars": 99.6,
+      "today_n": 258,
+      "slug": "caveman",
+      "cat": "agent",
+      "lang": "Go"
+    },
+    {
+      "full": "makeplane/plane",
+      "rank": 15,
+      "stars": 56.5,
+      "today_n": 98,
+      "slug": "plane",
+      "cat": "other",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "Tencent/AI-Infra-Guard",
+      "rank": 16,
+      "stars": 5.0,
+      "today_n": 50,
+      "slug": "ai-infra-guard",
+      "cat": "infra",
+      "lang": "Python"
+    },
+    {
+      "full": "RyanCodrai/turbovec",
+      "rank": 17,
+      "stars": 15.9,
+      "today_n": 230,
+      "slug": "turbovec",
+      "cat": "infra",
+      "lang": "Rust"
+    }
+  ]
+}
