@@ -26,6 +26,23 @@ def archive(day, repos):
     }
 
 
+def complete_llm_review():
+    return {
+        "cat": "infra",
+        "tag_zh": "面向开发团队的完整中文定位", "tag_en": "Complete positioning for developer teams",
+        "what_zh": "这是足够完整的中文项目功能介绍，用于验证模型输出质量。",
+        "what_en": "This is a complete explanation of the repository and the problem it solves.",
+        "content_zh": "仓库包含核心模块、使用文档以及可运行的示例项目。",
+        "content_en": "The repository contains core modules, documentation, and runnable examples.",
+        "stack_zh": "项目采用 Python 实现，并依赖常见的标准开发工具链。",
+        "stack_en": "The project uses Python and a conventional open-source development toolchain.",
+        "hot_zh": "项目解决了清晰的工程问题，因此持续获得开发者关注。",
+        "hot_en": "It addresses a clear engineering need and continues to attract developer attention.",
+        "uses_zh": ["开发者学习项目内部实现与模块组织方式", "团队评估技术路线、依赖以及落地成本"],
+        "uses_en": ["Developers studying the internal implementation", "Teams evaluating architecture and adoption cost"],
+    }
+
+
 class ClassificationTests(unittest.TestCase):
     def test_short_ml_keyword_does_not_match_html(self):
         self.assertEqual(UPDATE.classify("owner/html-tool", "An HTML parser"), "infra")
@@ -82,15 +99,7 @@ class FetchTests(unittest.TestCase):
 
 class LLMReviewTests(unittest.TestCase):
     def test_transient_llm_failure_is_retried(self):
-        review = {
-            "cat": "infra",
-            "tag_zh": "中文定位", "tag_en": "English positioning",
-            "what_zh": "中文说明。", "what_en": "English explanation.",
-            "content_zh": "仓库内容。", "content_en": "Repository contents.",
-            "stack_zh": "技术栈。", "stack_en": "Technology stack.",
-            "hot_zh": "热度原因。", "hot_en": "Why it is hot.",
-            "uses_zh": ["使用场景"], "uses_en": ["Use case"],
-        }
+        review = complete_llm_review()
         response = mock.MagicMock()
         response.__enter__.return_value.read.return_value = json.dumps({
             "choices": [{"message": {"content": json.dumps(review)}}]
@@ -100,7 +109,7 @@ class LLMReviewTests(unittest.TestCase):
         with mock.patch.object(UPDATE.urllib.request, "urlopen", side_effect=[OSError("temporary"), response]) as open_mock, \
              mock.patch.object(UPDATE.time, "sleep") as sleep_mock:
             result = UPDATE.llm_review("owner/repo", "desc", "Python", 10, 2, 1, "daily", "all", cfg)
-        self.assertEqual(result["zh"]["tag"], "中文定位")
+        self.assertEqual(result["zh"]["tag"], review["tag_zh"])
         self.assertEqual(open_mock.call_count, 2)
         sleep_mock.assert_called_once()
 
@@ -123,15 +132,7 @@ class LLMReviewTests(unittest.TestCase):
         self.assertIn("HTTP 403: usage limit exhausted", str(print_mock.call_args))
 
     def test_llm_requests_identify_the_real_client_and_cap_output(self):
-        review = {
-            "cat": "infra",
-            "tag_zh": "中文定位", "tag_en": "English positioning",
-            "what_zh": "中文说明。", "what_en": "English explanation.",
-            "content_zh": "仓库内容。", "content_en": "Repository contents.",
-            "stack_zh": "技术栈。", "stack_en": "Technology stack.",
-            "hot_zh": "热度原因。", "hot_en": "Why it is hot.",
-            "uses_zh": ["使用场景"], "uses_en": ["Use case"],
-        }
+        review = complete_llm_review()
         response = mock.MagicMock()
         response.__enter__.return_value.read.return_value = json.dumps({
             "choices": [{"message": {"content": json.dumps(review)}}]
@@ -145,15 +146,7 @@ class LLMReviewTests(unittest.TestCase):
         self.assertEqual(json.loads(request.data)["max_tokens"], 1800)
 
     def test_openai_compatible_request_supports_json_and_thinking_controls(self):
-        review = {
-            "cat": "infra",
-            "tag_zh": "中文定位", "tag_en": "English positioning",
-            "what_zh": "中文说明。", "what_en": "English explanation.",
-            "content_zh": "仓库内容。", "content_en": "Repository contents.",
-            "stack_zh": "技术栈。", "stack_en": "Technology stack.",
-            "hot_zh": "热度原因。", "hot_en": "Why it is hot.",
-            "uses_zh": ["使用场景"], "uses_en": ["Use case"],
-        }
+        review = complete_llm_review()
         response = mock.MagicMock()
         response.__enter__.return_value.read.return_value = json.dumps({
             "choices": [{"message": {"content": json.dumps(review)}}]
@@ -166,6 +159,32 @@ class LLMReviewTests(unittest.TestCase):
         request_body = json.loads(open_mock.call_args.args[0].data)
         self.assertEqual(request_body["response_format"], {"type": "json_object"})
         self.assertEqual(request_body["thinking"], {"type": "disabled"})
+
+    def test_quality_failure_is_reprompted_before_acceptance(self):
+        invalid = complete_llm_review()
+        invalid["uses_zh"] = ["短场景"]
+        valid = complete_llm_review()
+
+        def response(payload):
+            mocked = mock.MagicMock()
+            mocked.__enter__.return_value.read.return_value = json.dumps({
+                "choices": [{"message": {"content": json.dumps(payload)}}]
+            }).encode()
+            return mocked
+
+        cfg = {"protocol": "openai", "base": "https://example.test", "key": "k",
+               "model": "m", "readme": False, "retries": 2}
+        with mock.patch.object(
+            UPDATE.urllib.request, "urlopen", side_effect=[response(invalid), response(valid)]
+        ) as open_mock:
+            result = UPDATE.llm_review(
+                "etcd-io/etcd", "distributed key-value store", "Go", 100, 5, 1, "daily", "all", cfg
+            )
+
+        self.assertEqual(open_mock.call_count, 2)
+        self.assertEqual(result["zh"]["uses"], valid["uses_zh"])
+        retry_prompt = json.loads(open_mock.call_args_list[1].args[0].data)["messages"][1]["content"]
+        self.assertIn("reviewed uses need at least 2 items", retry_prompt)
 
     def test_openai_compatible_request_omits_optional_provider_controls_by_default(self):
         response = mock.MagicMock()
@@ -341,6 +360,13 @@ class ValidationTests(unittest.TestCase):
         errors = UPDATE.validate(self.data, 1, 1, True, require_reviewed=True)
         self.assertTrue(any("shorter than" in error for error in errors), errors)
         self.assertTrue(any("uses need at least 2" in error for error in errors), errors)
+
+    def test_reviewed_gate_reports_non_list_uses_without_crashing(self):
+        self.repo["auto"] = False
+        self.repo["zh"]["uses"] = "not-a-list"
+        errors = UPDATE.validate(self.data, 1, 1, True, require_reviewed=True)
+        self.assertTrue(any("zh: uses not a list" in error for error in errors), errors)
+        self.assertTrue(any("zh: reviewed uses is empty" in error for error in errors), errors)
 
     def test_reviewed_gate_rejects_non_chinese_zh_copy(self):
         self.repo["auto"] = False

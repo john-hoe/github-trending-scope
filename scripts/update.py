@@ -277,8 +277,8 @@ LLM_PROMPT = """你是「Trending Scope」的编辑，为 GitHub 热榜仓库撰
   "content_zh": "仓库里有什么（目录/组成/形态），1~2句", "content_en": "what's inside, 1-2 sentences",
   "stack_zh": "技术栈与依赖，1~2句", "stack_en": "tech stack, 1-2 sentences",
   "hot_zh": "为什么火，1~2句，结合 star 数据", "hot_en": "why it's hot, 1-2 sentences, tie to the star numbers",
-  "uses_zh": ["适用人群/场景 —— 一句话说明", "……共2~4条"],
-  "uses_en": ["audience/scenario — one line each", "……2-4 items"]
+  "uses_zh": ["适用人群/场景 —— 一句话说明，每条至少10个字符", "……共2~4条"],
+  "uses_en": ["audience/scenario — one line each, at least 10 characters", "……2-4 items"]
 }}
 仓库：{full}
 描述：{desc}
@@ -332,8 +332,47 @@ def fetch_readme(full: str, timeout: int = 15) -> str:
         return ""
 
 
+def review_quality_errors(full: str, zh: dict, en: dict, strict: bool = False) -> list:
+    """Validate reviewed copy independently so LLM acceptance and final publish cannot drift."""
+    errors = []
+    for loc, blk in (("zh", zh), ("en", en)):
+        blk = blk if isinstance(blk, dict) else {}
+        for key in REQUIRED_TEXT_KEYS[:-1]:
+            if not isinstance(blk.get(key), str) or not blk[key].strip():
+                errors.append(f"{full}/{loc}: reviewed {key} is empty")
+        uses = blk.get("uses")
+        if not isinstance(uses, list) or not [u for u in uses if isinstance(u, str) and u.strip()]:
+            errors.append(f"{full}/{loc}: reviewed uses is empty")
+        reviewed_text = " ".join(
+            [str(blk.get(key, "")) for key in REQUIRED_TEXT_KEYS[:-1]]
+            + [str(use) for use in (uses if isinstance(uses, list) else [])]
+        ).lower()
+        if any(marker in reviewed_text for marker in PLACEHOLDER_MARKERS):
+            errors.append(f"{full}/{loc}: reviewed placeholder text remains")
+        if strict:
+            for key in REQUIRED_TEXT_KEYS[:-1]:
+                minimum = 8 if key == "tag" else 20
+                value = blk.get(key)
+                if not isinstance(value, str) or len(" ".join(value.split())) < minimum:
+                    errors.append(f"{full}/{loc}: reviewed {key} is shorter than {minimum} characters")
+            if (not isinstance(uses, list) or len(uses) < 2
+                    or any(not isinstance(use, str) or len(" ".join(use.split())) < 10 for use in uses)):
+                errors.append(f"{full}/{loc}: reviewed uses need at least 2 items of 10 characters")
+        if loc == "zh":
+            for key in REQUIRED_TEXT_KEYS[:-1]:
+                value = blk.get(key)
+                if isinstance(value, str) and value.strip() and not CJK_RE.search(value):
+                    errors.append(f"{full}/zh: reviewed {key} has no Chinese text")
+            if isinstance(uses, list):
+                for use in uses:
+                    if isinstance(use, str) and use.strip() and not CJK_RE.search(use):
+                        errors.append(f"{full}/zh: reviewed use case has no Chinese text")
+    return errors
+
+
 def llm_review(full: str, desc: str, lang, stars_n: int, today_n: int,
-               rank: int, rng: str, lang_id: str, cfg: dict) -> "dict | None":
+               rank: int, rng: str, lang_id: str, cfg: dict,
+               _quality_attempt: int = 1, _quality_feedback: str = "") -> "dict | None":
     """调 OpenAI 兼容接口生成双语精评；任何一步失败返回 None（调用方降级自动摘要）。"""
     readme = fetch_readme(full) if cfg["readme"] else ""
     board_desc = f"{RNG_ZH[rng]}榜" if lang_id == "all" \
@@ -343,6 +382,9 @@ def llm_review(full: str, desc: str, lang, stars_n: int, today_n: int,
         stars_n=stars_n, gain_zh=GAIN_ZH[rng], today_n=today_n,
         board_desc=board_desc, rank=rank,
         readme_block=f"README 摘录：{readme}" if readme else "")
+    if _quality_feedback:
+        prompt += ("\n\n上一版未通过发布质量校验：" + _quality_feedback
+                   + "。请重新输出完整 JSON；不要解释，确保中英文 uses 各有 2~4 条且每条至少 10 个字符。")
     if cfg.get("protocol") == "anthropic":
         body = json.dumps({
             "model": cfg["model"], "max_tokens": cfg.get("max_tokens", 1800),
@@ -431,7 +473,20 @@ def llm_review(full: str, desc: str, lang, stars_n: int, today_n: int,
         print(f"[llm] {full}: incomplete fields, falling back to auto summary")
         return None
     cat = obj.get("cat") if obj.get("cat") in CATS else classify(full, desc)
-    return {"cat": cat, "zh": zh, "en": en}
+    result = {"cat": cat, "zh": zh, "en": en}
+    quality_errors = review_quality_errors(full, zh, en, strict=True)
+    if quality_errors:
+        quality_retries = max(1, int(cfg.get("quality_retries", cfg.get("retries", 3))))
+        feedback = "; ".join(error.split(": ", 1)[-1] for error in quality_errors)
+        if _quality_attempt < quality_retries:
+            print(f"[llm] {full}: quality check failed on attempt {_quality_attempt}; retrying: {feedback}")
+            return llm_review(
+                full, desc, lang, stars_n, today_n, rank, rng, lang_id, cfg,
+                _quality_attempt=_quality_attempt + 1, _quality_feedback=feedback,
+            )
+        print(f"[llm] {full}: quality check failed after {quality_retries} attempt(s): {feedback}")
+        return None
+    return result
 
 
 def polish_with_llm(registry: dict, order: list, new_fulls: set,
@@ -691,40 +746,10 @@ def validate(data: dict, min_repos: int, min_board_repos: int = 1,
                     errors.append(f"{r.get('full','?')}/{loc}: missing {k}")
             if not isinstance(blk.get("uses"), list):
                 errors.append(f"{r.get('full','?')}/{loc}: uses not a list")
-            if not r.get("auto"):
-                for k in REQUIRED_TEXT_KEYS[:-1]:
-                    if not isinstance(blk.get(k), str) or not blk[k].strip():
-                        errors.append(f"{r.get('full','?')}/{loc}: reviewed {k} is empty")
-                if not isinstance(blk.get("uses"), list) or not [u for u in blk["uses"] if isinstance(u, str) and u.strip()]:
-                    errors.append(f"{r.get('full','?')}/{loc}: reviewed uses is empty")
-                reviewed_text = " ".join(
-                    [str(blk.get(k, "")) for k in REQUIRED_TEXT_KEYS[:-1]]
-                    + [str(u) for u in blk.get("uses", [])]
-                ).lower()
-                if any(marker in reviewed_text for marker in PLACEHOLDER_MARKERS):
-                    errors.append(f"{r.get('full','?')}/{loc}: reviewed placeholder text remains")
-                if require_reviewed:
-                    for k in REQUIRED_TEXT_KEYS[:-1]:
-                        minimum = 8 if k == "tag" else 20
-                        value = blk.get(k)
-                        if not isinstance(value, str) or len(" ".join(value.split())) < minimum:
-                            errors.append(
-                                f"{r.get('full','?')}/{loc}: reviewed {k} is shorter than {minimum} characters"
-                            )
-                    uses = blk.get("uses")
-                    if (not isinstance(uses, list) or len(uses) < 2
-                            or any(not isinstance(use, str) or len(" ".join(use.split())) < 10 for use in uses)):
-                        errors.append(
-                            f"{r.get('full','?')}/{loc}: reviewed uses need at least 2 items of 10 characters"
-                        )
-                if loc == "zh":
-                    for k in REQUIRED_TEXT_KEYS[:-1]:
-                        value = blk.get(k)
-                        if isinstance(value, str) and value.strip() and not CJK_RE.search(value):
-                            errors.append(f"{r.get('full','?')}/zh: reviewed {k} has no Chinese text")
-                    for use in blk.get("uses", []):
-                        if isinstance(use, str) and use.strip() and not CJK_RE.search(use):
-                            errors.append(f"{r.get('full','?')}/zh: reviewed use case has no Chinese text")
+        if not r.get("auto"):
+            errors.extend(review_quality_errors(
+                r.get("full", "?"), r.get("zh", {}), r.get("en", {}), strict=require_reviewed
+            ))
     return errors
 
 
