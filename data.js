@@ -2,16 +2,16 @@
 window.TRENDING_DATA = {
   "schema": 2,
   "meta": {
-    "date": "2026-08-23",
-    "generated_at": "2026-08-23 21:27 (CST)",
+    "date": "2026-08-24",
+    "generated_at": "2026-08-24 08:40 (CST)",
     "source": "github.com/trending",
     "criteria": "Repositories · Today/Week/Month · All languages · logged out",
     "headline_zh": "今日热榜全景速递",
     "headline_en": "Your daily trending digest",
-    "sub_zh": "18 个上榜仓库：Agent 工具链 12 个、AI 应用与模型 2 个、学习 & 游戏 3 个、平台·数据·应用 1 个。今日新增 Star 前三：openai/codex（+2.7k）、mattpocock/skills（+2.4k）、Alishahryar1/free-claude-code（+1.0k）。点击任意卡片查看深度解析。",
-    "sub_en": "18 trending repos: 12 Agent Tooling, 2 AI Apps & Models, 3 Learning & Gaming, 1 Platforms, Data & Apps. Biggest star gainers today: openai/codex (+2.7k), mattpocock/skills (+2.4k), Alishahryar1/free-claude-code (+1.0k). Click any card for a deep dive.",
-    "footer_zh": "Trending Scope · 数据更新于 2026-08-23 21:27 (CST)，由自动化管线直连 github.com 抓取",
-    "footer_en": "Trending Scope · Data updated 2026-08-23 21:27 (CST) by the automated pipeline, fetched directly from github.com"
+    "sub_zh": "18 个上榜仓库：Agent 工具链 12 个、AI 应用与模型 2 个、学习 & 游戏 3 个、平台·数据·应用 1 个。今日新增 Star 前三：openai/codex（+2.7k）、mattpocock/skills（+2.4k）、Alishahryar1/free-claude-code（+1.1k）。点击任意卡片查看深度解析。",
+    "sub_en": "18 trending repos: 12 Agent Tooling, 2 AI Apps & Models, 3 Learning & Gaming, 1 Platforms, Data & Apps. Biggest star gainers today: openai/codex (+2.7k), mattpocock/skills (+2.4k), Alishahryar1/free-claude-code (+1.1k). Click any card for a deep dive.",
+    "footer_zh": "Trending Scope · 数据更新于 2026-08-24 08:40 (CST)，由自动化管线直连 github.com 抓取",
+    "footer_en": "Trending Scope · Data updated 2026-08-24 08:40 (CST) by the automated pipeline, fetched directly from github.com"
   },
   "cats": {
     "agent": {
@@ -71,79 +71,79 @@ window.TRENDING_DATA = {
         {
           "full": "openai/codex",
           "rank": 1,
-          "stars": 114.8,
+          "stars": 115.2,
           "today": "+2.7k",
-          "today_n": 2729,
+          "today_n": 2715,
           "cat": "agent"
         },
         {
           "full": "freestylefly/awesome-gpt-image-2",
           "rank": 2,
-          "stars": 12.4,
-          "today": "+628",
-          "today_n": 628,
+          "stars": 12.7,
+          "today": "+401",
+          "today_n": 401,
           "cat": "ai"
         },
         {
           "full": "mattpocock/skills",
           "rank": 3,
-          "stars": 233.3,
+          "stars": 233.8,
           "today": "+2.4k",
-          "today_n": 2448,
+          "today_n": 2447,
           "cat": "agent"
         },
         {
           "full": "basecamp/omarchy",
           "rank": 4,
-          "stars": 28.7,
-          "today": "+803",
-          "today_n": 803,
+          "stars": 29.1,
+          "today": "+750",
+          "today_n": 750,
           "cat": "other"
         },
         {
           "full": "AprilNEA/OpenLogi",
           "rank": 5,
-          "stars": 14.4,
+          "stars": 14.9,
           "today": "+1.0k",
-          "today_n": 1008,
+          "today_n": 1009,
           "cat": "other"
         },
         {
           "full": "block/buzz",
           "rank": 6,
-          "stars": 29.9,
-          "today": "+564",
-          "today_n": 564,
+          "stars": 30.1,
+          "today": "+410",
+          "today_n": 410,
           "cat": "agent"
         },
         {
           "full": "apache/maka",
           "rank": 7,
-          "stars": 2.2,
-          "today": "+49",
-          "today_n": 49,
-          "cat": "agent"
-        },
-        {
-          "full": "Alishahryar1/free-claude-code",
-          "rank": 8,
-          "stars": 47.6,
-          "today": "+1.0k",
-          "today_n": 1040,
-          "cat": "agent"
-        },
-        {
-          "full": "tinyhumansai/openhuman",
-          "rank": 9,
-          "stars": 36.5,
+          "stars": 2.3,
           "today": "+51",
           "today_n": 51,
           "cat": "agent"
         },
         {
+          "full": "Alishahryar1/free-claude-code",
+          "rank": 8,
+          "stars": 48.0,
+          "today": "+1.1k",
+          "today_n": 1081,
+          "cat": "agent"
+        },
+        {
+          "full": "tinyhumansai/openhuman",
+          "rank": 9,
+          "stars": 36.7,
+          "today": "+39",
+          "today_n": 39,
+          "cat": "agent"
+        },
+        {
           "full": "affaan-m/ECC",
           "rank": 10,
-          "stars": 242.4,
+          "stars": 242.6,
           "today": "+427",
           "today_n": 427,
           "cat": "agent"
@@ -151,65 +151,65 @@ window.TRENDING_DATA = {
         {
           "full": "ruvnet/ruflo",
           "rank": 11,
-          "stars": 68.9,
-          "today": "+134",
-          "today_n": 134,
+          "stars": 69.1,
+          "today": "+131",
+          "today_n": 131,
           "cat": "agent"
         },
         {
           "full": "VoltAgent/awesome-agent-skills",
           "rank": 12,
-          "stars": 31.0,
-          "today": "+237",
-          "today_n": 237,
+          "stars": 31.3,
+          "today": "+156",
+          "today_n": 156,
           "cat": "agent"
         },
         {
           "full": "virgiliojr94/book-to-skill",
           "rank": 13,
-          "stars": 24.4,
-          "today": "+423",
-          "today_n": 423,
+          "stars": 24.7,
+          "today": "+417",
+          "today_n": 417,
           "cat": "agent"
         },
         {
           "full": "dani-garcia/vaultwarden",
           "rank": 14,
-          "stars": 65.9,
-          "today": "+68",
-          "today_n": 68,
+          "stars": 66.0,
+          "today": "+78",
+          "today_n": 78,
           "cat": "infra"
         },
         {
           "full": "anthropics/claude-plugins-community",
           "rank": 15,
-          "stars": 0.7,
-          "today": "+190",
-          "today_n": 190,
+          "stars": 0.9,
+          "today": "+225",
+          "today_n": 225,
           "cat": "agent"
         },
         {
           "full": "ripienaar/free-for-dev",
           "rank": 16,
-          "stars": 134.2,
-          "today": "+593",
-          "today_n": 593,
+          "stars": 134.4,
+          "today": "+615",
+          "today_n": 615,
           "cat": "other"
         },
         {
           "full": "Comfy-Org/ComfyUI",
           "rank": 17,
-          "stars": 129.2,
-          "today": "+179",
-          "today_n": 179,
+          "stars": 129.4,
+          "today": "+201",
+          "today_n": 201,
           "cat": "ai"
         },
         {
           "full": "NousResearch/hermes-agent",
           "rank": 18,
-          "stars": 234.7,
-          "today": "+443",
-          "today_n": 443,
+          "stars": 235.0,
+          "today": "+454",
+          "today_n": 454,
           "cat": "agent"
         }
       ],
@@ -217,51 +217,51 @@ window.TRENDING_DATA = {
         {
           "full": "Alishahryar1/free-claude-code",
           "rank": 1,
-          "stars": 47.6,
-          "today": "+1.0k",
-          "today_n": 1040
+          "stars": 48.0,
+          "today": "+1.1k",
+          "today_n": 1081
         },
         {
           "full": "virgiliojr94/book-to-skill",
           "rank": 2,
-          "stars": 24.4,
-          "today": "+423",
-          "today_n": 423
+          "stars": 24.7,
+          "today": "+417",
+          "today_n": 417
         },
         {
           "full": "anthropics/claude-plugins-community",
           "rank": 3,
-          "stars": 0.7,
-          "today": "+190",
-          "today_n": 190
+          "stars": 0.9,
+          "today": "+225",
+          "today_n": 225
         },
         {
           "full": "Comfy-Org/ComfyUI",
           "rank": 4,
-          "stars": 129.2,
-          "today": "+179",
-          "today_n": 179
+          "stars": 129.4,
+          "today": "+201",
+          "today_n": 201
         },
         {
           "full": "NousResearch/hermes-agent",
           "rank": 5,
-          "stars": 234.7,
-          "today": "+443",
-          "today_n": 443
+          "stars": 235.0,
+          "today": "+454",
+          "today_n": 454
         },
         {
           "full": "elder-plinius/OBLITERATUS",
           "rank": 6,
           "stars": 8.0,
-          "today": "+42",
-          "today_n": 42
+          "today": "+30",
+          "today_n": 30
         },
         {
           "full": "PostHog/posthog",
           "rank": 7,
           "stars": 38.8,
-          "today": "+328",
-          "today_n": 328
+          "today": "+293",
+          "today_n": 293
         },
         {
           "full": "Significant-Gravitas/AutoGPT",
@@ -274,129 +274,129 @@ window.TRENDING_DATA = {
           "full": "NVIDIA-NeMo/Speech",
           "rank": 9,
           "stars": 18.3,
-          "today": "+45",
-          "today_n": 45
+          "today": "+38",
+          "today_n": 38
         },
         {
           "full": "anthropics/claude-code",
           "rank": 10,
-          "stars": 142.7,
-          "today": "+377",
-          "today_n": 377
+          "stars": 142.8,
+          "today": "+361",
+          "today_n": 361
         },
         {
           "full": "davila7/claude-code-templates",
           "rank": 11,
           "stars": 30.4,
-          "today": "+22",
-          "today_n": 22
+          "today": "+25",
+          "today_n": 25
         },
         {
           "full": "django/django",
           "rank": 12,
-          "stars": 88.7,
-          "today": "+38",
-          "today_n": 38
+          "stars": 88.8,
+          "today": "+40",
+          "today_n": 40
         },
         {
           "full": "debpalash/VoiceStudio",
           "rank": 13,
           "stars": 11.4,
-          "today": "+119",
-          "today_n": 119
+          "today": "+193",
+          "today_n": 193
         },
         {
           "full": "davepoon/buildwithclaude",
           "rank": 14,
           "stars": 3.3,
-          "today": "+8",
-          "today_n": 8
+          "today": "+9",
+          "today_n": 9
         },
         {
           "full": "unclecode/crawl4ai",
           "rank": 15,
           "stars": 79.2,
-          "today": "+151",
-          "today_n": 151
+          "today": "+153",
+          "today_n": 153
         },
         {
           "full": "bytedance/deer-flow",
           "rank": 16,
-          "stars": 80.6,
-          "today": "+93",
-          "today_n": 93
+          "stars": 80.7,
+          "today": "+115",
+          "today_n": 115
         },
         {
           "full": "shy3130/tick-stock-panel",
           "rank": 17,
           "stars": 3.5,
-          "today": "+82",
-          "today_n": 82
+          "today": "+79",
+          "today_n": 79
         },
         {
           "full": "666ghj/MiroFish",
           "rank": 18,
-          "stars": 71.4,
-          "today": "+48",
-          "today_n": 48
+          "stars": 71.5,
+          "today": "+52",
+          "today_n": 52
         }
       ],
       "typescript": [
         {
           "full": "apache/maka",
           "rank": 1,
-          "stars": 2.2,
-          "today": "+49",
-          "today_n": 49
+          "stars": 2.3,
+          "today": "+51",
+          "today_n": 51
         },
         {
           "full": "ruvnet/ruflo",
           "rank": 2,
-          "stars": 68.9,
-          "today": "+134",
-          "today_n": 134
+          "stars": 69.1,
+          "today": "+131",
+          "today_n": 131
         },
         {
           "full": "anomalyco/opencode",
           "rank": 3,
-          "stars": 200.5,
-          "today": "+421",
-          "today_n": 421
+          "stars": 200.7,
+          "today": "+368",
+          "today_n": 368
         },
         {
           "full": "withastro/astro",
           "rank": 4,
           "stars": 62.0,
-          "today": "+32",
-          "today_n": 32
+          "today": "+43",
+          "today_n": 43
         },
         {
           "full": "bookorbit/bookorbit",
           "rank": 5,
           "stars": 3.0,
-          "today": "+296",
-          "today_n": 296
+          "today": "+204",
+          "today_n": 204
         },
         {
           "full": "proliferate-ai/proliferate",
           "rank": 6,
           "stars": 0.3,
-          "today": "+45",
-          "today_n": 45
+          "today": "+32",
+          "today_n": 32
         },
         {
           "full": "facebook/astryx",
           "rank": 7,
           "stars": 12.3,
-          "today": "+43",
-          "today_n": 43
+          "today": "+27",
+          "today_n": 27
         },
         {
           "full": "diegosouzapw/OmniRoute",
           "rank": 8,
-          "stars": 53.6,
-          "today": "+641",
-          "today_n": 641
+          "stars": 53.9,
+          "today": "+597",
+          "today_n": 597
         },
         {
           "full": "laurent22/joplin",
@@ -409,71 +409,71 @@ window.TRENDING_DATA = {
           "full": "ibelick/ui-skills",
           "rank": 10,
           "stars": 7.5,
-          "today": "+110",
-          "today_n": 110
+          "today": "+94",
+          "today_n": 94
         },
         {
           "full": "makeplane/plane",
           "rank": 11,
-          "stars": 57.4,
-          "today": "+404",
-          "today_n": 404
+          "stars": 57.6,
+          "today": "+390",
+          "today_n": 390
         },
         {
           "full": "can1357/oh-my-pi",
           "rank": 12,
-          "stars": 26.6,
-          "today": "+230",
-          "today_n": 230
+          "stars": 26.8,
+          "today": "+229",
+          "today_n": 229
         },
         {
           "full": "moeru-ai/airi",
           "rank": 13,
           "stars": 48.3,
-          "today": "+49",
-          "today_n": 49
+          "today": "+54",
+          "today_n": 54
         },
         {
           "full": "AnmolSaini16/mapcn",
           "rank": 14,
           "stars": 11.8,
-          "today": "+184",
-          "today_n": 184
+          "today": "+216",
+          "today_n": 216
         },
         {
           "full": "DefinitelyTyped/DefinitelyTyped",
           "rank": 15,
           "stars": 51.4,
-          "today": "+2",
-          "today_n": 2
+          "today": "+3",
+          "today_n": 3
         },
         {
           "full": "google-gemini/gemini-cli",
           "rank": 16,
           "stars": 106.6,
-          "today": "+30",
-          "today_n": 30
+          "today": "+35",
+          "today_n": 35
         },
         {
           "full": "heygen-com/hyperframes",
           "rank": 17,
-          "stars": 42.2,
-          "today": "+149",
-          "today_n": 149
+          "stars": 42.3,
+          "today": "+176",
+          "today_n": 176
         },
         {
           "full": "twentyhq/twenty",
           "rank": 18,
           "stars": 55.4,
-          "today": "+59",
-          "today_n": 59
+          "today": "+57",
+          "today_n": 57
         },
         {
           "full": "superset-sh/superset",
           "rank": 19,
-          "stars": 13.2,
-          "today": "+29",
-          "today_n": 29
+          "stars": 13.3,
+          "today": "+28",
+          "today_n": 28
         },
         {
           "full": "nocodb/nocodb",
@@ -485,23 +485,23 @@ window.TRENDING_DATA = {
         {
           "full": "n8n-io/n8n",
           "rank": 21,
-          "stars": 202.1,
-          "today": "+480",
-          "today_n": 480
+          "stars": 202.2,
+          "today": "+476",
+          "today_n": 476
         }
       ],
       "javascript": [
         {
           "full": "freestylefly/awesome-gpt-image-2",
           "rank": 1,
-          "stars": 12.4,
-          "today": "+628",
-          "today_n": 628
+          "stars": 12.7,
+          "today": "+401",
+          "today_n": 401
         },
         {
           "full": "affaan-m/ECC",
           "rank": 2,
-          "stars": 242.4,
+          "stars": 242.6,
           "today": "+427",
           "today_n": 427
         },
@@ -509,164 +509,171 @@ window.TRENDING_DATA = {
           "full": "TryGhost/Ghost",
           "rank": 3,
           "stars": 55.0,
-          "today": "+23",
-          "today_n": 23
+          "today": "+9",
+          "today_n": 9
+        },
+        {
+          "full": "is-a-dev/register",
+          "rank": 4,
+          "stars": 11.1,
+          "today": "+7",
+          "today_n": 7
         },
         {
           "full": "byoungd/up",
-          "rank": 4,
-          "stars": 60.9,
-          "today": "+375",
-          "today_n": 375
+          "rank": 5,
+          "stars": 61.1,
+          "today": "+405",
+          "today_n": 405
         },
         {
           "full": "nodejs/node",
-          "rank": 5,
+          "rank": 6,
           "stars": 119.3,
-          "today": "+135",
-          "today_n": 135
+          "today": "+54",
+          "today_n": 54
         },
         {
           "full": "Leonxlnx/taste-skill",
-          "rank": 6,
-          "stars": 79.5,
-          "today": "+387",
-          "today_n": 387
+          "rank": 7,
+          "stars": 79.7,
+          "today": "+394",
+          "today_n": 394
         },
         {
           "full": "louislam/uptime-kuma",
-          "rank": 7,
+          "rank": 8,
           "stars": 90.5,
-          "today": "+48",
-          "today_n": 48
+          "today": "+49",
+          "today_n": 49
         },
         {
           "full": "reisxd/TizenTube",
-          "rank": 8,
+          "rank": 9,
           "stars": 2.0,
-          "today": "+10",
-          "today_n": 10
+          "today": "+6",
+          "today_n": 6
         },
         {
           "full": "team-codebug/babua-dsa-patterns-course",
-          "rank": 9,
+          "rank": 10,
           "stars": 0.9,
           "today": "+9",
           "today_n": 9
         },
         {
           "full": "worldwonderer/oh-story-claudecode",
-          "rank": 10,
+          "rank": 11,
           "stars": 6.0,
-          "today": "+38",
-          "today_n": 38
+          "today": "+34",
+          "today_n": 34
         },
         {
           "full": "DietrichGebert/ponytail",
-          "rank": 11,
-          "stars": 108.6,
-          "today": "+789",
-          "today_n": 789
+          "rank": 12,
+          "stars": 108.8,
+          "today": "+668",
+          "today_n": 668
         },
         {
           "full": "sveltejs/kit",
-          "rank": 12,
+          "rank": 13,
           "stars": 20.8,
-          "today": "+0",
-          "today_n": 0
+          "today": "+2",
+          "today_n": 2
         }
       ],
       "rust": [
         {
           "full": "openai/codex",
           "rank": 1,
-          "stars": 114.8,
+          "stars": 115.2,
           "today": "+2.7k",
-          "today_n": 2729
+          "today_n": 2715
         },
         {
           "full": "AprilNEA/OpenLogi",
           "rank": 2,
-          "stars": 14.4,
+          "stars": 14.9,
           "today": "+1.0k",
-          "today_n": 1008
+          "today_n": 1009
         },
         {
           "full": "block/buzz",
           "rank": 3,
-          "stars": 29.9,
-          "today": "+564",
-          "today_n": 564
+          "stars": 30.1,
+          "today": "+410",
+          "today_n": 410
         },
         {
           "full": "tinyhumansai/openhuman",
           "rank": 4,
-          "stars": 36.5,
-          "today": "+51",
-          "today_n": 51
+          "stars": 36.7,
+          "today": "+39",
+          "today_n": 39
         },
         {
           "full": "dani-garcia/vaultwarden",
           "rank": 5,
-          "stars": 65.9,
-          "today": "+68",
-          "today_n": 68
+          "stars": 66.0,
+          "today": "+78",
+          "today_n": 78
         },
         {
           "full": "nautechsystems/nautilus_trader",
           "rank": 6,
-          "stars": 27.4,
-          "today": "+169",
-          "today_n": 169
+          "stars": 27.5,
+          "today": "+174",
+          "today_n": 174
         },
         {
           "full": "biomejs/biome",
           "rank": 7,
           "stars": 25.6,
-          "today": "+14",
-          "today_n": 14
+          "today": "+9",
+          "today_n": 9
         },
         {
           "full": "vercel/turborepo",
           "rank": 8,
           "stars": 31.0,
-          "today": "+12",
-          "today_n": 12
+          "today": "+15",
+          "today_n": 15
         },
         {
           "full": "sinelaw/fresh",
           "rank": 9,
           "stars": 8.5,
-          "today": "+47",
-          "today_n": 47
+          "today": "+27",
+          "today_n": 27
         },
         {
           "full": "slint-ui/slint",
           "rank": 10,
           "stars": 23.5,
-          "today": "+14",
-          "today_n": 14
+          "today": "+15",
+          "today_n": 15
         },
         {
           "full": "us/crw",
           "rank": 11,
           "stars": 0.7,
-          "today": "+20",
-          "today_n": 20
+          "today": "+38",
+          "today_n": 38
         },
         {
           "full": "windmill-labs/windmill",
           "rank": 12,
           "stars": 17.6,
-          "today": "+14",
-          "today_n": 14
+          "today": "+20",
+          "today_n": 20
         },
         {
           "full": "oven-sh/bun",
           "rank": 13,
           "stars": 95.6,
-          "today": "+42",
-          "today_n": 42
+          "today": "+43",
+          "today_n": 43
         },
         {
           "full": "gitbutlerapp/gitbutler",
@@ -678,16 +685,16 @@ window.TRENDING_DATA = {
         {
           "full": "oxc-project/oxc",
           "rank": 15,
-          "stars": 22.4,
-          "today": "+14",
-          "today_n": 14
+          "stars": 22.5,
+          "today": "+12",
+          "today_n": 12
         },
         {
           "full": "ruvnet/RuView",
           "rank": 16,
           "stars": 91.4,
-          "today": "+113",
-          "today_n": 113
+          "today": "+111",
+          "today_n": 111
         },
         {
           "full": "rust-lang/rust-analyzer",
@@ -700,8 +707,8 @@ window.TRENDING_DATA = {
           "full": "gfx-rs/wgpu",
           "rank": 18,
           "stars": 17.8,
-          "today": "+9",
-          "today_n": 9
+          "today": "+7",
+          "today_n": 7
         }
       ],
       "go": [
@@ -709,62 +716,62 @@ window.TRENDING_DATA = {
           "full": "microsoft/TypeScript",
           "rank": 1,
           "stars": 110.6,
-          "today": "+168",
-          "today_n": 168
+          "today": "+141",
+          "today_n": 141
         },
         {
           "full": "google/sam",
           "rank": 2,
           "stars": 0.6,
-          "today": "+136",
-          "today_n": 136
+          "today": "+138",
+          "today_n": 138
         },
         {
           "full": "kubernetes/minikube",
           "rank": 3,
-          "stars": 32.0,
-          "today": "+3",
-          "today_n": 3
+          "stars": 32.1,
+          "today": "+0",
+          "today_n": 0
         },
         {
           "full": "bjarneo/cliamp",
           "rank": 4,
-          "stars": 3.4,
-          "today": "+61",
-          "today_n": 61
+          "stars": 3.5,
+          "today": "+62",
+          "today_n": 62
         },
         {
           "full": "github/github-mcp-server",
           "rank": 5,
-          "stars": 32.4,
-          "today": "+19",
-          "today_n": 19
+          "stars": 32.5,
+          "today": "+23",
+          "today_n": 23
         },
         {
           "full": "restic/restic",
           "rank": 6,
           "stars": 35.7,
-          "today": "+24",
-          "today_n": 24
+          "today": "+21",
+          "today_n": 21
         },
         {
           "full": "Wei-Shaw/sub2api",
           "rank": 7,
           "stars": 39.0,
-          "today": "+302",
-          "today_n": 302
+          "today": "+269",
+          "today_n": 269
         },
         {
           "full": "charmbracelet/crush",
           "rank": 8,
           "stars": 27.6,
-          "today": "+30",
-          "today_n": 30
+          "today": "+39",
+          "today_n": 39
         },
         {
           "full": "mvanhorn/printing-press-library",
           "rank": 9,
-          "stars": 1.9,
+          "stars": 2.0,
           "today": "+7",
           "today_n": 7
         },
@@ -779,71 +786,71 @@ window.TRENDING_DATA = {
           "full": "opentofu/opentofu",
           "rank": 11,
           "stars": 29.9,
-          "today": "+8",
-          "today_n": 8
+          "today": "+12",
+          "today_n": 12
         },
         {
           "full": "MHSanaei/3x-ui",
           "rank": 12,
-          "stars": 45.1,
-          "today": "+54",
-          "today_n": 54
+          "stars": 45.2,
+          "today": "+49",
+          "today_n": 49
         },
         {
           "full": "evanw/esbuild",
           "rank": 13,
           "stars": 40.0,
-          "today": "+3",
-          "today_n": 3
+          "today": "+0",
+          "today_n": 0
         },
         {
           "full": "open-policy-agent/opa",
           "rank": 14,
           "stars": 12.1,
-          "today": "+3",
-          "today_n": 3
+          "today": "+4",
+          "today_n": 4
         },
         {
           "full": "alibaba/open-code-review",
           "rank": 15,
           "stars": 21.2,
-          "today": "+71",
-          "today_n": 71
+          "today": "+103",
+          "today_n": 103
         },
         {
           "full": "gastownhall/gastown",
           "rank": 16,
           "stars": 17.7,
-          "today": "+22",
-          "today_n": 22
+          "today": "+21",
+          "today_n": 21
         },
         {
           "full": "argoproj/argo-workflows",
           "rank": 17,
           "stars": 16.9,
-          "today": "+0",
-          "today_n": 0
+          "today": "+2",
+          "today_n": 2
         },
         {
           "full": "astaxie/TokenHub",
           "rank": 18,
           "stars": 1.2,
-          "today": "+6",
-          "today_n": 6
+          "today": "+3",
+          "today_n": 3
         },
         {
           "full": "k3s-io/k3s",
           "rank": 19,
           "stars": 33.8,
-          "today": "+8",
-          "today_n": 8
+          "today": "+5",
+          "today_n": 5
         },
         {
           "full": "bbernhard/signal-cli-rest-api",
           "rank": 20,
           "stars": 2.8,
-          "today": "+8",
-          "today_n": 8
+          "today": "+7",
+          "today_n": 7
         }
       ],
       "c++": [
@@ -851,43 +858,43 @@ window.TRENDING_DATA = {
           "full": "tensorflow/tensorflow",
           "rank": 1,
           "stars": 197.4,
-          "today": "+60",
-          "today_n": 60
+          "today": "+58",
+          "today_n": 58
         },
         {
           "full": "ValveSoftware/Proton",
           "rank": 2,
           "stars": 32.6,
-          "today": "+26",
-          "today_n": 26
+          "today": "+13",
+          "today_n": 13
         },
         {
           "full": "microsoft/onnxruntime",
           "rank": 3,
           "stars": 21.6,
-          "today": "+19",
-          "today_n": 19
+          "today": "+11",
+          "today_n": 11
         },
         {
           "full": "optiscaler/OptiScaler",
           "rank": 4,
           "stars": 9.9,
-          "today": "+21",
-          "today_n": 21
+          "today": "+18",
+          "today_n": 18
         },
         {
           "full": "official-stockfish/Stockfish",
           "rank": 5,
           "stars": 16.4,
-          "today": "+10",
-          "today_n": 10
+          "today": "+12",
+          "today_n": 12
         },
         {
           "full": "ocornut/imgui",
           "rank": 6,
           "stars": 75.8,
-          "today": "+31",
-          "today_n": 31
+          "today": "+23",
+          "today_n": 23
         },
         {
           "full": "FreeCAD/FreeCAD",
@@ -900,64 +907,64 @@ window.TRENDING_DATA = {
           "full": "justcallmekoko/ESP32Marauder",
           "rank": 8,
           "stars": 12.1,
-          "today": "+14",
-          "today_n": 14
+          "today": "+16",
+          "today_n": 16
         },
         {
           "full": "amnezia-vpn/amnezia-client",
           "rank": 9,
           "stars": 14.6,
-          "today": "+23",
-          "today_n": 23
+          "today": "+21",
+          "today_n": 21
         },
         {
           "full": "cifertech/ESP32-DIV",
           "rank": 10,
-          "stars": 3.8,
-          "today": "+26",
-          "today_n": 26
+          "stars": 3.9,
+          "today": "+27",
+          "today_n": 27
         },
         {
           "full": "hyprwm/Hyprland",
           "rank": 11,
           "stars": 38.1,
-          "today": "+53",
-          "today_n": 53
+          "today": "+50",
+          "today_n": 50
         },
         {
           "full": "geo-tp/ESP32-Bit-Pirate",
           "rank": 12,
           "stars": 5.6,
-          "today": "+57",
-          "today_n": 57
+          "today": "+48",
+          "today_n": 48
         },
         {
           "full": "telegramdesktop/tdesktop",
           "rank": 13,
           "stars": 32.7,
-          "today": "+28",
-          "today_n": 28
+          "today": "+30",
+          "today_n": 30
         },
         {
           "full": "ran-j/PS2Recomp",
           "rank": 14,
           "stars": 3.2,
-          "today": "+6",
-          "today_n": 6
+          "today": "+4",
+          "today_n": 4
         },
         {
           "full": "LizardByte/Sunshine",
           "rank": 15,
-          "stars": 40.4,
-          "today": "+37",
-          "today_n": 37
+          "stars": 40.5,
+          "today": "+39",
+          "today_n": 39
         },
         {
           "full": "assimp/assimp",
           "rank": 16,
           "stars": 13.2,
-          "today": "+5",
-          "today_n": 5
+          "today": "+4",
+          "today_n": 4
         },
         {
           "full": "Alexays/Waybar",
@@ -970,50 +977,50 @@ window.TRENDING_DATA = {
           "full": "RPCS3/rpcs3",
           "rank": 18,
           "stars": 19.5,
-          "today": "+12",
-          "today_n": 12
+          "today": "+16",
+          "today_n": 16
         },
         {
           "full": "ValveSoftware/source-sdk-2013",
           "rank": 19,
           "stars": 9.9,
-          "today": "+5",
-          "today_n": 5
+          "today": "+3",
+          "today_n": 3
         },
         {
           "full": "noctalia-dev/noctalia",
           "rank": 20,
           "stars": 9.8,
-          "today": "+37",
-          "today_n": 37
+          "today": "+40",
+          "today_n": 40
         },
         {
           "full": "Vita3K/Vita3K",
           "rank": 21,
-          "stars": 5.6,
-          "today": "+6",
-          "today_n": 6
+          "stars": 5.7,
+          "today": "+9",
+          "today_n": 9
         },
         {
           "full": "hrydgard/ppsspp",
           "rank": 22,
           "stars": 14.3,
-          "today": "+2",
-          "today_n": 2
+          "today": "+5",
+          "today_n": 5
         },
         {
           "full": "azerothcore/azerothcore-wotlk",
           "rank": 23,
           "stars": 8.8,
-          "today": "+6",
-          "today_n": 6
+          "today": "+4",
+          "today_n": 4
         },
         {
           "full": "throneproj/Throne",
           "rank": 24,
           "stars": 6.9,
-          "today": "+20",
-          "today_n": 20
+          "today": "+23",
+          "today_n": 23
         }
       ]
     },
@@ -1022,221 +1029,207 @@ window.TRENDING_DATA = {
         {
           "full": "modular/modular",
           "rank": 1,
-          "stars": 28.9,
-          "today": "+2.0k",
-          "today_n": 2017
+          "stars": 29.0,
+          "today": "+2.2k",
+          "today_n": 2176
         },
         {
           "full": "harry0703/MoneyPrinterTurbo",
           "rank": 2,
-          "stars": 115.0,
-          "today": "+11.0k",
-          "today_n": 10953
+          "stars": 115.3,
+          "today": "+11.2k",
+          "today_n": 11167
         },
         {
           "full": "basecamp/omarchy",
           "rank": 3,
-          "stars": 28.7,
-          "today": "+3.2k",
-          "today_n": 3151
+          "stars": 29.1,
+          "today": "+3.7k",
+          "today_n": 3660
         },
         {
           "full": "AprilNEA/OpenLogi",
           "rank": 4,
-          "stars": 14.4,
-          "today": "+5.0k",
-          "today_n": 4993
+          "stars": 14.9,
+          "today": "+6.1k",
+          "today_n": 6078
         },
         {
           "full": "cordiverse/cordis",
           "rank": 5,
           "stars": 7.2,
-          "today": "+3.4k",
-          "today_n": 3364
+          "today": "+2.7k",
+          "today_n": 2725
         },
         {
           "full": "volcengine/OpenViking",
           "rank": 6,
-          "stars": 32.3,
-          "today": "+3.4k",
-          "today_n": 3447
+          "stars": 32.5,
+          "today": "+3.8k",
+          "today_n": 3799
         },
         {
           "full": "public-apis/public-apis",
           "rank": 7,
-          "stars": 468.9,
-          "today": "+9.4k",
-          "today_n": 9381
+          "stars": 469.2,
+          "today": "+8.3k",
+          "today_n": 8295
         },
         {
           "full": "jundot/omlx",
           "rank": 8,
           "stars": 20.4,
-          "today": "+1.6k",
-          "today_n": 1597
-        },
-        {
-          "full": "akitaonrails/ai-memory",
-          "rank": 9,
-          "stars": 4.2,
-          "today": "+2.6k",
-          "today_n": 2575
+          "today": "+1.7k",
+          "today_n": 1671
         },
         {
           "full": "anthropics/claude-plugins-community",
-          "rank": 10,
-          "stars": 0.7,
-          "today": "+341",
-          "today_n": 341
+          "rank": 9,
+          "stars": 0.9,
+          "today": "+406",
+          "today_n": 406
         },
         {
           "full": "cursor/plugins",
-          "rank": 11,
+          "rank": 10,
           "stars": 4.8,
-          "today": "+1.7k",
-          "today_n": 1693
+          "today": "+1.8k",
+          "today_n": 1761
         },
         {
           "full": "apache/maka",
-          "rank": 12,
-          "stars": 2.2,
-          "today": "+810",
-          "today_n": 810
+          "rank": 11,
+          "stars": 2.3,
+          "today": "+859",
+          "today_n": 859
         }
       ],
       "python": [
         {
           "full": "harry0703/MoneyPrinterTurbo",
           "rank": 1,
-          "stars": 115.0,
-          "today": "+11.0k",
-          "today_n": 10953
+          "stars": 115.3,
+          "today": "+11.2k",
+          "today_n": 11167
         },
         {
           "full": "volcengine/OpenViking",
           "rank": 2,
-          "stars": 32.3,
-          "today": "+3.4k",
-          "today_n": 3447
+          "stars": 32.5,
+          "today": "+3.8k",
+          "today_n": 3799
         },
         {
           "full": "public-apis/public-apis",
           "rank": 3,
-          "stars": 468.9,
-          "today": "+9.4k",
-          "today_n": 9381
+          "stars": 469.2,
+          "today": "+8.3k",
+          "today_n": 8295
         },
         {
           "full": "jundot/omlx",
           "rank": 4,
           "stars": 20.4,
-          "today": "+1.6k",
-          "today_n": 1597
+          "today": "+1.7k",
+          "today_n": 1671
         },
         {
           "full": "anthropics/claude-plugins-community",
           "rank": 5,
-          "stars": 0.7,
-          "today": "+341",
-          "today_n": 341
+          "stars": 0.9,
+          "today": "+406",
+          "today_n": 406
         },
         {
           "full": "semantica-agi/semantica",
           "rank": 6,
           "stars": 10.4,
-          "today": "+2.5k",
-          "today_n": 2450
+          "today": "+2.3k",
+          "today_n": 2317
         },
         {
           "full": "Tencent/AI-Infra-Guard",
           "rank": 7,
-          "stars": 5.6,
-          "today": "+906",
-          "today_n": 906
+          "stars": 5.7,
+          "today": "+1.1k",
+          "today_n": 1149
         },
         {
           "full": "cactus-compute/needle",
           "rank": 8,
           "stars": 8.7,
-          "today": "+2.7k",
-          "today_n": 2664
+          "today": "+2.3k",
+          "today_n": 2312
         },
         {
           "full": "mukul975/Anthropic-Cybersecurity-Skills",
           "rank": 9,
-          "stars": 30.7,
+          "stars": 30.8,
           "today": "+2.9k",
-          "today_n": 2890
+          "today_n": 2918
         },
         {
           "full": "PostHog/posthog",
           "rank": 10,
           "stars": 38.8,
-          "today": "+829",
-          "today_n": 829
+          "today": "+1.1k",
+          "today_n": 1081
         },
         {
           "full": "unslothai/unsloth",
           "rank": 11,
           "stars": 74.5,
-          "today": "+2.7k",
-          "today_n": 2729
+          "today": "+2.2k",
+          "today_n": 2165
         },
         {
           "full": "noonghunna/club-3090",
           "rank": 12,
           "stars": 2.1,
-          "today": "+96",
-          "today_n": 96
+          "today": "+97",
+          "today_n": 97
         },
         {
           "full": "microsoft/agent-framework",
           "rank": 13,
           "stars": 13.1,
-          "today": "+235",
-          "today_n": 235
+          "today": "+237",
+          "today_n": 237
         },
         {
           "full": "usestrix/strix",
           "rank": 14,
-          "stars": 57.3,
-          "today": "+4.8k",
-          "today_n": 4754
-        },
-        {
-          "full": "D4Vinci/Scrapling",
-          "rank": 15,
-          "stars": 76.0,
-          "today": "+1.8k",
-          "today_n": 1767
+          "stars": 57.4,
+          "today": "+4.2k",
+          "today_n": 4248
         },
         {
           "full": "MakazhanAlpamys/Soup",
-          "rank": 16,
+          "rank": 15,
           "stars": 2.8,
-          "today": "+1.2k",
-          "today_n": 1224
+          "today": "+888",
+          "today_n": 888
         },
         {
           "full": "youssofal/MTPLX",
-          "rank": 17,
+          "rank": 16,
           "stars": 1.6,
-          "today": "+370",
-          "today_n": 370
+          "today": "+341",
+          "today_n": 341
         },
         {
           "full": "ml-explore/mlx-lm",
-          "rank": 18,
+          "rank": 17,
           "stars": 6.8,
-          "today": "+113",
-          "today_n": 113
+          "today": "+112",
+          "today_n": 112
         },
         {
           "full": "shy3130/tick-stock-panel",
-          "rank": 19,
+          "rank": 18,
           "stars": 3.5,
-          "today": "+606",
-          "today_n": 606
+          "today": "+666",
+          "today_n": 666
         }
       ],
       "typescript": [
@@ -1244,257 +1237,257 @@ window.TRENDING_DATA = {
           "full": "cordiverse/cordis",
           "rank": 1,
           "stars": 7.2,
-          "today": "+3.4k",
-          "today_n": 3364
+          "today": "+2.7k",
+          "today_n": 2725
         },
         {
           "full": "cursor/plugins",
           "rank": 2,
           "stars": 4.8,
-          "today": "+1.7k",
-          "today_n": 1693
+          "today": "+1.8k",
+          "today_n": 1761
         },
         {
           "full": "apache/maka",
           "rank": 3,
-          "stars": 2.2,
-          "today": "+810",
-          "today_n": 810
+          "stars": 2.3,
+          "today": "+859",
+          "today_n": 859
         },
         {
           "full": "eneskirca/nodeterm",
           "rank": 4,
           "stars": 1.1,
-          "today": "+424",
-          "today_n": 424
+          "today": "+496",
+          "today_n": 496
         },
         {
           "full": "lightningpixel/modly",
           "rank": 5,
           "stars": 7.2,
-          "today": "+1.1k",
-          "today_n": 1057
+          "today": "+1.0k",
+          "today_n": 1035
         },
         {
           "full": "CodebuffAI/freebuff",
           "rank": 6,
           "stars": 10.6,
-          "today": "+1.0k",
-          "today_n": 1036
+          "today": "+981",
+          "today_n": 981
         },
         {
           "full": "agalwood/Motrix",
           "rank": 7,
           "stars": 54.4,
           "today": "+1.9k",
-          "today_n": 1927
+          "today_n": 1912
         },
         {
           "full": "amruthpillai/reactive-resume",
           "rank": 8,
-          "stars": 41.5,
-          "today": "+1.2k",
-          "today_n": 1174
+          "stars": 41.6,
+          "today": "+1.1k",
+          "today_n": 1055
         }
       ],
       "javascript": [
         {
           "full": "santifer/career-ops",
           "rank": 1,
-          "stars": 67.9,
+          "stars": 68.0,
           "today": "+4.0k",
-          "today_n": 3963
+          "today_n": 3973
         },
         {
           "full": "freestylefly/awesome-gpt-image-2",
           "rank": 2,
-          "stars": 12.4,
-          "today": "+1.9k",
-          "today_n": 1917
+          "stars": 12.7,
+          "today": "+2.0k",
+          "today_n": 2016
+        },
+        {
+          "full": "is-a-dev/register",
+          "rank": 3,
+          "stars": 11.1,
+          "today": "+79",
+          "today_n": 79
         },
         {
           "full": "darkzOGx/youtube-automation-agent",
-          "rank": 3,
+          "rank": 4,
           "stars": 2.5,
-          "today": "+446",
-          "today_n": 446
+          "today": "+455",
+          "today_n": 455
         },
         {
           "full": "ToolJet/ToolJet",
-          "rank": 4,
+          "rank": 5,
           "stars": 40.7,
-          "today": "+1.3k",
-          "today_n": 1259
+          "today": "+927",
+          "today_n": 927
         },
         {
           "full": "byoungd/up",
-          "rank": 5,
-          "stars": 60.9,
-          "today": "+2.1k",
-          "today_n": 2131
+          "rank": 6,
+          "stars": 61.1,
+          "today": "+2.2k",
+          "today_n": 2237
         },
         {
           "full": "TryGhost/Ghost",
-          "rank": 6,
+          "rank": 7,
           "stars": 55.0,
-          "today": "+283",
-          "today_n": 283
+          "today": "+282",
+          "today_n": 282
         },
         {
           "full": "OpenSenseNova/SenseNova-Skills",
-          "rank": 7,
+          "rank": 8,
           "stars": 5.0,
-          "today": "+93",
-          "today_n": 93
+          "today": "+97",
+          "today_n": 97
         },
         {
           "full": "Darkatse/TauriTavern",
-          "rank": 8,
+          "rank": 9,
           "stars": 1.4,
+          "today": "+117",
+          "today_n": 117
+        },
+        {
+          "full": "poteto/hiring-without-whiteboards",
+          "rank": 10,
+          "stars": 51.5,
           "today": "+111",
           "today_n": 111
         },
         {
-          "full": "poteto/hiring-without-whiteboards",
-          "rank": 9,
-          "stars": 51.5,
-          "today": "+106",
-          "today_n": 106
-        },
-        {
           "full": "simple-icons/simple-icons",
-          "rank": 10,
+          "rank": 11,
           "stars": 25.7,
-          "today": "+74",
-          "today_n": 74
+          "today": "+81",
+          "today_n": 81
         },
         {
           "full": "Javis603/token-monitor",
-          "rank": 11,
+          "rank": 12,
           "stars": 1.6,
-          "today": "+222",
-          "today_n": 222
+          "today": "+223",
+          "today_n": 223
         },
         {
           "full": "louislam/uptime-kuma",
-          "rank": 12,
+          "rank": 13,
           "stars": 90.5,
-          "today": "+333",
-          "today_n": 333
+          "today": "+339",
+          "today_n": 339
         },
         {
           "full": "chaitanyagiri/munder-difflin",
-          "rank": 13,
-          "stars": 3.8,
+          "rank": 14,
+          "stars": 3.9,
           "today": "+2.6k",
-          "today_n": 2632
+          "today_n": 2647
         },
         {
           "full": "hmjz100/LinkSwift",
-          "rank": 14,
+          "rank": 15,
           "stars": 19.5,
-          "today": "+416",
-          "today_n": 416
+          "today": "+418",
+          "today_n": 418
         }
       ],
       "rust": [
         {
           "full": "AprilNEA/OpenLogi",
           "rank": 1,
-          "stars": 14.4,
-          "today": "+5.0k",
-          "today_n": 4993
-        },
-        {
-          "full": "akitaonrails/ai-memory",
-          "rank": 2,
-          "stars": 4.2,
-          "today": "+2.6k",
-          "today_n": 2575
+          "stars": 14.9,
+          "today": "+6.1k",
+          "today_n": 6078
         },
         {
           "full": "NVIDIA-NeMo/Switchyard",
-          "rank": 3,
+          "rank": 2,
           "stars": 2.3,
-          "today": "+635",
-          "today_n": 635
+          "today": "+658",
+          "today_n": 658
         },
         {
           "full": "AlexsJones/llmfit",
-          "rank": 4,
+          "rank": 3,
           "stars": 33.7,
           "today": "+1.9k",
-          "today_n": 1949
+          "today_n": 1866
         },
         {
           "full": "RyanCodrai/turbovec",
-          "rank": 5,
+          "rank": 4,
           "stars": 16.3,
           "today": "+1.5k",
-          "today_n": 1465
+          "today_n": 1483
         },
         {
           "full": "nautechsystems/nautilus_trader",
-          "rank": 6,
-          "stars": 27.4,
-          "today": "+1.8k",
-          "today_n": 1790
+          "rank": 5,
+          "stars": 27.5,
+          "today": "+1.9k",
+          "today_n": 1894
         },
         {
           "full": "openai/codex",
-          "rank": 7,
-          "stars": 114.8,
-          "today": "+6.7k",
-          "today_n": 6673
+          "rank": 6,
+          "stars": 115.2,
+          "today": "+8.9k",
+          "today_n": 8910
         },
         {
           "full": "ZSeven-W/openpencil",
-          "rank": 8,
+          "rank": 7,
           "stars": 5.6,
-          "today": "+628",
-          "today_n": 628
+          "today": "+533",
+          "today_n": 533
         },
         {
           "full": "longbridge/gpui-component",
-          "rank": 9,
+          "rank": 8,
           "stars": 13.4,
-          "today": "+498",
-          "today_n": 498
+          "today": "+531",
+          "today_n": 531
         },
         {
           "full": "sinelaw/fresh",
-          "rank": 10,
+          "rank": 9,
           "stars": 8.5,
-          "today": "+176",
-          "today_n": 176
+          "today": "+178",
+          "today_n": 178
         },
         {
           "full": "mayocream/koharu",
-          "rank": 11,
+          "rank": 10,
           "stars": 5.4,
-          "today": "+126",
-          "today_n": 126
+          "today": "+117",
+          "today_n": 117
         },
         {
           "full": "superradcompany/microsandbox",
-          "rank": 12,
+          "rank": 11,
           "stars": 7.9,
-          "today": "+341",
-          "today_n": 341
+          "today": "+335",
+          "today_n": 335
         },
         {
           "full": "zed-industries/zed",
-          "rank": 13,
+          "rank": 12,
           "stars": 89.1,
-          "today": "+471",
-          "today_n": 471
+          "today": "+474",
+          "today_n": 474
         },
         {
           "full": "oxc-project/oxc",
-          "rank": 14,
-          "stars": 22.4,
-          "today": "+113",
-          "today_n": 113
+          "rank": 13,
+          "stars": 22.5,
+          "today": "+114",
+          "today_n": 114
         }
       ],
       "go": [
@@ -1502,43 +1495,43 @@ window.TRENDING_DATA = {
           "full": "Wei-Shaw/sub2api",
           "rank": 1,
           "stars": 39.0,
-          "today": "+1.6k",
-          "today_n": 1648
+          "today": "+1.8k",
+          "today_n": 1839
         },
         {
           "full": "agent-substrate/substrate",
           "rank": 2,
           "stars": 1.6,
-          "today": "+369",
-          "today_n": 369
+          "today": "+375",
+          "today_n": 375
         },
         {
           "full": "krillinai/KrillinAI",
           "rank": 3,
           "stars": 11.3,
-          "today": "+213",
-          "today_n": 213
+          "today": "+157",
+          "today_n": 157
         },
         {
           "full": "aquasecurity/trivy",
           "rank": 4,
           "stars": 37.6,
-          "today": "+155",
-          "today_n": 155
+          "today": "+150",
+          "today_n": 150
         },
         {
           "full": "putyy/res-downloader",
           "rank": 5,
           "stars": 19.4,
-          "today": "+244",
-          "today_n": 244
+          "today": "+191",
+          "today_n": 191
         },
         {
           "full": "ollama/ollama",
           "rank": 6,
-          "stars": 179.2,
-          "today": "+772",
-          "today_n": 772
+          "stars": 179.3,
+          "today": "+715",
+          "today_n": 715
         },
         {
           "full": "compozy/compozy",
@@ -1551,92 +1544,92 @@ window.TRENDING_DATA = {
           "full": "coreybutler/nvm-windows",
           "rank": 8,
           "stars": 47.4,
-          "today": "+115",
-          "today_n": 115
+          "today": "+105",
+          "today_n": 105
         },
         {
           "full": "henrygd/beszel",
           "rank": 9,
           "stars": 24.6,
-          "today": "+282",
-          "today_n": 282
+          "today": "+291",
+          "today_n": 291
         },
         {
           "full": "go-task/task",
           "rank": 10,
           "stars": 16.0,
-          "today": "+53",
-          "today_n": 53
+          "today": "+55",
+          "today_n": 55
         },
         {
           "full": "authelia/authelia",
           "rank": 11,
           "stars": 28.7,
-          "today": "+89",
-          "today_n": 89
+          "today": "+83",
+          "today_n": 83
         },
         {
           "full": "zzet/gortex",
           "rank": 12,
           "stars": 1.5,
-          "today": "+318",
-          "today_n": 318
+          "today": "+314",
+          "today_n": 314
         },
         {
           "full": "Ed1s0nZ/CyberStrikeAI",
           "rank": 13,
           "stars": 5.9,
-          "today": "+150",
-          "today_n": 150
+          "today": "+156",
+          "today_n": 156
         },
         {
           "full": "pocket-id/pocket-id",
           "rank": 14,
           "stars": 9.0,
-          "today": "+162",
-          "today_n": 162
+          "today": "+165",
+          "today_n": 165
         },
         {
           "full": "golangci/golangci-lint",
           "rank": 15,
           "stars": 19.3,
-          "today": "+50",
-          "today_n": 50
+          "today": "+52",
+          "today_n": 52
         },
         {
           "full": "MHSanaei/3x-ui",
           "rank": 16,
-          "stars": 45.1,
-          "today": "+443",
-          "today_n": 443
+          "stars": 45.2,
+          "today": "+428",
+          "today_n": 428
         },
         {
           "full": "shadow1ng/fscan",
           "rank": 17,
           "stars": 14.4,
-          "today": "+178",
-          "today_n": 178
+          "today": "+176",
+          "today_n": 176
         },
         {
           "full": "Gitlawb/zero",
           "rank": 18,
           "stars": 1.6,
-          "today": "+233",
-          "today_n": 233
+          "today": "+153",
+          "today_n": 153
         },
         {
           "full": "QuantumNous/new-api",
           "rank": 19,
           "stars": 46.0,
-          "today": "+756",
-          "today_n": 756
+          "today": "+761",
+          "today_n": 761
         },
         {
           "full": "avelino/awesome-go",
           "rank": 20,
-          "stars": 182.0,
-          "today": "+922",
-          "today_n": 922
+          "stars": 182.1,
+          "today": "+909",
+          "today_n": 909
         }
       ],
       "c++": [
@@ -1644,57 +1637,57 @@ window.TRENDING_DATA = {
           "full": "flyinghead/flycast",
           "rank": 1,
           "stars": 2.5,
-          "today": "+36",
-          "today_n": 36
+          "today": "+40",
+          "today_n": 40
         },
         {
           "full": "ggml-org/llama.cpp",
           "rank": 2,
           "stars": 125.3,
-          "today": "+1.3k",
-          "today_n": 1287
+          "today": "+1.2k",
+          "today_n": 1246
         },
         {
           "full": "cactus-compute/cactus",
           "rank": 3,
           "stars": 5.9,
-          "today": "+128",
-          "today_n": 128
+          "today": "+119",
+          "today_n": 119
         },
         {
           "full": "shadps4-emu/shadPS4",
           "rank": 4,
           "stars": 32.6,
-          "today": "+148",
-          "today_n": 148
+          "today": "+139",
+          "today_n": 139
         },
         {
           "full": "OHF-Voice/piper1-gpl",
           "rank": 5,
           "stars": 5.2,
-          "today": "+110",
-          "today_n": 110
+          "today": "+105",
+          "today_n": 105
         },
         {
           "full": "sal063/AC6_recomp",
           "rank": 6,
           "stars": 0.4,
-          "today": "+111",
-          "today_n": 111
+          "today": "+54",
+          "today_n": 54
         },
         {
           "full": "imputnet/helium",
           "rank": 7,
           "stars": 19.8,
-          "today": "+394",
-          "today_n": 394
+          "today": "+376",
+          "today_n": 376
         },
         {
           "full": "project-chip/connectedhomeip",
           "rank": 8,
           "stars": 8.9,
-          "today": "+16",
-          "today_n": 16
+          "today": "+17",
+          "today_n": 17
         },
         {
           "full": "dmlc/xgboost",
@@ -1707,43 +1700,43 @@ window.TRENDING_DATA = {
           "full": "charlie12345/ROCmFPX",
           "rank": 10,
           "stars": 0.3,
-          "today": "+116",
-          "today_n": 116
+          "today": "+114",
+          "today_n": 114
         },
         {
           "full": "electron/electron",
           "rank": 11,
           "stars": 122.7,
-          "today": "+261",
-          "today_n": 261
+          "today": "+257",
+          "today_n": 257
         },
         {
           "full": "quickshell-mirror/quickshell",
           "rank": 12,
           "stars": 2.8,
-          "today": "+72",
-          "today_n": 72
+          "today": "+66",
+          "today_n": 66
         },
         {
           "full": "ROCm/FastFlowLM",
           "rank": 13,
           "stars": 1.8,
-          "today": "+48",
-          "today_n": 48
+          "today": "+47",
+          "today_n": 47
         },
         {
           "full": "MeisApps/pcbu-desktop",
           "rank": 14,
           "stars": 0.4,
-          "today": "+40",
-          "today_n": 40
+          "today": "+28",
+          "today_n": 28
         },
         {
           "full": "microsoft/onnxruntime",
           "rank": 15,
           "stars": 21.6,
-          "today": "+222",
-          "today_n": 222
+          "today": "+228",
+          "today_n": 228
         },
         {
           "full": "protocolbuffers/protobuf",
@@ -1756,22 +1749,22 @@ window.TRENDING_DATA = {
           "full": "PancakeTAS/lsfg-vk",
           "rank": 17,
           "stars": 4.7,
-          "today": "+41",
-          "today_n": 41
+          "today": "+42",
+          "today_n": 42
         },
         {
           "full": "Kelsidavis/WoWee",
           "rank": 18,
           "stars": 0.7,
-          "today": "+62",
-          "today_n": 62
+          "today": "+42",
+          "today_n": 42
         },
         {
           "full": "mozilla-ai/llamafile",
           "rank": 19,
           "stars": 25.7,
-          "today": "+101",
-          "today_n": 101
+          "today": "+83",
+          "today_n": 83
         }
       ]
     },
@@ -1780,463 +1773,463 @@ window.TRENDING_DATA = {
         {
           "full": "block/buzz",
           "rank": 1,
-          "stars": 29.9,
-          "today": "+26.6k",
-          "today_n": 26583
+          "stars": 30.1,
+          "today": "+24.4k",
+          "today_n": 24429
         },
         {
           "full": "TencentCloud/TencentDB-Agent-Memory",
           "rank": 2,
-          "stars": 23.9,
-          "today": "+14.7k",
-          "today_n": 14702
+          "stars": 24.0,
+          "today": "+14.9k",
+          "today_n": 14878
         },
         {
           "full": "ayghri/i-have-adhd",
           "rank": 3,
-          "stars": 23.4,
-          "today": "+15.6k",
-          "today_n": 15557
+          "stars": 23.5,
+          "today": "+14.4k",
+          "today_n": 14450
         },
         {
           "full": "zhaoxuya520/reverse-skill",
           "rank": 4,
-          "stars": 27.6,
-          "today": "+18.8k",
-          "today_n": 18829
+          "stars": 27.9,
+          "today": "+19.1k",
+          "today_n": 19063
         },
         {
           "full": "basecamp/omarchy",
           "rank": 5,
-          "stars": 28.7,
-          "today": "+4.0k",
-          "today_n": 4036
+          "stars": 29.1,
+          "today": "+4.8k",
+          "today_n": 4850
         },
         {
           "full": "microsoft/AI-For-Beginners",
           "rank": 6,
-          "stars": 66.4,
-          "today": "+13.9k",
-          "today_n": 13881
+          "stars": 66.5,
+          "today": "+14.0k",
+          "today_n": 13993
         },
         {
           "full": "diegosouzapw/OmniRoute",
           "rank": 7,
-          "stars": 53.6,
-          "today": "+29.0k",
-          "today_n": 29023
+          "stars": 53.9,
+          "today": "+27.6k",
+          "today_n": 27573
         },
         {
           "full": "virgiliojr94/book-to-skill",
           "rank": 8,
-          "stars": 24.4,
-          "today": "+14.7k",
-          "today_n": 14737
+          "stars": 24.7,
+          "today": "+15.1k",
+          "today_n": 15086
         },
         {
           "full": "pingdotgg/t3code",
           "rank": 9,
-          "stars": 20.1,
+          "stars": 20.2,
           "today": "+5.9k",
-          "today_n": 5879
+          "today_n": 5876
         },
         {
           "full": "citrolabs/ego-lite",
           "rank": 10,
-          "stars": 12.9,
-          "today": "+11.7k",
-          "today_n": 11724
+          "stars": 13.0,
+          "today": "+11.6k",
+          "today_n": 11598
         },
         {
           "full": "bojieli/ai-agent-book",
           "rank": 11,
-          "stars": 41.1,
-          "today": "+24.2k",
-          "today_n": 24229
+          "stars": 41.2,
+          "today": "+23.5k",
+          "today_n": 23452
         },
         {
           "full": "cactus-compute/needle",
           "rank": 12,
           "stars": 8.7,
-          "today": "+5.3k",
-          "today_n": 5263
+          "today": "+5.5k",
+          "today_n": 5464
         },
         {
           "full": "volcengine/OpenViking",
           "rank": 13,
-          "stars": 32.3,
-          "today": "+4.9k",
-          "today_n": 4899
+          "stars": 32.5,
+          "today": "+5.3k",
+          "today_n": 5332
         },
         {
           "full": "mattpocock/skills",
           "rank": 14,
-          "stars": 233.3,
-          "today": "+50.5k",
-          "today_n": 50486
+          "stars": 233.8,
+          "today": "+50.6k",
+          "today_n": 50629
         },
         {
           "full": "1jehuang/jcode",
           "rank": 15,
-          "stars": 18.3,
-          "today": "+7.8k",
-          "today_n": 7782
+          "stars": 18.4,
+          "today": "+7.6k",
+          "today_n": 7570
         },
         {
           "full": "earendil-works/pi",
           "rank": 16,
-          "stars": 95.7,
-          "today": "+20.5k",
-          "today_n": 20460
+          "stars": 95.9,
+          "today": "+20.0k",
+          "today_n": 20046
         },
         {
           "full": "megadose/holehe",
           "rank": 17,
-          "stars": 14.0,
+          "stars": 14.1,
           "today": "+2.3k",
-          "today_n": 2252
+          "today_n": 2328
         },
         {
           "full": "modular/modular",
           "rank": 18,
-          "stars": 28.9,
-          "today": "+2.3k",
-          "today_n": 2336
+          "stars": 29.0,
+          "today": "+2.4k",
+          "today_n": 2426
         },
         {
           "full": "lyogavin/airllm",
           "rank": 19,
-          "stars": 32.2,
+          "stars": 32.3,
           "today": "+8.4k",
-          "today_n": 8401
+          "today_n": 8428
         }
       ],
       "python": [
         {
           "full": "ayghri/i-have-adhd",
           "rank": 1,
-          "stars": 23.4,
-          "today": "+15.6k",
-          "today_n": 15557
+          "stars": 23.5,
+          "today": "+14.4k",
+          "today_n": 14450
         },
         {
           "full": "virgiliojr94/book-to-skill",
           "rank": 2,
-          "stars": 24.4,
-          "today": "+14.7k",
-          "today_n": 14737
+          "stars": 24.7,
+          "today": "+15.1k",
+          "today_n": 15086
         },
         {
           "full": "bojieli/ai-agent-book",
           "rank": 3,
-          "stars": 41.1,
-          "today": "+24.2k",
-          "today_n": 24229
+          "stars": 41.2,
+          "today": "+23.5k",
+          "today_n": 23452
         },
         {
           "full": "cactus-compute/needle",
           "rank": 4,
           "stars": 8.7,
-          "today": "+5.3k",
-          "today_n": 5263
+          "today": "+5.5k",
+          "today_n": 5464
         },
         {
           "full": "volcengine/OpenViking",
           "rank": 5,
-          "stars": 32.3,
-          "today": "+4.9k",
-          "today_n": 4899
+          "stars": 32.5,
+          "today": "+5.3k",
+          "today_n": 5332
         },
         {
           "full": "megadose/holehe",
           "rank": 6,
-          "stars": 14.0,
+          "stars": 14.1,
           "today": "+2.3k",
-          "today_n": 2252
+          "today_n": 2328
         },
         {
           "full": "public-apis/public-apis",
           "rank": 7,
-          "stars": 468.9,
-          "today": "+17.6k",
-          "today_n": 17551
+          "stars": 469.2,
+          "today": "+17.9k",
+          "today_n": 17942
         },
         {
           "full": "HKUDS/DeepTutor",
           "rank": 8,
-          "stars": 37.2,
-          "today": "+8.3k",
-          "today_n": 8266
+          "stars": 37.3,
+          "today": "+8.1k",
+          "today_n": 8143
         },
         {
           "full": "usestrix/strix",
           "rank": 9,
-          "stars": 57.3,
+          "stars": 57.4,
           "today": "+14.0k",
-          "today_n": 13977
+          "today_n": 14037
         },
         {
           "full": "goauthentik/authentik",
           "rank": 10,
           "stars": 25.1,
           "today": "+2.7k",
-          "today_n": 2719
+          "today_n": 2724
         },
         {
           "full": "blader/humanizer",
           "rank": 11,
-          "stars": 37.3,
-          "today": "+7.0k",
-          "today_n": 6962
+          "stars": 37.4,
+          "today": "+6.9k",
+          "today_n": 6913
         },
         {
           "full": "bradautomates/claude-video",
           "rank": 12,
           "stars": 16.1,
           "today": "+6.5k",
-          "today_n": 6513
+          "today_n": 6460
         },
         {
           "full": "donnemartin/system-design-primer",
           "rank": 13,
           "stars": 365.6,
           "today": "+7.4k",
-          "today_n": 7418
+          "today_n": 7446
         },
         {
           "full": "kangarooking/cangjie-skill",
           "rank": 14,
           "stars": 8.7,
           "today": "+4.3k",
-          "today_n": 4301
+          "today_n": 4288
         },
         {
           "full": "unslothai/unsloth",
           "rank": 15,
           "stars": 74.5,
           "today": "+5.9k",
-          "today_n": 5868
+          "today_n": 5928
         },
         {
           "full": "google/skills",
           "rank": 16,
           "stars": 18.6,
-          "today": "+3.7k",
-          "today_n": 3669
+          "today": "+3.5k",
+          "today_n": 3532
         },
         {
           "full": "Tencent/AI-Infra-Guard",
           "rank": 17,
-          "stars": 5.6,
-          "today": "+1.2k",
-          "today_n": 1249
+          "stars": 5.7,
+          "today": "+1.5k",
+          "today_n": 1482
         },
         {
           "full": "3b1b/manim",
           "rank": 18,
-          "stars": 91.9,
-          "today": "+3.2k",
-          "today_n": 3241
+          "stars": 92.0,
+          "today": "+3.3k",
+          "today_n": 3272
         }
       ],
       "typescript": [
         {
           "full": "TencentCloud/TencentDB-Agent-Memory",
           "rank": 1,
-          "stars": 23.9,
-          "today": "+14.7k",
-          "today_n": 14702
+          "stars": 24.0,
+          "today": "+14.9k",
+          "today_n": 14878
         },
         {
           "full": "diegosouzapw/OmniRoute",
           "rank": 2,
-          "stars": 53.6,
-          "today": "+29.0k",
-          "today_n": 29023
+          "stars": 53.9,
+          "today": "+27.6k",
+          "today_n": 27573
         },
         {
           "full": "pingdotgg/t3code",
           "rank": 3,
-          "stars": 20.1,
+          "stars": 20.2,
           "today": "+5.9k",
-          "today_n": 5879
+          "today_n": 5876
         },
         {
           "full": "earendil-works/pi",
           "rank": 4,
-          "stars": 95.7,
-          "today": "+20.5k",
-          "today_n": 20460
+          "stars": 95.9,
+          "today": "+20.0k",
+          "today_n": 20046
         },
         {
           "full": "different-ai/openwork",
           "rank": 5,
           "stars": 23.0,
-          "today": "+6.1k",
-          "today_n": 6137
+          "today": "+6.2k",
+          "today_n": 6156
         },
         {
           "full": "opengeos/GeoLibre",
           "rank": 6,
           "stars": 6.6,
           "today": "+4.8k",
-          "today_n": 4790
+          "today_n": 4813
         },
         {
           "full": "moeru-ai/airi",
           "rank": 7,
           "stars": 48.3,
           "today": "+5.5k",
-          "today_n": 5475
+          "today_n": 5492
         },
         {
           "full": "stablyai/orca",
           "rank": 8,
-          "stars": 51.6,
-          "today": "+25.7k",
-          "today_n": 25668
+          "stars": 51.9,
+          "today": "+24.9k",
+          "today_n": 24937
         },
         {
           "full": "CodebuffAI/freebuff",
           "rank": 9,
           "stars": 10.6,
-          "today": "+2.7k",
-          "today_n": 2718
+          "today": "+2.8k",
+          "today_n": 2772
         },
         {
           "full": "every-app/open-seo",
           "rank": 10,
           "stars": 13.2,
-          "today": "+6.2k",
-          "today_n": 6166
+          "today": "+5.8k",
+          "today_n": 5845
         },
         {
           "full": "apache/maka",
           "rank": 11,
-          "stars": 2.2,
-          "today": "+1.3k",
-          "today_n": 1324
+          "stars": 2.3,
+          "today": "+1.4k",
+          "today_n": 1415
         },
         {
           "full": "can1357/oh-my-pi",
           "rank": 12,
-          "stars": 26.6,
-          "today": "+7.5k",
-          "today_n": 7522
+          "stars": 26.8,
+          "today": "+7.6k",
+          "today_n": 7575
         },
         {
           "full": "pascalorg/editor",
           "rank": 13,
-          "stars": 21.6,
+          "stars": 21.7,
           "today": "+4.2k",
-          "today_n": 4198
+          "today_n": 4218
         },
         {
           "full": "amruthpillai/reactive-resume",
           "rank": 14,
-          "stars": 41.5,
+          "stars": 41.6,
           "today": "+1.9k",
-          "today_n": 1858
+          "today_n": 1896
         },
         {
           "full": "CherryHQ/cherry-studio",
           "rank": 15,
-          "stars": 50.9,
-          "today": "+2.4k",
-          "today_n": 2358
+          "stars": 51.0,
+          "today": "+2.3k",
+          "today_n": 2345
         },
         {
           "full": "Effect-TS/effect",
           "rank": 16,
           "stars": 15.5,
-          "today": "+514",
-          "today_n": 514
+          "today": "+518",
+          "today_n": 518
         },
         {
           "full": "elizaOS/eliza",
           "rank": 17,
           "stars": 19.1,
-          "today": "+397",
-          "today_n": 397
+          "today": "+402",
+          "today_n": 402
         },
         {
           "full": "CoreBunch/Instatic",
           "rank": 18,
           "stars": 8.2,
-          "today": "+4.5k",
-          "today_n": 4528
+          "today": "+4.4k",
+          "today_n": 4366
         },
         {
           "full": "QwenLM/qwen-code",
           "rank": 19,
           "stars": 27.3,
           "today": "+1.2k",
-          "today_n": 1235
+          "today_n": 1231
         },
         {
           "full": "openobserve/openobserve",
           "rank": 20,
           "stars": 21.4,
           "today": "+1.1k",
-          "today_n": 1100
+          "today_n": 1098
         }
       ],
       "javascript": [
         {
           "full": "citrolabs/ego-lite",
           "rank": 1,
-          "stars": 12.9,
-          "today": "+11.7k",
-          "today_n": 11724
+          "stars": 13.0,
+          "today": "+11.6k",
+          "today_n": 11598
         },
         {
           "full": "ToolJet/ToolJet",
           "rank": 2,
           "stars": 40.7,
-          "today": "+2.5k",
-          "today_n": 2535
+          "today": "+2.6k",
+          "today_n": 2568
         },
         {
           "full": "WorldFlowAI/everything-claude-code",
           "rank": 3,
           "stars": 1.6,
           "today": "+1.0k",
-          "today_n": 1007
+          "today_n": 1035
         },
         {
           "full": "freestylefly/awesome-gpt-image-2",
           "rank": 4,
-          "stars": 12.4,
-          "today": "+3.6k",
-          "today_n": 3608
+          "stars": 12.7,
+          "today": "+4.0k",
+          "today_n": 3973
         },
         {
           "full": "pbakaus/impeccable",
           "rank": 5,
-          "stars": 61.8,
+          "stars": 61.9,
           "today": "+13.1k",
-          "today_n": 13136
+          "today_n": 13083
         },
         {
           "full": "microsoft/power-platform-skills",
           "rank": 6,
           "stars": 0.8,
-          "today": "+229",
-          "today_n": 229
+          "today": "+216",
+          "today_n": 216
         },
         {
           "full": "mui/material-ui",
           "rank": 7,
           "stars": 98.9,
-          "today": "+404",
-          "today_n": 404
+          "today": "+408",
+          "today_n": 408
         },
         {
           "full": "drawdb-io/drawdb",
           "rank": 8,
           "stars": 39.2,
           "today": "+1.1k",
-          "today_n": 1120
+          "today_n": 1124
         },
         {
           "full": "advplyr/audiobookshelf",
@@ -2249,8 +2242,8 @@ window.TRENDING_DATA = {
           "full": "plankanban/planka",
           "rank": 10,
           "stars": 12.4,
-          "today": "+232",
-          "today_n": 232
+          "today": "+237",
+          "today_n": 237
         },
         {
           "full": "gorhill/uBlock",
@@ -2263,22 +2256,22 @@ window.TRENDING_DATA = {
           "full": "darkzOGx/youtube-automation-agent",
           "rank": 12,
           "stars": 2.5,
-          "today": "+852",
-          "today_n": 852
+          "today": "+894",
+          "today_n": 894
         },
         {
           "full": "Javis603/token-monitor",
           "rank": 13,
           "stars": 1.6,
-          "today": "+719",
-          "today_n": 719
+          "today": "+720",
+          "today_n": 720
         },
         {
           "full": "electerm/electerm",
           "rank": 14,
           "stars": 14.9,
-          "today": "+398",
-          "today_n": 398
+          "today": "+390",
+          "today_n": 390
         },
         {
           "full": "ntfargo/CSSFontFace-Exploit",
@@ -2291,50 +2284,50 @@ window.TRENDING_DATA = {
           "full": "NomaDamas/k-skill",
           "rank": 16,
           "stars": 7.3,
-          "today": "+927",
-          "today_n": 927
+          "today": "+914",
+          "today_n": 914
         },
         {
           "full": "byoungd/up",
           "rank": 17,
-          "stars": 60.9,
-          "today": "+4.9k",
-          "today_n": 4871
+          "stars": 61.1,
+          "today": "+5.2k",
+          "today_n": 5216
         },
         {
           "full": "calesthio/Crucix",
           "rank": 18,
           "stars": 11.5,
-          "today": "+1.0k",
-          "today_n": 1044
+          "today": "+1.1k",
+          "today_n": 1061
         },
         {
           "full": "mrdoob/three.js",
           "rank": 19,
           "stars": 114.7,
-          "today": "+948",
-          "today_n": 948
+          "today": "+934",
+          "today_n": 934
         },
         {
           "full": "lodash/lodash",
           "rank": 20,
           "stars": 61.3,
-          "today": "+194",
-          "today_n": 194
+          "today": "+196",
+          "today_n": 196
         },
         {
           "full": "pdone/lx-music-source",
           "rank": 21,
           "stars": 8.2,
-          "today": "+843",
-          "today_n": 843
+          "today": "+853",
+          "today_n": 853
         },
         {
           "full": "louislam/uptime-kuma",
           "rank": 22,
           "stars": 90.5,
           "today": "+1.2k",
-          "today_n": 1239
+          "today_n": 1244
         },
         {
           "full": "Acode-Foundation/Acode",
@@ -2348,149 +2341,142 @@ window.TRENDING_DATA = {
         {
           "full": "block/buzz",
           "rank": 1,
-          "stars": 29.9,
-          "today": "+26.6k",
-          "today_n": 26583
+          "stars": 30.1,
+          "today": "+24.4k",
+          "today_n": 24429
         },
         {
           "full": "1jehuang/jcode",
           "rank": 2,
-          "stars": 18.3,
-          "today": "+7.8k",
-          "today_n": 7782
-        },
-        {
-          "full": "akitaonrails/ai-memory",
-          "rank": 3,
-          "stars": 4.2,
-          "today": "+2.9k",
-          "today_n": 2915
+          "stars": 18.4,
+          "today": "+7.6k",
+          "today_n": 7570
         },
         {
           "full": "AprilNEA/OpenLogi",
-          "rank": 4,
-          "stars": 14.4,
-          "today": "+6.5k",
-          "today_n": 6507
+          "rank": 3,
+          "stars": 14.9,
+          "today": "+7.4k",
+          "today_n": 7420
         },
         {
           "full": "AlexsJones/llmfit",
-          "rank": 5,
+          "rank": 4,
           "stars": 33.7,
-          "today": "+3.2k",
-          "today_n": 3227
+          "today": "+3.3k",
+          "today_n": 3286
         },
         {
           "full": "cjpais/Handy",
-          "rank": 6,
-          "stars": 30.1,
-          "today": "+3.0k",
-          "today_n": 2995
+          "rank": 5,
+          "stars": 30.2,
+          "today": "+2.9k",
+          "today_n": 2949
         },
         {
           "full": "ZSeven-W/openpencil",
-          "rank": 7,
+          "rank": 6,
           "stars": 5.6,
-          "today": "+1.3k",
-          "today_n": 1255
+          "today": "+1.2k",
+          "today_n": 1233
         },
         {
           "full": "BoundaryML/baml",
-          "rank": 8,
+          "rank": 7,
           "stars": 9.1,
           "today": "+497",
           "today_n": 497
         },
         {
           "full": "nautechsystems/nautilus_trader",
-          "rank": 9,
-          "stars": 27.4,
-          "today": "+2.5k",
-          "today_n": 2469
+          "rank": 8,
+          "stars": 27.5,
+          "today": "+2.6k",
+          "today_n": 2609
         },
         {
           "full": "jdx/mise",
-          "rank": 10,
+          "rank": 9,
           "stars": 32.9,
           "today": "+1.9k",
-          "today_n": 1903
+          "today_n": 1907
         },
         {
           "full": "longbridge/gpui-component",
-          "rank": 11,
+          "rank": 10,
           "stars": 13.4,
-          "today": "+1.1k",
-          "today_n": 1141
+          "today": "+1.2k",
+          "today_n": 1188
         },
         {
           "full": "rustdesk/rustdesk",
-          "rank": 12,
-          "stars": 121.5,
-          "today": "+3.1k",
-          "today_n": 3131
+          "rank": 11,
+          "stars": 121.6,
+          "today": "+3.2k",
+          "today_n": 3159
         },
         {
           "full": "dani-garcia/vaultwarden",
-          "rank": 13,
-          "stars": 65.9,
+          "rank": 12,
+          "stars": 66.0,
           "today": "+1.9k",
-          "today_n": 1874
+          "today_n": 1922
         },
         {
           "full": "astral-sh/uv",
-          "rank": 14,
+          "rank": 13,
           "stars": 89.0,
           "today": "+1.5k",
-          "today_n": 1465
+          "today_n": 1455
         },
         {
           "full": "tokio-rs/topcoat",
-          "rank": 15,
+          "rank": 14,
           "stars": 4.7,
-          "today": "+2.1k",
-          "today_n": 2130
+          "today": "+2.0k",
+          "today_n": 2011
         },
         {
           "full": "ai-dynamo/dynamo",
-          "rank": 16,
+          "rank": 15,
           "stars": 7.8,
-          "today": "+290",
-          "today_n": 290
+          "today": "+285",
+          "today_n": 285
         },
         {
           "full": "atuinsh/atuin",
-          "rank": 17,
+          "rank": 16,
           "stars": 31.4,
-          "today": "+727",
-          "today_n": 727
+          "today": "+725",
+          "today_n": 725
         },
         {
           "full": "moghtech/komodo",
-          "rank": 18,
+          "rank": 17,
           "stars": 12.0,
-          "today": "+371",
-          "today_n": 371
+          "today": "+379",
+          "today_n": 379
         },
         {
           "full": "rustfs/rustfs",
-          "rank": 19,
+          "rank": 18,
           "stars": 31.3,
           "today": "+1.3k",
-          "today_n": 1288
+          "today_n": 1280
         },
         {
           "full": "pola-rs/polars",
-          "rank": 20,
+          "rank": 19,
           "stars": 39.5,
-          "today": "+435",
-          "today_n": 435
+          "today": "+439",
+          "today_n": 439
         },
         {
           "full": "agavra/tuicr",
-          "rank": 21,
+          "rank": 20,
           "stars": 2.9,
           "today": "+1.7k",
-          "today_n": 1700
+          "today_n": 1706
         }
       ],
       "go": [
@@ -2498,43 +2484,43 @@ window.TRENDING_DATA = {
           "full": "agent-substrate/substrate",
           "rank": 1,
           "stars": 1.6,
-          "today": "+748",
-          "today_n": 748
+          "today": "+749",
+          "today_n": 749
         },
         {
           "full": "superplanehq/superplane",
           "rank": 2,
           "stars": 5.4,
           "today": "+1.2k",
-          "today_n": 1225
+          "today_n": 1200
         },
         {
           "full": "cli/cli",
           "rank": 3,
-          "stars": 45.9,
-          "today": "+718",
-          "today_n": 718
+          "stars": 46.0,
+          "today": "+717",
+          "today_n": 717
         },
         {
           "full": "alibaba/open-code-review",
           "rank": 4,
           "stars": 21.2,
-          "today": "+10.3k",
-          "today_n": 10312
+          "today": "+10.1k",
+          "today_n": 10097
         },
         {
           "full": "sundowndev/phoneinfoga",
           "rank": 5,
           "stars": 17.6,
-          "today": "+539",
-          "today_n": 539
+          "today": "+538",
+          "today_n": 538
         },
         {
           "full": "gastownhall/beads",
           "rank": 6,
           "stars": 26.5,
           "today": "+1.1k",
-          "today_n": 1131
+          "today_n": 1055
         },
         {
           "full": "traefik/traefik",
@@ -2547,92 +2533,92 @@ window.TRENDING_DATA = {
           "full": "caddyserver/caddy",
           "rank": 8,
           "stars": 75.1,
-          "today": "+980",
-          "today_n": 980
+          "today": "+984",
+          "today_n": 984
         },
         {
           "full": "esengine/DeepSeek-Reasonix",
           "rank": 9,
           "stars": 35.1,
           "today": "+8.0k",
-          "today_n": 8020
+          "today_n": 7979
         },
         {
           "full": "AlexxIT/go2rtc",
           "rank": 10,
           "stars": 14.0,
-          "today": "+517",
-          "today_n": 517
+          "today": "+518",
+          "today_n": 518
         },
         {
           "full": "pranshuparmar/witr",
           "rank": 11,
           "stars": 21.7,
           "today": "+3.4k",
-          "today_n": 3426
+          "today_n": 3430
         },
         {
           "full": "gitleaks/gitleaks",
           "rank": 12,
           "stars": 28.9,
-          "today": "+700",
-          "today_n": 700
+          "today": "+684",
+          "today_n": 684
         },
         {
           "full": "henrygd/beszel",
           "rank": 13,
           "stars": 24.6,
-          "today": "+939",
-          "today_n": 939
+          "today": "+941",
+          "today_n": 941
         },
         {
           "full": "xpzouying/xiaohongshu-mcp",
           "rank": 14,
           "stars": 15.4,
-          "today": "+669",
-          "today_n": 669
+          "today": "+677",
+          "today_n": 677
         },
         {
           "full": "infiniflow/ragflow",
           "rank": 15,
           "stars": 89.1,
-          "today": "+3.6k",
-          "today_n": 3596
+          "today": "+3.5k",
+          "today_n": 3539
         },
         {
           "full": "openai/tunnel-client",
           "rank": 16,
           "stars": 0.3,
-          "today": "+103",
-          "today_n": 103
+          "today": "+106",
+          "today_n": 106
         },
         {
           "full": "multica-ai/multica",
           "rank": 17,
-          "stars": 47.3,
-          "today": "+6.0k",
-          "today_n": 5977
+          "stars": 47.4,
+          "today": "+5.9k",
+          "today_n": 5894
         },
         {
           "full": "yorukot/superfile",
           "rank": 18,
-          "stars": 22.7,
-          "today": "+4.1k",
-          "today_n": 4108
+          "stars": 22.8,
+          "today": "+4.0k",
+          "today_n": 3989
         },
         {
           "full": "ollama/ollama",
           "rank": 19,
-          "stars": 179.2,
+          "stars": 179.3,
           "today": "+3.2k",
-          "today_n": 3168
+          "today_n": 3159
         },
         {
           "full": "agentscope-ai/AgentTeams",
           "rank": 20,
           "stars": 5.5,
-          "today": "+324",
-          "today_n": 324
+          "today": "+325",
+          "today_n": 325
         }
       ],
       "c++": [
@@ -2640,43 +2626,43 @@ window.TRENDING_DATA = {
           "full": "electron/electron",
           "rank": 1,
           "stars": 122.7,
-          "today": "+824",
-          "today_n": 824
+          "today": "+825",
+          "today_n": 825
         },
         {
           "full": "microsoft/onnxruntime",
           "rank": 2,
           "stars": 21.6,
-          "today": "+473",
-          "today_n": 473
+          "today": "+471",
+          "today_n": 471
         },
         {
           "full": "wazuh/wazuh",
           "rank": 3,
           "stars": 16.6,
-          "today": "+412",
-          "today_n": 412
+          "today": "+414",
+          "today_n": 414
         },
         {
           "full": "tensorflow/tensorflow",
           "rank": 4,
           "stars": 197.4,
           "today": "+1.4k",
-          "today_n": 1423
+          "today_n": 1445
         },
         {
           "full": "microsoft/microsoft-ui-xaml",
           "rank": 5,
           "stars": 7.9,
-          "today": "+144",
-          "today_n": 144
+          "today": "+149",
+          "today_n": 149
         },
         {
           "full": "cactus-compute/cactus",
           "rank": 6,
           "stars": 5.9,
-          "today": "+382",
-          "today_n": 382
+          "today": "+380",
+          "today_n": 380
         },
         {
           "full": "cloudflare/workerd",
@@ -2689,57 +2675,57 @@ window.TRENDING_DATA = {
           "full": "ClickHouse/ClickHouse",
           "rank": 8,
           "stars": 49.4,
-          "today": "+670",
-          "today_n": 670
+          "today": "+658",
+          "today_n": 658
         },
         {
           "full": "amnezia-vpn/amnezia-client",
           "rank": 9,
           "stars": 14.6,
           "today": "+1.7k",
-          "today_n": 1666
+          "today_n": 1667
         },
         {
           "full": "esphome/esphome",
           "rank": 10,
           "stars": 11.6,
-          "today": "+167",
-          "today_n": 167
+          "today": "+165",
+          "today_n": 165
         },
         {
           "full": "ggml-org/llama.cpp",
           "rank": 11,
           "stars": 125.3,
           "today": "+4.4k",
-          "today_n": 4400
+          "today_n": 4431
         },
         {
           "full": "geo-tp/ESP32-Bit-Pirate",
           "rank": 12,
           "stars": 5.6,
-          "today": "+1.2k",
-          "today_n": 1222
+          "today": "+1.3k",
+          "today_n": 1259
         },
         {
           "full": "nlohmann/json",
           "rank": 13,
           "stars": 50.4,
-          "today": "+323",
-          "today_n": 323
+          "today": "+321",
+          "today_n": 321
         },
         {
           "full": "FEX-Emu/FEX",
           "rank": 14,
           "stars": 7.9,
-          "today": "+164",
-          "today_n": 164
+          "today": "+162",
+          "today_n": 162
         },
         {
           "full": "orailnoor/cross-platform-llm-client",
           "rank": 15,
           "stars": 1.0,
-          "today": "+366",
-          "today_n": 366
+          "today": "+367",
+          "today_n": 367
         },
         {
           "full": "k4yt3x/video2x",
@@ -2753,49 +2739,49 @@ window.TRENDING_DATA = {
           "rank": 17,
           "stars": 116.0,
           "today": "+1.9k",
-          "today_n": 1876
+          "today_n": 1886
         },
         {
           "full": "aseprite/aseprite",
           "rank": 18,
           "stars": 38.9,
-          "today": "+723",
-          "today_n": 723
+          "today": "+716",
+          "today_n": 716
         },
         {
           "full": "LadybirdBrowser/ladybird",
           "rank": 19,
           "stars": 65.8,
           "today": "+1.3k",
-          "today_n": 1335
+          "today_n": 1326
         },
         {
           "full": "meshtastic/firmware",
           "rank": 20,
           "stars": 8.2,
-          "today": "+238",
-          "today_n": 238
+          "today": "+236",
+          "today_n": 236
         },
         {
           "full": "barry-ran/QtScrcpy",
           "rank": 21,
           "stars": 31.6,
-          "today": "+1.0k",
-          "today_n": 1001
+          "today": "+993",
+          "today_n": 993
         },
         {
           "full": "duckdb/duckdb",
           "rank": 22,
           "stars": 40.5,
-          "today": "+971",
-          "today_n": 971
+          "today": "+952",
+          "today_n": 952
         },
         {
           "full": "cifertech/ESP32-DIV",
           "rank": 23,
-          "stars": 3.8,
-          "today": "+408",
-          "today_n": 408
+          "stars": 3.9,
+          "today": "+421",
+          "today_n": 421
         }
       ]
     }
@@ -2807,9 +2793,9 @@ window.TRENDING_DATA = {
       "rank": 1,
       "cat": "agent",
       "lang": "Rust",
-      "stars": 114.8,
+      "stars": 115.2,
       "today": "+2.7k",
-      "today_n": 2729,
+      "today_n": 2715,
       "auto": false,
       "zh": {
         "tag": "终端里的轻量 AI 编程代理",
@@ -2836,14 +2822,19 @@ window.TRENDING_DATA = {
         ]
       },
       "track": {
-        "days": 1,
+        "days": 2,
         "first": "2026-08-23",
-        "is_new": true,
+        "is_new": false,
         "is_back": false,
         "hist": [
           {
             "d": "2026-08-23",
             "s": 114.8,
+            "r": 1
+          },
+          {
+            "d": "2026-08-24",
+            "s": 115.2,
             "r": 1
           }
         ]
@@ -2855,9 +2846,9 @@ window.TRENDING_DATA = {
       "rank": 2,
       "cat": "ai",
       "lang": "JavaScript",
-      "stars": 12.4,
-      "today": "+628",
-      "today_n": 628,
+      "stars": 12.7,
+      "today": "+401",
+      "today_n": 401,
       "auto": false,
       "zh": {
         "tag": "GPT-Image2 工业级提示词引擎与模板库",
@@ -2884,14 +2875,19 @@ window.TRENDING_DATA = {
         ]
       },
       "track": {
-        "days": 1,
+        "days": 2,
         "first": "2026-08-23",
-        "is_new": true,
+        "is_new": false,
         "is_back": false,
         "hist": [
           {
             "d": "2026-08-23",
             "s": 12.4,
+            "r": 2
+          },
+          {
+            "d": "2026-08-24",
+            "s": 12.7,
             "r": 2
           }
         ]
@@ -2903,9 +2899,9 @@ window.TRENDING_DATA = {
       "rank": 3,
       "cat": "agent",
       "lang": "Shell",
-      "stars": 233.3,
+      "stars": 233.8,
       "today": "+2.4k",
-      "today_n": 2448,
+      "today_n": 2447,
       "auto": false,
       "zh": {
         "tag": "面向真实工程师的 AI 代理技能集",
@@ -2932,7 +2928,7 @@ window.TRENDING_DATA = {
         ]
       },
       "track": {
-        "days": 1,
+        "days": 2,
         "first": "2026-07-17",
         "is_new": false,
         "is_back": false,
@@ -2981,6 +2977,11 @@ window.TRENDING_DATA = {
             "d": "2026-08-23",
             "s": 233.3,
             "r": 3
+          },
+          {
+            "d": "2026-08-24",
+            "s": 233.8,
+            "r": 3
           }
         ]
       }
@@ -2991,9 +2992,9 @@ window.TRENDING_DATA = {
       "rank": 4,
       "cat": "other",
       "lang": "Shell",
-      "stars": 28.7,
-      "today": "+803",
-      "today_n": 803,
+      "stars": 29.1,
+      "today": "+750",
+      "today_n": 750,
       "auto": false,
       "zh": {
         "tag": "DHH 出品的精美现代 Linux 发行版",
@@ -3022,7 +3023,7 @@ window.TRENDING_DATA = {
         ]
       },
       "track": {
-        "days": 1,
+        "days": 2,
         "first": "2026-08-19",
         "is_new": false,
         "is_back": false,
@@ -3036,6 +3037,11 @@ window.TRENDING_DATA = {
             "d": "2026-08-23",
             "s": 28.7,
             "r": 4
+          },
+          {
+            "d": "2026-08-24",
+            "s": 29.1,
+            "r": 4
           }
         ]
       }
@@ -3046,9 +3052,9 @@ window.TRENDING_DATA = {
       "rank": 5,
       "cat": "other",
       "lang": "Rust",
-      "stars": 14.4,
+      "stars": 14.9,
       "today": "+1.0k",
-      "today_n": 1008,
+      "today_n": 1009,
       "auto": false,
       "zh": {
         "tag": "用 Rust 写的本地优先罗技 Options+ 替代品",
@@ -3075,7 +3081,7 @@ window.TRENDING_DATA = {
         ]
       },
       "track": {
-        "days": 1,
+        "days": 2,
         "first": "2026-08-21",
         "is_new": false,
         "is_back": false,
@@ -3089,6 +3095,11 @@ window.TRENDING_DATA = {
             "d": "2026-08-23",
             "s": 14.4,
             "r": 5
+          },
+          {
+            "d": "2026-08-24",
+            "s": 14.9,
+            "r": 5
           }
         ]
       }
@@ -3099,9 +3110,9 @@ window.TRENDING_DATA = {
       "rank": 6,
       "cat": "agent",
       "lang": "Rust",
-      "stars": 29.9,
-      "today": "+564",
-      "today_n": 564,
+      "stars": 30.1,
+      "today": "+410",
+      "today_n": 410,
       "auto": false,
       "zh": {
         "tag": "人类与AI代理共存的蜂巢思维协作平台",
@@ -3130,7 +3141,7 @@ window.TRENDING_DATA = {
         ]
       },
       "track": {
-        "days": 1,
+        "days": 2,
         "first": "2026-07-24",
         "is_new": false,
         "is_back": false,
@@ -3159,6 +3170,11 @@ window.TRENDING_DATA = {
             "d": "2026-08-23",
             "s": 29.9,
             "r": 6
+          },
+          {
+            "d": "2026-08-24",
+            "s": 30.1,
+            "r": 6
           }
         ]
       }
@@ -3169,9 +3185,9 @@ window.TRENDING_DATA = {
       "rank": 7,
       "cat": "agent",
       "lang": "TypeScript",
-      "stars": 2.2,
-      "today": "+49",
-      "today_n": 49,
+      "stars": 2.3,
+      "today": "+51",
+      "today_n": 51,
       "auto": false,
       "zh": {
         "tag": "本地优先的 AI 代理工作台，日志即运行时",
@@ -3200,14 +3216,19 @@ window.TRENDING_DATA = {
         ]
       },
       "track": {
-        "days": 1,
+        "days": 2,
         "first": "2026-08-23",
-        "is_new": true,
+        "is_new": false,
         "is_back": false,
         "hist": [
           {
             "d": "2026-08-23",
             "s": 2.2,
+            "r": 7
+          },
+          {
+            "d": "2026-08-24",
+            "s": 2.3,
             "r": 7
           }
         ]
@@ -3219,9 +3240,9 @@ window.TRENDING_DATA = {
       "rank": 8,
       "cat": "agent",
       "lang": "Python",
-      "stars": 47.6,
-      "today": "+1.0k",
-      "today_n": 1040,
+      "stars": 48.0,
+      "today": "+1.1k",
+      "today_n": 1081,
       "auto": false,
       "zh": {
         "tag": "免费聚合多款 AI 编码代理，每月 13 亿+免费 token",
@@ -3248,14 +3269,19 @@ window.TRENDING_DATA = {
         ]
       },
       "track": {
-        "days": 1,
+        "days": 2,
         "first": "2026-08-23",
-        "is_new": true,
+        "is_new": false,
         "is_back": false,
         "hist": [
           {
             "d": "2026-08-23",
             "s": 47.6,
+            "r": 8
+          },
+          {
+            "d": "2026-08-24",
+            "s": 48.0,
             "r": 8
           }
         ]
@@ -3267,9 +3293,9 @@ window.TRENDING_DATA = {
       "rank": 9,
       "cat": "agent",
       "lang": "Rust",
-      "stars": 36.5,
-      "today": "+51",
-      "today_n": 51,
+      "stars": 36.7,
+      "today": "+39",
+      "today_n": 39,
       "auto": false,
       "zh": {
         "tag": "本地优先的个人 AI 超级智能，记忆+编排+深度研究",
@@ -3298,14 +3324,19 @@ window.TRENDING_DATA = {
         ]
       },
       "track": {
-        "days": 1,
+        "days": 2,
         "first": "2026-08-23",
-        "is_new": true,
+        "is_new": false,
         "is_back": false,
         "hist": [
           {
             "d": "2026-08-23",
             "s": 36.5,
+            "r": 9
+          },
+          {
+            "d": "2026-08-24",
+            "s": 36.7,
             "r": 9
           }
         ]
@@ -3317,7 +3348,7 @@ window.TRENDING_DATA = {
       "rank": 10,
       "cat": "agent",
       "lang": "JavaScript",
-      "stars": 242.4,
+      "stars": 242.6,
       "today": "+427",
       "today_n": 427,
       "auto": false,
@@ -3348,7 +3379,7 @@ window.TRENDING_DATA = {
         ]
       },
       "track": {
-        "days": 1,
+        "days": 2,
         "first": "2026-07-26",
         "is_new": false,
         "is_back": false,
@@ -3362,6 +3393,11 @@ window.TRENDING_DATA = {
             "d": "2026-08-23",
             "s": 242.4,
             "r": 10
+          },
+          {
+            "d": "2026-08-24",
+            "s": 242.6,
+            "r": 10
           }
         ]
       }
@@ -3372,9 +3408,9 @@ window.TRENDING_DATA = {
       "rank": 11,
       "cat": "agent",
       "lang": "TypeScript",
-      "stars": 68.9,
-      "today": "+134",
-      "today_n": 134,
+      "stars": 69.1,
+      "today": "+131",
+      "today_n": 131,
       "auto": false,
       "zh": {
         "tag": "智能体元框架：部署多智能体集群，协调自主工作流",
@@ -3401,14 +3437,19 @@ window.TRENDING_DATA = {
         ]
       },
       "track": {
-        "days": 1,
+        "days": 2,
         "first": "2026-08-23",
-        "is_new": true,
+        "is_new": false,
         "is_back": false,
         "hist": [
           {
             "d": "2026-08-23",
             "s": 68.9,
+            "r": 11
+          },
+          {
+            "d": "2026-08-24",
+            "s": 69.1,
             "r": 11
           }
         ]
@@ -3420,9 +3461,9 @@ window.TRENDING_DATA = {
       "rank": 12,
       "cat": "agent",
       "lang": null,
-      "stars": 31.0,
-      "today": "+237",
-      "today_n": 237,
+      "stars": 31.3,
+      "today": "+156",
+      "today_n": 156,
       "auto": false,
       "zh": {
         "tag": "精选 1500+ 真实 Agent 技能，兼容主流 AI 编码工具",
@@ -3449,14 +3490,19 @@ window.TRENDING_DATA = {
         ]
       },
       "track": {
-        "days": 1,
+        "days": 2,
         "first": "2026-08-23",
-        "is_new": true,
+        "is_new": false,
         "is_back": false,
         "hist": [
           {
             "d": "2026-08-23",
             "s": 31.0,
+            "r": 12
+          },
+          {
+            "d": "2026-08-24",
+            "s": 31.3,
             "r": 12
           }
         ]
@@ -3468,9 +3514,9 @@ window.TRENDING_DATA = {
       "rank": 13,
       "cat": "agent",
       "lang": "Python",
-      "stars": 24.4,
-      "today": "+423",
-      "today_n": 423,
+      "stars": 24.7,
+      "today": "+417",
+      "today_n": 417,
       "auto": false,
       "zh": {
         "tag": "把技术书 PDF 变成 Claude Code 技能，按需加载、即问即答",
@@ -3499,14 +3545,19 @@ window.TRENDING_DATA = {
         ]
       },
       "track": {
-        "days": 1,
+        "days": 2,
         "first": "2026-08-23",
-        "is_new": true,
+        "is_new": false,
         "is_back": false,
         "hist": [
           {
             "d": "2026-08-23",
             "s": 24.4,
+            "r": 13
+          },
+          {
+            "d": "2026-08-24",
+            "s": 24.7,
             "r": 13
           }
         ]
@@ -3518,9 +3569,9 @@ window.TRENDING_DATA = {
       "rank": 14,
       "cat": "infra",
       "lang": "Rust",
-      "stars": 65.9,
-      "today": "+68",
-      "today_n": 68,
+      "stars": 66.0,
+      "today": "+78",
+      "today_n": 78,
       "auto": false,
       "zh": {
         "tag": "轻量级 Bitwarden 自托管服务器",
@@ -3547,14 +3598,19 @@ window.TRENDING_DATA = {
         ]
       },
       "track": {
-        "days": 1,
+        "days": 2,
         "first": "2026-08-23",
-        "is_new": true,
+        "is_new": false,
         "is_back": false,
         "hist": [
           {
             "d": "2026-08-23",
             "s": 65.9,
+            "r": 14
+          },
+          {
+            "d": "2026-08-24",
+            "s": 66.0,
             "r": 14
           }
         ]
@@ -3566,9 +3622,9 @@ window.TRENDING_DATA = {
       "rank": 15,
       "cat": "agent",
       "lang": "Python",
-      "stars": 0.7,
-      "today": "+190",
-      "today_n": 190,
+      "stars": 0.9,
+      "today": "+225",
+      "today_n": 225,
       "auto": false,
       "zh": {
         "tag": "Claude 社区插件市场，只读镜像，每日同步",
@@ -3595,14 +3651,19 @@ window.TRENDING_DATA = {
         ]
       },
       "track": {
-        "days": 1,
+        "days": 2,
         "first": "2026-08-23",
-        "is_new": true,
+        "is_new": false,
         "is_back": false,
         "hist": [
           {
             "d": "2026-08-23",
             "s": 0.7,
+            "r": 15
+          },
+          {
+            "d": "2026-08-24",
+            "s": 0.9,
             "r": 15
           }
         ]
@@ -3614,9 +3675,9 @@ window.TRENDING_DATA = {
       "rank": 16,
       "cat": "other",
       "lang": "HTML",
-      "stars": 134.2,
-      "today": "+593",
-      "today_n": 593,
+      "stars": 134.4,
+      "today": "+615",
+      "today_n": 615,
       "auto": false,
       "zh": {
         "tag": "免费开发者服务大全，DevOps 必备清单",
@@ -3643,14 +3704,19 @@ window.TRENDING_DATA = {
         ]
       },
       "track": {
-        "days": 1,
+        "days": 2,
         "first": "2026-08-23",
-        "is_new": true,
+        "is_new": false,
         "is_back": false,
         "hist": [
           {
             "d": "2026-08-23",
             "s": 134.2,
+            "r": 16
+          },
+          {
+            "d": "2026-08-24",
+            "s": 134.4,
             "r": 16
           }
         ]
@@ -3662,9 +3728,9 @@ window.TRENDING_DATA = {
       "rank": 17,
       "cat": "ai",
       "lang": "Python",
-      "stars": 129.2,
-      "today": "+179",
-      "today_n": 179,
+      "stars": 129.4,
+      "today": "+201",
+      "today_n": 201,
       "auto": false,
       "zh": {
         "tag": "模块化节点式 AI 创作引擎，掌控每个模型与参数",
@@ -3693,7 +3759,7 @@ window.TRENDING_DATA = {
         ]
       },
       "track": {
-        "days": 1,
+        "days": 2,
         "first": "2026-08-10",
         "is_new": false,
         "is_back": false,
@@ -3712,6 +3778,11 @@ window.TRENDING_DATA = {
             "d": "2026-08-23",
             "s": 129.2,
             "r": 17
+          },
+          {
+            "d": "2026-08-24",
+            "s": 129.4,
+            "r": 17
           }
         ]
       }
@@ -3722,9 +3793,9 @@ window.TRENDING_DATA = {
       "rank": 18,
       "cat": "agent",
       "lang": "Python",
-      "stars": 234.7,
-      "today": "+443",
-      "today_n": 443,
+      "stars": 235.0,
+      "today": "+454",
+      "today_n": 454,
       "auto": false,
       "zh": {
         "tag": "自我进化的AI代理，跨平台陪伴成长",
@@ -3751,14 +3822,19 @@ window.TRENDING_DATA = {
         ]
       },
       "track": {
-        "days": 1,
+        "days": 2,
         "first": "2026-08-23",
-        "is_new": true,
+        "is_new": false,
         "is_back": false,
         "hist": [
           {
             "d": "2026-08-23",
             "s": 234.7,
+            "r": 18
+          },
+          {
+            "d": "2026-08-24",
+            "s": 235.0,
             "r": 18
           }
         ]
@@ -3771,8 +3847,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "Python",
       "stars": 8.0,
-      "today": "+42",
-      "today_n": 42,
+      "today": "+30",
+      "today_n": 30,
       "auto": false,
       "zh": {
         "tag": "开源大模型拒答消除工具，分布式研究实验",
@@ -3802,7 +3878,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -3815,8 +3891,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "Python",
       "stars": 38.8,
-      "today": "+328",
-      "today_n": 328,
+      "today": "+293",
+      "today_n": 293,
       "auto": false,
       "zh": {
         "tag": "开源一体化产品数据平台：分析、回放、实验、LLM 观测全包",
@@ -3926,8 +4002,8 @@ window.TRENDING_DATA = {
       "cat": "ai",
       "lang": "Python",
       "stars": 18.3,
-      "today": "+45",
-      "today_n": 45,
+      "today": "+38",
+      "today_n": 38,
       "auto": false,
       "zh": {
         "tag": "NVIDIA 开源语音与多模态生成式 AI 框架",
@@ -3955,7 +4031,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -3967,9 +4043,9 @@ window.TRENDING_DATA = {
       "rank": 9,
       "cat": "agent",
       "lang": "Python",
-      "stars": 142.7,
-      "today": "+377",
-      "today_n": 377,
+      "stars": 142.8,
+      "today": "+361",
+      "today_n": 361,
       "auto": false,
       "zh": {
         "tag": "终端里的 AI 编程代理，用自然语言写代码、跑任务、管 Git",
@@ -3997,7 +4073,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -4010,8 +4086,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "Python",
       "stars": 30.4,
-      "today": "+22",
-      "today_n": 22,
+      "today": "+25",
+      "today_n": 25,
       "auto": false,
       "zh": {
         "tag": "Claude Code 模板与监控 CLI 工具",
@@ -4039,7 +4115,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -4051,9 +4127,9 @@ window.TRENDING_DATA = {
       "rank": 12,
       "cat": "infra",
       "lang": "Python",
-      "stars": 88.7,
-      "today": "+38",
-      "today_n": 38,
+      "stars": 88.8,
+      "today": "+40",
+      "today_n": 40,
       "auto": false,
       "zh": {
         "tag": "为追求完美且有截止日期的开发者打造的高性能 Python Web 框架",
@@ -4081,7 +4157,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -4094,8 +4170,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "Python",
       "stars": 11.4,
-      "today": "+119",
-      "today_n": 119,
+      "today": "+193",
+      "today_n": 193,
       "auto": false,
       "zh": {
         "tag": "本地优先的语音克隆与配音工具，支持646种语言",
@@ -4125,7 +4201,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -4138,8 +4214,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "Python",
       "stars": 3.3,
-      "today": "+8",
-      "today_n": 8,
+      "today": "+9",
+      "today_n": 9,
       "auto": false,
       "zh": {
         "tag": "Claude Code 插件市场与发现平台",
@@ -4167,7 +4243,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -4180,8 +4256,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "Python",
       "stars": 79.2,
-      "today": "+151",
-      "today_n": 151,
+      "today": "+153",
+      "today_n": 153,
       "auto": false,
       "zh": {
         "tag": "为 LLM 打造的开源网页爬虫与抓取工具",
@@ -4209,7 +4285,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -4221,9 +4297,9 @@ window.TRENDING_DATA = {
       "rank": 16,
       "cat": "agent",
       "lang": "Python",
-      "stars": 80.6,
-      "today": "+93",
-      "today_n": 93,
+      "stars": 80.7,
+      "today": "+115",
+      "today_n": 115,
       "auto": false,
       "zh": {
         "tag": "开源长时程超级智能体编排框架，可研究、编码与创作",
@@ -4251,7 +4327,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -4264,8 +4340,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "Python",
       "stars": 3.5,
-      "today": "+82",
-      "today_n": 82,
+      "today": "+79",
+      "today_n": 79,
       "auto": false,
       "zh": {
         "tag": "自托管A股量化工作台：选股+监控+回测",
@@ -4293,7 +4369,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -4305,9 +4381,9 @@ window.TRENDING_DATA = {
       "rank": 18,
       "cat": "agent",
       "lang": "Python",
-      "stars": 71.4,
-      "today": "+48",
-      "today_n": 48,
+      "stars": 71.5,
+      "today": "+52",
+      "today_n": 52,
       "auto": false,
       "zh": {
         "tag": "多智能体群体智能预测引擎，模拟未来",
@@ -4355,9 +4431,9 @@ window.TRENDING_DATA = {
       "rank": 3,
       "cat": "agent",
       "lang": "TypeScript",
-      "stars": 200.5,
-      "today": "+421",
-      "today_n": 421,
+      "stars": 200.7,
+      "today": "+368",
+      "today_n": 368,
       "auto": false,
       "zh": {
         "tag": "开源 AI 编程代理，终端与桌面双形态",
@@ -4385,7 +4461,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -4398,8 +4474,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "TypeScript",
       "stars": 62.0,
-      "today": "+32",
-      "today_n": 32,
+      "today": "+43",
+      "today_n": 43,
       "auto": false,
       "zh": {
         "tag": "内容驱动网站的现代网页构建工具",
@@ -4427,7 +4503,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -4440,8 +4516,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "TypeScript",
       "stars": 3.0,
-      "today": "+296",
-      "today_n": 296,
+      "today": "+204",
+      "today_n": 204,
       "auto": false,
       "zh": {
         "tag": "自托管个人图书馆与阅读平台",
@@ -4471,7 +4547,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -4484,8 +4560,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "TypeScript",
       "stars": 0.3,
-      "today": "+45",
-      "today_n": 45,
+      "today": "+32",
+      "today_n": 32,
       "auto": false,
       "zh": {
         "tag": "开源 AI IDE，并行运行多种编码代理并构建可复用工作流",
@@ -4513,7 +4589,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -4526,8 +4602,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "TypeScript",
       "stars": 12.3,
-      "today": "+43",
-      "today_n": 43,
+      "today": "+27",
+      "today_n": 27,
       "auto": false,
       "zh": {
         "tag": "Meta 开源设计系统，组件丰富且支持 AI 代理协作",
@@ -4555,7 +4631,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -4567,9 +4643,9 @@ window.TRENDING_DATA = {
       "rank": 15,
       "cat": "infra",
       "lang": "TypeScript",
-      "stars": 53.6,
-      "today": "+641",
-      "today_n": 641,
+      "stars": 53.9,
+      "today": "+597",
+      "today_n": 597,
       "auto": false,
       "zh": {
         "tag": "开源免费AI网关，单端点聚合264家模型提供商并智能压缩省token",
@@ -4665,7 +4741,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -4678,8 +4754,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "TypeScript",
       "stars": 7.5,
-      "today": "+110",
-      "today_n": 110,
+      "today": "+94",
+      "today_n": 94,
       "auto": false,
       "zh": {
         "tag": "给设计工程师准备的一套 UI 类 Agent Skills",
@@ -4725,9 +4801,9 @@ window.TRENDING_DATA = {
       "rank": 15,
       "cat": "other",
       "lang": "TypeScript",
-      "stars": 57.4,
-      "today": "+404",
-      "today_n": 404,
+      "stars": 57.6,
+      "today": "+390",
+      "today_n": 390,
       "auto": false,
       "zh": {
         "tag": "开源项目管理平台，Jira/Linear 替代品",
@@ -4773,9 +4849,9 @@ window.TRENDING_DATA = {
       "rank": 16,
       "cat": "agent",
       "lang": "TypeScript",
-      "stars": 26.6,
-      "today": "+230",
-      "today_n": 230,
+      "stars": 26.8,
+      "today": "+229",
+      "today_n": 229,
       "auto": false,
       "zh": {
         "tag": "终端 AI 编程代理，内置 IDE 能力",
@@ -4805,7 +4881,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -4818,8 +4894,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "TypeScript",
       "stars": 48.3,
-      "today": "+49",
-      "today_n": 49,
+      "today": "+54",
+      "today_n": 54,
       "auto": false,
       "zh": {
         "tag": "自托管 AI 伴侣，复刻 Neuro-sama，支持实时语音与游戏",
@@ -4868,8 +4944,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "TypeScript",
       "stars": 11.8,
-      "today": "+184",
-      "today_n": 184,
+      "today": "+216",
+      "today_n": 216,
       "auto": false,
       "zh": {
         "tag": "零配置、开箱即用的 React 地图组件库",
@@ -4899,7 +4975,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -4912,8 +4988,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "TypeScript",
       "stars": 51.4,
-      "today": "+2",
-      "today_n": 2,
+      "today": "+3",
+      "today_n": 3,
       "auto": false,
       "zh": {
         "tag": "高质量 TypeScript 类型定义仓库",
@@ -4941,7 +5017,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -4954,8 +5030,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "TypeScript",
       "stars": 106.6,
-      "today": "+30",
-      "today_n": 30,
+      "today": "+35",
+      "today_n": 35,
       "auto": false,
       "zh": {
         "tag": "终端里的 Gemini AI 代理，开源免费",
@@ -4983,7 +5059,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -4995,9 +5071,9 @@ window.TRENDING_DATA = {
       "rank": 17,
       "cat": "agent",
       "lang": "TypeScript",
-      "stars": 42.2,
-      "today": "+149",
-      "today_n": 149,
+      "stars": 42.3,
+      "today": "+176",
+      "today_n": 176,
       "auto": false,
       "zh": {
         "tag": "为 AI 代理打造的 HTML 转视频渲染框架",
@@ -5025,7 +5101,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -5038,8 +5114,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "TypeScript",
       "stars": 55.4,
-      "today": "+59",
-      "today_n": 59,
+      "today": "+57",
+      "today_n": 57,
       "auto": false,
       "zh": {
         "tag": "开源 CRM，面向 AI 时代，可代码化定制",
@@ -5069,7 +5145,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -5081,9 +5157,9 @@ window.TRENDING_DATA = {
       "rank": 19,
       "cat": "agent",
       "lang": "TypeScript",
-      "stars": 13.2,
-      "today": "+29",
-      "today_n": 29,
+      "stars": 13.3,
+      "today": "+28",
+      "today_n": 28,
       "auto": false,
       "zh": {
         "tag": "并行运行100+编码代理的智能IDE",
@@ -5111,7 +5187,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -5153,7 +5229,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -5165,9 +5241,9 @@ window.TRENDING_DATA = {
       "rank": 21,
       "cat": "infra",
       "lang": "TypeScript",
-      "stars": 202.1,
-      "today": "+480",
-      "today_n": 480,
+      "stars": 202.2,
+      "today": "+476",
+      "today_n": 476,
       "auto": false,
       "zh": {
         "tag": "AI 原生工作流自动化平台，可视化编排 + 400+ 集成",
@@ -5195,7 +5271,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -5208,8 +5284,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "JavaScript",
       "stars": 55.0,
-      "today": "+23",
-      "today_n": 23,
+      "today": "+9",
+      "today_n": 9,
       "auto": false,
       "zh": {
         "tag": "开源无头 CMS，现代出版与订阅平台",
@@ -5237,7 +5313,49 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "register",
+      "full": "is-a-dev/register",
+      "rank": 4,
+      "cat": "infra",
+      "lang": "JavaScript",
+      "stars": 11.1,
+      "today": "+7",
+      "today_n": 7,
+      "auto": false,
+      "zh": {
+        "tag": "免费获取个性化 .is-a.dev 子域名服务",
+        "what": "is-a.dev 是一项免费服务，允许开发者为其个人网站获取一个美观的 .is-a.dev 子域名。用户通过提交 PR 来注册子域名，审核通过后即可使用。",
+        "content": "仓库主要包含 domains 目录，存放所有已注册的子域名配置文件，以及用于审核和管理的脚本和文档。",
+        "stack": "基于 JavaScript 构建，利用 GitHub Actions 自动验证和部署 DNS 记录，依赖 Cloudflare 进行 DNS 管理。",
+        "hot": "拥有超过 1.1 万星标，因其免费、易用且提供个性化子域名而广受开发者欢迎，今日新增 7 星并登上 GitHub 趋势榜。",
+        "uses": [
+          "个人开发者：为个人网站或项目获取一个简洁的子域名，提升专业形象。",
+          "开源项目维护者：为项目文档或演示站点提供易记的域名。",
+          "学生或新手：以低成本体验域名配置和 DNS 管理，学习相关技术。"
+        ]
+      },
+      "en": {
+        "tag": "Free .is-a.dev subdomains for developers' personal sites",
+        "what": "is-a.dev is a free service that lets developers obtain a stylish .is-a.dev subdomain for their personal websites. Users register by submitting a pull request, and once approved, the subdomain becomes active.",
+        "content": "The repository mainly contains a domains directory with configuration files for all registered subdomains, along with scripts and documentation for review and management.",
+        "stack": "Built with JavaScript, uses GitHub Actions for automated validation and deployment of DNS records, and relies on Cloudflare for DNS management.",
+        "hot": "With over 11k stars, it's popular among developers for being free, easy to use, and offering personalized subdomains. It gained 7 stars today and made it to the GitHub trending list.",
+        "uses": [
+          "Individual developers: get a clean subdomain for personal sites or projects to enhance professionalism.",
+          "Open-source maintainers: provide memorable domains for project docs or demo sites.",
+          "Students or beginners: experience domain configuration and DNS management at low cost to learn related skills."
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -5249,9 +5367,9 @@ window.TRENDING_DATA = {
       "rank": 14,
       "cat": "other",
       "lang": "JavaScript",
-      "stars": 60.9,
-      "today": "+375",
-      "today_n": 375,
+      "stars": 61.1,
+      "today": "+405",
+      "today_n": 405,
       "auto": false,
       "zh": {
         "tag": "人生进阶与英语学习开放指南",
@@ -5281,7 +5399,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -5294,8 +5412,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "JavaScript",
       "stars": 119.3,
-      "today": "+135",
-      "today_n": 135,
+      "today": "+54",
+      "today_n": 54,
       "auto": false,
       "zh": {
         "tag": "跨平台 JavaScript 运行时，生态基石",
@@ -5343,9 +5461,9 @@ window.TRENDING_DATA = {
       "rank": 3,
       "cat": "agent",
       "lang": "JavaScript",
-      "stars": 79.5,
-      "today": "+387",
-      "today_n": 387,
+      "stars": 79.7,
+      "today": "+394",
+      "today_n": 394,
       "auto": false,
       "zh": {
         "tag": "给AI代理注入审美，告别千篇一律的界面",
@@ -5373,7 +5491,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -5386,8 +5504,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "JavaScript",
       "stars": 90.5,
-      "today": "+48",
-      "today_n": 48,
+      "today": "+49",
+      "today_n": 49,
       "auto": false,
       "zh": {
         "tag": "自托管监控工具，界面美观，功能强大",
@@ -5415,7 +5533,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -5428,8 +5546,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "JavaScript",
       "stars": 2.0,
-      "today": "+10",
-      "today_n": 10,
+      "today": "+6",
+      "today_n": 6,
       "auto": false,
       "zh": {
         "tag": "Tizen 电视去广告与 SponsorBlock 增强模块",
@@ -5457,7 +5575,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -5499,7 +5617,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -5512,8 +5630,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "JavaScript",
       "stars": 6.0,
-      "today": "+38",
-      "today_n": 38,
+      "today": "+34",
+      "today_n": 34,
       "auto": false,
       "zh": {
         "tag": "网文写作全流程 skill 包，覆盖扫榜、拆文、写作、去AI味",
@@ -5541,7 +5659,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -5553,9 +5671,9 @@ window.TRENDING_DATA = {
       "rank": 12,
       "cat": "agent",
       "lang": "JavaScript",
-      "stars": 108.6,
-      "today": "+789",
-      "today_n": 789,
+      "stars": 108.8,
+      "today": "+668",
+      "today_n": 668,
       "auto": false,
       "zh": {
         "tag": "让 AI 代理像最懒的资深工程师一样写最少代码",
@@ -5583,7 +5701,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -5596,8 +5714,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "JavaScript",
       "stars": 20.8,
-      "today": "+0",
-      "today_n": 0,
+      "today": "+2",
+      "today_n": 2,
       "auto": false,
       "zh": {
         "tag": "全栈 Web 应用框架，基于 Svelte 组件，开发体验流畅",
@@ -5625,7 +5743,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -5637,9 +5755,9 @@ window.TRENDING_DATA = {
       "rank": 5,
       "cat": "infra",
       "lang": "Rust",
-      "stars": 27.4,
-      "today": "+169",
-      "today_n": 169,
+      "stars": 27.5,
+      "today": "+174",
+      "today_n": 174,
       "auto": false,
       "zh": {
         "tag": "Rust 原生高性能量化交易平台",
@@ -5693,8 +5811,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "Rust",
       "stars": 25.6,
-      "today": "+14",
-      "today_n": 14,
+      "today": "+9",
+      "today_n": 9,
       "auto": false,
       "zh": {
         "tag": "Web 项目一体化工具链，集格式化与检查于一身",
@@ -5722,7 +5840,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -5735,8 +5853,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "Rust",
       "stars": 31.0,
-      "today": "+12",
-      "today_n": 12,
+      "today": "+15",
+      "today_n": 15,
       "auto": false,
       "zh": {
         "tag": "为 JS/TS 与 AI 代理优化的 Rust 构建系统",
@@ -5764,7 +5882,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -5777,8 +5895,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "Rust",
       "stars": 8.5,
-      "today": "+47",
-      "today_n": 47,
+      "today": "+27",
+      "today_n": 27,
       "auto": false,
       "zh": {
         "tag": "零配置终端 IDE，兼具 VS Code 体验与极速性能",
@@ -5808,7 +5926,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -5821,8 +5939,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "Rust",
       "stars": 23.5,
-      "today": "+14",
-      "today_n": 14,
+      "today": "+15",
+      "today_n": 15,
       "auto": false,
       "zh": {
         "tag": "跨平台原生 GUI 工具包，一套代码多语言",
@@ -5850,7 +5968,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -5863,8 +5981,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "Rust",
       "stars": 0.7,
-      "today": "+20",
-      "today_n": 20,
+      "today": "+38",
+      "today_n": 38,
       "auto": false,
       "zh": {
         "tag": "Rust 编写的轻量级网页抓取与搜索 API，兼容 Firecrawl",
@@ -5892,7 +6010,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -5905,8 +6023,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "Rust",
       "stars": 17.6,
-      "today": "+14",
-      "today_n": 14,
+      "today": "+20",
+      "today_n": 20,
       "auto": false,
       "zh": {
         "tag": "开源开发者平台，将脚本转为 API、工作流和 UI",
@@ -5934,7 +6052,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -5947,8 +6065,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "Rust",
       "stars": 95.6,
-      "today": "+42",
-      "today_n": 42,
+      "today": "+43",
+      "today_n": 43,
       "auto": false,
       "zh": {
         "tag": "极速全栈 JavaScript 工具链，替代 Node.js",
@@ -5976,7 +6094,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -6018,7 +6136,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -6030,9 +6148,9 @@ window.TRENDING_DATA = {
       "rank": 13,
       "cat": "infra",
       "lang": "Rust",
-      "stars": 22.4,
-      "today": "+14",
-      "today_n": 14,
+      "stars": 22.5,
+      "today": "+12",
+      "today_n": 12,
       "auto": false,
       "zh": {
         "tag": "用 Rust 打造的高性能 JS/TS 工具链集合",
@@ -6062,7 +6180,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -6075,8 +6193,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "Rust",
       "stars": 91.4,
-      "today": "+113",
-      "today_n": 113,
+      "today": "+111",
+      "today_n": 111,
       "auto": false,
       "zh": {
         "tag": "用WiFi信号实现穿墙感知的空间智能平台",
@@ -6167,7 +6285,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -6180,8 +6298,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "Rust",
       "stars": 17.8,
-      "today": "+9",
-      "today_n": 9,
+      "today": "+7",
+      "today_n": 7,
       "auto": false,
       "zh": {
         "tag": "跨平台安全 Rust 图形 API，WebGPU 标准实现核心",
@@ -6209,7 +6327,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -6222,8 +6340,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "Go",
       "stars": 110.6,
-      "today": "+168",
-      "today_n": 168,
+      "today": "+141",
+      "today_n": 141,
       "auto": false,
       "zh": {
         "tag": "JavaScript 的超集，为大型应用提供类型系统",
@@ -6251,7 +6369,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -6264,8 +6382,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "Go",
       "stars": 0.6,
-      "today": "+136",
-      "today_n": 136,
+      "today": "+138",
+      "today_n": 138,
       "auto": false,
       "zh": {
         "tag": "为自主AI代理打造的零配置、零信任P2P智能网络",
@@ -6293,7 +6411,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -6305,9 +6423,9 @@ window.TRENDING_DATA = {
       "rank": 3,
       "cat": "infra",
       "lang": "Go",
-      "stars": 32.0,
-      "today": "+3",
-      "today_n": 3,
+      "stars": 32.1,
+      "today": "+0",
+      "today_n": 0,
       "auto": false,
       "zh": {
         "tag": "本地一键运行 Kubernetes 集群",
@@ -6335,7 +6453,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -6347,9 +6465,9 @@ window.TRENDING_DATA = {
       "rank": 4,
       "cat": "other",
       "lang": "Go",
-      "stars": 3.4,
-      "today": "+61",
-      "today_n": 61,
+      "stars": 3.5,
+      "today": "+62",
+      "today_n": 62,
       "auto": false,
       "zh": {
         "tag": "复古终端音乐播放器，致敬 Winamp",
@@ -6377,7 +6495,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -6389,9 +6507,9 @@ window.TRENDING_DATA = {
       "rank": 5,
       "cat": "agent",
       "lang": "Go",
-      "stars": 32.4,
-      "today": "+19",
-      "today_n": 19,
+      "stars": 32.5,
+      "today": "+23",
+      "today_n": 23,
       "auto": false,
       "zh": {
         "tag": "GitHub 官方 MCP 服务器，让 AI 直接操作仓库与工作流",
@@ -6419,7 +6537,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -6432,8 +6550,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "Go",
       "stars": 35.7,
-      "today": "+24",
-      "today_n": 24,
+      "today": "+21",
+      "today_n": 21,
       "auto": false,
       "zh": {
         "tag": "快速、安全、高效的跨平台备份工具",
@@ -6461,7 +6579,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -6474,8 +6592,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "Go",
       "stars": 39.0,
-      "today": "+302",
-      "today_n": 302,
+      "today": "+269",
+      "today_n": 269,
       "auto": false,
       "zh": {
         "tag": "订阅转 API 网关，拼车共享 AI 额度",
@@ -6503,7 +6621,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -6516,8 +6634,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "Go",
       "stars": 27.6,
-      "today": "+30",
-      "today_n": 30,
+      "today": "+39",
+      "today_n": 39,
       "auto": false,
       "zh": {
         "tag": "终端里的 AI 编程搭档，无缝接入你的工具与工作流",
@@ -6545,7 +6663,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -6557,7 +6675,7 @@ window.TRENDING_DATA = {
       "rank": 9,
       "cat": "agent",
       "lang": "Go",
-      "stars": 1.9,
+      "stars": 2.0,
       "today": "+7",
       "today_n": 7,
       "auto": false,
@@ -6587,7 +6705,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -6629,7 +6747,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -6642,8 +6760,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "Go",
       "stars": 29.9,
-      "today": "+8",
-      "today_n": 8,
+      "today": "+12",
+      "today_n": 12,
       "auto": false,
       "zh": {
         "tag": "开源基础设施即代码工具，Terraform 的替代品",
@@ -6671,7 +6789,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -6683,9 +6801,9 @@ window.TRENDING_DATA = {
       "rank": 20,
       "cat": "infra",
       "lang": "Go",
-      "stars": 45.1,
-      "today": "+54",
-      "today_n": 54,
+      "stars": 45.2,
+      "today": "+49",
+      "today_n": 49,
       "auto": false,
       "zh": {
         "tag": "Xray 多协议多用户 Web 管理面板",
@@ -6713,7 +6831,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -6726,8 +6844,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "Go",
       "stars": 40.0,
-      "today": "+3",
-      "today_n": 3,
+      "today": "+0",
+      "today_n": 0,
       "auto": false,
       "zh": {
         "tag": "极速 JavaScript 打包器，性能革命",
@@ -6755,7 +6873,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -6768,8 +6886,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "Go",
       "stars": 12.1,
-      "today": "+3",
-      "today_n": 3,
+      "today": "+4",
+      "today_n": 4,
       "auto": false,
       "zh": {
         "tag": "统一策略引擎，全栈策略执行",
@@ -6799,7 +6917,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -6812,8 +6930,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "Go",
       "stars": 21.2,
-      "today": "+71",
-      "today_n": 71,
+      "today": "+103",
+      "today_n": 103,
       "auto": false,
       "zh": {
         "tag": "阿里巴巴开源的企业级AI代码审查CLI工具",
@@ -6875,8 +6993,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "Go",
       "stars": 17.7,
-      "today": "+22",
-      "today_n": 22,
+      "today": "+21",
+      "today_n": 21,
       "auto": false,
       "zh": {
         "tag": "多智能体工作区管理器，持久化任务状态",
@@ -6904,7 +7022,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -6917,8 +7035,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "Go",
       "stars": 16.9,
-      "today": "+0",
-      "today_n": 0,
+      "today": "+2",
+      "today_n": 2,
       "auto": false,
       "zh": {
         "tag": "Kubernetes 原生容器工作流引擎，编排并行任务",
@@ -6948,7 +7066,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -6961,8 +7079,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "Go",
       "stars": 1.2,
-      "today": "+6",
-      "today_n": 6,
+      "today": "+3",
+      "today_n": 3,
       "auto": false,
       "zh": {
         "tag": "企业级 AI 模型访问与治理网关",
@@ -6992,7 +7110,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -7005,8 +7123,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "Go",
       "stars": 33.8,
-      "today": "+8",
-      "today_n": 8,
+      "today": "+5",
+      "today_n": 5,
       "auto": false,
       "zh": {
         "tag": "轻量级 Kubernetes 发行版，单二进制，生产可用",
@@ -7036,7 +7154,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -7049,8 +7167,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "Go",
       "stars": 2.8,
-      "today": "+8",
-      "today_n": 8,
+      "today": "+7",
+      "today_n": 7,
       "auto": false,
       "zh": {
         "tag": "将 Signal 消息应用封装成 REST API 的 Docker 服务",
@@ -7078,7 +7196,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -7091,8 +7209,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "C++",
       "stars": 197.4,
-      "today": "+60",
-      "today_n": 60,
+      "today": "+58",
+      "today_n": 58,
       "auto": false,
       "zh": {
         "tag": "Google 开源的端到端机器学习框架与生态平台",
@@ -7122,7 +7240,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -7135,8 +7253,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "C++",
       "stars": 32.6,
-      "today": "+26",
-      "today_n": 26,
+      "today": "+13",
+      "today_n": 13,
       "auto": false,
       "zh": {
         "tag": "让 Windows 游戏在 Linux 上无缝运行的兼容层",
@@ -7164,7 +7282,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -7177,8 +7295,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "C++",
       "stars": 21.6,
-      "today": "+19",
-      "today_n": 19,
+      "today": "+11",
+      "today_n": 11,
       "auto": false,
       "zh": {
         "tag": "跨平台高性能机器学习推理与训练加速器",
@@ -7208,7 +7326,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -7221,8 +7339,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "C++",
       "stars": 9.9,
-      "today": "+21",
-      "today_n": 21,
+      "today": "+18",
+      "today_n": 18,
       "auto": false,
       "zh": {
         "tag": "跨 GPU 的通用超分辨率与帧生成桥接工具",
@@ -7250,7 +7368,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -7263,8 +7381,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "C++",
       "stars": 16.4,
-      "today": "+10",
-      "today_n": 10,
+      "today": "+12",
+      "today_n": 12,
       "auto": false,
       "zh": {
         "tag": "免费强大的国际象棋引擎，UCI 协议，无 GUI",
@@ -7292,7 +7410,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -7305,8 +7423,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "C++",
       "stars": 75.8,
-      "today": "+31",
-      "today_n": 31,
+      "today": "+23",
+      "today_n": 23,
       "auto": false,
       "zh": {
         "tag": "C++ 即时模式 GUI 库，零依赖高性能",
@@ -7384,7 +7502,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -7397,8 +7515,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "C++",
       "stars": 12.1,
-      "today": "+14",
-      "today_n": 14,
+      "today": "+16",
+      "today_n": 16,
       "auto": false,
       "zh": {
         "tag": "ESP32 的 WiFi/蓝牙攻防工具套件",
@@ -7428,7 +7546,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -7441,8 +7559,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "C++",
       "stars": 14.6,
-      "today": "+23",
-      "today_n": 23,
+      "today": "+21",
+      "today_n": 21,
       "auto": false,
       "zh": {
         "tag": "自建 VPN 的开源客户端，支持多协议与混淆",
@@ -7495,9 +7613,9 @@ window.TRENDING_DATA = {
       "rank": 10,
       "cat": "other",
       "lang": "C++",
-      "stars": 3.8,
-      "today": "+26",
-      "today_n": 26,
+      "stars": 3.9,
+      "today": "+27",
+      "today_n": 27,
       "auto": false,
       "zh": {
         "tag": "ESP32 多频段无线攻防工具，带触屏 UI",
@@ -7525,7 +7643,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -7538,8 +7656,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "C++",
       "stars": 38.1,
-      "today": "+53",
-      "today_n": 53,
+      "today": "+50",
+      "today_n": 50,
       "auto": false,
       "zh": {
         "tag": "极致美观的动态平铺 Wayland 合成器",
@@ -7591,8 +7709,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "C++",
       "stars": 5.6,
-      "today": "+57",
-      "today_n": 57,
+      "today": "+48",
+      "today_n": 48,
       "auto": false,
       "zh": {
         "tag": "ESP32 万能协议黑客工具，网页 CLI 控制",
@@ -7622,7 +7740,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -7635,8 +7753,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "C++",
       "stars": 32.7,
-      "today": "+28",
-      "today_n": 28,
+      "today": "+30",
+      "today_n": 30,
       "auto": false,
       "zh": {
         "tag": "Telegram 官方桌面客户端，跨平台消息应用",
@@ -7664,7 +7782,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -7677,8 +7795,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "C++",
       "stars": 3.2,
-      "today": "+6",
-      "today_n": 6,
+      "today": "+4",
+      "today_n": 4,
       "auto": false,
       "zh": {
         "tag": "将PS2游戏静态重编译为原生PC移植版",
@@ -7706,7 +7824,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -7718,9 +7836,9 @@ window.TRENDING_DATA = {
       "rank": 15,
       "cat": "infra",
       "lang": "C++",
-      "stars": 40.4,
-      "today": "+37",
-      "today_n": 37,
+      "stars": 40.5,
+      "today": "+39",
+      "today_n": 39,
       "auto": false,
       "zh": {
         "tag": "自托管游戏串流服务端，配合 Moonlight 低延迟远程游戏",
@@ -7748,7 +7866,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -7761,8 +7879,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "C++",
       "stars": 13.2,
-      "today": "+5",
-      "today_n": 5,
+      "today": "+4",
+      "today_n": 4,
       "auto": false,
       "zh": {
         "tag": "统一加载40+种3D格式的开源资产导入库",
@@ -7790,7 +7908,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -7832,7 +7950,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -7845,8 +7963,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "C++",
       "stars": 19.5,
-      "today": "+12",
-      "today_n": 12,
+      "today": "+16",
+      "today_n": 16,
       "auto": false,
       "zh": {
         "tag": "开源 PS3 模拟器与调试器，跨平台运行 PS3 游戏",
@@ -7874,7 +7992,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -7887,8 +8005,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "C++",
       "stars": 9.9,
-      "today": "+5",
-      "today_n": 5,
+      "today": "+3",
+      "today_n": 3,
       "auto": false,
       "zh": {
         "tag": "Source引擎2013版官方源码，含半条命2与TF2游戏代码",
@@ -7916,7 +8034,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -7929,8 +8047,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "C++",
       "stars": 9.8,
-      "today": "+37",
-      "today_n": 37,
+      "today": "+40",
+      "today_n": 40,
       "auto": false,
       "zh": {
         "tag": "原生 Wayland 桌面外壳，一体化可定制 Linux 桌面",
@@ -7960,7 +8078,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -7972,9 +8090,9 @@ window.TRENDING_DATA = {
       "rank": 21,
       "cat": "other",
       "lang": "C++",
-      "stars": 5.6,
-      "today": "+6",
-      "today_n": 6,
+      "stars": 5.7,
+      "today": "+9",
+      "today_n": 9,
       "auto": false,
       "zh": {
         "tag": "实验性 PlayStation Vita 模拟器，跨平台运行",
@@ -8004,7 +8122,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -8017,8 +8135,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "C++",
       "stars": 14.3,
-      "today": "+2",
-      "today_n": 2,
+      "today": "+5",
+      "today_n": 5,
       "auto": false,
       "zh": {
         "tag": "跨平台 PSP 模拟器，无需 BIOS，兼容性与速度俱佳",
@@ -8046,7 +8164,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -8059,8 +8177,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "C++",
       "stars": 8.8,
-      "today": "+6",
-      "today_n": 6,
+      "today": "+4",
+      "today_n": 4,
       "auto": false,
       "zh": {
         "tag": "开源魔兽世界3.3.5a模拟器，模块化MMO服务端框架",
@@ -8090,7 +8208,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -8103,8 +8221,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "C++",
       "stars": 6.9,
-      "today": "+20",
-      "today_n": 20,
+      "today": "+23",
+      "today_n": 23,
       "auto": false,
       "zh": {
         "tag": "跨平台 GUI 代理工具，基于 sing-box 内核",
@@ -8132,7 +8250,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -8144,9 +8262,9 @@ window.TRENDING_DATA = {
       "rank": 1,
       "cat": "infra",
       "lang": "Mojo",
-      "stars": 28.9,
-      "today": "+2.0k",
-      "today_n": 2017,
+      "stars": 29.0,
+      "today": "+2.2k",
+      "today_n": 2176,
       "auto": false,
       "zh": {
         "tag": "统一 AI 开发与部署平台，含 MAX 框架与 Mojo 语言",
@@ -8194,9 +8312,9 @@ window.TRENDING_DATA = {
       "rank": 8,
       "cat": "agent",
       "lang": "Python",
-      "stars": 115.0,
-      "today": "+11.0k",
-      "today_n": 10953,
+      "stars": 115.3,
+      "today": "+11.2k",
+      "today_n": 11167,
       "auto": false,
       "zh": {
         "tag": "一键生成高清短视频的AI自动化工具",
@@ -8260,8 +8378,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "TypeScript",
       "stars": 7.2,
-      "today": "+3.4k",
-      "today_n": 3364,
+      "today": "+2.7k",
+      "today_n": 2725,
       "auto": false,
       "zh": {
         "tag": "时空组合性的元框架，重新定义编程范式",
@@ -8312,9 +8430,9 @@ window.TRENDING_DATA = {
       "rank": 13,
       "cat": "agent",
       "lang": "Python",
-      "stars": 32.3,
-      "today": "+3.4k",
-      "today_n": 3447,
+      "stars": 32.5,
+      "today": "+3.8k",
+      "today_n": 3799,
       "auto": false,
       "zh": {
         "tag": "AI 代理的自进化上下文数据库，统一记忆、知识与技能",
@@ -8370,9 +8488,9 @@ window.TRENDING_DATA = {
       "rank": 6,
       "cat": "other",
       "lang": "Python",
-      "stars": 468.9,
-      "today": "+9.4k",
-      "today_n": 9381,
+      "stars": 469.2,
+      "today": "+8.3k",
+      "today_n": 8295,
       "auto": false,
       "zh": {
         "tag": "免费公共 API 大全，开发者资源宝库",
@@ -8426,8 +8544,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "Python",
       "stars": 20.4,
-      "today": "+1.6k",
-      "today_n": 1597,
+      "today": "+1.7k",
+      "today_n": 1671,
       "auto": false,
       "zh": {
         "tag": "macOS 菜单栏原生 LLM 推理服务器，支持连续批处理与 SSD 缓存",
@@ -8480,72 +8598,14 @@ window.TRENDING_DATA = {
       }
     },
     {
-      "slug": "ai-memory",
-      "full": "akitaonrails/ai-memory",
-      "rank": 7,
-      "cat": "agent",
-      "lang": "Rust",
-      "stars": 4.2,
-      "today": "+2.6k",
-      "today_n": 2575,
-      "auto": false,
-      "zh": {
-        "tag": "为 AI 编码代理提供长期记忆，跨工具无缝交接",
-        "what": "ai-memory 是一个 Rust 编写的解决方案，为 Claude Code、Codex 等 AI 编码代理提供长期记忆。它能在你中途退出一个代理后，用另一个代理在相同目录继续工作，无需重新解释架构、失败尝试或未决问题。",
-        "content": "仓库包含 Rust 源码、文档（如 macOS 和 Windows 指南）、Docker 镜像发布配置，以及支持矩阵。提供原生二进制和安装脚本，支持 Linux、macOS、Windows（WSL2 和实验性原生）。",
-        "stack": "主要使用 Rust 1.95+，通过 MCP（Model Context Protocol）与代理集成，并利用生命周期钩子（lifecycle hooks）捕获会话信息。支持多种代理的配置格式。",
-        "hot": "随着 AI 编码代理的普及，跨工具切换的痛点日益凸显。该项目精准解决了长期记忆缺失的问题，上线不久即获 3597 星，今日新增 332 星，位列日榜第 7。",
-        "uses": [
-          "频繁切换 AI 编码代理（如 Claude Code 和 Codex）的开发者，希望保留上下文",
-          "团队协作中需要交接编码任务，确保新代理快速了解项目状态",
-          "使用 Linux/macOS 或 WSL2 环境，追求高效编码工作流的开发者"
-        ]
-      },
-      "en": {
-        "tag": "Long-term memory for AI coding agents, enabling seamless handoff across tools",
-        "what": "ai-memory is a Rust-based solution that provides long-term memory for AI coding agents like Claude Code and Codex. It lets you quit one agent mid-task and start another in the same directory, continuing without re-explaining the architecture, failed approaches, or open questions.",
-        "content": "The repo contains Rust source code, documentation (e.g., macOS and Windows guides), Docker image release config, and a support matrix. It provides native binaries and install scripts for Linux, macOS, and Windows (WSL2 and experimental native).",
-        "stack": "Primarily Rust 1.95+, integrates with agents via MCP (Model Context Protocol) and lifecycle hooks to capture session info. Supports configuration formats for multiple agents.",
-        "hot": "As AI coding agents proliferate, the pain point of switching between tools becomes prominent. This project precisely addresses the lack of long-term memory, gaining 3597 stars shortly after launch, with 332 stars today, ranking 7th on the daily trend.",
-        "uses": [
-          "Developers who frequently switch between AI coding agents (e.g., Claude Code and Codex) and want to retain context",
-          "Teams that need to hand off coding tasks, ensuring new agents quickly understand project state",
-          "Developers on Linux/macOS or WSL2 seeking efficient coding workflows"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-08-18",
-        "is_new": false,
-        "is_back": false,
-        "hist": [
-          {
-            "d": "2026-08-18",
-            "s": 2.0,
-            "r": 4
-          },
-          {
-            "d": "2026-08-19",
-            "s": 2.7,
-            "r": 3
-          },
-          {
-            "d": "2026-08-21",
-            "s": 3.6,
-            "r": 7
-          }
-        ]
-      }
-    },
-    {
       "slug": "plugins",
       "full": "cursor/plugins",
       "rank": 5,
       "cat": "agent",
       "lang": "TypeScript",
       "stars": 4.8,
-      "today": "+1.7k",
-      "today_n": 1693,
+      "today": "+1.8k",
+      "today_n": 1761,
       "auto": false,
       "zh": {
         "tag": "Cursor 官方插件规范与精选插件集",
@@ -8602,8 +8662,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "Python",
       "stars": 10.4,
-      "today": "+2.5k",
-      "today_n": 2450,
+      "today": "+2.3k",
+      "today_n": 2317,
       "auto": false,
       "zh": {
         "tag": "为 AI 代理打造的开源图原生上下文与决策基础设施",
@@ -8676,9 +8736,9 @@ window.TRENDING_DATA = {
       "rank": 16,
       "cat": "infra",
       "lang": "Python",
-      "stars": 5.6,
-      "today": "+906",
-      "today_n": 906,
+      "stars": 5.7,
+      "today": "+1.1k",
+      "today_n": 1149,
       "auto": false,
       "zh": {
         "tag": "腾讯开源的 AI 红队全栈安全平台",
@@ -8725,8 +8785,8 @@ window.TRENDING_DATA = {
       "cat": "ai",
       "lang": "Python",
       "stars": 8.7,
-      "today": "+2.7k",
-      "today_n": 2664,
+      "today": "+2.3k",
+      "today_n": 2312,
       "auto": false,
       "zh": {
         "tag": "14MB 端侧模型，手机/穿戴/家居/机器人皆可跑",
@@ -8787,9 +8847,9 @@ window.TRENDING_DATA = {
       "rank": 4,
       "cat": "agent",
       "lang": "Python",
-      "stars": 30.7,
+      "stars": 30.8,
       "today": "+2.9k",
-      "today_n": 2890,
+      "today_n": 2918,
       "auto": false,
       "zh": {
         "tag": "AI 代理的 817 项结构化网络安全技能库",
@@ -8848,8 +8908,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "Python",
       "stars": 74.5,
-      "today": "+2.7k",
-      "today_n": 2729,
+      "today": "+2.2k",
+      "today_n": 2165,
       "auto": false,
       "zh": {
         "tag": "本地运行与训练大模型和扩散模型的桌面应用",
@@ -8908,8 +8968,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "Python",
       "stars": 2.1,
-      "today": "+96",
-      "today_n": 96,
+      "today": "+97",
+      "today_n": 97,
       "auto": false,
       "zh": {
         "tag": "RTX 3090/4090/5090 本地运行 LLM 的社区配方集",
@@ -8937,7 +8997,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -8950,8 +9010,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "Python",
       "stars": 13.1,
-      "today": "+235",
-      "today_n": 235,
+      "today": "+237",
+      "today_n": 237,
       "auto": false,
       "zh": {
         "tag": "微软出品，Python/.NET 双语言的生产级 AI 代理与多代理工作流框架",
@@ -8981,7 +9041,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -8993,9 +9053,9 @@ window.TRENDING_DATA = {
       "rank": 2,
       "cat": "agent",
       "lang": "Python",
-      "stars": 57.3,
-      "today": "+4.8k",
-      "today_n": 4754,
+      "stars": 57.4,
+      "today": "+4.2k",
+      "today_n": 4248,
       "auto": false,
       "zh": {
         "tag": "开源AI自动化渗透测试工具，自主发现并修复应用漏洞",
@@ -9036,56 +9096,14 @@ window.TRENDING_DATA = {
       }
     },
     {
-      "slug": "scrapling",
-      "full": "D4Vinci/Scrapling",
-      "rank": 15,
-      "cat": "infra",
-      "lang": "Python",
-      "stars": 76.0,
-      "today": "+1.8k",
-      "today_n": 1767,
-      "auto": false,
-      "zh": {
-        "tag": "自适应网页抓取框架，从单请求到全站爬取",
-        "what": "Scrapling 是一个自适应的网页抓取框架，能够处理从单个请求到大规模爬取的各种任务。它提供了多种抓取模式，如静态抓取、动态抓取和基于浏览器的抓取，并支持自动适配不同的网站结构。",
-        "content": "仓库包含核心抓取库、多种抓取器（Fetcher、StealthyFetcher、PlaywrightFetcher 等）、解析工具（Adaptor、Selector）、以及用于 AI 代理的技能目录（agent-skill）。",
-        "stack": "基于 Python 构建，依赖 httpx、lxml、cssselect 等库，支持 Playwright 和 Camoufox 进行浏览器自动化，并集成 MCP 以支持 AI 代理。",
-        "hot": "凭借 76k+ 星标和每周 1.7k+ 新增，Scrapling 因其易用性和强大的自适应能力成为 Python 抓取领域的热门选择，尤其受到 AI 代理开发者的青睐。",
-        "uses": [
-          "数据采集工程师：快速构建从简单请求到复杂爬虫的抓取任务，无需手动处理反爬机制。",
-          "AI 代理开发者：利用内置的 agent-skill 和 MCP 支持，让 AI 代理能够自主抓取网页数据。",
-          "数据分析师：从网站提取结构化数据用于分析和建模，支持多种输出格式。"
-        ]
-      },
-      "en": {
-        "tag": "Adaptive web scraping framework from single request to full-scale crawl",
-        "what": "Scrapling is an adaptive web scraping framework that handles everything from a single request to full-scale crawling. It offers multiple fetching modes including static, dynamic, and browser-based, with automatic adaptation to different website structures.",
-        "content": "The repository includes the core scraping library, various fetchers (Fetcher, StealthyFetcher, PlaywrightFetcher), parsing utilities (Adaptor, Selector), and an agent-skill directory for AI agents.",
-        "stack": "Built with Python, relying on httpx, lxml, cssselect, and supporting Playwright and Camoufox for browser automation, with MCP integration for AI agents.",
-        "hot": "With 76k+ stars and 1.7k+ weekly additions, Scrapling has become a popular choice in Python scraping due to its ease of use and adaptive capabilities, especially among AI agent developers.",
-        "uses": [
-          "Data scraping engineers: Quickly build scraping tasks from simple requests to complex crawlers without manual anti-bot handling.",
-          "AI agent developers: Leverage built-in agent-skill and MCP support for autonomous web data extraction.",
-          "Data analysts: Extract structured data from websites for analysis and modeling, with multiple output formats."
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-08-23",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
       "slug": "soup",
       "full": "MakazhanAlpamys/Soup",
       "rank": 15,
       "cat": "agent",
       "lang": "Python",
       "stars": 2.8,
-      "today": "+1.2k",
-      "today_n": 1224,
+      "today": "+888",
+      "today_n": 888,
       "auto": false,
       "zh": {
         "tag": "一条命令微调大模型，无需SSH和复杂配置",
@@ -9132,8 +9150,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "Python",
       "stars": 1.6,
-      "today": "+370",
-      "today_n": 370,
+      "today": "+341",
+      "today_n": 341,
       "auto": false,
       "zh": {
         "tag": "在 Apple Silicon 上以多 token 预测加速本地 LLM 推理",
@@ -9161,7 +9179,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -9174,8 +9192,8 @@ window.TRENDING_DATA = {
       "cat": "ai",
       "lang": "Python",
       "stars": 6.8,
-      "today": "+113",
-      "today_n": 113,
+      "today": "+112",
+      "today_n": 112,
       "auto": false,
       "zh": {
         "tag": "苹果芯片上运行与微调大模型的Python包",
@@ -9203,7 +9221,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -9216,8 +9234,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "TypeScript",
       "stars": 1.1,
-      "today": "+424",
-      "today_n": 424,
+      "today": "+496",
+      "today_n": 496,
       "auto": false,
       "zh": {
         "tag": "无限画布上的终端与AI代理管理器",
@@ -9247,7 +9265,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -9260,8 +9278,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "TypeScript",
       "stars": 7.2,
-      "today": "+1.1k",
-      "today_n": 1057,
+      "today": "+1.0k",
+      "today_n": 1035,
       "auto": false,
       "zh": {
         "tag": "本地 AI 图像转 3D 网格的桌面应用",
@@ -9313,8 +9331,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "TypeScript",
       "stars": 10.6,
-      "today": "+1.0k",
-      "today_n": 1036,
+      "today": "+981",
+      "today_n": 981,
       "auto": false,
       "zh": {
         "tag": "免费AI编码代理，多产品覆盖终端、桌面、网页与云端",
@@ -9344,7 +9362,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -9358,7 +9376,7 @@ window.TRENDING_DATA = {
       "lang": "TypeScript",
       "stars": 54.4,
       "today": "+1.9k",
-      "today_n": 1927,
+      "today_n": 1912,
       "auto": false,
       "zh": {
         "tag": "现代化全功能下载管理器，支持 HTTP/FTP/BT/磁力链接",
@@ -9409,9 +9427,9 @@ window.TRENDING_DATA = {
       "rank": 5,
       "cat": "other",
       "lang": "TypeScript",
-      "stars": 41.5,
-      "today": "+1.2k",
-      "today_n": 1174,
+      "stars": 41.6,
+      "today": "+1.1k",
+      "today_n": 1055,
       "auto": false,
       "zh": {
         "tag": "隐私优先的开源简历生成器",
@@ -9439,7 +9457,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -9451,9 +9469,9 @@ window.TRENDING_DATA = {
       "rank": 6,
       "cat": "agent",
       "lang": "JavaScript",
-      "stars": 67.9,
+      "stars": 68.0,
       "today": "+4.0k",
-      "today_n": 3963,
+      "today_n": 3973,
       "auto": false,
       "zh": {
         "tag": "开源 AI 求职代理：扫描职位、评分、定制简历、跟踪申请",
@@ -9510,8 +9528,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "JavaScript",
       "stars": 2.5,
-      "today": "+446",
-      "today_n": 446,
+      "today": "+455",
+      "today_n": 455,
       "auto": false,
       "zh": {
         "tag": "AI 代理全自动管理 YouTube 频道，免费 Gemini 可用",
@@ -9541,7 +9559,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -9554,8 +9572,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "JavaScript",
       "stars": 40.7,
-      "today": "+1.3k",
-      "today_n": 1259,
+      "today": "+927",
+      "today_n": 927,
       "auto": false,
       "zh": {
         "tag": "开源低代码平台，构建内部工具与AI代理",
@@ -9609,8 +9627,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "JavaScript",
       "stars": 5.0,
-      "today": "+93",
-      "today_n": 93,
+      "today": "+97",
+      "today_n": 97,
       "auto": false,
       "zh": {
         "tag": "模块化 SenseNova 技能，构建 AI 办公助手与生产力工作流",
@@ -9640,7 +9658,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -9653,8 +9671,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "JavaScript",
       "stars": 1.4,
-      "today": "+111",
-      "today_n": 111,
+      "today": "+117",
+      "today_n": 117,
       "auto": false,
       "zh": {
         "tag": "SillyTavern 的 Tauri/Rust 原生重写，跨平台桌面与移动端开箱即用",
@@ -9682,7 +9700,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -9695,8 +9713,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "JavaScript",
       "stars": 51.5,
-      "today": "+106",
-      "today_n": 106,
+      "today": "+111",
+      "today_n": 111,
       "auto": false,
       "zh": {
         "tag": "拒绝白板面试的友好公司清单",
@@ -9724,7 +9742,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -9737,8 +9755,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "JavaScript",
       "stars": 25.7,
-      "today": "+74",
-      "today_n": 74,
+      "today": "+81",
+      "today_n": 81,
       "auto": false,
       "zh": {
         "tag": "超3400个品牌SVG图标库",
@@ -9766,7 +9784,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -9779,8 +9797,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "JavaScript",
       "stars": 1.6,
-      "today": "+222",
-      "today_n": 222,
+      "today": "+223",
+      "today_n": 223,
       "auto": false,
       "zh": {
         "tag": "本地优先的 AI 编码工具用量监控桌面小组件",
@@ -9810,7 +9828,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -9822,9 +9840,9 @@ window.TRENDING_DATA = {
       "rank": 10,
       "cat": "agent",
       "lang": "JavaScript",
-      "stars": 3.8,
+      "stars": 3.9,
       "today": "+2.6k",
-      "today_n": 2632,
+      "today_n": 2647,
       "auto": false,
       "zh": {
         "tag": "本地多智能体编排，让终端 CLI 变成你的克隆员工",
@@ -9881,8 +9899,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "JavaScript",
       "stars": 19.5,
-      "today": "+416",
-      "today_n": 416,
+      "today": "+418",
+      "today_n": 418,
       "auto": false,
       "zh": {
         "tag": "八大网盘直链获取工具，一键下载",
@@ -9910,7 +9928,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -9923,8 +9941,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "Rust",
       "stars": 2.3,
-      "today": "+635",
-      "today_n": 635,
+      "today": "+658",
+      "today_n": 658,
       "auto": false,
       "zh": {
         "tag": "LLM 流量代理与协议翻译，让代理用上开源模型",
@@ -9979,7 +9997,7 @@ window.TRENDING_DATA = {
       "lang": "Rust",
       "stars": 33.7,
       "today": "+1.9k",
-      "today_n": 1949,
+      "today_n": 1866,
       "auto": false,
       "zh": {
         "tag": "一条命令为你的硬件找到最合适的 LLM 模型",
@@ -10032,7 +10050,7 @@ window.TRENDING_DATA = {
       "lang": "Rust",
       "stars": 16.3,
       "today": "+1.5k",
-      "today_n": 1465,
+      "today_n": 1483,
       "auto": false,
       "zh": {
         "tag": "基于 TurboQuant 的超快向量索引，内存省 8 倍",
@@ -10091,8 +10109,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "Rust",
       "stars": 5.6,
-      "today": "+628",
-      "today_n": 628,
+      "today": "+533",
+      "today_n": 533,
       "auto": false,
       "zh": {
         "tag": "开源 AI 原生矢量设计工具，支持多智能体协作",
@@ -10122,7 +10140,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -10135,8 +10153,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "Rust",
       "stars": 13.4,
-      "today": "+498",
-      "today_n": 498,
+      "today": "+531",
+      "today_n": 531,
       "auto": false,
       "zh": {
         "tag": "Rust 桌面 UI 组件库，基于 GPUI 构建跨平台应用",
@@ -10164,7 +10182,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -10177,8 +10195,8 @@ window.TRENDING_DATA = {
       "cat": "ai",
       "lang": "Rust",
       "stars": 5.4,
-      "today": "+126",
-      "today_n": 126,
+      "today": "+117",
+      "today_n": 117,
       "auto": false,
       "zh": {
         "tag": "本地优先的 ML 漫画翻译工具，用 Rust 编写",
@@ -10206,7 +10224,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -10219,8 +10237,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "Rust",
       "stars": 7.9,
-      "today": "+341",
-      "today_n": 341,
+      "today": "+335",
+      "today_n": 335,
       "auto": false,
       "zh": {
         "tag": "本地优先的极速微虚拟机运行时与库",
@@ -10250,7 +10268,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -10263,8 +10281,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "Rust",
       "stars": 89.1,
-      "today": "+471",
-      "today_n": 471,
+      "today": "+474",
+      "today_n": 474,
       "auto": false,
       "zh": {
         "tag": "高性能多人协作代码编辑器，Atom 与 Tree-sitter 作者打造",
@@ -10294,7 +10312,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -10307,8 +10325,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "Go",
       "stars": 1.6,
-      "today": "+369",
-      "today_n": 369,
+      "today": "+375",
+      "today_n": 375,
       "auto": false,
       "zh": {
         "tag": "高密度多路复用、亚秒级挂起/恢复的 Agent 运行时基础设施",
@@ -10355,8 +10373,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "Go",
       "stars": 11.3,
-      "today": "+213",
-      "today_n": 213,
+      "today": "+157",
+      "today_n": 157,
       "auto": false,
       "zh": {
         "tag": "AI视频翻译配音全链路工具，支持人类与AI Agent调用",
@@ -10384,7 +10402,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -10397,8 +10415,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "Go",
       "stars": 37.6,
-      "today": "+155",
-      "today_n": 155,
+      "today": "+150",
+      "today_n": 150,
       "auto": false,
       "zh": {
         "tag": "全能开源安全扫描器，覆盖容器、K8s、代码与云",
@@ -10428,7 +10446,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -10441,8 +10459,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "Go",
       "stars": 19.4,
-      "today": "+244",
-      "today_n": 244,
+      "today": "+191",
+      "today_n": 191,
       "auto": false,
       "zh": {
         "tag": "跨平台网络资源嗅探下载器，支持多平台多格式",
@@ -10472,7 +10490,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -10484,9 +10502,9 @@ window.TRENDING_DATA = {
       "rank": 15,
       "cat": "agent",
       "lang": "Go",
-      "stars": 179.2,
-      "today": "+772",
-      "today_n": 772,
+      "stars": 179.3,
+      "today": "+715",
+      "today_n": 715,
       "auto": false,
       "zh": {
         "tag": "一键运行开源大模型的本地推理平台",
@@ -10516,7 +10534,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -10529,8 +10547,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "Go",
       "stars": 47.4,
-      "today": "+115",
-      "today_n": 115,
+      "today": "+105",
+      "today_n": 105,
       "auto": false,
       "zh": {
         "tag": "Windows 专用 Node.js 版本管理器，Go 编写",
@@ -10558,7 +10576,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -10571,8 +10589,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "Go",
       "stars": 24.6,
-      "today": "+282",
-      "today_n": 282,
+      "today": "+291",
+      "today_n": 291,
       "auto": false,
       "zh": {
         "tag": "轻量级服务器监控平台，支持 Docker 统计、历史数据与告警",
@@ -10602,7 +10620,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -10615,8 +10633,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "Go",
       "stars": 16.0,
-      "today": "+53",
-      "today_n": 53,
+      "today": "+55",
+      "today_n": 55,
       "auto": false,
       "zh": {
         "tag": "现代跨平台任务运行器，Make 的替代品",
@@ -10644,7 +10662,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -10657,8 +10675,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "Go",
       "stars": 28.7,
-      "today": "+89",
-      "today_n": 89,
+      "today": "+83",
+      "today_n": 83,
       "auto": false,
       "zh": {
         "tag": "为 Web 应用提供单点登录与多因素认证的开源门户",
@@ -10686,7 +10704,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -10699,8 +10717,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "Go",
       "stars": 1.5,
-      "today": "+318",
-      "today_n": 318,
+      "today": "+314",
+      "today_n": 314,
       "auto": false,
       "zh": {
         "tag": "为 AI 代理和 IDE 打造的高性能代码智能引擎",
@@ -10730,7 +10748,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -10743,8 +10761,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "Go",
       "stars": 5.9,
-      "today": "+150",
-      "today_n": 150,
+      "today": "+156",
+      "today_n": 156,
       "auto": false,
       "zh": {
         "tag": "AI 原生网络安全作战系统，意图驱动、证据留痕、可回放",
@@ -10774,7 +10792,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -10787,8 +10805,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "Go",
       "stars": 9.0,
-      "today": "+162",
-      "today_n": 162,
+      "today": "+165",
+      "today_n": 165,
       "auto": false,
       "zh": {
         "tag": "极简自托管 OIDC/OAuth2 提供商，支持 Passkey 登录",
@@ -10816,7 +10834,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -10829,8 +10847,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "Go",
       "stars": 19.3,
-      "today": "+50",
-      "today_n": 50,
+      "today": "+52",
+      "today_n": 52,
       "auto": false,
       "zh": {
         "tag": "Go 语言高性能并行 Lint 工具",
@@ -10858,7 +10876,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -10871,8 +10889,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "Go",
       "stars": 14.4,
-      "today": "+178",
-      "today_n": 178,
+      "today": "+176",
+      "today_n": 176,
       "auto": false,
       "zh": {
         "tag": "内网安全扫描与漏洞检测一体化工具",
@@ -10902,7 +10920,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -10915,8 +10933,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "Go",
       "stars": 1.6,
-      "today": "+233",
-      "today_n": 233,
+      "today": "+153",
+      "today_n": 153,
       "auto": false,
       "zh": {
         "tag": "本地终端 AI 编程代理，模型与权限全由你掌控",
@@ -10946,7 +10964,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -10959,8 +10977,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "Go",
       "stars": 46.0,
-      "today": "+756",
-      "today_n": 756,
+      "today": "+761",
+      "today_n": 761,
       "auto": false,
       "zh": {
         "tag": "统一 AI 模型网关与资产管理平台",
@@ -10990,7 +11008,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11002,9 +11020,9 @@ window.TRENDING_DATA = {
       "rank": 20,
       "cat": "other",
       "lang": "Go",
-      "stars": 182.0,
-      "today": "+922",
-      "today_n": 922,
+      "stars": 182.1,
+      "today": "+909",
+      "today_n": 909,
       "auto": false,
       "zh": {
         "tag": "Go 语言精选框架、库与软件清单",
@@ -11034,7 +11052,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11047,8 +11065,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "C++",
       "stars": 2.5,
-      "today": "+36",
-      "today_n": 36,
+      "today": "+40",
+      "today_n": 40,
       "auto": false,
       "zh": {
         "tag": "多平台世嘉 Dreamcast/Naomi 模拟器",
@@ -11076,7 +11094,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11089,8 +11107,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "C++",
       "stars": 125.3,
-      "today": "+1.3k",
-      "today_n": 1287,
+      "today": "+1.2k",
+      "today_n": 1246,
       "auto": false,
       "zh": {
         "tag": "纯C/C++的高性能LLM推理引擎",
@@ -11118,7 +11136,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11131,8 +11149,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "C++",
       "stars": 5.9,
-      "today": "+128",
-      "today_n": 128,
+      "today": "+119",
+      "today_n": 119,
       "auto": false,
       "zh": {
         "tag": "面向移动端与穿戴设备的混合边缘-云 AI 推理引擎",
@@ -11160,7 +11178,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11173,8 +11191,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "C++",
       "stars": 32.6,
-      "today": "+148",
-      "today_n": 148,
+      "today": "+139",
+      "today_n": 139,
       "auto": false,
       "zh": {
         "tag": "跨平台 PS4 模拟器，C++ 编写，早期阶段",
@@ -11202,7 +11220,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11215,8 +11233,8 @@ window.TRENDING_DATA = {
       "cat": "ai",
       "lang": "C++",
       "stars": 5.2,
-      "today": "+110",
-      "today_n": 110,
+      "today": "+105",
+      "today_n": 105,
       "auto": false,
       "zh": {
         "tag": "快速本地神经语音合成引擎",
@@ -11246,7 +11264,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11259,8 +11277,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "C++",
       "stars": 0.4,
-      "today": "+111",
-      "today_n": 111,
+      "today": "+54",
+      "today_n": 54,
       "auto": false,
       "zh": {
         "tag": "《皇牌空战6》静态重编译原生 PC 移植",
@@ -11288,7 +11306,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11301,8 +11319,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "C++",
       "stars": 19.8,
-      "today": "+394",
-      "today_n": 394,
+      "today": "+376",
+      "today_n": 376,
       "auto": false,
       "zh": {
         "tag": "隐私优先的 Chromium 浏览器，无广告无臃肿",
@@ -11330,7 +11348,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11343,8 +11361,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "C++",
       "stars": 8.9,
-      "today": "+16",
-      "today_n": 16,
+      "today": "+17",
+      "today_n": 17,
       "auto": false,
       "zh": {
         "tag": "Matter 智能家居互联标准的开源参考实现",
@@ -11372,7 +11390,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11416,7 +11434,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11429,8 +11447,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "C++",
       "stars": 0.3,
-      "today": "+116",
-      "today_n": 116,
+      "today": "+114",
+      "today_n": 114,
       "auto": false,
       "zh": {
         "tag": "为 AMD 硬件优化的 llama.cpp 实验性量化格式家族",
@@ -11458,7 +11476,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11471,8 +11489,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "C++",
       "stars": 122.7,
-      "today": "+261",
-      "today_n": 261,
+      "today": "+257",
+      "today_n": 257,
       "auto": false,
       "zh": {
         "tag": "用 Web 技术构建跨平台桌面应用的开源框架",
@@ -11500,7 +11518,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11513,8 +11531,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "C++",
       "stars": 2.8,
-      "today": "+72",
-      "today_n": 72,
+      "today": "+66",
+      "today_n": 66,
       "auto": false,
       "zh": {
         "tag": "用 QtQuick 打造 Wayland/X11 桌面外壳的灵活工具包",
@@ -11542,7 +11560,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11555,8 +11573,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "C++",
       "stars": 1.8,
-      "today": "+48",
-      "today_n": 48,
+      "today": "+47",
+      "today_n": 47,
       "auto": false,
       "zh": {
         "tag": "在 AMD Ryzen AI NPU 上快速运行大模型的轻量运行时",
@@ -11584,7 +11602,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11597,8 +11615,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "C++",
       "stars": 0.4,
-      "today": "+40",
-      "today_n": 40,
+      "today": "+28",
+      "today_n": 28,
       "auto": false,
       "zh": {
         "tag": "用手机指纹/人脸解锁电脑的桌面端应用",
@@ -11626,7 +11644,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11689,8 +11707,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "C++",
       "stars": 4.7,
-      "today": "+41",
-      "today_n": 41,
+      "today": "+42",
+      "today_n": 42,
       "auto": false,
       "zh": {
         "tag": "在 Linux 上为 Vulkan 游戏启用帧生成的开源层",
@@ -11718,7 +11736,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11731,8 +11749,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "C++",
       "stars": 0.7,
-      "today": "+62",
-      "today_n": 62,
+      "today": "+42",
+      "today_n": 42,
       "auto": false,
       "zh": {
         "tag": "自制原生C++魔兽世界客户端，Vulkan渲染器",
@@ -11762,7 +11780,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11775,8 +11793,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "C++",
       "stars": 25.7,
-      "today": "+101",
-      "today_n": 101,
+      "today": "+83",
+      "today_n": 83,
       "auto": false,
       "zh": {
         "tag": "单文件分发与运行大模型的工具",
@@ -11804,7 +11822,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11816,9 +11834,9 @@ window.TRENDING_DATA = {
       "rank": 1,
       "cat": "agent",
       "lang": "TypeScript",
-      "stars": 23.9,
-      "today": "+14.7k",
-      "today_n": 14702,
+      "stars": 24.0,
+      "today": "+14.9k",
+      "today_n": 14878,
       "auto": false,
       "zh": {
         "tag": "AI 代理团队级记忆中枢，沉淀对话、文档与代码为可复用资产",
@@ -11866,9 +11884,9 @@ window.TRENDING_DATA = {
       "rank": 1,
       "cat": "agent",
       "lang": "Python",
-      "stars": 23.4,
-      "today": "+15.6k",
-      "today_n": 15557,
+      "stars": 23.5,
+      "today": "+14.4k",
+      "today_n": 14450,
       "auto": false,
       "zh": {
         "tag": "让 AI 助手直接给答案，告别啰嗦铺垫",
@@ -11919,9 +11937,9 @@ window.TRENDING_DATA = {
       "rank": 1,
       "cat": "agent",
       "lang": "PowerShell",
-      "stars": 27.6,
-      "today": "+18.8k",
-      "today_n": 18829,
+      "stars": 27.9,
+      "today": "+19.1k",
+      "today_n": 19063,
       "auto": false,
       "zh": {
         "tag": "AI 驱动的逆向/渗透测试技能路由与工具链自举包",
@@ -11951,7 +11969,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11963,9 +11981,9 @@ window.TRENDING_DATA = {
       "rank": 9,
       "cat": "other",
       "lang": "Jupyter Notebook",
-      "stars": 66.4,
-      "today": "+13.9k",
-      "today_n": 13881,
+      "stars": 66.5,
+      "today": "+14.0k",
+      "today_n": 13993,
       "auto": false,
       "zh": {
         "tag": "微软出品的12周AI入门课程，适合零基础学习",
@@ -11995,7 +12013,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -12007,9 +12025,9 @@ window.TRENDING_DATA = {
       "rank": 14,
       "cat": "agent",
       "lang": "TypeScript",
-      "stars": 20.1,
+      "stars": 20.2,
       "today": "+5.9k",
-      "today_n": 5879,
+      "today_n": 5876,
       "auto": false,
       "zh": {
         "tag": "为编码代理打造的极简 Web GUI",
@@ -12065,9 +12083,9 @@ window.TRENDING_DATA = {
       "rank": 16,
       "cat": "agent",
       "lang": "JavaScript",
-      "stars": 12.9,
-      "today": "+11.7k",
-      "today_n": 11724,
+      "stars": 13.0,
+      "today": "+11.6k",
+      "today_n": 11598,
       "auto": false,
       "zh": {
         "tag": "为AI代理设计的极速共享浏览器，零配置",
@@ -12138,9 +12156,9 @@ window.TRENDING_DATA = {
       "rank": 8,
       "cat": "ai",
       "lang": "Python",
-      "stars": 41.1,
-      "today": "+24.2k",
-      "today_n": 24229,
+      "stars": 41.2,
+      "today": "+23.5k",
+      "today_n": 23452,
       "auto": false,
       "zh": {
         "tag": "AI Agent 设计原理与工程实践开源书",
@@ -12198,9 +12216,9 @@ window.TRENDING_DATA = {
       "rank": 6,
       "cat": "agent",
       "lang": "Rust",
-      "stars": 18.3,
-      "today": "+7.8k",
-      "today_n": 7782,
+      "stars": 18.4,
+      "today": "+7.6k",
+      "today_n": 7570,
       "auto": false,
       "zh": {
         "tag": "Rust 编写的下一代 Coding Agent Harness，极致性能与多会话支持",
@@ -12251,9 +12269,9 @@ window.TRENDING_DATA = {
       "rank": 17,
       "cat": "agent",
       "lang": "TypeScript",
-      "stars": 95.7,
-      "today": "+20.5k",
-      "today_n": 20460,
+      "stars": 95.9,
+      "today": "+20.0k",
+      "today_n": 20046,
       "auto": false,
       "zh": {
         "tag": "AI 智能体工具链：统一 LLM API、代理循环、TUI 与编程代理 CLI",
@@ -12283,7 +12301,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -12295,9 +12313,9 @@ window.TRENDING_DATA = {
       "rank": 9,
       "cat": "other",
       "lang": "Python",
-      "stars": 14.0,
+      "stars": 14.1,
       "today": "+2.3k",
-      "today_n": 2252,
+      "today_n": 2328,
       "auto": false,
       "zh": {
         "tag": "邮箱账号关联查询 OSINT 工具",
@@ -12355,9 +12373,9 @@ window.TRENDING_DATA = {
       "rank": 16,
       "cat": "infra",
       "lang": "Jupyter Notebook",
-      "stars": 32.2,
+      "stars": 32.3,
       "today": "+8.4k",
-      "today_n": 8401,
+      "today_n": 8428,
       "auto": false,
       "zh": {
         "tag": "单卡4GB跑70B大模型，无需量化蒸馏剪枝",
@@ -12387,7 +12405,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -12399,9 +12417,9 @@ window.TRENDING_DATA = {
       "rank": 9,
       "cat": "ai",
       "lang": "Python",
-      "stars": 37.2,
-      "today": "+8.3k",
-      "today_n": 8266,
+      "stars": 37.3,
+      "today": "+8.1k",
+      "today_n": 8143,
       "auto": false,
       "zh": {
         "tag": "港大出品的 AI 私人家教：个性化终身学习工作区",
@@ -12459,7 +12477,7 @@ window.TRENDING_DATA = {
       "lang": "Python",
       "stars": 25.1,
       "today": "+2.7k",
-      "today_n": 2719,
+      "today_n": 2724,
       "auto": false,
       "zh": {
         "tag": "开源身份认证与单点登录平台",
@@ -12522,9 +12540,9 @@ window.TRENDING_DATA = {
       "rank": 16,
       "cat": "agent",
       "lang": "Python",
-      "stars": 37.3,
-      "today": "+7.0k",
-      "today_n": 6962,
+      "stars": 37.4,
+      "today": "+6.9k",
+      "today_n": 6913,
       "auto": false,
       "zh": {
         "tag": "AI 文本去味剂，让机器写作更自然",
@@ -12552,7 +12570,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -12566,7 +12584,7 @@ window.TRENDING_DATA = {
       "lang": "Python",
       "stars": 16.1,
       "today": "+6.5k",
-      "today_n": 6513,
+      "today_n": 6460,
       "auto": false,
       "zh": {
         "tag": "让Claude具备看视频能力的Agent插件，一键解析任意视频",
@@ -12616,7 +12634,7 @@ window.TRENDING_DATA = {
       "lang": "Python",
       "stars": 365.6,
       "today": "+7.4k",
-      "today_n": 7418,
+      "today_n": 7446,
       "auto": false,
       "zh": {
         "tag": "系统设计面试与大规模系统学习一站式指南",
@@ -12646,7 +12664,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -12660,7 +12678,7 @@ window.TRENDING_DATA = {
       "lang": "Python",
       "stars": 8.7,
       "today": "+4.3k",
-      "today_n": 4301,
+      "today_n": 4288,
       "auto": false,
       "zh": {
         "tag": "把书、视频、播客蒸馏成可调用的 AI 技能包",
@@ -12690,7 +12708,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -12703,8 +12721,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "Python",
       "stars": 18.6,
-      "today": "+3.7k",
-      "today_n": 3669,
+      "today": "+3.5k",
+      "today_n": 3532,
       "auto": false,
       "zh": {
         "tag": "Google 产品与技术的 Agent Skills 集合",
@@ -12760,9 +12778,9 @@ window.TRENDING_DATA = {
       "rank": 13,
       "cat": "other",
       "lang": "Python",
-      "stars": 91.9,
-      "today": "+3.2k",
-      "today_n": 3241,
+      "stars": 92.0,
+      "today": "+3.3k",
+      "today_n": 3272,
       "auto": false,
       "zh": {
         "tag": "数学视频动画引擎，3Blue1Brown 出品",
@@ -12814,8 +12832,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "TypeScript",
       "stars": 23.0,
-      "today": "+6.1k",
-      "today_n": 6137,
+      "today": "+6.2k",
+      "today_n": 6156,
       "auto": false,
       "zh": {
         "tag": "AI 工作流共享与跨代理协作的开源桌面应用",
@@ -12843,7 +12861,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -12857,7 +12875,7 @@ window.TRENDING_DATA = {
       "lang": "TypeScript",
       "stars": 6.6,
       "today": "+4.8k",
-      "today_n": 4790,
+      "today_n": 4813,
       "auto": false,
       "zh": {
         "tag": "轻量云原生 GIS 平台，跨端运行且数据本地化",
@@ -12905,9 +12923,9 @@ window.TRENDING_DATA = {
       "rank": 4,
       "cat": "agent",
       "lang": "TypeScript",
-      "stars": 51.6,
-      "today": "+25.7k",
-      "today_n": 25668,
+      "stars": 51.9,
+      "today": "+24.9k",
+      "today_n": 24937,
       "auto": false,
       "zh": {
         "tag": "多 AI 编程代理并行编排的桌面与移动工作平台",
@@ -12961,8 +12979,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "TypeScript",
       "stars": 13.2,
-      "today": "+6.2k",
-      "today_n": 6166,
+      "today": "+5.8k",
+      "today_n": 5845,
       "auto": false,
       "zh": {
         "tag": "开源 SEO 分析平台，支持 AI Agent 与 MCP 工具链集成",
@@ -13015,9 +13033,9 @@ window.TRENDING_DATA = {
       "rank": 21,
       "cat": "other",
       "lang": "TypeScript",
-      "stars": 21.6,
+      "stars": 21.7,
       "today": "+4.2k",
-      "today_n": 4198,
+      "today_n": 4218,
       "auto": false,
       "zh": {
         "tag": "基于 WebGPU 的 3D 建筑编辑器",
@@ -13045,7 +13063,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -13057,9 +13075,9 @@ window.TRENDING_DATA = {
       "rank": 23,
       "cat": "agent",
       "lang": "TypeScript",
-      "stars": 50.9,
-      "today": "+2.4k",
-      "today_n": 2358,
+      "stars": 51.0,
+      "today": "+2.3k",
+      "today_n": 2345,
       "auto": false,
       "zh": {
         "tag": "AI 生产力工作室：智能对话、自主代理与 300+ 助手",
@@ -13087,7 +13105,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -13100,8 +13118,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "TypeScript",
       "stars": 15.5,
-      "today": "+514",
-      "today_n": 514,
+      "today": "+518",
+      "today_n": 518,
       "auto": false,
       "zh": {
         "tag": "TypeScript 生产级应用开发库，提供类型安全、错误处理与依赖注入",
@@ -13131,7 +13149,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -13144,8 +13162,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "TypeScript",
       "stars": 19.1,
-      "today": "+397",
-      "today_n": 397,
+      "today": "+402",
+      "today_n": 402,
       "auto": false,
       "zh": {
         "tag": "开源智能体操作系统，让 AI 代理自主运行",
@@ -13175,7 +13193,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -13188,8 +13206,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "TypeScript",
       "stars": 8.2,
-      "today": "+4.5k",
-      "today_n": 4528,
+      "today": "+4.4k",
+      "today_n": 4366,
       "auto": false,
       "zh": {
         "tag": "自托管可视化CMS，输出干净静态页面",
@@ -13247,7 +13265,7 @@ window.TRENDING_DATA = {
       "lang": "TypeScript",
       "stars": 27.3,
       "today": "+1.2k",
-      "today_n": 1235,
+      "today_n": 1231,
       "auto": false,
       "zh": {
         "tag": "终端里的开源 AI 编程代理",
@@ -13277,7 +13295,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -13291,7 +13309,7 @@ window.TRENDING_DATA = {
       "lang": "TypeScript",
       "stars": 21.4,
       "today": "+1.1k",
-      "today_n": 1100,
+      "today_n": 1098,
       "auto": false,
       "zh": {
         "tag": "开源可观测性平台，替代 Datadog/Splunk，成本降低 140 倍",
@@ -13321,7 +13339,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -13335,7 +13353,7 @@ window.TRENDING_DATA = {
       "lang": "JavaScript",
       "stars": 1.6,
       "today": "+1.0k",
-      "today_n": 1007,
+      "today_n": 1035,
       "auto": false,
       "zh": {
         "tag": "Claude Code 全家桶：代理、技能、钩子、规则与 MCP 配置",
@@ -13363,7 +13381,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -13375,9 +13393,9 @@ window.TRENDING_DATA = {
       "rank": 7,
       "cat": "agent",
       "lang": "JavaScript",
-      "stars": 61.8,
+      "stars": 61.9,
       "today": "+13.1k",
-      "today_n": 13136,
+      "today_n": 13083,
       "auto": false,
       "zh": {
         "tag": "为 AI 编码代理打造的设计语言与技能集，终结千篇一律的 SaaS 模板风",
@@ -13429,8 +13447,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "JavaScript",
       "stars": 0.8,
-      "today": "+229",
-      "today_n": 229,
+      "today": "+216",
+      "today_n": 216,
       "auto": false,
       "zh": {
         "tag": "微软官方 Power Platform 开发插件市场",
@@ -13458,7 +13476,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -13471,8 +13489,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "JavaScript",
       "stars": 98.9,
-      "today": "+404",
-      "today_n": 404,
+      "today": "+408",
+      "today_n": 408,
       "auto": false,
       "zh": {
         "tag": "React 组件库，实现 Google Material Design",
@@ -13500,7 +13518,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -13514,7 +13532,7 @@ window.TRENDING_DATA = {
       "lang": "JavaScript",
       "stars": 39.2,
       "today": "+1.1k",
-      "today_n": 1120,
+      "today_n": 1124,
       "auto": false,
       "zh": {
         "tag": "免费在线数据库 ER 图编辑器与 SQL 生成器",
@@ -13544,7 +13562,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -13588,7 +13606,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -13601,8 +13619,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "JavaScript",
       "stars": 12.4,
-      "today": "+232",
-      "today_n": 232,
+      "today": "+237",
+      "today_n": 237,
       "auto": false,
       "zh": {
         "tag": "开源看板项目管理工具，实时协作",
@@ -13632,7 +13650,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -13674,7 +13692,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -13687,8 +13705,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "JavaScript",
       "stars": 14.9,
-      "today": "+398",
-      "today_n": 398,
+      "today": "+390",
+      "today_n": 390,
       "auto": false,
       "zh": {
         "tag": "跨平台终端与远程连接客户端，支持多协议",
@@ -13716,7 +13734,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -13758,7 +13776,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -13771,8 +13789,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "JavaScript",
       "stars": 7.3,
-      "today": "+927",
-      "today_n": 927,
+      "today": "+914",
+      "today_n": 914,
       "auto": false,
       "zh": {
         "tag": "让 AI 代理变身韩国人的技能包",
@@ -13800,7 +13818,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -13813,8 +13831,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "JavaScript",
       "stars": 11.5,
-      "today": "+1.0k",
-      "today_n": 1044,
+      "today": "+1.1k",
+      "today_n": 1061,
       "auto": false,
       "zh": {
         "tag": "个人智能情报终端，27 个数据源，一条命令本地运行",
@@ -13844,7 +13862,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -13857,8 +13875,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "JavaScript",
       "stars": 114.7,
-      "today": "+948",
-      "today_n": 948,
+      "today": "+934",
+      "today_n": 934,
       "auto": false,
       "zh": {
         "tag": "轻量跨浏览器 JavaScript 3D 库，WebGL/WebGPU 渲染",
@@ -13888,7 +13906,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -13901,8 +13919,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "JavaScript",
       "stars": 61.3,
-      "today": "+194",
-      "today_n": 194,
+      "today": "+196",
+      "today_n": 196,
       "auto": false,
       "zh": {
         "tag": "现代 JavaScript 实用工具库，模块化、高性能、功能丰富",
@@ -13930,7 +13948,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -13943,8 +13961,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "JavaScript",
       "stars": 8.2,
-      "today": "+843",
-      "today_n": 843,
+      "today": "+853",
+      "today_n": 853,
       "auto": false,
       "zh": {
         "tag": "洛雪音乐自定义音源合集，一键导入即听全网音乐",
@@ -13972,7 +13990,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -14016,7 +14034,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -14028,9 +14046,9 @@ window.TRENDING_DATA = {
       "rank": 17,
       "cat": "ai",
       "lang": "Rust",
-      "stars": 30.1,
-      "today": "+3.0k",
-      "today_n": 2995,
+      "stars": 30.2,
+      "today": "+2.9k",
+      "today_n": 2949,
       "auto": false,
       "zh": {
         "tag": "开源可扩展的离线语音转录桌面工具",
@@ -14060,7 +14078,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -14102,7 +14120,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -14116,7 +14134,7 @@ window.TRENDING_DATA = {
       "lang": "Rust",
       "stars": 32.9,
       "today": "+1.9k",
-      "today_n": 1903,
+      "today_n": 1907,
       "auto": false,
       "zh": {
         "tag": "一站式开发环境管理工具",
@@ -14164,9 +14182,9 @@ window.TRENDING_DATA = {
       "rank": 14,
       "cat": "agent",
       "lang": "Rust",
-      "stars": 121.5,
-      "today": "+3.1k",
-      "today_n": 3131,
+      "stars": 121.6,
+      "today": "+3.2k",
+      "today_n": 3159,
       "auto": false,
       "zh": {
         "tag": "开源远程桌面，自托管替代 TeamViewer",
@@ -14214,7 +14232,7 @@ window.TRENDING_DATA = {
       "lang": "Rust",
       "stars": 89.0,
       "today": "+1.5k",
-      "today_n": 1465,
+      "today_n": 1455,
       "auto": false,
       "zh": {
         "tag": "用 Rust 打造的极速 Python 包与项目管理工具",
@@ -14242,7 +14260,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -14255,8 +14273,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "Rust",
       "stars": 4.7,
-      "today": "+2.1k",
-      "today_n": 2130,
+      "today": "+2.0k",
+      "today_n": 2011,
       "auto": false,
       "zh": {
         "tag": "Rust 全栈框架，电池全配，服务端渲染",
@@ -14305,8 +14323,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "Rust",
       "stars": 7.8,
-      "today": "+290",
-      "today_n": 290,
+      "today": "+285",
+      "today_n": 285,
       "auto": false,
       "zh": {
         "tag": "数据中心级分布式推理服务编排层",
@@ -14336,7 +14354,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -14349,8 +14367,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "Rust",
       "stars": 31.4,
-      "today": "+727",
-      "today_n": 727,
+      "today": "+725",
+      "today_n": 725,
       "auto": false,
       "zh": {
         "tag": "用 SQLite 和加密同步重塑 shell 历史记录",
@@ -14378,7 +14396,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -14391,8 +14409,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "Rust",
       "stars": 12.0,
-      "today": "+371",
-      "today_n": 371,
+      "today": "+379",
+      "today_n": 379,
       "auto": false,
       "zh": {
         "tag": "多服务器构建与部署平台",
@@ -14420,7 +14438,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -14434,7 +14452,7 @@ window.TRENDING_DATA = {
       "lang": "Rust",
       "stars": 31.3,
       "today": "+1.3k",
-      "today_n": 1288,
+      "today_n": 1280,
       "auto": false,
       "zh": {
         "tag": "比 MinIO 快 2.3 倍的 S3 兼容对象存储",
@@ -14464,7 +14482,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -14477,8 +14495,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "Rust",
       "stars": 39.5,
-      "today": "+435",
-      "today_n": 435,
+      "today": "+439",
+      "today_n": 439,
       "auto": false,
       "zh": {
         "tag": "极速 DataFrame 查询引擎，Rust 编写，支持多语言",
@@ -14508,7 +14526,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -14522,7 +14540,7 @@ window.TRENDING_DATA = {
       "lang": "Rust",
       "stars": 2.9,
       "today": "+1.7k",
-      "today_n": 1700,
+      "today_n": 1706,
       "auto": false,
       "zh": {
         "tag": "终端里的代码评审工具，支持 Vim 键位",
@@ -14550,7 +14568,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -14564,7 +14582,7 @@ window.TRENDING_DATA = {
       "lang": "Go",
       "stars": 5.4,
       "today": "+1.2k",
-      "today_n": 1225,
+      "today_n": 1200,
       "auto": false,
       "zh": {
         "tag": "AI 工程化开源控制平面，编排跨工具工作流",
@@ -14592,7 +14610,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -14604,9 +14622,9 @@ window.TRENDING_DATA = {
       "rank": 13,
       "cat": "infra",
       "lang": "Go",
-      "stars": 45.9,
-      "today": "+718",
-      "today_n": 718,
+      "stars": 46.0,
+      "today": "+717",
+      "today_n": 717,
       "auto": false,
       "zh": {
         "tag": "GitHub 官方命令行工具，将 PR、Issue 等带到终端",
@@ -14634,7 +14652,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -14647,8 +14665,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "Go",
       "stars": 17.6,
-      "today": "+539",
-      "today_n": 539,
+      "today": "+538",
+      "today_n": 538,
       "auto": false,
       "zh": {
         "tag": "电话号OSINT信息收集框架",
@@ -14678,7 +14696,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -14692,7 +14710,7 @@ window.TRENDING_DATA = {
       "lang": "Go",
       "stars": 26.5,
       "today": "+1.1k",
-      "today_n": 1131,
+      "today_n": 1055,
       "auto": false,
       "zh": {
         "tag": "为AI编码代理提供持久化结构化记忆的分布式图式问题追踪器",
@@ -14720,7 +14738,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -14764,7 +14782,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -14777,8 +14795,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "Go",
       "stars": 75.1,
-      "today": "+980",
-      "today_n": 980,
+      "today": "+984",
+      "today_n": 984,
       "auto": false,
       "zh": {
         "tag": "默认 HTTPS 的极速可扩展 Web 服务器",
@@ -14808,7 +14826,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -14822,7 +14840,7 @@ window.TRENDING_DATA = {
       "lang": "Go",
       "stars": 35.1,
       "today": "+8.0k",
-      "today_n": 8020,
+      "today_n": 7979,
       "auto": false,
       "zh": {
         "tag": "DeepSeek 原生终端 AI 编程代理，专注前缀缓存稳定性",
@@ -14869,8 +14887,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "Go",
       "stars": 14.0,
-      "today": "+517",
-      "today_n": 517,
+      "today": "+518",
+      "today_n": 518,
       "auto": false,
       "zh": {
         "tag": "零延迟多协议摄像头流媒体服务器",
@@ -14900,7 +14918,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -14914,7 +14932,7 @@ window.TRENDING_DATA = {
       "lang": "Go",
       "stars": 21.7,
       "today": "+3.4k",
-      "today_n": 3426,
+      "today_n": 3430,
       "auto": false,
       "zh": {
         "tag": "一键追溯进程/端口/容器/文件来源的 CLI+TUI 工具",
@@ -14968,8 +14986,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "Go",
       "stars": 28.9,
-      "today": "+700",
-      "today_n": 700,
+      "today": "+684",
+      "today_n": 684,
       "auto": false,
       "zh": {
         "tag": "Git 仓库密钥扫描与泄露检测工具",
@@ -14997,7 +15015,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -15010,8 +15028,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "Go",
       "stars": 15.4,
-      "today": "+669",
-      "today_n": 669,
+      "today": "+677",
+      "today_n": 677,
       "auto": false,
       "zh": {
         "tag": "让 AI 助手直接读写小红书数据的 MCP 服务",
@@ -15041,7 +15059,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -15054,8 +15072,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "Go",
       "stars": 89.1,
-      "today": "+3.6k",
-      "today_n": 3596,
+      "today": "+3.5k",
+      "today_n": 3539,
       "auto": false,
       "zh": {
         "tag": "开源 RAG 引擎，融合 Agent 能力，为 LLM 构建上下文层",
@@ -15114,8 +15132,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "Go",
       "stars": 0.3,
-      "today": "+103",
-      "today_n": 103,
+      "today": "+106",
+      "today_n": 106,
       "auto": false,
       "zh": {
         "tag": "OpenAI 官方安全 MCP 隧道客户端，连接本地服务到云端",
@@ -15145,7 +15163,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -15157,9 +15175,9 @@ window.TRENDING_DATA = {
       "rank": 2,
       "cat": "agent",
       "lang": "Go",
-      "stars": 47.3,
-      "today": "+6.0k",
-      "today_n": 5977,
+      "stars": 47.4,
+      "today": "+5.9k",
+      "today_n": 5894,
       "auto": false,
       "zh": {
         "tag": "把AI编码代理当队友分配任务的协作工作台",
@@ -15187,7 +15205,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -15199,9 +15217,9 @@ window.TRENDING_DATA = {
       "rank": 7,
       "cat": "other",
       "lang": "Go",
-      "stars": 22.7,
-      "today": "+4.1k",
-      "today_n": 4108,
+      "stars": 22.8,
+      "today": "+4.0k",
+      "today_n": 3989,
       "auto": false,
       "zh": {
         "tag": "高颜值现代化终端文件管理器",
@@ -15258,8 +15276,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "Go",
       "stars": 5.5,
-      "today": "+324",
-      "today_n": 324,
+      "today": "+325",
+      "today_n": 325,
       "auto": false,
       "zh": {
         "tag": "基于 Matrix 房间的协作式多智能体操作系统",
@@ -15289,7 +15307,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -15302,8 +15320,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "C++",
       "stars": 16.6,
-      "today": "+412",
-      "today_n": 412,
+      "today": "+414",
+      "today_n": 414,
       "auto": false,
       "zh": {
         "tag": "开源统一XDR与SIEM安全平台，保护端点与云负载",
@@ -15333,7 +15351,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -15346,8 +15364,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "C++",
       "stars": 7.9,
-      "today": "+144",
-      "today_n": 144,
+      "today": "+149",
+      "today_n": 149,
       "auto": false,
       "zh": {
         "tag": "微软官方 WinUI 现代 Windows UI 框架",
@@ -15375,7 +15393,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -15419,7 +15437,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -15432,8 +15450,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "C++",
       "stars": 49.4,
-      "today": "+670",
-      "today_n": 670,
+      "today": "+658",
+      "today_n": 658,
       "auto": false,
       "zh": {
         "tag": "实时分析型列式数据库管理系统",
@@ -15463,7 +15481,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -15476,8 +15494,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "C++",
       "stars": 11.6,
-      "today": "+167",
-      "today_n": 167,
+      "today": "+165",
+      "today_n": 165,
       "auto": false,
       "zh": {
         "tag": "用配置文件控制ESP32等芯片的智能家居固件系统",
@@ -15505,7 +15523,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -15518,8 +15536,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "C++",
       "stars": 50.4,
-      "today": "+323",
-      "today_n": 323,
+      "today": "+321",
+      "today_n": 321,
       "auto": false,
       "zh": {
         "tag": "现代 C++ 的 JSON 解析与序列化库",
@@ -15547,7 +15565,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -15560,8 +15578,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "C++",
       "stars": 7.9,
-      "today": "+164",
-      "today_n": 164,
+      "today": "+162",
+      "today_n": 162,
       "auto": false,
       "zh": {
         "tag": "ARM64 Linux 上运行 x86 应用的高性能模拟器",
@@ -15589,7 +15607,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -15602,8 +15620,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "C++",
       "stars": 1.0,
-      "today": "+366",
-      "today_n": 366,
+      "today": "+367",
+      "today_n": 367,
       "auto": false,
       "zh": {
         "tag": "统一跨平台AI客户端，无缝切换云端与本地离线模型",
@@ -15631,7 +15649,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -15673,7 +15691,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -15687,7 +15705,7 @@ window.TRENDING_DATA = {
       "lang": "C++",
       "stars": 116.0,
       "today": "+1.9k",
-      "today_n": 1876,
+      "today_n": 1886,
       "auto": false,
       "zh": {
         "tag": "开源跨平台 2D/3D 游戏引擎，社区驱动",
@@ -15717,7 +15735,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -15730,8 +15748,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "C++",
       "stars": 38.9,
-      "today": "+723",
-      "today_n": 723,
+      "today": "+716",
+      "today_n": 716,
       "auto": false,
       "zh": {
         "tag": "开源像素动画与精灵图编辑器，游戏美术必备工具",
@@ -15761,7 +15779,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -15775,7 +15793,7 @@ window.TRENDING_DATA = {
       "lang": "C++",
       "stars": 65.8,
       "today": "+1.3k",
-      "today_n": 1335,
+      "today_n": 1326,
       "auto": false,
       "zh": {
         "tag": "真正独立的现代网页浏览器，基于全新引擎",
@@ -15827,8 +15845,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "C++",
       "stars": 8.2,
-      "today": "+238",
-      "today_n": 238,
+      "today": "+236",
+      "today_n": 236,
       "auto": false,
       "zh": {
         "tag": "开源离网 LoRa 网格通信设备固件",
@@ -15856,7 +15874,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -15869,8 +15887,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "C++",
       "stars": 31.6,
-      "today": "+1.0k",
-      "today_n": 1001,
+      "today": "+993",
+      "today_n": 993,
       "auto": false,
       "zh": {
         "tag": "跨平台 Android 实时投屏与远控工具",
@@ -15898,7 +15916,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -15911,8 +15929,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "C++",
       "stars": 40.5,
-      "today": "+971",
-      "today_n": 971,
+      "today": "+952",
+      "today_n": 952,
       "auto": false,
       "zh": {
         "tag": "进程内分析型 SQL 数据库，极速查询 CSV/Parquet",
@@ -15940,7 +15958,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-08-24",
         "is_new": false,
         "is_back": false,
         "hist": []
