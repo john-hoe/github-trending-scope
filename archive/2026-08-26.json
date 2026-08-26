@@ -1,0 +1,150 @@
+{
+  "date": "2026-08-26",
+  "generated_at": "2026-08-26 08:42 (CST)",
+  "repos": [
+    {
+      "full": "freestylefly/awesome-gpt-image-2",
+      "rank": 1,
+      "stars": 17.7,
+      "today_n": 1698,
+      "slug": "awesome-gpt-image-2",
+      "cat": "ai",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "anthropics/claude-plugins-community",
+      "rank": 2,
+      "stars": 1.7,
+      "today_n": 351,
+      "slug": "claude-plugins-community",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "MadsLorentzen/ai-job-search",
+      "rank": 3,
+      "stars": 35.3,
+      "today_n": 1265,
+      "slug": "ai-job-search",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "apache/maka",
+      "rank": 4,
+      "stars": 3.3,
+      "today_n": 543,
+      "slug": "maka",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "TauricResearch/TradingAgents",
+      "rank": 5,
+      "stars": 100.2,
+      "today_n": 218,
+      "slug": "tradingagents",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "AgriciDaniel/claude-obsidian",
+      "rank": 6,
+      "stars": 12.7,
+      "today_n": 813,
+      "slug": "claude-obsidian",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "rohitg00/ai-engineering-from-scratch",
+      "rank": 7,
+      "stars": 49.0,
+      "today_n": 569,
+      "slug": "ai-engineering-from-scratch",
+      "cat": "other",
+      "lang": "Python"
+    },
+    {
+      "full": "tinyhumansai/openhuman",
+      "rank": 8,
+      "stars": 37.8,
+      "today_n": 542,
+      "slug": "openhuman",
+      "cat": "agent",
+      "lang": "Rust"
+    },
+    {
+      "full": "basecamp/omarchy",
+      "rank": 9,
+      "stars": 31.3,
+      "today_n": 1083,
+      "slug": "omarchy",
+      "cat": "other",
+      "lang": "Shell"
+    },
+    {
+      "full": "Shubhamsaboo/awesome-llm-apps",
+      "rank": 10,
+      "stars": 134.2,
+      "today_n": 161,
+      "slug": "awesome-llm-apps",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "multica-ai/andrej-karpathy-skills",
+      "rank": 11,
+      "stars": 207.2,
+      "today_n": 830,
+      "slug": "andrej-karpathy-skills",
+      "cat": "agent",
+      "lang": null
+    },
+    {
+      "full": "openai/codex",
+      "rank": 12,
+      "stars": 118.1,
+      "today_n": 1181,
+      "slug": "codex",
+      "cat": "agent",
+      "lang": "Rust"
+    },
+    {
+      "full": "marin-community/marin",
+      "rank": 13,
+      "stars": 2.1,
+      "today_n": 231,
+      "slug": "marin",
+      "cat": "infra",
+      "lang": "Python"
+    },
+    {
+      "full": "DietrichGebert/ponytail",
+      "rank": 14,
+      "stars": 111.0,
+      "today_n": 982,
+      "slug": "ponytail",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "anthropics/claude-plugins-official",
+      "rank": 15,
+      "stars": 34.1,
+      "today_n": 55,
+      "slug": "claude-plugins-official",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "asciimoo/hister",
+      "rank": 16,
+      "stars": 2.8,
+      "today_n": 98,
+      "slug": "hister",
+      "cat": "other",
+      "lang": "Go"
+    }
+  ]
+}
