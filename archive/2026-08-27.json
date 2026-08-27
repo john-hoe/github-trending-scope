@@ -1,0 +1,150 @@
+{
+  "date": "2026-08-27",
+  "generated_at": "2026-08-27 10:06 (CST)",
+  "repos": [
+    {
+      "full": "tt-a1i/archify",
+      "rank": 1,
+      "stars": 18.1,
+      "today_n": 1035,
+      "slug": "archify",
+      "cat": "agent",
+      "lang": "HTML"
+    },
+    {
+      "full": "freestylefly/awesome-gpt-image-2",
+      "rank": 2,
+      "stars": 21.5,
+      "today_n": 4050,
+      "slug": "awesome-gpt-image-2",
+      "cat": "ai",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "anthropics/claude-plugins-official",
+      "rank": 3,
+      "stars": 34.4,
+      "today_n": 308,
+      "slug": "claude-plugins-official",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "Alishahryar1/free-claude-code",
+      "rank": 4,
+      "stars": 50.4,
+      "today_n": 536,
+      "slug": "free-claude-code",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "MadsLorentzen/ai-job-search",
+      "rank": 5,
+      "stars": 36.5,
+      "today_n": 1300,
+      "slug": "ai-job-search",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "AgriciDaniel/claude-obsidian",
+      "rank": 6,
+      "stars": 13.5,
+      "today_n": 810,
+      "slug": "claude-obsidian",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "basecamp/omarchy",
+      "rank": 7,
+      "stars": 32.1,
+      "today_n": 1024,
+      "slug": "omarchy",
+      "cat": "other",
+      "lang": "Shell"
+    },
+    {
+      "full": "rohitg00/ai-engineering-from-scratch",
+      "rank": 8,
+      "stars": 49.6,
+      "today_n": 838,
+      "slug": "ai-engineering-from-scratch",
+      "cat": "other",
+      "lang": "Python"
+    },
+    {
+      "full": "tinyhumansai/openhuman",
+      "rank": 9,
+      "stars": 38.2,
+      "today_n": 525,
+      "slug": "openhuman",
+      "cat": "agent",
+      "lang": "Rust"
+    },
+    {
+      "full": "DietrichGebert/ponytail",
+      "rank": 10,
+      "stars": 112.7,
+      "today_n": 1598,
+      "slug": "ponytail",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "anthropics/claude-plugins-community",
+      "rank": 11,
+      "stars": 2.2,
+      "today_n": 538,
+      "slug": "claude-plugins-community",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "ConardLi/garden-skills",
+      "rank": 12,
+      "stars": 10.9,
+      "today_n": 113,
+      "slug": "garden-skills",
+      "cat": "agent",
+      "lang": "CSS"
+    },
+    {
+      "full": "browser-use/browser-use",
+      "rank": 13,
+      "stars": 111.0,
+      "today_n": 149,
+      "slug": "browser-use",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "K-Dense-AI/scientific-agent-skills",
+      "rank": 14,
+      "stars": 34.8,
+      "today_n": 138,
+      "slug": "scientific-agent-skills",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "marin-community/marin",
+      "rank": 15,
+      "stars": 2.5,
+      "today_n": 441,
+      "slug": "marin",
+      "cat": "infra",
+      "lang": "Python"
+    },
+    {
+      "full": "VoltAgent/awesome-agent-skills",
+      "rank": 16,
+      "stars": 32.7,
+      "today_n": 242,
+      "slug": "awesome-agent-skills",
+      "cat": "agent",
+      "lang": null
+    }
+  ]
+}
