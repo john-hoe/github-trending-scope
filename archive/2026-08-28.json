@@ -1,0 +1,177 @@
+{
+  "date": "2026-08-28",
+  "generated_at": "2026-08-28 11:29 (CST)",
+  "repos": [
+    {
+      "full": "bilawalsidhu/gods-eye-view",
+      "rank": 1,
+      "stars": 8.5,
+      "today_n": 1984,
+      "slug": "gods-eye-view",
+      "cat": "other",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "zedeus/nitter",
+      "rank": 2,
+      "stars": 13.9,
+      "today_n": 71,
+      "slug": "nitter",
+      "cat": "other",
+      "lang": "Nim"
+    },
+    {
+      "full": "freestylefly/awesome-gpt-image-2",
+      "rank": 3,
+      "stars": 23.3,
+      "today_n": 2096,
+      "slug": "awesome-gpt-image-2",
+      "cat": "ai",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "tt-a1i/archify",
+      "rank": 4,
+      "stars": 23.9,
+      "today_n": 4239,
+      "slug": "archify",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "JetBrains/go-modern-guidelines",
+      "rank": 5,
+      "stars": 2.2,
+      "today_n": 300,
+      "slug": "go-modern-guidelines",
+      "cat": "agent",
+      "lang": "Go"
+    },
+    {
+      "full": "anthropics/claude-plugins-official",
+      "rank": 6,
+      "stars": 34.7,
+      "today_n": 292,
+      "slug": "claude-plugins-official",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "K-Dense-AI/scientific-agent-skills",
+      "rank": 7,
+      "stars": 35.4,
+      "today_n": 498,
+      "slug": "scientific-agent-skills",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "DietrichGebert/ponytail",
+      "rank": 8,
+      "stars": 114.2,
+      "today_n": 1613,
+      "slug": "ponytail",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "calesthio/OpenMontage",
+      "rank": 9,
+      "stars": 52.5,
+      "today_n": 1292,
+      "slug": "openmontage",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "rohitg00/ai-engineering-from-scratch",
+      "rank": 10,
+      "stars": 50.2,
+      "today_n": 552,
+      "slug": "ai-engineering-from-scratch",
+      "cat": "other",
+      "lang": "Python"
+    },
+    {
+      "full": "ConardLi/garden-skills",
+      "rank": 11,
+      "stars": 11.4,
+      "today_n": 415,
+      "slug": "garden-skills",
+      "cat": "agent",
+      "lang": "CSS"
+    },
+    {
+      "full": "thedotmack/claude-mem",
+      "rank": 12,
+      "stars": 92.3,
+      "today_n": 143,
+      "slug": "claude-mem",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "google/googletest",
+      "rank": 13,
+      "stars": 39.1,
+      "today_n": 9,
+      "slug": "googletest",
+      "cat": "other",
+      "lang": "C++"
+    },
+    {
+      "full": "AgriciDaniel/claude-obsidian",
+      "rank": 14,
+      "stars": 14.1,
+      "today_n": 634,
+      "slug": "claude-obsidian",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "marin-community/marin",
+      "rank": 15,
+      "stars": 2.7,
+      "today_n": 255,
+      "slug": "marin",
+      "cat": "infra",
+      "lang": "Python"
+    },
+    {
+      "full": "ComposioHQ/awesome-claude-skills",
+      "rank": 16,
+      "stars": 73.6,
+      "today_n": 130,
+      "slug": "awesome-claude-skills",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "actions/checkout",
+      "rank": 17,
+      "stars": 8.7,
+      "today_n": 8,
+      "slug": "checkout",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "OpenCut-app/OpenCut",
+      "rank": 18,
+      "stars": 87.5,
+      "today_n": 478,
+      "slug": "opencut",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "TauricResearch/TradingAgents",
+      "rank": 19,
+      "stars": 101.3,
+      "today_n": 229,
+      "slug": "tradingagents",
+      "cat": "agent",
+      "lang": "Python"
+    }
+  ]
+}
