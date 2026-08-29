@@ -1,0 +1,186 @@
+{
+  "date": "2026-08-29",
+  "generated_at": "2026-08-29 08:57 (CST)",
+  "repos": [
+    {
+      "full": "tt-a1i/archify",
+      "rank": 1,
+      "stars": 27.4,
+      "today_n": 4562,
+      "slug": "archify",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "K-Dense-AI/scientific-agent-skills",
+      "rank": 2,
+      "stars": 36.6,
+      "today_n": 720,
+      "slug": "scientific-agent-skills",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "anthropics/claude-plugins-official",
+      "rank": 3,
+      "stars": 35.0,
+      "today_n": 457,
+      "slug": "claude-plugins-official",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "bilawalsidhu/gods-eye-view",
+      "rank": 4,
+      "stars": 11.1,
+      "today_n": 3829,
+      "slug": "gods-eye-view",
+      "cat": "other",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "abhigyanpatwari/GitNexus",
+      "rank": 5,
+      "stars": 46.2,
+      "today_n": 202,
+      "slug": "gitnexus",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "JetBrains/go-modern-guidelines",
+      "rank": 6,
+      "stars": 2.6,
+      "today_n": 574,
+      "slug": "go-modern-guidelines",
+      "cat": "agent",
+      "lang": "Go"
+    },
+    {
+      "full": "calesthio/OpenMontage",
+      "rank": 7,
+      "stars": 53.3,
+      "today_n": 1144,
+      "slug": "openmontage",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "abi/screenshot-to-code",
+      "rank": 8,
+      "stars": 75.6,
+      "today_n": 326,
+      "slug": "screenshot-to-code",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "cursor/plugins",
+      "rank": 9,
+      "stars": 6.0,
+      "today_n": 246,
+      "slug": "plugins",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "freestylefly/awesome-gpt-image-2",
+      "rank": 10,
+      "stars": 24.2,
+      "today_n": 1687,
+      "slug": "awesome-gpt-image-2",
+      "cat": "ai",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "tailscale/tailcat",
+      "rank": 11,
+      "stars": 2.7,
+      "today_n": 965,
+      "slug": "tailcat",
+      "cat": "infra",
+      "lang": "Go"
+    },
+    {
+      "full": "NationalSecurityAgency/ghidra",
+      "rank": 12,
+      "stars": 73.3,
+      "today_n": 191,
+      "slug": "ghidra",
+      "cat": "other",
+      "lang": "Java"
+    },
+    {
+      "full": "swoole/typephp",
+      "rank": 13,
+      "stars": 0.8,
+      "today_n": 188,
+      "slug": "typephp",
+      "cat": "infra",
+      "lang": "PHP"
+    },
+    {
+      "full": "marin-community/marin",
+      "rank": 14,
+      "stars": 2.9,
+      "today_n": 236,
+      "slug": "marin",
+      "cat": "infra",
+      "lang": "Python"
+    },
+    {
+      "full": "tashfeenahmed/freellmapi",
+      "rank": 15,
+      "stars": 21.6,
+      "today_n": 433,
+      "slug": "freellmapi",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "ChromeDevTools/chrome-devtools-mcp",
+      "rank": 16,
+      "stars": 50.0,
+      "today_n": 67,
+      "slug": "chrome-devtools-mcp",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "rohitg00/ai-engineering-from-scratch",
+      "rank": 17,
+      "stars": 50.6,
+      "today_n": 703,
+      "slug": "ai-engineering-from-scratch",
+      "cat": "other",
+      "lang": "Python"
+    },
+    {
+      "full": "DietrichGebert/ponytail",
+      "rank": 18,
+      "stars": 115.4,
+      "today_n": 1396,
+      "slug": "ponytail",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "google/googletest",
+      "rank": 19,
+      "stars": 39.2,
+      "today_n": 156,
+      "slug": "googletest",
+      "cat": "other",
+      "lang": "C++"
+    },
+    {
+      "full": "livekit/agents",
+      "rank": 20,
+      "stars": 13.3,
+      "today_n": 22,
+      "slug": "livekit-agents",
+      "cat": "agent",
+      "lang": "Python"
+    }
+  ]
+}
