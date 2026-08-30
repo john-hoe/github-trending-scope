@@ -1,0 +1,177 @@
+{
+  "date": "2026-08-30",
+  "generated_at": "2026-08-30 09:09 (CST)",
+  "repos": [
+    {
+      "full": "tt-a1i/archify",
+      "rank": 1,
+      "stars": 31.1,
+      "today_n": 3902,
+      "slug": "archify",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "bilawalsidhu/gods-eye-view",
+      "rank": 2,
+      "stars": 12.6,
+      "today_n": 1855,
+      "slug": "gods-eye-view",
+      "cat": "other",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "K-Dense-AI/scientific-agent-skills",
+      "rank": 3,
+      "stars": 38.0,
+      "today_n": 1587,
+      "slug": "scientific-agent-skills",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "tailscale/tailcat",
+      "rank": 4,
+      "stars": 3.5,
+      "today_n": 789,
+      "slug": "tailcat",
+      "cat": "infra",
+      "lang": "Go"
+    },
+    {
+      "full": "THU-MAIC/OpenMAIC",
+      "rank": 5,
+      "stars": 22.3,
+      "today_n": 907,
+      "slug": "openmaic",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "p-e-w/heretic",
+      "rank": 6,
+      "stars": 28.7,
+      "today_n": 150,
+      "slug": "heretic",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "bigskysoftware/htmx",
+      "rank": 7,
+      "stars": 49.1,
+      "today_n": 32,
+      "slug": "htmx",
+      "cat": "other",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "JetBrains/go-modern-guidelines",
+      "rank": 8,
+      "stars": 2.9,
+      "today_n": 303,
+      "slug": "go-modern-guidelines",
+      "cat": "agent",
+      "lang": "Go"
+    },
+    {
+      "full": "ComposioHQ/awesome-claude-skills",
+      "rank": 9,
+      "stars": 73.9,
+      "today_n": 73,
+      "slug": "awesome-claude-skills",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "calesthio/OpenMontage",
+      "rank": 10,
+      "stars": 54.1,
+      "today_n": 806,
+      "slug": "openmontage",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "every-app/open-seo",
+      "rank": 11,
+      "stars": 14.7,
+      "today_n": 517,
+      "slug": "open-seo",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "Osmantic/ODS",
+      "rank": 12,
+      "stars": 4.9,
+      "today_n": 35,
+      "slug": "ods",
+      "cat": "infra",
+      "lang": "Python"
+    },
+    {
+      "full": "abi/screenshot-to-code",
+      "rank": 13,
+      "stars": 76.0,
+      "today_n": 550,
+      "slug": "screenshot-to-code",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "anthropics/claude-plugins-official",
+      "rank": 14,
+      "stars": 35.4,
+      "today_n": 358,
+      "slug": "claude-plugins-official",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "google/googletest",
+      "rank": 15,
+      "stars": 39.3,
+      "today_n": 128,
+      "slug": "googletest",
+      "cat": "other",
+      "lang": "C++"
+    },
+    {
+      "full": "actions/checkout",
+      "rank": 16,
+      "stars": 8.8,
+      "today_n": 5,
+      "slug": "checkout",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "kaifcodec/user-scanner",
+      "rank": 17,
+      "stars": 3.6,
+      "today_n": 39,
+      "slug": "user-scanner",
+      "cat": "other",
+      "lang": "Python"
+    },
+    {
+      "full": "addyosmani/agent-skills",
+      "rank": 18,
+      "stars": 90.7,
+      "today_n": 196,
+      "slug": "agent-skills",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "workweave/router",
+      "rank": 19,
+      "stars": 2.7,
+      "today_n": 284,
+      "slug": "router",
+      "cat": "infra",
+      "lang": "Go"
+    }
+  ]
+}
