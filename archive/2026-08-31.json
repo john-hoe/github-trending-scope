@@ -1,0 +1,177 @@
+{
+  "date": "2026-08-31",
+  "generated_at": "2026-08-31 09:11 (CST)",
+  "repos": [
+    {
+      "full": "THU-MAIC/OpenMAIC",
+      "rank": 1,
+      "stars": 24.0,
+      "today_n": 1370,
+      "slug": "openmaic",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "K-Dense-AI/scientific-agent-skills",
+      "rank": 2,
+      "stars": 39.3,
+      "today_n": 1114,
+      "slug": "scientific-agent-skills",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "Lakr233/vphone-cli",
+      "rank": 3,
+      "stars": 9.6,
+      "today_n": 361,
+      "slug": "vphone-cli",
+      "cat": "other",
+      "lang": "Swift"
+    },
+    {
+      "full": "tt-a1i/archify",
+      "rank": 4,
+      "stars": 34.6,
+      "today_n": 3722,
+      "slug": "archify",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "p-e-w/heretic",
+      "rank": 5,
+      "stars": 29.2,
+      "today_n": 369,
+      "slug": "heretic",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "unclecode/crawl4ai",
+      "rank": 6,
+      "stars": 80.2,
+      "today_n": 221,
+      "slug": "crawl4ai",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "mvanhorn/last30days-skill",
+      "rank": 7,
+      "stars": 60.5,
+      "today_n": 230,
+      "slug": "last30days-skill",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "majd/ipatool",
+      "rank": 8,
+      "stars": 10.2,
+      "today_n": 58,
+      "slug": "ipatool",
+      "cat": "other",
+      "lang": "Go"
+    },
+    {
+      "full": "punkpeye/awesome-mcp-servers",
+      "rank": 9,
+      "stars": 93.3,
+      "today_n": 96,
+      "slug": "awesome-mcp-servers",
+      "cat": "other",
+      "lang": null
+    },
+    {
+      "full": "checkstyle/checkstyle",
+      "rank": 10,
+      "stars": 9.2,
+      "today_n": 115,
+      "slug": "checkstyle",
+      "cat": "other",
+      "lang": "Java"
+    },
+    {
+      "full": "NationalSecurityAgency/ghidra",
+      "rank": 11,
+      "stars": 73.9,
+      "today_n": 198,
+      "slug": "ghidra",
+      "cat": "other",
+      "lang": "Java"
+    },
+    {
+      "full": "pollen-robotics/microduck_rl",
+      "rank": 12,
+      "stars": 0.8,
+      "today_n": 168,
+      "slug": "microduck_rl",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "handsomestWei/patent-disclosure-skill",
+      "rank": 13,
+      "stars": 5.7,
+      "today_n": 62,
+      "slug": "patent-disclosure-skill",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "corsairdev/corsair",
+      "rank": 14,
+      "stars": 11.0,
+      "today_n": 126,
+      "slug": "corsair",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "every-app/open-seo",
+      "rank": 15,
+      "stars": 15.2,
+      "today_n": 469,
+      "slug": "open-seo",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "colinhacks/zod",
+      "rank": 16,
+      "stars": 43.7,
+      "today_n": 31,
+      "slug": "zod",
+      "cat": "other",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "tashfeenahmed/freellmapi",
+      "rank": 17,
+      "stars": 22.8,
+      "today_n": 504,
+      "slug": "freellmapi",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "livekit/agents",
+      "rank": 18,
+      "stars": 13.8,
+      "today_n": 132,
+      "slug": "livekit-agents",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "abhigyanpatwari/GitNexus",
+      "rank": 19,
+      "stars": 46.6,
+      "today_n": 182,
+      "slug": "gitnexus",
+      "cat": "agent",
+      "lang": "TypeScript"
+    }
+  ]
+}
