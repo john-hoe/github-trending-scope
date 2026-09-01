@@ -1,0 +1,150 @@
+{
+  "date": "2026-09-01",
+  "generated_at": "2026-09-01 09:16 (CST)",
+  "repos": [
+    {
+      "full": "THU-MAIC/OpenMAIC",
+      "rank": 1,
+      "stars": 27.1,
+      "today_n": 2824,
+      "slug": "openmaic",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "tt-a1i/archify",
+      "rank": 2,
+      "stars": 38.8,
+      "today_n": 3991,
+      "slug": "archify",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "K-Dense-AI/scientific-agent-skills",
+      "rank": 3,
+      "stars": 40.7,
+      "today_n": 1980,
+      "slug": "scientific-agent-skills",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "k1tbyte/Wand-Enhancer",
+      "rank": 4,
+      "stars": 23.4,
+      "today_n": 582,
+      "slug": "wand-enhancer",
+      "cat": "other",
+      "lang": "C#"
+    },
+    {
+      "full": "majd/ipatool",
+      "rank": 5,
+      "stars": 10.5,
+      "today_n": 373,
+      "slug": "ipatool",
+      "cat": "other",
+      "lang": "Go"
+    },
+    {
+      "full": "jingyaogong/minimind",
+      "rank": 6,
+      "stars": 56.1,
+      "today_n": 495,
+      "slug": "minimind",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "Osmantic/ODS",
+      "rank": 7,
+      "stars": 5.5,
+      "today_n": 77,
+      "slug": "ods",
+      "cat": "infra",
+      "lang": "Python"
+    },
+    {
+      "full": "checkstyle/checkstyle",
+      "rank": 8,
+      "stars": 9.4,
+      "today_n": 198,
+      "slug": "checkstyle",
+      "cat": "other",
+      "lang": "Java"
+    },
+    {
+      "full": "zhaoxuya520/reverse-skill",
+      "rank": 9,
+      "stars": 33.2,
+      "today_n": 1401,
+      "slug": "reverse-skill",
+      "cat": "agent",
+      "lang": "PowerShell"
+    },
+    {
+      "full": "affaan-m/ECC",
+      "rank": 10,
+      "stars": 245.3,
+      "today_n": 512,
+      "slug": "ecc",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "kaifcodec/user-scanner",
+      "rank": 11,
+      "stars": 4.3,
+      "today_n": 93,
+      "slug": "user-scanner",
+      "cat": "other",
+      "lang": "Python"
+    },
+    {
+      "full": "every-app/open-seo",
+      "rank": 12,
+      "stars": 15.8,
+      "today_n": 610,
+      "slug": "open-seo",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "p-e-w/heretic",
+      "rank": 13,
+      "stars": 29.7,
+      "today_n": 537,
+      "slug": "heretic",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "handsomestWei/patent-disclosure-skill",
+      "rank": 14,
+      "stars": 6.2,
+      "today_n": 571,
+      "slug": "patent-disclosure-skill",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "firecrawl/pdf-inspector",
+      "rank": 15,
+      "stars": 17.4,
+      "today_n": 228,
+      "slug": "pdf-inspector",
+      "cat": "infra",
+      "lang": "Rust"
+    },
+    {
+      "full": "pollen-robotics/microduck_rl",
+      "rank": 16,
+      "stars": 1.1,
+      "today_n": 385,
+      "slug": "microduck_rl",
+      "cat": "ai",
+      "lang": "Python"
+    }
+  ]
+}
