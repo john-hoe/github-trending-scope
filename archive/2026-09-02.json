@@ -1,0 +1,132 @@
+{
+  "date": "2026-09-02",
+  "generated_at": "2026-09-02 09:06 (CST)",
+  "repos": [
+    {
+      "full": "Gitlawb/openclaude",
+      "rank": 1,
+      "stars": 31.3,
+      "today_n": 80,
+      "slug": "openclaude",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "Imbad0202/academic-research-skills",
+      "rank": 2,
+      "stars": 44.9,
+      "today_n": 193,
+      "slug": "academic-research-skills",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "THU-MAIC/OpenMAIC",
+      "rank": 3,
+      "stars": 29.5,
+      "today_n": 3128,
+      "slug": "openmaic",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "iv-org/invidious",
+      "rank": 4,
+      "stars": 23.8,
+      "today_n": 577,
+      "slug": "invidious",
+      "cat": "other",
+      "lang": "Crystal"
+    },
+    {
+      "full": "jingyaogong/minimind",
+      "rank": 5,
+      "stars": 57.1,
+      "today_n": 1005,
+      "slug": "minimind",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "3b1b/manim",
+      "rank": 6,
+      "stars": 92.6,
+      "today_n": 86,
+      "slug": "manim",
+      "cat": "other",
+      "lang": "Python"
+    },
+    {
+      "full": "firecrawl/pdf-inspector",
+      "rank": 7,
+      "stars": 17.9,
+      "today_n": 541,
+      "slug": "pdf-inspector",
+      "cat": "infra",
+      "lang": "Rust"
+    },
+    {
+      "full": "browser-use/video-use",
+      "rank": 8,
+      "stars": 22.9,
+      "today_n": 472,
+      "slug": "video-use",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "K-Dense-AI/scientific-agent-skills",
+      "rank": 9,
+      "stars": 41.5,
+      "today_n": 912,
+      "slug": "scientific-agent-skills",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "handsomestWei/patent-disclosure-skill",
+      "rank": 10,
+      "stars": 6.7,
+      "today_n": 501,
+      "slug": "patent-disclosure-skill",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "VoltAgent/awesome-design-md",
+      "rank": 11,
+      "stars": 112.8,
+      "today_n": 323,
+      "slug": "awesome-design-md",
+      "cat": "other",
+      "lang": null
+    },
+    {
+      "full": "averygan/reclip",
+      "rank": 12,
+      "stars": 7.7,
+      "today_n": 56,
+      "slug": "reclip",
+      "cat": "other",
+      "lang": "HTML"
+    },
+    {
+      "full": "affaan-m/ECC",
+      "rank": 13,
+      "stars": 245.8,
+      "today_n": 623,
+      "slug": "ecc",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "unclecode/crawl4ai",
+      "rank": 14,
+      "stars": 80.9,
+      "today_n": 145,
+      "slug": "crawl4ai",
+      "cat": "agent",
+      "lang": "Python"
+    }
+  ]
+}
