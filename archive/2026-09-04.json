@@ -1,0 +1,177 @@
+{
+  "date": "2026-09-04",
+  "generated_at": "2026-09-04 09:05 (CST)",
+  "repos": [
+    {
+      "full": "fmtlib/fmt",
+      "rank": 1,
+      "stars": 25.1,
+      "today_n": 963,
+      "slug": "fmt",
+      "cat": "other",
+      "lang": "C++"
+    },
+    {
+      "full": "mattpocock/skills",
+      "rank": 2,
+      "stars": 247.4,
+      "today_n": 1601,
+      "slug": "skills",
+      "cat": "agent",
+      "lang": "Shell"
+    },
+    {
+      "full": "NousResearch/hermes-agent",
+      "rank": 3,
+      "stars": 240.8,
+      "today_n": 774,
+      "slug": "hermes-agent",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "DietrichGebert/ponytail",
+      "rank": 4,
+      "stars": 123.4,
+      "today_n": 2128,
+      "slug": "ponytail",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "anthropics/skills",
+      "rank": 5,
+      "stars": 173.7,
+      "today_n": 281,
+      "slug": "anthropics-skills",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "affaan-m/ECC",
+      "rank": 6,
+      "stars": 247.2,
+      "today_n": 751,
+      "slug": "ecc",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "JuliusBrussee/caveman",
+      "rank": 7,
+      "stars": 103.1,
+      "today_n": 543,
+      "slug": "caveman",
+      "cat": "agent",
+      "lang": "Go"
+    },
+    {
+      "full": "blader/humanizer",
+      "rank": 8,
+      "stars": 41.5,
+      "today_n": 1208,
+      "slug": "humanizer",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "google-research/timesfm",
+      "rank": 9,
+      "stars": 30.7,
+      "today_n": 1618,
+      "slug": "timesfm",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "averygan/reclip",
+      "rank": 10,
+      "stars": 8.4,
+      "today_n": 88,
+      "slug": "reclip",
+      "cat": "other",
+      "lang": "HTML"
+    },
+    {
+      "full": "bannedbook/fanqiang",
+      "rank": 11,
+      "stars": 52.2,
+      "today_n": 522,
+      "slug": "fanqiang",
+      "cat": "other",
+      "lang": "Kotlin"
+    },
+    {
+      "full": "addyosmani/agent-skills",
+      "rank": 12,
+      "stars": 92.0,
+      "today_n": 264,
+      "slug": "agent-skills",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "ByteByteGoHq/system-design-101",
+      "rank": 13,
+      "stars": 88.3,
+      "today_n": 171,
+      "slug": "system-design-101",
+      "cat": "other",
+      "lang": null
+    },
+    {
+      "full": "magnitudedev/magnitude",
+      "rank": 14,
+      "stars": 1.9,
+      "today_n": 161,
+      "slug": "magnitude",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "Imbad0202/academic-research-skills",
+      "rank": 15,
+      "stars": 46.0,
+      "today_n": 496,
+      "slug": "academic-research-skills",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "Gitlawb/openclaude",
+      "rank": 16,
+      "stars": 32.3,
+      "today_n": 451,
+      "slug": "openclaude",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "debpalash/VoiceStudio",
+      "rank": 17,
+      "stars": 16.3,
+      "today_n": 1672,
+      "slug": "voicestudio",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "f/prompts.chat",
+      "rank": 18,
+      "stars": 169.0,
+      "today_n": 168,
+      "slug": "prompts.chat",
+      "cat": "ai",
+      "lang": "HTML"
+    },
+    {
+      "full": "obra/superpowers",
+      "rank": 19,
+      "stars": 281.3,
+      "today_n": 462,
+      "slug": "superpowers",
+      "cat": "agent",
+      "lang": "Shell"
+    }
+  ]
+}
