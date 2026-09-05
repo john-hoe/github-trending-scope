@@ -1,0 +1,159 @@
+{
+  "date": "2026-09-05",
+  "generated_at": "2026-09-05 09:03 (CST)",
+  "repos": [
+    {
+      "full": "mattpocock/skills",
+      "rank": 1,
+      "stars": 250.4,
+      "today_n": 2758,
+      "slug": "skills",
+      "cat": "agent",
+      "lang": "Shell"
+    },
+    {
+      "full": "DietrichGebert/ponytail",
+      "rank": 2,
+      "stars": 126.0,
+      "today_n": 1679,
+      "slug": "ponytail",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "fmtlib/fmt",
+      "rank": 3,
+      "stars": 25.5,
+      "today_n": 688,
+      "slug": "fmt",
+      "cat": "other",
+      "lang": "C++"
+    },
+    {
+      "full": "affaan-m/ECC",
+      "rank": 4,
+      "stars": 248.5,
+      "today_n": 1135,
+      "slug": "ecc",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "anthropics/skills",
+      "rank": 5,
+      "stars": 174.1,
+      "today_n": 511,
+      "slug": "anthropics-skills",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "blader/humanizer",
+      "rank": 6,
+      "stars": 42.7,
+      "today_n": 1130,
+      "slug": "humanizer",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "NousResearch/hermes-agent",
+      "rank": 7,
+      "stars": 241.5,
+      "today_n": 720,
+      "slug": "hermes-agent",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "JuliusBrussee/caveman",
+      "rank": 8,
+      "stars": 103.6,
+      "today_n": 501,
+      "slug": "caveman",
+      "cat": "agent",
+      "lang": "Go"
+    },
+    {
+      "full": "magnitudedev/magnitude",
+      "rank": 9,
+      "stars": 2.5,
+      "today_n": 391,
+      "slug": "magnitude",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "bikini/exploitarium",
+      "rank": 10,
+      "stars": 4.5,
+      "today_n": 74,
+      "slug": "exploitarium",
+      "cat": "other",
+      "lang": "Python"
+    },
+    {
+      "full": "bannedbook/fanqiang",
+      "rank": 11,
+      "stars": 52.8,
+      "today_n": 730,
+      "slug": "fanqiang",
+      "cat": "other",
+      "lang": "Kotlin"
+    },
+    {
+      "full": "debpalash/VoiceStudio",
+      "rank": 12,
+      "stars": 18.0,
+      "today_n": 1345,
+      "slug": "voicestudio",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "google-research/timesfm",
+      "rank": 13,
+      "stars": 31.1,
+      "today_n": 342,
+      "slug": "timesfm",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "radixark/miles",
+      "rank": 14,
+      "stars": 2.6,
+      "today_n": 64,
+      "slug": "miles",
+      "cat": "infra",
+      "lang": "Python"
+    },
+    {
+      "full": "anomalyco/opencode",
+      "rank": 15,
+      "stars": 204.1,
+      "today_n": 345,
+      "slug": "opencode",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "clshortfuse/renodx",
+      "rank": 16,
+      "stars": 3.5,
+      "today_n": 261,
+      "slug": "renodx",
+      "cat": "other",
+      "lang": "HLSL"
+    },
+    {
+      "full": "cathrynlavery/diagram-design",
+      "rank": 17,
+      "stars": 30.9,
+      "today_n": 437,
+      "slug": "diagram-design",
+      "cat": "agent",
+      "lang": "HTML"
+    }
+  ]
+}
