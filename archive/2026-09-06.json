@@ -1,0 +1,150 @@
+{
+  "date": "2026-09-06",
+  "generated_at": "2026-09-06 09:11 (CST)",
+  "repos": [
+    {
+      "full": "mattpocock/skills",
+      "rank": 1,
+      "stars": 252.7,
+      "today_n": 2692,
+      "slug": "skills",
+      "cat": "agent",
+      "lang": "Shell"
+    },
+    {
+      "full": "affaan-m/ECC",
+      "rank": 2,
+      "stars": 249.9,
+      "today_n": 1314,
+      "slug": "ecc",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "DietrichGebert/ponytail",
+      "rank": 3,
+      "stars": 128.0,
+      "today_n": 2845,
+      "slug": "ponytail",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "NousResearch/hermes-agent",
+      "rank": 4,
+      "stars": 242.0,
+      "today_n": 575,
+      "slug": "hermes-agent",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "fmtlib/fmt",
+      "rank": 5,
+      "stars": 25.6,
+      "today_n": 134,
+      "slug": "fmt",
+      "cat": "other",
+      "lang": "C++"
+    },
+    {
+      "full": "anthropics/skills",
+      "rank": 6,
+      "stars": 174.6,
+      "today_n": 475,
+      "slug": "anthropics-skills",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "cathrynlavery/diagram-design",
+      "rank": 7,
+      "stars": 31.7,
+      "today_n": 855,
+      "slug": "diagram-design",
+      "cat": "agent",
+      "lang": "HTML"
+    },
+    {
+      "full": "anomalyco/opencode",
+      "rank": 8,
+      "stars": 204.7,
+      "today_n": 725,
+      "slug": "opencode",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "ruvnet/ruflo",
+      "rank": 9,
+      "stars": 70.7,
+      "today_n": 136,
+      "slug": "ruflo",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "humanlayer/skills",
+      "rank": 10,
+      "stars": 2.7,
+      "today_n": 442,
+      "slug": "humanlayer-skills",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "blader/humanizer",
+      "rank": 11,
+      "stars": 43.5,
+      "today_n": 990,
+      "slug": "humanizer",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "BraveOPotato/FckSignups",
+      "rank": 12,
+      "stars": 2.9,
+      "today_n": 68,
+      "slug": "fcksignups",
+      "cat": "other",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "WorldFlowAI/everything-claude-code",
+      "rank": 13,
+      "stars": 2.4,
+      "today_n": 95,
+      "slug": "everything-claude-code",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "magnitudedev/magnitude",
+      "rank": 14,
+      "stars": 3.2,
+      "today_n": 674,
+      "slug": "magnitude",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "bikini/exploitarium",
+      "rank": 15,
+      "stars": 4.7,
+      "today_n": 230,
+      "slug": "exploitarium",
+      "cat": "other",
+      "lang": "Python"
+    },
+    {
+      "full": "nvm-sh/nvm",
+      "rank": 16,
+      "stars": 94.9,
+      "today_n": 22,
+      "slug": "nvm",
+      "cat": "other",
+      "lang": "Shell"
+    }
+  ]
+}
