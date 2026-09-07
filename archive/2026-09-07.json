@@ -1,0 +1,168 @@
+{
+  "date": "2026-09-07",
+  "generated_at": "2026-09-07 09:09 (CST)",
+  "repos": [
+    {
+      "full": "affaan-m/ECC",
+      "rank": 1,
+      "stars": 251.3,
+      "today_n": 1485,
+      "slug": "ecc",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "mattpocock/skills",
+      "rank": 2,
+      "stars": 254.6,
+      "today_n": 2207,
+      "slug": "skills",
+      "cat": "agent",
+      "lang": "Shell"
+    },
+    {
+      "full": "cathrynlavery/diagram-design",
+      "rank": 3,
+      "stars": 32.4,
+      "today_n": 620,
+      "slug": "diagram-design",
+      "cat": "agent",
+      "lang": "HTML"
+    },
+    {
+      "full": "NousResearch/hermes-agent",
+      "rank": 4,
+      "stars": 242.6,
+      "today_n": 520,
+      "slug": "hermes-agent",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "openai/skills",
+      "rank": 5,
+      "stars": 25.6,
+      "today_n": 46,
+      "slug": "openai-skills",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "anomalyco/opencode",
+      "rank": 6,
+      "stars": 205.3,
+      "today_n": 551,
+      "slug": "opencode",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "blader/humanizer",
+      "rank": 7,
+      "stars": 44.2,
+      "today_n": 748,
+      "slug": "humanizer",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "llvm/llvm-project",
+      "rank": 8,
+      "stars": 40.2,
+      "today_n": 23,
+      "slug": "llvm-project",
+      "cat": "infra",
+      "lang": "LLVM"
+    },
+    {
+      "full": "DietrichGebert/ponytail",
+      "rank": 9,
+      "stars": 129.4,
+      "today_n": 1539,
+      "slug": "ponytail",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "ruvnet/ruflo",
+      "rank": 10,
+      "stars": 71.0,
+      "today_n": 276,
+      "slug": "ruflo",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "magnitudedev/magnitude",
+      "rank": 11,
+      "stars": 3.7,
+      "today_n": 604,
+      "slug": "magnitude",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "BraveOPotato/FckSignups",
+      "rank": 12,
+      "stars": 3.3,
+      "today_n": 436,
+      "slug": "fcksignups",
+      "cat": "other",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "coreyhaines31/marketingskills",
+      "rank": 13,
+      "stars": 47.5,
+      "today_n": 329,
+      "slug": "marketingskills",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "aipoch/open-science",
+      "rank": 14,
+      "stars": 3.9,
+      "today_n": 146,
+      "slug": "open-science",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "OpenWhispr/openwhispr",
+      "rank": 15,
+      "stars": 7.4,
+      "today_n": 121,
+      "slug": "openwhispr",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "humanlayer/skills",
+      "rank": 16,
+      "stars": 3.1,
+      "today_n": 451,
+      "slug": "humanlayer-skills",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "The-Swarm-Corporation/AutoHedge",
+      "rank": 17,
+      "stars": 4.7,
+      "today_n": 142,
+      "slug": "autohedge",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "Stremio/stremio-web",
+      "rank": 18,
+      "stars": 13.5,
+      "today_n": 122,
+      "slug": "stremio-web",
+      "cat": "other",
+      "lang": "JavaScript"
+    }
+  ]
+}
