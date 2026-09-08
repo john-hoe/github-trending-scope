@@ -1,0 +1,132 @@
+{
+  "date": "2026-09-08",
+  "generated_at": "2026-09-08 09:06 (CST)",
+  "repos": [
+    {
+      "full": "heygen-com/hyperframes",
+      "rank": 1,
+      "stars": 46.0,
+      "today_n": 474,
+      "slug": "hyperframes",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "microsoft/markitdown",
+      "rank": 2,
+      "stars": 180.2,
+      "today_n": 886,
+      "slug": "markitdown",
+      "cat": "other",
+      "lang": "Python"
+    },
+    {
+      "full": "mksglu/context-mode",
+      "rank": 3,
+      "stars": 20.8,
+      "today_n": 96,
+      "slug": "context-mode",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "jo-inc/camofox-browser",
+      "rank": 4,
+      "stars": 9.7,
+      "today_n": 135,
+      "slug": "camofox-browser",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "MoonTechLab/LunaTV",
+      "rank": 5,
+      "stars": 9.7,
+      "today_n": 197,
+      "slug": "lunatv",
+      "cat": "other",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "affaan-m/ECC",
+      "rank": 6,
+      "stars": 252.9,
+      "today_n": 1897,
+      "slug": "ecc",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "coreyhaines31/marketingskills",
+      "rank": 7,
+      "stars": 48.1,
+      "today_n": 580,
+      "slug": "marketingskills",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "The-Swarm-Corporation/AutoHedge",
+      "rank": 8,
+      "stars": 5.3,
+      "today_n": 517,
+      "slug": "autohedge",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "BraveOPotato/FckSignups",
+      "rank": 9,
+      "stars": 3.8,
+      "today_n": 501,
+      "slug": "fcksignups",
+      "cat": "other",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "bytedance/deer-flow",
+      "rank": 10,
+      "stars": 81.9,
+      "today_n": 195,
+      "slug": "deer-flow",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "openai/skills",
+      "rank": 11,
+      "stars": 26.0,
+      "today_n": 351,
+      "slug": "openai-skills",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "lightpanda-io/browser",
+      "rank": 12,
+      "stars": 34.9,
+      "today_n": 58,
+      "slug": "browser",
+      "cat": "infra",
+      "lang": "Zig"
+    },
+    {
+      "full": "pascalorg/editor",
+      "rank": 13,
+      "stars": 22.3,
+      "today_n": 168,
+      "slug": "editor",
+      "cat": "other",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "ruvnet/ruflo",
+      "rank": 14,
+      "stars": 71.4,
+      "today_n": 394,
+      "slug": "ruflo",
+      "cat": "agent",
+      "lang": "TypeScript"
+    }
+  ]
+}
