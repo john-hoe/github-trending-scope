@@ -1,0 +1,123 @@
+{
+  "date": "2026-09-10",
+  "generated_at": "2026-09-10 09:03 (CST)",
+  "repos": [
+    {
+      "full": "ayghri/i-have-adhd",
+      "rank": 1,
+      "stars": 34.6,
+      "today_n": 4650,
+      "slug": "i-have-adhd",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "Tencent/teamai-cli",
+      "rank": 2,
+      "stars": 3.0,
+      "today_n": 556,
+      "slug": "teamai-cli",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "obra/superpowers",
+      "rank": 3,
+      "stars": 284.0,
+      "today_n": 688,
+      "slug": "superpowers",
+      "cat": "agent",
+      "lang": "Shell"
+    },
+    {
+      "full": "pascalorg/editor",
+      "rank": 4,
+      "stars": 22.9,
+      "today_n": 107,
+      "slug": "editor",
+      "cat": "other",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "earthtojake/text-to-cad",
+      "rank": 5,
+      "stars": 15.0,
+      "today_n": 124,
+      "slug": "text-to-cad",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "cathrynlavery/diagram-design",
+      "rank": 6,
+      "stars": 36.6,
+      "today_n": 2249,
+      "slug": "diagram-design",
+      "cat": "agent",
+      "lang": "HTML"
+    },
+    {
+      "full": "TauricResearch/TradingAgents",
+      "rank": 7,
+      "stars": 104.0,
+      "today_n": 367,
+      "slug": "tradingagents",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "liquidslr/system-design-notes",
+      "rank": 8,
+      "stars": 18.0,
+      "today_n": 1397,
+      "slug": "system-design-notes",
+      "cat": "other",
+      "lang": null
+    },
+    {
+      "full": "openai/plugins",
+      "rank": 9,
+      "stars": 6.2,
+      "today_n": 498,
+      "slug": "openai-plugins",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "freestylefly/awesome-gpt-image-2",
+      "rank": 10,
+      "stars": 30.1,
+      "today_n": 705,
+      "slug": "awesome-gpt-image-2",
+      "cat": "ai",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "rohitg00/ai-engineering-from-scratch",
+      "rank": 11,
+      "stars": 53.7,
+      "today_n": 343,
+      "slug": "ai-engineering-from-scratch",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "vastsa/PI-Desktop",
+      "rank": 12,
+      "stars": 1.7,
+      "today_n": 417,
+      "slug": "pi-desktop",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "affaan-m/ECC",
+      "rank": 13,
+      "stars": 255.2,
+      "today_n": 1133,
+      "slug": "ecc",
+      "cat": "agent",
+      "lang": "JavaScript"
+    }
+  ]
+}
