@@ -1,0 +1,150 @@
+{
+  "date": "2026-09-11",
+  "generated_at": "2026-09-11 09:03 (CST)",
+  "repos": [
+    {
+      "full": "ayghri/i-have-adhd",
+      "rank": 1,
+      "stars": 38.3,
+      "today_n": 3882,
+      "slug": "i-have-adhd",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "bilawalsidhu/gods-eye-view",
+      "rank": 2,
+      "stars": 24.3,
+      "today_n": 1762,
+      "slug": "gods-eye-view",
+      "cat": "other",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "obra/superpowers",
+      "rank": 3,
+      "stars": 284.7,
+      "today_n": 732,
+      "slug": "superpowers",
+      "cat": "agent",
+      "lang": "Shell"
+    },
+    {
+      "full": "alsk1992/CloddsBot",
+      "rank": 4,
+      "stars": 1.6,
+      "today_n": 277,
+      "slug": "cloddsbot",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "Tencent/teamai-cli",
+      "rank": 5,
+      "stars": 3.8,
+      "today_n": 841,
+      "slug": "teamai-cli",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "AlexsJones/llmfit",
+      "rank": 6,
+      "stars": 35.7,
+      "today_n": 258,
+      "slug": "llmfit",
+      "cat": "agent",
+      "lang": "Rust"
+    },
+    {
+      "full": "liquidslr/system-design-notes",
+      "rank": 7,
+      "stars": 18.8,
+      "today_n": 900,
+      "slug": "system-design-notes",
+      "cat": "other",
+      "lang": null
+    },
+    {
+      "full": "cathrynlavery/diagram-design",
+      "rank": 8,
+      "stars": 37.8,
+      "today_n": 1294,
+      "slug": "diagram-design",
+      "cat": "agent",
+      "lang": "HTML"
+    },
+    {
+      "full": "freestylefly/awesome-gpt-image-2",
+      "rank": 9,
+      "stars": 30.8,
+      "today_n": 962,
+      "slug": "awesome-gpt-image-2",
+      "cat": "ai",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "armory3d/armorpaint",
+      "rank": 10,
+      "stars": 4.4,
+      "today_n": 72,
+      "slug": "armorpaint",
+      "cat": "other",
+      "lang": "C"
+    },
+    {
+      "full": "diegosouzapw/OmniRoute",
+      "rank": 11,
+      "stars": 64.2,
+      "today_n": 626,
+      "slug": "omniroute",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "JustVugg/colibri",
+      "rank": 12,
+      "stars": 27.5,
+      "today_n": 98,
+      "slug": "colibri",
+      "cat": "infra",
+      "lang": "C"
+    },
+    {
+      "full": "THU-MAIC/OpenMAIC",
+      "rank": 13,
+      "stars": 35.3,
+      "today_n": 837,
+      "slug": "openmaic",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "nashsu/llm_wiki",
+      "rank": 14,
+      "stars": 18.1,
+      "today_n": 142,
+      "slug": "llm_wiki",
+      "cat": "ai",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "vercel-labs/skills",
+      "rank": 15,
+      "stars": 31.1,
+      "today_n": 122,
+      "slug": "skills",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "vastsa/PI-Desktop",
+      "rank": 16,
+      "stars": 2.3,
+      "today_n": 624,
+      "slug": "pi-desktop",
+      "cat": "agent",
+      "lang": "TypeScript"
+    }
+  ]
+}
