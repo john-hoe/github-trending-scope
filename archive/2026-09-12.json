@@ -1,0 +1,150 @@
+{
+  "date": "2026-09-12",
+  "generated_at": "2026-09-12 09:02 (CST)",
+  "repos": [
+    {
+      "full": "ayghri/i-have-adhd",
+      "rank": 1,
+      "stars": 41.8,
+      "today_n": 3463,
+      "slug": "i-have-adhd",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "bilawalsidhu/gods-eye-view",
+      "rank": 2,
+      "stars": 27.1,
+      "today_n": 3680,
+      "slug": "gods-eye-view",
+      "cat": "other",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "nab138/iloader",
+      "rank": 3,
+      "stars": 2.9,
+      "today_n": 50,
+      "slug": "iloader",
+      "cat": "other",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "melgarafael/DeskcommCRM",
+      "rank": 4,
+      "stars": 1.3,
+      "today_n": 152,
+      "slug": "deskcommcrm",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "vastsa/PI-Desktop",
+      "rank": 5,
+      "stars": 2.8,
+      "today_n": 552,
+      "slug": "pi-desktop",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "armory3d/armorpaint",
+      "rank": 6,
+      "stars": 4.7,
+      "today_n": 350,
+      "slug": "armorpaint",
+      "cat": "other",
+      "lang": "C"
+    },
+    {
+      "full": "alsk1992/CloddsBot",
+      "rank": 7,
+      "stars": 2.2,
+      "today_n": 626,
+      "slug": "cloddsbot",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "nashsu/llm_wiki",
+      "rank": 8,
+      "stars": 18.7,
+      "today_n": 647,
+      "slug": "llm_wiki",
+      "cat": "ai",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "obra/superpowers",
+      "rank": 9,
+      "stars": 285.4,
+      "today_n": 729,
+      "slug": "superpowers",
+      "cat": "agent",
+      "lang": "Shell"
+    },
+    {
+      "full": "Sonarr/Sonarr",
+      "rank": 10,
+      "stars": 15.7,
+      "today_n": 191,
+      "slug": "sonarr",
+      "cat": "infra",
+      "lang": "C#"
+    },
+    {
+      "full": "jihe520/MathModelAgent",
+      "rank": 11,
+      "stars": 4.9,
+      "today_n": 129,
+      "slug": "mathmodelagent",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "p1neappleXpress/OpenFlux",
+      "rank": 12,
+      "stars": 1.1,
+      "today_n": 198,
+      "slug": "openflux",
+      "cat": "infra",
+      "lang": "Go"
+    },
+    {
+      "full": "jordan-gibbs/hyperresearch",
+      "rank": 13,
+      "stars": 2.6,
+      "today_n": 153,
+      "slug": "hyperresearch",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "alphaXiv/OpenResearch",
+      "rank": 14,
+      "stars": 1.3,
+      "today_n": 120,
+      "slug": "openresearch",
+      "cat": "agent",
+      "lang": "Rust"
+    },
+    {
+      "full": "github/spec-kit",
+      "rank": 15,
+      "stars": 135.8,
+      "today_n": 1015,
+      "slug": "spec-kit",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "pascalorg/editor",
+      "rank": 16,
+      "stars": 23.6,
+      "today_n": 106,
+      "slug": "editor",
+      "cat": "other",
+      "lang": "TypeScript"
+    }
+  ]
+}
