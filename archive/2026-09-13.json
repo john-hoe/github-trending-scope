@@ -1,0 +1,150 @@
+{
+  "date": "2026-09-13",
+  "generated_at": "2026-09-13 09:10 (CST)",
+  "repos": [
+    {
+      "full": "bilawalsidhu/gods-eye-view",
+      "rank": 1,
+      "stars": 29.9,
+      "today_n": 2265,
+      "slug": "gods-eye-view",
+      "cat": "other",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "melgarafael/DeskcommCRM",
+      "rank": 2,
+      "stars": 1.8,
+      "today_n": 504,
+      "slug": "deskcommcrm",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "asgeirtj/system_prompts_leaks",
+      "rank": 3,
+      "stars": 65.4,
+      "today_n": 217,
+      "slug": "system_prompts_leaks",
+      "cat": "ai",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "nab138/iloader",
+      "rank": 4,
+      "stars": 3.1,
+      "today_n": 209,
+      "slug": "iloader",
+      "cat": "other",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "Flowseal/zapret-discord-youtube",
+      "rank": 5,
+      "stars": 33.2,
+      "today_n": 65,
+      "slug": "zapret-discord-youtube",
+      "cat": "infra",
+      "lang": "Batchfile"
+    },
+    {
+      "full": "jihe520/MathModelAgent",
+      "rank": 6,
+      "stars": 5.1,
+      "today_n": 262,
+      "slug": "mathmodelagent",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "Sonarr/Sonarr",
+      "rank": 7,
+      "stars": 15.9,
+      "today_n": 227,
+      "slug": "sonarr",
+      "cat": "infra",
+      "lang": "C#"
+    },
+    {
+      "full": "alsk1992/CloddsBot",
+      "rank": 8,
+      "stars": 2.5,
+      "today_n": 376,
+      "slug": "cloddsbot",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "yuliskov/SmartTube",
+      "rank": 9,
+      "stars": 33.2,
+      "today_n": 136,
+      "slug": "smarttube",
+      "cat": "other",
+      "lang": "Java"
+    },
+    {
+      "full": "Shubhamsaboo/awesome-llm-apps",
+      "rank": 10,
+      "stars": 137.6,
+      "today_n": 230,
+      "slug": "awesome-llm-apps",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "p1neappleXpress/OpenFlux",
+      "rank": 11,
+      "stars": 1.4,
+      "today_n": 355,
+      "slug": "openflux",
+      "cat": "infra",
+      "lang": "Go"
+    },
+    {
+      "full": "armory3d/armorpaint",
+      "rank": 12,
+      "stars": 4.9,
+      "today_n": 237,
+      "slug": "armorpaint",
+      "cat": "other",
+      "lang": "C"
+    },
+    {
+      "full": "SnailSploit/Claude-Red",
+      "rank": 13,
+      "stars": 3.6,
+      "today_n": 113,
+      "slug": "claude-red",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "multimodal-art-projection/YuE",
+      "rank": 14,
+      "stars": 7.3,
+      "today_n": 210,
+      "slug": "yue",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "max-sixty/worktrunk",
+      "rank": 15,
+      "stars": 7.2,
+      "today_n": 54,
+      "slug": "worktrunk",
+      "cat": "agent",
+      "lang": "Rust"
+    },
+    {
+      "full": "vxcontrol/pentagi",
+      "rank": 16,
+      "stars": 23.5,
+      "today_n": 189,
+      "slug": "pentagi",
+      "cat": "agent",
+      "lang": "Go"
+    }
+  ]
+}
