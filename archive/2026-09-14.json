@@ -1,0 +1,177 @@
+{
+  "date": "2026-09-14",
+  "generated_at": "2026-09-14 09:10 (CST)",
+  "repos": [
+    {
+      "full": "JustVugg/colibri",
+      "rank": 1,
+      "stars": 29.8,
+      "today_n": 868,
+      "slug": "colibri",
+      "cat": "ai",
+      "lang": "C"
+    },
+    {
+      "full": "ever-co/ever-gauzy",
+      "rank": 2,
+      "stars": 5.1,
+      "today_n": 191,
+      "slug": "ever-gauzy",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "bilawalsidhu/gods-eye-view",
+      "rank": 3,
+      "stars": 31.9,
+      "today_n": 2680,
+      "slug": "gods-eye-view",
+      "cat": "other",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "tech-leads-club/agent-skills",
+      "rank": 4,
+      "stars": 5.7,
+      "today_n": 265,
+      "slug": "agent-skills",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "melgarafael/DeskcommCRM",
+      "rank": 5,
+      "stars": 2.2,
+      "today_n": 432,
+      "slug": "deskcommcrm",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "calesthio/OpenMontage",
+      "rank": 6,
+      "stars": 58.4,
+      "today_n": 380,
+      "slug": "openmontage",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "asgeirtj/system_prompts_leaks",
+      "rank": 7,
+      "stars": 66.0,
+      "today_n": 706,
+      "slug": "system_prompts_leaks",
+      "cat": "ai",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "vxcontrol/pentagi",
+      "rank": 8,
+      "stars": 24.0,
+      "today_n": 590,
+      "slug": "pentagi",
+      "cat": "agent",
+      "lang": "Go"
+    },
+    {
+      "full": "multimodal-art-projection/YuE",
+      "rank": 9,
+      "stars": 7.8,
+      "today_n": 487,
+      "slug": "yue",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "yuliskov/SmartTube",
+      "rank": 10,
+      "stars": 33.5,
+      "today_n": 233,
+      "slug": "smarttube",
+      "cat": "other",
+      "lang": "Java"
+    },
+    {
+      "full": "alphaXiv/OpenResearch",
+      "rank": 11,
+      "stars": 2.1,
+      "today_n": 289,
+      "slug": "openresearch",
+      "cat": "agent",
+      "lang": "Rust"
+    },
+    {
+      "full": "debpalash/VoiceStudio",
+      "rank": 12,
+      "stars": 26.8,
+      "today_n": 2632,
+      "slug": "voicestudio",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "SnailSploit/Claude-Red",
+      "rank": 13,
+      "stars": 4.1,
+      "today_n": 506,
+      "slug": "claude-red",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "alibaba/open-code-review",
+      "rank": 14,
+      "stars": 23.5,
+      "today_n": 443,
+      "slug": "open-code-review",
+      "cat": "agent",
+      "lang": "Go"
+    },
+    {
+      "full": "jihe520/MathModelAgent",
+      "rank": 15,
+      "stars": 5.4,
+      "today_n": 246,
+      "slug": "mathmodelagent",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "tonhowtf/omniget",
+      "rank": 16,
+      "stars": 11.7,
+      "today_n": 507,
+      "slug": "omniget",
+      "cat": "other",
+      "lang": "Rust"
+    },
+    {
+      "full": "jiji262/douyin-downloader",
+      "rank": 17,
+      "stars": 11.4,
+      "today_n": 452,
+      "slug": "douyin-downloader",
+      "cat": "other",
+      "lang": "Python"
+    },
+    {
+      "full": "Swordfish90/cool-retro-term",
+      "rank": 18,
+      "stars": 26.2,
+      "today_n": 57,
+      "slug": "cool-retro-term",
+      "cat": "other",
+      "lang": "QML"
+    },
+    {
+      "full": "huggingface/transformers",
+      "rank": 19,
+      "stars": 165.5,
+      "today_n": 152,
+      "slug": "transformers",
+      "cat": "ai",
+      "lang": "Python"
+    }
+  ]
+}
