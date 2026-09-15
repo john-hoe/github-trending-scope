@@ -1,0 +1,186 @@
+{
+  "date": "2026-09-15",
+  "generated_at": "2026-09-15 09:06 (CST)",
+  "repos": [
+    {
+      "full": "JustVugg/colibri",
+      "rank": 1,
+      "stars": 32.1,
+      "today_n": 2173,
+      "slug": "colibri",
+      "cat": "ai",
+      "lang": "C"
+    },
+    {
+      "full": "alibaba/open-code-review",
+      "rank": 2,
+      "stars": 25.7,
+      "today_n": 1571,
+      "slug": "open-code-review",
+      "cat": "agent",
+      "lang": "Go"
+    },
+    {
+      "full": "multimodal-art-projection/YuE",
+      "rank": 3,
+      "stars": 8.3,
+      "today_n": 559,
+      "slug": "yue",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "debpalash/VoiceStudio",
+      "rank": 4,
+      "stars": 29.2,
+      "today_n": 2776,
+      "slug": "voicestudio",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "666ghj/MiroFish",
+      "rank": 5,
+      "stars": 73.1,
+      "today_n": 560,
+      "slug": "mirofish",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "Panniantong/Agent-Reach",
+      "rank": 6,
+      "stars": 81.3,
+      "today_n": 651,
+      "slug": "agent-reach",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "asgeirtj/system_prompts_leaks",
+      "rank": 7,
+      "stars": 66.8,
+      "today_n": 764,
+      "slug": "system_prompts_leaks",
+      "cat": "ai",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "rlaope/oh-my-hermes",
+      "rank": 8,
+      "stars": 2.0,
+      "today_n": 77,
+      "slug": "oh-my-hermes",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "localsend/localsend",
+      "rank": 9,
+      "stars": 91.3,
+      "today_n": 251,
+      "slug": "localsend",
+      "cat": "infra",
+      "lang": "Dart"
+    },
+    {
+      "full": "dani-garcia/vaultwarden",
+      "rank": 10,
+      "stars": 67.5,
+      "today_n": 115,
+      "slug": "vaultwarden",
+      "cat": "infra",
+      "lang": "Rust"
+    },
+    {
+      "full": "TauricResearch/TradingAgents",
+      "rank": 11,
+      "stars": 106.1,
+      "today_n": 745,
+      "slug": "tradingagents",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "ruvnet/RuView",
+      "rank": 12,
+      "stars": 93.8,
+      "today_n": 383,
+      "slug": "ruview",
+      "cat": "infra",
+      "lang": "Rust"
+    },
+    {
+      "full": "tech-leads-club/agent-skills",
+      "rank": 13,
+      "stars": 6.1,
+      "today_n": 512,
+      "slug": "agent-skills",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "OpenBMB/VoxCPM",
+      "rank": 14,
+      "stars": 37.4,
+      "today_n": 216,
+      "slug": "voxcpm",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "huggingface/transformers",
+      "rank": 15,
+      "stars": 166.0,
+      "today_n": 536,
+      "slug": "transformers",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "ever-co/ever-gauzy",
+      "rank": 16,
+      "stars": 6.0,
+      "today_n": 1130,
+      "slug": "ever-gauzy",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "Crosstalk-Solutions/project-nomad",
+      "rank": 17,
+      "stars": 36.9,
+      "today_n": 40,
+      "slug": "project-nomad",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "reconurge/flowsint",
+      "rank": 18,
+      "stars": 8.3,
+      "today_n": 280,
+      "slug": "flowsint",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "peetzweg/opendisplay",
+      "rank": 19,
+      "stars": 3.6,
+      "today_n": 229,
+      "slug": "opendisplay",
+      "cat": "infra",
+      "lang": "Swift"
+    },
+    {
+      "full": "SnailSploit/Claude-Red",
+      "rank": 20,
+      "stars": 4.7,
+      "today_n": 579,
+      "slug": "claude-red",
+      "cat": "agent",
+      "lang": "Python"
+    }
+  ]
+}
