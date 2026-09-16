@@ -1,0 +1,132 @@
+{
+  "date": "2026-09-16",
+  "generated_at": "2026-09-16 09:05 (CST)",
+  "repos": [
+    {
+      "full": "alibaba/open-code-review",
+      "rank": 1,
+      "stars": 28.6,
+      "today_n": 2756,
+      "slug": "open-code-review",
+      "cat": "agent",
+      "lang": "Go"
+    },
+    {
+      "full": "JustVugg/colibri",
+      "rank": 2,
+      "stars": 33.8,
+      "today_n": 2026,
+      "slug": "colibri",
+      "cat": "ai",
+      "lang": "C"
+    },
+    {
+      "full": "ever-co/ever-gauzy",
+      "rank": 3,
+      "stars": 6.7,
+      "today_n": 634,
+      "slug": "ever-gauzy",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "debpalash/VoiceStudio",
+      "rank": 4,
+      "stars": 31.0,
+      "today_n": 2072,
+      "slug": "voicestudio",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "Homebrew/BrewUI",
+      "rank": 5,
+      "stars": 1.4,
+      "today_n": 271,
+      "slug": "brewui",
+      "cat": "infra",
+      "lang": "Swift"
+    },
+    {
+      "full": "melgarafael/DeskcommCRM",
+      "rank": 6,
+      "stars": 2.8,
+      "today_n": 193,
+      "slug": "deskcommcrm",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "alphaXiv/OpenResearch",
+      "rank": 7,
+      "stars": 3.4,
+      "today_n": 531,
+      "slug": "openresearch",
+      "cat": "agent",
+      "lang": "Rust"
+    },
+    {
+      "full": "NationalSecurityAgency/ghidra",
+      "rank": 8,
+      "stars": 76.7,
+      "today_n": 725,
+      "slug": "ghidra",
+      "cat": "infra",
+      "lang": "Java"
+    },
+    {
+      "full": "danny-avila/LibreChat",
+      "rank": 9,
+      "stars": 43.8,
+      "today_n": 254,
+      "slug": "librechat",
+      "cat": "ai",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "pacifio/atlas",
+      "rank": 10,
+      "stars": 4.6,
+      "today_n": 91,
+      "slug": "atlas",
+      "cat": "agent",
+      "lang": "Rust"
+    },
+    {
+      "full": "MG1937/ASC",
+      "rank": 11,
+      "stars": 1.2,
+      "today_n": 129,
+      "slug": "asc",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "addyosmani/agent-skills",
+      "rank": 12,
+      "stars": 94.8,
+      "today_n": 307,
+      "slug": "addyosmani-agent-skills",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "tonhowtf/omniget",
+      "rank": 13,
+      "stars": 12.9,
+      "today_n": 258,
+      "slug": "omniget",
+      "cat": "other",
+      "lang": "Rust"
+    },
+    {
+      "full": "earendil-works/pi",
+      "rank": 14,
+      "stars": 105.7,
+      "today_n": 458,
+      "slug": "pi",
+      "cat": "agent",
+      "lang": "TypeScript"
+    }
+  ]
+}
