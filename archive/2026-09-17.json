@@ -1,0 +1,195 @@
+{
+  "date": "2026-09-17",
+  "generated_at": "2026-09-17 09:06 (CST)",
+  "repos": [
+    {
+      "full": "alibaba/open-code-review",
+      "rank": 1,
+      "stars": 31.9,
+      "today_n": 3231,
+      "slug": "open-code-review",
+      "cat": "agent",
+      "lang": "Go"
+    },
+    {
+      "full": "cloudflare/security-audit-skill",
+      "rank": 2,
+      "stars": 7.2,
+      "today_n": 927,
+      "slug": "security-audit-skill",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "JustVugg/colibri",
+      "rank": 3,
+      "stars": 35.0,
+      "today_n": 1546,
+      "slug": "colibri",
+      "cat": "ai",
+      "lang": "C"
+    },
+    {
+      "full": "abue-ammar/tinycast",
+      "rank": 4,
+      "stars": 5.6,
+      "today_n": 1179,
+      "slug": "tinycast",
+      "cat": "other",
+      "lang": "Swift"
+    },
+    {
+      "full": "jamiepine/voicebox",
+      "rank": 5,
+      "stars": 54.4,
+      "today_n": 417,
+      "slug": "voicebox",
+      "cat": "ai",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "Lakr233/vphone-cli",
+      "rank": 6,
+      "stars": 13.3,
+      "today_n": 547,
+      "slug": "vphone-cli",
+      "cat": "other",
+      "lang": "Swift"
+    },
+    {
+      "full": "anthropics/knowledge-work-plugins",
+      "rank": 7,
+      "stars": 24.3,
+      "today_n": 110,
+      "slug": "knowledge-work-plugins",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "ever-co/ever-gauzy",
+      "rank": 8,
+      "stars": 7.3,
+      "today_n": 778,
+      "slug": "ever-gauzy",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "ankitects/anki",
+      "rank": 9,
+      "stars": 30.9,
+      "today_n": 58,
+      "slug": "anki",
+      "cat": "other",
+      "lang": "Rust"
+    },
+    {
+      "full": "NationalSecurityAgency/ghidra",
+      "rank": 10,
+      "stars": 77.8,
+      "today_n": 1059,
+      "slug": "ghidra",
+      "cat": "infra",
+      "lang": "Java"
+    },
+    {
+      "full": "anthropics/claude-code",
+      "rank": 11,
+      "stars": 145.5,
+      "today_n": 165,
+      "slug": "claude-code",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "roboflow/supervision",
+      "rank": 12,
+      "stars": 50.6,
+      "today_n": 260,
+      "slug": "supervision",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "alphaXiv/OpenResearch",
+      "rank": 13,
+      "stars": 4.4,
+      "today_n": 1017,
+      "slug": "openresearch",
+      "cat": "agent",
+      "lang": "Rust"
+    },
+    {
+      "full": "supabase/supabase",
+      "rank": 14,
+      "stars": 109.7,
+      "today_n": 120,
+      "slug": "supabase",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "rlaope/oh-my-hermes",
+      "rank": 15,
+      "stars": 2.6,
+      "today_n": 80,
+      "slug": "oh-my-hermes",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "Tencent/WeKnora",
+      "rank": 16,
+      "stars": 25.3,
+      "today_n": 1197,
+      "slug": "weknora",
+      "cat": "ai",
+      "lang": "Go"
+    },
+    {
+      "full": "SnailSploit/Claude-Red",
+      "rank": 17,
+      "stars": 5.8,
+      "today_n": 367,
+      "slug": "claude-red",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "multimodal-art-projection/YuE",
+      "rank": 18,
+      "stars": 9.4,
+      "today_n": 332,
+      "slug": "yue",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "addyosmani/agent-skills",
+      "rank": 19,
+      "stars": 95.5,
+      "today_n": 658,
+      "slug": "addyosmani-agent-skills",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "cline/cline",
+      "rank": 20,
+      "stars": 68.4,
+      "today_n": 112,
+      "slug": "cline",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "affaan-m/ECC",
+      "rank": 21,
+      "stars": 260.3,
+      "today_n": 1057,
+      "slug": "ecc",
+      "cat": "agent",
+      "lang": "JavaScript"
+    }
+  ]
+}
