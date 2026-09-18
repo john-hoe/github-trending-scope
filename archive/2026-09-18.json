@@ -1,0 +1,186 @@
+{
+  "date": "2026-09-18",
+  "generated_at": "2026-09-18 09:05 (CST)",
+  "repos": [
+    {
+      "full": "alibaba/open-code-review",
+      "rank": 1,
+      "stars": 34.8,
+      "today_n": 3286,
+      "slug": "open-code-review",
+      "cat": "agent",
+      "lang": "Go"
+    },
+    {
+      "full": "cloudflare/security-audit-skill",
+      "rank": 2,
+      "stars": 10.7,
+      "today_n": 3607,
+      "slug": "security-audit-skill",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "addyosmani/agent-skills",
+      "rank": 3,
+      "stars": 95.9,
+      "today_n": 680,
+      "slug": "addyosmani-agent-skills",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "Tencent/BrowserSkill",
+      "rank": 4,
+      "stars": 4.1,
+      "today_n": 1302,
+      "slug": "browserskill",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "alphaXiv/OpenResearch",
+      "rank": 5,
+      "stars": 5.0,
+      "today_n": 939,
+      "slug": "openresearch",
+      "cat": "agent",
+      "lang": "Rust"
+    },
+    {
+      "full": "anthropics/claude-code",
+      "rank": 6,
+      "stars": 145.9,
+      "today_n": 538,
+      "slug": "claude-code",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "NationalSecurityAgency/ghidra",
+      "rank": 7,
+      "stars": 78.5,
+      "today_n": 912,
+      "slug": "ghidra",
+      "cat": "infra",
+      "lang": "Java"
+    },
+    {
+      "full": "anthropics/knowledge-work-plugins",
+      "rank": 8,
+      "stars": 24.6,
+      "today_n": 287,
+      "slug": "knowledge-work-plugins",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "Tencent/WeKnora",
+      "rank": 9,
+      "stars": 26.2,
+      "today_n": 1125,
+      "slug": "weknora",
+      "cat": "ai",
+      "lang": "Go"
+    },
+    {
+      "full": "abue-ammar/tinycast",
+      "rank": 10,
+      "stars": 6.1,
+      "today_n": 739,
+      "slug": "tinycast",
+      "cat": "other",
+      "lang": "Swift"
+    },
+    {
+      "full": "cilium/cilium",
+      "rank": 11,
+      "stars": 25.3,
+      "today_n": 111,
+      "slug": "cilium",
+      "cat": "infra",
+      "lang": "Go"
+    },
+    {
+      "full": "jamiepine/voicebox",
+      "rank": 12,
+      "stars": 54.8,
+      "today_n": 667,
+      "slug": "voicebox",
+      "cat": "ai",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "affaan-m/ECC",
+      "rank": 13,
+      "stars": 261.2,
+      "today_n": 1171,
+      "slug": "ecc",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "roboflow/supervision",
+      "rank": 14,
+      "stars": 50.8,
+      "today_n": 329,
+      "slug": "supervision",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "JustVugg/colibri",
+      "rank": 15,
+      "stars": 35.7,
+      "today_n": 873,
+      "slug": "colibri",
+      "cat": "ai",
+      "lang": "C"
+    },
+    {
+      "full": "TencentCloud/Octop",
+      "rank": 16,
+      "stars": 3.4,
+      "today_n": 367,
+      "slug": "octop",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "ever-co/ever-gauzy",
+      "rank": 17,
+      "stars": 7.5,
+      "today_n": 470,
+      "slug": "ever-gauzy",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "cline/cline",
+      "rank": 18,
+      "stars": 68.6,
+      "today_n": 380,
+      "slug": "cline",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "coder/coder",
+      "rank": 19,
+      "stars": 14.8,
+      "today_n": 145,
+      "slug": "coder",
+      "cat": "infra",
+      "lang": "Go"
+    },
+    {
+      "full": "n8n-io/n8n",
+      "rank": 20,
+      "stars": 205.0,
+      "today_n": 281,
+      "slug": "n8n",
+      "cat": "agent",
+      "lang": "TypeScript"
+    }
+  ]
+}
