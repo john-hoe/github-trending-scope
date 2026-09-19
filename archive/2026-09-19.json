@@ -1,0 +1,159 @@
+{
+  "date": "2026-09-19",
+  "generated_at": "2026-09-19 09:03 (CST)",
+  "repos": [
+    {
+      "full": "cloudflare/security-audit-skill",
+      "rank": 1,
+      "stars": 13.7,
+      "today_n": 3006,
+      "slug": "security-audit-skill",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "anthropics/claude-code",
+      "rank": 2,
+      "stars": 146.3,
+      "today_n": 444,
+      "slug": "claude-code",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "alibaba/open-code-review",
+      "rank": 3,
+      "stars": 36.7,
+      "today_n": 2704,
+      "slug": "open-code-review",
+      "cat": "agent",
+      "lang": "Go"
+    },
+    {
+      "full": "affaan-m/ECC",
+      "rank": 4,
+      "stars": 262.1,
+      "today_n": 958,
+      "slug": "ecc",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "Tencent/BrowserSkill",
+      "rank": 5,
+      "stars": 5.3,
+      "today_n": 1306,
+      "slug": "browserskill",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "addyosmani/agent-skills",
+      "rank": 6,
+      "stars": 96.4,
+      "today_n": 675,
+      "slug": "addyosmani-agent-skills",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "TencentCloud/Octop",
+      "rank": 7,
+      "stars": 4.0,
+      "today_n": 569,
+      "slug": "octop",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "Fission-AI/OpenSpec",
+      "rank": 8,
+      "stars": 69.4,
+      "today_n": 296,
+      "slug": "openspec",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "ankitects/anki",
+      "rank": 9,
+      "stars": 31.2,
+      "today_n": 174,
+      "slug": "anki",
+      "cat": "other",
+      "lang": "Rust"
+    },
+    {
+      "full": "anthropics/knowledge-work-plugins",
+      "rank": 10,
+      "stars": 24.9,
+      "today_n": 299,
+      "slug": "knowledge-work-plugins",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "supermemoryai/supermemory",
+      "rank": 11,
+      "stars": 30.3,
+      "today_n": 140,
+      "slug": "supermemory",
+      "cat": "ai",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "tradesdontlie/tradingview-mcp",
+      "rank": 12,
+      "stars": 6.5,
+      "today_n": 79,
+      "slug": "tradingview-mcp",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "rustfs/rustfs",
+      "rank": 13,
+      "stars": 33.2,
+      "today_n": 267,
+      "slug": "rustfs",
+      "cat": "infra",
+      "lang": "Rust"
+    },
+    {
+      "full": "supabase/supabase",
+      "rank": 14,
+      "stars": 110.2,
+      "today_n": 120,
+      "slug": "supabase",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "coder/coder",
+      "rank": 15,
+      "stars": 15.3,
+      "today_n": 478,
+      "slug": "coder",
+      "cat": "infra",
+      "lang": "Go"
+    },
+    {
+      "full": "ahmedkhaleel2004/gitdiagram",
+      "rank": 16,
+      "stars": 16.5,
+      "today_n": 152,
+      "slug": "gitdiagram",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "asciimoo/hister",
+      "rank": 17,
+      "stars": 5.0,
+      "today_n": 889,
+      "slug": "hister",
+      "cat": "other",
+      "lang": "Go"
+    }
+  ]
+}
