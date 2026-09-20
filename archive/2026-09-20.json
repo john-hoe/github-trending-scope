@@ -1,0 +1,141 @@
+{
+  "date": "2026-09-20",
+  "generated_at": "2026-09-20 09:10 (CST)",
+  "repos": [
+    {
+      "full": "cloudflare/security-audit-skill",
+      "rank": 1,
+      "stars": 16.4,
+      "today_n": 3155,
+      "slug": "security-audit-skill",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "trycua/cua",
+      "rank": 2,
+      "stars": 24.4,
+      "today_n": 859,
+      "slug": "cua",
+      "cat": "agent",
+      "lang": "HTML"
+    },
+    {
+      "full": "addyosmani/agent-skills",
+      "rank": 3,
+      "stars": 97.0,
+      "today_n": 556,
+      "slug": "addyosmani-agent-skills",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "coder/coder",
+      "rank": 4,
+      "stars": 15.6,
+      "today_n": 402,
+      "slug": "coder",
+      "cat": "infra",
+      "lang": "Go"
+    },
+    {
+      "full": "anthropics/claude-code",
+      "rank": 5,
+      "stars": 146.7,
+      "today_n": 483,
+      "slug": "claude-code",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "Open-Dev-Society/OpenStock",
+      "rank": 6,
+      "stars": 16.1,
+      "today_n": 472,
+      "slug": "openstock",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "higgsfield-ai/higgsfield",
+      "rank": 7,
+      "stars": 5.0,
+      "today_n": 196,
+      "slug": "higgsfield",
+      "cat": "infra",
+      "lang": "Jupyter Notebook"
+    },
+    {
+      "full": "docling-project/docling",
+      "rank": 8,
+      "stars": 67.1,
+      "today_n": 129,
+      "slug": "docling",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "cloudflare/quiche",
+      "rank": 9,
+      "stars": 12.0,
+      "today_n": 31,
+      "slug": "quiche",
+      "cat": "infra",
+      "lang": "Rust"
+    },
+    {
+      "full": "asciimoo/hister",
+      "rank": 10,
+      "stars": 5.2,
+      "today_n": 420,
+      "slug": "hister",
+      "cat": "other",
+      "lang": "Go"
+    },
+    {
+      "full": "ruanyf/weekly",
+      "rank": 11,
+      "stars": 103.1,
+      "today_n": 98,
+      "slug": "weekly",
+      "cat": "other",
+      "lang": null
+    },
+    {
+      "full": "ZuodaoTech/everyone-can-use-english",
+      "rank": 12,
+      "stars": 37.8,
+      "today_n": 48,
+      "slug": "everyone-can-use-english",
+      "cat": "ai",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "anthropics/knowledge-work-plugins",
+      "rank": 13,
+      "stars": 25.1,
+      "today_n": 281,
+      "slug": "knowledge-work-plugins",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "cactus-compute/needle",
+      "rank": 14,
+      "stars": 11.6,
+      "today_n": 234,
+      "slug": "needle",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "yynxxxxx/Codex-X",
+      "rank": 15,
+      "stars": 3.4,
+      "today_n": 32,
+      "slug": "codex-x",
+      "cat": "agent",
+      "lang": "Rust"
+    }
+  ]
+}
