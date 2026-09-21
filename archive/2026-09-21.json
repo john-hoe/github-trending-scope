@@ -1,0 +1,123 @@
+{
+  "date": "2026-09-21",
+  "generated_at": "2026-09-21 09:10 (CST)",
+  "repos": [
+    {
+      "full": "affaan-m/ECC",
+      "rank": 1,
+      "stars": 263.7,
+      "today_n": 826,
+      "slug": "ecc",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "BuilderIO/agent-native",
+      "rank": 2,
+      "stars": 5.2,
+      "today_n": 98,
+      "slug": "agent-native",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "cloudflare/security-audit-skill",
+      "rank": 3,
+      "stars": 18.0,
+      "today_n": 2428,
+      "slug": "security-audit-skill",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "trycua/cua",
+      "rank": 4,
+      "stars": 25.2,
+      "today_n": 1018,
+      "slug": "cua",
+      "cat": "agent",
+      "lang": "HTML"
+    },
+    {
+      "full": "anthropics/financial-services",
+      "rank": 5,
+      "stars": 35.4,
+      "today_n": 260,
+      "slug": "financial-services",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "paperless-ngx/paperless-ngx",
+      "rank": 6,
+      "stars": 45.6,
+      "today_n": 57,
+      "slug": "paperless-ngx",
+      "cat": "infra",
+      "lang": "Python"
+    },
+    {
+      "full": "anthropics/claude-code",
+      "rank": 7,
+      "stars": 147.1,
+      "today_n": 419,
+      "slug": "claude-code",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "mihail911/modern-software-dev-assignments",
+      "rank": 8,
+      "stars": 4.6,
+      "today_n": 172,
+      "slug": "modern-software-dev-assignments",
+      "cat": "other",
+      "lang": "Python"
+    },
+    {
+      "full": "higgsfield-ai/higgsfield",
+      "rank": 9,
+      "stars": 5.4,
+      "today_n": 465,
+      "slug": "higgsfield",
+      "cat": "infra",
+      "lang": "Jupyter Notebook"
+    },
+    {
+      "full": "Open-Dev-Society/OpenStock",
+      "rank": 10,
+      "stars": 16.8,
+      "today_n": 755,
+      "slug": "openstock",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "coder/coder",
+      "rank": 11,
+      "stars": 16.1,
+      "today_n": 379,
+      "slug": "coder",
+      "cat": "infra",
+      "lang": "Go"
+    },
+    {
+      "full": "vercel-labs/json-render",
+      "rank": 12,
+      "stars": 17.3,
+      "today_n": 291,
+      "slug": "json-render",
+      "cat": "ai",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "addyosmani/agent-skills",
+      "rank": 13,
+      "stars": 97.7,
+      "today_n": 736,
+      "slug": "addyosmani-agent-skills",
+      "cat": "agent",
+      "lang": "JavaScript"
+    }
+  ]
+}
