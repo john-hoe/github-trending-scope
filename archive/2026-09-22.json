@@ -1,0 +1,114 @@
+{
+  "date": "2026-09-22",
+  "generated_at": "2026-09-22 09:05 (CST)",
+  "repos": [
+    {
+      "full": "BuilderIO/agent-native",
+      "rank": 1,
+      "stars": 5.9,
+      "today_n": 607,
+      "slug": "agent-native",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "trycua/cua",
+      "rank": 2,
+      "stars": 25.7,
+      "today_n": 609,
+      "slug": "cua",
+      "cat": "agent",
+      "lang": "HTML"
+    },
+    {
+      "full": "Open-Dev-Society/OpenStock",
+      "rank": 3,
+      "stars": 17.7,
+      "today_n": 844,
+      "slug": "openstock",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "akitaonrails/ai-memory",
+      "rank": 4,
+      "stars": 7.7,
+      "today_n": 167,
+      "slug": "ai-memory",
+      "cat": "agent",
+      "lang": "Rust"
+    },
+    {
+      "full": "coder/coder",
+      "rank": 5,
+      "stars": 16.4,
+      "today_n": 460,
+      "slug": "coder",
+      "cat": "infra",
+      "lang": "Go"
+    },
+    {
+      "full": "anthropics/financial-services",
+      "rank": 6,
+      "stars": 35.8,
+      "today_n": 424,
+      "slug": "financial-services",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "cloudflare/quiche",
+      "rank": 7,
+      "stars": 12.4,
+      "today_n": 32,
+      "slug": "quiche",
+      "cat": "infra",
+      "lang": "Rust"
+    },
+    {
+      "full": "mvt-project/mvt",
+      "rank": 8,
+      "stars": 13.6,
+      "today_n": 169,
+      "slug": "mvt",
+      "cat": "infra",
+      "lang": "Python"
+    },
+    {
+      "full": "zhouxiaoka/autoclip",
+      "rank": 9,
+      "stars": 8.2,
+      "today_n": 250,
+      "slug": "autoclip",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "ruanyf/weekly",
+      "rank": 10,
+      "stars": 103.9,
+      "today_n": 182,
+      "slug": "weekly",
+      "cat": "other",
+      "lang": null
+    },
+    {
+      "full": "Crosstalk-Solutions/project-nomad",
+      "rank": 11,
+      "stars": 37.9,
+      "today_n": 394,
+      "slug": "project-nomad",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "yynxxxxx/Codex-X",
+      "rank": 12,
+      "stars": 3.7,
+      "today_n": 50,
+      "slug": "codex-x",
+      "cat": "agent",
+      "lang": "Rust"
+    }
+  ]
+}
