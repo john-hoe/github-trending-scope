@@ -1,0 +1,132 @@
+{
+  "date": "2026-09-25",
+  "generated_at": "2026-09-25 09:06 (CST)",
+  "repos": [
+    {
+      "full": "rohitg00/ai-engineering-from-scratch",
+      "rank": 1,
+      "stars": 56.6,
+      "today_n": 347,
+      "slug": "ai-engineering-from-scratch",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "vectorize-io/hindsight",
+      "rank": 2,
+      "stars": 27.8,
+      "today_n": 1668,
+      "slug": "hindsight",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "dream-num/univer",
+      "rank": 3,
+      "stars": 17.7,
+      "today_n": 1082,
+      "slug": "univer",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "google/ax",
+      "rank": 4,
+      "stars": 10.5,
+      "today_n": 1373,
+      "slug": "ax",
+      "cat": "agent",
+      "lang": "Go"
+    },
+    {
+      "full": "NVIDIA/Model-Optimizer",
+      "rank": 5,
+      "stars": 4.1,
+      "today_n": 44,
+      "slug": "model-optimizer",
+      "cat": "infra",
+      "lang": "Python"
+    },
+    {
+      "full": "FxEmbed/FxEmbed",
+      "rank": 6,
+      "stars": 5.4,
+      "today_n": 182,
+      "slug": "fxembed",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "anthropics/financial-services",
+      "rank": 7,
+      "stars": 37.4,
+      "today_n": 509,
+      "slug": "financial-services",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "HKUDS/CLI-Anything",
+      "rank": 8,
+      "stars": 50.3,
+      "today_n": 413,
+      "slug": "cli-anything",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "mvt-project/mvt",
+      "rank": 9,
+      "stars": 14.7,
+      "today_n": 272,
+      "slug": "mvt",
+      "cat": "infra",
+      "lang": "Python"
+    },
+    {
+      "full": "obra/superpowers",
+      "rank": 10,
+      "stars": 291.2,
+      "today_n": 611,
+      "slug": "superpowers",
+      "cat": "agent",
+      "lang": "Shell"
+    },
+    {
+      "full": "strands-agents/harness-sdk",
+      "rank": 11,
+      "stars": 8.3,
+      "today_n": 455,
+      "slug": "harness-sdk",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "julyx10/lap",
+      "rank": 12,
+      "stars": 2.9,
+      "today_n": 122,
+      "slug": "lap",
+      "cat": "other",
+      "lang": "Vue"
+    },
+    {
+      "full": "superdesigndev/treg",
+      "rank": 13,
+      "stars": 3.2,
+      "today_n": 468,
+      "slug": "treg",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "leejet/stable-diffusion.cpp",
+      "rank": 14,
+      "stars": 7.2,
+      "today_n": 36,
+      "slug": "stable-diffusion.cpp",
+      "cat": "ai",
+      "lang": "C++"
+    }
+  ]
+}
