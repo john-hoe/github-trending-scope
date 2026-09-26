@@ -1,0 +1,150 @@
+{
+  "date": "2026-09-26",
+  "generated_at": "2026-09-26 09:05 (CST)",
+  "repos": [
+    {
+      "full": "paperclipai/paperclip",
+      "rank": 1,
+      "stars": 85.0,
+      "today_n": 2109,
+      "slug": "paperclip",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "anthropics/claude-plugins-official",
+      "rank": 2,
+      "stars": 36.9,
+      "today_n": 83,
+      "slug": "claude-plugins-official",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "vectorize-io/hindsight",
+      "rank": 3,
+      "stars": 29.8,
+      "today_n": 1653,
+      "slug": "hindsight",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "obra/superpowers",
+      "rank": 4,
+      "stars": 291.7,
+      "today_n": 468,
+      "slug": "superpowers",
+      "cat": "agent",
+      "lang": "Shell"
+    },
+    {
+      "full": "mattpocock/skills",
+      "rank": 5,
+      "stars": 269.7,
+      "today_n": 583,
+      "slug": "mattpocock-skills",
+      "cat": "agent",
+      "lang": "Shell"
+    },
+    {
+      "full": "dream-num/univer",
+      "rank": 6,
+      "stars": 18.4,
+      "today_n": 1050,
+      "slug": "univer",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "anthropics/skills",
+      "rank": 7,
+      "stars": 178.3,
+      "today_n": 189,
+      "slug": "skills",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "androoAGI/starnet",
+      "rank": 8,
+      "stars": 0.5,
+      "today_n": 93,
+      "slug": "starnet",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "derv82/wifit3",
+      "rank": 9,
+      "stars": 0.9,
+      "today_n": 183,
+      "slug": "wifit3",
+      "cat": "infra",
+      "lang": "Python"
+    },
+    {
+      "full": "kelseyhightower/kubernetes-the-hard-way",
+      "rank": 10,
+      "stars": 50.1,
+      "today_n": 119,
+      "slug": "kubernetes-the-hard-way",
+      "cat": "infra",
+      "lang": null
+    },
+    {
+      "full": "rohitg00/ai-engineering-from-scratch",
+      "rank": 11,
+      "stars": 57.5,
+      "today_n": 1177,
+      "slug": "ai-engineering-from-scratch",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "shy3130/tick-stock-panel",
+      "rank": 12,
+      "stars": 5.1,
+      "today_n": 44,
+      "slug": "tick-stock-panel",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "google/ax",
+      "rank": 13,
+      "stars": 11.5,
+      "today_n": 1379,
+      "slug": "ax",
+      "cat": "agent",
+      "lang": "Go"
+    },
+    {
+      "full": "NVIDIA/Model-Optimizer",
+      "rank": 14,
+      "stars": 4.5,
+      "today_n": 359,
+      "slug": "model-optimizer",
+      "cat": "infra",
+      "lang": "Python"
+    },
+    {
+      "full": "pbakaus/impeccable",
+      "rank": 15,
+      "stars": 71.2,
+      "today_n": 306,
+      "slug": "impeccable",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "openbao/openbao",
+      "rank": 16,
+      "stars": 7.7,
+      "today_n": 49,
+      "slug": "openbao",
+      "cat": "infra",
+      "lang": "Go"
+    }
+  ]
+}
