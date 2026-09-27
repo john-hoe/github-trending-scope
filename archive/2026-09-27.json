@@ -1,0 +1,141 @@
+{
+  "date": "2026-09-27",
+  "generated_at": "2026-09-27 09:14 (CST)",
+  "repos": [
+    {
+      "full": "paperclipai/paperclip",
+      "rank": 1,
+      "stars": 87.4,
+      "today_n": 2608,
+      "slug": "paperclip",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "vectorize-io/hindsight",
+      "rank": 2,
+      "stars": 32.2,
+      "today_n": 2147,
+      "slug": "hindsight",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "NVIDIA/Model-Optimizer",
+      "rank": 3,
+      "stars": 4.8,
+      "today_n": 357,
+      "slug": "model-optimizer",
+      "cat": "infra",
+      "lang": "Python"
+    },
+    {
+      "full": "dream-num/univer",
+      "rank": 4,
+      "stars": 19.2,
+      "today_n": 849,
+      "slug": "univer",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "tensorflow/tensorflow",
+      "rank": 5,
+      "stars": 200.5,
+      "today_n": 46,
+      "slug": "tensorflow",
+      "cat": "ai",
+      "lang": "C++"
+    },
+    {
+      "full": "rohitg00/ai-engineering-from-scratch",
+      "rank": 6,
+      "stars": 58.4,
+      "today_n": 827,
+      "slug": "ai-engineering-from-scratch",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "openbao/openbao",
+      "rank": 7,
+      "stars": 8.0,
+      "today_n": 364,
+      "slug": "openbao",
+      "cat": "infra",
+      "lang": "Go"
+    },
+    {
+      "full": "block/buzz",
+      "rank": 8,
+      "stars": 34.8,
+      "today_n": 339,
+      "slug": "buzz",
+      "cat": "agent",
+      "lang": "Rust"
+    },
+    {
+      "full": "microsoft/vscode",
+      "rank": 9,
+      "stars": 193.1,
+      "today_n": 95,
+      "slug": "vscode",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "zhaoxuya520/reverse-skill",
+      "rank": 10,
+      "stars": 38.0,
+      "today_n": 361,
+      "slug": "reverse-skill",
+      "cat": "agent",
+      "lang": "PowerShell"
+    },
+    {
+      "full": "llvm/llvm-project",
+      "rank": 11,
+      "stars": 40.8,
+      "today_n": 41,
+      "slug": "llvm-project",
+      "cat": "infra",
+      "lang": "LLVM"
+    },
+    {
+      "full": "anthropics/claude-code-action",
+      "rank": 12,
+      "stars": 9.1,
+      "today_n": 31,
+      "slug": "claude-code-action",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "actions/runner-images",
+      "rank": 13,
+      "stars": 13.3,
+      "today_n": 19,
+      "slug": "runner-images",
+      "cat": "infra",
+      "lang": "PowerShell"
+    },
+    {
+      "full": "mobile-next/mobile-mcp",
+      "rank": 14,
+      "stars": 7.4,
+      "today_n": 168,
+      "slug": "mobile-mcp",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "vercel/next.js",
+      "rank": 15,
+      "stars": 142.6,
+      "today_n": 54,
+      "slug": "next.js",
+      "cat": "infra",
+      "lang": "JavaScript"
+    }
+  ]
+}
