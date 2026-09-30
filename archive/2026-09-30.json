@@ -1,0 +1,132 @@
+{
+  "date": "2026-09-30",
+  "generated_at": "2026-09-30 09:13 (CST)",
+  "repos": [
+    {
+      "full": "debpalash/VoiceStudio",
+      "rank": 1,
+      "stars": 48.2,
+      "today_n": 4758,
+      "slug": "voicestudio",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "NVIDIA/OpenShell",
+      "rank": 2,
+      "stars": 10.6,
+      "today_n": 990,
+      "slug": "openshell",
+      "cat": "agent",
+      "lang": "Rust"
+    },
+    {
+      "full": "vectorize-io/hindsight",
+      "rank": 3,
+      "stars": 42.9,
+      "today_n": 2575,
+      "slug": "hindsight",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "paperclipai/paperclip",
+      "rank": 4,
+      "stars": 94.5,
+      "today_n": 2458,
+      "slug": "paperclip",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "t8y2/dbx",
+      "rank": 5,
+      "stars": 22.0,
+      "today_n": 232,
+      "slug": "dbx",
+      "cat": "infra",
+      "lang": "Rust"
+    },
+    {
+      "full": "mvschwarz/openrig",
+      "rank": 6,
+      "stars": 2.4,
+      "today_n": 737,
+      "slug": "openrig",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "oblien/openship",
+      "rank": 7,
+      "stars": 13.8,
+      "today_n": 437,
+      "slug": "openship",
+      "cat": "infra",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "averygan/reclip",
+      "rank": 8,
+      "stars": 10.1,
+      "today_n": 113,
+      "slug": "reclip",
+      "cat": "infra",
+      "lang": "HTML"
+    },
+    {
+      "full": "cs341-illinois/coursebook",
+      "rank": 9,
+      "stars": 3.1,
+      "today_n": 572,
+      "slug": "coursebook",
+      "cat": "other",
+      "lang": "TeX"
+    },
+    {
+      "full": "rohitg00/ai-engineering-from-scratch",
+      "rank": 10,
+      "stars": 61.4,
+      "today_n": 786,
+      "slug": "ai-engineering-from-scratch",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "VectifyAI/PageIndex",
+      "rank": 11,
+      "stars": 37.4,
+      "today_n": 835,
+      "slug": "pageindex",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "willfaust/Madeira",
+      "rank": 12,
+      "stars": 1.1,
+      "today_n": 81,
+      "slug": "madeira",
+      "cat": "other",
+      "lang": "C"
+    },
+    {
+      "full": "dream-num/univer",
+      "rank": 13,
+      "stars": 21.9,
+      "today_n": 696,
+      "slug": "univer",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "rakyll/hey",
+      "rank": 14,
+      "stars": 20.5,
+      "today_n": 34,
+      "slug": "hey",
+      "cat": "infra",
+      "lang": "Go"
+    }
+  ]
+}
