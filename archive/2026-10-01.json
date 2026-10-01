@@ -1,0 +1,159 @@
+{
+  "date": "2026-10-01",
+  "generated_at": "2026-10-01 09:21 (CST)",
+  "repos": [
+    {
+      "full": "NVIDIA/OpenShell",
+      "rank": 1,
+      "stars": 12.7,
+      "today_n": 1281,
+      "slug": "openshell",
+      "cat": "agent",
+      "lang": "Rust"
+    },
+    {
+      "full": "debpalash/VoiceStudio",
+      "rank": 2,
+      "stars": 50.5,
+      "today_n": 3483,
+      "slug": "voicestudio",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "mvschwarz/openrig",
+      "rank": 3,
+      "stars": 3.0,
+      "today_n": 624,
+      "slug": "openrig",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "mksglu/context-mode",
+      "rank": 4,
+      "stars": 24.5,
+      "today_n": 90,
+      "slug": "context-mode",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "DietrichGebert/ponytail",
+      "rank": 5,
+      "stars": 149.2,
+      "today_n": 743,
+      "slug": "ponytail",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "harry0703/MoneyPrinterTurbo",
+      "rank": 6,
+      "stars": 127.6,
+      "today_n": 431,
+      "slug": "moneyprinterturbo",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "openclaw/openclaw",
+      "rank": 7,
+      "stars": 391.0,
+      "today_n": 136,
+      "slug": "openclaw",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "ComposioHQ/awesome-claude-skills",
+      "rank": 8,
+      "stars": 76.1,
+      "today_n": 123,
+      "slug": "awesome-claude-skills",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "mattpocock/skills",
+      "rank": 9,
+      "stars": 273.0,
+      "today_n": 876,
+      "slug": "mattpocock-skills",
+      "cat": "agent",
+      "lang": "Shell"
+    },
+    {
+      "full": "heygen-com/hyperframes",
+      "rank": 10,
+      "stars": 54.7,
+      "today_n": 349,
+      "slug": "hyperframes",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "firebase/firebase-ios-sdk",
+      "rank": 11,
+      "stars": 6.8,
+      "today_n": 8,
+      "slug": "firebase-ios-sdk",
+      "cat": "infra",
+      "lang": "C++"
+    },
+    {
+      "full": "modelcontextprotocol/servers",
+      "rank": 12,
+      "stars": 90.8,
+      "today_n": 50,
+      "slug": "servers",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "byoungd/up",
+      "rank": 13,
+      "stars": 66.4,
+      "today_n": 743,
+      "slug": "up",
+      "cat": "other",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "colbymchenry/codegraph",
+      "rank": 14,
+      "stars": 72.6,
+      "today_n": 118,
+      "slug": "codegraph",
+      "cat": "agent",
+      "lang": "C"
+    },
+    {
+      "full": "t8y2/dbx",
+      "rank": 15,
+      "stars": 23.2,
+      "today_n": 1138,
+      "slug": "dbx",
+      "cat": "infra",
+      "lang": "Rust"
+    },
+    {
+      "full": "NawfalMotii79/PLFM_RADAR",
+      "rank": 16,
+      "stars": 26.4,
+      "today_n": 263,
+      "slug": "plfm_radar",
+      "cat": "infra",
+      "lang": "PLSQL"
+    },
+    {
+      "full": "VectifyAI/PageIndex",
+      "rank": 17,
+      "stars": 38.1,
+      "today_n": 1097,
+      "slug": "pageindex",
+      "cat": "ai",
+      "lang": "Python"
+    }
+  ]
+}
