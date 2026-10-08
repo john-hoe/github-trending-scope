@@ -41,6 +41,7 @@ import json
 import os
 import re
 import sys
+import threading
 import time
 import urllib.parse
 import urllib.request
@@ -370,6 +371,47 @@ def review_quality_errors(full: str, zh: dict, en: dict, strict: bool = False) -
     return errors
 
 
+_USAGE_LOCK = threading.Lock()
+
+
+def _record_usage(cfg: dict, payload) -> None:
+    """累计每次调用的 token 用量（OpenAI 兼容与 Anthropic 两种返回格式），用于核对真实成本。"""
+    u = payload.get("usage") if isinstance(payload, dict) else None
+    if not isinstance(u, dict):
+        return
+
+    def num(*keys):
+        for k in keys:
+            v = u.get(k)
+            if isinstance(v, (int, float)):
+                return int(v)
+        return 0
+
+    with _USAGE_LOCK:
+        t = cfg.setdefault("usage", {"calls": 0, "in": 0, "out": 0, "cache_hit": 0})
+        t["calls"] += 1
+        t["in"] += num("prompt_tokens", "input_tokens")
+        t["out"] += num("completion_tokens", "output_tokens")
+        t["cache_hit"] += num("prompt_cache_hit_tokens", "cache_read_input_tokens")
+
+
+def usage_summary(cfg: dict) -> str:
+    """一行用量摘要；设置 LLM_PRICE_IN / LLM_PRICE_OUT（美元/百万 token）时附带估算费用。"""
+    u = cfg.get("usage")
+    if not u:
+        return ""
+    line = (f"LLM usage: {u['calls']} calls, {u['in']} input tokens "
+            f"({u['cache_hit']} cache hit), {u['out']} output tokens")
+    try:
+        pin = float(os.environ.get("LLM_PRICE_IN", ""))
+        pout = float(os.environ.get("LLM_PRICE_OUT", ""))
+        cost = (u["in"] - u["cache_hit"]) * pin / 1e6 + u["out"] * pout / 1e6
+        line += f", est. ${cost:.4f}"
+    except ValueError:
+        pass
+    return line
+
+
 def llm_review(full: str, desc: str, lang, stars_n: int, today_n: int,
                rank: int, rng: str, lang_id: str, cfg: dict,
                _quality_attempt: int = 1, _quality_feedback: str = "",
@@ -422,6 +464,7 @@ def llm_review(full: str, desc: str, lang, stars_n: int, today_n: int,
         try:
             with urllib.request.urlopen(req, timeout=60) as resp:
                 payload = json.loads(resp.read().decode("utf-8", "replace"))
+            _record_usage(cfg, payload)
             if cfg.get("protocol") == "anthropic":
                 text = "".join(b.get("text", "") for b in payload.get("content", [])
                                if b.get("type") == "text")
@@ -567,6 +610,16 @@ def polish_with_llm(registry: dict, order: list, new_fulls: set,
     if blocked:
         print(f"[llm] {len(blocked)} repo(s) blocked by provider moderation, published as automatic summaries: "
               + ", ".join(sorted(blocked)))
+    summary = usage_summary(cfg)
+    if summary:
+        print(f"[llm] {summary}")
+        step_summary = os.environ.get("GITHUB_STEP_SUMMARY")
+        if step_summary:
+            try:
+                with open(step_summary, "a", encoding="utf-8") as fh:
+                    fh.write(f"### {summary}\n")
+            except OSError:
+                pass
     return done
 
 
