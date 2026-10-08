@@ -269,18 +269,18 @@ def home_body(c: Ctx, data: dict, locale: str, indexed: set[str], videos: dict |
         cap = f'{t["edition"]} {fmt_date(ed["date"], locale)}' + ("" if fresh else f' · {t["last_edition"]}')
         chap = "".join(
             f'<li><button type="button" data-t="{ch["t"]:.2f}"><span class="n">{"NO. %02d" % ch["rank"] if ch.get("rank") else "—"}</span>'
-            f'<span>{c.esc(ch["title"])}</span><span class="t">{mmss(ch["t"])}</span></button></li>'
+            f'<span class="nm">{c.esc(ch["title"])}</span><span class="t">{mmss(ch["t"])}</span></button></li>'
             for ch in e.get("chapters", [])
         )
         player = (
             f'<div class="player">{player_html(c, videos, e, locale, base, "long-video", name, cap)}'
-            f'<div><h3 class="sr-only">{t["chapters"]}</h3><ol class="chapters" id="chapters">{chap}</ol></div></div>'
+            f'<h3 class="sr-only">{t["chapters"]}</h3><ol class="chapters" id="chapters">{chap}</ol></div>'
         )
         nodes.append(video_object(c, e, base, name, t["video_desc"].format(date=fmt_date(ed["date"], locale)), ed["date"], locale, c.base_url + ("/" if locale == "en" else "/index-zh")))
     else:
         player = f'<div class="pending">{t["no_video"]}</div>'
     tonight = (
-        f'<section class="sec" id="tonight"><div class="sec-head"><span class="no">NO. 10 → 01</span><h2>{t["tonight"]}</h2><p>{t["tonight_sub"]}</p></div>{player}</section>'
+        f'<section class="sec wide" id="tonight"><div class="sec-head"><span class="no">NO. 10 → 01</span><h2>{t["tonight"]}</h2><p>{t["tonight_sub"]}</p></div>{player}</section>'
     )
 
     # --- ten cards

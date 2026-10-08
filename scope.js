@@ -7,10 +7,10 @@
     var rnd = function (a, b) { return a + Math.random() * (b - a); };
     var seed = function () {
       W = innerWidth; H = innerHeight; cv.width = W * dpr; cv.height = H * dpr; cx.setTransform(dpr, 0, 0, dpr, 0, 0);
-      var n = Math.round(Math.min(220, W * H / 7000)); stars = [];
+      var n = Math.round(Math.min(260, W * H / 6000)); stars = [];
       for (var i = 0; i < n; i++) {
         var onBand = i < n * 0.7, x = rnd(0, W), y = onBand ? H * 0.55 - (x - W / 2) * 0.16 + (rnd(-1, 1) + rnd(-1, 1)) * H * 0.14 : rnd(0, H);
-        stars.push({ x: x, y: y, r: Math.random() > 0.9 ? 1.6 : Math.random() > 0.55 ? 1.1 : 0.7, base: rnd(0.12, 0.35), peak: rnd(0.65, 1), sp: rnd(0.5, 1.6), ph: rnd(0, 6.28), cross: Math.random() > 0.97 });
+        stars.push({ x: x, y: y, r: Math.random() > 0.85 ? 3 : Math.random() > 0.5 ? 2 : 1.4, base: rnd(0.3, 0.55), peak: rnd(0.9, 1), sp: rnd(0.5, 1.6), ph: rnd(0, 6.28), cross: Math.random() > 0.93 });
       }
     };
     var frame = function (t) {
@@ -18,7 +18,7 @@
       for (var i = 0; i < stars.length; i++) {
         var s = stars[i], k = still ? 0.4 : (Math.sin(t * s.sp + s.ph) + 1) / 2, a = s.base + (s.peak - s.base) * k * k;
         cx.fillStyle = 'rgba(255,255,255,' + a.toFixed(3) + ')'; cx.fillRect(s.x, s.y, s.r, s.r);
-        if (s.cross && k > 0.8) { cx.strokeStyle = 'rgba(255,255,255,' + (a * 0.6).toFixed(3) + ')'; cx.lineWidth = 1; cx.beginPath(); cx.moveTo(s.x - 9, s.y + 0.5); cx.lineTo(s.x + 9, s.y + 0.5); cx.moveTo(s.x + 0.5, s.y - 9); cx.lineTo(s.x + 0.5, s.y + 9); cx.stroke(); }
+        if (s.cross && k > 0.7) { cx.strokeStyle = 'rgba(255,255,255,' + (a * 0.9).toFixed(3) + ')'; cx.lineWidth = 1.4; cx.beginPath(); cx.moveTo(s.x - 15, s.y + s.r / 2); cx.lineTo(s.x + 15, s.y + s.r / 2); cx.moveTo(s.x + s.r / 2, s.y - 15); cx.lineTo(s.x + s.r / 2, s.y + 15); cx.stroke(); }
       }
       if (!still) {
         if (t > nextMeteor) { var len = rnd(120, 220), ang = rnd(24, 36) * Math.PI / 180; meteors.push({ x: rnd(W * 0.35, W), y: rnd(-20, H * 0.4), vx: -Math.cos(ang), vy: Math.sin(ang), len: len, t0: t, life: rnd(0.7, 1.1) }); nextMeteor = t + rnd(4, 9); }

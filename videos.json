@@ -8,7 +8,7 @@
      "video": "2026-10-08/top10-zh.mp4",
      "vtt": "2026-10-08/top10-zh.vtt",
      "poster": "media/2026-10-08/top10-zh.jpg",
-     "duration": 283.9,
+     "duration": 298.6,
      "chapters": [
       {
        "rank": null,
@@ -22,52 +22,52 @@
       },
       {
        "rank": 9,
-       "t": 38.8,
+       "t": 39.93,
        "title": "manaflow-ai/cmux"
       },
       {
        "rank": 8,
-       "t": 66.33,
+       "t": 68.67,
        "title": "thedotmack/claude-mem"
       },
       {
        "rank": 7,
-       "t": 92.83,
+       "t": 96.73,
        "title": "EpicGames/raddebugger"
       },
       {
        "rank": 6,
-       "t": 115,
+       "t": 120.4,
        "title": "addyosmani/agent-skills"
       },
       {
        "rank": 5,
-       "t": 138.87,
+       "t": 145.83,
        "title": "cathrynlavery/diagram-design"
       },
       {
        "rank": 4,
-       "t": 169.1,
+       "t": 177.67,
        "title": "ayghri/i-have-adhd"
       },
       {
        "rank": 3,
-       "t": 196.13,
+       "t": 206.63,
        "title": "boykopovar/AnyPS5"
       },
       {
        "rank": 2,
-       "t": 221.5,
+       "t": 233.7,
        "title": "mattpocock/skills"
       },
       {
        "rank": 1,
-       "t": 246.77,
+       "t": 260.17,
        "title": "morluto/rea"
       },
       {
        "rank": null,
-       "t": 272.37,
+       "t": 287.07,
        "title": "收尾"
       }
      ]
@@ -76,7 +76,7 @@
      "video": "2026-10-08/top10-en.mp4",
      "vtt": "2026-10-08/top10-en.vtt",
      "poster": "media/2026-10-08/top10-en.jpg",
-     "duration": 309.9,
+     "duration": 329.1,
      "chapters": [
       {
        "rank": null,
@@ -90,52 +90,52 @@
       },
       {
        "rank": 9,
-       "t": 44.6,
+       "t": 46.13,
        "title": "manaflow-ai/cmux"
       },
       {
        "rank": 8,
-       "t": 76.83,
+       "t": 80.07,
        "title": "thedotmack/claude-mem"
       },
       {
        "rank": 7,
-       "t": 107,
+       "t": 112.07,
        "title": "EpicGames/raddebugger"
       },
       {
        "rank": 6,
-       "t": 130.7,
+       "t": 137.7,
        "title": "addyosmani/agent-skills"
       },
       {
        "rank": 5,
-       "t": 155.4,
+       "t": 164.47,
        "title": "cathrynlavery/diagram-design"
       },
       {
        "rank": 4,
-       "t": 188.4,
+       "t": 199.77,
        "title": "ayghri/i-have-adhd"
       },
       {
        "rank": 3,
-       "t": 217.8,
+       "t": 231.4,
        "title": "boykopovar/AnyPS5"
       },
       {
        "rank": 2,
-       "t": 244.03,
+       "t": 259.83,
        "title": "mattpocock/skills"
       },
       {
        "rank": 1,
-       "t": 272.07,
+       "t": 289.57,
        "title": "morluto/rea"
       },
       {
        "rank": null,
-       "t": 297.7,
+       "t": 316.93,
        "title": "Outro"
       }
      ]
