@@ -193,7 +193,7 @@ class SEOProductionContractTests(unittest.TestCase):
 
     def test_crawl_contract_and_sitemap_scope(self):
         robots = (self.output / "robots.txt").read_text(encoding="utf-8")
-        self.assertEqual(robots.count("Sitemap:"), 1)
+        self.assertEqual(robots.count("Sitemap:"), 2)  # 主 sitemap + 视频 sitemap
         self.assertIn("https://trending.cosolution.cc/sitemap.xml", robots)
         self.assertTrue((self.output / "404.html").is_file())
         self.assertIn('name="robots" content="noindex,follow"', (self.output / "404.html").read_text())
@@ -268,6 +268,20 @@ class SEOProductionContractTests(unittest.TestCase):
         for source in (english, chinese):
             self.assertEqual(source.count('data-q="hd"'), 1)
             self.assertIn("-720.mp4", source)
+
+    def test_video_sitemap_matches_pages(self):
+        source = (self.output / "sitemap-video.xml").read_text(encoding="utf-8")
+        self.assertIn("http://www.google.com/schemas/sitemap-video/1.1", source)
+        # 首页 2 个长视频 + 10 个仓库 × 中英 20 个短视频
+        self.assertEqual(source.count("<video:video>"), 22)
+        for tag in ("thumbnail_loc", "title", "description", "content_loc", "duration", "publication_date"):
+            self.assertEqual(source.count(f"<video:{tag}>"), 22, tag)
+        locs = re.findall(r"<url>\s*<loc>(.*?)</loc>", source)
+        self.assertEqual(len(locs), 22)
+        self.assertIn(build_site.BASE_URL + "/", locs)
+        self.assertIn(build_site.BASE_URL + "/index-zh", locs)
+        self.assertTrue(all(url in self.urls for url in locs if url.count("/") > 3))
+        self.assertIn(f"Sitemap: {build_site.BASE_URL}/sitemap-video.xml", (self.output / "robots.txt").read_text(encoding="utf-8"))
 
     def test_all_board_views_exist_bilingually(self):
         board_urls = [url for url in self.urls if "/trending/" in url]
