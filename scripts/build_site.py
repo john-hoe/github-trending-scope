@@ -818,6 +818,61 @@ def sitemap_xml(data: dict, indexed_repos: list[dict]) -> tuple[str, list[str]]:
     return "\n".join(lines) + "\n", urls
 
 
+def _video_nodes(node: object) -> list[dict]:
+    if isinstance(node, dict):
+        found = [node] if node.get("@type") == "VideoObject" else []
+        for value in node.values():
+            found.extend(_video_nodes(value))
+        return found
+    if isinstance(node, list):
+        return [item for value in node for item in _video_nodes(value)]
+    return []
+
+
+def video_sitemap_xml(output: Path, data: dict) -> tuple[str, int]:
+    """Google video sitemap built from the VideoObject JSON-LD of the pages themselves, so it always matches the page."""
+    pages = [("/", output / "index.html"), ("/index-zh", output / "index-zh.html")]
+    for locale in ("en", "zh"):
+        for repo in data["repos"]:
+            path = repo_path(repo["full"], locale)
+            pages.append((path, output / path.strip("/") / "index.html"))
+    lines = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">',
+    ]
+    count = 0
+    for path, file in pages:
+        if not file.is_file():
+            continue
+        source = file.read_text(encoding="utf-8")
+        nodes = []
+        for raw in re.findall(r'<script type="application/ld\+json">(.*?)</script>', source, re.S):
+            nodes.extend(_video_nodes(json.loads(raw)))
+        if not nodes:
+            continue
+        lines.extend(["  <url>", f"    <loc>{esc(BASE_URL + path)}</loc>"])
+        for video in nodes:
+            match = re.fullmatch(r"PT(\d+)M(\d+)S", video["duration"])
+            seconds = int(match.group(1)) * 60 + int(match.group(2))
+            lines.extend(
+                [
+                    "    <video:video>",
+                    f"      <video:thumbnail_loc>{esc(video['thumbnailUrl'])}</video:thumbnail_loc>",
+                    f"      <video:title>{esc(compact(video['name'])[:100])}</video:title>",
+                    f"      <video:description>{esc(compact(video['description'])[:2000])}</video:description>",
+                    f"      <video:content_loc>{esc(video['contentUrl'])}</video:content_loc>",
+                    f"      <video:duration>{seconds}</video:duration>",
+                    f"      <video:publication_date>{esc(video['uploadDate'])}</video:publication_date>",
+                    "      <video:family_friendly>yes</video:family_friendly>",
+                    "    </video:video>",
+                ]
+            )
+            count += 1
+        lines.append("  </url>")
+    lines.append("</urlset>")
+    return "\n".join(lines) + "\n", count
+
+
 def output_file_for_url(output: Path, url: str) -> Path:
     path = urlsplit(url).path
     if path == "/":
@@ -971,6 +1026,11 @@ def build(output: Path, video_base: str | None = None, preview: bool = False) ->
                 )
     sitemap, urls = sitemap_xml(data, indexed_repos)
     (output / "sitemap.xml").write_text(sitemap, encoding="utf-8")
+    video_sitemap, video_count = video_sitemap_xml(output, data)
+    if video_count:
+        (output / "sitemap-video.xml").write_text(video_sitemap, encoding="utf-8")
+        robots = output / "robots.txt"
+        robots.write_text(robots.read_text(encoding="utf-8") + f"Sitemap: {BASE_URL}/sitemap-video.xml\n", encoding="utf-8")
     return validate_output(output, urls, ga4=not preview)
 
 
