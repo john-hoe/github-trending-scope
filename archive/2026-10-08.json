@@ -1,0 +1,123 @@
+{
+  "date": "2026-10-08",
+  "generated_at": "2026-10-08 14:55 (CST)",
+  "repos": [
+    {
+      "full": "morluto/rea",
+      "rank": 1,
+      "stars": 17.4,
+      "today_n": 4655,
+      "slug": "rea",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "mattpocock/skills",
+      "rank": 2,
+      "stars": 280.1,
+      "today_n": 1403,
+      "slug": "mattpocock-skills",
+      "cat": "agent",
+      "lang": "Shell"
+    },
+    {
+      "full": "boykopovar/AnyPS5",
+      "rank": 3,
+      "stars": 11.6,
+      "today_n": 2716,
+      "slug": "anyps5",
+      "cat": "other",
+      "lang": "C++"
+    },
+    {
+      "full": "ayghri/i-have-adhd",
+      "rank": 4,
+      "stars": 55.4,
+      "today_n": 619,
+      "slug": "i-have-adhd",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "cathrynlavery/diagram-design",
+      "rank": 5,
+      "stars": 45.3,
+      "today_n": 825,
+      "slug": "diagram-design",
+      "cat": "agent",
+      "lang": "HTML"
+    },
+    {
+      "full": "addyosmani/agent-skills",
+      "rank": 6,
+      "stars": 103.0,
+      "today_n": 677,
+      "slug": "addyosmani-agent-skills",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "EpicGames/raddebugger",
+      "rank": 7,
+      "stars": 7.9,
+      "today_n": 90,
+      "slug": "raddebugger",
+      "cat": "infra",
+      "lang": "C"
+    },
+    {
+      "full": "thedotmack/claude-mem",
+      "rank": 8,
+      "stars": 97.9,
+      "today_n": 578,
+      "slug": "claude-mem",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "manaflow-ai/cmux",
+      "rank": 9,
+      "stars": 27.9,
+      "today_n": 44,
+      "slug": "cmux",
+      "cat": "agent",
+      "lang": "Swift"
+    },
+    {
+      "full": "trycua/cua",
+      "rank": 10,
+      "stars": 28.9,
+      "today_n": 228,
+      "slug": "cua",
+      "cat": "agent",
+      "lang": "Rust"
+    },
+    {
+      "full": "cloudflare/security-audit-skill",
+      "rank": 11,
+      "stars": 26.2,
+      "today_n": 576,
+      "slug": "security-audit-skill",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "tester-army/e2e",
+      "rank": 12,
+      "stars": 7.8,
+      "today_n": 1390,
+      "slug": "e2e",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "DuarteSantos8/openGym",
+      "rank": 13,
+      "stars": 7.4,
+      "today_n": 1493,
+      "slug": "opengym",
+      "cat": "other",
+      "lang": "JavaScript"
+    }
+  ]
+}
