@@ -1,0 +1,37 @@
+<!doctype html><meta charset="utf-8"><title>og</title>
+<style>
+*{box-sizing:border-box;margin:0}
+html,body{width:1200px;height:630px;background:#02030a;overflow:hidden}
+body{position:relative;color:#eef0f5;font-family:"Avenir Next","Helvetica Neue",system-ui,sans-serif}
+body.zh{color:#f1ece0;font-family:"PingFang SC","Hiragino Sans GB",sans-serif}
+.sky{position:absolute;inset:0;background:url(../assets/milkyway.jpg) 50% 45%/auto 150% no-repeat;opacity:.9;transform:rotate(-8deg) scale(1.25)}
+.shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(2,3,10,.92) 0%,rgba(2,3,10,.72) 45%,rgba(2,3,10,.15) 100%),linear-gradient(0deg,rgba(2,3,10,.85),rgba(2,3,10,0) 40%)}
+canvas{position:absolute;inset:0}
+.brand{position:absolute;left:72px;top:58px;display:flex;align-items:center;gap:14px;font:600 24px/1 "SF Mono",Menlo,monospace;letter-spacing:.06em;color:#e9b872}
+body.zh .brand{color:#d4b472}
+.brand small{font:400 18px "SF Mono",Menlo,monospace;letter-spacing:.2em;color:rgba(238,240,245,.6);text-transform:uppercase;margin-left:4px}
+h1{position:absolute;left:72px;top:150px;width:820px;font:400 74px/1.1 "Didot","Bodoni 72","Georgia",serif;letter-spacing:-.01em}
+body.zh h1{top:176px;font:600 74px/1.2 "Songti SC","STSong",serif;letter-spacing:.02em;width:900px}
+h1 em{font-style:normal;color:#e9b872}body.zh h1 em{color:#d4b472}
+.sub{position:absolute;left:72px;top:466px;font-size:28px;line-height:1.4;color:rgba(238,240,245,.82)}
+.row{position:absolute;left:72px;bottom:58px;display:flex;align-items:center;gap:26px}
+.dots{display:flex;gap:10px}.dots i{width:14px;height:14px;border-radius:50%;background:rgba(238,240,245,.35)}.dots i:last-child{background:#e9b872;box-shadow:0 0 14px #e9b872}
+body.zh .dots i:last-child{background:#d4b472;box-shadow:0 0 14px #d4b472}
+.url{font:500 24px "SF Mono",Menlo,monospace;letter-spacing:.04em;color:rgba(238,240,245,.9)}
+.play{position:absolute;right:84px;bottom:70px;width:132px;height:132px;border-radius:50%;border:2px solid rgba(238,240,245,.8);display:grid;place-items:center;background:rgba(2,3,10,.35)}
+.play::after{content:"";margin-left:10px;border-left:38px solid #eef0f5;border-top:23px solid transparent;border-bottom:23px solid transparent}
+</style>
+<body><div class="sky"></div><div class="shade"></div><canvas id="c" width="1200" height="630"></canvas>
+<div class="brand"><svg width="40" height="40" viewBox="0 0 32 32"><circle cx="16" cy="16" r="13.5" fill="none" stroke="currentColor" stroke-opacity=".85" stroke-width="1.2"/><circle cx="16" cy="16" r="7" fill="none" stroke="currentColor" stroke-opacity=".4" stroke-width="1" stroke-dasharray="1.5 3"/><path d="M16 8.2l1.6 5 5.2.1-4.2 3.1 1.6 5-4.2-3.1-4.2 3.1 1.6-5-4.2-3.1 5.2-.1z" fill="currentColor"/></svg>cosolutions-Affiliate<small>Trending Scope</small></div>
+<h1 id="h"></h1><div class="sub" id="s"></div>
+<div class="row"><div class="dots"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="url">trending.cosolution.cc</div></div>
+<div class="play"></div>
+<script>
+const zh = location.search.includes('zh'); document.body.className = zh ? 'zh' : 'en';
+h.innerHTML = zh ? 'GitHub 今日最热<br><em>10 个仓库</em>，倒数解说' : 'GitHub’s 10 hottest<br>repos, <em>counted down</em><br>in video';
+s.textContent = zh ? '每日更新 · 配音 + 字幕 · 中英文双版' : 'Daily · Narrated & subtitled · English / 中文';
+// 确定性星点（固定种子），亮星带十字星芒
+let x = 7; const r = () => (x = (x * 16807) % 2147483647) / 2147483647, g = c.getContext('2d');
+for (let i = 0; i < 150; i++) { const px = r() * 1200, py = r() * 630, a = .35 + r() * .6, z = r() > .9 ? 3 : r() > .5 ? 2 : 1.4; g.fillStyle = `rgba(255,255,255,${a})`; g.fillRect(px, py, z, z);
+  if (r() > .96) { g.strokeStyle = `rgba(255,255,255,${a})`; g.lineWidth = 1.4; g.beginPath(); g.moveTo(px - 14, py); g.lineTo(px + 14, py); g.moveTo(px, py - 14); g.lineTo(px, py + 14); g.stroke(); } }
+</script>
