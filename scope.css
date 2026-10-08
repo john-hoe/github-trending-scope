@@ -57,6 +57,7 @@ a{color:var(--acc);text-underline-offset:3px}a:hover{color:var(--ink)}
 .chart .spin{transform-origin:320px 320px;animation:turn 240s linear infinite}
 @keyframes turn{to{transform:rotate(360deg)}}
 
+.sec,.hero{scroll-margin-top:76px}
 .sec{max-width:1200px;margin:0 auto;padding:56px 20px}
 .sec-head{display:flex;align-items:baseline;gap:18px;flex-wrap:wrap;margin-bottom:26px;padding-bottom:14px;border-bottom:1px solid var(--line)}
 .sec-head h2{font:700 clamp(26px,3.4vw,38px)/1.2 var(--serif);letter-spacing:.03em}
