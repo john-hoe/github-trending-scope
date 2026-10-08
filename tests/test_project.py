@@ -123,59 +123,33 @@ class FrontendAccessibilityContractTests(unittest.TestCase):
         high, low = sorted((luminance(foreground), luminance(background)), reverse=True)
         return (high + 0.05) / (low + 0.05)
 
-    def test_both_locales_include_keyboard_and_modal_contracts(self):
-        for name in ("index.html", "index-zh.html"):
-            with self.subTest(name=name):
-                text = (ROOT / name).read_text(encoding="utf-8")
-                self.assertIn('aria-hidden="true"', text)
-                self.assertIn('aria-pressed=', text)
-                self.assertIn('prefers-reduced-motion:reduce', text)
-                self.assertIn(':focus-visible', text)
-                self.assertIn('class="openhit"', text)
-                self.assertIn('href="${crawlUrl(r)}"', text)
-                self.assertIn('<span class="sr-only">${esc(r.full)}</span>', text)
-                self.assertNotIn('role="button"', text)
-                self.assertNotIn('minmax(350px,1fr)', text)
-                self.assertIn('repo=([A-Za-z0-9._-]+)', text)
-                self.assertIn("object-src 'none'", text)
-                self.assertIn('rel="canonical"', text)
-                self.assertEqual(text.count('rel="alternate"'), 3)
+    def test_starry_theme_assets_exist_and_text_colors_meet_wcag_aa(self):
+        for name in ("scope.css", "scope.js", "assets/milkyway.jpg", "favicon.png"):
+            self.assertTrue((ROOT / name).is_file(), name)
+        css = (ROOT / "scope.css").read_text(encoding="utf-8")
+        for skin, colors in (("zh", ("#f1ece0", "#a9a69f", "#d4b472")), ("en", ("#eef0f5", "#9ca3b5", "#e9b872"))):
+            self.assertIn(f'[data-skin="{skin}"]', css)
+            for color in colors:
+                with self.subTest(skin=skin, color=color):
+                    self.assertIn(color, css)
+                    self.assertGreaterEqual(self.contrast(color, "#02030a"), 4.5)
 
-    def test_english_is_default_and_chinese_remains_switchable(self):
-        english = (ROOT / "index.html").read_text(encoding="utf-8")
-        chinese = (ROOT / "index-zh.html").read_text(encoding="utf-8")
-        legacy = (ROOT / "index-en.html").read_text(encoding="utf-8")
-
-        self.assertIn('<html lang="en">', english)
-        self.assertIn('<link rel="canonical" href="https://trending.cosolution.cc/">', english)
-        self.assertIn('<a href="index-zh.html" class="lang">中文</a>', english)
-        self.assertIn('<html lang="zh-CN">', chinese)
-        self.assertIn('<link rel="canonical" href="https://trending.cosolution.cc/index-zh">', chinese)
-        self.assertIn('<a href="index.html" class="lang">EN</a>', chinese)
-        self.assertIn('window.location.search + window.location.hash', legacy)
-        self.assertIn('<meta name="robots" content="noindex">', legacy)
-
-    def test_locale_switch_stays_with_the_site_in_portable_contexts(self):
-        english = (ROOT / "index.html").read_text(encoding="utf-8")
-        chinese = (ROOT / "index-zh.html").read_text(encoding="utf-8")
-        english_href = re.search(r'<a href="([^"]+)" class="lang">', english).group(1)
-        chinese_href = re.search(r'<a href="([^"]+)" class="lang">', chinese).group(1)
-
-        self.assertEqual(urljoin((ROOT / "index.html").as_uri(), english_href), (ROOT / "index-zh.html").as_uri())
-        self.assertEqual(urljoin((ROOT / "index-zh.html").as_uri(), chinese_href), (ROOT / "index.html").as_uri())
-        project_root = "https://john-hoe.github.io/github-trending-scope/"
-        self.assertEqual(urljoin(project_root + "index.html", english_href), project_root + "index-zh.html")
-        self.assertEqual(urljoin(project_root + "index-zh.html", chinese_href), project_root + "index.html")
-
-    def test_light_theme_small_text_colors_meet_wcag_aa(self):
-        for color in ("#6f6452", "#776c5b", "#b83d15", "#0e6f63", "#8a5c0c", "#805900"):
-            with self.subTest(color=color):
-                self.assertGreaterEqual(self.contrast(color, "#fffdf8"), 4.5)
-
-    def test_dark_theme_small_text_colors_meet_wcag_aa(self):
-        for color in ("#b3a78e", "#9b907b", "#e45c2d", "#2ba892", "#d09a2e", "#8aa851", "#e0a42c"):
-            with self.subTest(color=color):
-                self.assertGreaterEqual(self.contrast(color, "#221c15"), 4.5)
+    def test_videos_manifest_points_at_existing_posters_and_data(self):
+        path = ROOT / "videos.json"
+        if not path.is_file():
+            self.skipTest("no videos yet")
+        videos = json.loads(path.read_text(encoding="utf-8"))
+        data = json.loads((ROOT / "data.json").read_text(encoding="utf-8"))
+        known = {repo["full"] for repo in data["repos"]}
+        for edition in videos["editions"]:
+            for locale in ("zh", "en"):
+                top = edition["top10"][locale]
+                self.assertTrue((ROOT / top["poster"]).is_file(), top["poster"])
+                self.assertGreater(len(top["chapters"]), 2)
+            for full, entry in edition["repos"].items():
+                self.assertIn(full, known)
+                for locale in ("zh", "en"):
+                    self.assertTrue((ROOT / entry[locale]["poster"]).is_file(), entry[locale]["poster"])
 
 
 class SEOProductionContractTests(unittest.TestCase):
@@ -209,6 +183,14 @@ class SEOProductionContractTests(unittest.TestCase):
             return cls.output / "index-zh.html"
         return cls.output / path.lstrip("/") / "index.html"
 
+    @staticmethod
+    def video_names():
+        path = ROOT / "videos.json"
+        if not path.is_file():
+            return set()
+        videos = json.loads(path.read_text(encoding="utf-8"))
+        return {full for ed in videos.get("editions", []) for full in (ed.get("repos") or {})}
+
     def test_crawl_contract_and_sitemap_scope(self):
         robots = (self.output / "robots.txt").read_text(encoding="utf-8")
         self.assertEqual(robots.count("Sitemap:"), 1)
@@ -218,9 +200,12 @@ class SEOProductionContractTests(unittest.TestCase):
         self.assertNotIn('rel="canonical"', (self.output / "404.html").read_text())
         self.assertNotIn('rel="alternate"', (self.output / "404.html").read_text())
         self.assertIn("/index-en / 301", (self.output / "_redirects").read_text())
-        self.assertEqual(len(self.urls), 70)
+        manifest = json.loads((ROOT / "seo-index.json").read_text(encoding="utf-8"))
+        extra = self.video_names() - set(manifest["repos"])
+        expected = 70 + 2 * len(extra)  # every repo with its own video also gets an indexable bilingual page
+        self.assertEqual(len(self.urls), expected)
         self.assertEqual(len(self.urls), len(set(self.urls)))
-        self.assertEqual(self.report["urls"], 70)
+        self.assertEqual(self.report["urls"], expected)
 
     def test_every_sitemap_url_is_a_unique_indexable_canonical(self):
         titles = set()
@@ -246,25 +231,28 @@ class SEOProductionContractTests(unittest.TestCase):
         daily_names = [row["full"] for row in data["boards"]["daily"]["all"]]
         indexed_names = set(json.loads(
             (ROOT / "seo-index.json").read_text(encoding="utf-8")
-        )["repos"])
+        )["repos"]) | self.video_names()
         for name, locale in (("index.html", "en"), ("index-zh.html", "zh")):
             source = (self.output / name).read_text(encoding="utf-8")
-            self.assertNotIn('<main class="grid" id="grid"></main>', source)
-            grid = re.search(r'<main class="grid" id="grid">(.*?)</main>', source, re.S).group(1)
-            self.assertEqual(grid.count('class="card show"'), len(daily_names))
-            for full in daily_names:
-                href = build_site.repo_path(full, locale) if full in indexed_names \
+            cards = re.search(r'<ol class="cards">(.*?)</ol>', source, re.S).group(1)
+            self.assertEqual(cards.count('class="scard"'), 10)
+            rows = re.search(r'<ol class="rows">(.*?)</ol>', source, re.S).group(1)
+            self.assertEqual(rows.count("<li>"), len(daily_names) - 10)
+            for index, full in enumerate(daily_names):
+                href = build_site.repo_path(full, locale) if (index < 10 or full in indexed_names) \
                     else f"https://github.com/{full}"
-                self.assertIn(f'href="{href}"', grid)
-            self.assertEqual(source.count('class="seo-board-links"'), 1)
-            nav = re.search(r'<nav class="seo-board-links".*?</nav>', source, re.S).group(0)
+                self.assertIn(f'href="{href}"', cards if index < 10 else rows)
+            self.assertEqual(source.count('class="chips"'), 1)
+            nav = re.search(r'<nav class="chips".*?</nav>', source, re.S).group(0)
             self.assertEqual(nav.count("<a "), 21)
+            self.assertEqual(source.count('data-skin="%s"' % locale), 1)
         english = (self.output / "index.html").read_text(encoding="utf-8")
         chinese = (self.output / "index-zh.html").read_text(encoding="utf-8")
-        self.assertIn('<a href="/index-zh" class="lang">中文</a>', english)
-        self.assertIn('<a href="/" class="lang">EN</a>', chinese)
-        self.assertNotIn('<a href="index-zh.html" class="lang">中文</a>', english)
-        self.assertNotIn('<a href="index.html" class="lang">EN</a>', chinese)
+        self.assertIn('class="lang" hreflang="zh-CN" href="/index-zh">中文</a>', english)
+        self.assertIn('class="lang" hreflang="en" href="/">English</a>', chinese)
+        for source in (english, chinese):
+            self.assertIn("cosolutions-Affiliate", source)
+            self.assertIn('"@type":"VideoObject"', source)
 
     def test_all_board_views_exist_bilingually(self):
         board_urls = [url for url in self.urls if "/trending/" in url]
@@ -321,16 +309,21 @@ class SEOProductionContractTests(unittest.TestCase):
             path.write_text(original, encoding="utf-8")
 
     def test_ga4_exists_only_in_production_output(self):
-        for name in ("index.html", "index-zh.html", "index-en.html"):
-            with self.subTest(name=name):
-                source = (ROOT / name).read_text(encoding="utf-8")
-                self.assertNotIn(GA4_MEASUREMENT_ID, source)
-                self.assertNotIn("googletagmanager.com/gtag/js", source)
+        source = (ROOT / "index-en.html").read_text(encoding="utf-8")
+        self.assertNotIn(GA4_MEASUREMENT_ID, source)
+        self.assertNotIn("googletagmanager.com/gtag/js", source)
+        with tempfile.TemporaryDirectory() as tmp:
+            subprocess.run(
+                [sys.executable, str(ROOT / "scripts" / "build_site.py"), "--output", str(Path(tmp) / "dist"), "--preview"],
+                cwd=ROOT, check=True, capture_output=True, text=True,
+            )
+            for page in (Path(tmp) / "dist").rglob("*.html"):
+                self.assertNotIn(GA4_MEASUREMENT_ID, page.read_text(encoding="utf-8"), page.name)
 
     def test_only_original_editorial_subset_is_indexed(self):
         manifest = json.loads((ROOT / "seo-index.json").read_text(encoding="utf-8"))
         data = json.loads((ROOT / "data.json").read_text(encoding="utf-8"))
-        indexed_names = set(manifest["repos"])
+        indexed_names = set(manifest["repos"]) | self.video_names()
         self.assertEqual(len(manifest["repos"]), 13)
         indexed = "https://trending.cosolution.cc/repos/codecrafters-io/build-your-own-x/"
         self.assertIn(indexed, self.urls)

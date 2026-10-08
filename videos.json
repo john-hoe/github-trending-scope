@@ -1,0 +1,308 @@
+{
+ "base": "https://v.cosolution.cc",
+ "editions": [
+  {
+   "date": "2026-10-08",
+   "top10": {
+    "zh": {
+     "video": "2026-10-08/top10-zh.mp4",
+     "vtt": "2026-10-08/top10-zh.vtt",
+     "poster": "media/2026-10-08/top10-zh.jpg",
+     "duration": 283.9,
+     "chapters": [
+      {
+       "rank": null,
+       "t": 0,
+       "title": "开场"
+      },
+      {
+       "rank": 10,
+       "t": 11.17,
+       "title": "trycua/cua"
+      },
+      {
+       "rank": 9,
+       "t": 38.8,
+       "title": "manaflow-ai/cmux"
+      },
+      {
+       "rank": 8,
+       "t": 66.33,
+       "title": "thedotmack/claude-mem"
+      },
+      {
+       "rank": 7,
+       "t": 92.83,
+       "title": "EpicGames/raddebugger"
+      },
+      {
+       "rank": 6,
+       "t": 115,
+       "title": "addyosmani/agent-skills"
+      },
+      {
+       "rank": 5,
+       "t": 138.87,
+       "title": "cathrynlavery/diagram-design"
+      },
+      {
+       "rank": 4,
+       "t": 169.1,
+       "title": "ayghri/i-have-adhd"
+      },
+      {
+       "rank": 3,
+       "t": 196.13,
+       "title": "boykopovar/AnyPS5"
+      },
+      {
+       "rank": 2,
+       "t": 221.5,
+       "title": "mattpocock/skills"
+      },
+      {
+       "rank": 1,
+       "t": 246.77,
+       "title": "morluto/rea"
+      },
+      {
+       "rank": null,
+       "t": 272.37,
+       "title": "收尾"
+      }
+     ]
+    },
+    "en": {
+     "video": "2026-10-08/top10-en.mp4",
+     "vtt": "2026-10-08/top10-en.vtt",
+     "poster": "media/2026-10-08/top10-en.jpg",
+     "duration": 309.9,
+     "chapters": [
+      {
+       "rank": null,
+       "t": 0,
+       "title": "Intro"
+      },
+      {
+       "rank": 10,
+       "t": 12.7,
+       "title": "trycua/cua"
+      },
+      {
+       "rank": 9,
+       "t": 44.6,
+       "title": "manaflow-ai/cmux"
+      },
+      {
+       "rank": 8,
+       "t": 76.83,
+       "title": "thedotmack/claude-mem"
+      },
+      {
+       "rank": 7,
+       "t": 107,
+       "title": "EpicGames/raddebugger"
+      },
+      {
+       "rank": 6,
+       "t": 130.7,
+       "title": "addyosmani/agent-skills"
+      },
+      {
+       "rank": 5,
+       "t": 155.4,
+       "title": "cathrynlavery/diagram-design"
+      },
+      {
+       "rank": 4,
+       "t": 188.4,
+       "title": "ayghri/i-have-adhd"
+      },
+      {
+       "rank": 3,
+       "t": 217.8,
+       "title": "boykopovar/AnyPS5"
+      },
+      {
+       "rank": 2,
+       "t": 244.03,
+       "title": "mattpocock/skills"
+      },
+      {
+       "rank": 1,
+       "t": 272.07,
+       "title": "morluto/rea"
+      },
+      {
+       "rank": null,
+       "t": 297.7,
+       "title": "Outro"
+      }
+     ]
+    }
+   },
+   "repos": {
+    "morluto/rea": {
+     "rank": 1,
+     "slug": "rea",
+     "zh": {
+      "video": "2026-10-08/rea-zh.mp4",
+      "vtt": "2026-10-08/rea-zh.vtt",
+      "poster": "media/2026-10-08/rea-zh.jpg",
+      "duration": 53.4
+     },
+     "en": {
+      "video": "2026-10-08/rea-en.mp4",
+      "vtt": "2026-10-08/rea-en.vtt",
+      "poster": "media/2026-10-08/rea-en.jpg",
+      "duration": 55.8
+     }
+    },
+    "mattpocock/skills": {
+     "rank": 2,
+     "slug": "skills",
+     "zh": {
+      "video": "2026-10-08/skills-zh.mp4",
+      "vtt": "2026-10-08/skills-zh.vtt",
+      "poster": "media/2026-10-08/skills-zh.jpg",
+      "duration": 66.3
+     },
+     "en": {
+      "video": "2026-10-08/skills-en.mp4",
+      "vtt": "2026-10-08/skills-en.vtt",
+      "poster": "media/2026-10-08/skills-en.jpg",
+      "duration": 72.7
+     }
+    },
+    "boykopovar/AnyPS5": {
+     "rank": 3,
+     "slug": "anyps5",
+     "zh": {
+      "video": "2026-10-08/anyps5-zh.mp4",
+      "vtt": "2026-10-08/anyps5-zh.vtt",
+      "poster": "media/2026-10-08/anyps5-zh.jpg",
+      "duration": 53.5
+     },
+     "en": {
+      "video": "2026-10-08/anyps5-en.mp4",
+      "vtt": "2026-10-08/anyps5-en.vtt",
+      "poster": "media/2026-10-08/anyps5-en.jpg",
+      "duration": 55
+     }
+    },
+    "ayghri/i-have-adhd": {
+     "rank": 4,
+     "slug": "i-have-adhd",
+     "zh": {
+      "video": "2026-10-08/i-have-adhd-zh.mp4",
+      "vtt": "2026-10-08/i-have-adhd-zh.vtt",
+      "poster": "media/2026-10-08/i-have-adhd-zh.jpg",
+      "duration": 64
+     },
+     "en": {
+      "video": "2026-10-08/i-have-adhd-en.mp4",
+      "vtt": "2026-10-08/i-have-adhd-en.vtt",
+      "poster": "media/2026-10-08/i-have-adhd-en.jpg",
+      "duration": 74.2
+     }
+    },
+    "cathrynlavery/diagram-design": {
+     "rank": 5,
+     "slug": "diagram-design",
+     "zh": {
+      "video": "2026-10-08/diagram-design-zh.mp4",
+      "vtt": "2026-10-08/diagram-design-zh.vtt",
+      "poster": "media/2026-10-08/diagram-design-zh.jpg",
+      "duration": 63.8
+     },
+     "en": {
+      "video": "2026-10-08/diagram-design-en.mp4",
+      "vtt": "2026-10-08/diagram-design-en.vtt",
+      "poster": "media/2026-10-08/diagram-design-en.jpg",
+      "duration": 69
+     }
+    },
+    "addyosmani/agent-skills": {
+     "rank": 6,
+     "slug": "agent-skills",
+     "zh": {
+      "video": "2026-10-08/agent-skills-zh.mp4",
+      "vtt": "2026-10-08/agent-skills-zh.vtt",
+      "poster": "media/2026-10-08/agent-skills-zh.jpg",
+      "duration": 63.7
+     },
+     "en": {
+      "video": "2026-10-08/agent-skills-en.mp4",
+      "vtt": "2026-10-08/agent-skills-en.vtt",
+      "poster": "media/2026-10-08/agent-skills-en.jpg",
+      "duration": 65.5
+     }
+    },
+    "EpicGames/raddebugger": {
+     "rank": 7,
+     "slug": "raddebugger",
+     "zh": {
+      "video": "2026-10-08/raddebugger-zh.mp4",
+      "vtt": "2026-10-08/raddebugger-zh.vtt",
+      "poster": "media/2026-10-08/raddebugger-zh.jpg",
+      "duration": 55.9
+     },
+     "en": {
+      "video": "2026-10-08/raddebugger-en.mp4",
+      "vtt": "2026-10-08/raddebugger-en.vtt",
+      "poster": "media/2026-10-08/raddebugger-en.jpg",
+      "duration": 54.9
+     }
+    },
+    "thedotmack/claude-mem": {
+     "rank": 8,
+     "slug": "claude-mem",
+     "zh": {
+      "video": "2026-10-08/claude-mem-zh.mp4",
+      "vtt": "2026-10-08/claude-mem-zh.vtt",
+      "poster": "media/2026-10-08/claude-mem-zh.jpg",
+      "duration": 54.1
+     },
+     "en": {
+      "video": "2026-10-08/claude-mem-en.mp4",
+      "vtt": "2026-10-08/claude-mem-en.vtt",
+      "poster": "media/2026-10-08/claude-mem-en.jpg",
+      "duration": 60.5
+     }
+    },
+    "manaflow-ai/cmux": {
+     "rank": 9,
+     "slug": "cmux",
+     "zh": {
+      "video": "2026-10-08/cmux-zh.mp4",
+      "vtt": "2026-10-08/cmux-zh.vtt",
+      "poster": "media/2026-10-08/cmux-zh.jpg",
+      "duration": 56.3
+     },
+     "en": {
+      "video": "2026-10-08/cmux-en.mp4",
+      "vtt": "2026-10-08/cmux-en.vtt",
+      "poster": "media/2026-10-08/cmux-en.jpg",
+      "duration": 63.4
+     }
+    },
+    "trycua/cua": {
+     "rank": 10,
+     "slug": "cua",
+     "zh": {
+      "video": "2026-10-08/cua-zh.mp4",
+      "vtt": "2026-10-08/cua-zh.vtt",
+      "poster": "media/2026-10-08/cua-zh.jpg",
+      "duration": 58.6
+     },
+     "en": {
+      "video": "2026-10-08/cua-en.mp4",
+      "vtt": "2026-10-08/cua-en.vtt",
+      "poster": "media/2026-10-08/cua-en.jpg",
+      "duration": 65.5
+     }
+    }
+   }
+  }
+ ]
+}

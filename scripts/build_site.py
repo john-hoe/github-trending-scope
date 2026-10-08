@@ -13,6 +13,7 @@ import html
 import json
 import re
 import shutil
+import sys
 from collections import defaultdict
 from pathlib import Path
 from urllib.parse import urlsplit
@@ -20,9 +21,14 @@ from xml.etree import ElementTree
 
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import scope_pages as sp  # noqa: E402
+
 BASE_URL = "https://trending.cosolution.cc"
 GA4_MEASUREMENT_ID = "G-8GNR8S1LRW"
 GA4_SCRIPT_URL = f"https://www.googletagmanager.com/gtag/js?id={GA4_MEASUREMENT_ID}"
+VIDEO_ORIGIN = "https://v.cosolution.cc"  # set by build() from --video-base
+PREVIEW = False  # --preview: local review build without analytics, never deployed
 GA4_CONNECT_SOURCES = (
     "https://*.google-analytics.com https://*.analytics.google.com "
     "https://*.googletagmanager.com"
@@ -42,16 +48,17 @@ GA4_CSP_REQUIREMENTS = (
 BOARD_ORDER = ("daily", "weekly", "monthly")
 REPO_NAME_RE = re.compile(r"^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$")
 COPY_FILES = (
-    "index.html",
-    "index-zh.html",
     "index-en.html",
     "data.json",
     "data.js",
     "favicon.png",
     "og-zh.png",
     "og-en.png",
-    "seo.css",
+    "scope.css",
+    "scope.js",
 )
+ASSET_DIRS = ("archive", "videos", "assets", "media")
+VIDEO_BASE_DEFAULT = "https://v.cosolution.cc"
 LANG_SLUGS = {"c++": "cpp"}
 
 TEXT = {
@@ -349,6 +356,7 @@ def page_shell(
     body: str,
     structured_data: object,
     robots: str = "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+    home: bool = False,
 ) -> str:
     t = TEXT[locale]
     image = f"{BASE_URL}/og-{'zh' if locale == 'zh' else 'en'}.png"
@@ -361,18 +369,22 @@ def page_shell(
         csp = (
             "default-src 'self'; script-src 'self' 'unsafe-inline' https://*.googletagmanager.com; "
             "style-src 'self'; img-src 'self' data: https://*.google-analytics.com "
-            "https://*.googletagmanager.com; connect-src "
+            "https://*.googletagmanager.com; media-src 'self' " + VIDEO_ORIGIN + "; connect-src "
             f"{GA4_CONNECT_SOURCES}; object-src 'none'; base-uri 'none'; form-action 'none'"
         )
-        analytics = ga4_tag()
+        analytics = "" if PREVIEW else ga4_tag()
     else:
         csp = (
             "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self'; "
             "img-src 'self' data:; object-src 'none'; base-uri 'none'; form-action 'none'"
         )
         analytics = ""
+    topbar = (
+        f'<header class="topbar">{sp.brand_link(locale, t["home_path"])}<nav aria-label="Main"><a href="{t["directory_path"]}">{t["directory"]}</a>'
+        f'<a class="lang" hreflang="{TEXT[t["other"]]["html_lang"]}" href="{language_url}">{t["switch"]}</a></nav></header>'
+    )
     return f"""<!doctype html>
-<html lang="{t['html_lang']}">
+<html lang="{t['html_lang']}" data-skin="{locale}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -383,7 +395,7 @@ def page_shell(
 <meta name="robots" content="{esc(robots)}">
 {search_links}
 <link rel="icon" type="image/png" sizes="512x512" href="/favicon.png">
-<link rel="stylesheet" href="/seo.css">
+<link rel="stylesheet" href="/scope.css">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Trending Scope">
 <meta property="og:title" content="{esc(title)}">
@@ -398,9 +410,11 @@ def page_shell(
 <meta name="twitter:image" content="{image}">
 {json_ld(structured_data)}
 </head>
-<body>
-<header class="topbar"><a class="brand" href="{t['home_path']}">⌥ <span>Trending Scope</span></a><span class="tagline">{t['site_tag']}</span><nav><a href="{t['directory_path']}">{t['directory']}</a><a hreflang="{TEXT[t['other']]['html_lang']}" href="{language_url}">{t['switch']}</a></nav></header>
+<body class="{'home' if home else 'inner'}">
+<div class="sky" aria-hidden="true"><canvas id="stars"></canvas></div>
+{'' if home else topbar}
 {body}
+<script src="/scope.js" defer></script>
 </body>
 </html>
 """
@@ -419,7 +433,15 @@ def breadcrumb_schema(locale: str, canonical: str, name: str) -> dict:
     }
 
 
-def detail_page(data: dict, repo: dict, locale: str, indexed_repos: list[dict], indexable: bool) -> str:
+def detail_page(
+    data: dict,
+    repo: dict,
+    locale: str,
+    indexed_repos: list[dict],
+    indexable: bool,
+    videos: dict | None = None,
+    video_base: str = VIDEO_BASE_DEFAULT,
+) -> str:
     t = TEXT[locale]
     localized = repo[locale]
     en_url, zh_url = pair_for_repo(repo["full"])
@@ -440,6 +462,15 @@ def detail_page(data: dict, repo: dict, locale: str, indexed_repos: list[dict], 
         f'<li><a href="{repo_path(row["full"], locale)}">{esc(row["full"])}</a><span>{esc(row[locale]["tag"])}</span></li>'
         for row in related
     )
+    video_html, video_nodes = "", []
+    found = sp.repo_video(videos, repo["full"])
+    if found and found[1].get(locale):
+        ed, entry = found
+        ve = entry[locale]
+        vname = f"{repo['full']} — {localized['tag']}"
+        cap = f"{sp.HOME[locale]['edition']} {sp.fmt_date(ed['date'], locale)} · NO. {entry['rank']:02d}"
+        video_html = f'<div class="vid-block">{sp.player_html(make_ctx(), videos, ve, locale, video_base, "repo-video", vname, cap)}</div>'
+        video_nodes = [sp.video_object(make_ctx(), ve, video_base, vname, compact(localized["what"]), ed["date"], locale, canonical)]
     track = repo.get("track") or {}
     stars_label = t["stars"] if placements else t["last_observed_stars"]
     if not placement_rows:
@@ -451,6 +482,7 @@ def detail_page(data: dict, repo: dict, locale: str, indexed_repos: list[dict], 
     <p class="eyebrow">GitHub Trending · {esc(category)} · {t['updated']} <time datetime="{esc(data['meta']['date'])}">{esc(data['meta']['date'])}</time></p>
     <h1>{esc(repo['full'])}</h1>
     <p class="lead">{esc(localized['tag'])}</p>
+    {video_html}
     <dl class="metrics">
       <div><dt>{stars_label}</dt><dd>★ {esc(repo.get('stars', '—'))}k</dd></div>
       <div><dt>{t['language']}</dt><dd>{esc(repo.get('lang') or '—')}</dd></div>
@@ -497,6 +529,7 @@ def detail_page(data: dict, repo: dict, locale: str, indexed_repos: list[dict], 
             },
             software,
             breadcrumb_schema(locale, canonical, repo["full"]),
+            *video_nodes,
         ],
     }
     return page_shell(
@@ -682,75 +715,58 @@ def board_page(data: dict, board: str, language_id: str, locale: str, indexed_na
     )
 
 
-def prerender_landing(source: str, data: dict, locale: str, indexed_names: set[str]) -> str:
-    source = prepare_landing_analytics(source)
-    source_switch, production_switch = {
-        "en": (
-            '<a href="index-zh.html" class="lang">中文</a>',
-            '<a href="/index-zh" class="lang">中文</a>',
-        ),
-        "zh": (
-            '<a href="index.html" class="lang">EN</a>',
-            '<a href="/" class="lang">EN</a>',
-        ),
-    }[locale]
-    if source.count(source_switch) != 1:
-        raise ValueError(f"Expected exactly one {locale} locale switch")
-    source = source.replace(source_switch, production_switch, 1)
-    source = source.replace(
-        "const SEO_INDEXED = new Set([]);",
-        "const SEO_INDEXED = new Set(" + json.dumps(sorted(indexed_names), ensure_ascii=False) + ");",
-        1,
+def make_ctx() -> "sp.Ctx":
+    return sp.Ctx(
+        esc=esc,
+        repo_path=repo_path,
+        board_path=board_path,
+        language_name=language_name,
+        json_ld=json_ld,
+        compact=compact,
+        base_url=BASE_URL,
     )
-    rows = data["boards"]["daily"]["all"]
-    registry = {repo["full"]: repo for repo in data["repos"]}
-    cards = []
-    item_list = []
-    for row in rows:
-        repo = registry[row["full"]]
-        is_indexed = repo["full"] in indexed_names
-        href = repo_path(repo["full"], locale) if is_indexed else f"https://github.com/{repo['full']}"
-        cards.append(
-            f"""<article class="card show" data-slug="{esc(repo['slug'].lower())}"><a class="openhit" href="{esc(href)}" data-open="{esc(repo['slug'].lower())}" aria-label="{esc(repo['full'])}"><span class="sr-only">{esc(repo['full'])}</span></a><div class="body"><h4><span class="rank">#{esc(row['rank'])}</span> {esc(repo['full'])} <span class="arrow">→</span></h4><p class="tag">{esc(repo[locale]['tag'])}</p><div class="meta"><span>{esc(repo.get('lang') or '—')}</span><span class="stars">★ {esc(row.get('stars', '—'))}k</span><span class="today">{esc(row.get('today', '—'))}</span></div></div></article>"""
-        )
-        item_list.append(
-            {
-                "@type": "ListItem",
-                "position": row["rank"],
-                "name": repo["full"],
-                "url": BASE_URL + href if href.startswith("/") else href,
-            }
-        )
-    source = source.replace('<main class="grid" id="grid"></main>', f'<main class="grid" id="grid">{"".join(cards)}</main>')
+
+
+def home_page(data: dict, locale: str, indexed_names: set[str], videos: dict | None, video_base: str) -> str:
     t = TEXT[locale]
+    h = sp.HOME[locale]
+    ctx = make_ctx()
+    other = "/" if locale == "zh" else "/index-zh"
+    body, video_nodes = sp.home_body(ctx, data, locale, indexed_names, videos, video_base, other)
     canonical = BASE_URL + t["home_path"]
-    page_type = "WebSite" if locale == "en" else "WebPage"
+    rows = data["boards"]["daily"]["all"][:10]
+    item_list = [
+        {"@type": "ListItem", "position": row["rank"], "name": row["full"], "url": BASE_URL + repo_path(row["full"], locale)}
+        for row in rows
+    ]
     structured = {
         "@context": "https://schema.org",
         "@graph": [
             {
-                "@type": page_type,
+                "@type": "WebSite" if locale == "en" else "WebPage",
                 "@id": canonical + "#website",
                 "url": canonical,
                 "name": "Trending Scope",
+                "publisher": {"@type": "Organization", "name": sp.BRAND},
                 "description": compact(data["meta"].get(f"sub_{locale}", "")),
                 "dateModified": data["meta"]["date"],
                 "inLanguage": t["html_lang"],
             },
-            {"@type": "ItemList", "@id": canonical + "#itemlist", "numberOfItems": len(rows), "itemListElement": item_list},
+            {"@type": "ItemList", "@id": canonical + "#itemlist", "numberOfItems": len(item_list), "itemListElement": item_list},
+            *video_nodes,
         ],
     }
-    source = source.replace("</head>", json_ld(structured) + "\n</head>", 1)
-    board_links = []
-    for board in BOARD_ORDER:
-        for lang in data["langs"]:
-            board_links.append(
-                f'<a href="{board_path(board, lang["id"], locale)}">{esc(t[board])} · {esc(language_name(data, lang["id"], locale))}</a>'
-            )
-    label = "Chart views" if locale == "en" else "榜单视图"
-    nav = f'<nav class="seo-board-links" aria-label="{label}"><strong>{label}</strong>{"".join(board_links)}</nav>'
-    source = source.replace("</footer>", nav + "\n</footer>", 1)
-    return source
+    return page_shell(
+        locale=locale,
+        title=h["title"],
+        description=h["description"],
+        canonical=canonical,
+        alternate_en=BASE_URL + "/",
+        alternate_zh=BASE_URL + "/index-zh",
+        body=body,
+        structured_data=structured,
+        home=True,
+    )
 
 
 def not_found_page() -> str:
@@ -813,7 +829,7 @@ def output_file_for_url(output: Path, url: str) -> Path:
     return output / path.lstrip("/")
 
 
-def validate_output(output: Path, expected_urls: list[str]) -> dict:
+def validate_output(output: Path, expected_urls: list[str], ga4: bool = True) -> dict:
     required = ("robots.txt", "sitemap.xml", "404.html", "_redirects", "_headers", "index.html", "index-zh.html")
     missing = [name for name in required if not (output / name).is_file()]
     if missing:
@@ -858,6 +874,10 @@ def validate_output(output: Path, expected_urls: list[str]) -> dict:
             if GA4_MEASUREMENT_ID in source or "googletagmanager.com/gtag/js" in source:
                 raise ValueError(f"Excluded page unexpectedly contains GA4: {path.relative_to(output)}")
             continue
+        if not ga4:
+            if GA4_MEASUREMENT_ID in source:
+                raise ValueError(f"Preview build must not contain GA4: {path.relative_to(output)}")
+            continue
         if source.count(GA4_SCRIPT_URL) != 1:
             raise ValueError(f"GA4 loader must appear once: {path.relative_to(output)}")
         if source.count(f"gtag('config', '{GA4_MEASUREMENT_ID}'") != 1:
@@ -876,7 +896,9 @@ def validate_output(output: Path, expected_urls: list[str]) -> dict:
     return {"urls": len(actual_urls), "html_pages": len(html_paths), "titles": len(titles)}
 
 
-def build(output: Path) -> dict:
+def build(output: Path, video_base: str | None = None, preview: bool = False) -> dict:
+    global VIDEO_ORIGIN, PREVIEW
+    PREVIEW = preview
     output = output.resolve()
     if output == ROOT.resolve() or output in ROOT.resolve().parents:
         raise ValueError(f"Refusing unsafe output path: {output}")
@@ -888,18 +910,26 @@ def build(output: Path) -> dict:
     missing_indexed = sorted(indexed_names - registry.keys())
     if missing_indexed:
         raise ValueError(f"SEO index references repositories missing from data.json: {missing_indexed}")
-    indexed_repos = [registry[name] for name in manifest["repos"]]
+    videos = None
+    if (ROOT / "videos.json").is_file():
+        videos = json.loads((ROOT / "videos.json").read_text(encoding="utf-8"))
+    base = (video_base or (videos or {}).get("base") or VIDEO_BASE_DEFAULT).rstrip("/")
+    VIDEO_ORIGIN = "/".join(base.split("/")[:3]) if base.startswith("http") else "'self'"
+    # Every repo that has its own video gets an indexable page of original editorial content.
+    video_names = {full for ed in (videos or {}).get("editions", []) for full in (ed.get("repos") or {})}
+    missing_video = sorted(video_names - registry.keys())
+    if missing_video:
+        raise ValueError(f"videos.json references repositories missing from data.json: {missing_video}")
+    indexed_names |= video_names
+    indexed_repos = [registry[name] for name in sorted(indexed_names, key=lambda n: (n not in manifest["repos"], n.lower()))]
     if output.exists():
         shutil.rmtree(output)
     output.mkdir(parents=True)
     for name in COPY_FILES:
-        if name in ("index.html", "index-zh.html"):
-            locale = "zh" if name == "index-zh.html" else "en"
-            source = (ROOT / name).read_text(encoding="utf-8")
-            (output / name).write_text(prerender_landing(source, data, locale, indexed_names), encoding="utf-8")
-        else:
-            shutil.copy2(ROOT / name, output / name)
-    for directory in ("archive", "videos"):
+        shutil.copy2(ROOT / name, output / name)
+    (output / "index.html").write_text(home_page(data, "en", indexed_names, videos, base), encoding="utf-8")
+    (output / "index-zh.html").write_text(home_page(data, "zh", indexed_names, videos, base), encoding="utf-8")
+    for directory in ASSET_DIRS:
         if (ROOT / directory).is_dir():
             shutil.copytree(ROOT / directory, output / directory)
     (output / "robots.txt").write_text(
@@ -914,7 +944,9 @@ def build(output: Path) -> dict:
         "/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: no-referrer\n\n"
         "/archive/*\n  X-Robots-Tag: noindex, nofollow\n\n"
         "/data.json\n  X-Robots-Tag: noindex, nofollow\n\n"
-        "/videos/*\n  X-Robots-Tag: noindex, nofollow\n",
+        "/videos/*\n  X-Robots-Tag: noindex, nofollow\n\n"
+        "/assets/*\n  Cache-Control: public, max-age=604800\n\n"
+        "/media/*\n  Cache-Control: public, max-age=604800\n",
         encoding="utf-8",
     )
     for locale in ("en", "zh"):
@@ -925,7 +957,7 @@ def build(output: Path) -> dict:
             target = output / repo_path(repo["full"], locale).strip("/")
             target.mkdir(parents=True, exist_ok=True)
             (target / "index.html").write_text(
-                detail_page(data, repo, locale, indexed_repos, repo["full"] in indexed_names), encoding="utf-8"
+                detail_page(data, repo, locale, indexed_repos, repo["full"] in indexed_names, videos, base), encoding="utf-8"
             )
         for board in BOARD_ORDER:
             for language in data["langs"]:
@@ -939,14 +971,16 @@ def build(output: Path) -> dict:
                 )
     sitemap, urls = sitemap_xml(data, indexed_repos)
     (output / "sitemap.xml").write_text(sitemap, encoding="utf-8")
-    return validate_output(output, urls)
+    return validate_output(output, urls, ga4=not preview)
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path, default=ROOT / "dist")
+    parser.add_argument("--video-base", default=None, help="override the video host (default: videos.json base)")
+    parser.add_argument("--preview", action="store_true", help="local review build: no analytics")
     args = parser.parse_args()
-    result = build(args.output)
+    result = build(args.output, args.video_base, args.preview)
     print(json.dumps(result, ensure_ascii=False, sort_keys=True))
 
 
