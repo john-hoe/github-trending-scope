@@ -177,7 +177,7 @@ def player_html(c: Ctx, videos: dict, entry: dict, locale: str, base: str, vid: 
     track = f'<track kind="subtitles" srclang="{"zh-CN" if locale == "zh" else "en"}" label="{"中文" if locale == "zh" else "English"}" src="{c.esc(u["vtt"])}" default>' if u["vtt"] else ""
     cap = f"<figcaption>{c.esc(caption)}</figcaption>" if caption else ""
     return (
-        f'<figure class="vid"><video id="{vid}" controls preload="none" playsinline crossorigin="anonymous" poster="{c.esc(u["poster"])}" aria-label="{c.esc(label)}">'
+        f'<figure class="vid"><video id="{vid}" controls controlslist="nodownload noremoteplayback" disablepictureinpicture disableremoteplayback preload="none" playsinline crossorigin="anonymous" poster="{c.esc(u["poster"])}" aria-label="{c.esc(label)}">'
         f'<source src="{c.esc(u["video"])}" type="video/mp4">{track}</video>{cap}</figure>'
     )
 

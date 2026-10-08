@@ -261,6 +261,9 @@ class SEOProductionContractTests(unittest.TestCase):
             self.assertIn('href="https://t.me/johnjohor"', source, page)
             self.assertIn('href="mailto:john@cosolution.cc"', source, page)
         self.assertEqual(english.count('id="contact"'), 1)
+        # 视频不提供下载入口
+        self.assertIn('controlslist="nodownload noremoteplayback"', english)
+        self.assertIn("disablepictureinpicture", english)
 
     def test_all_board_views_exist_bilingually(self):
         board_urls = [url for url in self.urls if "/trending/" in url]

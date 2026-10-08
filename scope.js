@@ -34,6 +34,8 @@
     seed(); addEventListener('resize', function () { seed(); if (still) frame(0); });
     if (still) frame(0); else requestAnimationFrame(frame);
   }
+  // 视频：去掉右键菜单里的「另存为」，不提供下载入口
+  [].forEach.call(document.querySelectorAll('video'), function (el) { el.addEventListener('contextmenu', function (e) { e.preventDefault(); }); });
   // 章节：点击跳到长视频对应时间；播放时高亮当前章节
   var v = document.getElementById('long-video'), list = document.getElementById('chapters');
   if (v && list) {
