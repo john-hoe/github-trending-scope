@@ -264,6 +264,10 @@ class SEOProductionContractTests(unittest.TestCase):
         # 视频不提供下载入口
         self.assertIn('controlslist="nodownload noremoteplayback"', english)
         self.assertIn("disablepictureinpicture", english)
+        # 长视频有 1080p / 720p 两档切换
+        for source in (english, chinese):
+            self.assertEqual(source.count('data-q="hd"'), 1)
+            self.assertIn("-720.mp4", source)
 
     def test_all_board_views_exist_bilingually(self):
         board_urls = [url for url in self.urls if "/trending/" in url]

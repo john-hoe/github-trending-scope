@@ -71,6 +71,9 @@ a{color:var(--acc);text-underline-offset:3px}a:hover{color:var(--ink)}
 .player{display:block}
 .player .vid video{box-shadow:0 30px 80px rgba(0,0,0,.6)}
 .player video,.vid video{display:block;width:100%;aspect-ratio:16/9;background:#02030a;border:1px solid var(--line)}
+.quality{display:flex;justify-content:flex-end;gap:8px;margin-top:10px}
+.quality button{padding:5px 12px;background:none;border:1px solid var(--line);color:var(--muted);font:400 12px var(--mono);letter-spacing:.1em;cursor:pointer}
+.quality button:hover{color:var(--ink)}.quality button[aria-pressed="true"]{border-color:var(--acc);color:var(--acc)}
 .vid figcaption{margin-top:10px;color:var(--muted);font:400 13px var(--mono);letter-spacing:.08em}
 .chapters{list-style:none;margin-top:18px;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:0;border-top:1px solid var(--line);border-left:1px solid var(--line)}
 .chapters li{border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--panel)}
