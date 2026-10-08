@@ -131,6 +131,43 @@ class LLMReviewTests(unittest.TestCase):
         sleep_mock.assert_not_called()
         self.assertIn("HTTP 403: usage limit exhausted", str(print_mock.call_args))
 
+    def test_moderation_block_retries_without_readme(self):
+        review = complete_llm_review()
+        response = mock.MagicMock()
+        response.__enter__.return_value.read.return_value = json.dumps({
+            "choices": [{"message": {"content": json.dumps(review)}}]
+        }).encode()
+        error = HTTPError(
+            "https://example.test/chat/completions", 400, "Bad Request", None,
+            io.BytesIO(b'{"error":{"message":"Content Exists Risk"}}'),
+        )
+        cfg = {"protocol": "openai", "base": "https://example.test", "key": "k",
+               "model": "m", "readme": True, "retries": 3}
+        with mock.patch.object(UPDATE, "fetch_readme", return_value="readme text") as readme_mock, \
+             mock.patch.object(UPDATE.urllib.request, "urlopen", side_effect=[error, response]) as open_mock, \
+             mock.patch.object(UPDATE.time, "sleep"):
+            result = UPDATE.llm_review("owner/repo", "desc", "Python", 10, 2, 1, "daily", "all", cfg)
+        self.assertEqual(result["zh"]["tag"], review["tag_zh"])
+        self.assertEqual(open_mock.call_count, 2)
+        readme_mock.assert_called_once()
+        second_body = open_mock.call_args_list[1][0][0].data.decode("utf-8")
+        self.assertNotIn("readme text", second_body)
+        self.assertFalse(cfg.get("blocked"))
+
+    def test_persistent_moderation_block_is_recorded_not_retried(self):
+        error = HTTPError(
+            "https://example.test/chat/completions", 400, "Bad Request", None,
+            io.BytesIO(b'{"error":{"message":"Content Exists Risk"}}'),
+        )
+        cfg = {"protocol": "openai", "base": "https://example.test", "key": "k",
+               "model": "m", "readme": False, "retries": 3}
+        with mock.patch.object(UPDATE.urllib.request, "urlopen", side_effect=error) as open_mock, \
+             mock.patch.object(UPDATE.time, "sleep"), mock.patch("builtins.print"):
+            result = UPDATE.llm_review("owner/repo", "desc", "Python", 10, 2, 1, "daily", "all", cfg)
+        self.assertIsNone(result)
+        self.assertEqual(open_mock.call_count, 1)
+        self.assertIn("owner/repo", cfg["blocked"])
+
     def test_llm_requests_identify_the_real_client_and_cap_output(self):
         review = complete_llm_review()
         response = mock.MagicMock()
@@ -211,6 +248,43 @@ class LLMReviewTests(unittest.TestCase):
         self.assertEqual(polished, 0)
         self.assertEqual(review_mock.call_count, 1)
         self.assertTrue(all(registry[full]["auto"] for full in order))
+
+
+class PolishFallbackTests(unittest.TestCase):
+    def _setup(self, fulls):
+        registry = {f: {"auto": True, "cat": "infra", "zh": {}, "en": {}} for f in fulls}
+        info = {f: {"desc": "d", "lang": "Python", "stars_n": 1, "today_n": 1} for f in fulls}
+        pres_map = {f: ("daily", "all", {"rank": i + 1}) for i, f in enumerate(fulls)}
+        return registry, list(fulls), set(fulls), info, pres_map
+
+    def test_blocked_repo_does_not_abort_batch_and_is_flagged(self):
+        fulls = ["a/blocked", "b/ok", "c/ok"]
+        registry, order, new, info, pres = self._setup(fulls)
+        cfg = {"limit": 10, "concurrency": 2}
+        good = {"cat": "infra", "zh": {"tag": "z"}, "en": {"tag": "e"}}
+
+        def fake_review(full, *args, **kwargs):
+            if full == "a/blocked":
+                cfg.setdefault("blocked", set()).add(full)
+                return None
+            return good
+
+        with mock.patch.object(UPDATE, "llm_review", side_effect=fake_review), mock.patch("builtins.print"):
+            done = UPDATE.polish_with_llm(registry, order, new, info, pres, cfg)
+        self.assertEqual(done, 2)
+        self.assertTrue(registry["a/blocked"]["auto"])
+        self.assertTrue(registry["a/blocked"]["review_blocked"])
+        self.assertFalse(registry["b/ok"]["auto"])
+        self.assertFalse(registry["c/ok"]["auto"])
+
+    def test_real_outage_still_stops_the_batch(self):
+        fulls = ["a/x", "b/y", "c/z"]
+        registry, order, new, info, pres = self._setup(fulls)
+        cfg = {"limit": 10, "concurrency": 2}
+        with mock.patch.object(UPDATE, "llm_review", return_value=None), mock.patch("builtins.print"):
+            done = UPDATE.polish_with_llm(registry, order, new, info, pres, cfg)
+        self.assertEqual(done, 0)
+        self.assertTrue(all(r["auto"] and not r.get("review_blocked") for r in registry.values()))
 
 
 class ArchiveTests(unittest.TestCase):
@@ -322,6 +396,11 @@ class ValidationTests(unittest.TestCase):
         errors = UPDATE.validate(self.data, 1, 1, True)
         self.assertTrue(any("duplicate repo" in e for e in errors), errors)
         self.assertTrue(any("ranks are not sequential" in e for e in errors), errors)
+
+    def test_reviewed_gate_allows_provider_blocked_placeholder(self):
+        self.repo["review_blocked"] = True
+        errors = UPDATE.validate(self.data, 1, 1, True, require_reviewed=True)
+        self.assertFalse(any("automated placeholder remains" in e for e in errors), errors)
 
     def test_reviewed_gate_rejects_automatic_placeholder(self):
         errors = UPDATE.validate(self.data, 1, 1, True, require_reviewed=True)

@@ -372,9 +372,10 @@ def review_quality_errors(full: str, zh: dict, en: dict, strict: bool = False) -
 
 def llm_review(full: str, desc: str, lang, stars_n: int, today_n: int,
                rank: int, rng: str, lang_id: str, cfg: dict,
-               _quality_attempt: int = 1, _quality_feedback: str = "") -> "dict | None":
+               _quality_attempt: int = 1, _quality_feedback: str = "",
+               _no_readme: bool = False) -> "dict | None":
     """调 OpenAI 兼容接口生成双语精评；任何一步失败返回 None（调用方降级自动摘要）。"""
-    readme = fetch_readme(full) if cfg["readme"] else ""
+    readme = fetch_readme(full) if cfg["readme"] and not _no_readme else ""
     board_desc = f"{RNG_ZH[rng]}榜" if lang_id == "all" \
         else f"{RNG_ZH[rng]}榜（{LANG_NAME.get(lang_id, lang_id)}）"
     prompt = LLM_PROMPT.format(
@@ -437,6 +438,15 @@ def llm_review(full: str, desc: str, lang, stars_n: int, today_n: int,
                     detail += ": " + re.sub(r"\s+", " ", message).strip()[:300]
             except (OSError, UnicodeError, json.JSONDecodeError):
                 pass
+            if e.code == 400 and "content exists risk" in detail.lower():
+                if cfg["readme"] and not _no_readme:
+                    print(f"[llm] {full}: provider moderation blocked the request; retrying without README excerpt")
+                    return llm_review(
+                        full, desc, lang, stars_n, today_n, rank, rng, lang_id, cfg,
+                        _quality_attempt=_quality_attempt, _quality_feedback=_quality_feedback,
+                        _no_readme=True,
+                    )
+                cfg.setdefault("blocked", set()).add(full)
             retryable = e.code in (408, 409, 425, 429) or 500 <= e.code < 600
             if not retryable or attempt + 1 == retries:
                 print(f"[llm] {full}: request failed after {attempt + 1} attempt(s): {detail}")
@@ -483,6 +493,7 @@ def llm_review(full: str, desc: str, lang, stars_n: int, today_n: int,
             return llm_review(
                 full, desc, lang, stars_n, today_n, rank, rng, lang_id, cfg,
                 _quality_attempt=_quality_attempt + 1, _quality_feedback=feedback,
+                _no_readme=_no_readme,
             )
         print(f"[llm] {full}: quality check failed after {quality_retries} attempt(s): {feedback}")
         return None
@@ -514,19 +525,29 @@ def polish_with_llm(registry: dict, order: list, new_fulls: set,
     if not targets:
         return 0
 
-    # 先用一个真实候选做健康检查，避免密钥/额度/模型错误时并发轰炸整个候选集。
-    first_full, first_res = review_one(targets[0])
-    if not first_res:
-        print(f"[llm] provider preflight failed; skipped {len(targets) - 1} remaining repos")
+    # 先用真实候选做健康检查，避免密钥/额度/模型错误时并发轰炸整个候选集。
+    # 某个仓库被服务商内容审核拦截（blocked）不代表服务故障：最多探测前 3 个，换下一个再试。
+    blocked = cfg.setdefault("blocked", set())
+    probed, outage = 0, False
+    for cand in targets[:3]:
+        probed += 1
+        _, res = review_one(cand)
+        if res:
+            entry = registry[cand]
+            entry["cat"], entry["zh"], entry["en"] = res["cat"], res["zh"], res["en"]
+            entry["auto"] = False
+            entry.pop("review_blocked", None)
+            done += 1
+            print(f"[llm] polished {cand}")
+            break
+        if cand not in blocked:
+            outage = True
+            break
+    if outage:
+        print(f"[llm] provider preflight failed; skipped {len(targets) - probed} remaining repos")
         return 0
-    first_entry = registry[first_full]
-    first_entry["cat"], first_entry["zh"], first_entry["en"] = \
-        first_res["cat"], first_res["zh"], first_res["en"]
-    first_entry["auto"] = False
-    done = 1
-    print(f"[llm] polished {first_full}")
 
-    remaining = targets[1:]
+    remaining = targets[probed:]
     workers = min(max(1, int(cfg.get("concurrency", 4))), len(remaining) or 1)
     with ThreadPoolExecutor(max_workers=workers) as executor:
         futures = [executor.submit(review_one, full) for full in remaining]
@@ -537,8 +558,15 @@ def polish_with_llm(registry: dict, order: list, new_fulls: set,
             entry = registry[full]
             entry["cat"], entry["zh"], entry["en"] = res["cat"], res["zh"], res["en"]
             entry["auto"] = False
+            entry.pop("review_blocked", None)
             done += 1
             print(f"[llm] polished {full}")
+    for full in sorted(blocked):
+        if registry.get(full, {}).get("auto"):
+            registry[full]["review_blocked"] = True
+    if blocked:
+        print(f"[llm] {len(blocked)} repo(s) blocked by provider moderation, published as automatic summaries: "
+              + ", ".join(sorted(blocked)))
     return done
 
 
@@ -727,7 +755,7 @@ def validate(data: dict, min_repos: int, min_board_repos: int = 1,
             errors.append(f"{r.get('full','?')}: invalid GitHub full name")
         if not isinstance(r.get("slug"), str) or not SLUG_RE.fullmatch(r["slug"]):
             errors.append(f"{r.get('full','?')}: invalid slug {r.get('slug')}")
-        if require_reviewed and r.get("auto"):
+        if require_reviewed and r.get("auto") and not r.get("review_blocked"):
             errors.append(f"{r.get('full','?')}: automated placeholder remains")
         if r.get("slug") in slugs:
             errors.append(f"{r.get('full','?')}: duplicate slug {r.get('slug')}")
