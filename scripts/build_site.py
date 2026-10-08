@@ -52,8 +52,8 @@ COPY_FILES = (
     "data.json",
     "data.js",
     "favicon.png",
-    "og-zh.png",
-    "og-en.png",
+    "og-zh-v2.png",
+    "og-en-v2.png",
     "scope.css",
     "scope.js",
 )
@@ -359,7 +359,7 @@ def page_shell(
     home: bool = False,
 ) -> str:
     t = TEXT[locale]
-    image = f"{BASE_URL}/og-{'zh' if locale == 'zh' else 'en'}.png"
+    image = f"{BASE_URL}/og-{'zh' if locale == 'zh' else 'en'}-v2.png"
     search_links = ""
     if canonical:
         search_links = f'<link rel="canonical" href="{esc(canonical)}">\n{hreflang_links(alternate_en, alternate_zh)}'
