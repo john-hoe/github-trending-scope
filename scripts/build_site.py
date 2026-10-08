@@ -500,7 +500,7 @@ def detail_page(
   </article>
   <aside class="related"><h2>{t['related']}</h2><ul>{related_items}</ul></aside>
 </main>
-<footer class="site-footer">Trending Scope · {t['updated']} {esc(data['meta']['date'])} · <a href="{t['directory_path']}">{t['directory']}</a></footer>
+<footer class="site-footer">Trending Scope · {t['updated']} {esc(data['meta']['date'])} · <a href="{t['directory_path']}">{t['directory']}</a>{sp.contact_html(locale)}</footer>
 """
     software = {
         "@type": "SoftwareSourceCode",
@@ -575,7 +575,7 @@ def directory_page(data: dict, locale: str, indexed_repos: list[dict]) -> str:
   <header class="directory-hero"><p class="eyebrow">GitHub Trending · {t['updated']} <time datetime="{esc(data['meta']['date'])}">{esc(data['meta']['date'])}</time></p><h1>{t['directory']}</h1><p>{t['directory_intro']}</p><div class="directory-stats"><strong>{len(indexed_repos)}</strong> {t['repos']} · <strong>{board_count}</strong> {t['boards']}</div></header>
   {''.join(group_html)}
 </main>
-<footer class="site-footer">Trending Scope · {t['updated']} {esc(data['meta']['date'])}</footer>
+<footer class="site-footer">Trending Scope · {t['updated']} {esc(data['meta']['date'])}{sp.contact_html(locale)}</footer>
 """
     structured = {
         "@context": "https://schema.org",
@@ -675,7 +675,7 @@ def board_page(data: dict, board: str, language_id: str, locale: str, indexed_na
   <header class="board-hero"><p class="eyebrow">GitHub Trending · {t['updated']} <time datetime="{esc(data['meta']['date'])}">{esc(data['meta']['date'])}</time></p><h1>GitHub Trending · {esc(period)} · {esc(language)}</h1><p>{esc(intro)}</p><nav class="board-nav" aria-label="Chart views">{''.join(nav_links)}</nav></header>
   <section class="board-list" aria-label="{esc(title)}">{''.join(list_rows)}</section>
 </main>
-<footer class="site-footer">Trending Scope · {t['updated']} {esc(data['meta']['date'])} · <a href="{t['directory_path']}">{t['directory']}</a></footer>
+<footer class="site-footer">Trending Scope · {t['updated']} {esc(data['meta']['date'])} · <a href="{t['directory_path']}">{t['directory']}</a>{sp.contact_html(locale)}</footer>
 """
     structured = {
         "@context": "https://schema.org",

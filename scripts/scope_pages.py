@@ -116,6 +116,19 @@ def logo_svg(size: int = 30) -> str:
     )
 
 
+CONTACT_TG = "johnjohor"
+CONTACT_MAIL = "john@cosolution.cc"
+
+
+def contact_html(locale: str, anchor: bool = False) -> str:
+    label = "联系" if locale == "zh" else "Contact"
+    ident = ' id="contact"' if anchor else ""
+    return (
+        f'<span class="contact"{ident}>{label} · <a href="https://t.me/{CONTACT_TG}" rel="noopener">Telegram @{CONTACT_TG}</a>'
+        f' · <a href="mailto:{CONTACT_MAIL}">{CONTACT_MAIL}</a></span>'
+    )
+
+
 def brand_link(locale: str, href: str) -> str:
     return f'<a class="brand" href="{href}" aria-label="{BRAND} · Trending Scope">{logo_svg()}<span>{BRAND}</span><small>Trending Scope</small></a>'
 
@@ -164,7 +177,7 @@ def player_html(c: Ctx, videos: dict, entry: dict, locale: str, base: str, vid: 
     track = f'<track kind="subtitles" srclang="{"zh-CN" if locale == "zh" else "en"}" label="{"中文" if locale == "zh" else "English"}" src="{c.esc(u["vtt"])}" default>' if u["vtt"] else ""
     cap = f"<figcaption>{c.esc(caption)}</figcaption>" if caption else ""
     return (
-        f'<figure class="vid"><video id="{vid}" controls preload="none" playsinline crossorigin="anonymous" poster="{c.esc(u["poster"])}" aria-label="{c.esc(label)}">'
+        f'<figure class="vid"><video id="{vid}" controls controlslist="nodownload noremoteplayback" disablepictureinpicture disableremoteplayback preload="none" playsinline crossorigin="anonymous" poster="{c.esc(u["poster"])}" aria-label="{c.esc(label)}">'
         f'<source src="{c.esc(u["video"])}" type="video/mp4">{track}</video>{cap}</figure>'
     )
 
@@ -330,6 +343,6 @@ def home_body(c: Ctx, data: dict, locale: str, indexed: set[str], videos: dict |
     )
     footer = (
         f'<div class="credit">{t["credit"]}</div>'
-        f'<footer class="site-footer">{BRAND} · Trending Scope · {t["footer"]} {c.esc(data["meta"]["generated_at"])}</footer>'
+        f'<footer class="site-footer">{BRAND} · Trending Scope · {t["footer"]} {c.esc(data["meta"]["generated_at"])}{contact_html(locale, True)}</footer>'
     )
     return nav + f'<main id="main">{hero}{tonight}{stories}{more}</main>' + footer, nodes
