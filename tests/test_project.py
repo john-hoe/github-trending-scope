@@ -253,6 +253,14 @@ class SEOProductionContractTests(unittest.TestCase):
         for source in (english, chinese):
             self.assertIn("cosolutions-Affiliate", source)
             self.assertIn('"@type":"VideoObject"', source)
+        # 联系方式出现在首页和每个内页的页脚
+        pages = [self.output / "index.html", self.output / "index-zh.html",
+                 self.output / "repos" / "index.html", self.output / "trending" / "weekly" / "python" / "index.html"]
+        for page in pages:
+            source = page.read_text(encoding="utf-8")
+            self.assertIn('href="https://t.me/johnjohor"', source, page)
+            self.assertIn('href="mailto:john@cosolution.cc"', source, page)
+        self.assertEqual(english.count('id="contact"'), 1)
 
     def test_all_board_views_exist_bilingually(self):
         board_urls = [url for url in self.urls if "/trending/" in url]

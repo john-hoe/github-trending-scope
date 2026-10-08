@@ -114,6 +114,8 @@ a{color:var(--acc);text-underline-offset:3px}a:hover{color:var(--ink)}
 .credit{max-width:1200px;margin:0 auto;padding:0 20px 8px;font:400 11px var(--mono);letter-spacing:.1em;color:rgba(255,255,255,.4)}
 .site-footer{padding:28px 20px 36px;border-top:1px solid var(--line);color:var(--muted);text-align:center;font-size:13px;background:rgba(2,3,10,.6)}
 .site-footer a{color:var(--muted)}
+.site-footer .contact{display:block;margin-top:10px;color:var(--ink)}
+.site-footer .contact a{color:var(--ink);text-decoration:underline;text-underline-offset:3px}
 .seo-board-links{display:flex;flex-wrap:wrap;gap:6px 14px;justify-content:center;margin-top:14px;font-size:12px}.seo-board-links strong{width:100%;font-weight:400;letter-spacing:.2em;text-transform:uppercase}
 
 /* ---------- 内页（解析页 / 榜单页 / 目录 / 404） ---------- */
