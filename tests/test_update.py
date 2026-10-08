@@ -131,6 +131,24 @@ class LLMReviewTests(unittest.TestCase):
         sleep_mock.assert_not_called()
         self.assertIn("HTTP 403: usage limit exhausted", str(print_mock.call_args))
 
+    def test_token_usage_is_accumulated_and_summarised(self):
+        review = complete_llm_review()
+        response = mock.MagicMock()
+        response.__enter__.return_value.read.return_value = json.dumps({
+            "choices": [{"message": {"content": json.dumps(review)}}],
+            "usage": {"prompt_tokens": 1500, "completion_tokens": 900, "prompt_cache_hit_tokens": 500},
+        }).encode()
+        cfg = {"protocol": "openai", "base": "https://example.test", "key": "k",
+               "model": "m", "readme": False, "retries": 1}
+        with mock.patch.object(UPDATE.urllib.request, "urlopen", return_value=response):
+            UPDATE.llm_review("owner/repo", "desc", "Python", 10, 2, 1, "daily", "all", cfg)
+            UPDATE.llm_review("owner/repo2", "desc", "Python", 10, 2, 1, "daily", "all", cfg)
+        self.assertEqual(cfg["usage"], {"calls": 2, "in": 3000, "out": 1800, "cache_hit": 1000})
+        with mock.patch.dict(UPDATE.os.environ, {"LLM_PRICE_IN": "0.14", "LLM_PRICE_OUT": "0.28"}):
+            line = UPDATE.usage_summary(cfg)
+        self.assertIn("2 calls", line)
+        self.assertIn("est. $", line)
+
     def test_moderation_block_retries_without_readme(self):
         review = complete_llm_review()
         response = mock.MagicMock()
