@@ -169,6 +169,7 @@ def video_urls(videos: dict, entry: dict, base: str) -> dict:
         "video": f"{base}/{entry['video']}",
         "vtt": f"{base}/{entry['vtt']}" if entry.get("vtt") else "",
         "poster": "/" + entry["poster"],
+        "video720": f"{base}/{entry['video720']}" if entry.get("video720") else "",
     }
 
 
@@ -176,9 +177,16 @@ def player_html(c: Ctx, videos: dict, entry: dict, locale: str, base: str, vid: 
     u = video_urls(videos, entry, base)
     track = f'<track kind="subtitles" srclang="{"zh-CN" if locale == "zh" else "en"}" label="{"中文" if locale == "zh" else "English"}" src="{c.esc(u["vtt"])}" default>' if u["vtt"] else ""
     cap = f"<figcaption>{c.esc(caption)}</figcaption>" if caption else ""
+    quality = ""
+    if u["video720"]:  # 有 720p 档：给一个清晰度切换（慢网/省流量时脚本默认选 720p）
+        quality = (
+            f'<div class="quality" role="group" aria-label="{"清晰度" if locale == "zh" else "Quality"}">'
+            f'<button type="button" data-q="hd" data-src="{c.esc(u["video"])}" aria-pressed="true">1080p</button>'
+            f'<button type="button" data-q="sd" data-src="{c.esc(u["video720"])}" aria-pressed="false">720p</button></div>'
+        )
     return (
         f'<figure class="vid"><video id="{vid}" controls controlslist="nodownload noremoteplayback" disablepictureinpicture disableremoteplayback preload="none" playsinline crossorigin="anonymous" poster="{c.esc(u["poster"])}" aria-label="{c.esc(label)}">'
-        f'<source src="{c.esc(u["video"])}" type="video/mp4">{track}</video>{cap}</figure>'
+        f'<source src="{c.esc(u["video"])}" type="video/mp4">{track}</video>{quality}{cap}</figure>'
     )
 
 

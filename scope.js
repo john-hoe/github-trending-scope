@@ -36,6 +36,23 @@
   }
   // 视频：去掉右键菜单里的「另存为」，不提供下载入口
   [].forEach.call(document.querySelectorAll('video'), function (el) { el.addEventListener('contextmenu', function (e) { e.preventDefault(); }); });
+  // 清晰度：1080p / 720p 切换，保留播放位置；慢网或省流量模式默认 720p
+  [].forEach.call(document.querySelectorAll('.quality'), function (box) {
+    var fig = box.parentNode, vid = fig.querySelector('video'), src = vid && vid.querySelector('source'), btns = [].slice.call(box.querySelectorAll('button[data-src]'));
+    if (!vid || !src) return;
+    var pick = function (btn, keep) {
+      if (src.getAttribute('src') === btn.dataset.src) return;
+      var t = keep ? vid.currentTime : 0, playing = keep && !vid.paused;
+      btns.forEach(function (b) { b.setAttribute('aria-pressed', b === btn ? 'true' : 'false'); });
+      src.setAttribute('src', btn.dataset.src);
+      if (t > 0) vid.preload = 'metadata';
+      vid.load();
+      if (t > 0) vid.addEventListener('loadedmetadata', function f() { vid.removeEventListener('loadedmetadata', f); vid.currentTime = t; if (playing) { var p = vid.play(); if (p && p.catch) p.catch(function () {}); } });
+    };
+    btns.forEach(function (b) { b.addEventListener('click', function () { pick(b, true); }); });
+    var c = navigator.connection;
+    if (c && (c.saveData || /(^|-)[23]g$/.test(c.effectiveType || '') || (c.downlink && c.downlink < 2))) pick(box.querySelector('[data-q="sd"]'), false);
+  });
   // 章节：点击跳到长视频对应时间；播放时高亮当前章节
   var v = document.getElementById('long-video'), list = document.getElementById('chapters');
   if (v && list) {
