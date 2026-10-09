@@ -1,10 +1,13 @@
 #!/bin/bash
 # 在 Mac 上运行：把当前站点以「draft」预览分支部署到 Cloudflare Pages（带密码、noindex），视频传到 R2 的 draft/<token>/ 下。
 # 不动正式站（正式分支是 main）、不改 DNS。首次运行生成 token+密码，存在 ~/claude-work/scope-draft/.secret（600，不进仓库）。
-# 用法: bash tools/draft-deploy.sh [--skip-upload]
+# 用法: bash tools/draft-deploy.sh [--skip-upload] [--only=<日期>]
+#   --only=2026-10-09 只上传该日期目录下的视频（已传过的日期不用重传）；SITE_DIR=<目录> 指定要构建的仓库副本。
 set -e
 export PATH=/opt/homebrew/bin:$PATH
-S=~/claude-work/scope-site; ST=~/claude-work/scope-draft; M=~/claude-work/scope-media/v
+S=${SITE_DIR:-~/claude-work/scope-site}; ST=~/claude-work/scope-draft; M=~/claude-work/scope-media/v
+SKIP=0; ONLY=""
+for a in "$@"; do case $a in --skip-upload) SKIP=1;; --only=*) ONLY=${a#--only=};; esac; done
 W=~/claude-work/cf/node_modules/.bin/wrangler
 mkdir -p $ST/functions; cd $ST
 if [ ! -f .secret ]; then
@@ -34,9 +37,9 @@ export async function onRequest(ctx) {
 }
 JS
 # 1) 视频 + 字幕 → R2 draft/<token>/
-if [ "$1" != "--skip-upload" ]; then
+if [ $SKIP = 0 ]; then
   cd $M
-  for f in $(find . -type f \( -name '*.mp4' -o -name '*.vtt' \) | sed 's#^\./##' | sort); do
+  for f in $(find ${ONLY:-.} -type f \( -name '*.mp4' -o -name '*.vtt' \) | sed 's#^\./##' | sort); do
     case $f in *.mp4) ct=video/mp4;; *.vtt) ct='text/vtt; charset=utf-8';; esac
     echo "put draft/$TOKEN/$f"; $W r2 object put "trending-videos/draft/$TOKEN/$f" --file "$f" --content-type "$ct" --cache-control "public, max-age=3600" --remote >/dev/null
   done

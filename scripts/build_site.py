@@ -69,6 +69,23 @@ TEXT = {
         "home_path": "/",
         "directory_path": "/repos/",
         "repo_prefix": "/repos/",
+        "editions": "Past editions",
+        "editions_path": "/editions/",
+        "editions_title": "Daily GitHub Trending Video Editions | Trending Scope",
+        "editions_description": (
+            "Every daily GitHub Trending countdown video from Trending Scope: the full countdown and a short "
+            "video for each repository, newest edition first."
+        ),
+        "editions_intro": "One countdown video per day, built from the GitHub Trending chart of that day. Newest first.",
+        "edition_h1": "GitHub Trending countdown",
+        "edition_title": "GitHub Trending Top {n} Video — {date} | Trending Scope",
+        "edition_description": (
+            "The GitHub Trending countdown video for {date}: {n} repositories from number {n} to number one, "
+            "led by {top}. Watch the full countdown and a short video for each repository."
+        ),
+        "edition_repos": "Repositories in this edition",
+        "edition_chapters": "Chapters",
+        "edition_watch": "Watch",
         "other": "zh",
         "switch": "中文",
         "site_tag": "GitHub Trending, explained",
@@ -126,6 +143,20 @@ TEXT = {
         "home_path": "/index-zh",
         "directory_path": "/zh/repos/",
         "repo_prefix": "/zh/repos/",
+        "editions": "往期视频",
+        "editions_path": "/zh/editions/",
+        "editions_title": "每日 GitHub 热榜视频 · 往期 | Trending Scope",
+        "editions_description": "星榜每天一期的 GitHub 热榜倒计时视频：完整倒计时加每个仓库的单独短视频，按日期从新到旧排列。",
+        "editions_intro": "每天一期倒计时视频，用当天的 GitHub Trending 榜单做成，最新的在最前面。",
+        "edition_h1": "GitHub 热榜倒计时",
+        "edition_title": "GitHub 热榜 Top {n} 视频 · {date} | Trending Scope",
+        "edition_description": (
+            "{date} 的 GitHub Trending 倒计时视频：{n} 个仓库，从第 {n} 名数到第一名，榜首是 {top}。"
+            "可以看完整倒计时，也可以看每个仓库的单独短视频。"
+        ),
+        "edition_repos": "本期上榜仓库",
+        "edition_chapters": "章节",
+        "edition_watch": "观看",
         "other": "en",
         "switch": "EN",
         "site_tag": "读懂 GitHub Trending",
@@ -500,7 +531,7 @@ def detail_page(
   </article>
   <aside class="related"><h2>{t['related']}</h2><ul>{related_items}</ul></aside>
 </main>
-<footer class="site-footer">Trending Scope · {t['updated']} {esc(data['meta']['date'])} · <a href="{t['directory_path']}">{t['directory']}</a>{sp.contact_html(locale)}</footer>
+<footer class="site-footer">Trending Scope · {t['updated']} {esc(data['meta']['date'])} · <a href="{t['directory_path']}">{t['directory']}</a>{editions_link(locale)}{sp.contact_html(locale)}</footer>
 """
     software = {
         "@type": "SoftwareSourceCode",
@@ -546,6 +577,146 @@ def detail_page(
             if indexable
             else "noindex,follow"
         ),
+    )
+
+
+# ---------------------------------------------------------------- past editions (video archive)
+HAS_EDITIONS = False   # set by build(): footers only link to /editions/ when videos.json has editions
+
+
+def editions_link(locale: str) -> str:
+    t = TEXT[locale]
+    return f' · <a href="{t["editions_path"]}">{t["editions"]}</a>' if HAS_EDITIONS else ""
+
+
+def edition_path(date: str, locale: str) -> str:
+    return f"{TEXT[locale]['editions_path']}{date}/"
+
+
+def sorted_editions(videos: dict | None) -> list[dict]:
+    return sorted((videos or {}).get("editions") or [], key=lambda e: e["date"], reverse=True)
+
+
+def edition_pair(date: str) -> tuple[str, str]:
+    return BASE_URL + edition_path(date, "en"), BASE_URL + edition_path(date, "zh")
+
+
+def _editions_breadcrumb(locale: str, canonical: str, label: str | None) -> dict:
+    t = TEXT[locale]
+    items = [
+        {"@type": "ListItem", "position": 1, "name": t["home"], "item": BASE_URL + t["home_path"]},
+        {"@type": "ListItem", "position": 2, "name": t["editions"], "item": BASE_URL + t["editions_path"]},
+    ]
+    if label:
+        items.append({"@type": "ListItem", "position": 3, "name": label, "item": canonical})
+    return {"@type": "BreadcrumbList", "@id": canonical + "#breadcrumb", "itemListElement": items}
+
+
+def _edition_cards(data: dict, ed: dict, locale: str) -> str:
+    registry = {repo["full"]: repo for repo in data["repos"]}
+    cards = []
+    for full, entry in sorted((ed.get("repos") or {}).items(), key=lambda kv: kv[1]["rank"]):
+        repo, ve = registry[full], entry.get(locale)
+        still = dur = ""
+        if ve:
+            still = f'<img src="/{esc(ve["poster"])}" alt="" loading="lazy" width="640" height="360"><span class="tri"></span>'
+            dur = f'<span class="dur">{sp.mmss(ve["duration"])}</span>'
+        cards.append(
+            f'<li class="scard"><a class="hit" href="{esc(repo_path(full, locale))}">{esc(full)}</a>'
+            f'<div class="still"><span class="rk">NO. {entry["rank"]:02d}</span>{still}{dur}</div>'
+            f'<div class="info"><h3>{esc(full)}</h3><p>{esc(repo[locale]["tag"])}</p>'
+            f'<div class="meta"><span>{esc(repo.get("lang") or "—")}</span></div></div></li>'
+        )
+    return "".join(cards)
+
+
+def edition_page(data: dict, ed: dict, locale: str, videos: dict, video_base: str) -> str:
+    t = TEXT[locale]
+    rows = sorted((ed.get("repos") or {}).items(), key=lambda kv: kv[1]["rank"])
+    date_label = sp.fmt_date(ed["date"], locale)
+    en_url, zh_url = edition_pair(ed["date"])
+    canonical = en_url if locale == "en" else zh_url
+    title = t["edition_title"].format(n=len(rows), date=ed["date"])
+    description = t["edition_description"].format(n=len(rows), date=date_label, top=rows[0][0] if rows else "")
+    player = sp.edition_player(make_ctx(), videos, ed, locale, video_base, f'{sp.HOME[locale]["edition"]} {date_label}')
+    body = f"""
+<main class="page-wrap edition-page">
+  <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="{t['home_path']}">{t['home']}</a><span>›</span><a href="{t['editions_path']}">{t['editions']}</a><span>›</span><span aria-current="page">{esc(ed['date'])}</span></nav>
+  <header class="directory-hero"><p class="eyebrow">GitHub Trending · <time datetime="{esc(ed['date'])}">{esc(ed['date'])}</time></p><h1>{t['edition_h1']} · {esc(date_label)}</h1><p>{esc(sp.edition_desc(locale, ed))}</p></header>
+  <section class="vid-block">{player}</section>
+  <section><h2>{t['edition_repos']}</h2><ol class="cards">{_edition_cards(data, ed, locale)}</ol></section>
+</main>
+<footer class="site-footer">Trending Scope · <a href="{t['editions_path']}">{t['editions']}</a> · <a href="{t['directory_path']}">{t['directory']}</a>{sp.contact_html(locale)}</footer>
+"""
+    video = sp.video_object(make_ctx(), ed["top10"][locale], video_base, sp.edition_name(locale, ed), sp.edition_desc(locale, ed), ed["date"], locale, canonical)
+    structured = {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "WebPage",
+                "@id": canonical + "#webpage",
+                "url": canonical,
+                "name": title,
+                "description": description,
+                "datePublished": ed["date"],
+                "inLanguage": t["html_lang"],
+                "isPartOf": {"@id": BASE_URL + "/#website"},
+                "breadcrumb": {"@id": canonical + "#breadcrumb"},
+            },
+            _editions_breadcrumb(locale, canonical, ed["date"]),
+            video,
+        ],
+    }
+    return page_shell(
+        locale=locale, title=title, description=description, canonical=canonical,
+        alternate_en=en_url, alternate_zh=zh_url, body=body, structured_data=structured,
+    )
+
+
+def editions_index_page(data: dict, locale: str, videos: dict, video_base: str) -> str:
+    t = TEXT[locale]
+    en_url, zh_url = BASE_URL + TEXT["en"]["editions_path"], BASE_URL + TEXT["zh"]["editions_path"]
+    canonical = en_url if locale == "en" else zh_url
+    cards = []
+    for ed in sorted_editions(videos):
+        long = ed["top10"][locale]
+        rows = sorted((ed.get("repos") or {}).items(), key=lambda kv: kv[1]["rank"])
+        date_label = sp.fmt_date(ed["date"], locale)
+        cards.append(
+            f'<li class="scard"><a class="hit" href="{esc(edition_path(ed["date"], locale))}">{esc(date_label)}</a>'
+            f'<div class="still"><span class="rk">TOP {len(rows)}</span><img src="/{esc(long["poster"])}" alt="" loading="lazy" width="640" height="360"><span class="tri"></span>'
+            f'<span class="dur">{sp.mmss(long["duration"])}</span></div>'
+            f'<div class="info"><h3>{esc(date_label)}</h3><p>{esc(sp.edition_name(locale, ed))}</p>'
+            f'<div class="meta"><span>NO. 1 · {esc(rows[0][0]) if rows else ""}</span></div></div></li>'
+        )
+    body = f"""
+<main class="page-wrap edition-page">
+  <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="{t['home_path']}">{t['home']}</a><span>›</span><span aria-current="page">{t['editions']}</span></nav>
+  <header class="directory-hero"><p class="eyebrow">GitHub Trending</p><h1>{t['editions']}</h1><p>{t['editions_intro']}</p></header>
+  <ol class="cards">{''.join(cards)}</ol>
+</main>
+<footer class="site-footer">Trending Scope · <a href="{t['directory_path']}">{t['directory']}</a>{sp.contact_html(locale)}</footer>
+"""
+    structured = {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "CollectionPage",
+                "@id": canonical + "#webpage",
+                "url": canonical,
+                "name": t["editions_title"],
+                "description": t["editions_description"],
+                "dateModified": sorted_editions(videos)[0]["date"],
+                "inLanguage": t["html_lang"],
+                "isPartOf": {"@id": BASE_URL + "/#website"},
+                "breadcrumb": {"@id": canonical + "#breadcrumb"},
+            },
+            _editions_breadcrumb(locale, canonical, None),
+        ],
+    }
+    return page_shell(
+        locale=locale, title=t["editions_title"], description=t["editions_description"], canonical=canonical,
+        alternate_en=en_url, alternate_zh=zh_url, body=body, structured_data=structured,
     )
 
 
@@ -675,7 +846,7 @@ def board_page(data: dict, board: str, language_id: str, locale: str, indexed_na
   <header class="board-hero"><p class="eyebrow">GitHub Trending · {t['updated']} <time datetime="{esc(data['meta']['date'])}">{esc(data['meta']['date'])}</time></p><h1>GitHub Trending · {esc(period)} · {esc(language)}</h1><p>{esc(intro)}</p><nav class="board-nav" aria-label="Chart views">{''.join(nav_links)}</nav></header>
   <section class="board-list" aria-label="{esc(title)}">{''.join(list_rows)}</section>
 </main>
-<footer class="site-footer">Trending Scope · {t['updated']} {esc(data['meta']['date'])} · <a href="{t['directory_path']}">{t['directory']}</a>{sp.contact_html(locale)}</footer>
+<footer class="site-footer">Trending Scope · {t['updated']} {esc(data['meta']['date'])} · <a href="{t['directory_path']}">{t['directory']}</a>{editions_link(locale)}{sp.contact_html(locale)}</footer>
 """
     structured = {
         "@context": "https://schema.org",
@@ -785,12 +956,17 @@ def not_found_page() -> str:
     )
 
 
-def sitemap_xml(data: dict, indexed_repos: list[dict]) -> tuple[str, list[str]]:
+def sitemap_xml(data: dict, indexed_repos: list[dict], videos: dict | None = None) -> tuple[str, list[str]]:
     pairs = []
     for board in BOARD_ORDER:
         for language in data["langs"]:
             pairs.append((*board_pair(board, language["id"]), data["meta"]["date"]))
     pairs.append((BASE_URL + "/repos/", BASE_URL + "/zh/repos/", data["meta"]["date"]))
+    editions = sorted_editions(videos)
+    if editions:
+        pairs.append((BASE_URL + "/editions/", BASE_URL + "/zh/editions/", editions[0]["date"]))
+        for ed in editions:
+            pairs.append((*edition_pair(ed["date"]), ed["date"]))
     for repo in sorted(indexed_repos, key=lambda row: row["full"].lower()):
         history = (repo.get("track") or {}).get("hist") or []
         lastmod = history[-1].get("d") if history else data["meta"]["date"]
@@ -829,12 +1005,15 @@ def _video_nodes(node: object) -> list[dict]:
     return []
 
 
-def video_sitemap_xml(output: Path, data: dict) -> tuple[str, int]:
+def video_sitemap_xml(output: Path, data: dict, videos: dict | None = None) -> tuple[str, int]:
     """Google video sitemap built from the VideoObject JSON-LD of the pages themselves, so it always matches the page."""
     pages = [("/", output / "index.html"), ("/index-zh", output / "index-zh.html")]
     for locale in ("en", "zh"):
         for repo in data["repos"]:
             path = repo_path(repo["full"], locale)
+            pages.append((path, output / path.strip("/") / "index.html"))
+        for ed in sorted_editions(videos):
+            path = edition_path(ed["date"], locale)
             pages.append((path, output / path.strip("/") / "index.html"))
     lines = [
         '<?xml version="1.0" encoding="UTF-8"?>',
@@ -952,7 +1131,7 @@ def validate_output(output: Path, expected_urls: list[str], ga4: bool = True) ->
 
 
 def build(output: Path, video_base: str | None = None, preview: bool = False) -> dict:
-    global VIDEO_ORIGIN, PREVIEW
+    global VIDEO_ORIGIN, PREVIEW, HAS_EDITIONS
     PREVIEW = preview
     output = output.resolve()
     if output == ROOT.resolve() or output in ROOT.resolve().parents:
@@ -968,6 +1147,7 @@ def build(output: Path, video_base: str | None = None, preview: bool = False) ->
     videos = None
     if (ROOT / "videos.json").is_file():
         videos = json.loads((ROOT / "videos.json").read_text(encoding="utf-8"))
+    HAS_EDITIONS = bool((videos or {}).get("editions"))
     base = (video_base or (videos or {}).get("base") or VIDEO_BASE_DEFAULT).rstrip("/")
     VIDEO_ORIGIN = "/".join(base.split("/")[:3]) if base.startswith("http") else "'self'"
     # Every repo that has its own video gets an indexable page of original editorial content.
@@ -1024,9 +1204,18 @@ def build(output: Path, video_base: str | None = None, preview: bool = False) ->
                 (target / "index.html").write_text(
                     board_page(data, board, language_id, locale, indexed_names), encoding="utf-8"
                 )
-    sitemap, urls = sitemap_xml(data, indexed_repos)
+    if HAS_EDITIONS:
+        for locale in ("en", "zh"):
+            index_dir = output / TEXT[locale]["editions_path"].strip("/")
+            index_dir.mkdir(parents=True, exist_ok=True)
+            (index_dir / "index.html").write_text(editions_index_page(data, locale, videos, base), encoding="utf-8")
+            for ed in sorted_editions(videos):
+                target = output / edition_path(ed["date"], locale).strip("/")
+                target.mkdir(parents=True, exist_ok=True)
+                (target / "index.html").write_text(edition_page(data, ed, locale, videos, base), encoding="utf-8")
+    sitemap, urls = sitemap_xml(data, indexed_repos, videos)
     (output / "sitemap.xml").write_text(sitemap, encoding="utf-8")
-    video_sitemap, video_count = video_sitemap_xml(output, data)
+    video_sitemap, video_count = video_sitemap_xml(output, data, videos)
     if video_count:
         (output / "sitemap-video.xml").write_text(video_sitemap, encoding="utf-8")
         robots = output / "robots.txt"

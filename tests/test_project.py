@@ -191,6 +191,33 @@ class SEOProductionContractTests(unittest.TestCase):
         videos = json.loads(path.read_text(encoding="utf-8"))
         return {full for ed in videos.get("editions", []) for full in (ed.get("repos") or {})}
 
+    def test_every_past_edition_has_an_indexable_video_page_in_both_languages(self):
+        path = ROOT / "videos.json"
+        if not path.is_file():
+            self.skipTest("no videos yet")
+        videos = json.loads(path.read_text(encoding="utf-8"))
+        editions = videos["editions"]
+        base = "https://trending.cosolution.cc"
+        for prefix, locale in (("/editions/", "en"), ("/zh/editions/", "zh")):
+            index_url = base + prefix
+            self.assertIn(index_url, self.urls)
+            index = self.file_for_url(index_url).read_text(encoding="utf-8")
+            self.assertEqual(index.count('class="scard"'), len(editions))
+            for ed in editions:
+                url = f"{base}{prefix}{ed['date']}/"
+                self.assertIn(url, self.urls)
+                self.assertIn(f'href="{prefix}{ed["date"]}/"', index)
+                page = self.file_for_url(url).read_text(encoding="utf-8")
+                n = len(ed["repos"])
+                self.assertEqual(page.count('class="scard"'), n)
+                self.assertEqual(page.count("data-t="), len(ed["top10"][locale]["chapters"]))
+                self.assertIn(ed["top10"][locale]["video"], page)
+                self.assertIn("VideoObject", page)
+                self.assertIn(f"Top {n}", re.search(r"<title>(.*?)</title>", page, re.S).group(1))
+        home = (self.output / "index.html").read_text(encoding="utf-8")
+        self.assertIn('class="past" href="/editions/"', home)
+        self.assertIn(f"NO. {len(editions[0]['repos']):02d} → 01", home)
+
     def test_crawl_contract_and_sitemap_scope(self):
         robots = (self.output / "robots.txt").read_text(encoding="utf-8")
         self.assertEqual(robots.count("Sitemap:"), 2)  # 主 sitemap + 视频 sitemap
@@ -203,6 +230,9 @@ class SEOProductionContractTests(unittest.TestCase):
         manifest = json.loads((ROOT / "seo-index.json").read_text(encoding="utf-8"))
         extra = self.video_names() - set(manifest["repos"])
         expected = 70 + 2 * len(extra)  # every repo with its own video also gets an indexable bilingual page
+        n_editions = len(json.loads((ROOT / "videos.json").read_text(encoding="utf-8"))["editions"]) if (ROOT / "videos.json").is_file() else 0
+        if n_editions:
+            expected += 2 + 2 * n_editions  # /editions/ index + one page per edition, each in two languages
         self.assertEqual(len(self.urls), expected)
         self.assertEqual(len(self.urls), len(set(self.urls)))
         self.assertEqual(self.report["urls"], expected)
@@ -274,12 +304,14 @@ class SEOProductionContractTests(unittest.TestCase):
     def test_video_sitemap_matches_pages(self):
         source = (self.output / "sitemap-video.xml").read_text(encoding="utf-8")
         self.assertIn("http://www.google.com/schemas/sitemap-video/1.1", source)
-        # 首页 2 个长视频 + 10 个仓库 × 中英 20 个短视频
-        self.assertEqual(source.count("<video:video>"), 22)
+        # 首页 2 个长视频 + 每个有视频的仓库 × 中英各 1 个短视频 + 每期往期页 × 中英各 1 个长视频
+        videos = json.loads((ROOT / "videos.json").read_text(encoding="utf-8"))
+        expected = 2 + 2 * len(self.video_names()) + 2 * len(videos["editions"])
+        self.assertEqual(source.count("<video:video>"), expected)
         for tag in ("thumbnail_loc", "title", "description", "content_loc", "duration", "publication_date"):
-            self.assertEqual(source.count(f"<video:{tag}>"), 22, tag)
+            self.assertEqual(source.count(f"<video:{tag}>"), expected, tag)
         locs = re.findall(r"<url>\s*<loc>(.*?)</loc>", source)
-        self.assertEqual(len(locs), 22)
+        self.assertEqual(len(locs), expected)
         self.assertIn(build_site.BASE_URL + "/", locs)
         self.assertIn(build_site.BASE_URL + "/index-zh", locs)
         self.assertTrue(all(url in self.urls for url in locs if url.count("/") > 3))

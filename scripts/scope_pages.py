@@ -32,7 +32,8 @@ HOME = {
         "all": "All trending",
         "nav": [("#tonight", "Tonight"), ("#stories", "Ten stories"), ("#more", "All repos")],
         "tonight": "Tonight’s countdown",
-        "tonight_sub": "Number ten to number one, one practical scenario each.",
+        "tonight_sub": "Number {n} to number one, one practical scenario each.",
+        "past": "Past editions →",
         "stories": "Ten stories",
         "stories_sub": "Each has its own short video and write-up.",
         "more": "Beyond the top ten",
@@ -52,8 +53,8 @@ HOME = {
         "alt_label": "中文",
         "ring": "DAILY SKY CHART · {date} · TEN BRIGHTEST · ",
         "star": "★",
-        "video_name": "GitHub Trending Top 10 — {date}",
-        "video_desc": "A countdown of the ten hottest GitHub repositories on {date}, with a practical scenario for each.",
+        "video_name": "GitHub Trending Top {n} — {date}",
+        "video_desc": "A countdown of the {n} hottest GitHub repositories on {date}, with a practical scenario for each.",
         "play": "Play",
     },
     "zh": {
@@ -66,7 +67,8 @@ HOME = {
         "all": "全部热榜",
         "nav": [("#tonight", "今夜星象"), ("#stories", "十星故事"), ("#more", "全部热榜")],
         "tonight": "今夜十星倒数",
-        "tonight_sub": "从第十名倒数到第一名，每个项目讲一个实用场景。",
+        "tonight_sub": "从第 {n} 名倒数到第一名，每个项目讲一个实用场景。",
+        "past": "往期视频 →",
         "stories": "十星故事",
         "stories_sub": "每个项目都有自己的短视频和图文解析。",
         "more": "十名之后",
@@ -86,8 +88,8 @@ HOME = {
         "alt_label": "English",
         "ring": "",
         "star": "★",
-        "video_name": "GitHub 热榜 Top 10 · {date}",
-        "video_desc": "{date} GitHub 最热的十个开源仓库倒数解说，每个项目讲一个实用场景。",
+        "video_name": "GitHub 热榜 Top {n} · {date}",
+        "video_desc": "{date} GitHub 最热的 {n} 个开源仓库倒数解说，每个项目讲一个实用场景。",
         "play": "播放",
     },
 }
@@ -190,6 +192,28 @@ def player_html(c: Ctx, videos: dict, entry: dict, locale: str, base: str, vid: 
     )
 
 
+def edition_name(locale: str, ed: dict) -> str:
+    return HOME[locale]["video_name"].format(n=len(ed.get("repos") or {}), date=fmt_date(ed["date"], locale))
+
+
+def edition_desc(locale: str, ed: dict) -> str:
+    return HOME[locale]["video_desc"].format(n=len(ed.get("repos") or {}), date=fmt_date(ed["date"], locale))
+
+
+def edition_player(c: Ctx, videos: dict, ed: dict, locale: str, base: str, caption: str) -> str:
+    """The long countdown video with its chapter list (same markup on the home page and on edition pages)."""
+    e = ed["top10"][locale]
+    chap = "".join(
+        f'<li><button type="button" data-t="{ch["t"]:.2f}"><span class="n">{"NO. %02d" % ch["rank"] if ch.get("rank") else "—"}</span>'
+        f'<span class="nm">{c.esc(ch["title"])}</span><span class="t">{mmss(ch["t"])}</span></button></li>'
+        for ch in e.get("chapters", [])
+    )
+    return (
+        f'<div class="player">{player_html(c, videos, e, locale, base, "long-video", edition_name(locale, ed), caption)}'
+        f'<h3 class="sr-only">{HOME[locale]["chapters"]}</h3><ol class="chapters" id="chapters">{chap}</ol></div>'
+    )
+
+
 def video_object(c: Ctx, entry: dict, base: str, name: str, desc: str, upload: str, locale: str, page_url: str) -> dict:
     return {
         "@type": "VideoObject",
@@ -286,22 +310,15 @@ def home_body(c: Ctx, data: dict, locale: str, indexed: set[str], videos: dict |
     # --- long video
     if ed and (ed.get("top10") or {}).get(locale):
         e = ed["top10"][locale]
-        name = t["video_name"].format(date=fmt_date(ed["date"], locale))
         cap = f'{t["edition"]} {fmt_date(ed["date"], locale)}' + ("" if fresh else f' · {t["last_edition"]}')
-        chap = "".join(
-            f'<li><button type="button" data-t="{ch["t"]:.2f}"><span class="n">{"NO. %02d" % ch["rank"] if ch.get("rank") else "—"}</span>'
-            f'<span class="nm">{c.esc(ch["title"])}</span><span class="t">{mmss(ch["t"])}</span></button></li>'
-            for ch in e.get("chapters", [])
-        )
-        player = (
-            f'<div class="player">{player_html(c, videos, e, locale, base, "long-video", name, cap)}'
-            f'<h3 class="sr-only">{t["chapters"]}</h3><ol class="chapters" id="chapters">{chap}</ol></div>'
-        )
-        nodes.append(video_object(c, e, base, name, t["video_desc"].format(date=fmt_date(ed["date"], locale)), ed["date"], locale, c.base_url + ("/" if locale == "en" else "/index-zh")))
+        player = edition_player(c, videos, ed, locale, base, cap)
+        nodes.append(video_object(c, e, base, edition_name(locale, ed), edition_desc(locale, ed), ed["date"], locale, c.base_url + ("/" if locale == "en" else "/index-zh")))
     else:
         player = f'<div class="pending">{t["no_video"]}</div>'
+    n_ed = len(ed.get("repos") or {}) if ed else len(top)   # 倒计时里有几个项目（榜单当天不一定正好 10 个）
+    past = f'<a class="past" href="{"/editions/" if locale == "en" else "/zh/editions/"}">{t["past"]}</a>' if ed else ""
     tonight = (
-        f'<section class="sec wide" id="tonight"><div class="sec-head"><span class="no">NO. 10 → 01</span><h2>{t["tonight"]}</h2><p>{t["tonight_sub"]}</p></div>{player}</section>'
+        f'<section class="sec wide" id="tonight"><div class="sec-head"><span class="no">NO. {n_ed:02d} → 01</span><h2>{t["tonight"]}</h2><p>{t["tonight_sub"].format(n=n_ed)}</p>{past}</div>{player}</section>'
     )
 
     # --- ten cards
@@ -324,7 +341,7 @@ def home_body(c: Ctx, data: dict, locale: str, indexed: set[str], videos: dict |
             f'<div class="info"><h3>{c.esc(row["full"])}</h3><p>{c.esc(loc["tag"])}</p>'
             f'<div class="meta"><span>{c.esc(repo.get("lang") or "—")}</span><span>{t["star"]} {c.esc(row.get("stars", "—"))}k</span><span>{c.esc(row.get("today", "—"))}</span></div></div></li>'
         )
-    stories = f'<section class="sec" id="stories"><div class="sec-head"><span class="no">TOP 10</span><h2>{t["stories"]}</h2><p>{t["stories_sub"]}</p></div><ol class="cards">{"".join(cards)}</ol></section>'
+    stories = f'<section class="sec" id="stories"><div class="sec-head"><span class="no">TOP {len(top)}</span><h2>{t["stories"]}</h2><p>{t["stories_sub"]}</p></div><ol class="cards">{"".join(cards)}</ol></section>'
 
     # --- ranks 11+ and chart views
     items = []
