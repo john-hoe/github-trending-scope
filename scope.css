@@ -64,6 +64,9 @@ a{color:var(--acc);text-underline-offset:3px}a:hover{color:var(--ink)}
 :root[data-skin="en"] .sec-head h2{font-weight:400;letter-spacing:0}
 .sec-head p{color:var(--muted);font-size:15px}
 .sec-head .no{font:400 14px var(--mono);letter-spacing:.22em;color:var(--acc)}
+.sec-head .past{margin-left:auto;font:400 14px var(--mono);letter-spacing:.08em;color:var(--acc);text-decoration:none;border-bottom:1px solid transparent}
+.sec-head .past:hover,.sec-head .past:focus-visible{border-bottom-color:var(--acc)}
+.edition-page .vid-block{margin:8px 0 40px}.edition-page h2{margin:0 0 18px}.edition-page .cards{margin-bottom:40px}
 
 /* 播放器 */
 .sec.wide{max-width:1400px}
