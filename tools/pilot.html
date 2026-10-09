@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>寓言版试点 · 预览</title>
+<style>
+:root{--bg:#05060d;--ink:#f1ece0;--muted:#9b9a9c;--acc:#d4b472;--line:rgba(241,236,224,.22);--panel:rgba(8,10,20,.78)}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#05060d}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.7 -apple-system,"PingFang SC","Noto Sans SC",sans-serif}
+main{max-width:1040px;margin:0 auto;padding:40px 16px 80px}
+h1{font:700 30px/1.3 "Songti SC",Georgia,serif;margin:0 0 6px}h2{font:700 22px/1.3 "Songti SC",Georgia,serif;margin:44px 0 6px;color:var(--acc)}
+p.sub{color:var(--muted);margin:0 0 14px}
+.note{border:1px solid var(--line);background:var(--panel);padding:14px 18px;margin:18px 0;color:#d8d4c8}
+video{display:block;width:100%;aspect-ratio:16/9;background:#000;border:1px solid var(--line)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px}
+figure{margin:0}figcaption{margin:8px 0 0;color:var(--muted);font-size:14px}
+.voice{border:1px solid var(--line);background:var(--panel);padding:12px 16px}.voice b{display:block;margin-bottom:6px}.voice audio{width:100%}
+</style>
+</head>
+<body>
+<main>
+  <h1>寓言版试点 · 预览</h1>
+  <p class="sub">星榜 Trending Scope · 内部预览，不收录。看完回复我哪里要改。</p>
+  <div class="note">三部分：① 两条完整寓言（仓库页用）；② 长视频样片（守夜人 + 两个迷你寓言，看节奏）；③ 配音试听（挑一个讲故事的声音）。</div>
+
+  <h2>① 完整寓言（约 80 秒）</h2>
+  <p class="sub">每个仓库页上的单独视频。先讲故事，最后一小段落回真实项目。</p>
+  <div class="grid">
+    <figure><video controls preload="metadata" playsinline crossorigin="anonymous" src="__BASE__/kwp-fable.mp4"><track kind="subtitles" srclang="zh-CN" label="中文" src="__BASE__/kwp-fable.vtt" default></video><figcaption>《聪明的学徒和十一本手册》· knowledge-work-plugins</figcaption></figure>
+    <figure><video controls preload="metadata" playsinline crossorigin="anonymous" src="__BASE__/sysdesign-fable.mp4"><track kind="subtitles" srclang="zh-CN" label="中文" src="__BASE__/sysdesign-fable.vtt" default></video><figcaption>《小面馆和一张图纸》· system-design-notes</figcaption></figure>
+  </div>
+
+  <h2>② 长视频样片（约 2 分钟，只放两个项目）</h2>
+  <p class="sub">守夜人开场 → 数字卡 → 迷你寓言（缩剪版，约 30 秒）→ 收尾。正式的长视频每天是 9～10 个项目，节奏同这个。</p>
+  <figure><video controls preload="metadata" playsinline crossorigin="anonymous" src="__BASE__/long-sample.mp4"><track kind="subtitles" srclang="zh-CN" label="中文" src="__BASE__/long-sample.vtt" default></video><figcaption>长视频样片 · 寓言版</figcaption></figure>
+
+  <h2>③ 配音试听</h2>
+  <p class="sub">同一段话，四个声音。上面的视频现在用的是第一个。</p>
+  <div class="grid">
+    <div class="voice"><b>晓晓 · 温暖女声（现在用的，语速放慢了）</b><audio controls preload="none" src="__BASE__/voice-xiaoxiao.mp3"></audio></div>
+    <div class="voice"><b>晓伊 · 活泼女声</b><audio controls preload="none" src="__BASE__/voice-xiaoyi.mp3"></audio></div>
+    <div class="voice"><b>云希 · 年轻男声，讲故事感</b><audio controls preload="none" src="__BASE__/voice-yunxi.mp3"></audio></div>
+    <div class="voice"><b>云健 · 沉稳男声</b><audio controls preload="none" src="__BASE__/voice-yunjian.mp3"></audio></div>
+  </div>
+</main>
+</body>
+</html>
