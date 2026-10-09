@@ -6,13 +6,15 @@
 set -e
 export PATH=/opt/homebrew/bin:$PATH
 S=${SITE_DIR:-~/claude-work/scope-site}; ST=~/claude-work/scope-draft; M=~/claude-work/scope-media/v
-SKIP=0; ONLY=""
-for a in "$@"; do case $a in --skip-upload) SKIP=1;; --only=*) ONLY=${a#--only=};; esac; done
+SKIP=0; ONLY=""; ROTATE=0
+for a in "$@"; do case $a in --skip-upload) SKIP=1;; --only=*) ONLY=${a#--only=};; --rotate) ROTATE=1;; esac; done
+#   --rotate 换一个新的视频路径 token（视频内容改过、又怕 Cloudflare 边缘缓存还给旧文件时用；会重传全部日期，密码不变）。
 W=~/claude-work/cf/node_modules/.bin/wrangler
 mkdir -p $ST/functions; cd $ST
 if [ ! -f .secret ]; then
   { echo "TOKEN=$(openssl rand -hex 8)"; echo "PASS=$(openssl rand -base64 18 | tr -dc 'A-Za-z0-9' | cut -c1-14)"; } > .secret; chmod 600 .secret
 fi
+if [ $ROTATE = 1 ]; then sed -i '' "s/^TOKEN=.*/TOKEN=$(openssl rand -hex 8)/" .secret; fi
 . ./.secret
 HASH=$(printf %s "$PASS" | shasum -a 256 | cut -d' ' -f1)
 cat > functions/_middleware.js <<JS
