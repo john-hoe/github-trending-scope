@@ -494,7 +494,7 @@ def detail_page(
         for row in related
     )
     video_html, video_nodes = "", []
-    found = sp.repo_video(videos, repo["full"])
+    found = sp.repo_video(videos, repo["full"], locale)
     if found and found[1].get(locale):
         ed, entry = found
         ve = entry[locale]
@@ -594,7 +594,8 @@ def edition_path(date: str, locale: str) -> str:
 
 
 def sorted_editions(videos: dict | None) -> list[dict]:
-    return sorted((videos or {}).get("editions") or [], key=lambda e: e["date"], reverse=True)
+    """Editions available in both languages (the archive pages and sitemap only list those)."""
+    return sp.complete_editions(videos)
 
 
 def edition_pair(date: str) -> tuple[str, str]:
@@ -1147,7 +1148,7 @@ def build(output: Path, video_base: str | None = None, preview: bool = False) ->
     videos = None
     if (ROOT / "videos.json").is_file():
         videos = json.loads((ROOT / "videos.json").read_text(encoding="utf-8"))
-    HAS_EDITIONS = bool((videos or {}).get("editions"))
+    HAS_EDITIONS = bool(sp.complete_editions(videos))
     base = (video_base or (videos or {}).get("base") or VIDEO_BASE_DEFAULT).rstrip("/")
     VIDEO_ORIGIN = "/".join(base.split("/")[:3]) if base.startswith("http") else "'self'"
     # Every repo that has its own video gets an indexable page of original editorial content.

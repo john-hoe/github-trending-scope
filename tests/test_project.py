@@ -196,7 +196,7 @@ class SEOProductionContractTests(unittest.TestCase):
         if not path.is_file():
             self.skipTest("no videos yet")
         videos = json.loads(path.read_text(encoding="utf-8"))
-        editions = videos["editions"]
+        editions = build_site.sp.complete_editions(videos)   # 只有中英文都做好的期才有归档页
         base = "https://trending.cosolution.cc"
         for prefix, locale in (("/editions/", "en"), ("/zh/editions/", "zh")):
             index_url = base + prefix
@@ -216,7 +216,8 @@ class SEOProductionContractTests(unittest.TestCase):
                 self.assertIn(f"Top {n}", re.search(r"<title>(.*?)</title>", page, re.S).group(1))
         home = (self.output / "index.html").read_text(encoding="utf-8")
         self.assertIn('class="past" href="/editions/"', home)
-        self.assertIn(f"NO. {len(editions[0]['repos']):02d} → 01", home)
+        latest_en = build_site.sp.latest_edition(videos, "en")   # 英文视频还没做好的一天，英文首页退回到上一期
+        self.assertIn(f"NO. {len(latest_en['repos']):02d} → 01", home)
 
     def test_crawl_contract_and_sitemap_scope(self):
         robots = (self.output / "robots.txt").read_text(encoding="utf-8")
@@ -230,7 +231,7 @@ class SEOProductionContractTests(unittest.TestCase):
         manifest = json.loads((ROOT / "seo-index.json").read_text(encoding="utf-8"))
         extra = self.video_names() - set(manifest["repos"])
         expected = 70 + 2 * len(extra)  # every repo with its own video also gets an indexable bilingual page
-        n_editions = len(json.loads((ROOT / "videos.json").read_text(encoding="utf-8"))["editions"]) if (ROOT / "videos.json").is_file() else 0
+        n_editions = len(build_site.sp.complete_editions(json.loads((ROOT / "videos.json").read_text(encoding="utf-8")))) if (ROOT / "videos.json").is_file() else 0
         if n_editions:
             expected += 2 + 2 * n_editions  # /editions/ index + one page per edition, each in two languages
         self.assertEqual(len(self.urls), expected)
@@ -306,7 +307,9 @@ class SEOProductionContractTests(unittest.TestCase):
         self.assertIn("http://www.google.com/schemas/sitemap-video/1.1", source)
         # 首页 2 个长视频 + 每个有视频的仓库 × 中英各 1 个短视频 + 每期往期页 × 中英各 1 个长视频
         videos = json.loads((ROOT / "videos.json").read_text(encoding="utf-8"))
-        expected = 2 + 2 * len(self.video_names()) + 2 * len(videos["editions"])
+        sp = build_site.sp
+        per_locale = sum(1 for loc in ("en", "zh") if sp.latest_edition(videos, loc)) + sum(1 for loc in ("en", "zh") for full in self.video_names() if sp.repo_video(videos, full, loc))
+        expected = per_locale + 2 * len(sp.complete_editions(videos))
         self.assertEqual(source.count("<video:video>"), expected)
         for tag in ("thumbnail_loc", "title", "description", "content_loc", "duration", "publication_date"):
             self.assertEqual(source.count(f"<video:{tag}>"), expected, tag)

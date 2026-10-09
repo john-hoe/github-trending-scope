@@ -153,16 +153,30 @@ def mmss(seconds: float) -> str:
 
 
 # ---------------------------------------------------------------- videos manifest
-def latest_edition(videos: dict | None) -> dict | None:
+def has_locale(ed: dict, locale: str) -> bool:
+    return bool((ed.get("top10") or {}).get(locale))
+
+
+def complete_editions(videos: dict | None) -> list[dict]:
+    """Editions published in both languages, newest first (only these get archive pages and sitemap entries)."""
+    eds = [e for e in (videos or {}).get("editions") or [] if has_locale(e, "zh") and has_locale(e, "en")]
+    return sorted(eds, key=lambda e: e["date"], reverse=True)
+
+
+def latest_edition(videos: dict | None, locale: str | None = None) -> dict | None:
+    """Newest edition (that has a video in `locale`, if given): a day whose English cut is not ready yet falls back to the previous one."""
     eds = (videos or {}).get("editions") or []
+    if locale:
+        eds = [e for e in eds if has_locale(e, locale)]
     return max(eds, key=lambda e: e["date"]) if eds else None
 
 
-def repo_video(videos: dict | None, full: str) -> tuple[dict, dict] | None:
-    """Newest edition that contains a short video for `full` -> (edition, repo entry)."""
+def repo_video(videos: dict | None, full: str, locale: str | None = None) -> tuple[dict, dict] | None:
+    """Newest edition that contains a short video for `full` (in `locale`, if given) -> (edition, repo entry)."""
     for ed in sorted((videos or {}).get("editions") or [], key=lambda e: e["date"], reverse=True):
-        if full in (ed.get("repos") or {}):
-            return ed, ed["repos"][full]
+        entry = (ed.get("repos") or {}).get(full)
+        if entry and (locale is None or entry.get(locale)):
+            return ed, entry
     return None
 
 
@@ -286,7 +300,7 @@ def home_body(c: Ctx, data: dict, locale: str, indexed: set[str], videos: dict |
     registry = {r["full"]: r for r in data["repos"]}
     rows = data["boards"]["daily"]["all"]
     top, rest = rows[:10], rows[10:]
-    ed = latest_edition(videos)
+    ed = latest_edition(videos, locale)
     fresh = bool(ed and ed["date"] == iso)
     nodes: list[dict] = []
 
@@ -316,7 +330,7 @@ def home_body(c: Ctx, data: dict, locale: str, indexed: set[str], videos: dict |
     else:
         player = f'<div class="pending">{t["no_video"]}</div>'
     n_ed = len(ed.get("repos") or {}) if ed else len(top)   # 倒计时里有几个项目（榜单当天不一定正好 10 个）
-    past = f'<a class="past" href="{"/editions/" if locale == "en" else "/zh/editions/"}">{t["past"]}</a>' if ed else ""
+    past = f'<a class="past" href="{"/editions/" if locale == "en" else "/zh/editions/"}">{t["past"]}</a>' if ed and complete_editions(videos) else ""
     tonight = (
         f'<section class="sec wide" id="tonight"><div class="sec-head"><span class="no">NO. {n_ed:02d} → 01</span><h2>{t["tonight"]}</h2><p>{t["tonight_sub"].format(n=n_ed)}</p>{past}</div>{player}</section>'
     )
@@ -326,7 +340,7 @@ def home_body(c: Ctx, data: dict, locale: str, indexed: set[str], videos: dict |
     for i, row in enumerate(top):
         repo = registry[row["full"]]
         loc = repo[locale]
-        vid = repo_video(videos, row["full"]) if fresh else None
+        vid = repo_video(videos, row["full"], locale) if fresh else None
         still = ""
         dur = ""
         if vid and vid[1].get(locale):
