@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-09",
+  "generated_at": "2026-10-09 12:33 (CST)",
+  "repos": [
+    {
+      "full": "boykopovar/AnyPS5",
+      "rank": 1,
+      "stars": 16.5,
+      "today_n": 4669,
+      "slug": "anyps5",
+      "cat": "other",
+      "lang": "C++"
+    },
+    {
+      "full": "cathrynlavery/diagram-design",
+      "rank": 2,
+      "stars": 46.7,
+      "today_n": 1160,
+      "slug": "diagram-design",
+      "cat": "agent",
+      "lang": "HTML"
+    },
+    {
+      "full": "morluto/rea",
+      "rank": 3,
+      "stars": 29.4,
+      "today_n": 7738,
+      "slug": "rea",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "mattpocock/skills",
+      "rank": 4,
+      "stars": 281.3,
+      "today_n": 1774,
+      "slug": "mattpocock-skills",
+      "cat": "agent",
+      "lang": "Shell"
+    },
+    {
+      "full": "thedotmack/claude-mem",
+      "rank": 5,
+      "stars": 98.6,
+      "today_n": 670,
+      "slug": "claude-mem",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "EpicGames/raddebugger",
+      "rank": 6,
+      "stars": 8.2,
+      "today_n": 279,
+      "slug": "raddebugger",
+      "cat": "infra",
+      "lang": "C"
+    },
+    {
+      "full": "anthropics/knowledge-work-plugins",
+      "rank": 7,
+      "stars": 27.8,
+      "today_n": 392,
+      "slug": "knowledge-work-plugins",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "storytold/artcraft",
+      "rank": 8,
+      "stars": 8.5,
+      "today_n": 2103,
+      "slug": "artcraft",
+      "cat": "ai",
+      "lang": "Rust"
+    },
+    {
+      "full": "liquidslr/system-design-notes",
+      "rank": 9,
+      "stars": 24.8,
+      "today_n": 393,
+      "slug": "system-design-notes",
+      "cat": "other",
+      "lang": null
+    }
+  ]
+}
