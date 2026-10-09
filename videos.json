@@ -67,6 +67,70 @@
        "title": "收尾"
       }
      ]
+    },
+    "en": {
+     "video": "2026-10-09/top10-en.mp4",
+     "video720": "2026-10-09/top10-en-720.mp4",
+     "vtt": "2026-10-09/top10-en.vtt",
+     "poster": "media/2026-10-09/top10-en.jpg",
+     "duration": 334.8,
+     "chapters": [
+      {
+       "rank": null,
+       "t": 0,
+       "title": "Intro"
+      },
+      {
+       "rank": 9,
+       "t": 11.83,
+       "title": "liquidslr/system-design-notes"
+      },
+      {
+       "rank": 8,
+       "t": 52.93,
+       "title": "storytold/artcraft"
+      },
+      {
+       "rank": 7,
+       "t": 84.53,
+       "title": "anthropics/knowledge-work-plugins"
+      },
+      {
+       "rank": 6,
+       "t": 117.93,
+       "title": "EpicGames/raddebugger"
+      },
+      {
+       "rank": 5,
+       "t": 150.77,
+       "title": "thedotmack/claude-mem"
+      },
+      {
+       "rank": 4,
+       "t": 183.7,
+       "title": "mattpocock/skills"
+      },
+      {
+       "rank": 3,
+       "t": 219.87,
+       "title": "morluto/rea"
+      },
+      {
+       "rank": 2,
+       "t": 254.2,
+       "title": "cathrynlavery/diagram-design"
+      },
+      {
+       "rank": 1,
+       "t": 286.43,
+       "title": "boykopovar/AnyPS5"
+      },
+      {
+       "rank": null,
+       "t": 322.13,
+       "title": "Outro"
+      }
+     ]
     }
    },
    "repos": {
@@ -78,6 +142,12 @@
       "vtt": "2026-10-09/anyps5-fable-zh.vtt",
       "poster": "media/2026-10-09/anyps5-fable-zh.jpg",
       "duration": 87
+     },
+     "en": {
+      "video": "2026-10-09/anyps5-fable-en.mp4",
+      "vtt": "2026-10-09/anyps5-fable-en.vtt",
+      "poster": "media/2026-10-09/anyps5-fable-en.jpg",
+      "duration": 92.7
      }
     },
     "cathrynlavery/diagram-design": {
@@ -88,6 +158,12 @@
       "vtt": "2026-10-09/diagram-design-fable-zh.vtt",
       "poster": "media/2026-10-09/diagram-design-fable-zh.jpg",
       "duration": 79.6
+     },
+     "en": {
+      "video": "2026-10-09/diagram-design-fable-en.mp4",
+      "vtt": "2026-10-09/diagram-design-fable-en.vtt",
+      "poster": "media/2026-10-09/diagram-design-fable-en.jpg",
+      "duration": 85.2
      }
     },
     "morluto/rea": {
@@ -98,6 +174,12 @@
       "vtt": "2026-10-09/rea-fable-zh.vtt",
       "poster": "media/2026-10-09/rea-fable-zh.jpg",
       "duration": 90.3
+     },
+     "en": {
+      "video": "2026-10-09/rea-fable-en.mp4",
+      "vtt": "2026-10-09/rea-fable-en.vtt",
+      "poster": "media/2026-10-09/rea-fable-en.jpg",
+      "duration": 94.4
      }
     },
     "mattpocock/skills": {
@@ -108,6 +190,12 @@
       "vtt": "2026-10-09/skills-fable-zh.vtt",
       "poster": "media/2026-10-09/skills-fable-zh.jpg",
       "duration": 81.2
+     },
+     "en": {
+      "video": "2026-10-09/skills-fable-en.mp4",
+      "vtt": "2026-10-09/skills-fable-en.vtt",
+      "poster": "media/2026-10-09/skills-fable-en.jpg",
+      "duration": 94.2
      }
     },
     "thedotmack/claude-mem": {
@@ -118,6 +206,12 @@
       "vtt": "2026-10-09/claude-mem-fable-zh.vtt",
       "poster": "media/2026-10-09/claude-mem-fable-zh.jpg",
       "duration": 76.4
+     },
+     "en": {
+      "video": "2026-10-09/claude-mem-fable-en.mp4",
+      "vtt": "2026-10-09/claude-mem-fable-en.vtt",
+      "poster": "media/2026-10-09/claude-mem-fable-en.jpg",
+      "duration": 89.9
      }
     },
     "EpicGames/raddebugger": {
@@ -128,6 +222,12 @@
       "vtt": "2026-10-09/raddebugger-fable-zh.vtt",
       "poster": "media/2026-10-09/raddebugger-fable-zh.jpg",
       "duration": 77.9
+     },
+     "en": {
+      "video": "2026-10-09/raddebugger-fable-en.mp4",
+      "vtt": "2026-10-09/raddebugger-fable-en.vtt",
+      "poster": "media/2026-10-09/raddebugger-fable-en.jpg",
+      "duration": 80.5
      }
     },
     "anthropics/knowledge-work-plugins": {
@@ -138,6 +238,12 @@
       "vtt": "2026-10-09/kwp-fable-zh.vtt",
       "poster": "media/2026-10-09/kwp-fable-zh.jpg",
       "duration": 85.7
+     },
+     "en": {
+      "video": "2026-10-09/kwp-fable-en.mp4",
+      "vtt": "2026-10-09/kwp-fable-en.vtt",
+      "poster": "media/2026-10-09/kwp-fable-en.jpg",
+      "duration": 94.3
      }
     },
     "storytold/artcraft": {
@@ -148,6 +254,12 @@
       "vtt": "2026-10-09/artcraft-fable-zh.vtt",
       "poster": "media/2026-10-09/artcraft-fable-zh.jpg",
       "duration": 78.2
+     },
+     "en": {
+      "video": "2026-10-09/artcraft-fable-en.mp4",
+      "vtt": "2026-10-09/artcraft-fable-en.vtt",
+      "poster": "media/2026-10-09/artcraft-fable-en.jpg",
+      "duration": 84.8
      }
     },
     "liquidslr/system-design-notes": {
@@ -158,6 +270,12 @@
       "vtt": "2026-10-09/sysdesign-fable-zh.vtt",
       "poster": "media/2026-10-09/sysdesign-fable-zh.jpg",
       "duration": 89.7
+     },
+     "en": {
+      "video": "2026-10-09/sysdesign-fable-en.mp4",
+      "vtt": "2026-10-09/sysdesign-fable-en.vtt",
+      "poster": "media/2026-10-09/sysdesign-fable-en.jpg",
+      "duration": 108.9
      }
     }
    }
