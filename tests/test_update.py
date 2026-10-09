@@ -2,6 +2,7 @@ import copy
 import io
 import importlib.util
 import json
+import os
 import tempfile
 import unittest
 from datetime import datetime
@@ -75,6 +76,48 @@ class ParsingTests(unittest.TestCase):
     def test_non_repository_href_is_ignored(self):
         page = '<article class="Box-row"><h2><a href="/owner/repo/issues">bad</a></h2></article>'
         self.assertEqual(UPDATE.parse_trending(page), [])
+
+
+class PageStructureTests(unittest.TestCase):
+    """榜单长度由 GitHub 决定：短榜单照常通过，结构异常（截断/无行/解析不全）才失败。"""
+
+    @staticmethod
+    def _row(i, delta="56 stars today"):
+        return (f'<article class="Box-row"><h2><a href="/owner/repo{i}">owner / repo{i}</a></h2>'
+                f'<a href="/owner/repo{i}/stargazers">1,234</a><span>{delta}</span></article>')
+
+    def _page(self, n, tail="</html>", delta="56 stars today"):
+        return "<html><body>" + "".join(self._row(i, delta) for i in range(n)) + "</body>" + tail
+
+    def test_short_board_with_good_structure_is_accepted(self):
+        for n in (1, 9, 25):
+            page = self._page(n)
+            repos = UPDATE.parse_trending(page)
+            self.assertEqual(len(repos), n)
+            self.assertEqual(UPDATE.trending_page_problems(page, repos), [])
+
+    def test_page_without_rows_is_flagged(self):
+        page = "<html><body><p>redesigned markup</p></body></html>"
+        problems = UPDATE.trending_page_problems(page, UPDATE.parse_trending(page))
+        self.assertTrue(any("no repository rows" in p for p in problems))
+
+    def test_truncated_page_is_flagged(self):
+        page = self._page(9, tail="")
+        problems = UPDATE.trending_page_problems(page, UPDATE.parse_trending(page))
+        self.assertTrue(any("truncated" in p for p in problems))
+
+    def test_unparseable_rows_are_flagged(self):
+        page = self._page(3).replace("</body>", '<article class="Box-row"><h2><a href="/x/y/issues">x</a></h2>'
+                                                 '<span>5 stars today</span></article></body>')
+        repos = UPDATE.parse_trending(page)
+        self.assertEqual(len(repos), 3)
+        problems = UPDATE.trending_page_problems(page, repos)
+        self.assertTrue(any("3 of 4" in p for p in problems))
+
+    def test_rows_without_star_delta_text_are_flagged(self):
+        page = self._page(5, delta="starred recently")
+        problems = UPDATE.trending_page_problems(page, UPDATE.parse_trending(page))
+        self.assertTrue(any("no 'stars today' text" in p for p in problems))
 
 
 class FetchTests(unittest.TestCase):
@@ -357,6 +400,23 @@ class PinnedCatalogTests(unittest.TestCase):
         old = {"owner/repo": {"full": "owner/repo", "slug": "repo", "auto": True}}
         with self.assertRaisesRegex(ValueError, "automatic placeholder"):
             UPDATE.retain_pinned_repos({}, [], old, ["owner/repo"], set())
+
+    def test_repos_with_published_videos_are_pinned_alongside_the_seo_index(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            data_path = os.path.join(tmp, "data.json")
+            with open(os.path.join(tmp, "seo-index.json"), "w", encoding="utf-8") as f:
+                json.dump({"schema": 1, "repos": ["owner/indexed", "owner/video"]}, f)
+            with open(os.path.join(tmp, "videos.json"), "w", encoding="utf-8") as f:
+                json.dump({"editions": [
+                    {"repos": {"owner/video": {}, "owner/other": {}}},
+                    {"repos": {"owner/other": {}}},
+                ]}, f)
+            self.assertEqual(UPDATE.load_pinned_repo_names(data_path),
+                             ["owner/indexed", "owner/video", "owner/other"])
+
+    def test_pinned_names_work_without_a_video_manifest(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            self.assertEqual(UPDATE.load_pinned_repo_names(os.path.join(tmp, "data.json")), [])
 
 
 class TrackingTests(unittest.TestCase):

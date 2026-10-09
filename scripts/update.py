@@ -12,14 +12,15 @@
 规则：
 - 已在册的仓库：保留已有 zh/en 深度解析，仅更新动态字段。
 - 新出现的仓库：自动生成带 auto 标记的简摘要（取自 GitHub 描述），待人工补充精评。
-- 任一预期榜单抓取失败、缺失或解析数量不足时失败退出，绝不发布部分数据。
+- 任一预期榜单抓取失败、缺失或页面结构异常（被截断、无榜单行、行解析不全）时失败退出，
+  绝不发布部分数据；榜单长度由 GitHub 决定，不再用固定数量判断。
 - 可选 LLM 解析：配置环境变量后，每轮对新上榜及历史 auto 仓库调用 OpenAI 兼容
   接口生成双语深度解析（成功后清除 auto 占位标记，但不等同人工事实核验）；未配置或
   调用失败时保持自动摘要降级。支持并发、退避重试和 GitHub Token 鉴权读取 README；
   每轮最多处理 --llm-limit 个，新上榜及全语言主榜优先。
 
 用法：
-    python3 scripts/update.py [--dry-run] [--data PATH] [--html PATH] [--min-repos 10] [--llm-limit 25]
+    python3 scripts/update.py [--dry-run] [--data PATH] [--html PATH] [--min-repos 1] [--llm-limit 25]
 环境：
     无需任何第三方依赖（Python 3.9+ 标准库）。
     LLM_API_KEY / LLM_BASE_URL：OpenAI 兼容接口的密钥与地址（如 https://api.openai.com/v1），
@@ -116,9 +117,34 @@ def _to_int(s: str) -> int:
     return int(s.replace(",", "").strip())
 
 
+_ROW_SPLIT_RE = re.compile(r'<article\b[^>]*\bclass="[^"]*\bBox-row\b[^"]*"[^>]*>')
+_DELTA_RE = re.compile(r"([\d,]+)\s*stars\s+(today|this\s+week|this\s+month)")
+
+
+def trending_page_problems(page: str, repos: list) -> list:
+    """按页面结构判断是否抓到完整、可解析的榜单，返回问题列表（空 = 正常）。
+
+    榜单长度由 GitHub 决定（当天可能只有 9 个），所以不用固定数量判断，
+    而是检查：页面没被截断、有榜单行、每一行都解析成功且带「新增 stars」文字。
+    """
+    problems = []
+    if "</html>" not in page:
+        problems.append("page is truncated (no closing </html>)")
+    chunks = _ROW_SPLIT_RE.split(page)[1:]
+    if not chunks:
+        problems.append("no repository rows found (page markup may have changed)")
+        return problems
+    if len(repos) < len(chunks):
+        problems.append(f"only {len(repos)} of {len(chunks)} rows could be parsed")
+    no_delta = sum(1 for ch in chunks if not _DELTA_RE.search(ch))
+    if no_delta:
+        problems.append(f"{no_delta} of {len(chunks)} rows have no 'stars today' text")
+    return problems
+
+
 def parse_trending(page: str) -> list:
     """解析 trending 页面，返回 [{full, desc, lang, stars_n, today_n}, ...]（按榜单顺序）。"""
-    chunks = re.split(r'<article\b[^>]*\bclass="[^"]*\bBox-row\b[^"]*"[^>]*>', page)[1:]
+    chunks = _ROW_SPLIT_RE.split(page)[1:]
     repos = []
     for ch in chunks:
         m = re.search(r"<h2[^>]*>.*?href=\"/([^\"]+)\"", ch, re.S)
@@ -133,7 +159,7 @@ def parse_trending(page: str) -> list:
         lang = lang_m.group(1).strip() if lang_m else None
         stars_m = re.search(r"/stargazers\"[^>]*>(.*?)</a>", ch, re.S)
         stars_n = _to_int(_strip_tags(stars_m.group(1))) if stars_m else 0
-        today_m = re.search(r"([\d,]+)\s*stars\s+(today|this\s+week|this\s+month)", ch)
+        today_m = _DELTA_RE.search(ch)
         today_n = _to_int(today_m.group(1)) if today_m else 0
         repos.append({"full": full, "desc": desc, "lang": lang,
                       "stars_n": stars_n, "today_n": today_n})
@@ -210,6 +236,24 @@ def load_pinned_repo_names(data_path: str) -> list:
         raise ValueError("seo-index.json repos must be a unique list")
     if any(not isinstance(name, str) or not FULL_NAME_RE.fullmatch(name) for name in names):
         raise ValueError("seo-index.json contains an invalid repository name")
+    return names + [name for name in load_video_repo_names(data_path) if name not in names]
+
+
+def load_video_repo_names(data_path: str) -> list:
+    """Repositories with a published video page (videos.json) must outlive their chart appearance,
+    otherwise the next daily refresh drops them and the site build rejects the video manifest."""
+    path = os.path.join(os.path.dirname(data_path), "videos.json")
+    if not os.path.exists(path):
+        return []
+    with open(path, encoding="utf-8") as f:
+        manifest = json.load(f)
+    names = []
+    for edition in manifest.get("editions", []):
+        for name in edition.get("repos", {}):
+            if not isinstance(name, str) or not FULL_NAME_RE.fullmatch(name):
+                raise ValueError("videos.json contains an invalid repository name")
+            if name not in names:
+                names.append(name)
     return names
 
 
@@ -840,9 +884,10 @@ def main() -> int:
     ap = argparse.ArgumentParser(description="Refresh Trending Scope data.json from github.com/trending")
     here = os.path.dirname(os.path.abspath(__file__))
     ap.add_argument("--data", default=os.path.join(here, "..", "data.json"), help="data.json 路径")
-    ap.add_argument("--min-repos", type=int, default=10, help="主榜解析少于该数量视为页面结构变更，失败退出")
-    ap.add_argument("--min-board-repos", type=int, default=5,
-                    help="任一非主榜解析少于该数量视为部分数据，失败退出（默认 5）")
+    ap.add_argument("--min-repos", type=int, default=1,
+                    help="主榜最少仓库数的兜底下限（默认 1）；页面是否完整由结构检查判断，榜单当天有几个就发几个")
+    ap.add_argument("--min-board-repos", type=int, default=1,
+                    help="任一非主榜最少仓库数的兜底下限（默认 1）")
     ap.add_argument("--html", help="从本地 HTML 文件解析主榜（离线测试用），跳过网络抓取")
     ap.add_argument("--dry-run", action="store_true", help="只打印将要发生的变化，不写文件")
     ap.add_argument("--llm-limit", type=int, default=int(os.environ.get("LLM_LIMIT") or "25"),
@@ -884,9 +929,17 @@ def main() -> int:
                     print(f"[update] ERROR: {rng}/{lang_id} fetch failed after retries: {e}", file=sys.stderr)
                     continue
             lst = parse_trending(page)
+            problems = trending_page_problems(page, lst)
+            if problems:
+                print(f"[update] ERROR: {rng}/{lang_id} page looks wrong: {'; '.join(problems)}. "
+                      f"Trending page markup may have changed.", file=sys.stderr)
+                if rng == "daily" and lang_id == "all":
+                    print("[update] existing data left untouched.", file=sys.stderr)
+                    return 1
+                continue
             if rng == "daily" and lang_id == "all" and len(lst) < args.min_repos:
-                print(f"[update] ERROR: only {len(lst)} repos parsed on daily/all (< {args.min_repos}). "
-                      f"Trending page markup may have changed; existing data left untouched.", file=sys.stderr)
+                print(f"[update] ERROR: only {len(lst)} repos parsed on daily/all (< {args.min_repos}); "
+                      f"existing data left untouched.", file=sys.stderr)
                 return 1
             required_count = args.min_repos if (rng == "daily" and lang_id == "all") else args.min_board_repos
             if len(lst) < required_count:
@@ -920,6 +973,10 @@ def main() -> int:
             prev_daily_fulls = {e["full"] for e in old_daily}
         else:  # v1 数据：repos 即日榜
             prev_daily_fulls = set(prev)
+    if len(prev_daily_fulls) >= 4 and len(daily_board) * 2 < len(prev_daily_fulls):
+        # 页面结构正常，只是 GitHub 当天给的榜单短得多：照实发布，但在日志里留一条提醒。
+        print(f"[update] WARNING: daily/all shrank from {len(prev_daily_fulls)} to {len(daily_board)} repos "
+              f"(page structure is fine; publishing as-is)")
 
     try:
         pinned_names = load_pinned_repo_names(data_path)
