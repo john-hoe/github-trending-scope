@@ -142,13 +142,15 @@ class FrontendAccessibilityContractTests(unittest.TestCase):
         data = json.loads((ROOT / "data.json").read_text(encoding="utf-8"))
         known = {repo["full"] for repo in data["repos"]}
         for edition in videos["editions"]:
-            for locale in ("zh", "en"):
+            locales = [loc for loc in ("zh", "en") if loc in edition["top10"]]   # 某一天可能只有中文版（英文版稍后补）
+            self.assertIn("zh", locales)
+            for locale in locales:
                 top = edition["top10"][locale]
                 self.assertTrue((ROOT / top["poster"]).is_file(), top["poster"])
                 self.assertGreater(len(top["chapters"]), 2)
             for full, entry in edition["repos"].items():
                 self.assertIn(full, known)
-                for locale in ("zh", "en"):
+                for locale in locales:
                     self.assertTrue((ROOT / entry[locale]["poster"]).is_file(), entry[locale]["poster"])
 
 
