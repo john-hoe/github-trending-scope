@@ -235,9 +235,11 @@ class SEOProductionContractTests(unittest.TestCase):
         for name, locale in (("index.html", "en"), ("index-zh.html", "zh")):
             source = (self.output / name).read_text(encoding="utf-8")
             cards = re.search(r'<ol class="cards">(.*?)</ol>', source, re.S).group(1)
-            self.assertEqual(cards.count('class="scard"'), 10)
+            # GitHub decides the board length (a quiet day can be shorter than 10), so the
+            # podium holds at most ten cards and only longer boards spill into the list below.
+            self.assertEqual(cards.count('class="scard"'), min(10, len(daily_names)))
             rows = re.search(r'<ol class="rows">(.*?)</ol>', source, re.S).group(1)
-            self.assertEqual(rows.count("<li>"), len(daily_names) - 10)
+            self.assertEqual(rows.count("<li>"), max(0, len(daily_names) - 10))
             for index, full in enumerate(daily_names):
                 href = build_site.repo_path(full, locale) if (index < 10 or full in indexed_names) \
                     else f"https://github.com/{full}"
