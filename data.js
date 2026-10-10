@@ -2,16 +2,16 @@
 window.TRENDING_DATA = {
   "schema": 2,
   "meta": {
-    "date": "2026-10-09",
-    "generated_at": "2026-10-09 12:33 (CST)",
+    "date": "2026-10-10",
+    "generated_at": "2026-10-10 09:13 (CST)",
     "source": "github.com/trending",
     "criteria": "Repositories · Today/Week/Month · All languages · logged out",
     "headline_zh": "今日热榜全景速递",
     "headline_en": "Your daily trending digest",
-    "sub_zh": "9 个上榜仓库：学习 & 游戏 2 个、Agent 工具链 5 个、平台·数据·应用 1 个、AI 应用与模型 1 个。今日新增 Star 前三：morluto/rea（+7.7k）、boykopovar/AnyPS5（+4.7k）、storytold/artcraft（+2.1k）。点击任意卡片查看深度解析。",
-    "sub_en": "9 trending repos: 2 Learning & Gaming, 5 Agent Tooling, 1 Platforms, Data & Apps, 1 AI Apps & Models. Biggest star gainers today: morluto/rea (+7.7k), boykopovar/AnyPS5 (+4.7k), storytold/artcraft (+2.1k). Click any card for a deep dive.",
-    "footer_zh": "Trending Scope · 数据更新于 2026-10-09 12:33 (CST)，由自动化管线直连 github.com 抓取",
-    "footer_en": "Trending Scope · Data updated 2026-10-09 12:33 (CST) by the automated pipeline, fetched directly from github.com"
+    "sub_zh": "11 个上榜仓库：Agent 工具链 7 个、学习 & 游戏 1 个、平台·数据·应用 1 个、AI 应用与模型 2 个。今日新增 Star 前三：morluto/rea（+14.9k）、boykopovar/AnyPS5（+5.9k）、storytold/artcraft（+3.8k）。点击任意卡片查看深度解析。",
+    "sub_en": "11 trending repos: 7 Agent Tooling, 1 Learning & Gaming, 1 Platforms, Data & Apps, 2 AI Apps & Models. Biggest star gainers today: morluto/rea (+14.9k), boykopovar/AnyPS5 (+5.9k), storytold/artcraft (+3.8k). Click any card for a deep dive.",
+    "footer_zh": "Trending Scope · 数据更新于 2026-10-10 09:13 (CST)，由自动化管线直连 github.com 抓取",
+    "footer_en": "Trending Scope · Data updated 2026-10-10 09:13 (CST) by the automated pipeline, fetched directly from github.com"
   },
   "cats": {
     "agent": {
@@ -69,683 +69,594 @@ window.TRENDING_DATA = {
     "daily": {
       "all": [
         {
-          "full": "boykopovar/AnyPS5",
+          "full": "morluto/rea",
           "rank": 1,
-          "stars": 16.5,
-          "today": "+4.7k",
-          "today_n": 4669,
+          "stars": 46.6,
+          "today": "+14.9k",
+          "today_n": 14927,
+          "cat": "agent"
+        },
+        {
+          "full": "boykopovar/AnyPS5",
+          "rank": 2,
+          "stars": 22.4,
+          "today": "+5.9k",
+          "today_n": 5868,
           "cat": "other"
         },
         {
-          "full": "cathrynlavery/diagram-design",
-          "rank": 2,
-          "stars": 46.7,
-          "today": "+1.2k",
-          "today_n": 1160,
-          "cat": "agent"
-        },
-        {
-          "full": "morluto/rea",
-          "rank": 3,
-          "stars": 29.4,
-          "today": "+7.7k",
-          "today_n": 7738,
-          "cat": "agent"
-        },
-        {
           "full": "mattpocock/skills",
+          "rank": 3,
+          "stars": 282.7,
+          "today": "+1.7k",
+          "today_n": 1687,
+          "cat": "agent"
+        },
+        {
+          "full": "cathrynlavery/diagram-design",
           "rank": 4,
-          "stars": 281.3,
-          "today": "+1.8k",
-          "today_n": 1774,
+          "stars": 47.9,
+          "today": "+1.7k",
+          "today_n": 1739,
           "cat": "agent"
         },
         {
-          "full": "thedotmack/claude-mem",
+          "full": "alibaba/open-code-review",
           "rank": 5,
-          "stars": 98.6,
-          "today": "+670",
-          "today_n": 670,
+          "stars": 45.2,
+          "today": "+326",
+          "today_n": 326,
           "cat": "agent"
-        },
-        {
-          "full": "EpicGames/raddebugger",
-          "rank": 6,
-          "stars": 8.2,
-          "today": "+279",
-          "today_n": 279,
-          "cat": "infra"
         },
         {
           "full": "anthropics/knowledge-work-plugins",
+          "rank": 6,
+          "stars": 28.3,
+          "today": "+709",
+          "today_n": 709,
+          "cat": "agent"
+        },
+        {
+          "full": "BerriAI/litellm",
           "rank": 7,
-          "stars": 27.8,
-          "today": "+392",
-          "today_n": 392,
+          "stars": 60.7,
+          "today": "+95",
+          "today_n": 95,
+          "cat": "infra"
+        },
+        {
+          "full": "addyosmani/agent-skills",
+          "rank": 8,
+          "stars": 104.0,
+          "today": "+436",
+          "today_n": 436,
           "cat": "agent"
         },
         {
           "full": "storytold/artcraft",
-          "rank": 8,
-          "stars": 8.5,
-          "today": "+2.1k",
-          "today_n": 2103,
+          "rank": 9,
+          "stars": 11.5,
+          "today": "+3.8k",
+          "today_n": 3752,
           "cat": "ai"
         },
         {
-          "full": "liquidslr/system-design-notes",
-          "rank": 9,
-          "stars": 24.8,
-          "today": "+393",
-          "today_n": 393,
-          "cat": "other"
+          "full": "Robbyant/lingbot-map",
+          "rank": 10,
+          "stars": 17.7,
+          "today": "+110",
+          "today_n": 110,
+          "cat": "ai"
+        },
+        {
+          "full": "twostraws/SwiftUI-Agent-Skill",
+          "rank": 11,
+          "stars": 5.4,
+          "today": "+65",
+          "today_n": 65,
+          "cat": "agent"
         }
       ],
       "python": [
         {
           "full": "anthropics/knowledge-work-plugins",
           "rank": 1,
-          "stars": 27.8,
-          "today": "+392",
-          "today_n": 392
+          "stars": 28.3,
+          "today": "+709",
+          "today_n": 709
         },
         {
-          "full": "earthtojake/text-to-cad",
+          "full": "BerriAI/litellm",
           "rank": 2,
-          "stars": 18.5,
-          "today": "+159",
-          "today_n": 159
+          "stars": 60.7,
+          "today": "+95",
+          "today_n": 95
+        },
+        {
+          "full": "Robbyant/lingbot-map",
+          "rank": 3,
+          "stars": 17.7,
+          "today": "+110",
+          "today_n": 110
+        },
+        {
+          "full": "Tencent-Hunyuan/Hy-MT2",
+          "rank": 4,
+          "stars": 1.2,
+          "today": "+114",
+          "today_n": 114
         },
         {
           "full": "ayghri/i-have-adhd",
-          "rank": 3,
-          "stars": 55.9,
-          "today": "+845",
-          "today_n": 845
-        },
-        {
-          "full": "Tracer-Cloud/opensre",
-          "rank": 4,
-          "stars": 11.7,
-          "today": "+81",
-          "today_n": 81
-        },
-        {
-          "full": "abrignoni/ALEAPP",
           "rank": 5,
-          "stars": 1.0,
-          "today": "+18",
-          "today_n": 18
+          "stars": 56.1,
+          "today": "+389",
+          "today_n": 389
         },
         {
-          "full": "smicallef/spiderfoot",
+          "full": "unslothai/unsloth",
           "rank": 6,
-          "stars": 23.2,
-          "today": "+88",
-          "today_n": 88
+          "stars": 77.7,
+          "today": "+132",
+          "today_n": 132
         },
         {
-          "full": "bmad-code-org/BMAD-METHOD",
+          "full": "headroomlabs-ai/headroom",
           "rank": 7,
-          "stars": 54.0,
-          "today": "+51",
-          "today_n": 51
+          "stars": 74.8,
+          "today": "+104",
+          "today_n": 104
         },
         {
-          "full": "psf/black",
+          "full": "hugohe3/ppt-master",
           "rank": 8,
-          "stars": 41.9,
-          "today": "+7",
-          "today_n": 7
+          "stars": 58.7,
+          "today": "+372",
+          "today_n": 372
         },
         {
-          "full": "microsoft/agent-framework",
+          "full": "datawhalechina/hello-agents",
           "rank": 9,
-          "stars": 14.0,
+          "stars": 82.3,
+          "today": "+205",
+          "today_n": 205
+        },
+        {
+          "full": "tirth8205/code-review-graph",
+          "rank": 10,
+          "stars": 32.0,
           "today": "+27",
           "today_n": 27
         },
         {
-          "full": "IAmTomShaw/f1-race-replay",
-          "rank": 10,
-          "stars": 6.7,
-          "today": "+148",
-          "today_n": 148
-        },
-        {
-          "full": "superdesigndev/treg",
+          "full": "K-Dense-AI/scientific-agent-skills",
           "rank": 11,
-          "stars": 4.9,
-          "today": "+119",
-          "today_n": 119
+          "stars": 48.2,
+          "today": "+130",
+          "today_n": 130
         },
         {
-          "full": "CursorTouch/Windows-MCP",
+          "full": "bojieli/ai-agent-book",
           "rank": 12,
-          "stars": 8.4,
-          "today": "+360",
-          "today_n": 360
+          "stars": 53.2,
+          "today": "+229",
+          "today_n": 229
+        },
+        {
+          "full": "hiroi-sora/Umi-OCR",
+          "rank": 13,
+          "stars": 47.7,
+          "today": "+51",
+          "today_n": 51
         }
       ],
       "typescript": [
         {
           "full": "morluto/rea",
           "rank": 1,
-          "stars": 29.4,
-          "today": "+7.7k",
-          "today_n": 7738
-        },
-        {
-          "full": "thedotmack/claude-mem",
-          "rank": 2,
-          "stars": 98.6,
-          "today": "+670",
-          "today_n": 670
-        },
-        {
-          "full": "tashfeenahmed/freellmapi",
-          "rank": 3,
-          "stars": 32.2,
-          "today": "+518",
-          "today_n": 518
-        },
-        {
-          "full": "koala73/worldmonitor",
-          "rank": 4,
-          "stars": 88.1,
-          "today": "+89",
-          "today_n": 89
-        },
-        {
-          "full": "tester-army/e2e",
-          "rank": 5,
-          "stars": 8.2,
-          "today": "+962",
-          "today_n": 962
-        },
-        {
-          "full": "reconurge/flowsint",
-          "rank": 6,
-          "stars": 9.6,
-          "today": "+69",
-          "today_n": 69
+          "stars": 46.6,
+          "today": "+14.9k",
+          "today_n": 14927
         },
         {
           "full": "Vincentwei1021/video-shotcraft",
-          "rank": 7,
-          "stars": 10.9,
-          "today": "+241",
-          "today_n": 241
-        },
-        {
-          "full": "Gimanh/taskview-community",
-          "rank": 8,
-          "stars": 1.3,
-          "today": "+25",
-          "today_n": 25
-        },
-        {
-          "full": "ItzCrazyKns/Vane",
-          "rank": 9,
-          "stars": 37.2,
-          "today": "+44",
-          "today_n": 44
-        },
-        {
-          "full": "dyad-sh/dyad",
-          "rank": 10,
-          "stars": 21.8,
-          "today": "+37",
-          "today_n": 37
-        },
-        {
-          "full": "thebuggeddev/anatomy",
-          "rank": 11,
-          "stars": 3.4,
-          "today": "+6",
-          "today_n": 6
-        },
-        {
-          "full": "invoke-ai/InvokeAI",
-          "rank": 12,
-          "stars": 28.5,
-          "today": "+41",
-          "today_n": 41
-        },
-        {
-          "full": "DmNote-App/DmNote",
-          "rank": 13,
-          "stars": 2.8,
-          "today": "+263",
-          "today_n": 263
-        },
-        {
-          "full": "backnotprop/plannotator",
-          "rank": 14,
-          "stars": 9.2,
-          "today": "+27",
-          "today_n": 27
-        },
-        {
-          "full": "videojs/video.js",
-          "rank": 15,
-          "stars": 39.9,
-          "today": "+4",
-          "today_n": 4
-        },
-        {
-          "full": "davidmonterocrespo24/velxio",
-          "rank": 16,
-          "stars": 3.1,
-          "today": "+43",
-          "today_n": 43
-        },
-        {
-          "full": "openai/codex-security",
-          "rank": 17,
+          "rank": 2,
           "stars": 11.0,
-          "today": "+30",
-          "today_n": 30
+          "today": "+161",
+          "today_n": 161
+        },
+        {
+          "full": "VERT-sh/VERT",
+          "rank": 3,
+          "stars": 15.8,
+          "today": "+40",
+          "today_n": 40
+        },
+        {
+          "full": "PurpleDoubleD/locally-uncensored",
+          "rank": 4,
+          "stars": 2.1,
+          "today": "+68",
+          "today_n": 68
+        },
+        {
+          "full": "ibelick/ui-skills",
+          "rank": 5,
+          "stars": 9.6,
+          "today": "+50",
+          "today_n": 50
+        },
+        {
+          "full": "thedotmack/claude-mem",
+          "rank": 6,
+          "stars": 99.0,
+          "today": "+728",
+          "today_n": 728
+        },
+        {
+          "full": "apify/crawlee",
+          "rank": 7,
+          "stars": 26.1,
+          "today": "+15",
+          "today_n": 15
+        },
+        {
+          "full": "thesysdev/openui",
+          "rank": 8,
+          "stars": 10.6,
+          "today": "+317",
+          "today_n": 317
+        },
+        {
+          "full": "cartesiancs/map3d",
+          "rank": 9,
+          "stars": 2.6,
+          "today": "+14",
+          "today_n": 14
+        },
+        {
+          "full": "makecindy/cindy",
+          "rank": 10,
+          "stars": 3.0,
+          "today": "+21",
+          "today_n": 21
+        },
+        {
+          "full": "alsk1992/CloddsBot",
+          "rank": 11,
+          "stars": 2.9,
+          "today": "+29",
+          "today_n": 29
         }
       ],
       "javascript": [
         {
           "full": "addyosmani/agent-skills",
           "rank": 1,
-          "stars": 103.5,
-          "today": "+751",
-          "today_n": 751
+          "stars": 104.0,
+          "today": "+436",
+          "today_n": 436
         },
         {
           "full": "DuarteSantos8/openGym",
           "rank": 2,
-          "stars": 8.1,
-          "today": "+1.2k",
-          "today_n": 1214
+          "stars": 8.7,
+          "today": "+677",
+          "today_n": 677
         },
         {
-          "full": "anthropics/claude-plugins-community",
+          "full": "Anil-matcha/Open-Generative-AI",
           "rank": 3,
-          "stars": 4.6,
-          "today": "+30",
-          "today_n": 30
+          "stars": 29.9,
+          "today": "+59",
+          "today_n": 59
         },
         {
-          "full": "cloudflare/security-audit-skill",
+          "full": "liyupi/ai-guide",
           "rank": 4,
-          "stars": 26.7,
-          "today": "+708",
-          "today_n": 708
+          "stars": 20.9,
+          "today": "+48",
+          "today_n": 48
         },
         {
           "full": "aunetx/blur-my-shell",
           "rank": 5,
           "stars": 2.3,
-          "today": "+22",
-          "today_n": 22
+          "today": "+12",
+          "today_n": 12
         },
         {
-          "full": "tabler/tabler-icons",
+          "full": "chuspeeism/dashi-taskboard",
           "rank": 6,
-          "stars": 22.1,
-          "today": "+69",
-          "today_n": 69
+          "stars": 3.3,
+          "today": "+8",
+          "today_n": 8
         },
         {
-          "full": "Leonxlnx/taste-skill",
+          "full": "cloudflare/security-audit-skill",
           "rank": 7,
-          "stars": 93.9,
-          "today": "+338",
-          "today_n": 338
+          "stars": 26.9,
+          "today": "+371",
+          "today_n": 371
         },
         {
-          "full": "CodeWithHarry/Sigma-Web-Dev-Course",
+          "full": "microsoft/power-platform-skills",
           "rank": 8,
-          "stars": 12.0,
+          "stars": 1.0,
           "today": "+4",
           "today_n": 4
         },
         {
-          "full": "XCQ0607/lxserver",
+          "full": "tt-a1i/archify",
           "rank": 9,
-          "stars": 0.9,
-          "today": "+10",
-          "today_n": 10
+          "stars": 81.2,
+          "today": "+1.4k",
+          "today_n": 1358
         },
         {
-          "full": "atlassian/atlassian-mcp-server",
+          "full": "chaolucky18/xuexitongScript",
           "rank": 10,
-          "stars": 1.1,
-          "today": "+2",
-          "today_n": 2
+          "stars": 2.8,
+          "today": "+21",
+          "today_n": 21
         },
         {
-          "full": "mailcow/mailcow-dockerized",
+          "full": "songquanpeng/one-api",
           "rank": 11,
-          "stars": 13.6,
-          "today": "+6",
-          "today_n": 6
+          "stars": 37.1,
+          "today": "+16",
+          "today_n": 16
         },
         {
-          "full": "github/awesome-copilot",
+          "full": "Snailclimb/JavaGuide",
           "rank": 12,
-          "stars": 39.8,
-          "today": "+41",
-          "today_n": 41
-        },
-        {
-          "full": "microsoft/power-platform-skills",
-          "rank": 13,
-          "stars": 1.0,
-          "today": "+7",
-          "today_n": 7
+          "stars": 158.9,
+          "today": "+33",
+          "today_n": 33
         }
       ],
       "rust": [
         {
           "full": "storytold/artcraft",
           "rank": 1,
-          "stars": 8.5,
-          "today": "+2.1k",
-          "today_n": 2103
-        },
-        {
-          "full": "martin-olivier/airgorah",
-          "rank": 2,
-          "stars": 4.0,
-          "today": "+101",
-          "today_n": 101
+          "stars": 11.5,
+          "today": "+3.8k",
+          "today_n": 3752
         },
         {
           "full": "microsoft/mxc",
-          "rank": 3,
-          "stars": 1.8,
-          "today": "+135",
-          "today_n": 135
-        },
-        {
-          "full": "fabio-rovai/open-ontologies",
-          "rank": 4,
-          "stars": 1.0,
-          "today": "+63",
-          "today_n": 63
+          "rank": 2,
+          "stars": 2.4,
+          "today": "+669",
+          "today_n": 669
         },
         {
           "full": "vercel-labs/agent-browser",
-          "rank": 5,
+          "rank": 3,
           "stars": 43.7,
-          "today": "+69",
-          "today_n": 69
+          "today": "+61",
+          "today_n": 61
         },
         {
-          "full": "HakanSeven12/OpenCADStudio",
+          "full": "farion1231/cc-switch",
+          "rank": 4,
+          "stars": 141.9,
+          "today": "+617",
+          "today_n": 617
+        },
+        {
+          "full": "jdx/mise",
+          "rank": 5,
+          "stars": 34.8,
+          "today": "+53",
+          "today_n": 53
+        },
+        {
+          "full": "openai/codex",
           "rank": 6,
-          "stars": 2.6,
-          "today": "+32",
-          "today_n": 32
-        },
-        {
-          "full": "emilk/egui",
-          "rank": 7,
-          "stars": 31.1,
-          "today": "+67",
-          "today_n": 67
-        },
-        {
-          "full": "tracel-ai/burn",
-          "rank": 8,
-          "stars": 16.1,
-          "today": "+15",
-          "today_n": 15
-        },
-        {
-          "full": "edwardkim/rhwp",
-          "rank": 9,
-          "stars": 3.9,
-          "today": "+12",
-          "today_n": 12
-        },
-        {
-          "full": "AprilNEA/OpenLogi",
-          "rank": 10,
-          "stars": 23.2,
-          "today": "+102",
-          "today_n": 102
-        },
-        {
-          "full": "ajeetdsouza/zoxide",
-          "rank": 11,
-          "stars": 40.0,
-          "today": "+30",
-          "today_n": 30
-        },
-        {
-          "full": "yuxino/Mimi",
-          "rank": 12,
-          "stars": 0.6,
-          "today": "+24",
-          "today_n": 24
-        },
-        {
-          "full": "rubys/roundhouse",
-          "rank": 13,
-          "stars": 0.4,
-          "today": "+10",
-          "today_n": 10
+          "stars": 128.4,
+          "today": "+213",
+          "today_n": 213
         }
       ],
       "go": [
         {
-          "full": "docker/docker-agent",
+          "full": "alibaba/open-code-review",
           "rank": 1,
-          "stars": 4.3,
-          "today": "+766",
-          "today_n": 766
-        },
-        {
-          "full": "hashicorp/vault",
-          "rank": 2,
-          "stars": 36.4,
-          "today": "+7",
-          "today_n": 7
+          "stars": 45.2,
+          "today": "+326",
+          "today_n": 326
         },
         {
           "full": "ollama/ollama",
+          "rank": 2,
+          "stars": 182.5,
+          "today": "+151",
+          "today_n": 151
+        },
+        {
+          "full": "Wei-Shaw/sub2api",
           "rank": 3,
-          "stars": 182.4,
-          "today": "+128",
-          "today_n": 128
+          "stars": 43.6,
+          "today": "+89",
+          "today_n": 89
         },
         {
-          "full": "argoproj/argo-cd",
+          "full": "infiniflow/ragflow",
           "rank": 4,
-          "stars": 24.4,
-          "today": "+3",
-          "today_n": 3
+          "stars": 91.9,
+          "today": "+81",
+          "today_n": 81
         },
         {
-          "full": "go-acme/lego",
+          "full": "hashicorp/vault",
           "rank": 5,
-          "stars": 9.9,
-          "today": "+2",
-          "today_n": 2
-        },
-        {
-          "full": "llm-d/llm-d-router",
-          "rank": 6,
-          "stars": 0.4,
-          "today": "+3",
-          "today_n": 3
-        },
-        {
-          "full": "external-secrets/external-secrets",
-          "rank": 7,
-          "stars": 6.9,
-          "today": "+2",
-          "today_n": 2
-        },
-        {
-          "full": "open-telemetry/opentelemetry-collector-contrib",
-          "rank": 8,
-          "stars": 5.0,
-          "today": "+4",
-          "today_n": 4
-        },
-        {
-          "full": "kai-scheduler/KAI-Scheduler",
-          "rank": 9,
-          "stars": 1.6,
-          "today": "+3",
-          "today_n": 3
-        },
-        {
-          "full": "ltaoo/wx_channels_download",
-          "rank": 10,
-          "stars": 9.7,
-          "today": "+15",
-          "today_n": 15
-        },
-        {
-          "full": "kyverno/kyverno",
-          "rank": 11,
-          "stars": 8.2,
-          "today": "+4",
-          "today_n": 4
-        },
-        {
-          "full": "stacklok/toolhive",
-          "rank": 12,
-          "stars": 2.3,
+          "stars": 36.4,
           "today": "+8",
           "today_n": 8
         },
         {
-          "full": "jesseduffield/lazygit",
-          "rank": 13,
-          "stars": 83.0,
-          "today": "+49",
-          "today_n": 49
+          "full": "QuantumNous/new-api",
+          "rank": 6,
+          "stars": 49.5,
+          "today": "+102",
+          "today_n": 102
         },
         {
-          "full": "navidrome/navidrome",
-          "rank": 14,
-          "stars": 24.0,
-          "today": "+22",
-          "today_n": 22
+          "full": "multica-ai/multica",
+          "rank": 7,
+          "stars": 52.3,
+          "today": "+100",
+          "today_n": 100
         },
         {
-          "full": "gitleaks/gitleaks",
-          "rank": 15,
-          "stars": 29.8,
+          "full": "docker/docker-agent",
+          "rank": 8,
+          "stars": 4.3,
+          "today": "+144",
+          "today_n": 144
+        },
+        {
+          "full": "TencentCloud/CubeSandbox",
+          "rank": 9,
+          "stars": 12.9,
+          "today": "+13",
+          "today_n": 13
+        },
+        {
+          "full": "Tencent/WeKnora",
+          "rank": 10,
+          "stars": 32.8,
+          "today": "+217",
+          "today_n": 217
+        },
+        {
+          "full": "fish2018/pansou",
+          "rank": 11,
+          "stars": 14.8,
+          "today": "+17",
+          "today_n": 17
+        },
+        {
+          "full": "XTLS/Xray-core",
+          "rank": 12,
+          "stars": 42.0,
           "today": "+24",
           "today_n": 24
         },
         {
-          "full": "tailscale/tailscale",
+          "full": "grafana/mcp-grafana",
+          "rank": 13,
+          "stars": 3.5,
+          "today": "+6",
+          "today_n": 6
+        },
+        {
+          "full": "vxcontrol/pentagi",
+          "rank": 14,
+          "stars": 25.4,
+          "today": "+55",
+          "today_n": 55
+        },
+        {
+          "full": "Agent-Field/CodeAF",
+          "rank": 15,
+          "stars": 0.4,
+          "today": "+29",
+          "today_n": 29
+        },
+        {
+          "full": "MHSanaei/3x-ui",
           "rank": 16,
-          "stars": 37.3,
-          "today": "+46",
-          "today_n": 46
+          "stars": 47.7,
+          "today": "+73",
+          "today_n": 73
+        },
+        {
+          "full": "trufflesecurity/trufflehog",
+          "rank": 17,
+          "stars": 28.4,
+          "today": "+41",
+          "today_n": 41
         }
       ],
       "c++": [
         {
           "full": "boykopovar/AnyPS5",
           "rank": 1,
-          "stars": 16.5,
-          "today": "+4.7k",
-          "today_n": 4669
+          "stars": 22.4,
+          "today": "+5.9k",
+          "today_n": 5868
         },
         {
-          "full": "M-Abozaid/esp32-c3-adblock",
+          "full": "78/xiaozhi-esp32",
           "rank": 2,
-          "stars": 2.4,
-          "today": "+182",
-          "today_n": 182
+          "stars": 30.6,
+          "today": "+39",
+          "today_n": 39
         },
         {
-          "full": "facebook/rebalancer",
+          "full": "typesense/typesense",
           "rank": 3,
-          "stars": 0.4,
-          "today": "+60",
-          "today_n": 60
+          "stars": 26.8,
+          "today": "+173",
+          "today_n": 173
         },
         {
-          "full": "zhongyang219/TrafficMonitor",
+          "full": "google/perfetto",
           "rank": 4,
-          "stars": 46.5,
-          "today": "+33",
-          "today_n": 33
-        },
-        {
-          "full": "ytsaurus/ytsaurus",
-          "rank": 5,
-          "stars": 2.3,
-          "today": "+31",
-          "today_n": 31
-        },
-        {
-          "full": "ggml-org/llama.cpp",
-          "rank": 6,
-          "stars": 130.6,
-          "today": "+123",
-          "today_n": 123
-        },
-        {
-          "full": "AlexandreRouma/SDRPlusPlus",
-          "rank": 7,
-          "stars": 6.4,
+          "stars": 6.6,
           "today": "+9",
           "today_n": 9
         },
         {
-          "full": "TigerVNC/tigervnc",
+          "full": "DamRsn/NeuralNote",
+          "rank": 5,
+          "stars": 3.1,
+          "today": "+20",
+          "today_n": 20
+        },
+        {
+          "full": "wolfpld/tracy",
+          "rank": 6,
+          "stars": 16.9,
+          "today": "+9",
+          "today_n": 9
+        },
+        {
+          "full": "k4yt3x/video2x",
+          "rank": 7,
+          "stars": 22.1,
+          "today": "+56",
+          "today_n": 56
+        },
+        {
+          "full": "ROCm/rocm-systems",
           "rank": 8,
-          "stars": 7.5,
-          "today": "+3",
-          "today_n": 3
-        },
-        {
-          "full": "nlohmann/json",
-          "rank": 9,
-          "stars": 50.7,
-          "today": "+11",
-          "today_n": 11
-        },
-        {
-          "full": "SethRobinson/Patchy",
-          "rank": 10,
           "stars": 0.5,
-          "today": "+21",
-          "today_n": 21
-        },
-        {
-          "full": "google-ai-edge/LiteRT-LM",
-          "rank": 11,
-          "stars": 6.6,
-          "today": "+13",
-          "today_n": 13
-        },
-        {
-          "full": "shadps4-emu/shadPS4",
-          "rank": 12,
-          "stars": 33.3,
-          "today": "+48",
-          "today_n": 48
-        },
-        {
-          "full": "ninja-build/ninja",
-          "rank": 13,
-          "stars": 13.3,
-          "today": "+0",
-          "today_n": 0
-        },
-        {
-          "full": "open-source-parsers/jsoncpp",
-          "rank": 14,
-          "stars": 8.9,
           "today": "+2",
           "today_n": 2
+        },
+        {
+          "full": "kvcache-ai/Mooncake",
+          "rank": 9,
+          "stars": 6.7,
+          "today": "+9",
+          "today_n": 9
+        },
+        {
+          "full": "FreeCAD/FreeCAD",
+          "rank": 10,
+          "stars": 34.1,
+          "today": "+55",
+          "today_n": 55
+        },
+        {
+          "full": "justcallmekoko/ESP32Marauder",
+          "rank": 11,
+          "stars": 12.7,
+          "today": "+34",
+          "today_n": 34
         }
       ]
     },
@@ -754,500 +665,507 @@ window.TRENDING_DATA = {
         {
           "full": "boykopovar/AnyPS5",
           "rank": 1,
-          "stars": 16.5,
-          "today": "+10.2k",
-          "today_n": 10243
+          "stars": 22.4,
+          "today": "+15.5k",
+          "today_n": 15539
         },
         {
           "full": "mvschwarz/openrig",
           "rank": 2,
-          "stars": 6.2,
-          "today": "+2.7k",
-          "today_n": 2693
+          "stars": 6.5,
+          "today": "+2.3k",
+          "today_n": 2338
+        },
+        {
+          "full": "mattpocock/skills",
+          "rank": 3,
+          "stars": 282.7,
+          "today": "+8.2k",
+          "today_n": 8156
         },
         {
           "full": "heygen-com/hyperframes",
-          "rank": 3,
-          "stars": 59.3,
-          "today": "+4.0k",
-          "today_n": 3996
-        },
-        {
-          "full": "EpicGames/raddebugger",
           "rank": 4,
-          "stars": 8.2,
-          "today": "+448",
-          "today_n": 448
+          "stars": 59.8,
+          "today": "+4.0k",
+          "today_n": 4003
         },
         {
           "full": "cursor/plugins",
           "rank": 5,
-          "stars": 10.4,
+          "stars": 10.6,
           "today": "+1.1k",
-          "today_n": 1109
+          "today_n": 1125
+        },
+        {
+          "full": "EpicGames/raddebugger",
+          "rank": 6,
+          "stars": 8.3,
+          "today": "+654",
+          "today_n": 654
         },
         {
           "full": "thedotmack/claude-mem",
-          "rank": 6,
-          "stars": 98.6,
-          "today": "+3.2k",
-          "today_n": 3153
-        },
-        {
-          "full": "mattpocock/skills",
           "rank": 7,
-          "stars": 281.3,
-          "today": "+7.4k",
-          "today_n": 7448
-        },
-        {
-          "full": "Panniantong/Agent-Reach",
-          "rank": 8,
-          "stars": 94.3,
-          "today": "+7.0k",
-          "today_n": 6987
+          "stars": 99.0,
+          "today": "+3.9k",
+          "today_n": 3850
         },
         {
           "full": "earthtojake/text-to-cad",
+          "rank": 8,
+          "stars": 18.8,
+          "today": "+2.1k",
+          "today_n": 2125
+        },
+        {
+          "full": "pingdotgg/t3code",
           "rank": 9,
-          "stars": 18.5,
-          "today": "+1.9k",
-          "today_n": 1898
+          "stars": 26.6,
+          "today": "+2.4k",
+          "today_n": 2379
+        },
+        {
+          "full": "Panniantong/Agent-Reach",
+          "rank": 10,
+          "stars": 94.9,
+          "today": "+7.1k",
+          "today_n": 7084
         },
         {
           "full": "DuarteSantos8/openGym",
-          "rank": 10,
-          "stars": 8.1,
-          "today": "+6.1k",
-          "today_n": 6086
-        },
-        {
-          "full": "pablostanley/yoinks",
           "rank": 11,
-          "stars": 5.5,
-          "today": "+2.7k",
-          "today_n": 2706
+          "stars": 8.7,
+          "today": "+6.7k",
+          "today_n": 6749
         }
       ],
       "python": [
         {
-          "full": "Panniantong/Agent-Reach",
-          "rank": 1,
-          "stars": 94.3,
-          "today": "+7.0k",
-          "today_n": 6987
-        },
-        {
           "full": "earthtojake/text-to-cad",
-          "rank": 2,
-          "stars": 18.5,
-          "today": "+1.9k",
-          "today_n": 1898
+          "rank": 1,
+          "stars": 18.8,
+          "today": "+2.1k",
+          "today_n": 2125
         },
         {
-          "full": "HunxByts/GhostTrack",
+          "full": "Panniantong/Agent-Reach",
+          "rank": 2,
+          "stars": 94.9,
+          "today": "+7.1k",
+          "today_n": 7084
+        },
+        {
+          "full": "calesthio/OpenMontage",
           "rank": 3,
-          "stars": 17.6,
-          "today": "+1.3k",
-          "today_n": 1292
+          "stars": 65.9,
+          "today": "+3.5k",
+          "today_n": 3479
+        },
+        {
+          "full": "p-e-w/heretic",
+          "rank": 4,
+          "stars": 34.4,
+          "today": "+1.5k",
+          "today_n": 1546
         },
         {
           "full": "jamwithai/production-agentic-rag-course",
-          "rank": 4,
-          "stars": 9.7,
-          "today": "+630",
-          "today_n": 630
-        },
-        {
-          "full": "ifixai-ai/iFixAi",
           "rank": 5,
-          "stars": 22.7,
-          "today": "+4.8k",
-          "today_n": 4795
+          "stars": 9.7,
+          "today": "+527",
+          "today_n": 527
         },
         {
           "full": "Tracer-Cloud/opensre",
           "rank": 6,
           "stars": 11.7,
-          "today": "+346",
-          "today_n": 346
+          "today": "+356",
+          "today_n": 356
         },
         {
-          "full": "Anil-matcha/open-dots",
+          "full": "Robbyant/lingbot-map",
           "rank": 7,
-          "stars": 5.6,
-          "today": "+464",
-          "today_n": 464
+          "stars": 17.7,
+          "today": "+446",
+          "today_n": 446
         },
         {
-          "full": "p-e-w/heretic",
+          "full": "HunxByts/GhostTrack",
           "rank": 8,
-          "stars": 34.1,
-          "today": "+1.4k",
-          "today_n": 1434
-        },
-        {
-          "full": "calesthio/OpenMontage",
-          "rank": 9,
-          "stars": 65.6,
-          "today": "+3.4k",
-          "today_n": 3407
-        },
-        {
-          "full": "tile-ai/tilelang",
-          "rank": 10,
-          "stars": 8.5,
-          "today": "+495",
-          "today_n": 495
+          "stars": 17.9,
+          "today": "+1.2k",
+          "today_n": 1166
         },
         {
           "full": "rohitg00/ai-engineering-from-scratch",
-          "rank": 11,
-          "stars": 65.9,
+          "rank": 9,
+          "stars": 66.2,
           "today": "+3.6k",
-          "today_n": 3582
+          "today_n": 3627
         },
         {
-          "full": "dortania/OpenCore-Legacy-Patcher",
+          "full": "getsentry/sentry",
+          "rank": 10,
+          "stars": 45.5,
+          "today": "+555",
+          "today_n": 555
+        },
+        {
+          "full": "meituan-longcat/LongCat-Video",
+          "rank": 11,
+          "stars": 9.1,
+          "today": "+562",
+          "today_n": 562
+        },
+        {
+          "full": "666ghj/MiroFish",
           "rank": 12,
-          "stars": 18.5,
-          "today": "+156",
-          "today_n": 156
-        },
-        {
-          "full": "sambanks/octabam",
-          "rank": 13,
-          "stars": 0.2,
-          "today": "+49",
-          "today_n": 49
+          "stars": 77.5,
+          "today": "+1.9k",
+          "today_n": 1861
         }
       ],
       "typescript": [
         {
           "full": "mvschwarz/openrig",
           "rank": 1,
-          "stars": 6.2,
-          "today": "+2.7k",
-          "today_n": 2693
+          "stars": 6.5,
+          "today": "+2.3k",
+          "today_n": 2338
         },
         {
           "full": "heygen-com/hyperframes",
           "rank": 2,
-          "stars": 59.3,
+          "stars": 59.8,
           "today": "+4.0k",
-          "today_n": 3996
+          "today_n": 4003
         },
         {
           "full": "cursor/plugins",
           "rank": 3,
-          "stars": 10.4,
+          "stars": 10.6,
           "today": "+1.1k",
-          "today_n": 1109
+          "today_n": 1125
         },
         {
           "full": "thedotmack/claude-mem",
           "rank": 4,
-          "stars": 98.6,
-          "today": "+3.2k",
-          "today_n": 3153
-        },
-        {
-          "full": "pablostanley/yoinks",
-          "rank": 5,
-          "stars": 5.5,
-          "today": "+2.7k",
-          "today_n": 2706
+          "stars": 99.0,
+          "today": "+3.9k",
+          "today_n": 3850
         },
         {
           "full": "pingdotgg/t3code",
+          "rank": 5,
+          "stars": 26.6,
+          "today": "+2.4k",
+          "today_n": 2379
+        },
+        {
+          "full": "pablostanley/yoinks",
           "rank": 6,
-          "stars": 26.4,
+          "stars": 5.6,
           "today": "+2.3k",
-          "today_n": 2317
+          "today_n": 2295
         },
         {
           "full": "OpenCut-app/OpenCut",
           "rank": 7,
-          "stars": 93.3,
+          "stars": 93.4,
           "today": "+2.3k",
-          "today_n": 2304
+          "today_n": 2264
         },
         {
           "full": "Effect-TS/effect",
           "rank": 8,
           "stars": 17.2,
-          "today": "+868",
-          "today_n": 868
+          "today": "+750",
+          "today_n": 750
         },
         {
           "full": "cloudflare/cloudflare-os",
           "rank": 9,
           "stars": 11.3,
-          "today": "+1.1k",
-          "today_n": 1075
+          "today": "+1.0k",
+          "today_n": 1027
         },
         {
           "full": "tashfeenahmed/freellmapi",
           "rank": 10,
-          "stars": 32.2,
-          "today": "+2.2k",
-          "today_n": 2208
+          "stars": 32.5,
+          "today": "+2.4k",
+          "today_n": 2397
         },
         {
-          "full": "mrifqidaffaaditya/WA-AKG",
+          "full": "DmNote-App/DmNote",
           "rank": 11,
-          "stars": 0.5,
-          "today": "+127",
-          "today_n": 127
+          "stars": 2.9,
+          "today": "+1.1k",
+          "today_n": 1070
         },
         {
-          "full": "LuxAlgo/Vela",
+          "full": "reconurge/flowsint",
           "rank": 12,
-          "stars": 1.1,
-          "today": "+611",
-          "today_n": 611
+          "stars": 9.6,
+          "today": "+514",
+          "today_n": 514
         },
         {
           "full": "chthollyphile/folia-major",
           "rank": 13,
-          "stars": 3.9,
-          "today": "+684",
-          "today_n": 684
-        },
-        {
-          "full": "AtomicBot-ai/atomic-agent",
-          "rank": 14,
-          "stars": 3.1,
-          "today": "+649",
-          "today_n": 649
-        },
-        {
-          "full": "yikart/AiToEarn",
-          "rank": 15,
-          "stars": 26.4,
-          "today": "+387",
-          "today_n": 387
+          "stars": 4.1,
+          "today": "+816",
+          "today_n": 816
         },
         {
           "full": "breferrari/obsidian-mind",
-          "rank": 16,
+          "rank": 14,
           "stars": 5.0,
-          "today": "+168",
-          "today_n": 168
+          "today": "+141",
+          "today_n": 141
+        },
+        {
+          "full": "AtomicBot-ai/atomic-agent",
+          "rank": 15,
+          "stars": 3.2,
+          "today": "+671",
+          "today_n": 671
+        },
+        {
+          "full": "hieunc229/mailflare",
+          "rank": 16,
+          "stars": 4.8,
+          "today": "+903",
+          "today_n": 903
         },
         {
           "full": "nanobrowser/nanobrowser",
           "rank": 17,
           "stars": 14.0,
-          "today": "+169",
-          "today_n": 169
+          "today": "+179",
+          "today_n": 179
         },
         {
-          "full": "hieunc229/mailflare",
+          "full": "ranxianglei/billion-context",
           "rank": 18,
-          "stars": 4.7,
-          "today": "+881",
-          "today_n": 881
+          "stars": 0.7,
+          "today": "+246",
+          "today_n": 246
+        },
+        {
+          "full": "PurpleDoubleD/locally-uncensored",
+          "rank": 19,
+          "stars": 2.1,
+          "today": "+230",
+          "today_n": 230
         }
       ],
       "javascript": [
         {
           "full": "DuarteSantos8/openGym",
           "rank": 1,
-          "stars": 8.1,
-          "today": "+6.1k",
-          "today_n": 6086
+          "stars": 8.7,
+          "today": "+6.7k",
+          "today_n": 6749
         },
         {
           "full": "pbakaus/impeccable",
           "rank": 2,
-          "stars": 78.7,
-          "today": "+5.3k",
-          "today_n": 5260
-        },
-        {
-          "full": "androoAGI/starnet",
-          "rank": 3,
-          "stars": 1.3,
-          "today": "+409",
-          "today_n": 409
+          "stars": 79.0,
+          "today": "+4.9k",
+          "today_n": 4853
         },
         {
           "full": "DietrichGebert/ponytail",
+          "rank": 3,
+          "stars": 159.7,
+          "today": "+8.3k",
+          "today_n": 8319
+        },
+        {
+          "full": "androoAGI/starnet",
           "rank": 4,
-          "stars": 158.7,
-          "today": "+8.5k",
-          "today_n": 8511
+          "stars": 1.3,
+          "today": "+337",
+          "today_n": 337
         },
         {
           "full": "addyosmani/agent-skills",
           "rank": 5,
-          "stars": 103.5,
-          "today": "+3.1k",
-          "today_n": 3103
-        },
-        {
-          "full": "coreyhaines31/marketingskills",
-          "rank": 6,
-          "stars": 53.8,
-          "today": "+1.6k",
-          "today_n": 1643
+          "stars": 104.0,
+          "today": "+3.6k",
+          "today_n": 3569
         },
         {
           "full": "mnfst/awesome-free-llm-apis",
+          "rank": 6,
+          "stars": 9.6,
+          "today": "+650",
+          "today_n": 650
+        },
+        {
+          "full": "vercel/next.js",
           "rank": 7,
-          "stars": 9.5,
-          "today": "+648",
-          "today_n": 648
+          "stars": 143.1,
+          "today": "+416",
+          "today_n": 416
         },
         {
-          "full": "Leonxlnx/taste-skill",
+          "full": "coreyhaines31/marketingskills",
           "rank": 8,
-          "stars": 93.9,
-          "today": "+2.1k",
-          "today_n": 2134
-        },
-        {
-          "full": "tabler/tabler-icons",
-          "rank": 9,
-          "stars": 22.1,
-          "today": "+252",
-          "today_n": 252
-        },
-        {
-          "full": "spicetify/cli",
-          "rank": 10,
-          "stars": 24.9,
-          "today": "+165",
-          "today_n": 165
-        },
-        {
-          "full": "hughhowey/neo",
-          "rank": 11,
-          "stars": 1.4,
-          "today": "+187",
-          "today_n": 187
+          "stars": 53.9,
+          "today": "+1.6k",
+          "today_n": 1603
         },
         {
           "full": "byoungd/up",
-          "rank": 12,
-          "stars": 67.9,
+          "rank": 9,
+          "stars": 68.0,
           "today": "+1.3k",
           "today_n": 1323
         },
         {
-          "full": "Neet-Nestor/Telegram-Media-Downloader",
-          "rank": 13,
-          "stars": 6.0,
-          "today": "+80",
-          "today_n": 80
+          "full": "Leonxlnx/taste-skill",
+          "rank": 10,
+          "stars": 94.1,
+          "today": "+2.2k",
+          "today_n": 2160
         },
         {
-          "full": "vercel/next.js",
-          "rank": 14,
-          "stars": 143.0,
-          "today": "+415",
-          "today_n": 415
+          "full": "akiralereal/iptv",
+          "rank": 11,
+          "stars": 1.2,
+          "today": "+154",
+          "today_n": 154
         },
         {
           "full": "withmarbleapp/os-taxonomy",
-          "rank": 15,
+          "rank": 12,
           "stars": 4.8,
-          "today": "+178",
-          "today_n": 178
+          "today": "+194",
+          "today_n": 194
+        },
+        {
+          "full": "IRNova/Nova-Proxy",
+          "rank": 13,
+          "stars": 3.3,
+          "today": "+49",
+          "today_n": 49
         },
         {
           "full": "kanoqwq/UFI-TOOLS",
-          "rank": 16,
+          "rank": 14,
           "stars": 2.6,
-          "today": "+623",
-          "today_n": 623
+          "today": "+641",
+          "today_n": 641
+        },
+        {
+          "full": "tabler/tabler-icons",
+          "rank": 15,
+          "stars": 22.2,
+          "today": "+269",
+          "today_n": 269
         }
       ],
       "rust": [
         {
-          "full": "NVIDIA/OpenShell",
-          "rank": 1,
-          "stars": 15.5,
-          "today": "+1.7k",
-          "today_n": 1680
-        },
-        {
           "full": "zerx-lab/FluxDown",
-          "rank": 2,
+          "rank": 1,
           "stars": 4.1,
-          "today": "+743",
-          "today_n": 743
+          "today": "+772",
+          "today_n": 772
         },
         {
-          "full": "tinyhumansai/openhuman",
+          "full": "cjpais/Handy",
+          "rank": 2,
+          "stars": 33.4,
+          "today": "+739",
+          "today_n": 739
+        },
+        {
+          "full": "dmtrKovalenko/fframes",
           "rank": 3,
-          "stars": 41.7,
-          "today": "+1.4k",
-          "today_n": 1359
+          "stars": 2.5,
+          "today": "+621",
+          "today_n": 621
         },
         {
-          "full": "zeronsh/zeron",
+          "full": "longbridge/gpui-kit",
           "rank": 4,
-          "stars": 3.1,
-          "today": "+634",
-          "today_n": 634
+          "stars": 16.7,
+          "today": "+1.1k",
+          "today_n": 1063
         },
         {
-          "full": "touchHLE/touchHLE",
+          "full": "xingkongliang/skills-manager",
           "rank": 5,
-          "stars": 4.0,
-          "today": "+42",
-          "today_n": 42
+          "stars": 5.8,
+          "today": "+457",
+          "today_n": 457
         },
         {
           "full": "Pumpkin-MC/Pumpkin",
           "rank": 6,
           "stars": 12.2,
-          "today": "+359",
-          "today_n": 359
+          "today": "+375",
+          "today_n": 375
+        },
+        {
+          "full": "tinyhumansai/openhuman",
+          "rank": 7,
+          "stars": 41.7,
+          "today": "+1.4k",
+          "today_n": 1350
+        },
+        {
+          "full": "touchHLE/touchHLE",
+          "rank": 8,
+          "stars": 4.0,
+          "today": "+37",
+          "today_n": 37
         },
         {
           "full": "JayWebtech/autoshorts",
-          "rank": 7,
+          "rank": 9,
           "stars": 1.2,
-          "today": "+167",
-          "today_n": 167
+          "today": "+116",
+          "today_n": 116
         },
         {
-          "full": "longbridge/gpui-kit",
-          "rank": 8,
-          "stars": 16.6,
-          "today": "+1.2k",
-          "today_n": 1151
+          "full": "sharkdp/hyperfine",
+          "rank": 10,
+          "stars": 29.0,
+          "today": "+106",
+          "today_n": 106
+        },
+        {
+          "full": "NVIDIA/OpenShell",
+          "rank": 11,
+          "stars": 15.6,
+          "today": "+1.3k",
+          "today_n": 1315
         },
         {
           "full": "t8y2/dbx",
-          "rank": 9,
-          "stars": 25.3,
+          "rank": 12,
+          "stars": 25.4,
           "today": "+1.6k",
-          "today_n": 1586
+          "today_n": 1579
         },
         {
           "full": "eolix/photosuite",
-          "rank": 10,
+          "rank": 13,
           "stars": 1.0,
-          "today": "+663",
-          "today_n": 663
+          "today": "+697",
+          "today_n": 697
         },
         {
-          "full": "FalkorDB/FalkorDB",
-          "rank": 11,
-          "stars": 8.3,
-          "today": "+1.6k",
-          "today_n": 1585
-        },
-        {
-          "full": "xingkongliang/skills-manager",
-          "rank": 12,
-          "stars": 5.8,
-          "today": "+447",
-          "today_n": 447
+          "full": "zeronsh/zeron",
+          "rank": 14,
+          "stars": 3.1,
+          "today": "+393",
+          "today_n": 393
         }
       ],
       "go": [
@@ -1256,149 +1174,163 @@ window.TRENDING_DATA = {
           "rank": 1,
           "stars": 77.6,
           "today": "+1.4k",
-          "today_n": 1375
+          "today_n": 1417
         },
         {
           "full": "Gaurav-Gosain/tuios",
           "rank": 2,
           "stars": 5.1,
-          "today": "+609",
-          "today_n": 609
+          "today": "+541",
+          "today_n": 541
         },
         {
-          "full": "lharries/whatsapp-mcp",
+          "full": "ys-ll/uniterm",
           "rank": 3,
-          "stars": 6.4,
-          "today": "+73",
-          "today_n": 73
+          "stars": 0.8,
+          "today": "+169",
+          "today_n": 169
         },
         {
           "full": "aquasecurity/trivy",
           "rank": 4,
           "stars": 38.3,
-          "today": "+151",
-          "today_n": 151
-        },
-        {
-          "full": "google/gvisor",
-          "rank": 5,
-          "stars": 19.6,
-          "today": "+142",
-          "today_n": 142
+          "today": "+143",
+          "today_n": 143
         },
         {
           "full": "MHSanaei/3x-ui",
-          "rank": 6,
+          "rank": 5,
           "stars": 47.7,
-          "today": "+415",
-          "today_n": 415
-        },
-        {
-          "full": "Agent-Field/CodeAF",
-          "rank": 7,
-          "stars": 0.4,
-          "today": "+131",
-          "today_n": 131
-        },
-        {
-          "full": "go-gitea/gitea",
-          "rank": 8,
-          "stars": 58.4,
-          "today": "+137",
-          "today_n": 137
-        },
-        {
-          "full": "ys-ll/uniterm",
-          "rank": 9,
-          "stars": 0.8,
-          "today": "+177",
-          "today_n": 177
-        },
-        {
-          "full": "JuliusBrussee/caveman",
-          "rank": 10,
-          "stars": 110.6,
-          "today": "+2.0k",
-          "today_n": 2034
-        },
-        {
-          "full": "pocket-id/pocket-id",
-          "rank": 11,
-          "stars": 9.5,
-          "today": "+132",
-          "today_n": 132
-        },
-        {
-          "full": "microsoft/TypeScript",
-          "rank": 12,
-          "stars": 111.4,
-          "today": "+140",
-          "today_n": 140
+          "today": "+440",
+          "today_n": 440
         },
         {
           "full": "ollama/ollama",
-          "rank": 13,
-          "stars": 182.4,
-          "today": "+692",
-          "today_n": 692
+          "rank": 6,
+          "stars": 182.5,
+          "today": "+762",
+          "today_n": 762
         },
         {
           "full": "oauth2-proxy/oauth2-proxy",
-          "rank": 14,
+          "rank": 7,
           "stars": 15.1,
-          "today": "+32",
-          "today_n": 32
+          "today": "+64",
+          "today_n": 64
+        },
+        {
+          "full": "Agent-Field/CodeAF",
+          "rank": 8,
+          "stars": 0.4,
+          "today": "+123",
+          "today_n": 123
+        },
+        {
+          "full": "go-gitea/gitea",
+          "rank": 9,
+          "stars": 58.4,
+          "today": "+133",
+          "today_n": 133
+        },
+        {
+          "full": "docker/docker-agent",
+          "rank": 10,
+          "stars": 4.3,
+          "today": "+936",
+          "today_n": 936
+        },
+        {
+          "full": "JuliusBrussee/caveman",
+          "rank": 11,
+          "stars": 110.8,
+          "today": "+1.9k",
+          "today_n": 1941
+        },
+        {
+          "full": "google/gvisor",
+          "rank": 12,
+          "stars": 19.6,
+          "today": "+147",
+          "today_n": 147
+        },
+        {
+          "full": "microsoft/TypeScript",
+          "rank": 13,
+          "stars": 111.4,
+          "today": "+134",
+          "today_n": 134
+        },
+        {
+          "full": "slavakurilyak/awesome-ai-agents",
+          "rank": 14,
+          "stars": 2.4,
+          "today": "+129",
+          "today_n": 129
+        },
+        {
+          "full": "pocket-id/pocket-id",
+          "rank": 15,
+          "stars": 9.5,
+          "today": "+124",
+          "today_n": 124
+        },
+        {
+          "full": "lharries/whatsapp-mcp",
+          "rank": 16,
+          "stars": 6.5,
+          "today": "+57",
+          "today_n": 57
         }
       ],
       "c++": [
         {
           "full": "boykopovar/AnyPS5",
           "rank": 1,
-          "stars": 16.5,
-          "today": "+10.2k",
-          "today_n": 10243
+          "stars": 22.4,
+          "today": "+15.5k",
+          "today_n": 15539
         },
         {
           "full": "zeldaret/tww",
           "rank": 2,
           "stars": 1.1,
-          "today": "+71",
-          "today_n": 71
+          "today": "+54",
+          "today_n": 54
         },
         {
-          "full": "moonlight-stream/moonlight-qt",
+          "full": "shadps4-emu/shadPS4",
           "rank": 3,
-          "stars": 19.0,
-          "today": "+161",
-          "today_n": 161
+          "stars": 33.3,
+          "today": "+280",
+          "today_n": 280
         },
         {
           "full": "Vita3K/Vita3K",
           "rank": 4,
           "stars": 5.8,
-          "today": "+45",
-          "today_n": 45
+          "today": "+44",
+          "today_n": 44
         },
         {
-          "full": "shadps4-emu/shadPS4",
+          "full": "moonlight-stream/moonlight-qt",
           "rank": 5,
-          "stars": 33.3,
-          "today": "+244",
-          "today_n": 244
+          "stars": 19.0,
+          "today": "+173",
+          "today_n": 173
         },
         {
-          "full": "microsoft/WSL",
+          "full": "zen-browser/desktop",
           "rank": 6,
-          "stars": 34.0,
-          "today": "+144",
-          "today_n": 144
+          "stars": 44.8,
+          "today": "+209",
+          "today_n": 209
         },
         {
           "full": "doitsujin/dxvk",
           "rank": 7,
           "stars": 18.3,
-          "today": "+74",
-          "today_n": 74
+          "today": "+72",
+          "today_n": 72
         },
         {
           "full": "simdjson/simdjson",
@@ -1408,46 +1340,18 @@ window.TRENDING_DATA = {
           "today_n": 63
         },
         {
-          "full": "YesterMester/TheSimpsonsGameRecomp",
+          "full": "hluk/CopyQ",
           "rank": 9,
-          "stars": 0.3,
-          "today": "+48",
-          "today_n": 48
-        },
-        {
-          "full": "GDRETools/gdsdecomp",
-          "rank": 10,
-          "stars": 4.3,
-          "today": "+36",
-          "today_n": 36
+          "stars": 12.4,
+          "today": "+86",
+          "today_n": 86
         },
         {
           "full": "aydencharles/onionHEN",
-          "rank": 11,
+          "rank": 10,
           "stars": 0.4,
-          "today": "+95",
-          "today_n": 95
-        },
-        {
-          "full": "emscripten-core/emscripten",
-          "rank": 12,
-          "stars": 27.7,
-          "today": "+42",
-          "today_n": 42
-        },
-        {
-          "full": "zen-browser/desktop",
-          "rank": 13,
-          "stars": 44.8,
-          "today": "+200",
-          "today_n": 200
-        },
-        {
-          "full": "awalol/DS5Dongle",
-          "rank": 14,
-          "stars": 2.9,
-          "today": "+42",
-          "today_n": 42
+          "today": "+90",
+          "today_n": 90
         }
       ]
     },
@@ -1456,640 +1360,619 @@ window.TRENDING_DATA = {
         {
           "full": "alibaba/open-code-review",
           "rank": 1,
-          "stars": 44.7,
-          "today": "+22.8k",
-          "today_n": 22779
+          "stars": 45.2,
+          "today": "+23.0k",
+          "today_n": 23028
         },
         {
           "full": "debpalash/VoiceStudio",
           "rank": 2,
-          "stars": 55.4,
-          "today": "+34.3k",
-          "today_n": 34334
-        },
-        {
-          "full": "bilawalsidhu/gods-eye-view",
-          "rank": 3,
-          "stars": 49.3,
-          "today": "+30.2k",
-          "today_n": 30207
+          "stars": 56.3,
+          "today": "+34.6k",
+          "today_n": 34560
         },
         {
           "full": "anthropics/financial-services",
-          "rank": 4,
-          "stars": 39.1,
-          "today": "+4.4k",
-          "today_n": 4400
+          "rank": 3,
+          "stars": 39.2,
+          "today": "+4.5k",
+          "today_n": 4495
         },
         {
           "full": "paperclipai/paperclip",
-          "rank": 5,
-          "stars": 98.9,
-          "today": "+18.9k",
-          "today_n": 18863
+          "rank": 4,
+          "stars": 99.2,
+          "today": "+19.1k",
+          "today_n": 19137
         },
         {
           "full": "affaan-m/ECC",
+          "rank": 5,
+          "stars": 276.0,
+          "today": "+22.7k",
+          "today_n": 22710
+        },
+        {
+          "full": "bilawalsidhu/gods-eye-view",
           "rank": 6,
-          "stars": 275.5,
-          "today": "+23.1k",
-          "today_n": 23115
+          "stars": 49.7,
+          "today": "+29.2k",
+          "today_n": 29212
         },
         {
           "full": "vectorize-io/hindsight",
           "rank": 7,
-          "stars": 47.4,
-          "today": "+24.3k",
-          "today_n": 24260
+          "stars": 47.7,
+          "today": "+24.6k",
+          "today_n": 24617
         },
         {
           "full": "Tencent/WeKnora",
           "rank": 8,
-          "stars": 32.7,
-          "today": "+11.0k",
-          "today_n": 11015
+          "stars": 32.8,
+          "today": "+11.1k",
+          "today_n": 11118
         },
         {
           "full": "anthropics/claude-code",
           "rank": 9,
-          "stars": 149.7,
-          "today": "+6.1k",
-          "today_n": 6111
+          "stars": 149.9,
+          "today": "+6.2k",
+          "today_n": 6173
         },
         {
           "full": "TencentCloud/Octop",
           "rank": 10,
-          "stars": 8.1,
-          "today": "+6.5k",
-          "today_n": 6497
+          "stars": 8.2,
+          "today": "+6.7k",
+          "today_n": 6720
+        },
+        {
+          "full": "anthropics/knowledge-work-plugins",
+          "rank": 11,
+          "stars": 28.3,
+          "today": "+4.1k",
+          "today_n": 4131
         },
         {
           "full": "agent-substrate/substrate",
-          "rank": 11,
-          "stars": 4.6,
-          "today": "+2.8k",
-          "today_n": 2793
+          "rank": 12,
+          "stars": 4.7,
+          "today": "+2.9k",
+          "today_n": 2879
         },
         {
           "full": "NVIDIA/OpenShell",
-          "rank": 12,
-          "stars": 15.5,
-          "today": "+7.0k",
-          "today_n": 6997
-        },
-        {
-          "full": "mksglu/context-mode",
           "rank": 13,
-          "stars": 25.8,
-          "today": "+4.6k",
-          "today_n": 4606
+          "stars": 15.6,
+          "today": "+7.1k",
+          "today_n": 7118
         },
         {
           "full": "heygen-com/hyperframes",
           "rank": 14,
-          "stars": 59.3,
-          "today": "+11.9k",
-          "today_n": 11862
-        },
-        {
-          "full": "spotify/portal-ai-plugins",
-          "rank": 15,
-          "stars": 2.5,
-          "today": "+2.0k",
-          "today_n": 1993
+          "stars": 59.8,
+          "today": "+11.6k",
+          "today_n": 11576
         },
         {
           "full": "JustVugg/colibri",
+          "rank": 15,
+          "stars": 40.8,
+          "today": "+13.8k",
+          "today_n": 13755
+        },
+        {
+          "full": "mksglu/context-mode",
           "rank": 16,
-          "stars": 40.6,
-          "today": "+13.7k",
-          "today_n": 13653
-        },
-        {
-          "full": "anthropics/knowledge-work-plugins",
-          "rank": 17,
-          "stars": 27.8,
-          "today": "+3.5k",
-          "today_n": 3453
-        },
-        {
-          "full": "ayghri/i-have-adhd",
-          "rank": 18,
-          "stars": 55.9,
-          "today": "+27.7k",
-          "today_n": 27656
+          "stars": 26.0,
+          "today": "+4.4k",
+          "today_n": 4398
         },
         {
           "full": "trycua/cua",
-          "rank": 19,
-          "stars": 29.1,
-          "today": "+6.8k",
-          "today_n": 6777
-        },
-        {
-          "full": "cursor/plugins",
-          "rank": 20,
-          "stars": 10.4,
-          "today": "+3.4k",
-          "today_n": 3443
+          "rank": 17,
+          "stars": 29.2,
+          "today": "+6.9k",
+          "today_n": 6877
         },
         {
           "full": "tashfeenahmed/freellmapi",
-          "rank": 21,
-          "stars": 32.2,
-          "today": "+7.2k",
-          "today_n": 7238
+          "rank": 18,
+          "stars": 32.5,
+          "today": "+7.5k",
+          "today_n": 7455
         },
         {
-          "full": "DietrichGebert/ponytail",
-          "rank": 22,
-          "stars": 158.7,
-          "today": "+27.3k",
-          "today_n": 27284
+          "full": "cursor/plugins",
+          "rank": 19,
+          "stars": 10.6,
+          "today": "+3.5k",
+          "today_n": 3503
         },
         {
           "full": "addyosmani/agent-skills",
-          "rank": 23,
-          "stars": 103.5,
-          "today": "+10.9k",
-          "today_n": 10948
+          "rank": 20,
+          "stars": 104.0,
+          "today": "+11.2k",
+          "today_n": 11155
+        },
+        {
+          "full": "DietrichGebert/ponytail",
+          "rank": 21,
+          "stars": 159.7,
+          "today": "+27.3k",
+          "today_n": 27290
         },
         {
           "full": "max-sixty/worktrunk",
-          "rank": 24,
+          "rank": 22,
           "stars": 9.1,
-          "today": "+2.2k",
-          "today_n": 2240
+          "today": "+2.3k",
+          "today_n": 2301
         }
       ],
       "python": [
         {
           "full": "debpalash/VoiceStudio",
           "rank": 1,
-          "stars": 55.4,
-          "today": "+34.3k",
-          "today_n": 34334
+          "stars": 56.3,
+          "today": "+34.6k",
+          "today_n": 34560
         },
         {
           "full": "anthropics/financial-services",
           "rank": 2,
-          "stars": 39.1,
-          "today": "+4.4k",
-          "today_n": 4400
+          "stars": 39.2,
+          "today": "+4.5k",
+          "today_n": 4495
         },
         {
           "full": "vectorize-io/hindsight",
           "rank": 3,
-          "stars": 47.4,
-          "today": "+24.3k",
-          "today_n": 24260
+          "stars": 47.7,
+          "today": "+24.6k",
+          "today_n": 24617
         },
         {
           "full": "TencentCloud/Octop",
           "rank": 4,
-          "stars": 8.1,
-          "today": "+6.5k",
-          "today_n": 6497
+          "stars": 8.2,
+          "today": "+6.7k",
+          "today_n": 6720
         },
         {
           "full": "anthropics/knowledge-work-plugins",
           "rank": 5,
-          "stars": 27.8,
-          "today": "+3.5k",
-          "today_n": 3453
+          "stars": 28.3,
+          "today": "+4.1k",
+          "today_n": 4131
         },
         {
-          "full": "ayghri/i-have-adhd",
+          "full": "Panniantong/Agent-Reach",
           "rank": 6,
-          "stars": 55.9,
-          "today": "+27.7k",
-          "today_n": 27656
+          "stars": 94.9,
+          "today": "+16.3k",
+          "today_n": 16294
         },
         {
           "full": "rohitg00/ai-engineering-from-scratch",
           "rank": 7,
-          "stars": 65.9,
+          "stars": 66.2,
           "today": "+13.0k",
-          "today_n": 13041
-        },
-        {
-          "full": "Panniantong/Agent-Reach",
-          "rank": 8,
-          "stars": 94.3,
-          "today": "+15.8k",
-          "today_n": 15772
-        },
-        {
-          "full": "superdesigndev/treg",
-          "rank": 9,
-          "stars": 4.9,
-          "today": "+3.6k",
-          "today_n": 3580
+          "today_n": 12969
         },
         {
           "full": "D4Vinci/Scrapling",
-          "rank": 10,
-          "stars": 86.4,
-          "today": "+7.3k",
-          "today_n": 7279
+          "rank": 8,
+          "stars": 86.5,
+          "today": "+7.2k",
+          "today_n": 7174
         },
         {
           "full": "VectifyAI/PageIndex",
-          "rank": 11,
+          "rank": 9,
           "stars": 39.0,
-          "today": "+3.5k",
-          "today_n": 3537
+          "today": "+3.6k",
+          "today_n": 3566
+        },
+        {
+          "full": "superdesigndev/treg",
+          "rank": 10,
+          "stars": 4.9,
+          "today": "+3.7k",
+          "today_n": 3654
         },
         {
           "full": "asgeirtj/system_prompts_leaks",
-          "rank": 12,
-          "stars": 69.2,
+          "rank": 11,
+          "stars": 69.3,
           "today": "+5.1k",
-          "today_n": 5103
+          "today_n": 5092
         },
         {
           "full": "NVIDIA/SkillSpector",
-          "rank": 13,
-          "stars": 19.7,
+          "rank": 12,
+          "stars": 19.8,
           "today": "+3.1k",
-          "today_n": 3128
+          "today_n": 3074
         },
         {
           "full": "davila7/claude-code-templates",
-          "rank": 14,
+          "rank": 13,
           "stars": 32.5,
           "today": "+2.1k",
-          "today_n": 2054
+          "today_n": 2065
+        },
+        {
+          "full": "pytorch/pytorch",
+          "rank": 14,
+          "stars": 104.0,
+          "today": "+1.3k",
+          "today_n": 1290
         },
         {
           "full": "home-assistant/core",
           "rank": 15,
           "stars": 91.3,
           "today": "+1.2k",
-          "today_n": 1152
-        },
-        {
-          "full": "pytorch/pytorch",
-          "rank": 16,
-          "stars": 103.9,
-          "today": "+1.3k",
-          "today_n": 1252
+          "today_n": 1154
         },
         {
           "full": "NVIDIA/Model-Optimizer",
-          "rank": 17,
-          "stars": 5.2,
+          "rank": 16,
+          "stars": 5.3,
           "today": "+1.5k",
-          "today_n": 1502
+          "today_n": 1501
         },
         {
-          "full": "tile-ai/tilelang",
-          "rank": 18,
-          "stars": 8.5,
-          "today": "+1.2k",
-          "today_n": 1170
-        },
-        {
-          "full": "HKUDS/CLI-Anything",
-          "rank": 19,
-          "stars": 51.8,
-          "today": "+2.8k",
-          "today_n": 2765
+          "full": "danyuchn/asd-ste100-skill",
+          "rank": 17,
+          "stars": 4.3,
+          "today": "+2.4k",
+          "today_n": 2352
         },
         {
           "full": "docling-project/docling",
-          "rank": 20,
+          "rank": 18,
           "stars": 68.6,
           "today": "+2.5k",
-          "today_n": 2510
+          "today_n": 2528
         },
         {
-          "full": "SnailSploit/Claude-Red",
-          "rank": 21,
-          "stars": 7.4,
-          "today": "+4.5k",
-          "today_n": 4464
+          "full": "tile-ai/tilelang",
+          "rank": 19,
+          "stars": 8.5,
+          "today": "+1.2k",
+          "today_n": 1182
+        },
+        {
+          "full": "multimodal-art-projection/YuE",
+          "rank": 20,
+          "stars": 11.1,
+          "today": "+4.8k",
+          "today_n": 4788
         }
       ],
       "typescript": [
         {
           "full": "paperclipai/paperclip",
           "rank": 1,
-          "stars": 98.9,
-          "today": "+18.9k",
-          "today_n": 18863
+          "stars": 99.2,
+          "today": "+19.1k",
+          "today_n": 19137
         },
         {
           "full": "anthropics/claude-code",
           "rank": 2,
-          "stars": 149.7,
-          "today": "+6.1k",
-          "today_n": 6111
-        },
-        {
-          "full": "mksglu/context-mode",
-          "rank": 3,
-          "stars": 25.8,
-          "today": "+4.6k",
-          "today_n": 4606
+          "stars": 149.9,
+          "today": "+6.2k",
+          "today_n": 6173
         },
         {
           "full": "heygen-com/hyperframes",
-          "rank": 4,
-          "stars": 59.3,
-          "today": "+11.9k",
-          "today_n": 11862
+          "rank": 3,
+          "stars": 59.8,
+          "today": "+11.6k",
+          "today_n": 11576
         },
         {
-          "full": "spotify/portal-ai-plugins",
+          "full": "mksglu/context-mode",
+          "rank": 4,
+          "stars": 26.0,
+          "today": "+4.4k",
+          "today_n": 4398
+        },
+        {
+          "full": "tashfeenahmed/freellmapi",
           "rank": 5,
-          "stars": 2.5,
-          "today": "+2.0k",
-          "today_n": 1993
+          "stars": 32.5,
+          "today": "+7.5k",
+          "today_n": 7455
         },
         {
           "full": "cursor/plugins",
           "rank": 6,
-          "stars": 10.4,
-          "today": "+3.4k",
-          "today_n": 3443
-        },
-        {
-          "full": "tashfeenahmed/freellmapi",
-          "rank": 7,
-          "stars": 32.2,
-          "today": "+7.2k",
-          "today_n": 7238
+          "stars": 10.6,
+          "today": "+3.5k",
+          "today_n": 3503
         },
         {
           "full": "LibreChat-AI/LibreChat",
-          "rank": 8,
-          "stars": 45.4,
+          "rank": 7,
+          "stars": 45.5,
           "today": "+2.9k",
-          "today_n": 2894
+          "today_n": 2900
+        },
+        {
+          "full": "spotify/portal-ai-plugins",
+          "rank": 8,
+          "stars": 2.5,
+          "today": "+1.8k",
+          "today_n": 1778
         },
         {
           "full": "supabase/supabase",
           "rank": 9,
           "stars": 111.3,
           "today": "+2.6k",
-          "today_n": 2640
+          "today_n": 2648
         },
         {
           "full": "pingdotgg/t3code",
           "rank": 10,
-          "stars": 26.4,
-          "today": "+4.5k",
-          "today_n": 4458
+          "stars": 26.6,
+          "today": "+4.6k",
+          "today_n": 4559
         },
         {
           "full": "cline/cline",
           "rank": 11,
-          "stars": 70.0,
+          "stars": 70.1,
           "today": "+2.8k",
-          "today_n": 2793
+          "today_n": 2782
         },
         {
-          "full": "microsoft/vscode",
+          "full": "vastsa/PI-Desktop",
           "rank": 12,
-          "stars": 193.5,
-          "today": "+3.0k",
-          "today_n": 3036
-        },
-        {
-          "full": "Effect-TS/effect",
-          "rank": 13,
-          "stars": 17.2,
-          "today": "+1.3k",
-          "today_n": 1289
+          "stars": 6.6,
+          "today": "+5.1k",
+          "today_n": 5117
         },
         {
           "full": "FxEmbed/FxEmbed",
-          "rank": 14,
+          "rank": 13,
           "stars": 5.7,
-          "today": "+703",
-          "today_n": 703
+          "today": "+705",
+          "today_n": 705
+        },
+        {
+          "full": "Effect-TS/effect",
+          "rank": 14,
+          "stars": 17.2,
+          "today": "+1.3k",
+          "today_n": 1292
+        },
+        {
+          "full": "thedotmack/claude-mem",
+          "rank": 15,
+          "stars": 99.0,
+          "today": "+5.8k",
+          "today_n": 5830
         },
         {
           "full": "miuuyy/codex-chatgpt-web",
-          "rank": 15,
+          "rank": 16,
           "stars": 13.8,
-          "today": "+8.2k",
-          "today_n": 8225
+          "today": "+8.0k",
+          "today_n": 8044
         },
         {
           "full": "dream-num/univer",
-          "rank": 16,
+          "rank": 17,
           "stars": 22.5,
           "today": "+8.3k",
-          "today_n": 8295
+          "today_n": 8316
         },
         {
           "full": "Open-Dev-Society/OpenStock",
-          "rank": 17,
+          "rank": 18,
           "stars": 19.9,
           "today": "+5.8k",
-          "today_n": 5781
-        },
-        {
-          "full": "melgarafael/DeskcommCRM",
-          "rank": 18,
-          "stars": 4.5,
-          "today": "+3.8k",
-          "today_n": 3800
+          "today_n": 5821
         },
         {
           "full": "ever-co/ever-gauzy",
           "rank": 19,
           "stars": 8.3,
-          "today": "+4.1k",
-          "today_n": 4108
+          "today": "+4.2k",
+          "today_n": 4190
         },
         {
-          "full": "stablyai/orca",
+          "full": "melgarafael/DeskcommCRM",
           "rank": 20,
-          "stars": 88.1,
-          "today": "+24.2k",
-          "today_n": 24245
+          "stars": 4.5,
+          "today": "+3.8k",
+          "today_n": 3798
         },
         {
           "full": "pablostanley/yoinks",
           "rank": 21,
-          "stars": 5.5,
-          "today": "+3.6k",
-          "today_n": 3648
+          "stars": 5.6,
+          "today": "+3.9k",
+          "today_n": 3927
         },
         {
-          "full": "thedotmack/claude-mem",
+          "full": "reconurge/flowsint",
           "rank": 22,
-          "stars": 98.6,
-          "today": "+5.2k",
-          "today_n": 5224
+          "stars": 9.6,
+          "today": "+2.0k",
+          "today_n": 2014
         }
       ],
       "javascript": [
         {
-          "full": "bilawalsidhu/gods-eye-view",
-          "rank": 1,
-          "stars": 49.3,
-          "today": "+30.2k",
-          "today_n": 30207
-        },
-        {
           "full": "affaan-m/ECC",
-          "rank": 2,
-          "stars": 275.5,
-          "today": "+23.1k",
-          "today_n": 23115
+          "rank": 1,
+          "stars": 276.0,
+          "today": "+22.7k",
+          "today_n": 22710
         },
         {
-          "full": "DietrichGebert/ponytail",
-          "rank": 3,
-          "stars": 158.7,
-          "today": "+27.3k",
-          "today_n": 27284
+          "full": "bilawalsidhu/gods-eye-view",
+          "rank": 2,
+          "stars": 49.7,
+          "today": "+29.2k",
+          "today_n": 29212
         },
         {
           "full": "addyosmani/agent-skills",
+          "rank": 3,
+          "stars": 104.0,
+          "today": "+11.2k",
+          "today_n": 11155
+        },
+        {
+          "full": "DietrichGebert/ponytail",
           "rank": 4,
-          "stars": 103.5,
-          "today": "+10.9k",
-          "today_n": 10948
+          "stars": 159.7,
+          "today": "+27.3k",
+          "today_n": 27290
         },
         {
           "full": "tt-a1i/archify",
           "rank": 5,
-          "stars": 80.3,
-          "today": "+25.9k",
-          "today_n": 25913
+          "stars": 81.2,
+          "today": "+25.8k",
+          "today_n": 25778
         },
         {
           "full": "vercel/next.js",
           "rank": 6,
-          "stars": 143.0,
+          "stars": 143.1,
           "today": "+1.8k",
-          "today_n": 1837
+          "today_n": 1826
         },
         {
           "full": "cloudflare/security-audit-skill",
           "rank": 7,
-          "stars": 26.7,
-          "today": "+23.6k",
-          "today_n": 23612
+          "stars": 26.9,
+          "today": "+24.0k",
+          "today_n": 23979
         },
         {
           "full": "fleetbase/fleetbase",
           "rank": 8,
           "stars": 4.2,
-          "today": "+1.9k",
-          "today_n": 1925
+          "today": "+2.0k",
+          "today_n": 1952
         },
         {
           "full": "mnfst/awesome-free-llm-apis",
           "rank": 9,
-          "stars": 9.5,
-          "today": "+2.1k",
-          "today_n": 2064
+          "stars": 9.6,
+          "today": "+2.2k",
+          "today_n": 2210
         },
         {
           "full": "hughhowey/neo",
           "rank": 10,
           "stars": 1.4,
-          "today": "+942",
-          "today_n": 942
+          "today": "+957",
+          "today_n": 957
+        },
+        {
+          "full": "WebKit/WebKit",
+          "rank": 11,
+          "stars": 10.2,
+          "today": "+156",
+          "today_n": 156
         },
         {
           "full": "byoungd/up",
-          "rank": 11,
-          "stars": 67.9,
-          "today": "+5.7k",
-          "today_n": 5651
+          "rank": 12,
+          "stars": 68.0,
+          "today": "+5.8k",
+          "today_n": 5781
         },
         {
           "full": "pbakaus/impeccable",
-          "rank": 12,
-          "stars": 78.7,
-          "today": "+12.4k",
-          "today_n": 12392
-        },
-        {
-          "full": "WorldFlowAI/everything-claude-code",
           "rank": 13,
-          "stars": 4.3,
-          "today": "+1.6k",
-          "today_n": 1647
+          "stars": 79.0,
+          "today": "+12.5k",
+          "today_n": 12464
         },
         {
           "full": "laoma528/awesome-zhuiju-free",
           "rank": 14,
-          "stars": 11.5,
+          "stars": 11.6,
           "today": "+3.5k",
-          "today_n": 3494
-        },
-        {
-          "full": "WebKit/WebKit",
-          "rank": 15,
-          "stars": 10.2,
-          "today": "+151",
-          "today_n": 151
+          "today_n": 3541
         },
         {
           "full": "vercel-labs/agent-skills",
-          "rank": 16,
+          "rank": 15,
           "stars": 32.1,
           "today": "+1.2k",
-          "today_n": 1201
+          "today_n": 1198
         },
         {
-          "full": "nodejs/node",
-          "rank": 17,
-          "stars": 122.3,
-          "today": "+1.9k",
-          "today_n": 1912
-        },
-        {
-          "full": "openai/plugins",
-          "rank": 18,
-          "stars": 7.4,
+          "full": "WorldFlowAI/everything-claude-code",
+          "rank": 16,
+          "stars": 4.4,
           "today": "+1.7k",
-          "today_n": 1735
+          "today_n": 1674
+        },
+        {
+          "full": "Neet-Nestor/Telegram-Media-Downloader",
+          "rank": 17,
+          "stars": 6.0,
+          "today": "+589",
+          "today_n": 589
+        },
+        {
+          "full": "JoeanAmier/TikTokDownloader",
+          "rank": 18,
+          "stars": 16.6,
+          "today": "+916",
+          "today_n": 916
         }
       ],
       "rust": [
         {
           "full": "NVIDIA/OpenShell",
           "rank": 1,
-          "stars": 15.5,
-          "today": "+7.0k",
-          "today_n": 6997
+          "stars": 15.6,
+          "today": "+7.1k",
+          "today_n": 7118
         },
         {
           "full": "trycua/cua",
           "rank": 2,
-          "stars": 29.1,
-          "today": "+6.8k",
-          "today_n": 6777
+          "stars": 29.2,
+          "today": "+6.9k",
+          "today_n": 6877
         },
         {
           "full": "max-sixty/worktrunk",
           "rank": 3,
           "stars": 9.1,
-          "today": "+2.2k",
-          "today_n": 2240
+          "today": "+2.3k",
+          "today_n": 2301
         },
         {
           "full": "longbridge/gpui-kit",
           "rank": 4,
-          "stars": 16.6,
+          "stars": 16.7,
           "today": "+2.5k",
-          "today_n": 2465
+          "today_n": 2526
         },
         {
           "full": "rustfs/rustfs",
           "rank": 5,
           "stars": 34.6,
-          "today": "+3.0k",
-          "today_n": 3041
+          "today": "+3.1k",
+          "today_n": 3057
         },
         {
           "full": "cloudflare/quiche",
@@ -2103,577 +1986,417 @@ window.TRENDING_DATA = {
           "rank": 7,
           "stars": 125.3,
           "today": "+3.0k",
-          "today_n": 2995
+          "today_n": 3022
         },
         {
-          "full": "t8y2/dbx",
+          "full": "akitaonrails/ai-memory",
           "rank": 8,
-          "stars": 25.3,
-          "today": "+7.0k",
-          "today_n": 6998
+          "stars": 9.1,
+          "today": "+3.0k",
+          "today_n": 2958
+        },
+        {
+          "full": "alphaXiv/OpenResearch",
+          "rank": 9,
+          "stars": 6.8,
+          "today": "+6.3k",
+          "today_n": 6349
         },
         {
           "full": "clash-verge-rev/clash-verge-rev",
-          "rank": 9,
-          "stars": 149.8,
-          "today": "+7.3k",
-          "today_n": 7342
+          "rank": 10,
+          "stars": 150.1,
+          "today": "+7.4k",
+          "today_n": 7407
         },
         {
-          "full": "rust-lang/rust",
-          "rank": 10,
-          "stars": 119.5,
-          "today": "+2.4k",
-          "today_n": 2384
+          "full": "t8y2/dbx",
+          "rank": 11,
+          "stars": 25.4,
+          "today": "+6.9k",
+          "today_n": 6879
         },
         {
           "full": "hydra-db/hydradb",
-          "rank": 11,
+          "rank": 12,
           "stars": 13.0,
           "today": "+10.1k",
-          "today_n": 10119
-        },
-        {
-          "full": "HakanSeven12/OpenCADStudio",
-          "rank": 12,
-          "stars": 2.6,
-          "today": "+1.4k",
-          "today_n": 1374
-        },
-        {
-          "full": "ankitects/anki",
-          "rank": 13,
-          "stars": 31.9,
-          "today": "+1.7k",
-          "today_n": 1680
-        },
-        {
-          "full": "deeplethe/utopia",
-          "rank": 14,
-          "stars": 8.2,
-          "today": "+7.2k",
-          "today_n": 7158
+          "today_n": 10063
         },
         {
           "full": "pacifio/atlas",
-          "rank": 15,
-          "stars": 9.5,
-          "today": "+6.4k",
-          "today_n": 6436
+          "rank": 13,
+          "stars": 9.6,
+          "today": "+6.6k",
+          "today_n": 6560
         },
         {
-          "full": "lbjlaq/Antigravity-Manager",
-          "rank": 16,
-          "stars": 32.0,
-          "today": "+1.1k",
-          "today_n": 1126
-        },
-        {
-          "full": "bevyengine/bevy",
-          "rank": 17,
-          "stars": 48.7,
-          "today": "+750",
-          "today_n": 750
-        },
-        {
-          "full": "tauri-apps/tauri",
-          "rank": 18,
-          "stars": 111.7,
-          "today": "+983",
-          "today_n": 983
+          "full": "HakanSeven12/OpenCADStudio",
+          "rank": 14,
+          "stars": 2.6,
+          "today": "+1.3k",
+          "today_n": 1343
         },
         {
           "full": "microsoft/mxc",
+          "rank": 15,
+          "stars": 2.4,
+          "today": "+894",
+          "today_n": 894
+        },
+        {
+          "full": "ankitects/anki",
+          "rank": 16,
+          "stars": 31.9,
+          "today": "+1.7k",
+          "today_n": 1684
+        },
+        {
+          "full": "zeronsh/zeron",
+          "rank": 17,
+          "stars": 3.1,
+          "today": "+2.0k",
+          "today_n": 2003
+        },
+        {
+          "full": "deeplethe/utopia",
+          "rank": 18,
+          "stars": 8.2,
+          "today": "+6.6k",
+          "today_n": 6572
+        },
+        {
+          "full": "lbjlaq/Antigravity-Manager",
           "rank": 19,
-          "stars": 1.8,
-          "today": "+237",
-          "today_n": 237
+          "stars": 32.0,
+          "today": "+1.1k",
+          "today_n": 1114
+        },
+        {
+          "full": "bevyengine/bevy",
+          "rank": 20,
+          "stars": 48.8,
+          "today": "+792",
+          "today_n": 792
         }
       ],
       "go": [
         {
           "full": "alibaba/open-code-review",
           "rank": 1,
-          "stars": 44.7,
-          "today": "+22.8k",
-          "today_n": 22779
+          "stars": 45.2,
+          "today": "+23.0k",
+          "today_n": 23028
         },
         {
           "full": "Tencent/WeKnora",
           "rank": 2,
-          "stars": 32.7,
-          "today": "+11.0k",
-          "today_n": 11015
+          "stars": 32.8,
+          "today": "+11.1k",
+          "today_n": 11118
         },
         {
           "full": "agent-substrate/substrate",
           "rank": 3,
-          "stars": 4.6,
-          "today": "+2.8k",
-          "today_n": 2793
+          "stars": 4.7,
+          "today": "+2.9k",
+          "today_n": 2879
         },
         {
           "full": "coder/coder",
           "rank": 4,
           "stars": 16.9,
           "today": "+2.7k",
-          "today_n": 2663
+          "today_n": 2676
         },
         {
           "full": "caddyserver/caddy",
           "rank": 5,
           "stars": 77.6,
           "today": "+2.2k",
-          "today_n": 2177
+          "today_n": 2227
         },
         {
-          "full": "golang/go",
+          "full": "Gentleman-Programming/engram",
           "rank": 6,
-          "stars": 139.1,
-          "today": "+1.7k",
-          "today_n": 1716
+          "stars": 7.1,
+          "today": "+682",
+          "today_n": 682
         },
         {
           "full": "Gentleman-Programming/gentle-ai",
           "rank": 7,
           "stars": 7.6,
           "today": "+1.2k",
-          "today_n": 1244
-        },
-        {
-          "full": "Gentleman-Programming/engram",
-          "rank": 8,
-          "stars": 7.1,
-          "today": "+697",
-          "today_n": 697
-        },
-        {
-          "full": "p1neappleXpress/OpenFlux",
-          "rank": 9,
-          "stars": 2.0,
-          "today": "+2.0k",
-          "today_n": 2042
+          "today_n": 1224
         },
         {
           "full": "trufflesecurity/trufflehog",
-          "rank": 10,
+          "rank": 8,
           "stars": 28.4,
-          "today": "+703",
-          "today_n": 703
+          "today": "+730",
+          "today_n": 730
+        },
+        {
+          "full": "Gaurav-Gosain/tuios",
+          "rank": 9,
+          "stars": 5.1,
+          "today": "+1.5k",
+          "today_n": 1489
+        },
+        {
+          "full": "p1neappleXpress/OpenFlux",
+          "rank": 10,
+          "stars": 2.0,
+          "today": "+2.1k",
+          "today_n": 2054
         },
         {
           "full": "vxcontrol/pentagi",
           "rank": 11,
           "stars": 25.4,
           "today": "+2.9k",
-          "today_n": 2931
-        },
-        {
-          "full": "Gaurav-Gosain/tuios",
-          "rank": 12,
-          "stars": 5.1,
-          "today": "+1.5k",
-          "today_n": 1453
+          "today_n": 2923
         },
         {
           "full": "usememos/memos",
-          "rank": 13,
-          "stars": 63.6,
-          "today": "+925",
-          "today_n": 925
-        },
-        {
-          "full": "zitadel/zitadel",
-          "rank": 14,
-          "stars": 15.3,
-          "today": "+319",
-          "today_n": 319
+          "rank": 12,
+          "stars": 63.7,
+          "today": "+928",
+          "today_n": 928
         },
         {
           "full": "asciimoo/hister",
-          "rank": 15,
+          "rank": 13,
           "stars": 6.0,
           "today": "+2.3k",
           "today_n": 2337
         },
         {
-          "full": "urfave/cli",
-          "rank": 16,
-          "stars": 24.3,
-          "today": "+82",
-          "today_n": 82
+          "full": "grpc/grpc-go",
+          "rank": 14,
+          "stars": 23.1,
+          "today": "+141",
+          "today_n": 141
         },
         {
-          "full": "grpc/grpc-go",
-          "rank": 17,
-          "stars": 23.1,
-          "today": "+138",
-          "today_n": 138
+          "full": "urfave/cli",
+          "rank": 15,
+          "stars": 24.3,
+          "today": "+83",
+          "today_n": 83
         },
         {
           "full": "e2b-dev/runtime",
-          "rank": 18,
+          "rank": 16,
           "stars": 1.7,
-          "today": "+448",
-          "today_n": 448
+          "today": "+447",
+          "today_n": 447
         },
         {
           "full": "ollama/ollama",
-          "rank": 19,
-          "stars": 182.4,
-          "today": "+2.7k",
-          "today_n": 2735
+          "rank": 17,
+          "stars": 182.5,
+          "today": "+2.8k",
+          "today_n": 2804
         },
         {
-          "full": "kubernetes/kubernetes",
-          "rank": 20,
-          "stars": 128.2,
-          "today": "+1.8k",
-          "today_n": 1833
+          "full": "golang/go",
+          "rank": 18,
+          "stars": 139.2,
+          "today": "+1.7k",
+          "today_n": 1735
         },
         {
           "full": "navidrome/navidrome",
-          "rank": 21,
-          "stars": 24.0,
-          "today": "+710",
-          "today_n": 710
-        },
-        {
-          "full": "theagentrouter/agent-router",
-          "rank": 22,
-          "stars": 2.2,
-          "today": "+204",
-          "today_n": 204
+          "rank": 19,
+          "stars": 24.1,
+          "today": "+709",
+          "today_n": 709
         },
         {
           "full": "seaweedfs/seaweedfs",
+          "rank": 20,
+          "stars": 35.4,
+          "today": "+894",
+          "today_n": 894
+        },
+        {
+          "full": "openbao/openbao",
+          "rank": 21,
+          "stars": 8.4,
+          "today": "+1.1k",
+          "today_n": 1066
+        },
+        {
+          "full": "qax-os/excelize",
+          "rank": 22,
+          "stars": 21.0,
+          "today": "+95",
+          "today_n": 95
+        },
+        {
+          "full": "aquasecurity/trivy",
           "rank": 23,
-          "stars": 35.3,
-          "today": "+900",
-          "today_n": 900
+          "stars": 38.3,
+          "today": "+535",
+          "today_n": 535
+        },
+        {
+          "full": "XTLS/Xray-core",
+          "rank": 24,
+          "stars": 42.0,
+          "today": "+634",
+          "today_n": 634
         }
       ],
       "c++": [
         {
-          "full": "tensorflow/tensorflow",
-          "rank": 1,
-          "stars": 200.6,
-          "today": "+1.7k",
-          "today_n": 1719
-        },
-        {
           "full": "M-Abozaid/esp32-c3-adblock",
-          "rank": 2,
-          "stars": 2.4,
-          "today": "+1.7k",
-          "today_n": 1687
+          "rank": 1,
+          "stars": 2.6,
+          "today": "+1.9k",
+          "today_n": 1881
         },
         {
           "full": "ggml-org/llama.cpp",
-          "rank": 3,
-          "stars": 130.6,
+          "rank": 2,
+          "stars": 130.7,
           "today": "+3.6k",
-          "today_n": 3631
+          "today_n": 3642
         },
         {
           "full": "firebase/firebase-ios-sdk",
-          "rank": 4,
+          "rank": 3,
           "stars": 6.9,
           "today": "+291",
           "today_n": 291
         },
         {
           "full": "leejet/stable-diffusion.cpp",
-          "rank": 5,
+          "rank": 4,
           "stars": 7.6,
-          "today": "+652",
-          "today_n": 652
+          "today": "+654",
+          "today_n": 654
         },
         {
           "full": "Neroued/ninfer",
-          "rank": 6,
-          "stars": 2.8,
+          "rank": 5,
+          "stars": 2.9,
           "today": "+1.3k",
-          "today_n": 1334
+          "today_n": 1336
         },
         {
           "full": "LizardByte/Sunshine",
-          "rank": 7,
+          "rank": 6,
           "stars": 42.0,
           "today": "+1.1k",
-          "today_n": 1114
-        },
-        {
-          "full": "electron/electron",
-          "rank": 8,
-          "stars": 123.2,
-          "today": "+676",
-          "today_n": 676
-        },
-        {
-          "full": "godotengine/godot",
-          "rank": 9,
-          "stars": 118.1,
-          "today": "+1.7k",
-          "today_n": 1693
+          "today_n": 1121
         },
         {
           "full": "shadps4-emu/shadPS4",
-          "rank": 10,
+          "rank": 7,
           "stars": 33.3,
-          "today": "+572",
-          "today_n": 572
+          "today": "+615",
+          "today_n": 615
+        },
+        {
+          "full": "godotengine/godot",
+          "rank": 8,
+          "stars": 118.2,
+          "today": "+1.7k",
+          "today_n": 1677
         },
         {
           "full": "aria2/aria2",
-          "rank": 11,
+          "rank": 9,
           "stars": 43.0,
           "today": "+1.1k",
-          "today_n": 1108
-        },
-        {
-          "full": "ClickHouse/ClickHouse",
-          "rank": 12,
-          "stars": 50.3,
-          "today": "+658",
-          "today_n": 658
-        },
-        {
-          "full": "microsoft/WSL",
-          "rank": 13,
-          "stars": 34.0,
-          "today": "+438",
-          "today_n": 438
-        },
-        {
-          "full": "0xShug0/audio.cpp",
-          "rank": 14,
-          "stars": 3.4,
-          "today": "+1.0k",
-          "today_n": 1037
-        },
-        {
-          "full": "react/react-native",
-          "rank": 15,
-          "stars": 126.6,
-          "today": "+428",
-          "today_n": 428
-        },
-        {
-          "full": "keepassxreboot/keepassxc",
-          "rank": 16,
-          "stars": 29.1,
-          "today": "+476",
-          "today_n": 476
-        },
-        {
-          "full": "optiscaler/OptiScaler",
-          "rank": 17,
-          "stars": 11.6,
-          "today": "+1.2k",
-          "today_n": 1169
+          "today_n": 1120
         },
         {
           "full": "windirstat/windirstat",
-          "rank": 18,
-          "stars": 4.2,
-          "today": "+244",
-          "today_n": 244
+          "rank": 10,
+          "stars": 4.3,
+          "today": "+247",
+          "today_n": 247
+        },
+        {
+          "full": "microsoft/WSL",
+          "rank": 11,
+          "stars": 34.0,
+          "today": "+440",
+          "today_n": 440
+        },
+        {
+          "full": "tensorflow/tensorflow",
+          "rank": 12,
+          "stars": 200.6,
+          "today": "+1.7k",
+          "today_n": 1715
+        },
+        {
+          "full": "keepassxreboot/keepassxc",
+          "rank": 13,
+          "stars": 29.1,
+          "today": "+469",
+          "today_n": 469
         },
         {
           "full": "mamedev/mame",
-          "rank": 19,
+          "rank": 14,
           "stars": 10.6,
-          "today": "+133",
-          "today_n": 133
+          "today": "+134",
+          "today_n": 134
         },
         {
-          "full": "moonlight-stream/moonlight-qt",
-          "rank": 20,
-          "stars": 19.0,
-          "today": "+475",
-          "today_n": 475
-        },
-        {
-          "full": "openvinotoolkit/openvino",
-          "rank": 21,
-          "stars": 11.0,
-          "today": "+170",
-          "today_n": 170
+          "full": "optiscaler/OptiScaler",
+          "rank": 15,
+          "stars": 11.6,
+          "today": "+1.1k",
+          "today_n": 1150
         },
         {
           "full": "gta-reversed/gta-reversed",
-          "rank": 22,
+          "rank": 16,
           "stars": 1.0,
-          "today": "+155",
-          "today_n": 155
+          "today": "+160",
+          "today_n": 160
+        },
+        {
+          "full": "Atmosphere-NX/Atmosphere",
+          "rank": 17,
+          "stars": 20.1,
+          "today": "+586",
+          "today_n": 586
+        },
+        {
+          "full": "harry7557558/spirula-studio",
+          "rank": 18,
+          "stars": 1.6,
+          "today": "+1.2k",
+          "today_n": 1189
+        },
+        {
+          "full": "moonlight-stream/moonlight-qt",
+          "rank": 19,
+          "stars": 19.0,
+          "today": "+481",
+          "today_n": 481
         }
       ]
     }
   },
   "repos": [
     {
-      "slug": "anyps5",
-      "full": "boykopovar/AnyPS5",
-      "rank": 1,
-      "cat": "other",
-      "lang": "C++",
-      "stars": 16.5,
-      "today": "+4.7k",
-      "today_n": 4669,
-      "auto": false,
-      "zh": {
-        "tag": "将PS5可执行文件自动移植到Linux和Windows的工具",
-        "what": "AnyPS5 是一个将 PS5 可执行文件自动转换为 Linux 和 Windows 原生格式的工具。它通过重链接器和系统库实现动态链接，无需模拟器或独立运行时进程。",
-        "content": "仓库包含核心重链接器（core/relinker）、系统 prx 库实现（core/libs/prx）、着色器重编译器（core/shader/recompiler）以及用户和开发者文档。",
-        "stack": "主要使用 C++ 编写，依赖 SDL 进行输入映射，并可选使用 SPIRV-Tools 验证着色器。",
-        "hot": "该项目今日新增 2716 颗星，总星数达 11599，登上 GitHub 日榜第三名，因其创新的 PS5 游戏移植方案而备受关注。",
-        "uses": [
-          "游戏移植开发者和研究者，用于将 PS5 游戏移植到 PC 平台",
-          "游戏保存和兼容性爱好者，用于在 PC 上运行 PS5 游戏",
-          "技术研究人员，用于学习可执行文件转换和动态链接技术"
-        ]
-      },
-      "en": {
-        "tag": "Tool for automatic PS5 executables porting to Linux and Windows",
-        "what": "AnyPS5 is a tool that automatically converts PS5 executables to native formats for Linux and Windows. It uses a relinker and system library implementations for dynamic linking, with no emulation or separate runtime process.",
-        "content": "The repository includes a core relinker (core/relinker), system prx library implementations (core/libs/prx), a shader recompiler (core/shader/recompiler), and user and developer documentation.",
-        "stack": "Primarily written in C++, it depends on SDL for input mapping and optionally uses SPIRV-Tools for shader validation.",
-        "hot": "With 2,716 stars added today and a total of 11,599 stars, it ranks 3rd on GitHub Trending daily, attracting attention for its innovative PS5 game porting approach.",
-        "uses": [
-          "Game porting developers and researchers for porting PS5 games to PC",
-          "Game preservation and compatibility enthusiasts for running PS5 games on PC",
-          "Technical researchers for studying executable conversion and dynamic linking"
-        ]
-      },
-      "track": {
-        "days": 2,
-        "first": "2026-10-08",
-        "is_new": false,
-        "is_back": false,
-        "hist": [
-          {
-            "d": "2026-10-08",
-            "s": 11.6,
-            "r": 3
-          },
-          {
-            "d": "2026-10-09",
-            "s": 16.5,
-            "r": 1
-          }
-        ]
-      }
-    },
-    {
-      "slug": "diagram-design",
-      "full": "cathrynlavery/diagram-design",
-      "rank": 2,
-      "cat": "agent",
-      "lang": "HTML",
-      "stars": 46.7,
-      "today": "+1.2k",
-      "today_n": 1160,
-      "auto": false,
-      "zh": {
-        "tag": "为编码代理打造的编辑级图表设计技能，42 种图表类型",
-        "what": "这是一个面向 Claude Code、Codex、GitHub Copilot、Factory Droid、Pi 等编码代理的图表设计技能包。它让代理直接产出编辑级质量的图表，而不是千篇一律的圆角方块和 Mermaid 风格图。输出为自包含的 HTML + SVG，无阴影、无构建步骤。",
-        "content": "仓库包含 42 种图表类型的技能定义与模板，覆盖架构图、流程图、飞轮、Sankey、鱼骨图、Wardley 地图、看板、用户旅程、UML 类图、数据库 schema 等。每种类型提供 minimal light、minimal dark、full-editorial 三种静态变体，并附带截图与项目站点。",
-        "stack": "以 HTML 和 SVG 为核心，输出完全自包含、无需 JavaScript 或外部图片依赖。技能可运行在支持 Agent Skills 的宿主中，并能重绘 draw.io、Mermaid、Excalidraw 源文件。",
-        "hot": "上线即冲上 GitHub Trending 日榜第 5 名，今日新增 825 star，总 star 达 45298。它精准击中开发者「让 AI 画图但结果很丑」的痛点，用编辑级审美替代 Mermaid 的廉价感。",
-        "uses": [
-          "使用 Claude Code、Codex 等编码代理写文档、博客或技术方案的开发者",
-          "需要快速产出品牌一致架构图、流程图但不想打开 Figma 的工程师",
-          "希望把 draw.io、Mermaid、Excalidraw 旧图重绘成高质量版本的团队",
-          "对图表审美有要求、追求极简编辑风格的内容创作者"
-        ]
-      },
-      "en": {
-        "tag": "Editorial-grade diagram design skill for coding agents, 42 diagram types",
-        "what": "A diagram design skill for coding agents like Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. It makes agents output editorial-quality diagrams instead of generic rounded boxes or Mermaid slop, delivered as self-contained HTML + SVG with no shadows and no build step.",
-        "content": "The repo ships skill definitions and templates for 42 diagram types, covering architecture, flowcharts, flywheels, Sankey, fishbone, Wardley maps, kanban, user journeys, UML class diagrams, and database schemas. Each type comes in three static variants — minimal light, minimal dark, and full-editorial — plus screenshots and a project site.",
-        "stack": "Built on HTML and SVG, with fully self-contained output requiring no JavaScript or external image dependencies. The skill runs in Agent Skills-compatible hosts and can redraw draw.io, Mermaid, or Excalidraw sources.",
-        "hot": "It hit #5 on GitHub Trending daily with 825 new stars today and 45,298 total. It nails the pain point of AI-generated diagrams looking ugly, replacing Mermaid cheapness with editorial-grade aesthetics.",
-        "uses": [
-          "Developers using Claude Code, Codex, or similar agents for docs, blogs, or tech proposals",
-          "Engineers needing brand-consistent architecture or flow diagrams without opening Figma",
-          "Teams wanting to redraw old draw.io, Mermaid, or Excalidraw diagrams at higher quality",
-          "Content creators who care about editorial, minimalist diagram aesthetics"
-        ]
-      },
-      "track": {
-        "days": 2,
-        "first": "2026-08-13",
-        "is_new": false,
-        "is_back": false,
-        "hist": [
-          {
-            "d": "2026-08-13",
-            "s": 10.4,
-            "r": 1
-          },
-          {
-            "d": "2026-08-14",
-            "s": 14.5,
-            "r": 1
-          },
-          {
-            "d": "2026-08-15",
-            "s": 17.2,
-            "r": 1
-          },
-          {
-            "d": "2026-08-16",
-            "s": 18.6,
-            "r": 2
-          },
-          {
-            "d": "2026-09-05",
-            "s": 30.9,
-            "r": 17
-          },
-          {
-            "d": "2026-09-06",
-            "s": 31.7,
-            "r": 7
-          },
-          {
-            "d": "2026-09-07",
-            "s": 32.4,
-            "r": 3
-          },
-          {
-            "d": "2026-09-10",
-            "s": 36.6,
-            "r": 6
-          },
-          {
-            "d": "2026-09-11",
-            "s": 37.8,
-            "r": 8
-          },
-          {
-            "d": "2026-10-08",
-            "s": 45.3,
-            "r": 5
-          },
-          {
-            "d": "2026-10-09",
-            "s": 46.7,
-            "r": 2
-          }
-        ]
-      }
-    },
-    {
       "slug": "rea",
       "full": "morluto/rea",
-      "rank": 3,
+      "rank": 1,
       "cat": "agent",
       "lang": "TypeScript",
-      "stars": 29.4,
-      "today": "+7.7k",
-      "today_n": 7738,
+      "stars": 46.6,
+      "today": "+14.9k",
+      "today_n": 14927,
       "auto": false,
       "zh": {
         "tag": "让 AI 代理逆向分析二进制、应用与运行时行为的 MCP 工具集",
@@ -2702,7 +2425,7 @@ window.TRENDING_DATA = {
         ]
       },
       "track": {
-        "days": 2,
+        "days": 3,
         "first": "2026-10-08",
         "is_new": false,
         "is_back": false,
@@ -2716,6 +2439,69 @@ window.TRENDING_DATA = {
             "d": "2026-10-09",
             "s": 29.4,
             "r": 3
+          },
+          {
+            "d": "2026-10-10",
+            "s": 46.6,
+            "r": 1
+          }
+        ]
+      }
+    },
+    {
+      "slug": "anyps5",
+      "full": "boykopovar/AnyPS5",
+      "rank": 2,
+      "cat": "other",
+      "lang": "C++",
+      "stars": 22.4,
+      "today": "+5.9k",
+      "today_n": 5868,
+      "auto": false,
+      "zh": {
+        "tag": "将PS5可执行文件自动移植到Linux和Windows的工具",
+        "what": "AnyPS5 是一个将 PS5 可执行文件自动转换为 Linux 和 Windows 原生格式的工具。它通过重链接器和系统库实现动态链接，无需模拟器或独立运行时进程。",
+        "content": "仓库包含核心重链接器（core/relinker）、系统 prx 库实现（core/libs/prx）、着色器重编译器（core/shader/recompiler）以及用户和开发者文档。",
+        "stack": "主要使用 C++ 编写，依赖 SDL 进行输入映射，并可选使用 SPIRV-Tools 验证着色器。",
+        "hot": "该项目今日新增 2716 颗星，总星数达 11599，登上 GitHub 日榜第三名，因其创新的 PS5 游戏移植方案而备受关注。",
+        "uses": [
+          "游戏移植开发者和研究者，用于将 PS5 游戏移植到 PC 平台",
+          "游戏保存和兼容性爱好者，用于在 PC 上运行 PS5 游戏",
+          "技术研究人员，用于学习可执行文件转换和动态链接技术"
+        ]
+      },
+      "en": {
+        "tag": "Tool for automatic PS5 executables porting to Linux and Windows",
+        "what": "AnyPS5 is a tool that automatically converts PS5 executables to native formats for Linux and Windows. It uses a relinker and system library implementations for dynamic linking, with no emulation or separate runtime process.",
+        "content": "The repository includes a core relinker (core/relinker), system prx library implementations (core/libs/prx), a shader recompiler (core/shader/recompiler), and user and developer documentation.",
+        "stack": "Primarily written in C++, it depends on SDL for input mapping and optionally uses SPIRV-Tools for shader validation.",
+        "hot": "With 2,716 stars added today and a total of 11,599 stars, it ranks 3rd on GitHub Trending daily, attracting attention for its innovative PS5 game porting approach.",
+        "uses": [
+          "Game porting developers and researchers for porting PS5 games to PC",
+          "Game preservation and compatibility enthusiasts for running PS5 games on PC",
+          "Technical researchers for studying executable conversion and dynamic linking"
+        ]
+      },
+      "track": {
+        "days": 3,
+        "first": "2026-10-08",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-10-08",
+            "s": 11.6,
+            "r": 3
+          },
+          {
+            "d": "2026-10-09",
+            "s": 16.5,
+            "r": 1
+          },
+          {
+            "d": "2026-10-10",
+            "s": 22.4,
+            "r": 2
           }
         ]
       }
@@ -2723,12 +2509,12 @@ window.TRENDING_DATA = {
     {
       "slug": "mattpocock-skills",
       "full": "mattpocock/skills",
-      "rank": 4,
+      "rank": 3,
       "cat": "agent",
       "lang": "Shell",
-      "stars": 281.3,
-      "today": "+1.8k",
-      "today_n": 1774,
+      "stars": 282.7,
+      "today": "+1.7k",
+      "today_n": 1687,
       "auto": false,
       "zh": {
         "tag": "来自 Matt Pocock 的日常工程代理技能集，小而可组合",
@@ -2755,16 +2541,11 @@ window.TRENDING_DATA = {
         ]
       },
       "track": {
-        "days": 2,
+        "days": 3,
         "first": "2026-07-17",
         "is_new": false,
         "is_back": false,
         "hist": [
-          {
-            "d": "2026-08-08",
-            "s": 208.8,
-            "r": 4
-          },
           {
             "d": "2026-08-09",
             "s": 210.0,
@@ -2829,121 +2610,216 @@ window.TRENDING_DATA = {
             "d": "2026-10-09",
             "s": 281.3,
             "r": 4
+          },
+          {
+            "d": "2026-10-10",
+            "s": 282.7,
+            "r": 3
           }
         ]
       }
     },
     {
-      "slug": "claude-mem",
-      "full": "thedotmack/claude-mem",
-      "rank": 5,
+      "slug": "diagram-design",
+      "full": "cathrynlavery/diagram-design",
+      "rank": 4,
       "cat": "agent",
-      "lang": "TypeScript",
-      "stars": 98.6,
-      "today": "+670",
-      "today_n": 670,
+      "lang": "HTML",
+      "stars": 47.9,
+      "today": "+1.7k",
+      "today_n": 1739,
       "auto": false,
       "zh": {
-        "tag": "为各类 AI 代理提供跨会话持久记忆与上下文注入",
-        "what": "claude-mem 是一个为 AI 编码代理提供持久化记忆的中间层：它会捕获代理在会话中的所有操作，用 AI 压缩成精炼记忆，并在后续会话中自动注入相关上下文。支持 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等多种代理。",
-        "content": "仓库以 TypeScript 实现，包含会话捕获、AI 压缩、记忆存储与上下文注入等模块，并提供面向多种代理的适配与配置。",
-        "stack": "主语言 TypeScript，依赖 Node.js 生态，需接入 AI 模型进行摘要压缩，并针对不同代理提供集成适配层。",
-        "hot": "今日新增 578 star、总数近 9.8 万并登上 GitHub Trending 日榜第 8，说明「让代理记住上下文」是当前 AI 编码工具链的刚需痛点。",
+        "tag": "为编码代理打造的编辑级图表设计技能，42 种图表类型",
+        "what": "这是一个面向 Claude Code、Codex、GitHub Copilot、Factory Droid、Pi 等编码代理的图表设计技能包。它让代理直接产出编辑级质量的图表，而不是千篇一律的圆角方块和 Mermaid 风格图。输出为自包含的 HTML + SVG，无阴影、无构建步骤。",
+        "content": "仓库包含 42 种图表类型的技能定义与模板，覆盖架构图、流程图、飞轮、Sankey、鱼骨图、Wardley 地图、看板、用户旅程、UML 类图、数据库 schema 等。每种类型提供 minimal light、minimal dark、full-editorial 三种静态变体，并附带截图与项目站点。",
+        "stack": "以 HTML 和 SVG 为核心，输出完全自包含、无需 JavaScript 或外部图片依赖。技能可运行在支持 Agent Skills 的宿主中，并能重绘 draw.io、Mermaid、Excalidraw 源文件。",
+        "hot": "上线即冲上 GitHub Trending 日榜第 5 名，今日新增 825 star，总 star 达 45298。它精准击中开发者「让 AI 画图但结果很丑」的痛点，用编辑级审美替代 Mermaid 的廉价感。",
         "uses": [
-          "长期使用 Claude Code 等代理、希望避免重复交代背景的开发者",
-          "需要跨会话延续项目上下文的 AI 编码工作流用户",
-          "想为自研代理接入记忆层、减少重复提示的工程团队",
-          "研究代理记忆与上下文压缩机制的技术爱好者"
+          "使用 Claude Code、Codex 等编码代理写文档、博客或技术方案的开发者",
+          "需要快速产出品牌一致架构图、流程图但不想打开 Figma 的工程师",
+          "希望把 draw.io、Mermaid、Excalidraw 旧图重绘成高质量版本的团队",
+          "对图表审美有要求、追求极简编辑风格的内容创作者"
         ]
       },
       "en": {
-        "tag": "Persistent cross-session memory and context injection for AI agents",
-        "what": "claude-mem is a persistent memory layer for AI coding agents: it captures everything an agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. It works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode and more.",
-        "content": "Implemented in TypeScript, the repo contains modules for session capture, AI compression, memory storage, and context injection, plus adapters and configuration for multiple agents.",
-        "stack": "Primary language is TypeScript on the Node.js ecosystem; it relies on AI models for summarization and provides integration adapters for different agents.",
-        "hot": "With 578 stars added today, nearly 98k total, and a #8 spot on GitHub Trending daily, it shows that 'making agents remember context' is a pressing need in today's AI coding toolchain.",
+        "tag": "Editorial-grade diagram design skill for coding agents, 42 diagram types",
+        "what": "A diagram design skill for coding agents like Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. It makes agents output editorial-quality diagrams instead of generic rounded boxes or Mermaid slop, delivered as self-contained HTML + SVG with no shadows and no build step.",
+        "content": "The repo ships skill definitions and templates for 42 diagram types, covering architecture, flowcharts, flywheels, Sankey, fishbone, Wardley maps, kanban, user journeys, UML class diagrams, and database schemas. Each type comes in three static variants — minimal light, minimal dark, and full-editorial — plus screenshots and a project site.",
+        "stack": "Built on HTML and SVG, with fully self-contained output requiring no JavaScript or external image dependencies. The skill runs in Agent Skills-compatible hosts and can redraw draw.io, Mermaid, or Excalidraw sources.",
+        "hot": "It hit #5 on GitHub Trending daily with 825 new stars today and 45,298 total. It nails the pain point of AI-generated diagrams looking ugly, replacing Mermaid cheapness with editorial-grade aesthetics.",
         "uses": [
-          "Developers using Claude Code and similar agents who want to avoid re-explaining context",
-          "Users of AI coding workflows that need project context to persist across sessions",
-          "Engineering teams adding a memory layer to custom agents to cut repeated prompting",
-          "Enthusiasts studying agent memory and context-compression mechanisms"
+          "Developers using Claude Code, Codex, or similar agents for docs, blogs, or tech proposals",
+          "Engineers needing brand-consistent architecture or flow diagrams without opening Figma",
+          "Teams wanting to redraw old draw.io, Mermaid, or Excalidraw diagrams at higher quality",
+          "Content creators who care about editorial, minimalist diagram aesthetics"
         ]
       },
       "track": {
-        "days": 2,
-        "first": "2026-08-28",
+        "days": 3,
+        "first": "2026-08-13",
         "is_new": false,
         "is_back": false,
         "hist": [
           {
-            "d": "2026-08-28",
-            "s": 92.3,
-            "r": 12
+            "d": "2026-08-13",
+            "s": 10.4,
+            "r": 1
           },
           {
-            "d": "2026-10-08",
-            "s": 97.9,
-            "r": 8
+            "d": "2026-08-14",
+            "s": 14.5,
+            "r": 1
           },
           {
-            "d": "2026-10-09",
-            "s": 98.6,
-            "r": 5
-          }
-        ]
-      }
-    },
-    {
-      "slug": "raddebugger",
-      "full": "EpicGames/raddebugger",
-      "rank": 6,
-      "cat": "infra",
-      "lang": "C",
-      "stars": 8.2,
-      "today": "+279",
-      "today_n": 279,
-      "auto": false,
-      "zh": {
-        "tag": "Epic Games 出品的原生多进程图形调试器，自带 RDI 调试信息格式与 RAD 链接器",
-        "what": "RAD Debugger 是一个原生、用户态、支持多进程的图形化调试器，目前仅支持本地 Windows x64 + PDB 调试，未来计划扩展到 Linux 与 DWARF。除调试器本体外，项目还包含自定义的 RAD Debug Info（RDI）格式和面向超大工程的 RAD Linker。",
-        "content": "仓库以 C 源码为主，核心包括 src/lib_rdi（RDI 格式定义与解析）、src/lib_rdi_make（RDI 构造与序列化库）以及 radbin 工具，可把 PDB 等原生调试信息转换为 RDI 并输出文本转储。",
-        "stack": "使用 C 语言编写，依赖 Windows x64 平台与 PDB 调试信息，构建产物包含调试器可执行文件与 radbin 工具，RAD Linker 面向 x64 PE/COFF 二进制。",
-        "hot": "作为 Epic Games 开源的调试器项目，它直击大型工程调试与链接性能痛点，已积累约 7940 star，今日新增 90 并登上 GitHub Trending 日榜第 7 名。",
-        "uses": [
-          "Windows 平台 C/C++ 开发者，需要多进程图形化调试体验",
-          "处理超大可执行文件、被 PDB 32 位表溢出困扰的工程团队",
-          "对调试信息格式（RDI/DWARF/PDB）与链接器实现感兴趣的工具链研究者",
-          "希望参与 ALPHA 阶段项目、提交 issue 与复现用例的开源贡献者"
-        ]
-      },
-      "en": {
-        "tag": "Epic Games' native, multi-process graphical debugger with its own RDI debug info format and RAD linker",
-        "what": "RAD Debugger is a native, user-mode, multi-process graphical debugger, currently limited to local-machine Windows x64 debugging with PDBs, with Linux and DWARF support planned. Beyond the debugger itself, the project also ships a custom RAD Debug Info (RDI) format and the RAD Linker for very large projects.",
-        "content": "The repo is mostly C source, centered on src/lib_rdi (RDI format definition and parsing), src/lib_rdi_make (an in-progress RDI construction/serialization library), and the radbin utility that converts native debug info such as PDB into RDI and dumps it as text.",
-        "stack": "Written in C, it targets Windows x64 with PDB debug info; build outputs include the debugger executable and the radbin utility, while RAD Linker targets x64 PE/COFF binaries.",
-        "hot": "As an Epic Games open-source debugger, it targets real pain points in large-project debugging and linking, with roughly 7,940 stars, 90 added today, and a #7 spot on GitHub Trending's daily list.",
-        "uses": [
-          "Windows C/C++ developers who want a multi-process graphical debugging experience",
-          "Teams with huge executables suffering from PDB 32-bit table overflows",
-          "Toolchain researchers interested in debug info formats (RDI/DWARF/PDB) and linker internals",
-          "Open-source contributors willing to file issues and repro cases for an ALPHA-stage project"
-        ]
-      },
-      "track": {
-        "days": 2,
-        "first": "2026-10-08",
-        "is_new": false,
-        "is_back": false,
-        "hist": [
+            "d": "2026-08-15",
+            "s": 17.2,
+            "r": 1
+          },
           {
-            "d": "2026-10-08",
-            "s": 7.9,
+            "d": "2026-08-16",
+            "s": 18.6,
+            "r": 2
+          },
+          {
+            "d": "2026-09-05",
+            "s": 30.9,
+            "r": 17
+          },
+          {
+            "d": "2026-09-06",
+            "s": 31.7,
             "r": 7
           },
           {
-            "d": "2026-10-09",
-            "s": 8.2,
+            "d": "2026-09-07",
+            "s": 32.4,
+            "r": 3
+          },
+          {
+            "d": "2026-09-10",
+            "s": 36.6,
             "r": 6
+          },
+          {
+            "d": "2026-09-11",
+            "s": 37.8,
+            "r": 8
+          },
+          {
+            "d": "2026-10-08",
+            "s": 45.3,
+            "r": 5
+          },
+          {
+            "d": "2026-10-09",
+            "s": 46.7,
+            "r": 2
+          },
+          {
+            "d": "2026-10-10",
+            "s": 47.9,
+            "r": 4
+          }
+        ]
+      }
+    },
+    {
+      "slug": "open-code-review",
+      "full": "alibaba/open-code-review",
+      "rank": 5,
+      "cat": "agent",
+      "lang": "Go",
+      "stars": 45.2,
+      "today": "+326",
+      "today_n": 326,
+      "auto": false,
+      "zh": {
+        "tag": "阿里内部验证的混合架构 AI 代码审查 CLI 工具",
+        "what": "Open Code Review 是阿里巴巴内部孵化并开源的 AI 代码审查命令行工具，采用确定性流水线加 LLM Agent 的混合架构。它能在代码行级别给出精确评论，并内置 NPE、线程安全、XSS、SQL 注入等多语言规则集。",
+        "content": "仓库以 Go 编写，提供 CLI 主程序、内置规则集与 Agent 集成配置，并附带官网、多语言 README 与 npm 包发布脚本。",
+        "stack": "主语言为 Go，通过 npm 包 @alibaba-group/open-code-review 分发，兼容 OpenAI 与 Anthropic 接口，并支持 Claude Code、Codex、Cursor 等 Agent。",
+        "hot": "背靠阿里内部两年、数万开发者与数百万缺陷的实战验证，加上 22734 星、今日新增 264 星并登上 Go 日榜第 11 名，关注度持续攀升。",
+        "uses": [
+          "希望把 AI 代码审查接入 CI/CD 的工程团队",
+          "使用 Claude Code、Codex、Cursor 等 Agent 的开发者",
+          "需要 NPE、线程安全、SQL 注入等规则检查的 Go/多语言项目",
+          "想借鉴混合架构与规则集设计的 AI 工具开发者"
+        ]
+      },
+      "en": {
+        "tag": "Alibaba's battle-tested hybrid-architecture AI code review CLI",
+        "what": "Open Code Review is an open-sourced AI code review CLI incubated inside Alibaba, combining deterministic pipelines with an LLM Agent. It produces precise line-level comments and ships with a built-in multi-language ruleset covering NPE, thread-safety, XSS and SQL injection.",
+        "content": "Written in Go, the repo contains the CLI, built-in rule sets and agent integration configs, plus a website, multilingual READMEs and npm publishing setup.",
+        "stack": "Primary language is Go, distributed via the npm package @alibaba-group/open-code-review, compatible with OpenAI and Anthropic APIs, and integrates with Claude Code, Codex and Cursor.",
+        "hot": "Backed by two years of internal Alibaba use by tens of thousands of developers and millions of defects found, it has reached 22,734 stars with 264 added today, ranking 11th on the Go daily trending list.",
+        "uses": [
+          "Engineering teams wanting AI code review in CI/CD",
+          "Developers using Claude Code, Codex or Cursor agents",
+          "Go and multi-language projects needing NPE, thread-safety and SQL injection checks",
+          "AI tool builders studying hybrid architecture and ruleset design"
+        ]
+      },
+      "track": {
+        "days": 1,
+        "first": "2026-07-24",
+        "is_new": false,
+        "is_back": true,
+        "hist": [
+          {
+            "d": "2026-07-24",
+            "s": 11.5,
+            "r": 11
+          },
+          {
+            "d": "2026-07-26",
+            "s": 13.0,
+            "r": 2
+          },
+          {
+            "d": "2026-07-27",
+            "s": 13.8,
+            "r": 11
+          },
+          {
+            "d": "2026-07-28",
+            "s": 14.8,
+            "r": 9
+          },
+          {
+            "d": "2026-09-14",
+            "s": 23.5,
+            "r": 14
+          },
+          {
+            "d": "2026-09-15",
+            "s": 25.7,
+            "r": 2
+          },
+          {
+            "d": "2026-09-16",
+            "s": 28.6,
+            "r": 1
+          },
+          {
+            "d": "2026-09-17",
+            "s": 31.9,
+            "r": 1
+          },
+          {
+            "d": "2026-09-18",
+            "s": 34.8,
+            "r": 1
+          },
+          {
+            "d": "2026-09-19",
+            "s": 36.7,
+            "r": 3
+          },
+          {
+            "d": "2026-10-10",
+            "s": 45.2,
+            "r": 5
           }
         ]
       }
@@ -2951,12 +2827,12 @@ window.TRENDING_DATA = {
     {
       "slug": "knowledge-work-plugins",
       "full": "anthropics/knowledge-work-plugins",
-      "rank": 7,
+      "rank": 6,
       "cat": "agent",
       "lang": "Python",
-      "stars": 27.8,
-      "today": "+392",
-      "today_n": 392,
+      "stars": 28.3,
+      "today": "+709",
+      "today_n": 709,
       "auto": false,
       "zh": {
         "tag": "面向知识工作者的 Claude 插件集，按职能定制 AI 工作流",
@@ -2985,10 +2861,10 @@ window.TRENDING_DATA = {
         ]
       },
       "track": {
-        "days": 1,
+        "days": 2,
         "first": "2026-09-17",
         "is_new": false,
-        "is_back": true,
+        "is_back": false,
         "hist": [
           {
             "d": "2026-09-17",
@@ -3014,6 +2890,174 @@ window.TRENDING_DATA = {
             "d": "2026-10-09",
             "s": 27.8,
             "r": 7
+          },
+          {
+            "d": "2026-10-10",
+            "s": 28.3,
+            "r": 6
+          }
+        ]
+      }
+    },
+    {
+      "slug": "litellm",
+      "full": "BerriAI/litellm",
+      "rank": 7,
+      "cat": "infra",
+      "lang": "Python",
+      "stars": 60.7,
+      "today": "+95",
+      "today_n": 95,
+      "auto": false,
+      "zh": {
+        "tag": "统一调用 100+ LLM 的开源 AI 网关，Rust 内核 + Python SDK",
+        "what": "LiteLLM 是一个开源的 AI 网关，让你用 OpenAI 或各家原生格式统一调用 100 多个 LLM API。它内置成本追踪、护栏、负载均衡和日志记录，可自托管并面向企业级使用。",
+        "content": "仓库同时提供 Python SDK（litellm 包）和 LiteLLM Proxy Server（AI 网关），并附带 Terraform 部署示例，覆盖 AWS、GCP 等云平台。",
+        "stack": "以 Python 为主语言，核心网关用 Rust 重写以追求速度与轻量；通过 PyPI 分发，支持 Render、Railway、AWS、GCP 等一键部署。",
+        "hot": "已积累 60669 颗星，今日再增 95 星并登上 GitHub Trending 日榜第 7 名，反映出多模型接入与统一网关需求持续升温。",
+        "uses": [
+          "需要统一接入多家 LLM 并控制成本的 AI 应用开发者",
+          "希望自托管 AI 网关、做负载均衡与日志审计的平台团队",
+          "要在企业内落地护栏、配额与成本治理的工程负责人"
+        ]
+      },
+      "en": {
+        "tag": "Open-source AI gateway for 100+ LLMs, Rust core with Python SDK",
+        "what": "LiteLLM is an open-source AI gateway that lets you call 100+ LLM APIs in OpenAI or native format. It ships with cost tracking, guardrails, load balancing, and logging, and is self-hostable and enterprise-ready.",
+        "content": "The repo provides both a Python SDK (the litellm package) and the LiteLLM Proxy Server (AI gateway), plus Terraform deployment examples for AWS, GCP, and other clouds.",
+        "stack": "Python is the primary language, with a Rust core for the gateway to stay fast and light; distributed via PyPI and deployable on Render, Railway, AWS, and GCP.",
+        "hot": "With 60,669 stars and 95 added today, it ranks 7th on GitHub Trending daily, reflecting surging demand for multi-model access and unified gateways.",
+        "uses": [
+          "AI app developers who need unified access to multiple LLMs with cost control",
+          "Platform teams wanting a self-hosted gateway with load balancing and logging",
+          "Engineering leads rolling out guardrails, quotas, and cost governance in enterprises"
+        ]
+      },
+      "track": {
+        "days": 1,
+        "first": "2026-10-10",
+        "is_new": true,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-10-10",
+            "s": 60.7,
+            "r": 7
+          }
+        ]
+      }
+    },
+    {
+      "slug": "addyosmani-agent-skills",
+      "full": "addyosmani/agent-skills",
+      "rank": 8,
+      "cat": "agent",
+      "lang": "JavaScript",
+      "stars": 104.0,
+      "today": "+436",
+      "today_n": 436,
+      "auto": false,
+      "zh": {
+        "tag": "面向 AI 编程代理的生产级工程技能包，覆盖开发全流程",
+        "what": "这是一套为 AI 编程代理准备的生产级工程技能集合，把资深工程师的工作流、质量门禁和最佳实践编码成可复用的技能。它通过 9 个斜杠命令覆盖从需求定义到上线的完整开发生命周期，让代理在每个阶段都遵循一致规范。",
+        "content": "仓库包含 25 个技能，按 DEFINE→PLAN→BUILD→VERIFY→REVIEW→SHIP 六阶段组织，对应 /spec、/plan、/build、/test、/review、/ship 等 9 个斜杠命令，并支持按需单独安装。",
+        "stack": "以 JavaScript 为主，通过开放的 skills CLI（npx skills add）安装，兼容 Claude Code、Cursor、Codex、Copilot、Cline 等 70 多个代理。",
+        "hot": "凭借 Addy Osmani 的行业影响力与对 AI 代理工程化的精准切入，仓库已获约 10.3 万 star，今日新增 677，位列 GitHub Trending 日榜第 6。",
+        "uses": [
+          "使用 Claude Code、Cursor 等 AI 编程代理的开发者，希望代理遵循统一工程规范",
+          "团队想为 AI 辅助开发引入质量门禁与标准化工作流",
+          "个人开发者希望用 /spec、/plan、/build 等命令把开发流程结构化",
+          "对 AI 代理工程化与提示词/技能设计感兴趣的研究者"
+        ]
+      },
+      "en": {
+        "tag": "Production-grade engineering skills that guide AI coding agents through the full dev lifecycle",
+        "what": "A collection of production-grade engineering skills that encode the workflows, quality gates, and best practices senior engineers rely on, packaged so AI agents follow them consistently. Nine slash commands map to the full development lifecycle, from spec to ship.",
+        "content": "It ships 25 skills organized across six phases (DEFINE, PLAN, BUILD, VERIFY, REVIEW, SHIP) with 9 slash commands like /spec, /plan, /build, /test, /review, and /ship, installable individually or as a set.",
+        "stack": "Primarily JavaScript, installed via the open skills CLI (npx skills add) and compatible with 70+ agents including Claude Code, Cursor, Codex, Copilot, and Cline.",
+        "hot": "Backed by Addy Osmani's reputation and its timely focus on engineering discipline for AI agents, it has reached ~103k stars with 677 added today, ranking 6th on GitHub Trending.",
+        "uses": [
+          "Developers using AI coding agents like Claude Code or Cursor who want consistent engineering standards",
+          "Teams looking to add quality gates and standardized workflows to AI-assisted development",
+          "Individual developers wanting a structured flow via /spec, /plan, /build commands",
+          "Researchers interested in agent engineering and skill/prompt design"
+        ]
+      },
+      "track": {
+        "days": 1,
+        "first": "2026-08-07",
+        "is_new": false,
+        "is_back": true,
+        "hist": [
+          {
+            "d": "2026-08-09",
+            "s": 84.6,
+            "r": 2
+          },
+          {
+            "d": "2026-08-10",
+            "s": 85.1,
+            "r": 6
+          },
+          {
+            "d": "2026-08-11",
+            "s": 85.7,
+            "r": 4
+          },
+          {
+            "d": "2026-08-12",
+            "s": 86.2,
+            "r": 4
+          },
+          {
+            "d": "2026-08-30",
+            "s": 90.7,
+            "r": 18
+          },
+          {
+            "d": "2026-09-04",
+            "s": 92.0,
+            "r": 12
+          },
+          {
+            "d": "2026-09-16",
+            "s": 94.8,
+            "r": 12
+          },
+          {
+            "d": "2026-09-17",
+            "s": 95.5,
+            "r": 19
+          },
+          {
+            "d": "2026-09-18",
+            "s": 95.9,
+            "r": 3
+          },
+          {
+            "d": "2026-09-19",
+            "s": 96.4,
+            "r": 6
+          },
+          {
+            "d": "2026-09-20",
+            "s": 97.0,
+            "r": 3
+          },
+          {
+            "d": "2026-09-21",
+            "s": 97.7,
+            "r": 13
+          },
+          {
+            "d": "2026-10-08",
+            "s": 103.0,
+            "r": 6
+          },
+          {
+            "d": "2026-10-10",
+            "s": 104.0,
+            "r": 8
           }
         ]
       }
@@ -3021,12 +3065,12 @@ window.TRENDING_DATA = {
     {
       "slug": "artcraft",
       "full": "storytold/artcraft",
-      "rank": 8,
+      "rank": 9,
       "cat": "ai",
       "lang": "Rust",
-      "stars": 8.5,
-      "today": "+2.1k",
-      "today_n": 2103,
+      "stars": 11.5,
+      "today": "+3.8k",
+      "today_n": 3752,
       "auto": false,
       "zh": {
         "tag": "面向艺术家与影视创作者的交互式 AI 图像视频创作 IDE",
@@ -3055,135 +3099,167 @@ window.TRENDING_DATA = {
         ]
       },
       "track": {
-        "days": 1,
+        "days": 2,
         "first": "2026-10-09",
-        "is_new": true,
+        "is_new": false,
         "is_back": false,
         "hist": [
           {
             "d": "2026-10-09",
             "s": 8.5,
             "r": 8
+          },
+          {
+            "d": "2026-10-10",
+            "s": 11.5,
+            "r": 9
           }
         ]
       }
     },
     {
-      "slug": "system-design-notes",
-      "full": "liquidslr/system-design-notes",
-      "rank": 9,
-      "cat": "other",
-      "lang": null,
-      "stars": 24.8,
-      "today": "+393",
-      "today_n": 393,
+      "slug": "lingbot-map",
+      "full": "Robbyant/lingbot-map",
+      "rank": 10,
+      "cat": "ai",
+      "lang": "Python",
+      "stars": 17.7,
+      "today": "+110",
+      "today_n": 110,
       "auto": false,
       "zh": {
-        "tag": "《系统设计面试》两卷本读书笔记，含28章案例与延伸资源",
-        "what": "这是 Alex Xu《System Design Interview: An Insider's Guide》第一、二卷的读书笔记，按章节整理成 Markdown 文档。内容覆盖从百万级用户扩容、容量估算到各类经典系统设计题的完整思路。",
-        "content": "仓库以编号目录组织，共 28 个章节文件夹，从「Scale From Zero To Millions Of Users」到「Stock Exchange」，另附限流、一致性哈希等延伸阅读链接。",
-        "stack": "纯 Markdown 文档，无代码依赖；主语言未标注，阅读无需特定技术栈。",
-        "hot": "系统设计面试是后端/架构岗高频考点，该笔记免费且覆盖 Vol 1+2 全部章节，已获 24808 star，今日新增 393，冲上日榜第 9。",
+        "tag": "面向流式三维重建的几何上下文 Transformer 基础模型",
+        "what": "LingBot-Map 是一个前馈式三维基础模型，专注于流式三维重建。它通过几何上下文 Transformer 将坐标定位、稠密几何线索与长程漂移校正统一在单一流式框架中，实现高效稳定的在线重建。",
+        "content": "仓库包含模型推理代码、交互式演示 demo.py、离线渲染管线 demo_render/batch_demo.py，以及安装说明、模型下载与评估基准脚本。",
+        "stack": "基于 Python 实现，依赖 PyTorch 与注意力后端（FlashInfer / SDPA），并使用分页 KV 缓存注意力支持长序列推理。",
+        "hot": "作为 ECCV 2026 最佳论文候选，它凭借约 20 FPS 的流式推理和超过 10,000 帧的稳定重建能力，迅速获得 17,703 颗星，今日新增 110 星并登上 GitHub 日榜第 10 名。",
         "uses": [
-          "准备系统设计面试的后端、全栈与架构岗候选人，可按章节刷题",
-          "想系统补齐分布式系统设计知识的初中级工程师",
-          "面试官或团队负责人，用作出题与讨论的参考框架"
+          "三维重建与 SLAM 研究者，用于流式重建与长序列漂移校正实验",
+          "机器人/AR-VR 开发者，需要实时在线三维感知与建图能力",
+          "计算机视觉工程师，评估前馈式三维基础模型在基准上的表现"
         ]
       },
       "en": {
-        "tag": "Reading notes for System Design Interview Vol 1 & 2, with 28 chapters and extra resources",
-        "what": "This repo contains reading notes for Alex Xu's System Design Interview: An Insider's Guide Vol 1 and Vol 2, organized into per-chapter Markdown documents. It walks through scaling to millions of users, back-of-the-envelope estimation, and a full set of classic system design problems.",
-        "content": "The repo is organized as 28 numbered chapter folders, from 'Scale From Zero To Millions Of Users' to 'Stock Exchange', plus additional reading links on rate limiting, consistent hashing, and more.",
-        "stack": "Pure Markdown documents with no code dependencies; no primary language is declared, so no specific stack is required to read it.",
-        "hot": "System design interviews are a high-frequency topic for backend and architecture roles, and these free notes cover all chapters of Vol 1+2, earning 24,808 stars with 393 added today to reach #9 on the daily trending list.",
+        "tag": "A geometric context transformer foundation model for streaming 3D reconstruction",
+        "what": "LingBot-Map is a feed-forward 3D foundation model focused on streaming 3D reconstruction. Its Geometric Context Transformer unifies coordinate grounding, dense geometric cues, and long-range drift correction within a single streaming framework for efficient, stable online reconstruction.",
+        "content": "The repo contains inference code, an interactive demo.py, an offline rendering pipeline in demo_render/batch_demo.py, plus installation instructions, model download links, and evaluation benchmark scripts.",
+        "stack": "Implemented in Python with PyTorch and attention backends (FlashInfer / SDPA), using paged KV cache attention to support long-sequence inference.",
+        "hot": "As an ECCV 2026 Best Paper Award candidate, it quickly gained 17,703 stars thanks to ~20 FPS streaming inference and stable reconstruction over 10,000+ frames, adding 110 stars today and ranking 10th on GitHub Trending daily.",
         "uses": [
-          "Backend, full-stack, and architecture candidates preparing for system design interviews can study chapter by chapter",
-          "Junior to mid-level engineers who want to systematically fill gaps in distributed system design knowledge",
-          "Interviewers or tech leads looking for a reference framework for questions and discussions"
+          "3D reconstruction and SLAM researchers for streaming reconstruction and long-sequence drift correction experiments",
+          "Robotics/AR-VR developers needing real-time online 3D perception and mapping",
+          "Computer vision engineers evaluating feed-forward 3D foundation models on benchmarks"
         ]
       },
       "track": {
         "days": 1,
-        "first": "2026-09-10",
+        "first": "2026-07-21",
         "is_new": false,
         "is_back": true,
         "hist": [
           {
-            "d": "2026-09-10",
-            "s": 18.0,
-            "r": 8
+            "d": "2026-07-21",
+            "s": 14.3,
+            "r": 10
           },
           {
-            "d": "2026-09-11",
-            "s": 18.8,
-            "r": 7
-          },
-          {
-            "d": "2026-10-09",
-            "s": 24.8,
-            "r": 9
+            "d": "2026-10-10",
+            "s": 17.7,
+            "r": 10
           }
         ]
       }
     },
     {
-      "slug": "text-to-cad",
-      "full": "earthtojake/text-to-cad",
-      "rank": 2,
+      "slug": "swiftui-agent-skill",
+      "full": "twostraws/SwiftUI-Agent-Skill",
+      "rank": 11,
       "cat": "agent",
-      "lang": "Python",
-      "stars": 18.5,
-      "today": "+159",
-      "today_n": 159,
+      "lang": null,
+      "stars": 5.4,
+      "today": "+65",
+      "today_n": 65,
       "auto": false,
       "zh": {
-        "tag": "让 AI 代理获得本地 CAD 建模与制造能力",
-        "what": "text-to-cad 是一个为 AI 代理提供本地 CAD 工作流的插件，能将文本描述转化为 STEP、GLB、STL 或 3MF 格式的 3D 模型。它还支持可制造性设计检查、生成工程图纸，并连接主流的 3D 打印、钣金和 CNC 加工服务。",
-        "content": "仓库包含一个 Python 包 cadgen（已发布到 PyPI）和配套的文档应用（apps/docs），提供代理插件/技能定义、CAD 生成与检查逻辑，以及安装和使用指南。",
-        "stack": "主要使用 Python 3.11+，依赖 build123d 0.11 和 Open CASCADE 7.9 进行几何建模，通过 uv 运行；文档部分使用 Node.js 20+。",
-        "hot": "该项目今日新增 447 颗星，总星数达 18,323，位列 GitHub Trending 日榜（Python）第 2 名，反映出 AI 代理与 CAD/制造结合的热门趋势。",
+        "tag": "为 AI 编程助手注入 SwiftUI 最佳实践的 Agent Skill",
+        "what": "这是一个面向 Claude Code、Codex、Gemini、Cursor 等 AI 编程助手的 Agent Skill，名为 SwiftUI Pro。它让 AI 在生成 SwiftUI 代码时遵循更聪明、更简洁、更现代的写法，覆盖 API 用法、设计、性能与无障碍等指导。",
+        "content": "仓库以 Agent Skills 格式组织，核心是 SwiftUI Pro 技能文件，并附带 logo 等资源；同时链接到 SwiftData Pro、Swift Concurrency Pro、Swift Testing Pro 等姊妹技能。",
+        "stack": "面向 iOS 26+ 与 Swift 6.4+，基于 Agent Skills 格式，通过 npx skills 或 Claude Code 插件市场安装，依赖 Node/npx。",
+        "hot": "作者 twostraws 是知名 Swift 教育者，技能直击 LLM 写 SwiftUI 的常见错误，发布不久即获 5436 星、今日新增 65，登上 GitHub Trending 日榜第 11。",
         "uses": [
-          "AI 代理开发者 —— 为 Claude Code、Codex、Cursor 等代理添加 CAD 生成能力",
-          "机械工程师与产品设计师 —— 用自然语言快速生成可制造的 3D 模型",
-          "3D 打印/CNC 爱好者 —— 直接输出 STL/STEP 并连接制造服务",
-          "制造与原型团队 —— 自动进行可制造性检查并生成工程图纸"
+          "使用 Claude Code、Codex、Cursor 等 AI 助手写 SwiftUI 的 iOS/macOS 开发者",
+          "希望让 AI 生成代码符合现代 SwiftUI 规范与无障碍标准的团队",
+          "想快速把多年 SwiftUI 实践经验注入编码代理的独立开发者"
         ]
       },
       "en": {
-        "tag": "Give your agent CAD superpowers for local 3D modeling and fabrication",
-        "what": "text-to-cad is a plugin that gives AI agents local CAD workflows for generating 3D models as STEP, GLB, STL, or 3MF files. It also performs design-for-manufacturing checks, generates engineering drawings, and connects to popular 3D printing, sheet metal, and CNC fabrication services.",
-        "content": "The repository contains a Python package cadgen (published on PyPI) and a companion docs app (apps/docs), providing agent plugin/skill definitions, CAD generation and checking logic, plus installation and usage guides.",
-        "stack": "Primarily Python 3.11+ with build123d 0.11 and Open CASCADE 7.9 for geometry, run via uv; the docs part uses Node.js 20+.",
-        "hot": "It gained 447 stars today, reaching 18,323 total, and ranks #2 on GitHub Trending (Python daily), reflecting the hot trend of combining AI agents with CAD and fabrication.",
+        "tag": "An agent skill that teaches AI coding assistants modern SwiftUI best practices",
+        "what": "This is an agent skill called SwiftUI Pro for AI coding assistants such as Claude Code, Codex, Gemini, and Cursor. It guides AI to write smarter, simpler, and more modern SwiftUI, covering API usage, design, performance, and accessibility.",
+        "content": "The repo is organized in the Agent Skills format, centered on the SwiftUI Pro skill files plus assets like a logo, and links to sibling skills such as SwiftData Pro, Swift Concurrency Pro, and Swift Testing Pro.",
+        "stack": "Targets iOS 26+ and Swift 6.4+, built on the Agent Skills format, installed via npx skills or the Claude Code plugin marketplace, requiring Node/npx.",
+        "hot": "Author twostraws is a well-known Swift educator, and the skill directly targets mistakes LLMs make in SwiftUI; it quickly reached 5,436 stars with 65 added today, ranking 11th on GitHub Trending daily.",
         "uses": [
-          "AI agent developers — add CAD generation to agents like Claude Code, Codex, Cursor",
-          "Mechanical engineers and product designers — quickly generate manufacturable 3D models from natural language",
-          "3D printing/CNC hobbyists — output STL/STEP directly and connect to fabrication services",
-          "Manufacturing and prototyping teams — automate design-for-manufacturing checks and generate engineering drawings"
+          "iOS/macOS developers using AI assistants like Claude Code, Codex, or Cursor to write SwiftUI",
+          "Teams wanting AI-generated code to follow modern SwiftUI conventions and accessibility standards",
+          "Indie developers who want to inject years of SwiftUI experience into their coding agent quickly"
+        ]
+      },
+      "track": {
+        "days": 1,
+        "first": "2026-10-10",
+        "is_new": true,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-10-10",
+            "s": 5.4,
+            "r": 11
+          }
+        ]
+      }
+    },
+    {
+      "slug": "hy-mt2",
+      "full": "Tencent-Hunyuan/Hy-MT2",
+      "rank": 4,
+      "cat": "ai",
+      "lang": "Python",
+      "stars": 1.2,
+      "today": "+114",
+      "today_n": 114,
+      "auto": false,
+      "zh": {
+        "tag": "腾讯混元开源的多语言翻译模型家族，含1.8B/7B/30B-A3B三档",
+        "what": "Hy-MT2 是面向真实复杂场景的“快思考”多语言翻译模型家族，支持 33 种语言互译，并能用多语言遵循翻译指令。它提供 1.8B、7B 和 30B-A3B（MoE）三种规模，兼顾端侧部署与高性能翻译。",
+        "content": "仓库包含模型介绍与下载入口（HuggingFace、ModelScope）、开源的 IFMTBench 翻译指令遵循评测基准，以及 Hy-MT2-Translator Skill 集成示例。",
+        "stack": "以 Python 为主，模型权重发布于 HuggingFace 与 ModelScope，端侧量化依赖腾讯 AngelSlim 的 1.25-bit 极低比特方案。",
+        "hot": "腾讯混元开源翻译模型，1.8B 端侧量化后仅 440MB，7B/30B 在快思考模式下超越 DeepSeek-V4-Pro、Kimi K2.6，日增 114 star 冲上 Python 日榜第 4。",
+        "uses": [
+          "需要多语言翻译能力的应用开发者，可本地部署 1.8B 端侧模型",
+          "做翻译质量评测的研究者，可使用 IFMTBench 基准",
+          "追求高性能翻译的企业，可选用 7B 或 30B-A3B MoE 模型",
+          "参加 WMT26 机器翻译与视频字幕翻译任务的参赛者"
+        ]
+      },
+      "en": {
+        "tag": "Tencent Hunyuan's open-source multilingual translation model family in 1.8B/7B/30B-A3B sizes",
+        "what": "Hy-MT2 is a family of \"fast-thinking\" multilingual translation models built for complex real-world scenarios, supporting translation among 33 languages and instruction following in multiple languages. It comes in three sizes—1.8B, 7B, and 30B-A3B (MoE)—balancing on-device deployment with high-performance translation.",
+        "content": "The repo contains model introductions and download links (HuggingFace, ModelScope), the open-sourced IFMTBench benchmark for translation instruction following, and the Hy-MT2-Translator Skill integration.",
+        "stack": "Primarily Python, with model weights hosted on HuggingFace and ModelScope; on-device quantization relies on Tencent AngelSlim's 1.25-bit extreme quantization.",
+        "hot": "A Tencent Hunyuan open-source translation model: the 1.8B quantizes to just 440MB for on-device use, while 7B/30B beat DeepSeek-V4-Pro and Kimi K2.6 in fast-thinking mode, gaining 114 stars in a day to rank #4 on the Python trending list.",
+        "uses": [
+          "App developers needing multilingual translation, deploying the 1.8B on-device model locally",
+          "Researchers evaluating translation quality using the IFMTBench benchmark",
+          "Enterprises seeking high-performance translation with the 7B or 30B-A3B MoE models",
+          "Participants in the WMT26 general machine translation and video subtitle translation tasks"
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-07-22",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
-        "hist": [
-          {
-            "d": "2026-07-22",
-            "s": 9.1,
-            "r": 5
-          },
-          {
-            "d": "2026-07-24",
-            "s": 10.0,
-            "r": 9
-          },
-          {
-            "d": "2026-09-10",
-            "s": 15.0,
-            "r": 5
-          }
-        ]
+        "hist": []
       }
     },
     {
@@ -3192,9 +3268,9 @@ window.TRENDING_DATA = {
       "rank": 4,
       "cat": "agent",
       "lang": "Python",
-      "stars": 55.9,
-      "today": "+845",
-      "today_n": 845,
+      "stars": 56.1,
+      "today": "+389",
+      "today_n": 389,
       "auto": false,
       "zh": {
         "tag": "让编程 Agent 先给答案、别绕弯子的输出规范技能",
@@ -3260,127 +3336,141 @@ window.TRENDING_DATA = {
       }
     },
     {
-      "slug": "opensre",
-      "full": "Tracer-Cloud/opensre",
-      "rank": 4,
+      "slug": "unsloth",
+      "full": "unslothai/unsloth",
+      "rank": 6,
+      "cat": "ai",
+      "lang": "Python",
+      "stars": 77.7,
+      "today": "+132",
+      "today_n": 132,
+      "auto": false,
+      "zh": {
+        "tag": "首个可本地运行与训练模型的桌面应用",
+        "what": "Unsloth 是一个本地桌面应用，让用户在自己的电脑上直接运行和微调大语言模型与扩散模型。它把原本需要复杂命令行配置的推理与训练流程，封装成开箱即用的图形界面。",
+        "content": "仓库包含跨平台桌面客户端（Windows/macOS/Linux 安装包与 AppImage）、安装脚本、Docker 镜像说明，以及配套的免费 Notebook 与文档入口。",
+        "stack": "主语言为 Python，底层依赖 PyTorch 与 Unsloth 自研的高效微调内核，支持 GGUF、MLX 等格式，并兼容 NVIDIA、AMD、Intel GPU、CPU 与 Vulkan 多后端。",
+        "hot": "凭借近 7.8 万 star 和“本地跑模型”的强需求，它把训练门槛降到桌面级；今日新增 132 star 并登上 Python 日榜第 6，说明桌面端 AI 工具正成为新热点。",
+        "uses": [
+          "想在本地私密运行或微调大模型的个人开发者与研究者",
+          "没有服务器资源、希望用消费级显卡上手训练的学生和爱好者",
+          "需要快速验证模型效果、不想折腾命令行的产品与算法团队",
+          "关注 GGUF/MLX 量化与多后端推理的性能调优工程师"
+        ]
+      },
+      "en": {
+        "tag": "The first desktop app to run and train models locally",
+        "what": "Unsloth is a local desktop app that lets users run and fine-tune LLMs and diffusion models directly on their own machines. It wraps the usually complex command-line inference and training workflow into an out-of-the-box graphical interface.",
+        "content": "The repo ships cross-platform desktop clients (Windows/macOS/Linux installers and AppImage), install scripts, a Docker image guide, plus companion free notebooks and documentation links.",
+        "stack": "Written mainly in Python, it builds on PyTorch and Unsloth's own efficient fine-tuning kernels, supports GGUF and MLX formats, and works across NVIDIA, AMD, Intel GPUs, CPUs and Vulkan backends.",
+        "hot": "With nearly 77.7k stars and strong demand for running models locally, it lowers training to a desktop-level task; today's +132 stars and #6 on the Python daily trending list show desktop AI tools are the new hotspot.",
+        "uses": [
+          "Individual developers and researchers who want to run or fine-tune LLMs locally and privately",
+          "Students and hobbyists without server resources who want to train on consumer GPUs",
+          "Product and algorithm teams that need fast model validation without wrestling with the CLI",
+          "Performance engineers interested in GGUF/MLX quantization and multi-backend inference"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-08-14",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-08-14",
+            "s": 71.1,
+            "r": 6
+          },
+          {
+            "d": "2026-08-15",
+            "s": 71.5,
+            "r": 16
+          },
+          {
+            "d": "2026-08-16",
+            "s": 72.0,
+            "r": 5
+          }
+        ]
+      }
+    },
+    {
+      "slug": "headroom",
+      "full": "headroomlabs-ai/headroom",
+      "rank": 7,
       "cat": "agent",
       "lang": "Python",
-      "stars": 11.7,
-      "today": "+81",
-      "today_n": 81,
+      "stars": 74.8,
+      "today": "+104",
+      "today_n": 104,
       "auto": false,
       "zh": {
-        "tag": "构建你自己的 AI SRE 智能体开源框架",
-        "what": "OpenSRE 是一个用于构建 AI SRE（站点可靠性工程）智能体的开源框架，同时提供训练与评估环境。它可接入你已在使用的 60 多种工具，自定义工作流，并在自有基础设施上回答生产环境问题。",
-        "content": "仓库包含框架核心代码、文档（docs 目录与 logo 资源）、CI 工作流配置，以及快速上手、FAQ、安全等文档入口，当前为 v0.1 公开 alpha 版本。",
-        "stack": "主语言为 Python，采用 Apache 2.0 许可证，通过 CI 工作流做持续集成，并配有 Discord 社区与官方文档站。",
-        "hot": "上线即获约 1.16 万 star，今日新增 81，登上 GitHub Trending 日榜 Python 第 4 名，反映 AI 运维（AIOps/SRE）方向的高关注度。",
+        "tag": "AI代理上下文压缩层，减少token消耗",
+        "what": "Headroom 在工具输出、日志、文件和 RAG 块到达 LLM 之前进行压缩，保持答案不变的同时大幅减少 token 数量。它支持编码代理减少 20% token，JSON 减少 60-95% token。",
+        "content": "仓库包含 Python 库、代理服务器和 MCP 服务器，以及模型 kompress-v2-base 和演示资源。",
+        "stack": "基于 Python，依赖 PyPI 和 npm 包，使用 Hugging Face 模型 kompress-v2-base。",
+        "hot": "该项目获得 74842 颗星，今日新增 104 星，位列 GitHub Trending 日榜 Python 第 7 名，因其能显著降低 LLM 成本而受欢迎。",
         "uses": [
-          "SRE/运维工程师：用 AI 智能体自动化生产环境问题排查与响应",
-          "平台工程团队：接入现有 60+ 工具，构建自定义运维工作流",
-          "AI 应用开发者：基于框架训练和评估自己的运维智能体",
-          "技术负责人：在自有基础设施上安全落地 AI 运维能力"
+          "AI 代理开发者 —— 集成 Headroom 以降低 token 消耗和成本",
+          "使用 LLM 处理大量 JSON 数据的团队 —— 可减少 60-95% 的 token",
+          "需要处理长上下文的应用 —— 压缩日志、文件等输入"
         ]
       },
       "en": {
-        "tag": "The open-source framework for building your own AI SRE agents",
-        "what": "OpenSRE is an open-source framework for building AI SRE agents, along with the training and evaluation environment they need to improve. It connects the 60+ tools you already run, lets you define custom workflows, and answers production questions on your own infrastructure.",
-        "content": "The repo contains the core framework code, documentation (docs directory with logo assets), CI workflow configs, and entry points for quickstart, FAQ, and security docs, currently at v0.1 public alpha.",
-        "stack": "Written primarily in Python under the Apache 2.0 license, with CI workflows for continuous integration, plus a Discord community and official docs site.",
-        "hot": "It has already gathered ~11.6k stars with 81 added today, ranking 4th on GitHub Trending's daily Python list, reflecting strong interest in AI-driven operations (AIOps/SRE).",
+        "tag": "Context compression layer for AI agents, reducing token usage",
+        "what": "Headroom compresses tool outputs, logs, files, and RAG chunks before they reach the LLM, reducing token counts while preserving answers. It cuts tokens by 20% for coding agents and 60-95% for JSON.",
+        "content": "The repository includes a Python library, a proxy server, an MCP server, the kompress-v2-base model, and demo assets.",
+        "stack": "Built with Python, available on PyPI and npm, and uses the Hugging Face model kompress-v2-base.",
+        "hot": "With 74,842 stars and 104 new stars today, it ranks #7 on GitHub Trending (Python), popular for significantly reducing LLM costs.",
         "uses": [
-          "SRE/ops engineers: automate production troubleshooting and response with AI agents",
-          "Platform engineering teams: connect existing 60+ tools and build custom ops workflows",
-          "AI application developers: train and evaluate their own ops agents on the framework",
-          "Tech leads: safely adopt AI-driven operations on their own infrastructure"
+          "AI agent developers — integrate Headroom to cut token usage and costs",
+          "Teams processing large JSON data with LLMs — reduce tokens by 60-95%",
+          "Applications with long contexts — compress logs, files, and other inputs"
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "aleapp",
-      "full": "abrignoni/ALEAPP",
-      "rank": 5,
-      "cat": "other",
+      "slug": "ppt-master",
+      "full": "hugohe3/ppt-master",
+      "rank": 8,
+      "cat": "agent",
       "lang": "Python",
-      "stars": 1.0,
-      "today": "+18",
-      "today_n": 18,
+      "stars": 58.7,
+      "today": "+372",
+      "today_n": 372,
       "auto": false,
       "zh": {
-        "tag": "Android 日志、事件与 Protobuf 取证解析器",
-        "what": "ALEAPP 是一款 Android 数字取证工具，用于解析 Android 设备中的日志、事件和 Protobuf 数据。它支持从提取镜像中自动识别并解析大量应用与系统工件，输出结构化报告。",
-        "content": "仓库包含 Python 源码、模块化的解析脚本（scripts 目录）、GUI/CLI 入口、打包构建脚本（packaging/build.py）以及预编译发布版本。",
-        "stack": "基于 Python 3.10+，依赖 requirements.txt 中的库，使用 PyInstaller 打包，GUI 依赖 tkinter（Linux 需单独安装）。",
-        "hot": "作为 LEAPP 家族的一员，ALEAPP 在数字取证社区广受认可，今日新增 18 星，登上 GitHub Trending Python 日榜第 5 名，显示移动取证需求持续增长。",
+        "tag": "把文档或主题一键转成原生可编辑 PPTX 的 AI 工具",
+        "what": "PPT Master 用 AI 把 PDF、DOCX、网页等文档或一个主题，自动提炼要点、组织叙事，生成真正的原生 PowerPoint 文件。生成结果不是图片或网页截图，而是可在 PowerPoint 里继续编辑的形状、转场、动画、图表和表格。",
+        "content": "仓库以 Python 实现，包含文档解析、内容规划、PPTX 生成与模板适配等模块，并提供中英文 README、版本与许可证徽章、赞助商说明及演示资源。",
+        "stack": "主语言为 Python，围绕 python-pptx 等库生成原生 PPTX，并接入大模型 API（如 Kimi K3）做文档理解与内容编排。",
+        "hot": "58745 颗星、今日新增 372，冲上 GitHub Trending 日榜 Python 第 8 名；它切中「做 PPT 太耗时」的普遍痛点，且输出原生可编辑文件而非图片，实用性远超同类。",
         "uses": [
-          "数字取证调查人员，用于从 Android 设备提取和分析证据",
-          "安全研究人员，用于研究 Android 应用数据存储与 Protobuf 格式",
-          "执法机构技术人员，用于案件中的移动设备取证",
-          "CTF 参赛者与学习者，用于练习 Android 取证技能"
+          "职场人士与学生：把报告、论文或资料快速变成可继续修改的演示文稿",
+          "咨询、销售与市场团队：根据文档或主题批量生成提案和汇报 PPT",
+          "需要品牌统一风格的用户：套用自有 .pptx 模板并自动生成图表、表格与配音",
+          "开发者与 AI 爱好者：研究文档理解、内容规划到 PPTX 生成的全链路实现"
         ]
       },
       "en": {
-        "tag": "Android Logs Events And Protobuf Parser for digital forensics",
-        "what": "ALEAPP is an Android digital forensics tool that parses logs, events, and Protobuf data from Android devices. It automatically identifies and parses numerous app and system artifacts from extraction images, producing structured reports.",
-        "content": "The repo contains Python source code, modular parser scripts (scripts directory), GUI/CLI entry points, packaging build scripts (packaging/build.py), and pre-built releases.",
-        "stack": "Built on Python 3.10+, depends on libraries in requirements.txt, packaged with PyInstaller, and GUI relies on tkinter (needs separate install on Linux).",
-        "hot": "As part of the LEAPP family, ALEAPP is well-regarded in the digital forensics community; with 18 new stars today, it ranks 5th on GitHub Trending Python daily list, reflecting growing demand for mobile forensics.",
+        "tag": "AI that turns documents or topics into native, editable PowerPoint decks",
+        "what": "PPT Master uses AI to read documents such as PDFs, DOCX files and web pages—or just a topic—and turn them into real, native PowerPoint decks. The output is not images or screenshots but editable shapes, transitions, animations, charts and tables you can keep refining in PowerPoint.",
+        "content": "The repo is a Python project with modules for document parsing, content planning, PPTX generation and template adaptation, plus bilingual READMEs, version/license badges, sponsor notes and demo assets.",
+        "stack": "Written in Python, it builds native PPTX via libraries like python-pptx and calls LLM APIs (e.g. Kimi K3) for document understanding and content structuring.",
+        "hot": "With 58,745 stars and 372 added today, it ranks 8th on GitHub Trending's Python daily list. It hits the universal pain of time-consuming slide-making and outputs native editable files instead of images, making it far more practical than rivals.",
         "uses": [
-          "Digital forensics investigators extracting and analyzing evidence from Android devices",
-          "Security researchers studying Android app data storage and Protobuf formats",
-          "Law enforcement technicians handling mobile device forensics in cases",
-          "CTF players and learners practicing Android forensics skills"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "spiderfoot",
-      "full": "smicallef/spiderfoot",
-      "rank": 18,
-      "cat": "infra",
-      "lang": "Python",
-      "stars": 23.2,
-      "today": "+88",
-      "today_n": 88,
-      "auto": false,
-      "zh": {
-        "tag": "自动化 OSINT 情报收集与攻击面测绘引擎",
-        "what": "SpiderFoot 是一款开源情报（OSINT）自动化工具，能对目标（域名、IP、邮箱、人名等）自动执行侦察与信息聚合。它把分散在各处的公开数据源整合起来，用于威胁情报分析和攻击面测绘。",
-        "content": "仓库包含 200 多个扫描模块、37 条预定义关联规则的 YAML 关联引擎、内嵌 Web 服务器与 CLI，以及 SQLite 后端和 CSV/JSON/GEXF 导出。",
-        "stack": "基于 Python 3.7+ 编写，MIT 许可，使用 SQLite 存储，支持 Docker 部署，并可调用 DNSTwist、Whatweb、Nmap、CMSeeK 等外部工具。",
-        "hot": "作为 2012 年持续维护至今的老牌安全工具，它已积累 22,698 颗星，今日再增 29 星并登上 Python 日榜第 18 名，说明 OSINT 与攻击面管理需求持续旺盛。",
-        "uses": [
-          "安全分析师与渗透测试人员用于目标侦察和攻击面梳理",
-          "威胁情报团队做资产发现、关联分析与风险测绘",
-          "企业安全运维人员监控自身暴露面与外部信息泄露",
-          "OSINT 爱好者与红蓝对抗演练者进行信息收集练习"
-        ]
-      },
-      "en": {
-        "tag": "Automated OSINT engine for threat intelligence and attack surface mapping",
-        "what": "SpiderFoot is an open source intelligence (OSINT) automation tool that runs reconnaissance and data aggregation against targets such as domains, IPs, emails and names. It consolidates scattered public data sources for threat intelligence and attack surface mapping.",
-        "content": "The repo ships 200+ scanning modules, a YAML-configurable correlation engine with 37 predefined rules, an embedded web server plus CLI, a SQLite backend and CSV/JSON/GEXF export.",
-        "stack": "Written in Python 3.7+, MIT-licensed, backed by SQLite, Docker-deployable, and able to invoke external tools like DNSTwist, Whatweb, Nmap and CMSeeK.",
-        "hot": "Actively maintained since 2012, it has accumulated 22,698 stars and gained 29 more today, ranking 18th on the Python daily trending list—showing sustained demand for OSINT and attack surface management.",
-        "uses": [
-          "Security analysts and pentesters doing target reconnaissance and attack surface review",
-          "Threat intelligence teams performing asset discovery, correlation and risk mapping",
-          "Enterprise security ops monitoring their own exposure and external leaks",
-          "OSINT enthusiasts and red/blue teamers practicing information gathering"
+          "Professionals and students: turn reports, papers or materials into editable slide decks fast",
+          "Consulting, sales and marketing teams: batch-generate proposals and review decks from documents or topics",
+          "Users needing brand consistency: apply their own .pptx templates with auto charts, tables and narration",
+          "Developers and AI enthusiasts: study the full pipeline from document understanding to PPTX generation"
         ]
       },
       "track": {
@@ -3391,511 +3481,308 @@ window.TRENDING_DATA = {
         "hist": [
           {
             "d": "2026-08-13",
-            "s": 20.3,
-            "r": 13
-          },
-          {
-            "d": "2026-08-14",
-            "s": 20.7,
-            "r": 9
-          },
-          {
-            "d": "2026-08-15",
-            "s": 20.9,
-            "r": 5
+            "s": 45.6,
+            "r": 8
           }
         ]
       }
     },
     {
-      "slug": "bmad-method",
-      "full": "bmad-code-org/BMAD-METHOD",
-      "rank": 7,
-      "cat": "agent",
-      "lang": "Python",
-      "stars": 54.0,
-      "today": "+51",
-      "today_n": 51,
-      "auto": false,
-      "zh": {
-        "tag": "面向 AI 编码工具的敏捷开发方法论与技能包",
-        "what": "BMad Method 是一套「敏捷 AI 驱动开发」（AiDD）方法论，把模糊想法或变更请求转化为可运行软件，同时保留人的思考与决策。它覆盖从需求澄清、规划、构建到学习调整的完整交付闭环，流程会按任务复杂度自动伸缩。",
-        "content": "仓库以技能（skills）和模块形式组织，包含 bmad 主入口、bmod-method、bmod-core-tools、bmad-build 等技能，以及文档、交付循环示意图和安装脚本，可整体使用或只取其中的简报、规格与架构产物。",
-        "stack": "主语言为 Python，依赖 uv 管理环境与脚本；通过 npx skills 或 Claude Code / Codex 插件市场安装，需要支持 skills 的 AI 编码工具、Node.js/npm 与 Git。",
-        "hot": "作为把 AI 编码从「写代码」扩展到完整交付流程的方法论，它切中了 AI 代理工作流的痛点，已积累约 5.4 万 stars，今日再增 51，稳居 Python 日榜第 7。",
-        "uses": [
-          "希望用 AI 编码工具做完整产品交付的独立开发者与小团队",
-          "需要在既有代码库中引入结构化 AI 开发流程的工程团队",
-          "想学习敏捷 AI 驱动开发方法论的 AI 代理与工具链研究者"
-        ]
-      },
-      "en": {
-        "tag": "An agile AI-driven development method and skill pack for AI coding tools",
-        "what": "BMad Method is an Agile AI-Driven Development (AiDD) methodology that turns a vague idea or change request into working software without giving up the thinking. It covers the full delivery loop—clarify, plan, build, learn—and scales the process to the size of the work.",
-        "content": "The repo is organized as skills and modules—bmad hub, bmod-method, bmod-core-tools, bmad-build—plus docs, delivery-loop diagrams, and setup scripts. You can use it end to end or carry its briefs, specs, and architecture into an existing workflow.",
-        "stack": "Primarily Python, with uv for setup and scripts; installed via npx skills or the Claude Code / Codex plugin marketplaces, requiring an AI coding tool that supports skills, Node.js/npm, and Git.",
-        "hot": "As a methodology that extends AI coding beyond code into the full delivery process, it hits a real pain point in agentic workflows—about 54k stars and +51 today, ranking #7 on the Python daily trending list.",
-        "uses": [
-          "Solo developers and small teams who want end-to-end delivery with AI coding tools",
-          "Engineering teams introducing a structured AI development process into existing codebases",
-          "Researchers on AI agents and toolchains studying agile AI-driven development methods"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "black",
-      "full": "psf/black",
-      "rank": 8,
-      "cat": "infra",
-      "lang": "Python",
-      "stars": 41.9,
-      "today": "+7",
-      "today_n": 7,
-      "auto": false,
-      "zh": {
-        "tag": "不妥协的 Python 代码格式化工具，统一风格、消灭格式争论",
-        "what": "Black 是一个 Python 代码自动格式化工具，按固定规则重排代码，几乎不提供风格选项。它让团队放弃手工微调格式，换取速度、确定性和一致的代码外观，并尽量生成最小 diff 以加快代码审查。",
-        "content": "仓库包含 Black 的核心格式化引擎、命令行入口、Jupyter Notebook 支持、测试套件与文档，并提供 PyInstaller 打包的独立可执行文件。",
-        "stack": "使用 Python 编写，要求 Python 3.10+，可通过 pip 或 conda 安装，并依赖 PyPI 生态与 GitHub Actions 做 CI。",
-        "hot": "作为 Python 社区事实上的格式化标准，Black 已积累 41885 颗星，今日仍新增 7 星并登上 Python 日榜第 8，说明它仍是开发者日常工具链中的刚需。",
-        "uses": [
-          "Python 团队与个人开发者，用于统一代码风格、减少格式争论",
-          "CI/CD 流程维护者，希望在提交或合并前自动格式化代码",
-          "数据科学与 Jupyter Notebook 用户，可安装 black[jupyter] 格式化笔记本",
-          "代码审查者，借助最小 diff 提升审查效率"
-        ]
-      },
-      "en": {
-        "tag": "The uncompromising Python code formatter that ends style debates",
-        "what": "Black is an opinionated Python code formatter that rewrites source files into a single, deterministic style with almost no configuration. It trades control over hand-formatting for speed, consistency, and smaller diffs that make code review faster.",
-        "content": "The repo contains Black's core formatting engine, CLI entry points, Jupyter Notebook support, a test suite, and documentation, plus PyInstaller-built standalone executables.",
-        "stack": "Written in Python, requires Python 3.10+, installable via pip or conda, and relies on the PyPI ecosystem with GitHub Actions for CI.",
-        "hot": "As the de facto formatting standard in the Python community, Black has 41,885 stars and still gained 7 today, ranking 8th on the Python daily trending list—proof it remains a daily essential.",
-        "uses": [
-          "Python teams and solo developers who want a single consistent code style",
-          "CI/CD maintainers who want to auto-format code before commits or merges",
-          "Data scientists and Jupyter Notebook users who can install black[jupyter]",
-          "Code reviewers who benefit from Black's minimal diffs"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "agent-framework",
-      "full": "microsoft/agent-framework",
+      "slug": "hello-agents",
+      "full": "datawhalechina/hello-agents",
       "rank": 9,
       "cat": "agent",
       "lang": "Python",
-      "stars": 14.0,
+      "stars": 82.3,
+      "today": "+205",
+      "today_n": 205,
+      "auto": false,
+      "zh": {
+        "tag": "Datawhale 出品的从零构建 AI 原生智能体系统教程",
+        "what": "Hello-Agents 是 Datawhale 社区推出的系统性智能体学习教程，带领读者从核心原理出发，深入智能体架构与经典范式，并亲手构建属于自己的多智能体应用。它强调 AI Native Agent，而非 Dify、Coze 这类流程驱动的软件工程式 Agent。",
+        "content": "仓库以中文 Markdown 教程为主体，按章节组织，涵盖智能体基础、发展史、大语言模型基础、经典范式构建、自研 HelloAgents 框架、上下文工程、Memory、协议、评估、Agentic RL 训练以及智能旅行助手、赛博小镇等实战项目，并提供在线阅读站点。",
+        "stack": "教程代码以 Python 为主，基于 OpenAI 原生 API 从零构建自研 HelloAgents 框架，涉及 Transformer、提示工程、SFT、GRPO 等模型训练技术，并配套 GitBook 在线阅读。",
+        "hot": "项目已获 82,254 颗星，今日新增 205 星，位列 GitHub Trending 日榜 Python 第 9 名，反映出 2025 年 Agent 元年的学习需求与 Datawhale 社区影响力。",
+        "uses": [
+          "希望从 LLM 使用者转型为智能体系统构建者的开发者",
+          "需要系统学习 AI 原生 Agent 原理与实战的学生和工程师",
+          "准备智能体相关岗位面试、需要项目经验的求职者",
+          "想基于 OpenAI API 自研 Agent 框架的技术团队"
+        ]
+      },
+      "en": {
+        "tag": "Datawhale's from-scratch tutorial for building AI-native agent systems",
+        "what": "Hello-Agents is a systematic agent-learning tutorial from the Datawhale community, guiding readers from core principles to agent architectures and classic paradigms, culminating in building their own multi-agent applications. It focuses on AI-native agents rather than flow-driven software-engineering agents like Dify or Coze.",
+        "content": "The repo is primarily a Chinese Markdown tutorial organized by chapters, covering agent fundamentals, history, LLM basics, classic paradigm construction, the self-built HelloAgents framework, context engineering, memory, protocols, evaluation, Agentic RL training, and hands-on projects like a smart travel assistant and cyber town, with an online reading site.",
+        "stack": "The tutorial code is mainly Python, building the self-developed HelloAgents framework from scratch on the native OpenAI API, covering Transformer, prompt engineering, SFT, GRPO and other model-training techniques, with GitBook-based online reading.",
+        "hot": "With 82,254 stars and 205 added today, it ranks 9th on GitHub Trending's daily Python list, reflecting the learning demand in the 2025 'Agent year' and Datawhale's community influence.",
+        "uses": [
+          "Developers wanting to transition from LLM users to agent-system builders",
+          "Students and engineers needing systematic AI-native agent theory and practice",
+          "Job seekers preparing for agent-related interviews and needing project experience",
+          "Tech teams aiming to build their own agent framework on the OpenAI API"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "code-review-graph",
+      "full": "tirth8205/code-review-graph",
+      "rank": 10,
+      "cat": "agent",
+      "lang": "Python",
+      "stars": 32.0,
       "today": "+27",
       "today_n": 27,
       "auto": false,
       "zh": {
-        "tag": "微软开源的多语言生产级 AI 智能体与多智能体工作流框架",
-        "what": "Microsoft Agent Framework（MAF）是一个开源、多语言的框架，用于构建、编排和部署生产级 AI 智能体及多智能体工作流。它面向需要从原型走向生产的团队，提供跨 Python、.NET 和 Go 的一致基础，支持图式编排模式如顺序、并发、交接和群组协作。",
-        "content": "仓库包含 Python 包（python/packages/）与 .NET 源码（dotnet/src/），并配有文档、示例、托管模式以及官方博客和 30 分钟介绍视频等资源。",
-        "stack": "主语言为 Python，同时提供 C#/.NET 与 Go SDK；支持 Microsoft Foundry、Azure OpenAI、OpenAI 和 GitHub Copilot SDK 等生态，可通过 PyPI 与 NuGet 安装。",
-        "hot": "凭借微软官方背书、多语言支持与生产级编排能力，该项目已获 14022 颗星，今日新增 27 星，位列 GitHub Trending 日榜 Python 第 9 名。",
+        "tag": "本地优先的代码知识图谱，为 AI 编程工具提供精准评审上下文",
+        "what": "code-review-graph 用 Tree-sitter 为代码库构建持久化的结构化知识图谱，并支持增量更新。它通过 MCP 协议向 AI 编程助手提供紧凑的上下文，让模型只读取变更真正涉及的文件，而不是重复扫描整个仓库。",
+        "content": "仓库包含 Python 实现的图谱构建与 MCP 服务核心代码，以及 CLI 命令、GitHub Action、多语言 README（中/日/韩/印地语）和基准测试复现文档。",
+        "stack": "基于 Python 3.10+，使用 Tree-sitter 做代码解析，兼容 MCP 协议，发布在 PyPI 上，采用 MIT 许可。",
+        "hot": "凭借 3.2 万 star 和日增 27 的热度登上 Python 日榜第 10，切中了 AI 编程工具上下文膨胀、token 成本高的普遍痛点，并给出可复现的基准数据。",
         "uses": [
-          "需要将 AI 智能体从原型推进到生产环境的开发团队",
-          "希望用图式编排构建顺序、并发、交接与群组协作工作流的工程师",
-          "关注持久性、可重启、可观测、治理与人在回路控制的架构师",
-          "需要跨 Python、.NET 或 Go 保持架构灵活、避免重写的技术负责人"
+          "使用 Cursor、Claude Code 等 AI 编程助手的开发者，希望降低上下文成本",
+          "维护大型代码库、需要高效代码评审的工程团队",
+          "想通过 MCP 接入本地代码智能能力的工具开发者",
+          "关注 AI 辅助开发效率与 token 优化的技术负责人"
         ]
       },
       "en": {
-        "tag": "Microsoft's open multi-language framework for production-grade AI agents and multi-agent workflows",
-        "what": "Microsoft Agent Framework (MAF) is an open, multi-language framework for building, orchestrating, and deploying production-grade AI agents and multi-agent workflows. Aimed at teams moving agents from prototype to production, it offers a consistent foundation across Python, .NET, and Go, supporting graph-based patterns like sequential, concurrent, handoff, and group collaboration.",
-        "content": "The repo contains Python packages (python/packages/) and .NET source (dotnet/src/), along with docs, samples, hosting patterns, an official blog, and a 30-minute intro video.",
-        "stack": "Primary language is Python, with C#/.NET and Go SDKs; it supports ecosystems including Microsoft Foundry, Azure OpenAI, OpenAI, and the GitHub Copilot SDK, installable via PyPI and NuGet.",
-        "hot": "Backed by Microsoft and offering multi-language support plus production-grade orchestration, it has reached 14,022 stars with 27 added today, ranking #9 on GitHub Trending (Python) daily.",
+        "tag": "Local-first code knowledge graph giving AI coding tools precise review context",
+        "what": "code-review-graph builds a persistent structural knowledge graph of your codebase with Tree-sitter and keeps it updated incrementally. It serves compact context over MCP so AI coding assistants read only the files a change actually touches instead of re-scanning the whole repo.",
+        "content": "The repo contains the Python core for graph building and the MCP server, plus CLI commands, a GitHub Action, multilingual READMEs (Chinese/Japanese/Korean/Hindi), and docs for reproducing benchmarks.",
+        "stack": "Built on Python 3.10+ with Tree-sitter for parsing, MCP-compatible, distributed on PyPI under the MIT license.",
+        "hot": "With 32k stars and +27 today, it ranks #10 on the Python daily trending list by tackling the common pain of context bloat and token costs in AI coding tools, backed by reproducible benchmarks.",
         "uses": [
-          "Development teams taking AI agents from prototype to production",
-          "Engineers building sequential, concurrent, handoff, and group collaboration workflows with graph-based orchestration",
-          "Architects focused on durability, restartability, observability, governance, and human-in-the-loop control",
-          "Tech leads needing provider flexibility across Python, .NET, or Go without major rewrites"
+          "Developers using AI coding assistants like Cursor or Claude Code who want lower context costs",
+          "Engineering teams maintaining large repos that need efficient code review",
+          "Tool developers integrating local code intelligence via MCP",
+          "Tech leads focused on AI-assisted development efficiency and token optimization"
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "f1-race-replay",
-      "full": "IAmTomShaw/f1-race-replay",
-      "rank": 10,
-      "cat": "other",
-      "lang": "Python",
-      "stars": 6.7,
-      "today": "+148",
-      "today_n": 148,
-      "auto": false,
-      "zh": {
-        "tag": "用 Python 打造的 F1 赛事回放与遥测可视化工具",
-        "what": "这是一个用 Python 编写的 F1 赛事可视化应用，可以在渲染出的赛道上实时回放车手位置与比赛事件。它支持安全车动画、排行榜、圈数与时间显示，并提供速度、档位、DRS 等车手遥测分析。",
-        "content": "仓库包含主程序、resources 预览图与 telemetry.md 遥测文档，代码围绕回放渲染、安全车模拟、排行榜和遥测面板等模块组织。",
-        "stack": "基于 Python，使用 FastF1 获取真实 F1 赛事数据，图形界面与动画渲染依赖常见的 Python 绘图/窗口库。",
-        "hot": "凭借 F1 赛事热度与直观的交互回放体验，项目已获 6686 星，今日新增 148 星，登上 GitHub Trending Python 日榜第 10 名。",
-        "uses": [
-          "F1 车迷：想以可视化方式重温比赛进程与关键事件",
-          "数据分析爱好者：研究车手遥测、圈速与比赛策略",
-          "Python 学习者：参考 FastF1 数据获取与 GUI 动画实现",
-          "内容创作者：制作赛事回放视频或数据可视化素材"
-        ]
-      },
-      "en": {
-        "tag": "An interactive Formula 1 race replay and telemetry visualization tool built with Python",
-        "what": "A Python application that visualizes Formula 1 race telemetry and replays race events with interactive controls and a graphical interface. It shows real-time driver positions on a rendered track, animated Safety Car deployments, a live leaderboard, and per-driver telemetry insights like speed, gear, and DRS.",
-        "content": "The repo contains the main application, a resources preview image, and a telemetry.md doc, with code organized around replay rendering, Safety Car simulation, leaderboard, and telemetry panel modules.",
-        "stack": "Built in Python, it uses FastF1 to pull real F1 session data, with GUI and animation rendering relying on common Python graphics/windowing libraries.",
-        "hot": "Riding F1's popularity and offering an intuitive interactive replay experience, it has reached 6,686 stars with 148 added today, ranking 10th on GitHub Trending's daily Python list.",
-        "uses": [
-          "F1 fans who want to relive races and key moments visually",
-          "Data analysis enthusiasts studying driver telemetry, lap times, and race strategy",
-          "Python learners looking at FastF1 data fetching and GUI animation implementations",
-          "Content creators producing race replay videos or data visualization assets"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "treg",
-      "full": "superdesigndev/treg",
-      "rank": 13,
-      "cat": "agent",
-      "lang": "Python",
-      "stars": 4.9,
-      "today": "+119",
-      "today_n": 119,
-      "auto": false,
-      "zh": {
-        "tag": "面向 AI 代理的工具版 OpenRouter，一个令牌调用 3000+ 工具端点",
-        "what": "Treg 是给 AI 代理用的工具聚合网关，类似 OpenRouter 但对象是工具而非模型。代理只需一个 base URL 和一个令牌，就能调用 60+ 供应商的 3000+ 端点，按次计费、低至一分钱，无需向各供应商注册。",
-        "content": "仓库包含 Python 实现的代理服务、CLI 安装脚本与工具目录，支持 endpoint、CLI、skill/bundle 三类注册形式，并提供托管版 treg.to 与自托管方案。",
-        "stack": "主语言 Python，通过 HTTP 代理转发上游请求并在服务端注入凭证，CLI 以 shell 脚本安装，托管于 Render。",
-        "hot": "上线不久即获 3164 stars，今日新增 468，登上 GitHub Trending 日榜第 13 名，切中了代理工具接入碎片化、订阅昂贵的痛点。",
-        "uses": [
-          "AI 代理开发者：想让代理直接调用搜索、爬虫、社媒等外部工具而无需逐个对接供应商",
-          "独立开发者与小团队：不想为单次任务购买 Semrush、Apollo 等高价订阅",
-          "企业团队：希望统一管理自有 API 密钥、CLI 与 SKILL.md，并让全员代理安全复用",
-          "自托管用户：需要私有化部署工具网关并掌控凭证与计费"
-        ]
-      },
-      "en": {
-        "tag": "OpenRouter for agent tools — one token, 3,000+ tool endpoints",
-        "what": "Treg is a tool aggregation gateway for AI agents — OpenRouter, but for tools instead of models. Point an agent at one base URL with one token and it can call 3,000+ endpoints across 60+ providers, priced per call from a cent, with no provider signup.",
-        "content": "The repo contains a Python proxy service, a CLI installer, and the tool catalog, supporting endpoints, CLIs, and skill/bundle registrations, with both a hosted treg.to and self-hosting.",
-        "stack": "Written mainly in Python; it proxies upstream requests over HTTP and injects credentials server-side, with a shell-installed CLI, hosted on Render.",
-        "hot": "It quickly reached 3,164 stars with 468 added today, ranking 13th on GitHub Trending daily, hitting the pain of fragmented, expensive agent tool access.",
-        "uses": [
-          "AI agent developers who want agents to call search, scraping, and social tools without integrating each vendor",
-          "Indie developers and small teams unwilling to buy pricey Semrush or Apollo subscriptions for a single run",
-          "Enterprise teams wanting to manage their own API keys, CLIs, and SKILL.md files securely across all agents",
-          "Self-hosters who need a private tool gateway with full control over credentials and billing"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-09-25",
+        "first": "2026-07-18",
         "is_new": false,
         "is_back": false,
         "hist": [
           {
-            "d": "2026-09-25",
-            "s": 3.2,
-            "r": 13
-          }
-        ]
-      }
-    },
-    {
-      "slug": "windows-mcp",
-      "full": "CursorTouch/Windows-MCP",
-      "rank": 12,
-      "cat": "agent",
-      "lang": "Python",
-      "stars": 8.4,
-      "today": "+360",
-      "today_n": 360,
-      "auto": false,
-      "zh": {
-        "tag": "让 AI 代理直接操控 Windows 桌面的 MCP 服务器",
-        "what": "Windows-MCP 是一个轻量开源 MCP 服务器，在 LLM 与 Windows 操作系统之间架起桥梁。它让 AI 代理能够执行文件导航、应用控制、UI 交互和 QA 测试等桌面任务。",
-        "content": "仓库以 Python 包形式发布，包含 MCP 服务器实现、键盘鼠标与窗口状态捕获等 UI 自动化工具集，并提供演示视频与 PyPI 安装方式。",
-        "stack": "基于 Python 3.13+，支持 Windows 7 至 11，可通过 uvx 或 PyPI 安装，并已加入 MCP Registry。",
-        "hot": "凭借让任意 LLM 无需视觉模型即可操控 Windows 的实用定位，项目已获 8356 星，今日新增 360，位列 GitHub Python 日榜第 12。",
-        "uses": [
-          "想让 AI 代理自动操作 Windows 桌面应用与文件的开发者",
-          "需要在 Windows 上做 UI 自动化与 QA 测试的工程团队",
-          "希望把桌面控制能力接入 Claude Desktop 等 MCP 客户端的用户"
-        ]
-      },
-      "en": {
-        "tag": "An MCP server that lets AI agents control the Windows desktop",
-        "what": "Windows-MCP is a lightweight open-source MCP server that bridges LLMs and the Windows operating system. It lets AI agents perform tasks such as file navigation, application control, UI interaction, and QA testing.",
-        "content": "The repo ships as a Python package containing the MCP server implementation, a UI automation toolset for keyboard, mouse, and window-state capture, plus demo videos and PyPI installation.",
-        "stack": "Built on Python 3.13+, supports Windows 7 through 11, installable via uvx or PyPI, and listed in the MCP Registry.",
-        "hot": "By letting any LLM control Windows without vision models, it has reached 8,356 stars with 360 added today, ranking 12th on GitHub's daily Python trending list.",
-        "uses": [
-          "Developers who want AI agents to automate Windows desktop apps and files",
-          "Engineering teams doing UI automation and QA testing on Windows",
-          "Users who want desktop control inside MCP clients like Claude Desktop"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "freellmapi",
-      "full": "tashfeenahmed/freellmapi",
-      "rank": 20,
-      "cat": "infra",
-      "lang": "TypeScript",
-      "stars": 32.2,
-      "today": "+518",
-      "today_n": 518,
-      "auto": false,
-      "zh": {
-        "tag": "把34家免费LLM聚合到一个OpenAI兼容端点",
-        "what": "FreeLLMAPI 把数十家免费 LLM 提供商的免费额度聚合到单个 /v1 端点，同时支持自定义 OpenAI 兼容的对话、嵌入、图像与音频端点。它通过智能路由为每个请求挑选可用模型，遇到限流自动故障转移，并加密存储密钥、跟踪各 key 用量以守住免费额度上限。",
-        "content": "仓库为 TypeScript 项目，包含路由与故障转移核心、加密密钥存储、用量追踪、模型目录（474 个模型家族、635 个免费端点）、自更新签名模型源，以及 macOS/Windows/Docker/移动端安装方式与文档。",
-        "stack": "主语言 TypeScript，提供 Docker 镜像（ghcr.io）与 CI，支持 OpenAI 兼容 API，并发布 macOS、Windows、Android、iOS 客户端。",
-        "hot": "本月新增 1844 star、总数达 31831，登上 GitHub Trending 月榜第 20 名；它直击开发者想白嫖多家免费 LLM 额度却要逐个对接的痛点，一个端点即可统一调用。",
-        "uses": [
-          "个人开发者想低成本试验多家免费 LLM 模型",
-          "需要为本地编码助手或 CLI 提供统一 OpenAI 兼容后端的用户",
-          "想自托管、加密管理多平台 API key 并控制免费额度的团队",
-          "做 AI 应用原型、需要自动故障转移与多模型路由的开发者"
-        ]
-      },
-      "en": {
-        "tag": "Aggregate 34 free LLM providers behind one OpenAI-compatible endpoint",
-        "what": "FreeLLMAPI aggregates the free tiers of dozens of LLM providers plus custom OpenAI-compatible chat, embedding, image and audio endpoints behind a single /v1 API. A router picks the best available model per request, fails over when a provider is rate-limited, stores keys encrypted, and tracks per-key usage to stay under every free-tier cap.",
-        "content": "It's a TypeScript project containing the routing and failover core, encrypted key storage, usage tracking, a model catalog (474 model families, 635 free endpoints), a self-updating signed model feed, and install paths for macOS, Windows, Docker and mobile plus docs.",
-        "stack": "Primary language is TypeScript, shipped as a Docker image (ghcr.io) with CI, exposing an OpenAI-compatible API, with macOS, Windows, Android and iOS clients.",
-        "hot": "It gained 1,844 stars this month for a total of 31,831, ranking #20 on GitHub Trending monthly; it hits the pain point of juggling many free LLM tiers by unifying them behind one endpoint.",
-        "uses": [
-          "Individual developers experimenting with many free LLM models at low cost",
-          "Users who need a unified OpenAI-compatible backend for local coding agents or CLIs",
-          "Teams wanting self-hosted, encrypted multi-provider key management within free-tier caps",
-          "Developers prototyping AI apps who need automatic failover and multi-model routing"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-08-25",
-        "is_new": false,
-        "is_back": false,
-        "hist": [
-          {
-            "d": "2026-08-25",
-            "s": 19.8,
-            "r": 15
+            "d": "2026-07-18",
+            "s": 19.9,
+            "r": 9
           },
           {
-            "d": "2026-08-29",
-            "s": 21.6,
-            "r": 15
+            "d": "2026-07-21",
+            "s": 23.4,
+            "r": 2
           },
-          {
-            "d": "2026-08-31",
-            "s": 22.8,
-            "r": 17
-          }
-        ]
-      }
-    },
-    {
-      "slug": "worldmonitor",
-      "full": "koala73/worldmonitor",
-      "rank": 4,
-      "cat": "ai",
-      "lang": "TypeScript",
-      "stars": 88.1,
-      "today": "+89",
-      "today_n": 89,
-      "auto": false,
-      "zh": {
-        "tag": "AI 驱动的实时全球情报态势感知仪表盘",
-        "what": "World Monitor 是一个实时全球情报仪表盘，把 AI 新闻聚合、地缘政治监测与基础设施追踪整合进统一的态势感知界面。它同时提供 Web 应用、CLI 与 npm/Python SDK，方便用户快速获取并可视化全球动态。",
-        "content": "仓库以 TypeScript 实现，包含核心仪表盘应用、多个主题变体站点（科技、金融、大宗商品、能源、Happy 等），以及 npm 包和 Python SDK。",
-        "stack": "主语言为 TypeScript，通过 npm 发布（npx worldmonitor），并提供 PyPI 上的 worldmonitor-sdk；采用 AGPL v3 许可证。",
-        "hot": "凭借 8.8 万+ star 与日增 89 的热度，它把分散的新闻、地缘与基础设施数据聚合成一屏情报视图，切中当下对实时全球态势的高需求。",
-        "uses": [
-          "关注地缘政治与全球新闻动态的分析师和研究者",
-          "需要实时监控基础设施与供应链风险的技术团队",
-          "希望把情报仪表盘嵌入自有产品的开发者（npm/Python SDK）",
-          "对金融、能源、大宗商品等垂直领域态势感兴趣的用户"
-        ]
-      },
-      "en": {
-        "tag": "AI-powered real-time global intelligence situational awareness dashboard",
-        "what": "World Monitor is a real-time global intelligence dashboard that unifies AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking into a single situational awareness interface. It ships as a web app plus CLI and npm/Python SDKs for quickly surfacing and visualizing world events.",
-        "content": "Written in TypeScript, the repo contains the core dashboard app, several themed variant sites (tech, finance, commodity, energy, Happy), plus an npm package and a Python SDK.",
-        "stack": "Primary language is TypeScript, distributed via npm (npx worldmonitor) with a worldmonitor-sdk on PyPI; licensed under AGPL v3.",
-        "hot": "With over 88k stars and +89 today, it aggregates scattered news, geopolitical, and infrastructure data into one intelligence view, riding strong demand for real-time global situational awareness.",
-        "uses": [
-          "Analysts and researchers tracking geopolitics and global news",
-          "Tech teams monitoring infrastructure and supply-chain risk in real time",
-          "Developers embedding the intelligence dashboard via npm/Python SDKs",
-          "Users focused on verticals like finance, energy, and commodities"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-22",
-        "is_new": false,
-        "is_back": false,
-        "hist": [
           {
             "d": "2026-07-22",
-            "s": 65.4,
-            "r": 1
+            "s": 24.5,
+            "r": 3
           },
           {
             "d": "2026-07-23",
-            "s": 69.0,
+            "s": 25.3,
+            "r": 14
+          },
+          {
+            "d": "2026-08-07",
+            "s": 29.1,
+            "r": 10
+          }
+        ]
+      }
+    },
+    {
+      "slug": "scientific-agent-skills",
+      "full": "K-Dense-AI/scientific-agent-skills",
+      "rank": 11,
+      "cat": "agent",
+      "lang": "Python",
+      "stars": 48.2,
+      "today": "+130",
+      "today_n": 130,
+      "auto": false,
+      "zh": {
+        "tag": "把任意 AI 代理变成 AI 科学家的技能库",
+        "what": "这是一个面向科研场景的 Agent Skills 技能库，提供 177 个经过验证的即用技能和 100+ 科学数据库接口，覆盖生物、化学、医学与药物发现。它让 Cursor、Claude Code、Codex 等通用 AI 代理直接获得专业科研能力。",
+        "content": "仓库以 Python 实现，主体是 177 个技能模块与数据库连接器，配有技能测试、安全扫描等 CI 工作流，并遵循开放的 Agent Skills / Agent Plugins 标准。",
+        "stack": "主语言 Python，依赖 pyproject.toml 管理，兼容 Cursor、Claude Code、Codex、Pi、Antigravity 等代理，并提供 GitHub Actions 做技能测试与安全扫描。",
+        "hot": "48,169 颗星、日增 130，登上 GitHub Trending Python 日榜第 11 名；它把科研技能标准化为可插拔代理能力，被 25 万+ 科学家使用，切中了 AI for Science 的热点。",
+        "uses": [
+          "科研人员：让 AI 代理直接调用生物、化学、医学数据库完成文献与数据分析",
+          "AI 代理开发者：为通用 agent 快速接入标准化科研技能与工具链",
+          "药物发现与生物信息团队：用现成技能搭建可复现的自动化研究流程",
+          "学生与自学者：通过 K-Dense BYOK 在本地低门槛体验 AI 辅助科研"
+        ]
+      },
+      "en": {
+        "tag": "The #1 Agent Skills library that turns any AI agent into an AI Scientist",
+        "what": "A science-focused Agent Skills library offering 177 validated ready-to-use skills and 100+ scientific database integrations across biology, chemistry, medicine, and drug discovery. It gives general-purpose agents like Cursor, Claude Code, and Codex professional research capabilities out of the box.",
+        "content": "Implemented in Python, it contains 177 skill modules plus database connectors, backed by CI workflows for skill tests and security scans, and follows the open Agent Skills / Agent Plugins standards.",
+        "stack": "Python-based with pyproject.toml, compatible with Cursor, Claude Code, Codex, Pi, and Antigravity, with GitHub Actions for skill testing and security scanning.",
+        "hot": "With 48,169 stars and +130 today, it ranks #11 on GitHub Trending (Python); by standardizing research skills as pluggable agent capabilities used by 250,000+ scientists, it rides the AI-for-Science wave.",
+        "uses": [
+          "Researchers: let AI agents query biology, chemistry, and medicine databases for literature and data analysis",
+          "Agent developers: plug standardized scientific skills and tooling into general-purpose agents",
+          "Drug discovery and bioinformatics teams: build reproducible automated research pipelines from ready skills",
+          "Students and self-learners: try AI-assisted research locally via K-Dense BYOK with low setup cost"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-08-27",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-08-27",
+            "s": 34.8,
+            "r": 14
+          },
+          {
+            "d": "2026-08-28",
+            "s": 35.4,
+            "r": 7
+          },
+          {
+            "d": "2026-08-29",
+            "s": 36.6,
+            "r": 2
+          },
+          {
+            "d": "2026-08-30",
+            "s": 38.0,
+            "r": 3
+          },
+          {
+            "d": "2026-08-31",
+            "s": 39.3,
+            "r": 2
+          },
+          {
+            "d": "2026-09-01",
+            "s": 40.7,
+            "r": 3
+          },
+          {
+            "d": "2026-09-02",
+            "s": 41.5,
+            "r": 9
+          }
+        ]
+      }
+    },
+    {
+      "slug": "ai-agent-book",
+      "full": "bojieli/ai-agent-book",
+      "rank": 12,
+      "cat": "agent",
+      "lang": "Python",
+      "stars": 53.2,
+      "today": "+229",
+      "today_n": 229,
+      "auto": false,
+      "zh": {
+        "tag": "开源 AI Agent 教材：10 章原理 + 109 个配套实验",
+        "what": "这是李博杰所著《深入理解 AI Agent：设计原理与工程实践》的开源主仓库，围绕「Agent = LLM + 上下文 + 工具」这一核心公式，把 AI Agent 从原理讲到工程实战。全书正文、配图与配套实验代码全部开源，并提供编译好的 PDF/EPUB 离线版本。",
+        "content": "仓库包含 10 章正文书稿、配图、109 个按章配套实验（含本地项目与外部复现轨道），以及 15 种语言的翻译文档和自动构建的 PDF/EPUB 产物。",
+        "stack": "以 Python 为主语言，配套实验代码基于主流 LLM 与 Agent 框架；文档采用 Markdown 编写，通过 GitHub Actions 自动构建 PDF/EPUB 并发布到 Releases。",
+        "hot": "作为少见的「成体系 + 全开源 + 带实验」的 AI Agent 中文教材，它已累积 5.3 万+ star，今日再涨 229，冲上 GitHub Trending 日榜 Python 第 12 名。",
+        "uses": [
+          "想系统入门 AI Agent 的开发者与学生，可边读正文边跑 109 个实验",
+          "需要落地 Agent 产品的工程师，用工程实践章节指导架构与评估设计",
+          "高校教师与培训讲师，可直接引用开源书稿与配套代码作为课程材料",
+          "非中文读者，可借助 15 种语言翻译版与 PDF/EPUB 离线学习"
+        ]
+      },
+      "en": {
+        "tag": "Open-source AI Agent textbook: 10 chapters + 109 hands-on labs",
+        "what": "This is the open-source home of Bojie Li's book \"AI Agents in Depth: Design Principles and Engineering Practice,\" built around the formula Agent = LLM + Context + Tools. The full text, figures, and companion lab code are all open source, with compiled PDF/EPUB editions for offline reading.",
+        "content": "The repo holds the 10-chapter manuscript, figures, 109 chapter-aligned labs (local projects plus external reproduction tracks), translations into 15 languages, and auto-built PDF/EPUB artifacts.",
+        "stack": "Python is the primary language, with labs built on mainstream LLM and agent frameworks; docs are written in Markdown and auto-built into PDF/EPUB via GitHub Actions and published to Releases.",
+        "hot": "As a rare systematic, fully open-source AI Agent textbook with runnable labs, it has gathered 53k+ stars, adding 229 today and landing at #12 on GitHub Trending's Python daily list.",
+        "uses": [
+          "Developers and students new to AI agents who want to read the text while running the 109 labs",
+          "Engineers shipping agent products who need the engineering chapters for architecture and evaluation design",
+          "Teachers and trainers who can adopt the open manuscript and lab code as course material",
+          "Non-Chinese readers who can study via the 15 language translations and offline PDF/EPUB"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-21",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-07-21",
+            "s": 10.4,
             "r": 1
           },
           {
-            "d": "2026-07-24",
-            "s": 71.6,
+            "d": "2026-07-22",
+            "s": 14.4,
             "r": 2
           },
           {
-            "d": "2026-07-25",
-            "s": 73.3,
-            "r": 2
+            "d": "2026-08-19",
+            "s": 39.1,
+            "r": 11
           }
         ]
       }
     },
     {
-      "slug": "e2e",
-      "full": "tester-army/e2e",
-      "rank": 12,
-      "cat": "agent",
-      "lang": "TypeScript",
-      "stars": 8.2,
-      "today": "+962",
-      "today_n": 962,
+      "slug": "umi-ocr",
+      "full": "hiroi-sora/Umi-OCR",
+      "rank": 13,
+      "cat": "ai",
+      "lang": "Python",
+      "stars": 47.7,
+      "today": "+51",
+      "today_n": 51,
       "auto": false,
       "zh": {
-        "tag": "用自然语言驱动 Web 与移动端应用的 AI 端到端测试框架",
-        "what": "e2e 是一个面向 Web 和移动应用的端到端测试框架，你只需用自然语言描述目标，AI 代理就会自动操作应用完成它。测试中还能用定位器和断言校验结果，代理步骤会被记录并在下次运行时回放，应用未变时无需再调用模型。",
-        "content": "仓库包含 SDK、运行器和 CLI 主包 e2e，以及 @e2e-dev/web（基于 Playwright 的浏览器引擎）和 @e2e-dev/mobile 等移动端引擎包，并提供 Vite、Next.js、Expo、SwiftUI、Jetpack Compose、Flutter 等示例项目。",
-        "stack": "以 TypeScript 编写，浏览器引擎通过 Playwright 支持 Chromium、Firefox 和 WebKit，模型侧支持自带订阅、API Key 或本地模型。",
-        "hot": "作为 AI 代理驱动的下一代测试框架，它把自然语言与可回放的确定性断言结合，今日新增 1390 star、总数达 7781，冲上 GitHub Trending 日榜第 12 名。",
+        "tag": "免费开源的离线OCR软件，支持截图、批量、PDF识别与二维码处理",
+        "what": "Umi-OCR 是一款免费、开源、可离线的光学字符识别软件，支持截屏识别、批量导入图片、PDF文档识别，并能排除水印/页眉页脚、扫描或生成二维码。内置多国语言识别库，无需网络即可运行。",
+        "content": "仓库包含完整的软件源码、多语言 README 文档、构建指南、命令行与 HTTP 接口文档，以及发行版下载链接。主要模块涵盖截图 OCR、批量 OCR、PDF 识别、二维码处理、排版解析和忽略区域等功能。",
+        "stack": "基于 Python 开发，使用离线 OCR 引擎（如 Rapid-OCR、Paddle-OCR），支持 Windows 7 x64 和 Linux x64 平台。提供命令行和 HTTP 接口供外部调用。",
+        "hot": "凭借免费、离线、批量处理等实用特性，Umi-OCR 已获得 47,732 个 Star，今日新增 51 个，位列 GitHub Trending 日榜 Python 第 13 名，深受用户欢迎。",
         "uses": [
-          "需要为 Web 或移动应用编写端到端测试的前端与 QA 工程师",
-          "希望用自然语言快速生成并维护测试用例的团队",
-          "在 CI 中追求稳定、可回放且低成本测试的开发者",
-          "想探索 AI 代理驱动测试工作流的工程团队"
+          "需要从图片或 PDF 中提取文字的学生、研究人员和办公人员",
+          "注重隐私、希望离线处理敏感文档的个人或企业用户",
+          "开发者通过命令行或 HTTP 接口集成 OCR 功能到自己的应用中",
+          "需要批量处理大量图片或扫描件并排除水印的档案管理场景"
         ]
       },
       "en": {
-        "tag": "AI-powered end-to-end testing framework driven by natural language for web and mobile apps",
-        "what": "e2e is an end-to-end testing framework for web and mobile apps where you describe a goal in natural language and an agent drives the app to reach it. You can verify results with locators and assertions in the same test, and recorded agent steps replay on later runs without model calls until the app changes.",
-        "content": "The repo ships the core e2e SDK, runner and CLI, plus engine packages like @e2e-dev/web (Playwright-based browser engine) and @e2e-dev/mobile, along with standalone example projects for Vite, Next.js, Expo, SwiftUI, Jetpack Compose and Flutter.",
-        "stack": "Written in TypeScript, it uses Playwright for Chromium, Firefox and WebKit browser support, and lets you bring your own subscription, API key or local model.",
-        "hot": "As a next-gen agent-driven testing framework combining natural language with replayable deterministic assertions, it gained 1,390 stars today for a total of 7,781, landing at #12 on GitHub Trending.",
+        "tag": "Free and open-source offline OCR software with screenshot, batch, PDF recognition and QR code support",
+        "what": "Umi-OCR is a free, open-source, offline optical character recognition software that supports screenshot OCR, batch image import, PDF document recognition, and can exclude watermarks/headers/footers, scan or generate QR codes. It includes built-in multi-language recognition libraries and runs without an internet connection.",
+        "content": "The repository contains the full software source code, multi-language README documents, build guides, CLI and HTTP API documentation, and release download links. Main modules cover screenshot OCR, batch OCR, PDF recognition, QR code processing, layout analysis, and ignore regions.",
+        "stack": "Built with Python, using offline OCR engines (e.g., Rapid-OCR, Paddle-OCR), supporting Windows 7 x64 and Linux x64. It offers CLI and HTTP interfaces for external calls.",
+        "hot": "With practical features like free, offline, and batch processing, Umi-OCR has gained 47,732 stars, with 51 added today, ranking 13th on GitHub Trending daily list for Python, making it highly popular among users.",
         "uses": [
-          "Frontend and QA engineers writing end-to-end tests for web or mobile apps",
-          "Teams wanting to generate and maintain test cases quickly via natural language",
-          "Developers seeking stable, replayable and low-cost tests in CI",
-          "Engineering teams exploring AI-agent-driven testing workflows"
+          "Students, researchers, and office workers who need to extract text from images or PDFs",
+          "Individuals or enterprises that value privacy and want offline processing of sensitive documents",
+          "Developers integrating OCR functionality into their applications via CLI or HTTP API",
+          "Archive management scenarios requiring batch processing of numerous images or scans with watermark exclusion"
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-10-08",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
-        "hist": [
-          {
-            "d": "2026-10-08",
-            "s": 7.8,
-            "r": 12
-          }
-        ]
-      }
-    },
-    {
-      "slug": "flowsint",
-      "full": "reconurge/flowsint",
-      "rank": 4,
-      "cat": "infra",
-      "lang": "TypeScript",
-      "stars": 9.6,
-      "today": "+69",
-      "today_n": 69,
-      "auto": false,
-      "zh": {
-        "tag": "面向网络安全分析师的图调查平台",
-        "what": "Flowsint 是一个开源 OSINT 图探索工具，专为道德调查、透明度和验证而设计。它允许用户以可视化、灵活且可扩展的方式，对网络安全调查中的实体和关系进行图分析。",
-        "content": "仓库包含前端应用（flowsint-app）、核心逻辑（flowsint-core）和 API 服务（flowsint-api），并提供 Docker 生产部署配置。",
-        "stack": "主要使用 TypeScript 开发，依赖 Docker 进行容器化部署，支持 Linux、macOS 和 Windows。",
-        "hot": "今日新增 215 颗星，总星数达 9521，登上 GitHub Trending 日榜 TypeScript 第 4 名，反映出网络安全和图分析工具的需求旺盛。",
-        "uses": [
-          "网络安全分析师 —— 用于可视化调查网络威胁和实体关系",
-          "OSINT 调查人员 —— 进行开源情报收集与关联分析",
-          "安全团队 —— 在内部网络中部署，进行协作调查",
-          "研究人员 —— 探索图分析在安全领域的应用"
-        ]
-      },
-      "en": {
-        "tag": "A graph-based investigation platform for cybersecurity analysts",
-        "what": "Flowsint is an open-source OSINT graph exploration tool designed for ethical investigation, transparency, and verification. It enables visual, flexible, and extensible graph-based investigations for cybersecurity analysts and investigators.",
-        "content": "The repository contains a frontend app (flowsint-app), core logic (flowsint-core), and an API service (flowsint-api), along with Docker production deployment configurations.",
-        "stack": "Primarily built with TypeScript, relies on Docker for containerized deployment, and supports Linux, macOS, and Windows.",
-        "hot": "With 215 stars added today and a total of 9,521 stars, it ranks 4th on GitHub Trending (TypeScript), reflecting strong demand for cybersecurity and graph analysis tools.",
-        "uses": [
-          "Cybersecurity analysts — for visual investigation of cyber threats and entity relationships",
-          "OSINT investigators — for open-source intelligence gathering and correlation analysis",
-          "Security teams — deploy on internal networks for collaborative investigations",
-          "Researchers — explore graph analysis applications in security"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-09-15",
-        "is_new": false,
-        "is_back": false,
-        "hist": [
-          {
-            "d": "2026-09-15",
-            "s": 8.3,
-            "r": 18
-          }
-        ]
+        "hist": []
       }
     },
     {
@@ -3904,9 +3791,9 @@ window.TRENDING_DATA = {
       "rank": 7,
       "cat": "agent",
       "lang": "TypeScript",
-      "stars": 10.9,
-      "today": "+241",
-      "today_n": 241,
+      "stars": 11.0,
+      "today": "+161",
+      "today_n": 161,
       "auto": false,
       "zh": {
         "tag": "把 Claude Code / Codex 变成电影级产品视频工作室的 AI 技能",
@@ -3936,557 +3823,436 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "taskview-community",
-      "full": "Gimanh/taskview-community",
-      "rank": 8,
+      "slug": "vert",
+      "full": "VERT-sh/VERT",
+      "rank": 3,
       "cat": "infra",
       "lang": "TypeScript",
-      "stars": 1.3,
-      "today": "+25",
-      "today_n": 25,
+      "stars": 15.8,
+      "today": "+40",
+      "today_n": 40,
       "auto": false,
       "zh": {
-        "tag": "面向软件团队的自托管项目管理平台",
-        "what": "TaskView 是一个可自托管的项目与任务管理平台，把任务管理、自定义工作流、开发者集成、数据分析和 AI 辅助自动化整合在一起。它主打清晰、归属感和控制权，为希望摆脱 SaaS 任务管理器的团队提供透明替代方案。",
-        "content": "仓库包含完整的前后端源码，功能覆盖看板、任务列表、冲刺规划、时间追踪、分析仪表盘、成员与角色权限、SSO、API 令牌、Webhook、集成和 UI 自定义，并配有大量明暗主题截图。",
-        "stack": "主语言为 TypeScript，采用自托管架构，支持 SSO、API 令牌与 Webhook 等企业级集成能力，并配有 iOS 和 Android 移动端。",
-        "hot": "今日新增 25 星、总数达 1281，登上 GitHub Trending 日榜 TypeScript 第 8 名，反映出团队对可掌控、可自托管项目管理工具的强烈需求。",
+        "tag": "基于 WebAssembly 的本地文件转换器，支持 250+ 格式",
+        "what": "VERT 是一个文件转换工具，利用 WebAssembly 在用户设备上直接完成转换，而非上传到云端。它支持图片、音频、文档和视频等多种类型，覆盖 250 多种文件格式，且没有文件大小限制。",
+        "content": "仓库包含基于 Svelte 构建的前端界面、转换逻辑以及文档（FAQ、快速开始、Docker 部署、视频转换指南），并关联了可自托管的 vertd 守护进程用于服务端视频转换。",
+        "stack": "主要使用 TypeScript 和 Svelte 框架，核心转换依赖 WebAssembly，视频转换可选通过自托管 daemon 实现。",
+        "hot": "凭借完全本地、免费且无限制的隐私友好特性，VERT 已获得 15,808 颗星，今日新增 40 星，位列 GitHub Trending TypeScript 日榜第 3 名。",
         "uses": [
-          "希望数据自主可控、不想依赖 SaaS 的软件研发团队",
-          "需要看板、冲刺规划与时间追踪一体化管理的项目负责人",
-          "对 SSO、API 令牌、Webhook 等企业集成有要求的组织",
-          "想研究 TypeScript 全栈项目管理平台实现的开源开发者"
+          "需要频繁转换文件但注重隐私、不想上传云端的个人用户",
+          "开发者或团队希望自托管文件转换服务以集成到内部工作流",
+          "处理大量多媒体文件、需要批量转换且无大小限制的内容创作者"
         ]
       },
       "en": {
-        "tag": "Self-hosted project management for software teams",
-        "what": "TaskView is a self-hosted project and task management platform that combines task management, custom workflows, developer integrations, analytics, and AI-assisted automation. It focuses on clarity, ownership, and control, offering teams a transparent alternative to SaaS task managers.",
-        "content": "The repo contains full frontend and backend source code covering Kanban boards, task lists, sprint planning, time tracking, analytics dashboards, member and role permissions, SSO, API tokens, webhooks, integrations, and UI customization, with extensive light/dark theme screenshots.",
-        "stack": "Primarily TypeScript with a self-hosted architecture, supporting enterprise features like SSO, API tokens, and webhooks, plus iOS and Android mobile apps.",
-        "hot": "With 25 new stars today and 1,281 total, it ranks 8th on GitHub Trending (TypeScript) daily, reflecting strong demand for controllable, self-hosted project management tools.",
+        "tag": "WebAssembly-powered local file converter supporting 250+ formats",
+        "what": "VERT is a file conversion utility that uses WebAssembly to convert files directly on your device instead of in the cloud. It supports images, audio, documents, and video across 250+ file formats, with no file or size limits.",
+        "content": "The repo contains a Svelte-based frontend, conversion logic, and documentation (FAQ, Getting Started, Docker, Video Conversion), plus links to the self-hostable vertd daemon for server-side video conversion.",
+        "stack": "Built primarily with TypeScript and Svelte, leveraging WebAssembly for core conversions, with optional self-hosted daemon for video processing.",
+        "hot": "With its fully local, free, and unlimited privacy-friendly approach, VERT has earned 15,808 stars, adding 40 today and ranking #3 on GitHub Trending (TypeScript) daily list.",
         "uses": [
-          "Software teams wanting data ownership and independence from SaaS tools",
-          "Project leads needing integrated Kanban, sprint planning, and time tracking",
-          "Organizations requiring enterprise integrations like SSO, API tokens, and webhooks",
-          "Open-source developers studying a TypeScript full-stack project management platform"
+          "Individuals who frequently convert files and prioritize privacy over cloud uploads",
+          "Developers or teams wanting to self-host a conversion service for internal workflows",
+          "Content creators handling large media files needing batch conversion without size limits"
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "vane",
-      "full": "ItzCrazyKns/Vane",
-      "rank": 9,
-      "cat": "ai",
-      "lang": "TypeScript",
-      "stars": 37.2,
-      "today": "+44",
-      "today_n": 44,
-      "auto": false,
-      "zh": {
-        "tag": "可自托管的隐私优先 AI 问答搜索引擎",
-        "what": "Vane 是一个隐私优先的 AI 问答引擎，可完全运行在用户自己的硬件上。它结合互联网知识与本地或云端大模型，给出带引用来源的答案，同时保证搜索记录不外泄。",
-        "content": "仓库包含完整的 TypeScript 应用源码、Docker 部署配置、架构文档（docs/architecture）以及界面截图等资源。",
-        "stack": "基于 TypeScript 构建，支持 Ollama 本地模型及 OpenAI、Claude、Gemini、Groq 等云服务，搜索层由 SearxNG 驱动，并提供 Docker 镜像。",
-        "hot": "凭借隐私自托管与多模型聚合的定位，项目已积累 3.7 万多 star，今日再增 44 星，稳居 GitHub TypeScript 日榜第 9。",
-        "uses": [
-          "注重搜索隐私、希望自托管 AI 问答服务的个人用户",
-          "需要为团队搭建内部知识检索与问答系统的开发者",
-          "想对比或混用本地与云端大模型的研究人员",
-          "希望快速集成带引用来源搜索能力的应用开发者"
-        ]
-      },
-      "en": {
-        "tag": "Privacy-focused, self-hosted AI answering engine",
-        "what": "Vane is a privacy-focused AI answering engine that runs entirely on your own hardware. It blends internet knowledge with local or cloud LLMs to deliver cited answers while keeping searches private.",
-        "content": "The repo contains the full TypeScript app source, Docker deployment config, architecture docs under docs/architecture, and UI screenshots.",
-        "stack": "Built with TypeScript, it supports local Ollama models plus cloud providers like OpenAI, Claude, Gemini, and Groq, with SearxNG-powered search and a Docker image.",
-        "hot": "With its privacy-first, self-hosted, multi-model pitch, it has reached over 37k stars, adding 44 today and ranking 9th on GitHub's TypeScript daily trending list.",
-        "uses": [
-          "Individuals who value search privacy and want a self-hosted AI answering service",
-          "Developers building internal knowledge retrieval and Q&A systems for teams",
-          "Researchers who want to compare or mix local and cloud LLMs",
-          "Developers integrating cited-source search into their own apps"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "dyad",
-      "full": "dyad-sh/dyad",
-      "rank": 10,
+      "slug": "locally-uncensored",
+      "full": "PurpleDoubleD/locally-uncensored",
+      "rank": 4,
       "cat": "agent",
       "lang": "TypeScript",
-      "stars": 21.8,
-      "today": "+37",
-      "today_n": 37,
+      "stars": 2.1,
+      "today": "+68",
+      "today_n": 68,
       "auto": false,
       "zh": {
-        "tag": "本地开源 AI 应用构建器，v0/Lovable 的私有化替代",
-        "what": "Dyad 是一个本地运行的开源 AI 应用构建器，让用户用自然语言快速生成和迭代应用。它主打快速、私密、完全可控，支持自带 AI API Key，避免厂商锁定。",
-        "content": "仓库以 TypeScript 源码为主，包含核心应用代码与 src/pro 商业模块，并提供 Mac/Windows 跨平台下载。",
-        "stack": "基于 TypeScript 构建，跨平台运行于 Mac 和 Windows，依赖用户自带的 AI API Key，无强制后端服务。",
-        "hot": "凭借 21,779 颗星和日榜 TypeScript 第 10 的成绩，它切中了开发者对本地、隐私优先 AI 开发工具的需求。",
+        "tag": "全能本地AI工作室：聊天、图像、视频与编程代理，无需云端",
+        "what": "Locally Uncensored 是一个桌面端本地 AI 工作室，集成了聊天、图像生成、视频生成和编程代理功能。所有模型都在本地运行，无需 Docker、终端或云服务，安装后选择模型即可使用。",
+        "content": "仓库包含完整的桌面应用源代码，主要使用 TypeScript 和 Tauri 构建，提供 Windows 和 Linux 安装包，以及演示 GIF 和截图。",
+        "stack": "技术栈以 TypeScript 为主，使用 Tauri 框架构建跨平台桌面应用，支持 Windows 和 Linux。",
+        "hot": "凭借一站式本地 AI 解决方案和无需配置的易用性，该项目迅速走红，已获得 2125 颗星，今日新增 68 星，位列 GitHub Trending 日榜 TypeScript 第 4 名。",
         "uses": [
-          "希望本地运行、数据不外泄的独立开发者与团队",
-          "想用自然语言快速搭建原型的全栈工程师",
-          "对 v0/Lovable 等云端工具有锁定顾虑的用户",
-          "需要自带 API Key 控制成本的技术爱好者"
+          "希望完全本地运行 AI 模型、注重隐私的用户",
+          "需要一站式聊天、图像、视频和编程辅助的开发者",
+          "不想配置 Docker 或终端，追求开箱即用的普通用户"
         ]
       },
       "en": {
-        "tag": "Local, open-source AI app builder — a private alternative to v0/Lovable",
-        "what": "Dyad is a local, open-source AI app builder that lets users generate and iterate on apps via natural language. It emphasizes speed, privacy, and full control, with bring-your-own API keys to avoid vendor lock-in.",
-        "content": "The repo is primarily TypeScript source, containing core app code plus a src/pro commercial module, with cross-platform downloads for Mac and Windows.",
-        "stack": "Built with TypeScript, runs cross-platform on Mac and Windows, relies on user-supplied AI API keys, and requires no mandatory backend service.",
-        "hot": "With 21,779 stars and a #10 spot on the TypeScript daily trending list, it taps into developer demand for local, privacy-first AI dev tools.",
+        "tag": "All-in-one local AI studio: chat, image, video, and coding agent, no cloud required",
+        "what": "Locally Uncensored is a desktop local AI studio that integrates chat, image generation, video generation, and a coding agent. All models run locally with no Docker, terminal, or cloud required; just install, pick a model, and go.",
+        "content": "The repository contains the full source code for the desktop app, primarily built with TypeScript and Tauri, along with Windows and Linux installers, demo GIFs, and screenshots.",
+        "stack": "The tech stack is primarily TypeScript, using the Tauri framework to build cross-platform desktop apps for Windows and Linux.",
+        "hot": "With its all-in-one local AI solution and zero-config usability, the project has quickly gained popularity, earning 2,125 stars with 68 added today, ranking 4th on GitHub Trending daily for TypeScript.",
         "uses": [
-          "Indie developers and teams wanting local, private AI app building",
-          "Full-stack engineers prototyping quickly via natural language",
-          "Users wary of vendor lock-in with cloud tools like v0/Lovable",
-          "Tech enthusiasts who want to control costs with their own API keys"
+          "Users who want to run AI models completely locally with privacy in mind",
+          "Developers needing an all-in-one chat, image, video, and coding assistant",
+          "Non-technical users who want a plug-and-play solution without Docker or terminal"
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "anatomy",
-      "full": "thebuggeddev/anatomy",
-      "rank": 11,
-      "cat": "ai",
-      "lang": "TypeScript",
-      "stars": 3.4,
-      "today": "+6",
-      "today_n": 6,
-      "auto": false,
-      "zh": {
-        "tag": "用 Three.js 与 GPT 5.6 Sol 打造的交互式 3D 人体解剖浏览器",
-        "what": "这是一个基于 Three.js 的交互式 3D 人体解剖探索应用，用户可以在浏览器中旋转、缩放并查看人体结构。项目由 GPT 5.6 Sol 辅助生成，展示了 AI 驱动开发复杂 3D 可视化界面的能力。",
-        "content": "仓库以 TypeScript 编写，核心是 Three.js 渲染的 3D 解剖模型与交互控制逻辑；README 摘录显示其基于 vinext 全栈模板，包含 app/ 站点代码、可选的 D1/R2 绑定与 Drizzle 数据库支持。",
-        "stack": "技术栈以 TypeScript 为主，前端使用 Three.js 进行 3D 渲染，底层基于 vinext（Cloudflare 生态）全栈模板，可选集成 Cloudflare D1 与 Drizzle ORM。",
-        "hot": "项目已获 3439 颗星，今日新增 6 星，登上 GitHub Trending 日榜 TypeScript 第 11 名；其亮点在于用 GPT 5.6 Sol 生成 3D 解剖应用，引发对 AI 编程能力边界的关注。",
-        "uses": [
-          "医学与生物专业学生，用于直观学习人体解剖结构",
-          "3D 可视化开发者，参考 Three.js 交互式模型实现",
-          "AI 编程爱好者，研究 GPT 5.6 Sol 生成复杂应用的案例"
-        ]
-      },
-      "en": {
-        "tag": "An interactive 3D human anatomy explorer built with Three.js and GPT 5.6 Sol",
-        "what": "It is an interactive 3D human anatomy explorer built on Three.js, letting users rotate, zoom, and inspect human body structures in the browser. The project was created with GPT 5.6 Sol, showcasing AI-assisted development of complex 3D visualization interfaces.",
-        "content": "Written in TypeScript, the repo centers on Three.js-rendered 3D anatomy models and interaction controls; the README excerpt shows it builds on the vinext full-stack starter with app/ site code, optional D1/R2 bindings, and Drizzle database support.",
-        "stack": "The stack is primarily TypeScript, using Three.js for 3D rendering on top of the vinext (Cloudflare ecosystem) full-stack starter, with optional Cloudflare D1 and Drizzle ORM integration.",
-        "hot": "It has earned 3,439 stars with 6 added today, ranking 11th on GitHub Trending's daily TypeScript list; its appeal lies in using GPT 5.6 Sol to generate a 3D anatomy app, sparking interest in the limits of AI coding.",
-        "uses": [
-          "Medical and biology students seeking intuitive study of human anatomy",
-          "3D visualization developers referencing Three.js interactive model implementations",
-          "AI coding enthusiasts studying a case of GPT 5.6 Sol generating a complex app"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "invokeai",
-      "full": "invoke-ai/InvokeAI",
-      "rank": 12,
-      "cat": "ai",
-      "lang": "TypeScript",
-      "stars": 28.5,
-      "today": "+41",
-      "today_n": 41,
-      "auto": false,
-      "zh": {
-        "tag": "面向专业创作者的 Stable Diffusion 创意引擎，提供行业领先的 WebUI 与节点工作流。",
-        "what": "InvokeAI 是一个基于 Stable Diffusion 模型的视觉媒体创作引擎，旨在为专业人士、艺术家和爱好者提供强大的 AI 图像生成与编辑能力。它包含一个本地运行的 Web 服务器和 React 前端，支持文生图、图生图、修复、扩展等核心生成功能，并可作为商业产品的基础。",
-        "content": "仓库包含完整的 Web 应用（前端 React + 后端 Python）、统一画布（Unified Canvas）、节点式工作流系统、图库管理以及安装启动器。主要目录包括 invokeai（后端核心）、invokeai/frontend（前端代码）、docs（文档）等。",
-        "stack": "主要使用 TypeScript 和 Python 开发，前端基于 React，后端使用 FastAPI 和 PyTorch 等深度学习库。依赖包括 Stable Diffusion 模型、ONNX 运行时等。",
-        "hot": "作为 Stable Diffusion 生态中功能最全面的专业级工具之一，InvokeAI 凭借其强大的画布、工作流和商业友好许可，持续吸引大量创作者。目前获得 28,483 颗星，今日新增 41 颗，位列 GitHub Trending TypeScript 日榜第 12 名。",
-        "uses": [
-          "数字艺术家和设计师：利用 AI 辅助创作和迭代视觉作品。",
-          "AI 爱好者与研究者：本地部署 Stable Diffusion 并探索高级功能。",
-          "商业产品开发者：基于 InvokeAI 构建定制化的图像生成应用。",
-          "内容创作者：快速生成和编辑社交媒体、营销素材。"
-        ]
-      },
-      "en": {
-        "tag": "A leading creative engine for Stable Diffusion, offering an industry-leading WebUI and node-based workflows for professionals.",
-        "what": "InvokeAI is a creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and edit visual media with AI. It includes a locally hosted web server and React UI, supporting text-to-image, image-to-image, inpainting, outpainting, and more, and serves as a foundation for commercial products.",
-        "content": "The repository contains a full web application (React frontend + Python backend), a Unified Canvas, a node-based workflow system, gallery management, and an installation launcher. Key directories include invokeai (backend core), invokeai/frontend (frontend code), and docs (documentation).",
-        "stack": "Primarily built with TypeScript and Python, with a React frontend and a FastAPI/PyTorch backend. Dependencies include Stable Diffusion models, ONNX runtime, and other deep learning libraries.",
-        "hot": "As one of the most comprehensive professional tools in the Stable Diffusion ecosystem, InvokeAI attracts a large community of creators with its powerful canvas, workflows, and commercially friendly license. It has 28,483 stars with 41 added today, ranking 12th on GitHub Trending (TypeScript) daily list.",
-        "uses": [
-          "Digital artists and designers: leverage AI to assist and iterate visual creations.",
-          "AI enthusiasts and researchers: deploy Stable Diffusion locally and explore advanced features.",
-          "Commercial product developers: build customized image generation applications on top of InvokeAI.",
-          "Content creators: quickly generate and edit visuals for social media and marketing."
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "dmnote",
-      "full": "DmNote-App/DmNote",
-      "rank": 13,
-      "cat": "other",
-      "lang": "TypeScript",
-      "stars": 2.8,
-      "today": "+263",
-      "today_n": 263,
-      "auto": false,
-      "zh": {
-        "tag": "可自定义的跨游戏按键可视化工具，主打 DJMAX RESPECT V",
-        "what": "DM Note 是一款实时按键可视化（key viewer）工具，最初为 DJMAX RESPECT V 打造，也能用于任意游戏。它把键盘输入实时显示在屏幕上，方便直播或录制游玩视频时展示操作。",
-        "content": "仓库包含 React + Tauri 的桌面应用源码，以及文档、截图、图标和官方插件/CSS 示例（assets.zip）。",
-        "stack": "前端用 React 19 + TypeScript + Vite 7，后端用 Tauri，样式用 Tailwind CSS 3；Windows 通过 Raw Input API 检测输入，macOS 用全局输入事件。",
-        "hot": "作为 DJMAX 玩家社区常用的按键显示工具，它支持自定义 CSS、插件和 OBS 叠加，今日新增 263 star，登上 TypeScript 日榜第 13 名。",
-        "uses": [
-          "音游玩家：在直播或录制中实时展示按键操作",
-          "内容创作者：用 OBS 叠加和自定义样式制作游玩视频",
-          "开发者：基于 React + Tauri 二次开发或编写插件/CSS 主题"
-        ]
-      },
-      "en": {
-        "tag": "A customizable key viewer for DJMAX RESPECT V and any game",
-        "what": "DM Note is a real-time key viewer originally built for DJMAX RESPECT V but usable with any game. It displays keyboard input on screen in real time, making it easy to show your play during streams or recordings.",
-        "content": "The repo contains the React + Tauri desktop app source, plus docs, screenshots, icons, and official plugin/CSS examples (assets.zip).",
-        "stack": "Frontend uses React 19 + TypeScript + Vite 7, backend uses Tauri, styling uses Tailwind CSS 3; input detection uses Raw Input API on Windows and global input events on macOS.",
-        "hot": "As a popular key viewer in the DJMAX community, it supports custom CSS, plugins, and OBS overlays, gaining 263 stars today and ranking 13th on the TypeScript daily trending list.",
-        "uses": [
-          "Rhythm game players: show key inputs live during streams or recordings",
-          "Content creators: make gameplay videos with OBS overlays and custom styles",
-          "Developers: build on React + Tauri or write plugins/CSS themes"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "plannotator",
-      "full": "backnotprop/plannotator",
+      "slug": "ui-skills",
+      "full": "ibelick/ui-skills",
       "rank": 14,
       "cat": "agent",
       "lang": "TypeScript",
-      "stars": 9.2,
-      "today": "+27",
-      "today_n": 27,
+      "stars": 9.6,
+      "today": "+50",
+      "today_n": 50,
       "auto": false,
       "zh": {
-        "tag": "为 AI 编码代理的计划与代码差异提供可视化批注与反馈",
-        "what": "Plannotator 是一个本地浏览器端的审查界面，让开发者对 AI 编码代理提出的计划、Markdown 文档、HTML 产物和代码 diff 进行可视化批注。批注完成后可一键把反馈发回代理，让代理据此继续修改。",
-        "content": "仓库包含浏览器端批注 UI、针对各代理的 hooks/命令集成、代码与 PR diff 审查模块，以及安装文档和演示视频链接。",
-        "stack": "主语言为 TypeScript，采用本地浏览器界面，通过 hooks 与命令接入 Claude Code、Codex、Copilot CLI、Gemini CLI、OpenCode、Kiro、Droid、Amp、Pi 等代理。",
-        "hot": "随着 AI 编码代理普及，如何高效审查代理产出成为痛点，该项目以 9235 star、日增 27 登上 TypeScript 日榜第 14 名。",
+        "tag": "给设计工程师准备的一套 UI 类 Agent Skills",
+        "what": "知名设计工程师 ibelick 出品的 UI 技能包集合：让 AI 编码 agent 按任务自动走对应的 UI 技能流程，跑一行 npx ui-skills start 就能把 agent 路由到合适的技能集。",
+        "content": "skills/ 目录下 6 个技能：baseline-ui、improve-ui、fixing-accessibility、fixing-metadata、fixing-motion-performance、ui-skills-root；另有 bin/（CLI 入口）和配套网站（Astro + Cloudflare Workers）。",
+        "stack": "TypeScript，CLI 走 npx 分发，MIT；2026 年 1 月创建，官网 ui-skills.com。",
+        "hot": "把设计判断封装成 AI Agent 可复用技能，这一思路对设计工程师直观易懂，也便于立刻试用。",
         "uses": [
-          "使用 Claude Code、Codex 等 AI 编码代理的开发者，需要审查代理计划与代码改动",
-          "团队协作场景，希望把代理产出的计划或 diff 分享给同事并收集批注",
-          "需要把审查意见快速回传给代理、减少复制粘贴的自动化工作流用户"
+          "前端开发者 —— 让 agent 按设计规范生成和改进 UI，告别「能跑但丑」",
+          "设计工程师 —— 把无障碍、metadata、动效性能检查自动化",
+          "独立开发者 —— 一人兼顾开发和设计时的品味兜底"
         ]
       },
       "en": {
-        "tag": "Visual annotation and review surface for AI coding agent plans and diffs",
-        "what": "Plannotator is a local, browser-based review surface where developers visually annotate AI coding agent plans, Markdown docs, HTML artifacts, and code diffs. After annotating, feedback can be sent back to the agent in one click for it to act on.",
-        "content": "The repo contains the browser-based annotation UI, hook/command integrations for each supported agent, a code and PR diff review module, plus installation docs and demo video links.",
-        "stack": "Written mainly in TypeScript, it runs a local browser UI and plugs into agents like Claude Code, Codex, Copilot CLI, Gemini CLI, OpenCode, Kiro, Droid, Amp, and Pi via hooks and commands.",
-        "hot": "As AI coding agents spread, reviewing their output efficiently has become a pain point; the project hit 9,235 stars with 27 added today, ranking 14th on the TypeScript daily trending list.",
+        "tag": "A set of UI Agent Skills for design engineers",
+        "what": "A UI skill-pack collection from well-known design engineer ibelick: routes your AI coding agent through the right UI skill workflow per task — run npx ui-skills start and the agent picks the appropriate skill set.",
+        "content": "Six skills under skills/: baseline-ui, improve-ui, fixing-accessibility, fixing-metadata, fixing-motion-performance and ui-skills-root; plus bin/ (the CLI entry) and the companion site (Astro on Cloudflare Workers).",
+        "stack": "TypeScript, CLI distributed via npx, MIT; created January 2026, site at ui-skills.com.",
+        "hot": "The idea of packaging design judgment as reusable skills for AI agents is easy for design engineers to understand and immediately test.",
         "uses": [
-          "Developers using AI coding agents like Claude Code or Codex who need to review agent plans and code changes",
-          "Team collaboration scenarios where agent plans or diffs are shared with colleagues for annotation",
-          "Users who want to send review feedback back to agents quickly and reduce copy-paste in their workflow"
+          "Frontend developers — let agents generate and improve UI to design standards, no more 'works but ugly'",
+          "Design engineers — automate accessibility, metadata and motion-performance checks",
+          "Indie hackers — a taste safety net when you cover both dev and design"
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "video.js",
-      "full": "videojs/video.js",
-      "rank": 15,
-      "cat": "infra",
-      "lang": "TypeScript",
-      "stars": 39.9,
-      "today": "+4",
-      "today_n": 4,
-      "auto": false,
-      "zh": {
-        "tag": "面向 Web 与 React 的模块化开源媒体播放器框架 v10",
-        "what": "Video.js 是一个开源的 HTML 与 React 媒体播放器框架，v10 版本主打现代化、模块化与可组合的架构。它让开发者能像搭积木一样构建和定制播放器界面与功能。",
-        "content": "仓库包含 v10 核心包（@videojs/core）、React 组件、皮肤设计、RFC 设计文档以及贡献指南等，采用 pnpm 工作区组织多包结构。",
-        "stack": "主要使用 TypeScript 编写，采用 pnpm 管理工作区与依赖，并提供 @videojs/cli 等工具链，同时支持 HTML 与 React 两种使用方式。",
-        "hot": "作为老牌播放器库，Video.js 拥有近 4 万 star 的深厚积累，v10 稳定版发布并加入 AI 编码代理支持，吸引开发者持续关注。",
-        "uses": [
-          "需要在网站或应用中嵌入可定制视频播放器的前端开发者",
-          "使用 React 构建媒体播放体验的工程团队",
-          "希望借助 AI 编码代理快速接入播放器的开发者",
-          "想参与开源播放器皮肤与组件设计的贡献者"
-        ]
-      },
-      "en": {
-        "tag": "Modular, composable open-source media player framework for Web and React (v10)",
-        "what": "Video.js is an open-source media player framework for HTML and React, with v10 emphasizing a modern, modular, and composable architecture. It lets developers build and customize player UIs and features like assembling building blocks.",
-        "content": "The repo contains the v10 core package (@videojs/core), React components, player skins, RFC design documents, and contributor guides, organized as a multi-package pnpm workspace.",
-        "stack": "Written primarily in TypeScript, managed with pnpm workspaces and dependencies, and ships tooling like @videojs/cli, supporting both HTML and React usage.",
-        "hot": "As a veteran player library, Video.js has built up nearly 40k stars, and the stable v10 release with AI coding-agent support keeps drawing developer attention.",
-        "uses": [
-          "Frontend developers embedding customizable video players in sites or apps",
-          "Engineering teams building media playback experiences with React",
-          "Developers wanting AI coding agents to scaffold player integration quickly",
-          "Contributors interested in open-source player skins and component design"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "velxio",
-      "full": "davidmonterocrespo24/velxio",
-      "rank": 16,
-      "cat": "infra",
-      "lang": "TypeScript",
-      "stars": 3.1,
-      "today": "+43",
-      "today_n": 43,
-      "auto": false,
-      "zh": {
-        "tag": "浏览器里的多板嵌入式模拟器与电路仿真平台",
-        "what": "Velxio 是一个开源的多开发板模拟器与电路仿真器，让你在浏览器中编写 Arduino C++、MicroPython、ESP-IDF 或 Python 代码，编译后直接在真实 CPU 仿真上运行。它支持 Arduino Uno、ESP32、ESP32-C3、Raspberry Pi Pico、Raspberry Pi 3 等 19 款真实开发板，无需硬件、无需云端。",
-        "content": "仓库包含前端 TypeScript 应用、多架构 CPU 仿真核心、150+ 交互式电子元件库、编译工具链集成以及 Docker 镜像与在线演示站点 velxio.dev。",
-        "stack": "主语言为 TypeScript，覆盖 AVR8、ARM Cortex-M、Xtensa LX6/LX7、RISC-V 和 ARM Cortex-A 五大 CPU 家族，提供 Docker 镜像并采用 AGPLv3 许可。",
-        "hot": "上线即获 3125 星、今日新增 43 星，登上 GitHub Trending TypeScript 日榜第 16 名；它把嵌入式开发从“必须买板子”变成“打开浏览器就能跑”，对教学和原型验证极具吸引力。",
-        "uses": [
-          "嵌入式初学者与电子爱好者，无需购买硬件即可上手 Arduino 与 ESP32 开发",
-          "高校教师与学生，用于单片机、嵌入式系统课程的在线实验与演示",
-          "硬件创客与工程师，在打样前快速验证电路逻辑与固件行为",
-          "开源社区贡献者，参与多架构 CPU 仿真与元件库的扩展"
-        ]
-      },
-      "en": {
-        "tag": "Multi-board embedded emulator and circuit simulator in your browser",
-        "what": "Velxio is an open-source multi-board emulator and circuit simulator that lets you write Arduino C++, MicroPython, ESP-IDF or Python code in the browser, compile it, and run it on real CPU emulation. It supports 19 real boards including Arduino Uno, ESP32, ESP32-C3, Raspberry Pi Pico and Raspberry Pi 3 — no hardware, no cloud required.",
-        "content": "The repo contains a TypeScript frontend, multi-architecture CPU emulation cores, a library of 150+ interactive electronic components, compiler toolchain integration, plus a Docker image and the live demo at velxio.dev.",
-        "stack": "Main language is TypeScript, covering five CPU families — AVR8, ARM Cortex-M, Xtensa LX6/LX7, RISC-V and ARM Cortex-A — with a Docker image and AGPLv3 license.",
-        "hot": "It has quickly gained 3,125 stars with 43 added today, ranking #16 on GitHub Trending (TypeScript daily). By turning embedded development from 'you must buy a board' into 'just open a browser', it's highly appealing for teaching and prototyping.",
-        "uses": [
-          "Embedded beginners and electronics hobbyists who want to start with Arduino and ESP32 without buying hardware",
-          "Teachers and students using it for online labs and demos in microcontroller and embedded systems courses",
-          "Hardware makers and engineers validating circuit logic and firmware behavior before fabrication",
-          "Open-source contributors extending multi-architecture CPU emulation and the component library"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "codex-security",
-      "full": "openai/codex-security",
-      "rank": 17,
-      "cat": "agent",
-      "lang": "TypeScript",
-      "stars": 11.0,
-      "today": "+30",
-      "today_n": 30,
-      "auto": false,
-      "zh": {
-        "tag": "OpenAI 出品的代码安全扫描 CLI 与 TypeScript SDK，自动发现并修复漏洞",
-        "what": "Codex Security 是 OpenAI 推出的命令行工具与 TypeScript SDK，用于在代码库中查找、验证并修复安全漏洞。它支持扫描仓库、指定路径或 Git 变更，深度扫描会并行运行多个发现工作器，还能生成补丁并验证已有修复。",
-        "content": "仓库包含 CLI（命令别名 cs）与 TypeScript SDK 两大部分，提供扫描、策略草稿、发现浏览、SARIF/JSON/CSV 导出及 CI 集成等命令与接口。",
-        "stack": "基于 TypeScript 开发，运行需 Node.js 22.13.0+（22.x）或 24.x/26.x，以及 Python 3.10+（Python 3.10 还需 tomli）。",
-        "hot": "背靠 OpenAI 品牌与真实安全需求，发布即获 11041 星，今日再增 30 星，登上 GitHub Trending TypeScript 日榜第 17 名。",
-        "uses": [
-          "安全工程师与 DevSecOps 团队，用于自动化漏洞扫描与修复",
-          "开发者在 CI 流程中集成安全扫描，提前拦截风险",
-          "需要生成 SECURITY.md 策略或威胁模型的安全负责人",
-          "希望用 TypeScript SDK 定制安全工具链的工程团队"
-        ]
-      },
-      "en": {
-        "tag": "OpenAI's security scanning CLI and TypeScript SDK that finds, validates, and fixes code vulnerabilities",
-        "what": "Codex Security is OpenAI's CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities in code. It scans repositories, selected paths, or Git changes, with deep scans running parallel discovery workers, and can generate patches and verify existing fixes.",
-        "content": "The repo contains a CLI (aliased as cs) and a TypeScript SDK, offering commands and APIs for scanning, policy drafting, findings browsing, SARIF/JSON/CSV export, and CI integration.",
-        "stack": "Built in TypeScript; requires Node.js 22.13.0+ within 22.x, or 24.x/26.x, plus Python 3.10+ (with tomli for Python 3.10).",
-        "hot": "Backed by the OpenAI brand and real security needs, it quickly reached 11,041 stars, adding 30 today and ranking 17th on GitHub Trending's TypeScript daily list.",
-        "uses": [
-          "Security engineers and DevSecOps teams automating vulnerability scanning and fixes",
-          "Developers integrating security scans into CI to catch risks early",
-          "Security leads drafting SECURITY.md policies or threat models",
-          "Engineering teams customizing security tooling with the TypeScript SDK"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "addyosmani-agent-skills",
-      "full": "addyosmani/agent-skills",
-      "rank": 6,
-      "cat": "agent",
-      "lang": "JavaScript",
-      "stars": 103.5,
-      "today": "+751",
-      "today_n": 751,
-      "auto": false,
-      "zh": {
-        "tag": "面向 AI 编程代理的生产级工程技能包，覆盖开发全流程",
-        "what": "这是一套为 AI 编程代理准备的生产级工程技能集合，把资深工程师的工作流、质量门禁和最佳实践编码成可复用的技能。它通过 9 个斜杠命令覆盖从需求定义到上线的完整开发生命周期，让代理在每个阶段都遵循一致规范。",
-        "content": "仓库包含 25 个技能，按 DEFINE→PLAN→BUILD→VERIFY→REVIEW→SHIP 六阶段组织，对应 /spec、/plan、/build、/test、/review、/ship 等 9 个斜杠命令，并支持按需单独安装。",
-        "stack": "以 JavaScript 为主，通过开放的 skills CLI（npx skills add）安装，兼容 Claude Code、Cursor、Codex、Copilot、Cline 等 70 多个代理。",
-        "hot": "凭借 Addy Osmani 的行业影响力与对 AI 代理工程化的精准切入，仓库已获约 10.3 万 star，今日新增 677，位列 GitHub Trending 日榜第 6。",
-        "uses": [
-          "使用 Claude Code、Cursor 等 AI 编程代理的开发者，希望代理遵循统一工程规范",
-          "团队想为 AI 辅助开发引入质量门禁与标准化工作流",
-          "个人开发者希望用 /spec、/plan、/build 等命令把开发流程结构化",
-          "对 AI 代理工程化与提示词/技能设计感兴趣的研究者"
-        ]
-      },
-      "en": {
-        "tag": "Production-grade engineering skills that guide AI coding agents through the full dev lifecycle",
-        "what": "A collection of production-grade engineering skills that encode the workflows, quality gates, and best practices senior engineers rely on, packaged so AI agents follow them consistently. Nine slash commands map to the full development lifecycle, from spec to ship.",
-        "content": "It ships 25 skills organized across six phases (DEFINE, PLAN, BUILD, VERIFY, REVIEW, SHIP) with 9 slash commands like /spec, /plan, /build, /test, /review, and /ship, installable individually or as a set.",
-        "stack": "Primarily JavaScript, installed via the open skills CLI (npx skills add) and compatible with 70+ agents including Claude Code, Cursor, Codex, Copilot, and Cline.",
-        "hot": "Backed by Addy Osmani's reputation and its timely focus on engineering discipline for AI agents, it has reached ~103k stars with 677 added today, ranking 6th on GitHub Trending.",
-        "uses": [
-          "Developers using AI coding agents like Claude Code or Cursor who want consistent engineering standards",
-          "Teams looking to add quality gates and standardized workflows to AI-assisted development",
-          "Individual developers wanting a structured flow via /spec, /plan, /build commands",
-          "Researchers interested in agent engineering and skill/prompt design"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-08-07",
+        "first": "2026-07-17",
         "is_new": false,
         "is_back": false,
         "hist": [
           {
-            "d": "2026-08-08",
-            "s": 83.9,
-            "r": 2
-          },
+            "d": "2026-07-17",
+            "s": 4.5,
+            "r": 14
+          }
+        ]
+      }
+    },
+    {
+      "slug": "claude-mem",
+      "full": "thedotmack/claude-mem",
+      "rank": 5,
+      "cat": "agent",
+      "lang": "TypeScript",
+      "stars": 99.0,
+      "today": "+728",
+      "today_n": 728,
+      "auto": false,
+      "zh": {
+        "tag": "为各类 AI 代理提供跨会话持久记忆与上下文注入",
+        "what": "claude-mem 是一个为 AI 编码代理提供持久化记忆的中间层：它会捕获代理在会话中的所有操作，用 AI 压缩成精炼记忆，并在后续会话中自动注入相关上下文。支持 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等多种代理。",
+        "content": "仓库以 TypeScript 实现，包含会话捕获、AI 压缩、记忆存储与上下文注入等模块，并提供面向多种代理的适配与配置。",
+        "stack": "主语言 TypeScript，依赖 Node.js 生态，需接入 AI 模型进行摘要压缩，并针对不同代理提供集成适配层。",
+        "hot": "今日新增 578 star、总数近 9.8 万并登上 GitHub Trending 日榜第 8，说明「让代理记住上下文」是当前 AI 编码工具链的刚需痛点。",
+        "uses": [
+          "长期使用 Claude Code 等代理、希望避免重复交代背景的开发者",
+          "需要跨会话延续项目上下文的 AI 编码工作流用户",
+          "想为自研代理接入记忆层、减少重复提示的工程团队",
+          "研究代理记忆与上下文压缩机制的技术爱好者"
+        ]
+      },
+      "en": {
+        "tag": "Persistent cross-session memory and context injection for AI agents",
+        "what": "claude-mem is a persistent memory layer for AI coding agents: it captures everything an agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. It works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode and more.",
+        "content": "Implemented in TypeScript, the repo contains modules for session capture, AI compression, memory storage, and context injection, plus adapters and configuration for multiple agents.",
+        "stack": "Primary language is TypeScript on the Node.js ecosystem; it relies on AI models for summarization and provides integration adapters for different agents.",
+        "hot": "With 578 stars added today, nearly 98k total, and a #8 spot on GitHub Trending daily, it shows that 'making agents remember context' is a pressing need in today's AI coding toolchain.",
+        "uses": [
+          "Developers using Claude Code and similar agents who want to avoid re-explaining context",
+          "Users of AI coding workflows that need project context to persist across sessions",
+          "Engineering teams adding a memory layer to custom agents to cut repeated prompting",
+          "Enthusiasts studying agent memory and context-compression mechanisms"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-08-28",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
           {
-            "d": "2026-08-09",
-            "s": 84.6,
-            "r": 2
-          },
-          {
-            "d": "2026-08-10",
-            "s": 85.1,
-            "r": 6
-          },
-          {
-            "d": "2026-08-11",
-            "s": 85.7,
-            "r": 4
-          },
-          {
-            "d": "2026-08-12",
-            "s": 86.2,
-            "r": 4
-          },
-          {
-            "d": "2026-08-30",
-            "s": 90.7,
-            "r": 18
-          },
-          {
-            "d": "2026-09-04",
-            "s": 92.0,
+            "d": "2026-08-28",
+            "s": 92.3,
             "r": 12
-          },
-          {
-            "d": "2026-09-16",
-            "s": 94.8,
-            "r": 12
-          },
-          {
-            "d": "2026-09-17",
-            "s": 95.5,
-            "r": 19
-          },
-          {
-            "d": "2026-09-18",
-            "s": 95.9,
-            "r": 3
-          },
-          {
-            "d": "2026-09-19",
-            "s": 96.4,
-            "r": 6
-          },
-          {
-            "d": "2026-09-20",
-            "s": 97.0,
-            "r": 3
-          },
-          {
-            "d": "2026-09-21",
-            "s": 97.7,
-            "r": 13
           },
           {
             "d": "2026-10-08",
-            "s": 103.0,
-            "r": 6
+            "s": 97.9,
+            "r": 8
+          },
+          {
+            "d": "2026-10-09",
+            "s": 98.6,
+            "r": 5
+          }
+        ]
+      }
+    },
+    {
+      "slug": "crawlee",
+      "full": "apify/crawlee",
+      "rank": 7,
+      "cat": "infra",
+      "lang": "TypeScript",
+      "stars": 26.1,
+      "today": "+15",
+      "today_n": 15,
+      "auto": false,
+      "zh": {
+        "tag": "Node.js 网页抓取与浏览器自动化库，构建可靠爬虫",
+        "what": "Crawlee 是一个面向 Node.js 的网页抓取与浏览器自动化库，用 JavaScript/TypeScript 编写，帮助开发者快速构建可靠的爬虫。它能抓取链接、提取数据并保存到磁盘或云端，默认可模拟人类行为以绕过现代反爬机制。",
+        "content": "仓库以 TypeScript 源码为主，包含核心包 @crawlee/core 及多个爬虫实现（Puppeteer、Playwright、Cheerio、JSDOM、HTTP），并提供 CLI 脚手架、文档网站与示例。",
+        "stack": "基于 TypeScript/Node.js（要求 Node 22.13+），依赖 Puppeteer、Playwright、Cheerio、JSDOM 等，支持无头/有头模式与代理轮换。",
+        "hot": "凭借 26089 颗星和日增 15 星登上 GitHub Trending TypeScript 日榜第 7 名，反映其在 AI/LLM 数据采集需求下的持续热度。",
+        "uses": [
+          "需要为 AI/LLM/RAG 构建数据采集管道的开发者",
+          "希望用 Node.js 快速搭建可靠爬虫的工程师",
+          "需要绕过反爬、使用代理轮换的网页抓取项目",
+          "学习网页抓取与浏览器自动化的初学者"
+        ]
+      },
+      "en": {
+        "tag": "A Node.js web scraping and browser automation library for building reliable crawlers",
+        "what": "Crawlee is a web scraping and browser automation library for Node.js, written in JavaScript and TypeScript, that helps developers build reliable crawlers fast. It crawls links, extracts data, and stores it to disk or cloud, while appearing human-like to bypass modern bot protections by default.",
+        "content": "The repo is primarily TypeScript source, containing the core package @crawlee/core plus multiple crawler implementations (Puppeteer, Playwright, Cheerio, JSDOM, HTTP), along with a CLI scaffolder, documentation site, and examples.",
+        "stack": "Built on TypeScript/Node.js (requires Node 22.13+), depending on Puppeteer, Playwright, Cheerio, JSDOM, etc., with headful/headless modes and proxy rotation.",
+        "hot": "With 26,089 stars and 15 added today, it ranks 7th on GitHub Trending (TypeScript daily), reflecting sustained demand for AI/LLM data collection.",
+        "uses": [
+          "Developers building data pipelines for AI/LLM/RAG",
+          "Engineers wanting to build reliable crawlers quickly in Node.js",
+          "Web scraping projects needing anti-bot evasion and proxy rotation",
+          "Beginners learning web scraping and browser automation"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "openui",
+      "full": "thesysdev/openui",
+      "rank": 8,
+      "cat": "ai",
+      "lang": "TypeScript",
+      "stars": 10.6,
+      "today": "+317",
+      "today_n": 317,
+      "auto": false,
+      "zh": {
+        "tag": "面向模型生成界面的开源标准与流式渲染框架",
+        "what": "OpenUI 是一套全栈、框架无关的生成式 UI 框架，核心是紧凑且流式优先的 OpenUI Lang，让模型输出直接变成结构化界面而非纯文本。它把组件库转成提示词指令，并在模型逐 token 输出时实时渲染成可交互 UI。",
+        "content": "仓库包含框架无关的核心、React/Vue/Svelte/Angular 官方运行时，React 侧还附带内置组件库（图表、表单、表格、布局）与开箱即用的聊天界面，以及 CLI 脚手架和示例应用。",
+        "stack": "以 TypeScript 编写，基于流式解析与渲染管线，提供 React/Vue/Svelte/Angular 绑定，通过 npx @openuidev/cli 快速创建项目，并依赖 OpenAI 等模型 API 密钥运行。",
+        "hot": "生成式 UI 正成为 AI 应用的关键缺口，OpenUI 以「开放标准」姿态切入，且 OpenUI Lang 比 JSON 最多省 67% token，直击流式渲染与成本痛点，今日新增 317 star、总数破万并登上 TypeScript 日榜第 8。",
+        "uses": [
+          "正在构建 AI 助手、Copilot 或对话式产品的全栈与前端工程师",
+          "希望让模型输出直接渲染为图表、表单、表格等结构化界面的团队",
+          "需要跨 React/Vue/Svelte/Angular 复用同一套生成式 UI 方案的多框架项目",
+          "关注 token 成本与流式体验、想优化模型输出格式的 AI 应用开发者"
+        ]
+      },
+      "en": {
+        "tag": "The open standard and streaming renderer for model-generated UI",
+        "what": "OpenUI is a full-stack, framework-agnostic Generative UI framework built around OpenUI Lang, a compact streaming-first language for model-generated UI. It turns your component library into prompt instructions and renders structured interfaces progressively as the model streams tokens.",
+        "content": "It ships a framework-agnostic core, first-party runtimes for React, Vue, Svelte and Angular, plus React-only built-in component libraries (charts, forms, tables, layouts) and ready-to-use chat interfaces, along with a CLI scaffolder and demo apps.",
+        "stack": "Written in TypeScript with a streaming parse-and-render pipeline, it offers React/Vue/Svelte/Angular bindings, scaffolds projects via npx @openuidev/cli, and runs against model APIs such as OpenAI using an API key.",
+        "hot": "Generative UI is a key gap in AI apps, and OpenUI positions itself as an open standard while OpenUI Lang uses up to 67% fewer tokens than JSON, addressing streaming and cost pain points; it gained 317 stars today, passed 10k total, and hit #8 on the TypeScript daily trending list.",
+        "uses": [
+          "Full-stack and frontend engineers building AI assistants, copilots or conversational products",
+          "Teams that want model output rendered directly as structured charts, forms and tables",
+          "Multi-framework projects needing one Generative UI approach across React, Vue, Svelte and Angular",
+          "AI app developers focused on token cost and streaming UX who want a leaner model output format"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "map3d",
+      "full": "cartesiancs/map3d",
+      "rank": 9,
+      "cat": "infra",
+      "lang": "TypeScript",
+      "stars": 2.6,
+      "today": "+14",
+      "today_n": 14,
+      "auto": false,
+      "zh": {
+        "tag": "用R3F生成真实世界3D城市地图，支持建筑与道路",
+        "what": "map3d 是一个基于 React-Three-Fiber 的 3D 建筑地图服务，能够根据 OpenStreetMap 数据生成真实世界的 3D 城市地图，包含建筑和道路信息。它支持导出 GLB 文件，所有功能均可免费使用，并可用于数字孪生、无人机测绘和 GPS 标记等场景。",
+        "content": "仓库包含完整的 TypeScript 源代码，主要实现 3D 建筑和道路的生成与渲染，并提供在线演示和截图。项目还包含路线图，未来计划添加建筑纹理、高度自定义、材质和高度图等功能。",
+        "stack": "技术栈以 TypeScript 为主，核心依赖 React-Three-Fiber 进行 3D 渲染，地图数据来源于 OpenStreetMap。项目采用 MIT 许可证，可自由使用和修改。",
+        "hot": "该项目在 GitHub 上已获得 2574 颗星，今日新增 14 星，登上 TypeScript 日榜第 9 名。其热度源于它提供了一种免费、易用的方式将真实城市转化为 3D 地图，并支持 GLB 导出，满足了数字孪生和 3D 可视化领域的需求。",
+        "uses": [
+          "3D 开发者与前端工程师 —— 快速构建交互式 3D 城市地图应用",
+          "数字孪生与智慧城市从业者 —— 用于城市建模和可视化分析",
+          "无人机测绘与地理信息人员 —— 生成基础 3D 场景用于规划",
+          "教育与研究机构 —— 学习 React-Three-Fiber 和 3D 地图生成"
+        ]
+      },
+      "en": {
+        "tag": "Generate real-world 3D city maps with R3F, including buildings and roads",
+        "what": "map3d is a 3D building mapping service built with React-Three-Fiber that generates real-world 3D city maps from OpenStreetMap data, including building and road information. It supports exporting as GLB files, is free to use, and can be applied to digital twins, drone surveying, and GPS markers.",
+        "content": "The repository contains full TypeScript source code for generating and rendering 3D buildings and roads, along with an online demo and screenshots. It also includes a roadmap for future features like building textures, height customization, materials, and heightmaps.",
+        "stack": "The tech stack is primarily TypeScript, with core dependency on React-Three-Fiber for 3D rendering, and map data sourced from OpenStreetMap. It is MIT licensed, allowing free use and modification.",
+        "hot": "The project has gained 2,574 stars on GitHub, with 14 new stars today, ranking 9th on the TypeScript daily trending list. Its popularity stems from providing a free and easy way to turn real cities into 3D maps with GLB export, catering to needs in digital twins and 3D visualization.",
+        "uses": [
+          "3D developers and frontend engineers — quickly build interactive 3D city map applications",
+          "Digital twin and smart city professionals — for urban modeling and visual analysis",
+          "Drone surveying and GIS personnel — generate base 3D scenes for planning",
+          "Educational and research institutions — learn React-Three-Fiber and 3D map generation"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "cindy",
+      "full": "makecindy/cindy",
+      "rank": 10,
+      "cat": "agent",
+      "lang": "TypeScript",
+      "stars": 3.0,
+      "today": "+21",
+      "today_n": 21,
+      "auto": false,
+      "zh": {
+        "tag": "开源开箱即用的本地 AI Agent 客户端",
+        "what": "Cindy 是一个开源、开箱即用的 AI Agent，把多种 harness（如 Claude Code、Codex）、模型和工具整合进同一个代理，在你本机的真实文件和已登录应用中完成实际工作。它本地运行，支持浏览器、电脑和手机操作，也能从 IM 和定时任务接收工作。",
+        "content": "仓库是 Cindy 的开源客户端，包含桌面端与移动端应用及其共享包，以 pnpm monorepo 组织，并附有 Linux 安装指南等文档。",
+        "stack": "基于 TypeScript，使用 Node.js 22.x 与 pnpm 10 的 monorepo，采用 Apache-2.0 许可证，并配有 CI 工作流。",
+        "hot": "作为开箱即用、可自由组合 harness 与模型的开源 AI Agent 客户端，它契合了本地化与可定制代理的热点，已获约 2971 颗星，今日新增 21 颗，位列 GitHub Trending TypeScript 日榜第 10 名。",
+        "uses": [
+          "希望在本机用真实文件和已登录应用完成任务的开发者",
+          "已订阅 Claude Code 或 Codex 并想统一调度多种模型的用户",
+          "需要可定制记忆、技能、自动化与 MCP 集成的团队",
+          "关注开源、本地优先 AI Agent 客户端的技术爱好者"
+        ]
+      },
+      "en": {
+        "tag": "Open-source, out-of-the-box local AI agent client",
+        "what": "Cindy is an open-source, out-of-the-box AI agent that unifies multiple harnesses (such as Claude Code and Codex), models and tools into one agent that does real work in your local files and logged-in apps. It runs locally on your machine and can drive your browser, computer and phone, as well as take work from IM and schedules.",
+        "content": "The repo is Cindy's open-source client: desktop and mobile apps plus their shared packages, organized as a pnpm monorepo, with docs such as a Linux installation guide.",
+        "stack": "Built with TypeScript on Node.js 22.x and pnpm 10 as a monorepo, licensed under Apache-2.0, with a CI workflow.",
+        "hot": "As an out-of-the-box open-source AI agent client that freely mixes harnesses and models, it rides the local and customizable agent wave, with about 2,971 stars, +21 today, ranking #10 on GitHub Trending (TypeScript) daily.",
+        "uses": [
+          "Developers who want real work done on local files and logged-in apps",
+          "Users with Claude Code or Codex plans wanting to orchestrate multiple models",
+          "Teams needing customizable memory, skills, automation and MCP integration",
+          "Enthusiasts interested in open-source, local-first AI agent clients"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "cloddsbot",
+      "full": "alsk1992/CloddsBot",
+      "rank": 11,
+      "cat": "agent",
+      "lang": "TypeScript",
+      "stars": 2.9,
+      "today": "+29",
+      "today_n": 29,
+      "auto": false,
+      "zh": {
+        "tag": "跨千余市场的自主 AI 交易代理，自托管运行",
+        "what": "CloddsBot 是一个开源的个人 AI 交易终端，由 Claude 驱动，可自主在预测市场、加密现货、永续合约、代币发行和 Bittensor 子网挖矿之间扫描套利机会并即时执行交易。它支持自然语言对话操作，同时内置风险管理，让你睡觉时也能持续运行。",
+        "content": "仓库包含完整的 TypeScript 交易代理实现，涵盖 118+ 交易策略、鲸鱼追踪、套利检测、跟单交易和 DCA 机器人，并集成 21 个消息平台、10 个预测市场与 7 个期货交易所。还附带 WebChat 界面、文档、代币发行与代理论坛等模块。",
+        "stack": "基于 TypeScript 5.3 和 Node.js 22+ 构建，使用 Claude 作为 AI 核心，集成 Solana（Jupiter、Pump.fun、Raydium、Orca、Bags.fm）与多条 EVM 链（Uniswap V3、1inch、Virtuals Protocol 等），采用 MIT 许可证。",
+        "hot": "上线 12 天即获 2946 stars，14 天内被克隆 10.7k 次，今日新增 29 stars，登上 GitHub Trending TypeScript 日榜第 11 名。作为 Colosseum Agent Hackathon 参赛项目，它切中了 AI 自主交易与代理支付的热门叙事。",
+        "uses": [
+          "量化交易者与加密投资者，希望用 AI 代理自动扫描跨市场套利机会",
+          "开发者想研究或二次开发基于 Claude 的自主交易代理与代理支付协议",
+          "预测市场玩家，需要在 Polymarket、Kalshi 等平台间快速执行策略",
+          "自托管爱好者，重视数据隐私并希望在自己的机器上运行交易终端"
+        ]
+      },
+      "en": {
+        "tag": "Self-hosted autonomous AI trading agent across 1000+ markets",
+        "what": "CloddsBot is an open-source personal AI trading terminal powered by Claude that autonomously scans for edge and executes trades across prediction markets, crypto spot, perpetual futures, token launches, and Bittensor subnet mining. It runs via natural conversation and includes built-in risk management so it can operate while you sleep.",
+        "content": "The repo contains a full TypeScript trading agent implementation with 118+ strategies, whale tracking, arbitrage detection, copy trading, and DCA bots, integrated with 21 messaging platforms, 10 prediction markets, and 7 futures exchanges. It also ships a WebChat UI, docs, token launch, and agent forum modules.",
+        "stack": "Built on TypeScript 5.3 and Node.js 22+, using Claude as the AI core, integrating Solana (Jupiter, Pump.fun, Raydium, Orca, Bags.fm) and multiple EVM chains (Uniswap V3, 1inch, Virtuals Protocol, etc.), under MIT license.",
+        "hot": "It gained 2,946 stars in 12 days with 10.7k clones in 14 days, adding 29 stars today and ranking #11 on GitHub Trending (TypeScript). As a Colosseum Agent Hackathon project, it taps into the hot narratives of autonomous AI trading and agent payments.",
+        "uses": [
+          "Quant traders and crypto investors wanting an AI agent to auto-scan cross-market arbitrage opportunities",
+          "Developers looking to study or extend a Claude-based autonomous trading agent and agent payment protocol",
+          "Prediction market players needing fast strategy execution across Polymarket, Kalshi, and more",
+          "Self-hosting enthusiasts who value data privacy and want to run a trading terminal on their own machine"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-09-11",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-09-11",
+            "s": 1.6,
+            "r": 4
+          },
+          {
+            "d": "2026-09-12",
+            "s": 2.2,
+            "r": 7
+          },
+          {
+            "d": "2026-09-13",
+            "s": 2.5,
+            "r": 8
           }
         ]
       }
@@ -4497,9 +4263,9 @@ window.TRENDING_DATA = {
       "rank": 13,
       "cat": "other",
       "lang": "JavaScript",
-      "stars": 8.1,
-      "today": "+1.2k",
-      "today_n": 1214,
+      "stars": 8.7,
+      "today": "+677",
+      "today_n": 677,
       "auto": false,
       "zh": {
         "tag": "自托管健身与体重追踪器，数据完全自主",
@@ -4542,71 +4308,177 @@ window.TRENDING_DATA = {
       }
     },
     {
-      "slug": "claude-plugins-community",
-      "full": "anthropics/claude-plugins-community",
-      "rank": 5,
-      "cat": "agent",
+      "slug": "open-generative-ai",
+      "full": "Anil-matcha/Open-Generative-AI",
+      "rank": 3,
+      "cat": "ai",
       "lang": "JavaScript",
-      "stars": 4.6,
-      "today": "+30",
-      "today_n": 30,
+      "stars": 29.9,
+      "today": "+59",
+      "today_n": 59,
       "auto": false,
       "zh": {
-        "tag": "Claude Cowork 与 Claude Code 的社区插件市场只读镜像",
-        "what": "这是 Anthropic 官方维护的社区插件市场镜像仓库，收录经安全扫描与审核通过的第三方插件清单。用户可通过 Claude Cowork 网页或 Claude Code 命令行安装这些插件，扩展 Claude 的能力。",
-        "content": "仓库主体是 .claude-plugin/marketplace.json 插件清单文件，每晚从 Anthropic 内部审核流水线同步，不接受直接 PR。",
-        "stack": "以 JavaScript 为主，核心是 JSON 格式的插件市场清单，配合 Claude Code 的 plugin marketplace 命令使用。",
-        "hot": "背靠 Anthropic 官方生态，上线不久即收获 4568 stars、日增 37，登上 GitHub Trending JavaScript 日榜第 5，反映开发者对 Claude 插件生态的高度关注。",
+        "tag": "无内容过滤的开源 AI 图像视频生成工作室，聚合 600+ 模型",
+        "what": "这是一个自托管、MIT 许可的开源 AI 图像与视频生成工作室，定位为商业 AI 视频平台的无限制替代品。它通过 MuAPI 接入 Flux、Midjourney、Kling、Sora、Veo 等 600+ 模型，分布在 14 个创作工作室中，且不做内容过滤。",
+        "content": "仓库主体是一个 JavaScript 前端应用，按 Image、Video、Audio、Lip Sync、Cinema、Workflows 等 14 个工作室组织功能入口，并附带 Discord 社区与演示视频链接。",
+        "stack": "以 JavaScript 为主，前端调用 MuAPI 提供的模型推理与队列服务；模型托管、计费和任务调度由 MuAPI 云端承担，本地无需自建 GPU 推理。",
+        "hot": "近 3 万 star 且今日仍新增 59，登上 GitHub Trending JavaScript 日榜第 3，靠“无过滤 + 600 模型 + 自托管 + 可白标转售”的组合切中 AI 生成内容的开放需求。",
         "uses": [
-          "Claude Code 用户：想通过命令行快速安装社区插件扩展编码能力",
-          "Claude Cowork 用户：希望在网页端为工作流添加第三方插件",
-          "插件开发者：想了解官方收录标准与已上架插件生态现状"
+          "想自建无内容过滤 AI 图像/视频生成站的开发者与创作者",
+          "希望把 AI 工作室白标化、按自有品牌向客户收费的创业者",
+          "需要在一个界面里对比调用 Flux、Kling、Sora 等多模型的 AI 内容团队",
+          "关注开源生成式 AI 应用生态、想快速搭建原型的工程师"
         ]
       },
       "en": {
-        "tag": "Read-only mirror of the community plugin marketplace for Claude Cowork and Claude Code",
-        "what": "This is Anthropic's official read-only mirror of the community plugin marketplace, listing third-party plugins that passed automated security scanning and review. Users can install these plugins via Claude Cowork on the web or the Claude Code CLI to extend Claude's capabilities.",
-        "content": "The repo centers on the .claude-plugin/marketplace.json plugin manifest, synced nightly from Anthropic's internal review pipeline; direct PRs are not accepted.",
-        "stack": "Primarily JavaScript, built around a JSON plugin marketplace manifest consumed by Claude Code's plugin marketplace commands.",
-        "hot": "Backed by Anthropic's official ecosystem, it quickly reached 4,568 stars with 37 added today, ranking #5 on GitHub Trending (JavaScript daily), reflecting strong developer interest in the Claude plugin ecosystem.",
+        "tag": "Unrestricted open-source AI image & video generation studio with 600+ models",
+        "what": "A self-hosted, MIT-licensed open-source studio for AI image and video generation, positioned as an unrestricted alternative to commercial AI video platforms. It taps MuAPI to expose 600+ models such as Flux, Midjourney, Kling, Sora and Veo across 14 studios, with no content filters.",
+        "content": "The repo is mainly a JavaScript front-end app organized into 14 studios covering Image, Video, Audio, Lip Sync, Cinema and Workflows, plus links to a Discord community and demo videos.",
+        "stack": "Primarily JavaScript, with the front end calling MuAPI for model inference and queuing; model hosting, billing and job scheduling are handled by MuAPI's cloud, so no local GPU inference is required.",
+        "hot": "With nearly 30k stars and 59 added today, it ranks 3rd on GitHub Trending's JavaScript daily list, riding the demand for open, uncensored AI generation via its 'no filters + 600 models + self-hosted + white-label resale' mix.",
         "uses": [
-          "Claude Code users who want to install community plugins via CLI to extend coding workflows",
-          "Claude Cowork users looking to add third-party plugins to their web workflows",
-          "Plugin developers wanting to understand official listing standards and the current ecosystem"
+          "Developers and creators wanting a self-hosted, uncensored AI image/video studio",
+          "Entrepreneurs looking to white-label an AI studio and charge customers under their own brand",
+          "AI content teams needing one interface to compare and call Flux, Kling, Sora and other models",
+          "Engineers exploring the open generative-AI app ecosystem who want a fast prototype base"
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-08-23",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
-        "hist": [
-          {
-            "d": "2026-08-23",
-            "s": 0.7,
-            "r": 15
-          },
-          {
-            "d": "2026-08-24",
-            "s": 0.9,
-            "r": 15
-          },
-          {
-            "d": "2026-08-25",
-            "s": 1.4,
-            "r": 7
-          },
-          {
-            "d": "2026-08-26",
-            "s": 1.7,
-            "r": 2
-          },
-          {
-            "d": "2026-08-27",
-            "s": 2.2,
-            "r": 11
-          }
+        "hist": []
+      }
+    },
+    {
+      "slug": "ai-guide",
+      "full": "liyupi/ai-guide",
+      "rank": 4,
+      "cat": "other",
+      "lang": "JavaScript",
+      "stars": 20.9,
+      "today": "+48",
+      "today_n": 48,
+      "auto": false,
+      "zh": {
+        "tag": "程序员鱼皮的免费 AI 知识库与 Vibe Coding 零基础教程",
+        "what": "这是一个完全免费开放的 AI 知识共享平台，汇总热门 AI 工具的产品介绍、使用指南、测评与变现玩法。同时提供《Vibe Coding 零基础入门教程》，帮助零基础用户用 AI 开发并上线自己的产品。",
+        "content": "仓库以开源文档形式组织，包含基础必读、编程工具、项目实战、经验技巧、产品变现、编程学习、资源宝库等模块，并配有上千张图与几十万字教程，已升级为鱼皮 AI 导航网站。",
+        "stack": "主语言为 JavaScript，内容以 Markdown 文档为主，配套在线网站 ai.codefather.cn 与 B 站视频教程，依赖较少，侧重知识整理与导航。",
+        "hot": "凭借鱼皮的个人影响力与免费高质量内容，已获 20916 颗星，今日新增 48 星，位列 GitHub Trending 日榜 JavaScript 第 4 名。",
+        "uses": [
+          "零基础想学 AI 编程并做出产品的初学者",
+          "希望快速了解 AI 工具与变现玩法的开发者",
+          "需要系统 AI 学习路线与资源大全的学生",
+          "想用 Vibe Coding 提升效率的产品与运营人员"
         ]
+      },
+      "en": {
+        "tag": "A free AI knowledge base and zero-to-one Vibe Coding tutorial by Yupi",
+        "what": "It is a completely free and open AI knowledge-sharing platform that aggregates product intros, usage guides, reviews, and monetization tips for popular AI tools. It also offers a zero-to-one Vibe Coding tutorial to help beginners build and launch their own products with AI.",
+        "content": "The repo is organized as open-source documentation with modules on fundamentals, coding tools, hands-on projects, tips, monetization, learning paths, and resource collections. It includes hundreds of images and hundreds of thousands of words, and has been upgraded into Yupi's AI navigation website.",
+        "stack": "The main language is JavaScript, with content primarily in Markdown docs, paired with the online site ai.codefather.cn and Bilibili video tutorials. It has few dependencies and focuses on knowledge curation and navigation.",
+        "hot": "Thanks to Yupi's personal influence and high-quality free content, it has gained 20,916 stars, with 48 added today, ranking 4th on GitHub Trending's daily JavaScript list.",
+        "uses": [
+          "Beginners with no coding background who want to learn AI programming and build products",
+          "Developers looking to quickly understand AI tools and monetization methods",
+          "Students needing a systematic AI learning path and resource collection",
+          "Product and operations people wanting to boost efficiency with Vibe Coding"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "blur-my-shell",
+      "full": "aunetx/blur-my-shell",
+      "rank": 16,
+      "cat": "other",
+      "lang": "JavaScript",
+      "stars": 2.3,
+      "today": "+12",
+      "today_n": 12,
+      "auto": false,
+      "zh": {
+        "tag": "为 GNOME Shell 顶栏、Dash 与概览添加毛玻璃模糊效果的扩展",
+        "what": "这是一个 GNOME Shell 扩展，为顶栏、Dash、概览、弹窗等界面组件添加模糊（毛玻璃）视觉效果。用户可分别配置静态或动态模糊，并调整背景颜色与透明度，让桌面更美观统一。",
+        "content": "仓库以 JavaScript 编写的 GNOME Shell 扩展为主，包含扩展入口、各组件模糊实现、设置面板与模糊管线（pipeline）代码，并配有 Weblate 多语言翻译文件。",
+        "stack": "主要使用 JavaScript（GJS）与 GNOME Shell 扩展 API，依赖 Clutter/St 等 GNOME 图形组件，通过 GSettings 存储配置，并使用 Weblate 进行多语言翻译。",
+        "hot": "作为 GNOME 桌面美化类扩展，它已积累 2265 颗星，今日新增 14 星并登上 GitHub 日榜 JavaScript 第 16 名，说明桌面个性化需求持续旺盛。",
+        "uses": [
+          "GNOME 桌面用户：想让顶栏、Dash 和概览拥有毛玻璃模糊效果",
+          "桌面美化爱好者：追求统一、精致的 Linux 桌面视觉风格",
+          "使用 Dash to Panel、Dash to Dock 等扩展的用户：需要兼容的模糊方案",
+          "开发者/主题作者：想了解 GNOME Shell 模糊管线的实现方式"
+        ]
+      },
+      "en": {
+        "tag": "A GNOME Shell extension that adds blur effects to the top panel, dash and overview",
+        "what": "This is a GNOME Shell extension that adds a blur (frosted-glass) look to shell components such as the top panel, dash, overview, popups and more. Users can configure static or dynamic blur per component and tweak background colors and transparency for a more cohesive desktop look.",
+        "content": "The repo is a JavaScript-based GNOME Shell extension containing the extension entry point, per-component blur implementations, a preferences panel and blur pipeline code, plus Weblate translation files.",
+        "stack": "Built mainly with JavaScript (GJS) and the GNOME Shell extension API, relying on GNOME's Clutter/St graphics stack, GSettings for configuration and Weblate for translations.",
+        "hot": "As a GNOME desktop-customization extension, it has gathered 2,265 stars with 14 added today, ranking 16th on GitHub's daily JavaScript trending list, showing steady demand for desktop personalization.",
+        "uses": [
+          "GNOME desktop users who want a frosted-glass blur on the top panel, dash and overview",
+          "Desktop-customization enthusiasts seeking a polished, cohesive Linux desktop look",
+          "Users of Dash to Panel, Dash to Dock and similar extensions needing compatible blur",
+          "Developers and theme authors curious about GNOME Shell blur pipeline implementation"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "dashi-taskboard",
+      "full": "chuspeeism/dashi-taskboard",
+      "rank": 6,
+      "cat": "agent",
+      "lang": "JavaScript",
+      "stars": 3.3,
+      "today": "+8",
+      "today_n": 8,
+      "auto": false,
+      "zh": {
+        "tag": "可嵌入 Codex 的本地优先任务面板，自带 CLI 与 Skill",
+        "what": "这是一个本地优先的看板式任务管理工具，运行在浏览器中，并可通过独立 CDP 启动器或注入脚本嵌入 Codex 界面。同一套 HTTP API 同时驱动 React 前端和供 Codex Skill 使用的 taskctl CLI。",
+        "content": "仓库包含 React 前端、本地 HTTP 服务与 SQLite 存储、taskctl 命令行工具，以及 skills/manage-taskboard 这个 Codex Skill 目录，另有 Tauri 桌面打包配置。",
+        "stack": "基于 Node.js 22.5+ 与 JavaScript，前端用 React + Vite，数据存于 SQLite，桌面端使用 Tauri（Rust 1.88+），并依赖 Codex 的 CDP 调试端口做注入。",
+        "hot": "它切中了让 AI 编码代理自主管理任务流的痛点，把看板直接嵌进 Codex，3313 颗星并登上 GitHub 日榜 JavaScript 第 6 名。",
+        "uses": [
+          "使用 Codex 等 AI 编码代理、希望让代理自动流转任务的开发者",
+          "需要本地优先、可自托管任务看板的个人或小团队",
+          "想通过 CLI 或 Skill 把任务管理接入自动化工作流的工程师"
+        ]
+      },
+      "en": {
+        "tag": "A local-first task board embeddable into Codex, with CLI and Skill",
+        "what": "A local-first kanban-style task board that runs in the browser and can be embedded into Codex via a standalone CDP launcher or injection script. The same HTTP API powers both the React UI and the taskctl CLI used by the bundled Codex Skill.",
+        "content": "It contains a React frontend, a local HTTP service with SQLite storage, the taskctl CLI, and a skills/manage-taskboard Codex Skill directory, plus Tauri desktop packaging config.",
+        "stack": "Built on Node.js 22.5+ and JavaScript, with a React + Vite frontend, SQLite storage, Tauri (Rust 1.88+) for desktop builds, and Codex's CDP debugging port for injection.",
+        "hot": "It hits the pain point of letting AI coding agents manage their own task flow by embedding a board directly into Codex, reaching 3,313 stars and #6 on GitHub's daily JavaScript trending list.",
+        "uses": [
+          "Developers using Codex or similar AI coding agents who want agents to move tasks automatically",
+          "Individuals or small teams needing a local-first, self-hostable task board",
+          "Engineers who want to wire task management into automated workflows via CLI or Skill"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
       }
     },
     {
@@ -4615,9 +4487,9 @@ window.TRENDING_DATA = {
       "rank": 11,
       "cat": "agent",
       "lang": "JavaScript",
-      "stars": 26.7,
-      "today": "+708",
-      "today_n": 708,
+      "stars": 26.9,
+      "today": "+371",
+      "today_n": 371,
       "auto": false,
       "zh": {
         "tag": "将编码代理转变为多阶段安全审计员的技能",
@@ -4685,366 +4557,14 @@ window.TRENDING_DATA = {
       }
     },
     {
-      "slug": "blur-my-shell",
-      "full": "aunetx/blur-my-shell",
-      "rank": 16,
-      "cat": "other",
-      "lang": "JavaScript",
-      "stars": 2.3,
-      "today": "+22",
-      "today_n": 22,
-      "auto": false,
-      "zh": {
-        "tag": "为 GNOME Shell 顶栏、Dash 与概览添加毛玻璃模糊效果的扩展",
-        "what": "这是一个 GNOME Shell 扩展，为顶栏、Dash、概览、弹窗等界面组件添加模糊（毛玻璃）视觉效果。用户可分别配置静态或动态模糊，并调整背景颜色与透明度，让桌面更美观统一。",
-        "content": "仓库以 JavaScript 编写的 GNOME Shell 扩展为主，包含扩展入口、各组件模糊实现、设置面板与模糊管线（pipeline）代码，并配有 Weblate 多语言翻译文件。",
-        "stack": "主要使用 JavaScript（GJS）与 GNOME Shell 扩展 API，依赖 Clutter/St 等 GNOME 图形组件，通过 GSettings 存储配置，并使用 Weblate 进行多语言翻译。",
-        "hot": "作为 GNOME 桌面美化类扩展，它已积累 2265 颗星，今日新增 14 星并登上 GitHub 日榜 JavaScript 第 16 名，说明桌面个性化需求持续旺盛。",
-        "uses": [
-          "GNOME 桌面用户：想让顶栏、Dash 和概览拥有毛玻璃模糊效果",
-          "桌面美化爱好者：追求统一、精致的 Linux 桌面视觉风格",
-          "使用 Dash to Panel、Dash to Dock 等扩展的用户：需要兼容的模糊方案",
-          "开发者/主题作者：想了解 GNOME Shell 模糊管线的实现方式"
-        ]
-      },
-      "en": {
-        "tag": "A GNOME Shell extension that adds blur effects to the top panel, dash and overview",
-        "what": "This is a GNOME Shell extension that adds a blur (frosted-glass) look to shell components such as the top panel, dash, overview, popups and more. Users can configure static or dynamic blur per component and tweak background colors and transparency for a more cohesive desktop look.",
-        "content": "The repo is a JavaScript-based GNOME Shell extension containing the extension entry point, per-component blur implementations, a preferences panel and blur pipeline code, plus Weblate translation files.",
-        "stack": "Built mainly with JavaScript (GJS) and the GNOME Shell extension API, relying on GNOME's Clutter/St graphics stack, GSettings for configuration and Weblate for translations.",
-        "hot": "As a GNOME desktop-customization extension, it has gathered 2,265 stars with 14 added today, ranking 16th on GitHub's daily JavaScript trending list, showing steady demand for desktop personalization.",
-        "uses": [
-          "GNOME desktop users who want a frosted-glass blur on the top panel, dash and overview",
-          "Desktop-customization enthusiasts seeking a polished, cohesive Linux desktop look",
-          "Users of Dash to Panel, Dash to Dock and similar extensions needing compatible blur",
-          "Developers and theme authors curious about GNOME Shell blur pipeline implementation"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "tabler-icons",
-      "full": "tabler/tabler-icons",
-      "rank": 12,
-      "cat": "other",
-      "lang": "JavaScript",
-      "stars": 22.1,
-      "today": "+69",
-      "today_n": 69,
-      "auto": false,
-      "zh": {
-        "tag": "6200+ 枚 MIT 免费高质量 SVG 图标库",
-        "what": "Tabler Icons 提供超过 6200 枚免费、MIT 许可的高质量 SVG 图标，供网页项目直接使用。每枚图标都基于 24x24 网格、2px 描边设计，风格统一，包含描边与填充两种版本。",
-        "content": "仓库以原始 SVG 文件为核心，同时按格式和框架拆分为多个官方 npm 包（如 @tabler/icons 等），并附带图标元数据与完整文档。",
-        "stack": "主语言为 JavaScript，图标以 SVG 形式分发，通过 npm 发布多个包，覆盖不同框架与格式，依赖轻量。",
-        "hot": "已获 22058 颗星，本周新增 183 颗，登上 GitHub Trending 周榜 JavaScript 第 12 名，凭借超大图标量和免费 MIT 许可持续吸引前端开发者。",
-        "uses": [
-          "前端开发者与 UI 设计师，需要统一风格的免费图标资源",
-          "个人或商业网页项目，希望以 MIT 许可直接嵌入 SVG 图标",
-          "使用 React、Vue 等框架并需要现成图标包的团队",
-          "追求 24x24 网格与 2px 描边一致性的产品界面"
-        ]
-      },
-      "en": {
-        "tag": "A free MIT-licensed library of 6,200+ high-quality SVG icons",
-        "what": "Tabler Icons offers over 6,200 free, MIT-licensed, high-quality SVG icons for web projects. Each icon is designed on a 24x24 grid with a 2px stroke, available in both outline and filled versions.",
-        "content": "The repo centers on raw SVG files and ships official npm packages split by format and framework (such as @tabler/icons), along with icon metadata and full documentation.",
-        "stack": "Primarily JavaScript, icons are distributed as SVG and published to npm as multiple packages covering different frameworks and formats, with light dependencies.",
-        "hot": "With 22,058 stars and 183 added this week, it ranks 12th on the GitHub Trending weekly JavaScript chart, drawing frontend developers with its huge icon count and free MIT license.",
-        "uses": [
-          "Frontend developers and UI designers needing a consistent set of free icons",
-          "Personal or commercial web projects wanting MIT-licensed SVG icons to embed directly",
-          "Teams using React, Vue, or similar frameworks that need ready-made icon packages",
-          "Product interfaces that require consistent 24x24 grid and 2px stroke styling"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "taste-skill",
-      "full": "Leonxlnx/taste-skill",
-      "rank": 16,
-      "cat": "agent",
-      "lang": "JavaScript",
-      "stars": 93.9,
-      "today": "+338",
-      "today_n": 338,
-      "auto": false,
-      "zh": {
-        "tag": "给 AI 代理装上审美，专治前端生成千篇一律的\"AI 味\"",
-        "what": "Taste-Skill 是一套面向 AI 代理的前端\"反平庸\"技能包，目标是阻止 AI 生成无聊、通用、模板化的界面代码。它把设计品味与审美规则注入代理工作流，让生成的前端更接近专业设计师水准。",
-        "content": "仓库以技能/提示规则集与配套资源为主，包含 README 横幅、赞助商素材、官网 tasteskill.dev 链接以及面向代理的技能定义文件。",
-        "stack": "主语言为 JavaScript，形态是面向 AI 代理的技能/提示工程包，可接入各类编码代理与前端生成流程，无重型运行时依赖。",
-        "hot": "近 9.2 万 star、日增 323 并登上 GitHub Trending JavaScript 日榜第 16，说明\"AI 生成界面太丑太像\"是开发者普遍痛点，且项目有 Kimi、Fluxion AI 等赞助背书。",
-        "uses": [
-          "用 Cursor、Claude Code 等代理写前端的开发者，想让产出摆脱模板感",
-          "独立开发者与小型团队，缺乏专职设计师但需要体面的界面",
-          "设计工程师与前端团队，希望把审美规范固化成可复用的代理技能",
-          "做 AI 产品 Demo 或落地页、追求视觉质感的创业者"
-        ]
-      },
-      "en": {
-        "tag": "Gives AI agents good taste, stopping generic AI-slop frontends",
-        "what": "Taste-Skill is an anti-slop frontend skill set for AI agents that stops them from generating boring, generic, template-like UI code. It injects design taste and aesthetic rules into agent workflows so output looks closer to professional design work.",
-        "content": "The repo mainly holds skill/prompt rule sets plus supporting assets: README banners, sponsor images, a link to tasteskill.dev, and agent-facing skill definition files.",
-        "stack": "Primary language is JavaScript; it ships as an agent skill/prompt-engineering package that plugs into coding agents and frontend generation flows, with no heavy runtime dependencies.",
-        "hot": "With ~91.5K stars, +323 today, and #16 on GitHub Trending (JavaScript), it hits a widespread pain point—AI-generated UIs looking generic—and is backed by sponsors like Kimi and Fluxion AI.",
-        "uses": [
-          "Developers using agents like Cursor or Claude Code who want frontend output free of template vibes",
-          "Indie devs and small teams without a dedicated designer but needing presentable UI",
-          "Design engineers and frontend teams wanting to codify aesthetic rules into reusable agent skills",
-          "Founders building AI demos or landing pages who care about visual polish"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "sigma-web-dev-course",
-      "full": "CodeWithHarry/Sigma-Web-Dev-Course",
-      "rank": 8,
-      "cat": "other",
-      "lang": "JavaScript",
-      "stars": 12.0,
-      "today": "+4",
-      "today_n": 4,
-      "auto": false,
-      "zh": {
-        "tag": "印地语全栈Web开发课程源码，从入门到进阶",
-        "what": "这是一个印地语Web开发课程的配套源代码仓库，涵盖HTML、CSS、JavaScript基础以及前后端开发和数据库集成。课程通过YouTube播放列表发布，旨在帮助印地语学习者从零基础成长为专业开发者。",
-        "content": "仓库包含课程各章节的源代码，按主题组织，并随着课程进度几乎每天更新。主要形式是独立的代码文件和项目示例，方便学习者跟随视频实践。",
-        "stack": "以JavaScript为核心，涉及HTML、CSS及后端技术（如Node.js）和数据库。具体依赖因章节而异，但整体围绕现代Web开发技术栈。",
-        "hot": "该仓库拥有近1.2万星标，今日新增4星，位列GitHub Trending日榜JavaScript类别第8名。其热度源于印地语学习者对母语Web开发教程的强烈需求，以及课程内容的系统性和持续更新。",
-        "uses": [
-          "印地语初学者，希望从零开始学习Web开发",
-          "中级开发者，想通过印地语课程巩固和提升技能",
-          "偏好印地语学习的技术爱好者",
-          "需要跟随视频教程进行实战练习的学员"
-        ]
-      },
-      "en": {
-        "tag": "Hindi full-stack web development course source code, from beginner to pro",
-        "what": "This is the source code repository for a Hindi web development course, covering HTML, CSS, JavaScript fundamentals, front-end and back-end development, and database integration. The course is delivered via a YouTube playlist, aiming to help Hindi speakers go from beginner to professional developer.",
-        "content": "The repository contains source code for each course section, organized by topic and updated almost daily as the course progresses. It mainly consists of standalone code files and project examples for learners to follow along with the videos.",
-        "stack": "Centered on JavaScript, involving HTML, CSS, back-end technologies (e.g., Node.js), and databases. Specific dependencies vary by section, but overall it revolves around a modern web development stack.",
-        "hot": "With nearly 12k stars and 4 new stars today, it ranks 8th on GitHub Trending's daily JavaScript list. Its popularity stems from the strong demand for native-language web development tutorials among Hindi speakers, as well as the course's systematic and continuously updated content.",
-        "uses": [
-          "Hindi-speaking beginners who want to learn web development from scratch",
-          "Intermediate developers looking to reinforce and advance skills via a Hindi course",
-          "Tech enthusiasts who prefer learning in Hindi",
-          "Learners who need hands-on practice following video tutorials"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "lxserver",
-      "full": "XCQ0607/lxserver",
-      "rank": 9,
-      "cat": "other",
-      "lang": "JavaScript",
-      "stars": 0.9,
-      "today": "+10",
-      "today_n": 10,
-      "auto": false,
-      "zh": {
-        "tag": "LX Music 数据同步服务端，内置 Web 播放器",
-        "what": "这是一个为 LX Music 提供数据同步的服务端，同时内置了功能完整的网页版音乐播放器，支持多平台搜索、歌单管理与播放控制。",
-        "content": "仓库包含服务端代码、Web 播放器前端、帮助文档、同步服务器说明、更新日志以及多张界面截图。",
-        "stack": "基于 JavaScript/Node.js（要求 Node >=20），依赖 npm 生态，可能使用 Express 等框架。",
-        "hot": "LX Music 用户基数大，该项目解决了数据同步和网页播放需求，今日新增 10 star，总 star 达 930，登上 JavaScript 日榜第 9。",
-        "uses": [
-          "LX Music 用户需要跨设备同步歌单和设置",
-          "想在浏览器中直接听歌且无需安装客户端",
-          "开发者学习音乐播放器或同步服务端实现",
-          "需要自建音乐服务并管理缓存和歌单"
-        ]
-      },
-      "en": {
-        "tag": "LX Music sync server with built-in web player",
-        "what": "A data sync server for LX Music that also includes a full-featured web music player with multi-platform search, playlist management, and playback control.",
-        "content": "The repo contains server code, web player frontend, documentation, sync server guide, changelog, and multiple UI screenshots.",
-        "stack": "Built with JavaScript/Node.js (requires Node >=20), relies on npm ecosystem, possibly using Express or similar frameworks.",
-        "hot": "LX Music has a large user base, and this project addresses sync and web playback needs; it gained 10 stars today, totaling 930, ranking 9th on the JavaScript daily trending list.",
-        "uses": [
-          "LX Music users needing cross-device sync of playlists and settings",
-          "Those who want to listen in browser without installing a client",
-          "Developers learning music player or sync server implementation",
-          "Users needing self-hosted music service with cache and playlist management"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "atlassian-mcp-server",
-      "full": "atlassian/atlassian-mcp-server",
-      "rank": 10,
-      "cat": "agent",
-      "lang": "JavaScript",
-      "stars": 1.1,
-      "today": "+2",
-      "today_n": 2,
-      "auto": false,
-      "zh": {
-        "tag": "Atlassian 官方远程 MCP 服务器，让 AI 工具安全接入 Jira、Confluence 等产品",
-        "what": "这是 Atlassian 官方推出的云端托管 MCP 服务器，为 AI 工具提供对 Jira、Confluence、Jira Service Management、Bitbucket、Compass、Loom 等产品的安全实时访问。它基于 Teamwork Graph，让 Claude、ChatGPT、Cursor、VS Code 等 AI 助手直接读写 Atlassian 平台数据。",
-        "content": "仓库包含 MCP 服务器配置（server.json）、OAuth 2.1 与 API token 认证说明、各 Atlassian 产品的连接文档，以及品牌资源与许可证文件。",
-        "stack": "主语言为 JavaScript，遵循 Model Context Protocol 规范，托管在 Atlassian Cloud，支持 OAuth 2.1 或 API token 认证，采用 Apache 2.0 许可证。",
-        "hot": "作为 Atlassian 官方出品且已 GA 的远程 MCP 服务器，它解决了企业 AI 工具接入 Jira/Confluence 的刚需，已获 1087 颗星并登上 GitHub Trending JavaScript 日榜第 10 名。",
-        "uses": [
-          "使用 Claude、ChatGPT、Cursor 等 AI 工具并需要操作 Jira 任务的开发者与团队",
-          "希望让 AI 助手直接检索和编辑 Confluence 文档的知识管理团队",
-          "需要将 Bitbucket、Compass、JSM 等 Atlassian 产品接入 AI 工作流的企业",
-          "负责为组织配置 MCP 服务器与 OAuth 权限的 IT 管理员与平台工程师"
-        ]
-      },
-      "en": {
-        "tag": "Official remote MCP server connecting AI tools to Jira, Confluence and more",
-        "what": "This is Atlassian's official cloud-hosted MCP server that gives AI tools secure, real-time access to Jira, Confluence, Jira Service Management, Bitbucket, Compass and Loom. Powered by the Teamwork Graph, it lets assistants like Claude, ChatGPT, Cursor and VS Code work directly with Atlassian platform data.",
-        "content": "The repo contains the MCP server configuration (server.json), OAuth 2.1 and API token auth docs, connection guides for each Atlassian product, plus brand assets and license files.",
-        "stack": "Primarily JavaScript, built on the Model Context Protocol spec, hosted on Atlassian Cloud, supporting OAuth 2.1 or API token auth under the Apache 2.0 license.",
-        "hot": "As an official, GA-ready remote MCP server from Atlassian, it addresses the strong enterprise need to connect AI tools to Jira/Confluence, earning 1,087 stars and the #10 spot on GitHub Trending (JavaScript).",
-        "uses": [
-          "Developers and teams using Claude, ChatGPT or Cursor who need to work with Jira tasks",
-          "Knowledge teams wanting AI assistants to search and edit Confluence docs directly",
-          "Enterprises connecting Bitbucket, Compass or JSM into AI workflows",
-          "IT admins and platform engineers configuring MCP servers and OAuth permissions"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "mailcow-dockerized",
-      "full": "mailcow/mailcow-dockerized",
-      "rank": 11,
-      "cat": "infra",
-      "lang": "JavaScript",
-      "stars": 13.6,
-      "today": "+6",
-      "today_n": 6,
-      "auto": false,
-      "zh": {
-        "tag": "基于 Docker 的全功能邮件服务器套件",
-        "what": "mailcow: dockerized 是一个开源邮件服务器解决方案，将 Postfix、Dovecot、SOGo 等组件打包进 Docker 容器，提供完整的邮件收发、日历、联系人、反垃圾和反病毒功能。它通过 Web 界面管理，支持多域名和多用户，适合自建邮件服务。",
-        "content": "仓库包含 Docker Compose 配置、各服务组件的 Dockerfile、管理脚本（如 update.sh）、以及基于 PHP 的 Web 管理界面（mailcow UI）。还提供了丰富的文档和配置示例。",
-        "stack": "技术栈以 Docker 和 Docker Compose 为核心，集成 Postfix、Dovecot、Rspamd、ClamAV、SOGo、MySQL/MariaDB、Redis、Nginx 等。管理界面使用 PHP 和 JavaScript。",
-        "hot": "mailcow 拥有 13,577 颗星，今日新增 6 星，登上 GitHub Trending 日榜（JavaScript）第 11 名。其热度源于对自建邮件服务器复杂性的简化，以及活跃的社区和持续维护。",
-        "uses": [
-          "希望自建邮件服务器的个人或中小企业，无需深入配置各组件。",
-          "需要多域名、多用户邮件托管，并具备反垃圾和反病毒功能。",
-          "系统管理员或 DevOps 工程师，寻求基于 Docker 的邮件解决方案。",
-          "注重数据隐私，希望完全掌控邮件数据的组织。"
-        ]
-      },
-      "en": {
-        "tag": "Full-featured mail server suite powered by Docker",
-        "what": "mailcow: dockerized is an open-source mail server solution that packages components like Postfix, Dovecot, and SOGo into Docker containers, offering full email, calendar, contacts, anti-spam, and anti-virus features. It provides a web-based admin UI and supports multiple domains and users, ideal for self-hosted email.",
-        "content": "The repository includes Docker Compose configurations, Dockerfiles for each service component, management scripts (e.g., update.sh), and a PHP-based web admin UI (mailcow UI). It also provides extensive documentation and configuration examples.",
-        "stack": "The tech stack centers on Docker and Docker Compose, integrating Postfix, Dovecot, Rspamd, ClamAV, SOGo, MySQL/MariaDB, Redis, Nginx, etc. The admin UI uses PHP and JavaScript.",
-        "hot": "mailcow has 13,577 stars with 6 new today, ranking 11th on GitHub Trending (JavaScript). Its popularity stems from simplifying self-hosted email server complexity, plus an active community and continuous maintenance.",
-        "uses": [
-          "Individuals or SMBs wanting self-hosted email without deep component configuration.",
-          "Needs multi-domain, multi-user email hosting with anti-spam and anti-virus.",
-          "Sysadmins or DevOps engineers seeking a Docker-based mail solution.",
-          "Organizations prioritizing data privacy and full control over email data."
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "awesome-copilot",
-      "full": "github/awesome-copilot",
-      "rank": 12,
-      "cat": "agent",
-      "lang": "JavaScript",
-      "stars": 39.8,
-      "today": "+41",
-      "today_n": 41,
-      "auto": false,
-      "zh": {
-        "tag": "社区共建的 GitHub Copilot 定制资源大全",
-        "what": "这是一个由社区贡献的 GitHub Copilot 定制资源集合，提供自定义代理、指令、技能、钩子、工作流和插件，帮助开发者充分释放 Copilot 的潜力。它把分散的配置经验整理成可复用、可安装的资源库。",
-        "content": "仓库按类型组织为 Agents、Instructions、Skills、Plugins 和 Cookbook 等目录，并配有 docs 文档与官网全文检索。还提供 llms.txt 供 AI 代理读取结构化清单。",
-        "stack": "主语言为 JavaScript，资源以 Markdown 与配置文件为主，可通过 Copilot CLI/VS Code 的插件市场一键安装。依赖 GitHub Copilot 生态与 MCP 服务器。",
-        "hot": "近 4 万 star 且今日仍新增 41，登上 JavaScript 日榜第 12 名，说明 Copilot 深度定制需求旺盛，社区共建模式极具吸引力。",
-        "uses": [
-          "希望深度定制 GitHub Copilot 行为的开发者，快速套用现成代理与指令",
-          "团队想统一编码规范，用 Instructions 按文件模式自动应用标准",
-          "想通过插件市场一键安装 Copilot 工作流、节省配置时间的用户",
-          "AI 代理开发者，可读取 llms.txt 获取结构化资源清单"
-        ]
-      },
-      "en": {
-        "tag": "A community-driven collection of GitHub Copilot customizations",
-        "what": "A community-created collection of custom agents, instructions, skills, hooks, workflows, and plugins designed to supercharge your GitHub Copilot experience. It turns scattered configuration know-how into reusable, installable resources.",
-        "content": "The repo organizes resources into Agents, Instructions, Skills, Plugins, and a Cookbook, with docs and a searchable website. It also ships an llms.txt for AI agents to read structured listings.",
-        "stack": "Primarily JavaScript, with resources in Markdown and config files, installable via the Copilot CLI/VS Code plugin marketplace. It relies on the GitHub Copilot ecosystem and MCP servers.",
-        "hot": "With nearly 40k stars and 41 added today, ranking 12th on the JavaScript daily trending list, it shows strong demand for deep Copilot customization and the appeal of community co-building.",
-        "uses": [
-          "Developers wanting to deeply customize GitHub Copilot behavior with ready-made agents and instructions",
-          "Teams standardizing coding conventions via Instructions applied automatically by file pattern",
-          "Users who want one-click Copilot workflow installs from the plugin marketplace",
-          "AI agent developers who can read llms.txt for structured resource listings"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
       "slug": "power-platform-skills",
       "full": "microsoft/power-platform-skills",
       "rank": 10,
       "cat": "agent",
       "lang": "JavaScript",
       "stars": 1.0,
-      "today": "+7",
-      "today_n": 7,
+      "today": "+4",
+      "today_n": 4,
       "auto": false,
       "zh": {
         "tag": "微软官方 Power Platform 开发插件市场，为 Copilot 等 AI 代理提供技能与命令",
@@ -5074,49 +4594,210 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "airgorah",
-      "full": "martin-olivier/airgorah",
-      "rank": 6,
-      "cat": "other",
-      "lang": "Rust",
-      "stars": 4.0,
-      "today": "+101",
-      "today_n": 101,
+      "slug": "archify",
+      "full": "tt-a1i/archify",
+      "rank": 2,
+      "cat": "agent",
+      "lang": "JavaScript",
+      "stars": 81.2,
+      "today": "+1.4k",
+      "today_n": 1358,
       "auto": false,
       "zh": {
-        "tag": "Rust 编写的 GTK4 图形化 WiFi 安全审计工具",
-        "what": "Airgorah 是一款 WiFi 安全审计软件，可以捕获附近 WiFi 流量、发现接入点下的客户端、执行去认证攻击、抓取握手包与 PMKID，并尝试破解接入点密码。它用 Rust 编写，图形界面基于 GTK4，仅支持 Linux。",
-        "content": "仓库以 Rust workspace 组织，包含 GUI 主程序与提权代理 airgorah-agent 等 crate，另有安装/使用文档的 wiki 与 CI 工作流。",
-        "stack": "技术栈为 Rust + GTK4（gtk-rs），通过 polkit 启动特权代理完成需要 root 的操作，依赖支持监听模式与数据包注入的无线网卡。",
-        "hot": "作为少见的 Rust + GTK4 图形化 WiFi 审计工具，它把 aircrack-ng 类工作流做成现代桌面应用，今日新增 47 star、总数 3930，登上 Rust 日榜第 6。",
+        "tag": "AI 代理技能，一键生成可验证的交互式系统架构图",
+        "what": "Archify 是一个 AI 代理技能，可将代码库或系统描述转化为精美的交互式系统地图。它支持五种图表类型、四种预设、明暗主题和内置品牌标识，并能生成自包含的 HTML 文件，方便演示和分享。",
+        "content": "仓库包含技能定义、文档、示例和生成器代码，支持通过 npx 命令安装到 Raven、Cursor、Claude Code 等代理。提供项目页面、场景指南和画廊，展示不同用例。",
+        "stack": "主要基于 HTML，使用 TypeScript 生成确定性校验的 JSON IR，并输出 HTML、PNG、SVG、WebM 等格式。依赖 npx 进行安装，支持多种 AI 代理平台。",
+        "hot": "凭借 18k+ 星标和日增千星的势头，Archify 满足了开发者对可视化架构文档的迫切需求，尤其在 AI 辅助开发场景下，能快速生成可验证的图表，提升代码审查和沟通效率。",
         "uses": [
-          "网络安全从业者与渗透测试人员，用于授权范围内的 WiFi 安全评估",
-          "学习无线安全的学生与爱好者，直观了解握手包抓取与破解流程",
-          "Linux 桌面用户，希望用图形界面替代命令行审计工具"
+          "开发者希望在代码审查前快速生成架构对比图，确保变更可验证。",
+          "技术写作者或架构师需要为系统设计生成交互式演示文档，便于向团队或客户展示。",
+          "AI 代理用户希望将代码库映射为可视化图表，以便更直观地理解系统结构和数据流。"
         ]
       },
       "en": {
-        "tag": "A GTK4-based WiFi security auditing tool written in Rust",
-        "what": "Airgorah is a WiFi security auditing tool that captures nearby WiFi traffic, discovers clients connected to access points, performs deauthentication attacks, captures handshakes and PMKIDs, and cracks access point passwords. It is written in Rust with a GTK4 GUI and runs only on Linux.",
-        "content": "The repo is a Rust workspace containing the main GUI app and a privileged helper agent (airgorah-agent) among other crates, plus wiki docs for installation/usage and CI workflows.",
-        "stack": "Built with Rust and GTK4 (gtk-rs); privileged operations are handled by a small agent launched via polkit. It requires a wireless card supporting monitor mode and packet injection.",
-        "hot": "As a rare Rust + GTK4 graphical WiFi auditing tool, it packages an aircrack-ng-style workflow into a modern desktop app, gaining 47 stars today for 3,930 total and ranking #6 on the Rust daily trending list.",
+        "tag": "Agent skill that turns codebases into beautiful, verifiable interactive architecture diagrams",
+        "what": "Archify is an agent skill that transforms a codebase or system description into a polished, interactive system map. It supports five diagram types, four presets, dark/light themes, and built-in brand marks, producing self-contained HTML files for easy presentation and sharing.",
+        "content": "The repository contains skill definitions, documentation, examples, and generator code, installable via npx into agents like Raven, Cursor, and Claude Code. It includes a project page, scenario guide, and gallery showcasing various use cases.",
+        "stack": "Primarily HTML-based, using TypeScript to generate deterministically checked JSON IR, outputting HTML, PNG, SVG, WebM, and more. Installed via npx, compatible with multiple AI agent platforms.",
+        "hot": "With 18k+ stars and a daily gain of 1k, Archify addresses the urgent need for visual architecture documentation, especially in AI-assisted development, enabling quick generation of verifiable diagrams that boost code review and communication efficiency.",
         "uses": [
-          "Security professionals and pentesters doing authorized WiFi assessments",
-          "Students and hobbyists learning wireless security hands-on",
-          "Linux desktop users who prefer a GUI over command-line auditing tools"
+          "Developers who want to quickly generate architecture comparison diagrams before code review to ensure changes are verifiable.",
+          "Technical writers or architects needing interactive presentation documents for system designs to share with teams or clients.",
+          "AI agent users who want to map codebases into visual diagrams for better understanding of system structure and data flow."
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-08-27",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-08-27",
+            "s": 18.1,
+            "r": 1
+          },
+          {
+            "d": "2026-08-28",
+            "s": 23.9,
+            "r": 4
+          },
+          {
+            "d": "2026-08-29",
+            "s": 27.4,
+            "r": 1
+          },
+          {
+            "d": "2026-08-30",
+            "s": 31.1,
+            "r": 1
+          },
+          {
+            "d": "2026-08-31",
+            "s": 34.6,
+            "r": 4
+          },
+          {
+            "d": "2026-09-01",
+            "s": 38.8,
+            "r": 2
+          }
+        ]
+      }
+    },
+    {
+      "slug": "xuexitongscript",
+      "full": "chaolucky18/xuexitongScript",
+      "rank": 10,
+      "cat": "other",
+      "lang": "JavaScript",
+      "stars": 2.8,
+      "today": "+21",
+      "today_n": 21,
+      "auto": false,
+      "zh": {
+        "tag": "学习通自动刷课脚本，稳定播放与自动切节",
+        "what": "这是一个针对超星学习通平台的浏览器自动化脚本，能够自动播放课程视频、视频结束后切换到下一小节，并在章节测验页面尝试受限跳转。它聚焦于稳定播放与课程导航，不叠加复杂的后台保活或通知功能。",
+        "content": "仓库包含控制台直接执行版 v3_optimized.js、Tampermonkey 油猴版 v3_optimized.user.js，以及用于生成油猴版的构建脚本 scripts/build-userscript.mjs 和验证脚本 tests/verify-v3.mjs。",
+        "stack": "纯 JavaScript 编写，依赖浏览器控制台或 Tampermonkey 运行，使用 Node.js 脚本进行构建与语法验证。",
+        "hot": "学习通是大学生常用平台，刷课需求旺盛，该脚本以稳定性和简洁性获得 2759 星，今日新增 21 星，登上 JavaScript 日榜第 10 名。",
+        "uses": [
+          "需要自动完成学习通视频课程的大学生",
+          "对浏览器自动化脚本感兴趣的前端开发者",
+          "希望研究页面行为与媒体播放控制的调试人员"
+        ]
+      },
+      "en": {
+        "tag": "Auto course-playing script for Xuexitong with stable playback and auto-advance",
+        "what": "This is a browser automation script for the Chaoxing Xuexitong platform that automatically plays course videos, advances to the next section after a video ends, and attempts limited skipping on quiz pages. It focuses on stable playback and course navigation without adding complex background keep-alive or notification features.",
+        "content": "The repo contains a console-executable version v3_optimized.js, a Tampermonkey userscript v3_optimized.user.js, a build script scripts/build-userscript.mjs for generating the userscript, and a verification script tests/verify-v3.mjs.",
+        "stack": "Written in pure JavaScript, runs in the browser console or via Tampermonkey, with Node.js scripts for building and syntax verification.",
+        "hot": "Xuexitong is widely used by college students, creating strong demand for auto-course tools; this script gained 2,759 stars for its stability and simplicity, with 21 new stars today, ranking 10th on the JavaScript daily trending list.",
+        "uses": [
+          "College students needing to auto-complete Xuexitong video courses",
+          "Front-end developers interested in browser automation scripts",
+          "Debuggers researching page behavior and media playback control"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "one-api",
+      "full": "songquanpeng/one-api",
+      "rank": 11,
+      "cat": "infra",
+      "lang": "JavaScript",
+      "stars": 37.1,
+      "today": "+16",
+      "today_n": 16,
+      "auto": false,
+      "zh": {
+        "tag": "统一多家大模型 API 的管理与分发网关",
+        "what": "One API 是一个 LLM API 管理与分发系统，把 OpenAI、Azure、Claude、Gemini、DeepSeek、豆包、文心一言等主流模型统一适配成标准 OpenAI 接口格式。它可用于 API key 管理、额度分配与二次分发，单可执行文件即可部署。",
+        "content": "仓库包含 Go 后端服务、Web 管理后台前端以及 Docker 部署配置，提供渠道管理、令牌分发、额度统计和在线演示等模块。",
+        "stack": "后端以 Go 编写（主语言统计为 JavaScript 主要来自前端），前端为 Web 管理界面，依赖 SQLite/MySQL 等数据库，提供 Docker 镜像一键部署。",
+        "hot": "凭借 37k+ stars 和开箱即用的多模型统一接入能力，它成为自建 AI 网关与 key 分发的热门选择，今日仍登上 GitHub Trending JavaScript 日榜第 11 名。",
+        "uses": [
+          "需要统一接入多家大模型 API 的开发者与团队",
+          "希望自建 AI 网关并做 key 管理与额度分发的运维人员",
+          "想对外提供二次分发或代理服务的个人与小型服务商",
+          "需要中文界面、快速 Docker 部署的国内 AI 应用团队"
+        ]
+      },
+      "en": {
+        "tag": "A unified gateway for managing and redistributing multi-vendor LLM APIs",
+        "what": "One API is an LLM API management and redistribution system that unifies mainstream providers like OpenAI, Azure, Claude, Gemini, DeepSeek and Doubao under the standard OpenAI API format. It handles key management, quota allocation and secondary redistribution, and ships as a single executable.",
+        "content": "The repo contains a Go backend service, a web admin frontend, and Docker deployment configs, offering channel management, token distribution, quota statistics and a live demo.",
+        "stack": "The backend is written in Go (the JavaScript count mainly comes from the frontend), with a web admin UI, SQLite/MySQL database support, and one-click Docker deployment.",
+        "hot": "With 37k+ stars and out-of-the-box unified multi-model access, it's a popular pick for self-hosted AI gateways and key redistribution, still ranking #11 on today's GitHub Trending JavaScript daily list.",
+        "uses": [
+          "Developers and teams needing unified access to multiple LLM APIs",
+          "Ops staff wanting a self-hosted AI gateway for key and quota management",
+          "Individuals or small providers offering secondary redistribution or proxy services",
+          "Chinese-language AI teams needing fast Docker deployment"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "javaguide",
+      "full": "Snailclimb/JavaGuide",
+      "rank": 12,
+      "cat": "other",
+      "lang": "JavaScript",
+      "stars": 158.9,
+      "today": "+33",
+      "today_n": 33,
+      "auto": false,
+      "zh": {
+        "tag": "Java 后端面试与通用计算机基础开源知识库",
+        "what": "JavaGuide 是一份面向 Java 后端开发者的面试与学习指南，覆盖计算机基础、数据库、分布式、高并发、系统设计等核心知识。同时新增 AI 应用开发方向，涵盖 LLM、Agent、RAG、MCP 等工程实践内容。",
+        "content": "仓库以 Markdown 文档为主体，按 Java 基础、集合、并发、JVM、数据库、分布式、系统设计、面试准备等目录组织，并提供在线阅读站点与面试突击版 PDF。",
+        "stack": "内容以 Markdown 编写，配套 VuePress 等静态站点构建在线阅读站点，示例代码以 Java 为主，仓库主语言统计为 JavaScript。",
+        "hot": "作为国内最知名的 Java 面试知识库之一，已积累约 15.9 万 Star，长期稳居 GitHub 热榜，今日新增 33 星并位列 JavaScript 日榜第 12 名。",
+        "uses": [
+          "准备 Java 后端校招/社招面试的开发者，可系统梳理高频考点",
+          "需要补齐计算机基础、数据库、分布式与系统设计的后端工程师",
+          "想了解 LLM、Agent、RAG 等 AI 应用开发的后端开发者",
+          "希望获得学习路线、简历与项目经验指导的求职者"
+        ]
+      },
+      "en": {
+        "tag": "Open-source Java backend interview and CS fundamentals knowledge base",
+        "what": "JavaGuide is an interview and learning guide for Java backend developers, covering computer science fundamentals, databases, distributed systems, high concurrency, and system design. It also adds an AI application development track covering LLMs, Agents, RAG, and MCP engineering practices.",
+        "content": "The repo is mainly Markdown documentation organized by topics such as Java basics, collections, concurrency, JVM, databases, distributed systems, system design, and interview prep, with an online reading site and a condensed PDF version.",
+        "stack": "Content is written in Markdown and rendered via a static site setup like VuePress; sample code is mostly Java, while the repo's primary language stat is JavaScript.",
+        "hot": "As one of the best-known Java interview knowledge bases in China, it has accumulated about 159k stars and stays on GitHub trending, adding 33 stars today and ranking 12th on the JavaScript daily list.",
+        "uses": [
+          "Developers preparing for Java backend campus or experienced-hire interviews",
+          "Backend engineers looking to fill gaps in CS fundamentals, databases, distributed systems, and system design",
+          "Backend developers wanting to learn LLM, Agent, and RAG application development",
+          "Job seekers needing learning roadmaps, resume, and project experience guidance"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -5128,9 +4809,9 @@ window.TRENDING_DATA = {
       "rank": 3,
       "cat": "infra",
       "lang": "Rust",
-      "stars": 1.8,
-      "today": "+135",
-      "today_n": 135,
+      "stars": 2.4,
+      "today": "+669",
+      "today_n": 669,
       "auto": false,
       "zh": {
         "tag": "微软开源的跨平台沙箱代码执行系统，策略驱动分层隔离",
@@ -5160,51 +4841,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "open-ontologies",
-      "full": "fabio-rovai/open-ontologies",
-      "rank": 7,
-      "cat": "infra",
-      "lang": "Rust",
-      "stars": 1.0,
-      "today": "+63",
-      "today_n": 63,
-      "auto": false,
-      "zh": {
-        "tag": "生产本体变更规划、影响分析与可审计回滚工具",
-        "what": "Open Ontologies 是一个用于管理生产环境本体变更的工具，支持规划、应用和回滚操作，并生成影响范围报告和可审计证明。它帮助团队在修改本体前预见所有后果，并提供无需信任的验证机制。",
-        "content": "仓库包含 Rust 编写的引擎、命令行工具、Web 演示以及文档，核心是单个二进制文件，提供本体变更的全生命周期管理。",
-        "stack": "使用 Rust 编写，依赖 Lean 4 进行形式化验证，支持 Docker 镜像，并提供浏览器演示。",
-        "hot": "因其解决本体变更安全性的创新方法而受欢迎，今日新增 121 星，总星数 929，登上 Rust 日榜第 7 名。",
-        "uses": [
-          "知识图谱工程师 —— 安全地规划和管理本体变更，避免生产事故。",
-          "数据治理团队 —— 通过审计证明满足合规要求，确保变更可追溯。",
-          "本体研究人员 —— 利用形式化验证和影响分析进行实验和验证。",
-          "DevOps 工程师 —— 将本体变更集成到 CI/CD 流程，实现自动化部署。"
-        ]
-      },
-      "en": {
-        "tag": "Plan, apply, and roll back production ontology changes with blast radius and audit proof",
-        "what": "Open Ontologies is a tool for managing production ontology changes, supporting planning, applying, and rolling back with blast radius reports and auditable proofs. It helps teams foresee all consequences before modifying an ontology and provides trustless verification.",
-        "content": "The repository includes a Rust engine, CLI tool, web demo, and documentation, centered around a single binary that provides full lifecycle management for ontology changes.",
-        "stack": "Written in Rust, with Lean 4 for formal verification, Docker image support, and a browser demo.",
-        "hot": "Gained popularity for its innovative approach to ontology change safety, with 121 new stars today, totaling 929, ranking 7th on the Rust daily trending list.",
-        "uses": [
-          "Knowledge graph engineers — safely plan and manage ontology changes to avoid production incidents.",
-          "Data governance teams — meet compliance requirements with audit proofs, ensuring traceable changes.",
-          "Ontology researchers — experiment and validate using formal verification and impact analysis.",
-          "DevOps engineers — integrate ontology changes into CI/CD pipelines for automated deployment."
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -5217,8 +4854,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "Rust",
       "stars": 43.7,
-      "today": "+69",
-      "today_n": 69,
+      "today": "+61",
+      "today_n": 61,
       "auto": false,
       "zh": {
         "tag": "面向 AI 智能体的高速 Rust 浏览器自动化 CLI",
@@ -5248,469 +4885,167 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "opencadstudio",
-      "full": "HakanSeven12/OpenCADStudio",
-      "rank": 6,
-      "cat": "other",
+      "slug": "cc-switch",
+      "full": "farion1231/cc-switch",
+      "rank": 4,
+      "cat": "agent",
       "lang": "Rust",
-      "stars": 2.6,
-      "today": "+32",
-      "today_n": 32,
+      "stars": 141.9,
+      "today": "+617",
+      "today_n": 617,
       "auto": false,
       "zh": {
-        "tag": "Rust 开源 CAD，支持 2D/3D 与 DWG/DXF 原生读写",
-        "what": "Open CAD Studio 是一个用 Rust 构建的开源 CAD 应用，提供 2D 绘图和 3D 建模功能，支持桌面端和 Web 端。它能够原生读写 DWG 和 DXF 文件，无需转换服务，并利用 GPU 加速渲染。",
-        "content": "仓库包含完整的 CAD 应用源码，涵盖桌面端和 Web 端，提供统一的编辑核心。项目包含多语言 README、资源文件（如 logo）、示例工作区截图，以及用于 Web 部署的站点目录。",
-        "stack": "主要使用 Rust 语言，并可能涉及 WebAssembly（用于 Web 端）、GPU 渲染库（如 wgpu）以及 DWG/DXF 解析库。具体依赖需查看 Cargo.toml。",
-        "hot": "该项目在 GitHub 上迅速获得关注，今日新增 46 星，总星数达 1166，位列 Rust 趋势榜第 6。其亮点在于用 Rust 实现 CAD，提供原生 DWG/DXF 支持，填补了开源 CAD 领域的空白。",
+        "tag": "一站式管理多个 AI 编码代理的跨平台桌面工具",
+        "what": "CC Switch 是一个跨平台桌面应用，用于统一管理 Claude Code、Codex、Gemini CLI、OpenCode 等十余种 AI 编码代理。它让你一键切换 API 供应商，并集中管理 MCP、Skills 与 Prompts，无需再手动编辑 JSON/TOML/YAML 配置文件。",
+        "content": "仓库包含基于 Tauri 2 的桌面客户端源码、多语言 README（中/英/日/德）、用户手册、更新日志以及各平台安装包发布。",
+        "stack": "主语言为 Rust，基于 Tauri 2 构建跨平台桌面应用，支持 Windows、macOS 与 Linux。",
+        "hot": "AI 编码代理爆发式增长，配置碎片化成为痛点，CC Switch 以 14.1 万 star、日增 617 的成绩登上 Rust 日榜第 4，切中多工具统一管理的刚需。",
         "uses": [
-          "工程师和设计师需要免费、跨平台的 CAD 工具进行 2D 制图或 3D 建模。",
-          "开发者希望研究或扩展一个基于 Rust 的现代 CAD 应用，或贡献代码。",
-          "教育机构或学生需要学习 CAD 概念，并希望使用开源软件进行实践。",
-          "需要处理 DWG/DXF 文件但不想依赖商业软件或在线转换服务的用户。"
+          "同时使用多个 AI 编码代理、需要频繁切换 API 供应商的开发者",
+          "希望集中管理 MCP、Skills 与 Prompts 配置、告别手改配置文件的团队",
+          "在 Windows/macOS/Linux 多平台间切换、需要一致体验的工程师"
         ]
       },
       "en": {
-        "tag": "Open-source CAD in Rust: 2D/3D drawing, native DWG/DXF, GPU rendering",
-        "what": "Open CAD Studio is an open-source CAD application built with Rust, offering 2D drafting and 3D modeling for desktop and web. It natively reads and writes DWG and DXF files without conversion services, with GPU-accelerated rendering.",
-        "content": "The repository contains the full source code of the CAD app, covering desktop and web with a shared editing core. It includes multi-language READMEs, assets like logo, workspace screenshots, and a site directory for web deployment.",
-        "stack": "Primarily built with Rust, likely using WebAssembly for the web version, GPU rendering libraries like wgpu, and DWG/DXF parsing crates. Specific dependencies are in Cargo.toml.",
-        "hot": "The project is gaining traction on GitHub, with 46 stars today and 1166 total, ranking #6 on the Rust trending list. Its novelty lies in a Rust-based CAD with native DWG/DXF support, filling a gap in open-source CAD.",
+        "tag": "A cross-platform desktop All-in-One manager for multiple AI coding agents",
+        "what": "CC Switch is a cross-platform desktop app that unifies management of a dozen-plus AI coding agents such as Claude Code, Codex, Gemini CLI, and OpenCode. It lets you switch API providers in one click and manage MCP, Skills, and Prompts in one place, eliminating hand-editing of JSON/TOML/YAML config files.",
+        "content": "The repo contains the Tauri 2-based desktop client source, multilingual READMEs (EN/ZH/JA/DE), a user manual, a changelog, and release installers for each platform.",
+        "stack": "Primarily written in Rust and built with Tauri 2 for cross-platform desktop support on Windows, macOS, and Linux.",
+        "hot": "As AI coding agents explode, fragmented configuration has become a pain point; with 141.9k stars and +617 today, CC Switch ranks 4th on the Rust daily trending list by nailing the need for unified multi-tool management.",
         "uses": [
-          "Engineers and designers needing a free, cross-platform CAD tool for 2D drafting or 3D modeling.",
-          "Developers interested in studying or extending a modern Rust-based CAD application or contributing code.",
-          "Educational institutions or students learning CAD concepts with open-source software.",
-          "Users who need to handle DWG/DXF files without relying on commercial software or online conversion services."
+          "Developers using multiple AI coding agents who frequently switch API providers",
+          "Teams wanting centralized MCP, Skills, and Prompts management instead of hand-editing configs",
+          "Engineers working across Windows/macOS/Linux who need a consistent experience"
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "egui",
-      "full": "emilk/egui",
-      "rank": 12,
+      "slug": "mise",
+      "full": "jdx/mise",
+      "rank": 5,
       "cat": "infra",
       "lang": "Rust",
-      "stars": 31.1,
-      "today": "+67",
-      "today_n": 67,
+      "stars": 34.8,
+      "today": "+53",
+      "today_n": 53,
       "auto": false,
       "zh": {
-        "tag": "纯 Rust 编写的即时模式 GUI 库，跨 Web 与原生平台",
-        "what": "egui 是一个用纯 Rust 实现的即时模式 GUI 库，强调简单、快速和高可移植性。它可以在 Web、桌面（Linux/Mac/Windows）以及游戏引擎中运行，目标是成为最易用的 Rust GUI 库。",
-        "content": "仓库包含核心库 egui、官方框架 eframe（支持 Web、桌面和 Android），以及大量示例和集成代码。",
-        "stack": "基于 Rust 编写，禁止 unsafe 代码，依赖 crates.io 生态，支持 WebAssembly 和原生图形后端。",
-        "hot": "凭借纯 Rust、跨平台和易用性，egui 已获得近 31k stars，今日新增 80，位列 GitHub Rust 日榜第 12 名，是 Rust GUI 领域的热门选择。",
+        "tag": "一个 CLI 统一管理开发工具、环境变量与任务",
+        "what": "mise 是一个用 Rust 编写的开发环境管理工具，把开发工具版本安装、环境变量设置和任务运行统一到一个命令行里。它类似 asdf、direnv 和 make 的组合体，让项目环境可复现、开箱即用。",
+        "content": "仓库包含 Rust 源码、文档站点（docs/）、配置示例与测试工作流，核心是 mise 命令行工具及其插件/后端体系。",
+        "stack": "主要使用 Rust 编写，发布在 crates.io，依赖 GitHub Actions 做 CI，并支持多种语言工具链后端。",
+        "hot": "已获 34848 颗星并登上 GitHub Trending 日榜 Rust 第 5 名，今日新增 53 星，说明开发者对统一环境管理工具的需求持续旺盛。",
         "uses": [
-          "Rust 开发者需要快速构建跨平台 GUI 应用",
-          "游戏开发者希望在游戏引擎中嵌入 UI",
-          "需要将 Rust 应用编译为 WebAssembly 在浏览器运行",
-          "学习 Rust GUI 编程的初学者"
+          "需要跨项目统一管理 Node、Python、Go 等工具版本的开发者",
+          "希望用一份配置复现团队开发环境的工程团队",
+          "想用 direnv 式环境变量加载和 make 式任务运行的工程师",
+          "在 CI 中需要快速安装固定版本工具链的 DevOps 人员"
         ]
       },
       "en": {
-        "tag": "An easy-to-use immediate mode GUI library in pure Rust, running on web and native",
-        "what": "egui is an immediate mode GUI library written in pure Rust, focusing on simplicity, speed, and high portability. It runs on the web, natively on Linux/Mac/Windows, and inside game engines, aiming to be the easiest-to-use Rust GUI library.",
-        "content": "The repository contains the core egui library, the official eframe framework (supporting web, desktop, and Android), plus numerous examples and integrations.",
-        "stack": "Written in Rust with unsafe forbidden, relying on the crates.io ecosystem, and supporting WebAssembly and native graphics backends.",
-        "hot": "With its pure Rust, cross-platform, and ease-of-use features, egui has gained nearly 31k stars, adding 80 today, ranking 12th on GitHub's Rust daily trending list, making it a popular choice in the Rust GUI space.",
+        "tag": "One CLI for dev tools, env vars, and tasks",
+        "what": "mise is a Rust-based dev environment manager that unifies tool version installation, environment variable management, and task running in a single CLI. It combines the roles of asdf, direnv, and make, making project environments reproducible and ready out of the box.",
+        "content": "The repo contains Rust source code, a docs site (docs/), config examples, and test workflows, centered on the mise CLI and its plugin/backend system.",
+        "stack": "Written mainly in Rust and published on crates.io, it uses GitHub Actions for CI and supports multiple language toolchain backends.",
+        "hot": "With 34,848 stars and ranking 5th on GitHub Trending (Rust) with 53 new stars today, it shows strong ongoing demand for unified environment management.",
         "uses": [
-          "Rust developers who need to quickly build cross-platform GUI applications",
-          "Game developers looking to embed UI in game engines",
-          "Those who want to compile Rust apps to WebAssembly for browser use",
-          "Beginners learning Rust GUI programming"
+          "Developers managing Node, Python, Go and other tool versions across projects",
+          "Engineering teams wanting reproducible dev environments from one config",
+          "Engineers wanting direnv-style env loading plus make-style task running",
+          "DevOps engineers needing fast, pinned toolchain installs in CI"
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "burn",
-      "full": "tracel-ai/burn",
-      "rank": 8,
-      "cat": "ai",
-      "lang": "Rust",
-      "stars": 16.1,
-      "today": "+15",
-      "today_n": 15,
-      "auto": false,
-      "zh": {
-        "tag": "Rust 编写的下一代张量库与深度学习框架，兼顾灵活、高效与可移植性",
-        "what": "Burn 是一个用 Rust 实现的张量库和深度学习框架，支持数值计算、训练和推理。它通过统一 API 执行多平台张量操作，让训练代码可直接用于生产部署，避免模型导出带来的损耗。",
-        "content": "仓库包含核心张量库、深度学习框架、自动微分、后端抽象（CPU/GPU/WASM 等）、模型导入导出工具以及示例和文档。",
-        "stack": "主要使用 Rust 编写，依赖 crates.io 生态，支持多种计算后端（如 ndarray、wgpu、cuda 等），并保持与 ONNX 等格式的互操作性。",
-        "hot": "Burn 在 GitHub 上已获得 16,065 颗星，今日新增 15 星，位列 Rust 日榜第 8 名，反映出 Rust 在 AI 基础设施领域日益增长的热度。",
-        "uses": [
-          "Rust 开发者希望构建高性能、可移植的 AI 应用",
-          "研究人员需要快速迭代且不牺牲性能的深度学习框架",
-          "团队寻求从训练到部署的统一代码库，避免模型导出",
-          "边缘计算和嵌入式场景中需要轻量级推理引擎"
-        ]
-      },
-      "en": {
-        "tag": "A next-generation tensor library and deep learning framework in Rust, balancing flexibility, efficiency, and portability.",
-        "what": "Burn is a tensor library and deep learning framework written in Rust, supporting numerical computing, training, and inference. It executes multi-platform tensor operations via a unified API, allowing the exact training code to run in production without lossy model exports.",
-        "content": "The repository contains the core tensor library, deep learning framework, automatic differentiation, backend abstractions (CPU/GPU/WASM etc.), model import/export tools, examples, and documentation.",
-        "stack": "Primarily written in Rust, leveraging the crates.io ecosystem, with support for multiple compute backends (e.g., ndarray, wgpu, cuda) and interoperability with formats like ONNX.",
-        "hot": "Burn has earned 16,065 stars on GitHub, with 15 new stars today, ranking 8th on the Rust daily trending list, reflecting the growing popularity of Rust in AI infrastructure.",
-        "uses": [
-          "Rust developers building high-performance, portable AI applications",
-          "Researchers needing a deep learning framework with fast iteration and no performance compromise",
-          "Teams seeking a unified codebase from training to deployment, avoiding model export",
-          "Edge computing and embedded scenarios requiring a lightweight inference engine"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "rhwp",
-      "full": "edwardkim/rhwp",
-      "rank": 9,
-      "cat": "infra",
-      "lang": "Rust",
-      "stars": 3.9,
-      "today": "+12",
-      "today_n": 12,
-      "auto": false,
-      "zh": {
-        "tag": "Rust+WASM 开源韩文 HWP 查看器与编辑器",
-        "what": "rhwp 是一个用 Rust 和 WebAssembly 实现的开源 HWP/HWPX 文档查看器与编辑器，目标是打破闭源格式壁垒，让任何人、任何 AI、任何平台都能自由读写韩文文档。它支持 HWP 5.0、HWPX 以及 HML 格式的解析、渲染和保存。",
-        "content": "仓库包含 Rust 核心解析/渲染引擎、WASM 绑定、npm 包 @rhwp/core、VS Code 扩展、Chrome/Edge/Firefox 浏览器扩展，以及在线演示和截图资源。",
-        "stack": "主要使用 Rust 1.93.1 编写，编译为 WebAssembly，通过 npm 分发核心包，并提供 VS Code 扩展和浏览器扩展。",
-        "hot": "作为稀缺的开源 HWP 处理工具，它填补了闭源韩文文档格式的空白，今日新增 12 星，总星数达 3906，登上 GitHub Trending Rust 日榜第 9 名。",
-        "uses": [
-          "需要查看或编辑 HWP/HWPX 文件的普通用户，无需安装韩文办公软件",
-          "开发者希望将 HWP 解析/渲染能力集成到自己的应用或 AI 流程中",
-          "VS Code 用户可通过扩展直接在编辑器内预览 HWP 文档",
-          "浏览器用户可通过 Chrome/Edge/Firefox 扩展在线打开 HWP 文件"
-        ]
-      },
-      "en": {
-        "tag": "Open-source HWP viewer/editor built with Rust and WebAssembly",
-        "what": "rhwp is an open-source HWP/HWPX document viewer and editor built with Rust and WebAssembly, aiming to break closed-format barriers so anyone, any AI, and any platform can freely read and write Korean documents. It supports parsing, rendering, and saving of HWP 5.0, HWPX, and HML formats.",
-        "content": "The repo includes a Rust core parsing/rendering engine, WASM bindings, the @rhwp/core npm package, a VS Code extension, Chrome/Edge/Firefox browser extensions, plus an online demo and screenshot assets.",
-        "stack": "Primarily written in Rust 1.93.1, compiled to WebAssembly, distributed as an npm core package, with VS Code and browser extensions.",
-        "hot": "As a rare open-source HWP tool, it fills the gap in closed Korean document formats; it gained 12 stars today, reaching 3,906 total stars and ranking #9 on GitHub Trending (Rust) daily.",
-        "uses": [
-          "General users who need to view or edit HWP/HWPX files without installing Korean office software",
-          "Developers who want to integrate HWP parsing/rendering into their apps or AI pipelines",
-          "VS Code users can preview HWP documents directly via the extension",
-          "Browser users can open HWP files online via Chrome/Edge/Firefox extensions"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "openlogi",
-      "full": "AprilNEA/OpenLogi",
-      "rank": 8,
-      "cat": "infra",
-      "lang": "Rust",
-      "stars": 23.2,
-      "today": "+102",
-      "today_n": 102,
-      "auto": false,
-      "zh": {
-        "tag": "Rust 编写的本地优先罗技外设管理工具，替代 Options+",
-        "what": "OpenLogi 是罗技 Options+ 的原生本地替代品，用 Rust 编写，通过 HID++ 和 UVC 协议解锁罗技鼠标、键盘和摄像头的完整能力。它支持重映射按键、调节 DPI 和 SmartShift，无需账号、无遥测，并可在 macOS、Linux 和 Windows 上运行。",
-        "content": "仓库包含 Rust 源码、多语言 README（中、日、德、法、韩、俄等）以及品牌资源，目前处于活跃开发阶段，功能与配置可能仍会变动。",
-        "stack": "技术栈为 Rust，使用 GPUI 构建原生界面，依赖 HID++ 协议与罗技设备通信，并通过 UVC 支持摄像头。",
-        "hot": "凭借 23118 颗星和今日新增 106 星登上 GitHub Trending Rust 日榜第 8 名，反映出用户对罗技官方软件臃肿、隐私问题的不满，以及对 Linux 一等公民支持的强烈需求。",
-        "uses": [
-          "罗技鼠标、键盘或摄像头用户，想摆脱 Options+ 的臃肿与账号绑定",
-          "Linux 桌面用户，需要官方软件缺失的外设配置能力",
-          "注重隐私、拒绝遥测和云端账号的极客与开发者",
-          "希望用 Rust 构建原生跨平台桌面工具的学习者"
-        ]
-      },
-      "en": {
-        "tag": "A native, local-first Logitech device manager in Rust, an alternative to Options+",
-        "what": "OpenLogi is a native, local-first alternative to Logitech Options+, written in Rust, unlocking the full capabilities of Logitech mice, keyboards, and webcams over HID++ and UVC. It lets you remap buttons, adjust DPI and SmartShift, with no account and no telemetry, running on macOS, Linux, and Windows.",
-        "content": "The repo contains Rust source code, multilingual READMEs (Chinese, Japanese, German, French, Korean, Russian, etc.), and brand assets; it is under active development, so features and config may still change.",
-        "stack": "Built with Rust and GPUI for a native UI, it relies on the HID++ protocol to communicate with Logitech devices and UVC for webcam support.",
-        "hot": "With 23,118 stars and 106 added today, it ranks 8th on GitHub Trending (Rust daily), reflecting user frustration with Logitech's bloated, privacy-concerned official software and strong demand for first-class Linux support.",
-        "uses": [
-          "Logitech mouse, keyboard, or webcam users who want to escape Options+ bloat and account requirements",
-          "Linux desktop users needing peripheral configuration that official software lacks",
-          "Privacy-conscious geeks and developers who reject telemetry and cloud accounts",
-          "Learners interested in building native cross-platform desktop tools in Rust"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-08-21",
+        "first": "2026-08-08",
         "is_new": false,
         "is_back": false,
         "hist": [
           {
-            "d": "2026-08-21",
-            "s": 11.9,
-            "r": 3
-          },
-          {
-            "d": "2026-08-23",
-            "s": 14.4,
-            "r": 5
-          },
-          {
-            "d": "2026-08-24",
-            "s": 14.9,
-            "r": 5
-          },
-          {
-            "d": "2026-08-25",
-            "s": 15.9,
-            "r": 8
+            "d": "2026-08-08",
+            "s": 32.1,
+            "r": 10
           }
         ]
       }
     },
     {
-      "slug": "zoxide",
-      "full": "ajeetdsouza/zoxide",
-      "rank": 11,
-      "cat": "other",
-      "lang": "Rust",
-      "stars": 40.0,
-      "today": "+30",
-      "today_n": 30,
-      "auto": false,
-      "zh": {
-        "tag": "更智能的 cd 命令，支持所有主流 shell",
-        "what": "zoxide 是一个更智能的 cd 命令，灵感来自 z 和 autojump。它会记住你最常使用的目录，让你只需敲几个键就能跳转过去。",
-        "content": "仓库包含 Rust 源代码、安装脚本、shell 集成文件（bash、zsh、fish 等）以及详细的文档。",
-        "stack": "使用 Rust 编写，依赖较少，支持通过 cargo、包管理器或脚本安装。",
-        "hot": "凭借近 4 万 star 和今日新增 30 star，zoxide 因其高效目录跳转和广泛 shell 支持而持续受欢迎。",
-        "uses": [
-          "经常在终端中切换目录的开发者，能大幅提升效率。",
-          "使用多种 shell（如 bash、zsh、fish）的用户，可无缝集成。",
-          "喜欢命令行工具并追求快速导航的极客。"
-        ]
-      },
-      "en": {
-        "tag": "A smarter cd command that supports all major shells",
-        "what": "zoxide is a smarter cd command inspired by z and autojump. It remembers which directories you use most frequently, so you can jump to them in just a few keystrokes.",
-        "content": "The repository contains Rust source code, installation scripts, shell integration files (bash, zsh, fish, etc.), and detailed documentation.",
-        "stack": "Written in Rust with minimal dependencies, installable via cargo, package managers, or scripts.",
-        "hot": "With nearly 40k stars and 30 new stars today, zoxide remains popular for its efficient directory jumping and broad shell support.",
-        "uses": [
-          "Developers who frequently switch directories in the terminal, boosting efficiency.",
-          "Users of multiple shells (e.g., bash, zsh, fish) who want seamless integration.",
-          "Command-line enthusiasts seeking fast navigation."
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "mimi",
-      "full": "yuxino/Mimi",
-      "rank": 12,
-      "cat": "ai",
-      "lang": "Rust",
-      "stars": 0.6,
-      "today": "+24",
-      "today_n": 24,
-      "auto": false,
-      "zh": {
-        "tag": "把电脑或麦克风声音实时转成翻译字幕的桌面工具",
-        "what": "Mimi 是一款实时字幕翻译工具，可以捕获系统声音或麦克风里的人声，边识别边翻译，并把双语字幕悬浮显示在屏幕上。看电影、直播或网课时，字幕会浮在画面上方，支持只显示原文、译文或双语。",
-        "content": "仓库是一个基于 Tauri 的桌面应用，包含 Rust 主程序、前端界面、Tauri 图标资源、Android 端目录、多语言 README 文档和 provider 配置指南，并提供 macOS / Windows / Linux 的发布包。",
-        "stack": "主语言为 Rust，使用 Tauri 构建跨平台桌面应用，依赖云端语音识别与翻译服务（如阿里云、Google Gemini、Apple Speech），并支持导出 TXT / WAV。",
-        "hot": "它把实时字幕翻译做成了开箱即用的桌面工具，支持系统声音、麦克风、双语悬浮字幕和多平台，今天新增 24 star 冲上 Rust 日榜第 12 名，累计 636 star。",
-        "uses": [
-          "看外语电影、直播或网课时需要实时翻译字幕的用户",
-          "听讲座、会议或播客时希望把语音转成双语文字的人",
-          "想研究 Tauri + Rust 桌面端实时音频处理与字幕渲染的开发者",
-          "需要在 macOS / Windows / Linux 上使用轻量字幕工具的多平台用户"
-        ]
-      },
-      "en": {
-        "tag": "Desktop app that turns computer or mic audio into live translated subtitles",
-        "what": "Mimi is a real-time subtitle translation tool that captures human speech from system audio or a microphone, transcribes and translates it on the fly, and shows floating bilingual subtitles over your screen. It works well for movies, livestreams, and online courses, with options to show source text, translation, or both.",
-        "content": "The repo is a Tauri-based desktop app containing a Rust core, frontend UI, Tauri icons, an Android directory, multilingual README docs, and provider setup guides, with release builds for macOS, Windows, and Linux.",
-        "stack": "Written mainly in Rust and built with Tauri for cross-platform desktop apps, it relies on cloud speech recognition and translation providers such as Alibaba Cloud, Google Gemini, and Apple Speech, and supports TXT/WAV export.",
-        "hot": "It packages real-time subtitle translation into an easy-to-use desktop tool with system audio, microphone, bilingual floating subtitles, and multi-platform support, gaining 24 stars today to rank 12th on the Rust daily trending list with 636 stars total.",
-        "uses": [
-          "Users who need live translated subtitles while watching foreign movies, streams, or online courses",
-          "People who want speech turned into bilingual text during lectures, meetings, or podcasts",
-          "Developers exploring Tauri + Rust desktop apps for real-time audio processing and subtitle rendering",
-          "Multi-platform users who need a lightweight subtitle tool on macOS, Windows, or Linux"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "roundhouse",
-      "full": "rubys/roundhouse",
-      "rank": 13,
-      "cat": "infra",
-      "lang": "Rust",
-      "stars": 0.4,
-      "today": "+10",
-      "today_n": 10,
-      "auto": false,
-      "zh": {
-        "tag": "把 Rails 应用当作规范，用编译标志切换部署目标语言",
-        "what": "Roundhouse 读取 Ruby/Rails 源码，通过全程序类型推断分析应用，再把同一份分析结果交给多个后端发射器，生成 Rust、Go、TypeScript、Swift 等独立项目。部署目标语言变成编译标志，而不是运行时选择。",
-        "content": "仓库包含分析器、LSP/MCP 服务器、浏览器 IDE，以及面向 Rust、Go、TypeScript、Crystal、Elixir、Kotlin、Swift、Python、C#、Ruby 的发射器，还有文档指南与一致性测试。",
-        "stack": "核心用 Rust 编写，依赖 Rails 约定做无注解类型推断，输出目标覆盖多语言运行时，并提供 LSP、MCP 与 Web IDE 接口。",
-        "hot": "421 星、今日新增 10，登上 GitHub Rust 日榜第 13 名；它提出“Rails 即规范、部署即编译标志”的新颖思路，吸引关注 Ruby 性能与多语言迁移的开发者。",
-        "uses": [
-          "Rails 团队希望把成熟应用迁移到 Rust/Go/TypeScript 等运行时，同时保留原有业务逻辑",
-          "Ruby 工具链开发者想用无注解静态分析、LSP 或 MCP 提升编辑器与 CI 体验",
-          "研究编译器、转译器与跨语言一致性测试的工程师",
-          "需要在不启动应用、不连数据库的情况下分析大型 Rails 代码库的团队"
-        ]
-      },
-      "en": {
-        "tag": "Rails as a specification; deployment target is a build flag",
-        "what": "Roundhouse reads Ruby/Rails source, performs whole-program type inference, and feeds the same analysis into multiple emitters to produce standalone projects in Rust, Go, TypeScript, Swift and more. The deployment target becomes a compiler flag rather than a runtime choice.",
-        "content": "It contains the analyzer, an LSP/MCP server, an in-browser IDE, emitters for Rust, Go, TypeScript, Crystal, Elixir, Kotlin, Swift, Python, C#, and Ruby, plus docs and conformance tests.",
-        "stack": "Core is written in Rust, relies on Rails conventions for annotation-free type inference, targets multiple language runtimes, and exposes LSP, MCP and web IDE interfaces.",
-        "hot": "421 stars with 10 added today, ranking 13th on GitHub's Rust daily trending; its novel idea of 'Rails as a specification, deployment as a build flag' attracts developers interested in Ruby performance and multi-language migration.",
-        "uses": [
-          "Rails teams wanting to migrate mature apps to Rust/Go/TypeScript runtimes while keeping business logic",
-          "Ruby tooling developers seeking annotation-free static analysis, LSP or MCP for editor and CI workflows",
-          "Engineers researching compilers, transpilers and cross-language conformance testing",
-          "Teams needing to analyze large Rails codebases without booting the app or touching a database"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "docker-agent",
-      "full": "docker/docker-agent",
-      "rank": 1,
+      "slug": "codex",
+      "full": "openai/codex",
+      "rank": 6,
       "cat": "agent",
-      "lang": "Go",
-      "stars": 4.3,
-      "today": "+766",
-      "today_n": 766,
+      "lang": "Rust",
+      "stars": 128.4,
+      "today": "+213",
+      "today_n": 213,
       "auto": false,
       "zh": {
-        "tag": "Docker 官方出品的 YAML 声明式 AI Agent 构建与运行工具",
-        "what": "docker-agent 让你用 YAML 声明式配置创建并运行可协作的 AI 智能体，无需写代码即可完成复杂任务。它作为 docker CLI 插件运行，支持多智能体编排、丰富的工具生态和多种模型提供商。",
-        "content": "仓库包含 Go 编写的 CLI 插件源码、examples/ 示例目录、docs/ 文档与演示 GIF，以及用于打包分享 Agent 的 OCI 注册表集成。",
-        "stack": "主语言为 Go，作为 docker CLI 插件分发；支持 OpenAI、Anthropic、Gemini、AWS Bedrock、Mistral、xAI 及 Docker Model Runner，并集成 MCP 工具与 BM25/向量混合检索 RAG。",
-        "hot": "作为 Docker 工程团队官方项目，它把 Agent 构建标准化为 YAML 并复用 Docker 生态，发布即冲上 GitHub Go 日榜第 1，单日新增 766 star，总 star 达 4251。",
+        "tag": "OpenAI 出品的本地终端编码代理",
+        "what": "Codex CLI 是 OpenAI 推出的编码代理，直接在你的电脑本地运行，可在终端里理解代码库并执行编码任务。它支持用 ChatGPT 账号登录，也能通过 API key 使用，并可与 VS Code、Cursor 等编辑器集成。",
+        "content": "仓库以 Rust 编写的 CLI 为主体，提供 Mac/Linux/Windows 安装脚本、npm 与 Homebrew 包，以及各平台预编译二进制 Release。",
+        "stack": "核心用 Rust 实现，通过 curl/PowerShell 脚本、npm（@openai/codex）和 Homebrew cask 分发，运行时依赖 OpenAI 的模型服务。",
+        "hot": "背靠 OpenAI 官方且定位轻量本地代理，已累积约 12.8 万 star，今日再增 213，稳居 Rust 日榜第 6。",
         "uses": [
-          "希望用 YAML 快速搭建 AI Agent 而无需写代码的开发者",
-          "需要多智能体协作与 MCP 工具集成的团队",
-          "想通过 OCI 注册表打包、分发和复用 Agent 配置的工程师",
-          "已在 Docker 生态中、想本地运行模型或接入云 API 的用户"
+          "习惯在终端工作的开发者，希望用命令行完成编码与重构",
+          "已订阅 ChatGPT Plus/Pro 等套餐、想复用额度跑代理的用户",
+          "需要在 VS Code、Cursor 等编辑器中集成 AI 编码助手的团队",
+          "关注本地运行、对代码隐私有要求的工程团队"
         ]
       },
       "en": {
-        "tag": "Docker's declarative YAML-based AI agent builder and runtime",
-        "what": "docker-agent lets you create and run collaborative AI agents through declarative YAML configs, with no coding required. It runs as a docker CLI plugin and supports multi-agent orchestration, a rich tool ecosystem, and multiple model providers.",
-        "content": "The repo contains the Go-based CLI plugin source, an examples/ directory, docs/ with a demo GIF, and OCI registry integration for packaging and sharing agents.",
-        "stack": "Written in Go and distributed as a docker CLI plugin; supports OpenAI, Anthropic, Gemini, AWS Bedrock, Mistral, xAI, and Docker Model Runner, with MCP tools and BM25/embedding hybrid RAG.",
-        "hot": "As an official Docker Engineering project, it standardizes agent building as YAML and reuses the Docker ecosystem, hitting #1 on GitHub's Go daily trending with 766 stars added in a day and 4,251 total.",
+        "tag": "OpenAI's lightweight coding agent that runs in your terminal",
+        "what": "Codex CLI is a coding agent from OpenAI that runs locally on your computer, understanding your codebase and carrying out coding tasks right in the terminal. It supports signing in with a ChatGPT account or an API key, and integrates with editors like VS Code and Cursor.",
+        "content": "The repo centers on a Rust-based CLI, offering install scripts for Mac/Linux/Windows, npm and Homebrew packages, plus prebuilt binaries for each platform in GitHub Releases.",
+        "stack": "Built in Rust and distributed via curl/PowerShell scripts, npm (@openai/codex) and a Homebrew cask, relying on OpenAI's model services at runtime.",
+        "hot": "Backed by OpenAI and positioned as a lightweight local agent, it has amassed ~128k stars, adding 213 today to rank 6th on the Rust daily trending list.",
         "uses": [
-          "Developers who want to build AI agents quickly with YAML and no code",
-          "Teams needing multi-agent collaboration and MCP tool integration",
-          "Engineers who want to package, distribute, and reuse agent configs via OCI registries",
-          "Docker ecosystem users running local models or cloud APIs"
+          "Developers who live in the terminal and want to code or refactor from the command line",
+          "ChatGPT Plus/Pro subscribers who want to reuse their plan for an agent",
+          "Teams wanting an AI coding assistant integrated into VS Code, Cursor and similar editors",
+          "Engineering teams that prefer local execution and care about code privacy"
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-08-23",
         "is_new": false,
         "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "vault",
-      "full": "hashicorp/vault",
-      "rank": 2,
-      "cat": "infra",
-      "lang": "Go",
-      "stars": 36.4,
-      "today": "+7",
-      "today_n": 7,
-      "auto": false,
-      "zh": {
-        "tag": "企业级密钥管理与特权访问控制平台",
-        "what": "Vault 是 HashiCorp 推出的密钥管理工具，用于安全存储和访问 API 密钥、密码、证书等敏感信息。它提供统一的接口、细粒度访问控制和详细的审计日志，并支持动态生成密钥。",
-        "content": "仓库包含 Vault 核心源码、命令行工具、插件系统、文档和部署配置，主要用 Go 编写。",
-        "stack": "基于 Go 语言开发，依赖 Consul 等存储后端，提供 HTTP API 和 CLI，支持多种认证和密钥引擎。",
-        "hot": "作为基础设施安全领域的标杆项目，Vault 拥有 36k+ stars，今日新增 7 星，位列 Go 日榜第 2，持续受到关注。",
-        "uses": [
-          "运维与安全团队 —— 集中管理密钥和证书，实现动态密钥轮换",
-          "开发人员 —— 通过 API 安全获取数据库凭据或云服务密钥",
-          "合规与审计人员 —— 利用详细审计日志满足合规要求",
-          "企业架构师 —— 构建零信任安全架构，实施特权访问管理"
+        "hist": [
+          {
+            "d": "2026-08-23",
+            "s": 114.8,
+            "r": 1
+          },
+          {
+            "d": "2026-08-24",
+            "s": 115.2,
+            "r": 1
+          },
+          {
+            "d": "2026-08-25",
+            "s": 117.0,
+            "r": 2
+          },
+          {
+            "d": "2026-08-26",
+            "s": 118.1,
+            "r": 12
+          }
         ]
-      },
-      "en": {
-        "tag": "Enterprise secrets management and privileged access platform",
-        "what": "Vault is a secrets management tool by HashiCorp for securely storing and accessing sensitive data like API keys, passwords, and certificates. It offers a unified interface, fine-grained access control, detailed audit logs, and dynamic secret generation.",
-        "content": "The repository contains Vault's core source code, CLI, plugin system, documentation, and deployment configurations, primarily written in Go.",
-        "stack": "Built in Go, it relies on storage backends like Consul, offers HTTP API and CLI, and supports various auth methods and secret engines.",
-        "hot": "As a benchmark project in infrastructure security, Vault has 36k+ stars, with 7 added today, ranking #2 on the Go daily trending list, maintaining steady attention.",
-        "uses": [
-          "Ops and security teams — centrally manage secrets and certificates with dynamic rotation",
-          "Developers — securely fetch database credentials or cloud keys via API",
-          "Compliance and audit staff — meet regulatory requirements with detailed audit logs",
-          "Enterprise architects — build zero-trust security and implement privileged access management"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
       }
     },
     {
@@ -5719,9 +5054,9 @@ window.TRENDING_DATA = {
       "rank": 7,
       "cat": "infra",
       "lang": "Go",
-      "stars": 182.4,
-      "today": "+128",
-      "today_n": 128,
+      "stars": 182.5,
+      "today": "+151",
+      "today_n": 151,
       "auto": false,
       "zh": {
         "tag": "本地一键运行开源大模型的工具与运行时",
@@ -5751,1135 +5086,1137 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "argo-cd",
-      "full": "argoproj/argo-cd",
+      "slug": "sub2api",
+      "full": "Wei-Shaw/sub2api",
+      "rank": 3,
+      "cat": "infra",
+      "lang": "Go",
+      "stars": 43.6,
+      "today": "+89",
+      "today_n": 89,
+      "auto": false,
+      "zh": {
+        "tag": "一站式 AI 订阅额度中转网关，多模型统一接入与拼车共享",
+        "what": "Sub2API 是一个开源的 AI API 网关平台，把 Claude、OpenAI、Gemini、Grok 等订阅统一接入到同一入口。它支持拼车共享订阅额度，让多人更高效地分摊成本，同时兼容原生工具无缝使用。",
+        "content": "仓库包含 Go 后端服务与 Vue 3 前端管理面板，配有 Docker 部署配置、多语言 README（中/英/日）以及 logo、赞助商等资源文件。",
+        "stack": "后端使用 Go 1.27，前端为 Vue 3.4+，数据层依赖 PostgreSQL 15+ 与 Redis 7+，并通过 Docker 一键部署。",
+        "hot": "凭借 43573 颗星和日增 89 星冲上 GitHub Go 日榜第 3，切中了多模型订阅成本高、额度难共享的痛点。",
+        "uses": [
+          "想用一份订阅同时访问 Claude、OpenAI、Gemini、Grok 的个人开发者",
+          "需要在小团队内拼车共享 AI 订阅额度、分摊成本的团队",
+          "希望统一管理多个上游 AI 服务密钥与配额的运维人员",
+          "研究 AI API 网关与订阅分发架构的技术爱好者"
+        ]
+      },
+      "en": {
+        "tag": "One-stop AI subscription gateway for unified multi-model access and quota sharing",
+        "what": "Sub2API is an open-source AI API gateway that unifies Claude, OpenAI, Gemini, and Grok subscriptions behind a single endpoint. It supports shared subscription pooling so multiple users can split costs efficiently while keeping native tooling working seamlessly.",
+        "content": "The repo ships a Go backend service plus a Vue 3 admin frontend, along with Docker deployment configs, multilingual READMEs (EN/CN/JA), and asset files such as logos and sponsor materials.",
+        "stack": "Backend is Go 1.27, frontend is Vue 3.4+, with PostgreSQL 15+ and Redis 7+ for data, all deployable via Docker.",
+        "hot": "With 43,573 stars and +89 today, it hit #3 on GitHub's daily Go trending by targeting the pain of costly multi-model subscriptions and hard-to-share quotas.",
+        "uses": [
+          "Individual developers wanting one subscription to reach Claude, OpenAI, Gemini, and Grok",
+          "Small teams pooling AI subscription quotas to split costs",
+          "Ops engineers managing multiple upstream AI keys and quotas centrally",
+          "Tech enthusiasts studying AI API gateway and quota-distribution architecture"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "ragflow",
+      "full": "infiniflow/ragflow",
       "rank": 4,
+      "cat": "ai",
+      "lang": "Go",
+      "stars": 91.9,
+      "today": "+81",
+      "today_n": 81,
+      "auto": false,
+      "zh": {
+        "tag": "融合 RAG 与 Agent 的开源检索引擎，为 LLM 打造上下文层",
+        "what": "RAGFlow 是一个开源检索增强生成（RAG）引擎，将前沿 RAG 技术与 Agent 能力融合，为 LLM 提供更优质的上下文层。它支持深度文档理解，能从复杂格式文档中精准抽取内容并驱动可追溯的问答与任务执行。",
+        "content": "仓库包含后端服务、Web 前端、文档解析与检索管线、Agent 编排模块，以及多语言 README 和 Docker 部署配置，提供云服务与自托管两种形态。",
+        "stack": "主语言为 Go，配套 Python 组件与 Web 前端，依赖 Docker 部署，采用 Apache-2.0 许可证，集成向量检索与 LLM 调用。",
+        "hot": "已获 91,921 颗星，今日新增 81 星，位列 GitHub Trending Go 日榜第 4，反映出 RAG 与 Agent 结合方向持续受到开发者高度关注。",
+        "uses": [
+          "需要为 LLM 构建企业级知识库与检索问答的开发者",
+          "希望在 RAG 流程中引入 Agent 编排能力的 AI 工程师",
+          "评估开源 RAG 引擎以替代闭源方案的技术团队",
+          "需要处理复杂格式文档并保证答案可追溯的产品团队"
+        ]
+      },
+      "en": {
+        "tag": "Open-source RAG engine fusing retrieval with Agent capabilities for LLM context",
+        "what": "RAGFlow is an open-source Retrieval-Augmented Generation engine that fuses cutting-edge RAG with Agent capabilities to build a superior context layer for LLMs. It offers deep document understanding, extracting content from complex files to power traceable Q&A and task execution.",
+        "content": "The repo includes backend services, a web frontend, document parsing and retrieval pipelines, Agent orchestration modules, plus multilingual READMEs and Docker deployment configs, offered as both cloud and self-hosted options.",
+        "stack": "Primarily written in Go with Python components and a web frontend, deployed via Docker under Apache-2.0, integrating vector retrieval and LLM invocation.",
+        "hot": "With 91,921 stars and 81 added today, it ranks 4th on GitHub Trending (Go), reflecting sustained developer interest in combining RAG with Agent workflows.",
+        "uses": [
+          "Developers building enterprise knowledge bases and retrieval QA for LLMs",
+          "AI engineers wanting Agent orchestration within RAG pipelines",
+          "Teams evaluating open-source RAG engines to replace closed solutions",
+          "Product teams handling complex documents with traceable answers"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-08-13",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-08-13",
+            "s": 87.5,
+            "r": 9
+          },
+          {
+            "d": "2026-08-14",
+            "s": 88.0,
+            "r": 17
+          },
+          {
+            "d": "2026-08-15",
+            "s": 88.4,
+            "r": 10
+          }
+        ]
+      }
+    },
+    {
+      "slug": "vault",
+      "full": "hashicorp/vault",
+      "rank": 2,
       "cat": "infra",
       "lang": "Go",
-      "stars": 24.4,
-      "today": "+3",
-      "today_n": 3,
-      "auto": false,
-      "zh": {
-        "tag": "Kubernetes 声明式 GitOps 持续交付工具",
-        "what": "Argo CD 是面向 Kubernetes 的声明式 GitOps 持续交付工具，以 Git 仓库中的应用定义与配置作为唯一事实来源。它持续对比集群实际状态与 Git 中期望状态，自动或手动将应用同步到目标状态，实现可审计、可回滚的部署流程。",
-        "content": "仓库包含 Argo CD 的核心服务端与 CLI 源码、Web UI、Helm Chart 与安装清单、文档以及集成测试等，是一个完整的生产级项目。",
-        "stack": "主要使用 Go 语言开发，依赖 Kubernetes API 与控制器模式，提供 Helm Chart、Kustomize 等部署方式，并集成 SLSA、OpenSSF Scorecard 等安全实践。",
-        "hot": "作为 CNCF 毕业项目与 GitOps 事实标准，Argo CD 拥有 24350 颗星，今日仍登上 GitHub Trending Go 日榜第 4 名，说明其在云原生持续交付领域持续受到关注。",
-        "uses": [
-          "Kubernetes 平台工程师与 SRE，用于实现 GitOps 化的应用部署与状态同步",
-          "DevOps 团队希望以 Git 为单一事实来源，获得可审计、可回滚的发布流程",
-          "需要管理多集群、多环境配置一致性的云原生组织",
-          "希望将 CI 与 CD 解耦、采用声明式交付的开发者"
-        ]
-      },
-      "en": {
-        "tag": "Declarative GitOps continuous delivery for Kubernetes",
-        "what": "Argo CD is a declarative GitOps continuous delivery tool for Kubernetes that treats Git repositories as the single source of truth for application definitions and configurations. It continuously compares the live cluster state with the desired state in Git and syncs applications automatically or manually, enabling auditable and rollback-friendly deployments.",
-        "content": "The repository contains the core server and CLI source code, the web UI, Helm charts and install manifests, documentation, and integration tests, forming a complete production-grade project.",
-        "stack": "Primarily written in Go, it relies on the Kubernetes API and controller patterns, ships Helm charts and Kustomize manifests, and follows security practices like SLSA and OpenSSF Scorecard.",
-        "hot": "As a CNCF graduated project and the de facto GitOps standard, Argo CD has 24,350 stars and still ranks 4th on GitHub Trending's daily Go list, showing sustained interest in cloud-native continuous delivery.",
-        "uses": [
-          "Kubernetes platform engineers and SREs implementing GitOps-based application deployment and state sync",
-          "DevOps teams wanting Git as the single source of truth for auditable, rollback-friendly releases",
-          "Cloud-native organizations managing consistent configurations across multiple clusters and environments",
-          "Developers seeking to decouple CI from CD with declarative delivery"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "lego",
-      "full": "go-acme/lego",
-      "rank": 5,
-      "cat": "infra",
-      "lang": "Go",
-      "stars": 9.9,
-      "today": "+2",
-      "today_n": 2,
-      "auto": false,
-      "zh": {
-        "tag": "Go 编写的 Let's Encrypt/ACME 客户端与证书库",
-        "what": "lego 是一个用 Go 编写的 ACME 客户端与库，用于向 Let's Encrypt 及其他 ACME CA 申请、续期和吊销 TLS 证书。它既能作为命令行工具使用，也能作为库集成到自己的 Go 项目中，实现证书自动化与 HTTPS 部署。",
-        "content": "仓库包含 CLI 与库两套使用方式，支持 HTTP-01、DNS-01、TLS-ALPN-01 等挑战，内置 200 多个 DNS 提供商实现，并提供完整文档站点。",
-        "stack": "基于 Go 开发，遵循 ACME v2（RFC 8555）等多项 RFC 与草案，支持 Docker 镜像发布，依赖各 DNS 提供商的 API SDK。",
-        "hot": "作为 Let's Encrypt 生态中成熟的 Go 实现，lego 已积累近万 star，长期被大量项目与运维脚本依赖，今日仍登上 Go 日榜第 5。",
-        "uses": [
-          "需要为服务自动申请和续期 TLS 证书的运维/后端工程师",
-          "希望在自己的 Go 应用中集成 ACME 证书管理的开发者",
-          "使用自建或第三方 DNS 服务、需要 DNS-01 挑战自动化的团队",
-          "想用 Docker 或 CLI 快速搭建 HTTPS 证书流水线的场景"
-        ]
-      },
-      "en": {
-        "tag": "Go-based Let's Encrypt/ACME client and certificate library",
-        "what": "lego is an ACME client and library written in Go for obtaining, renewing, and revoking TLS certificates from Let's Encrypt and other ACME CAs. It works both as a CLI tool and as a Go library for automating certificates and HTTPS.",
-        "content": "The repo offers both CLI and library usage, supports HTTP-01, DNS-01, and TLS-ALPN-01 challenges, ships 200+ DNS provider implementations, and includes a full documentation site.",
-        "stack": "Built in Go, it follows ACME v2 (RFC 8555) and several related RFCs/drafts, ships a Docker image, and depends on various DNS provider API SDKs.",
-        "hot": "As a mature Go implementation in the Let's Encrypt ecosystem, lego has nearly 10k stars and is widely relied on by projects and ops scripts, still ranking #5 on today's Go trending list.",
-        "uses": [
-          "DevOps/backend engineers needing automatic TLS certificate issuance and renewal",
-          "Developers integrating ACME certificate management into Go applications",
-          "Teams using custom or third-party DNS services that need DNS-01 challenge automation",
-          "Scenarios wanting a quick HTTPS certificate pipeline via Docker or CLI"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "llm-d-router",
-      "full": "llm-d/llm-d-router",
-      "rank": 6,
-      "cat": "infra",
-      "lang": "Go",
-      "stars": 0.4,
-      "today": "+3",
-      "today_n": 3,
-      "auto": false,
-      "zh": {
-        "tag": "面向 LLM 推理的智能路由入口，感知负载与前缀缓存",
-        "what": "llm-d Router 是 LLM 推理流量的智能入口，提供负载感知与前缀缓存感知的路由、请求优先级和高级流控，以满足复杂的服务目标。它通过 Endpoint Picker（EPP）与 Envoy 等生产级代理集成，把实时信号注入数据平面来优化请求放置。",
-        "content": "仓库核心是 Endpoint Picker（EPP）路由引擎，以及 InferenceObjective、InferenceModelRewrite 等请求管理 API，并包含架构文档与示意图。",
-        "stack": "以 Go 为主语言，基于 Kubernetes Gateway API 与 InferencePool 扩展，通过 ext-proc 协议对接 Envoy、Istio、AgentGateway 等 L7 代理。",
-        "hot": "作为 llm-d 项目的推理调度组件，它把 Inference Scheduler 更名为 llm-d Router 并合并了 GIE 的核心 EPP 代码，踩中 LLM 推理基础设施热点，今日登上 Go 日榜第 6，收获 383 星。",
-        "uses": [
-          "LLM 推理平台工程师，需要为多模型服务做智能流量调度",
-          "Kubernetes 与 Gateway API 使用者，希望接入 Envoy/Istio 做推理路由",
-          "做 A/B 测试与灰度发布的团队，需要模型名重写和优先级控制",
-          "研究 KV 缓存局部性与负载均衡优化的基础设施开发者"
-        ]
-      },
-      "en": {
-        "tag": "The intelligent entry point for LLM inference traffic, load- and prefix-cache aware",
-        "what": "llm-d Router is the intelligent entry point for inference traffic, delivering LLM load- and prefix-cache-aware routing, request prioritization, and advanced flow control to meet complex serving objectives. Its Endpoint Picker (EPP) integrates with production proxies like Envoy to inject real-time signals into the data plane and optimize request placement.",
-        "content": "The repo centers on the Endpoint Picker (EPP) routing engine plus request-management APIs such as InferenceObjective and InferenceModelRewrite, along with architecture docs and diagrams.",
-        "stack": "Written mainly in Go, it builds on the Kubernetes Gateway API and the InferencePool extension, integrating with L7 proxies like Envoy, Istio, and AgentGateway via the ext-proc protocol.",
-        "hot": "As the inference scheduling component of the llm-d project, it was renamed from Inference Scheduler to llm-d Router and absorbed core EPP code from GIE, riding the LLM inference infra wave to rank #6 on the Go daily trending list with 383 stars.",
-        "uses": [
-          "LLM inference platform engineers who need smart traffic scheduling across multiple model services",
-          "Kubernetes and Gateway API users who want to route inference through Envoy or Istio",
-          "Teams running A/B tests and canary releases that need model-name rewriting and priority control",
-          "Infra developers exploring KV-cache locality and load-balancing optimizations"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "external-secrets",
-      "full": "external-secrets/external-secrets",
-      "rank": 7,
-      "cat": "infra",
-      "lang": "Go",
-      "stars": 6.9,
-      "today": "+2",
-      "today_n": 2,
-      "auto": false,
-      "zh": {
-        "tag": "把外部密钥管理系统的密钥自动同步注入为 K8s Secret 的 Operator",
-        "what": "External Secrets Operator 是一个 Kubernetes Operator，能从 AWS Secrets Manager、HashiCorp Vault、GCP、Azure Key Vault 等第三方密钥管理系统读取信息，并自动将其注入为 Kubernetes Secret。它让集群内的应用无需改动代码即可消费集中管理的密钥。",
-        "content": "仓库包含 Operator 的 Go 源码、CRD 定义、针对各大密钥后端的 Provider 实现、Helm Chart 与部署清单，以及完整的文档与贡献指南。",
-        "stack": "以 Go 编写，基于 Kubernetes Operator/Controller 模式与 CRD，通过 Helm Chart 和 OperatorHub 分发，支持众多密钥后端 Provider。",
-        "hot": "作为云原生密钥管理的标准方案，它已积累 6898 颗星并登上 Go 日榜第 7，今日新增 2 星，持续受到关注。",
-        "uses": [
-          "Kubernetes 平台工程师需要统一管理多来源密钥的场景",
-          "安全团队希望避免密钥以明文形式散落在集群中",
-          "使用 AWS/Vault/Azure 等外部密钥管理系统的运维人员",
-          "希望以 GitOps 方式声明式同步密钥的开发者"
-        ]
-      },
-      "en": {
-        "tag": "A Kubernetes operator that syncs secrets from external managers into native K8s Secrets",
-        "what": "External Secrets Operator is a Kubernetes operator that reads information from third-party secret managers like AWS Secrets Manager, HashiCorp Vault, GCP, and Azure Key Vault, then automatically injects the values as Kubernetes Secrets. It lets in-cluster apps consume centrally managed secrets without code changes.",
-        "content": "The repo contains the operator's Go source, CRD definitions, provider implementations for each secret backend, Helm charts and deployment manifests, plus full docs and contribution guides.",
-        "stack": "Written in Go, built on the Kubernetes operator/controller pattern with CRDs, distributed via Helm charts and OperatorHub, with providers for many secret backends.",
-        "hot": "As a standard solution for cloud-native secret management, it has gathered 6,898 stars and ranks 7th on the Go daily trending list, adding 2 stars today.",
-        "uses": [
-          "Kubernetes platform engineers needing to unify secrets from multiple sources",
-          "Security teams wanting to avoid plaintext secrets scattered across clusters",
-          "Operators using external managers like AWS, Vault, or Azure",
-          "Developers wanting declarative, GitOps-style secret syncing"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "opentelemetry-collector-contrib",
-      "full": "open-telemetry/opentelemetry-collector-contrib",
-      "rank": 13,
-      "cat": "infra",
-      "lang": "Go",
-      "stars": 5.0,
-      "today": "+4",
-      "today_n": 4,
-      "auto": false,
-      "zh": {
-        "tag": "OpenTelemetry Collector 的官方贡献仓库，提供丰富的接收器、处理器、导出器和扩展。",
-        "what": "这是 OpenTelemetry Collector 的贡献仓库，包含由社区维护的各类组件，如接收器、处理器、导出器、扩展和连接器。它扩展了核心 Collector 的功能，支持多种数据源和目的地，用于构建可观测性数据管道。",
-        "content": "仓库按组件类型组织目录，包括 receiver/、processor/、exporter/、extension/、connector/ 等，每个组件有独立的 Go 模块和文档。",
-        "stack": "主要使用 Go 语言开发，依赖 OpenTelemetry Collector 核心库和各类第三方 SDK，遵循 OpenTelemetry 规范。",
-        "hot": "作为 OpenTelemetry 生态的关键部分，拥有近 5000 星标，今日登上 Go 趋势榜第 13 名，反映出可观测性领域的持续热度。",
-        "uses": [
-          "可观测性工程师：需要为 OpenTelemetry Collector 添加自定义或社区组件。",
-          "DevOps 团队：构建统一的数据收集管道，集成多种监控后端。",
-          "开源贡献者：参与 OpenTelemetry 生态建设，贡献新的接收器或导出器。"
-        ]
-      },
-      "en": {
-        "tag": "Official contrib repository for OpenTelemetry Collector, offering a rich set of receivers, processors, exporters, and extensions.",
-        "what": "This is the contrib repository for OpenTelemetry Collector, containing community-maintained components such as receivers, processors, exporters, extensions, and connectors. It extends the core Collector's capabilities to support diverse data sources and destinations for building observability pipelines.",
-        "content": "The repository organizes components by type in directories like receiver/, processor/, exporter/, extension/, and connector/, each with its own Go module and documentation.",
-        "stack": "Primarily developed in Go, depending on the OpenTelemetry Collector core libraries and various third-party SDKs, adhering to the OpenTelemetry specification.",
-        "hot": "As a key part of the OpenTelemetry ecosystem, it has nearly 5,000 stars and ranked 13th on today's Go trending list, reflecting the ongoing popularity of observability.",
-        "uses": [
-          "Observability engineers: need to add custom or community components to OpenTelemetry Collector.",
-          "DevOps teams: build unified data collection pipelines integrating various monitoring backends.",
-          "Open-source contributors: participate in the OpenTelemetry ecosystem by contributing new receivers or exporters."
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "kai-scheduler",
-      "full": "kai-scheduler/KAI-Scheduler",
-      "rank": 9,
-      "cat": "infra",
-      "lang": "Go",
-      "stars": 1.6,
-      "today": "+3",
-      "today_n": 3,
-      "auto": false,
-      "zh": {
-        "tag": "面向大规模 AI 负载的 Kubernetes 原生 GPU 调度器",
-        "what": "KAI Scheduler 是一个开源、可扩展的 Kubernetes 调度器，专为 AI/机器学习负载优化 GPU 资源分配。它面向数千节点的大规模 GPU 集群与高吞吐任务，覆盖从交互式小任务到大规模训练与推理的完整 AI 生命周期，并保证不同使用方之间的资源公平性。",
-        "content": "仓库主体是 Go 编写的调度器源码，配套 docs 文档与图片资源（如 logo、拓扑感知调度说明），并带有许可证、覆盖率、OpenSSF 最佳实践等徽章。",
-        "stack": "以 Go 为主要语言，构建在 Kubernetes 调度框架之上，可与其他调度器并存运行，并集成 Grove、Dynamo 等生态组件。",
-        "hot": "AI 训练与推理对 GPU 调度需求激增，而 KAI 支持拓扑感知与层级 Gang 调度，切中大规模集群痛点，已获约 1559 星并登上 GitHub Go 日榜第 9。",
-        "uses": [
-          "Kubernetes 集群管理员，需要为多团队公平分配 GPU 资源",
-          "AI 平台工程师，运行大规模训练与推理任务",
-          "需要拓扑感知或 Gang 调度的分布式 AI 工作负载团队"
-        ]
-      },
-      "en": {
-        "tag": "A Kubernetes-native scheduler for large-scale AI GPU workloads",
-        "what": "KAI Scheduler is an open-source, scalable Kubernetes scheduler that optimizes GPU allocation for AI and ML workloads. Built for GPU clusters with thousands of nodes and high task throughput, it covers the full AI lifecycle from small interactive jobs to large training and inference while keeping resource fairness across consumers.",
-        "content": "The repo mainly contains the Go scheduler source code, along with a docs folder and image assets (logo, topology-aware scheduling docs), plus badges for license, coverage, and OpenSSF best practices.",
-        "stack": "Written primarily in Go and built on the Kubernetes scheduling framework, it can run alongside other schedulers and integrates with ecosystem tools like Grove and Dynamo.",
-        "hot": "With AI training and inference driving huge GPU scheduling demand, KAI's topology-aware and hierarchical gang scheduling addresses large-cluster pain points, earning ~1,559 stars and the #9 spot on GitHub's daily Go trending list.",
-        "uses": [
-          "Kubernetes cluster admins who need fair GPU sharing across teams",
-          "AI platform engineers running large-scale training and inference jobs",
-          "Teams with distributed AI workloads needing topology-aware or gang scheduling"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "wx_channels_download",
-      "full": "ltaoo/wx_channels_download",
-      "rank": 10,
-      "cat": "other",
-      "lang": "Go",
-      "stars": 9.7,
-      "today": "+15",
-      "today_n": 15,
-      "auto": false,
-      "zh": {
-        "tag": "微信视频号视频下载工具，支持多质量选择",
-        "what": "这是一个微信视频号下载器，体积小、使用简单，支持 macOS 和 Windows 系统。它通过代理和证书安装，在微信 PC 端视频页面注入下载按钮，让用户下载视频号视频。",
-        "content": "仓库包含 Go 语言编写的后端服务、前端解密代码、构建脚本以及文档截图。主要文件有 main.go、build/build.sh 和 docs 目录下的使用说明图片。",
-        "stack": "主要使用 Go 语言开发，依赖证书安装和代理服务，前端解密参考了 WechatVideoSniffer2.0，后端解密来自 WechatSphDecrypt。",
-        "hot": "该项目在 GitHub 上已获得 9701 颗星，今日新增 15 星，位列 Go 语言日榜第 10 名。它解决了微信视频号视频下载的需求，且使用简单，因此受到关注。",
-        "uses": [
-          "需要下载微信视频号视频的普通用户",
-          "对微信视频号视频解密技术感兴趣的研究者",
-          "需要在 macOS 或 Windows 上快速获取视频内容的开发者"
-        ]
-      },
-      "en": {
-        "tag": "WeChat Channels video downloader with multi-quality support",
-        "what": "A WeChat Channels video downloader that is small and easy to use, supporting macOS and Windows. It injects a download button into the WeChat PC client via proxy and certificate installation, allowing users to download videos.",
-        "content": "The repository contains a Go backend service, frontend decryption code, build scripts, and documentation screenshots. Key files include main.go, build/build.sh, and usage images under docs.",
-        "stack": "Primarily developed in Go, relying on certificate installation and proxy services. Frontend decryption references WechatVideoSniffer2.0, and backend decryption comes from WechatSphDecrypt.",
-        "hot": "The project has gained 9,701 stars on GitHub, with 15 new stars today, ranking 10th on the Go daily trending list. It addresses the need to download WeChat Channels videos and is easy to use, attracting attention.",
-        "uses": [
-          "Regular users who need to download WeChat Channels videos",
-          "Researchers interested in WeChat Channels video decryption technology",
-          "Developers who need to quickly obtain video content on macOS or Windows"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "kyverno",
-      "full": "kyverno/kyverno",
-      "rank": 11,
-      "cat": "infra",
-      "lang": "Go",
-      "stars": 8.2,
-      "today": "+4",
-      "today_n": 4,
-      "auto": false,
-      "zh": {
-        "tag": "Kubernetes 原生策略引擎，用 YAML 实现策略即代码",
-        "what": "Kyverno 是一个为平台工程团队设计的 Kubernetes 原生策略引擎，通过策略即代码实现安全、合规、自动化与治理。它可以在准入控制阶段对资源进行校验、变更、生成和清理，无需学习新的编程语言。",
-        "content": "仓库包含 Kyverno 核心引擎的 Go 源码、CLI、控制器与策略示例，以及文档、演示教程和策略库入口。",
-        "stack": "主要使用 Go 语言开发，深度集成 Kubernetes admission webhook 与 CRD，遵循 Apache-2.0 许可，并带有 SLSA 3、OpenSSF Scorecard 等供应链安全徽章。",
-        "hot": "作为 CNCF 生态中主流的策略引擎，Kyverno 已积累 8231 颗星，今日登上 GitHub Trending Go 日榜第 11 名，说明云原生策略治理需求持续升温。",
-        "uses": [
-          "Kubernetes 平台工程师，用于统一实施安全与合规策略",
-          "DevOps/SRE 团队，自动化资源校验、变更与清理",
-          "安全合规负责人，需要策略即代码的审计与治理能力",
-          "云原生学习者，想了解 Kubernetes 准入控制与策略引擎实践"
-        ]
-      },
-      "en": {
-        "tag": "Kubernetes-native policy engine for policy-as-code in YAML",
-        "what": "Kyverno is a Kubernetes-native policy engine built for platform engineering teams, enabling security, compliance, automation, and governance through policy-as-code. It can validate, mutate, generate, and clean up resources at admission time without requiring a new programming language.",
-        "content": "The repo contains the Go source of the Kyverno core engine, CLI, controllers, and policy examples, plus docs, demos, and links to a policy library.",
-        "stack": "Written primarily in Go, deeply integrated with Kubernetes admission webhooks and CRDs, licensed under Apache-2.0, with supply-chain badges like SLSA 3 and OpenSSF Scorecard.",
-        "hot": "As a leading policy engine in the CNCF ecosystem, Kyverno has gathered 8,231 stars and ranked 11th on GitHub Trending (Go) today, reflecting growing demand for cloud-native policy governance.",
-        "uses": [
-          "Kubernetes platform engineers enforcing unified security and compliance policies",
-          "DevOps/SRE teams automating resource validation, mutation, and cleanup",
-          "Security and compliance leads needing policy-as-code audit and governance",
-          "Cloud-native learners exploring Kubernetes admission control and policy engines"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "toolhive",
-      "full": "stacklok/toolhive",
-      "rank": 12,
-      "cat": "agent",
-      "lang": "Go",
-      "stars": 2.3,
+      "stars": 36.4,
       "today": "+8",
       "today_n": 8,
       "auto": false,
       "zh": {
-        "tag": "企业级 MCP 服务器运行与管理平台",
-        "what": "ToolHive 是一个开源的企业级平台，用于安全地运行和管理 Model Context Protocol（MCP）服务器。它把每个 MCP 服务器封装进隔离容器，按请求执行身份与访问策略，并提供可观测性，帮助团队把 MCP 投入生产环境。",
-        "content": "仓库包含 Go 编写的 CLI 与核心运行时、Kubernetes operator、容器隔离与策略执行组件，以及配套的文档、图表和发布/CI 配置。",
-        "stack": "主要使用 Go 语言开发，依赖容器运行时（如 Docker）实现隔离，并集成 Kubernetes operator、身份提供商（IdP）与 OpenTelemetry 可观测性。",
-        "hot": "随着 MCP 生态爆发，企业急需安全可控的运行方案，ToolHive 以自托管、容器隔离和 K8s 原生支持切中痛点，已获 2255 颗星并登上 GitHub Go 日榜第 12 名。",
+        "tag": "企业级密钥管理与特权访问控制平台",
+        "what": "Vault 是 HashiCorp 推出的密钥管理工具，用于安全存储和访问 API 密钥、密码、证书等敏感信息。它提供统一的接口、细粒度访问控制和详细的审计日志，并支持动态生成密钥。",
+        "content": "仓库包含 Vault 核心源码、命令行工具、插件系统、文档和部署配置，主要用 Go 编写。",
+        "stack": "基于 Go 语言开发，依赖 Consul 等存储后端，提供 HTTP API 和 CLI，支持多种认证和密钥引擎。",
+        "hot": "作为基础设施安全领域的标杆项目，Vault 拥有 36k+ stars，今日新增 7 星，位列 Go 日榜第 2，持续受到关注。",
         "uses": [
-          "开发者：一键连接 Claude Code、Cursor、GitHub Copilot 等客户端，安全运行 MCP 服务器并节省 token",
-          "平台工程师：在现有 Kubernetes 基础设施上部署和管理 MCP，统一策略与可观测性",
-          "企业团队：自托管 MCP 注册表与网关，满足数据合规与审计要求",
-          "安全团队：通过容器隔离与身份策略消除影子 MCP 使用，获取审计日志"
+          "运维与安全团队 —— 集中管理密钥和证书，实现动态密钥轮换",
+          "开发人员 —— 通过 API 安全获取数据库凭据或云服务密钥",
+          "合规与审计人员 —— 利用详细审计日志满足合规要求",
+          "企业架构师 —— 构建零信任安全架构，实施特权访问管理"
         ]
       },
       "en": {
-        "tag": "Enterprise-grade platform for running and managing MCP servers",
-        "what": "ToolHive is an open-source, enterprise-grade platform for securely running and managing Model Context Protocol (MCP) servers. It wraps each MCP server in an isolated container, enforces per-request identity and access policy, and provides the observability platform teams need to put MCP into production.",
-        "content": "The repo contains a Go-based CLI and core runtime, a Kubernetes operator, container isolation and policy enforcement components, plus documentation, diagrams, and release/CI configuration.",
-        "stack": "Primarily written in Go, it relies on a container runtime (e.g., Docker) for isolation and integrates with Kubernetes operators, identity providers (IdP), and OpenTelemetry for observability.",
-        "hot": "As the MCP ecosystem explodes, enterprises urgently need secure and controllable runtime solutions; ToolHive hits the sweet spot with self-hosting, container isolation, and Kubernetes-native support, earning 2,255 stars and ranking 12th on GitHub's daily Go trending list.",
+        "tag": "Enterprise secrets management and privileged access platform",
+        "what": "Vault is a secrets management tool by HashiCorp for securely storing and accessing sensitive data like API keys, passwords, and certificates. It offers a unified interface, fine-grained access control, detailed audit logs, and dynamic secret generation.",
+        "content": "The repository contains Vault's core source code, CLI, plugin system, documentation, and deployment configurations, primarily written in Go.",
+        "stack": "Built in Go, it relies on storage backends like Consul, offers HTTP API and CLI, and supports various auth methods and secret engines.",
+        "hot": "As a benchmark project in infrastructure security, Vault has 36k+ stars, with 7 added today, ranking #2 on the Go daily trending list, maintaining steady attention.",
         "uses": [
-          "Developers: connect Claude Code, Cursor, GitHub Copilot, or other clients with one click, run MCP servers securely, and save tokens",
-          "Platform engineers: run and manage MCP on existing Kubernetes infrastructure with unified policy and observability",
-          "Enterprises: self-host MCP registry and gateway to meet data compliance and audit requirements",
-          "Security teams: eliminate shadow MCP use with container isolation and identity policy, and get audit logs"
+          "Ops and security teams — centrally manage secrets and certificates with dynamic rotation",
+          "Developers — securely fetch database credentials or cloud keys via API",
+          "Compliance and audit staff — meet regulatory requirements with detailed audit logs",
+          "Enterprise architects — build zero-trust security and implement privileged access management"
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "lazygit",
-      "full": "jesseduffield/lazygit",
-      "rank": 13,
-      "cat": "other",
-      "lang": "Go",
-      "stars": 83.0,
-      "today": "+49",
-      "today_n": 49,
-      "auto": false,
-      "zh": {
-        "tag": "终端里的 Git 图形化操作界面",
-        "what": "lazygit 是一个用 Go 编写的终端 Git 客户端，把提交、分支、暂存、变基、cherry-pick 等常用操作变成可视化面板与快捷键。它让开发者无需记忆大量 Git 命令，在终端里就能高效完成日常版本控制工作。",
-        "content": "仓库主体是 Go 源码，包含命令面板、文件/分支/提交视图等模块，并配有安装脚本、文档、演示视频与多平台发布配置。",
-        "stack": "基于 Go 开发，使用 gocui 等终端 UI 库，依赖 Git 命令行，支持 macOS、Linux 与 Windows，可通过 Homebrew 等包管理器安装。",
-        "hot": "作为老牌终端 Git 工具，它已积累 83025 颗星，今日仍新增 49 星并登上 Go 日榜第 13 名，说明终端工作流需求持续旺盛。",
-        "uses": [
-          "习惯在终端工作的开发者，用键盘快速完成 Git 操作",
-          "不想死记 Git 命令、希望可视化查看分支与提交的人",
-          "需要在服务器或远程环境中进行版本控制的运维与后端工程师"
-        ]
-      },
-      "en": {
-        "tag": "A simple terminal UI for Git commands",
-        "what": "lazygit is a terminal-based Git client written in Go that turns commits, branches, staging, rebasing, and cherry-picking into visual panels and keybindings. It lets developers handle everyday version control efficiently in the terminal without memorizing lots of Git commands.",
-        "content": "The repo mainly contains Go source code with modules for command panels and file/branch/commit views, plus install scripts, docs, demo videos, and multi-platform release configs.",
-        "stack": "Built in Go using terminal UI libraries like gocui, it depends on the Git CLI and supports macOS, Linux, and Windows, installable via Homebrew and other package managers.",
-        "hot": "As a veteran terminal Git tool, it has accumulated 83,025 stars and still gained 49 today, ranking 13th on the Go daily trending list, showing sustained demand for terminal workflows.",
-        "uses": [
-          "Developers who live in the terminal and want fast keyboard-driven Git operations",
-          "People who dislike memorizing Git commands and prefer visual branch and commit views",
-          "DevOps and backend engineers doing version control on servers or remote environments"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "navidrome",
-      "full": "navidrome/navidrome",
-      "rank": 14,
+      "slug": "new-api",
+      "full": "QuantumNous/new-api",
+      "rank": 6,
       "cat": "infra",
       "lang": "Go",
-      "stars": 24.0,
-      "today": "+22",
-      "today_n": 22,
+      "stars": 49.5,
+      "today": "+102",
+      "today_n": 102,
       "auto": false,
       "zh": {
-        "tag": "自托管音乐流媒体服务器，打造属于你的私人 Spotify",
-        "what": "Navidrome 是一个开源的基于 Web 的音乐收藏服务器与流媒体播放器，让你可以在任意浏览器或移动设备上收听自己的音乐库。它支持按元数据整理曲库、转码、多用户与播放列表，相当于把 Spotify 的体验搬到自己的服务器上。",
-        "content": "仓库包含 Go 编写的后端服务、内嵌的 Web 前端（React）、Docker 部署配置、多语言翻译文件与主题支持，另有完整的文档与 CI 流水线。",
-        "stack": "主语言为 Go，前端使用 React/TypeScript，数据存储支持 SQLite、PostgreSQL 等，可通过 Docker 一键部署，并兼容 Subsonic API 生态客户端。",
-        "hot": "凭借 24k+ stars 稳居自托管音乐方案头部，今日再登 Go 日榜第 14 名，反映出用户对订阅制音乐服务替代方案与数据自主权的持续需求。",
+        "tag": "自托管 AI 网关：多模型聚合、协议互转与统一分发",
+        "what": "New API 是一个自托管的 AI 网关，把 OpenAI、Anthropic、Gemini、Azure、Bedrock、DeepSeek、Qwen 等上游模型服务聚合起来，对外暴露统一的 API。它支持在 OpenAI、Claude、Gemini 等格式之间互相转换，让客户端无需为每个供应商单独适配。",
+        "content": "仓库包含 Go 后端服务、Web 管理控制台（web 目录）以及 Docker 部署配置，提供路由、鉴权、用量统计与成本核算等模块。",
+        "stack": "主语言为 Go，提供 Docker 镜像，可对接 OpenAI、Anthropic、Gemini、Azure OpenAI、AWS Bedrock、Vertex AI 等上游，并带 Web 控制台。",
+        "hot": "近 5 万 star 且今日再涨 102，登上 GitHub Trending Go 日榜第 6；多模型统一接入与私有化部署需求旺盛，使其成为热门基础设施项目。",
         "uses": [
-          "想摆脱音乐订阅、自建私人音乐库的发烧友与极客",
-          "拥有大量本地音乐收藏、希望随时随地流式播放的用户",
-          "在 NAS 或家庭服务器上搭建家庭共享音乐服务的家庭用户",
-          "需要 Subsonic 兼容后端来配合第三方客户端的开发者"
+          "团队/企业：统一管理多模型访问、权限与成本",
+          "开发者：用一套 API 切换不同模型供应商",
+          "运维/私有化：自托管网关，集中路由与用量统计",
+          "应用/Agent 构建者：为客户端提供稳定兼容的模型接口"
         ]
       },
       "en": {
-        "tag": "Self-hosted music streaming server — your own personal Spotify",
-        "what": "Navidrome is an open-source, web-based music collection server and streamer that lets you listen to your own music library from any browser or mobile device. It organizes your collection by metadata and supports transcoding, multi-user accounts, and playlists — essentially a self-hosted Spotify.",
-        "content": "The repo contains a Go backend, an embedded React web frontend, Docker deployment configs, i18n translation files, theme support, plus full documentation and CI pipelines.",
-        "stack": "Written primarily in Go with a React/TypeScript frontend, it supports SQLite, PostgreSQL and other databases, deploys easily via Docker, and is compatible with Subsonic-API clients.",
-        "hot": "With 24k+ stars it leads the self-hosted music space, and its return to the Go trending list at #14 today reflects ongoing demand for subscription-free, data-sovereign music streaming.",
+        "tag": "Self-hosted AI gateway: multi-model aggregation, protocol conversion, unified distribution",
+        "what": "New API is a self-hosted AI gateway that aggregates upstream model services such as OpenAI, Anthropic, Gemini, Azure, Bedrock, DeepSeek, and Qwen behind a single unified API. It cross-converts between OpenAI-, Claude-, and Gemini-compatible formats, so clients don't need per-provider integration.",
+        "content": "The repo contains a Go backend service, a web management console (web directory), and Docker deployment configs, with modules for routing, auth, usage analytics, and cost accounting.",
+        "stack": "Written primarily in Go, distributed as a Docker image, integrating upstreams like OpenAI, Anthropic, Gemini, Azure OpenAI, AWS Bedrock, and Vertex AI, with a web console.",
+        "hot": "With nearly 50k stars and +102 today, it ranks 6th on GitHub Trending (Go); strong demand for unified multi-model access and private deployment keeps it a hot infrastructure project.",
         "uses": [
-          "Music enthusiasts and geeks who want to ditch subscriptions and self-host their library",
-          "Users with large local music collections who want to stream anywhere",
-          "Families running a shared music service on a NAS or home server",
-          "Developers needing a Subsonic-compatible backend for third-party clients"
+          "Teams/enterprises: centrally manage multi-model access, permissions, and costs",
+          "Developers: switch model providers behind one API",
+          "Ops/private deployment: self-hosted gateway for routing and usage analytics",
+          "App/agent builders: provide a stable, compatible model endpoint to clients"
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "gitleaks",
-      "full": "gitleaks/gitleaks",
-      "rank": 15,
-      "cat": "infra",
-      "lang": "Go",
-      "stars": 29.8,
-      "today": "+24",
-      "today_n": 24,
-      "auto": false,
-      "zh": {
-        "tag": "在 Git 仓库与文件中扫描密码、API 密钥等敏感信息的开源工具",
-        "what": "Gitleaks 是一款用于检测 Git 仓库、文件以及 stdin 输入中密码、API 密钥、Token 等敏感信息的工具。它通过正则与熵值规则识别泄露的凭据，并输出包含文件、行号、提交与作者等信息的详细报告。",
-        "content": "仓库包含 Go 编写的命令行工具源码、内置检测规则配置、Docker 镜像与 GitHub Action 集成，以及 Homebrew、Go 等多种安装方式。",
-        "stack": "主要使用 Go 语言开发，依赖正则表达式与熵值计算引擎，支持 Docker、Homebrew、Go install 及 GitHub Actions 等部署方式。",
-        "hot": "凭借近 3 万 Star 和持续增长的采用率，Gitleaks 已成为 DevSecOps 中防止密钥泄露的事实标准工具之一，今日仍登上 Go 日榜第 15 名。",
-        "uses": [
-          "开发与安全团队在 CI/CD 中自动扫描提交，防止密钥泄露",
-          "个人开发者用 pre-commit 钩子在本地提交前拦截敏感信息",
-          "安全审计人员对历史 Git 仓库进行凭据泄露排查",
-          "DevOps 工程师将 Gitleaks 集成到 GitHub Actions 工作流中"
-        ]
-      },
-      "en": {
-        "tag": "Open-source tool that scans Git repos and files for secrets like passwords and API keys",
-        "what": "Gitleaks detects secrets such as passwords, API keys, and tokens in Git repos, files, and anything piped via stdin. It uses regex and entropy rules to flag leaked credentials and reports details like file, line, commit, and author.",
-        "content": "The repo contains the Go CLI source, built-in detection rule configs, Docker images, GitHub Action integration, and multiple install paths via Homebrew, Go, and binaries.",
-        "stack": "Written primarily in Go, it relies on a regex and entropy-based detection engine, and supports Docker, Homebrew, Go install, and GitHub Actions deployment.",
-        "hot": "With nearly 30k stars and steady adoption, Gitleaks has become a de facto standard for preventing secret leaks in DevSecOps, still ranking #15 on today's Go trending list.",
-        "uses": [
-          "Dev and security teams scanning commits in CI/CD to prevent secret leaks",
-          "Individual developers using pre-commit hooks to block secrets before committing",
-          "Security auditors investigating credential leaks in historical Git repos",
-          "DevOps engineers integrating Gitleaks into GitHub Actions workflows"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "tailscale",
-      "full": "tailscale/tailscale",
-      "rank": 16,
-      "cat": "infra",
-      "lang": "Go",
-      "stars": 37.3,
-      "today": "+46",
-      "today_n": 46,
-      "auto": false,
-      "zh": {
-        "tag": "基于 WireGuard 的零配置私有网络与身份认证方案",
-        "what": "Tailscale 是一个基于 WireGuard 的私有网络（mesh VPN）解决方案，让不同设备之间无需公网 IP 或复杂配置即可安全互联。它通过 2FA 与身份提供商实现设备认证和访问控制，核心代码以开源形式发布。",
-        "content": "仓库包含 Tailscale 大部分开源代码，核心是 tailscaled 守护进程和 tailscale CLI 工具，支持 Linux、Windows、macOS 及部分 BSD 系统；移动端 GUI 代码在独立仓库中。",
-        "stack": "主要使用 Go 编写，要求最新的 Go 版本（当前 1.27），底层依赖 WireGuard 协议，并提供 build_dist.sh 等打包脚本。",
-        "hot": "作为成熟的 WireGuard 商业级开源实现，Tailscale 已积累 37290 颗星，今日新增 46 星并登上 Go 日榜第 16 名，持续吸引关注。",
-        "uses": [
-          "运维与 SRE 团队：快速搭建跨云、跨机房的私有网络",
-          "远程办公开发者：安全访问家中或公司内网设备",
-          "自托管爱好者：替代传统 VPN 实现零配置组网",
-          "安全工程师：研究基于身份与 2FA 的零信任网络模型"
-        ]
-      },
-      "en": {
-        "tag": "Zero-config private WireGuard networks with identity-based access control",
-        "what": "Tailscale is a WireGuard-based mesh VPN that lets devices connect securely without public IPs or complex configuration. It layers identity-based authentication and 2FA on top, with its core code released as open source.",
-        "content": "The repo holds most of Tailscale's open source code, centered on the tailscaled daemon and the tailscale CLI, running on Linux, Windows, macOS and some BSDs; mobile GUI code lives in separate repos.",
-        "stack": "Written mainly in Go and requiring the latest Go release (currently 1.27), it builds on the WireGuard protocol and ships packaging scripts like build_dist.sh.",
-        "hot": "As a mature, production-grade open source WireGuard implementation, Tailscale has amassed 37,290 stars, adding 46 today and ranking 16th on the Go daily trending list.",
-        "uses": [
-          "DevOps and SRE teams: quickly build private networks across clouds and data centers",
-          "Remote developers: securely reach home or office devices",
-          "Self-hosters: replace traditional VPNs with zero-config mesh networking",
-          "Security engineers: study identity- and 2FA-based zero-trust networking"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "esp32-c3-adblock",
-      "full": "M-Abozaid/esp32-c3-adblock",
-      "rank": 2,
-      "cat": "infra",
-      "lang": "C++",
-      "stars": 2.4,
-      "today": "+182",
-      "today_n": 182,
-      "auto": false,
-      "zh": {
-        "tag": "2美元ESP32-C3上的Pi-hole级DNS广告拦截器，无需PSRAM",
-        "what": "这是一个运行在廉价ESP32-C3开发板上的DNS广告拦截器，功能类似Pi-hole。它把53.7万个域名以40位FNV-1a哈希的形式存入闪存，通过二分查找实现拦截，无需PSRAM，仅占用约50KB内存即可在约10毫秒内响应被拦截的查询。",
-        "content": "仓库包含C++固件源码、PlatformIO构建配置、Web仪表盘，以及一个可3D打印的C3 SuperMini外壳STL文件。",
-        "stack": "基于C++与PlatformIO开发，面向ESP32-C3（也支持经典ESP32），使用UDP DNS sinkhole与闪存哈希表，依赖WiFi联网。",
-        "hot": "上线即登上GitHub Trending日榜C++第2名，今日新增476星、总星2258。它被Tom's Hardware、XDA等媒体报道，用极低成本实现Pi-hole级拦截，极具话题性。",
-        "uses": [
-          "想低成本搭建家庭网络广告拦截的DIY爱好者",
-          "拥有ESP32-C3开发板、想折腾嵌入式网络项目的开发者",
-          "关注闪存哈希、内存优化等嵌入式技巧的工程师",
-          "希望用USB小棒即插即用拦截广告的普通用户"
-        ]
-      },
-      "en": {
-        "tag": "A Pi-hole-class DNS ad-blocker on a $2 ESP32-C3, no PSRAM required",
-        "what": "This is a DNS ad-blocker running on a cheap ESP32-C3 board, functionally similar to Pi-hole. It stores 537k domains as 40-bit FNV-1a hashes in flash and binary-searches them, requiring no PSRAM and using only ~50KB of RAM to answer blocked lookups in about 10ms.",
-        "content": "The repo contains C++ firmware source, PlatformIO build configs, a web dashboard, and a printable STL enclosure for the C3 SuperMini.",
-        "stack": "Built in C++ with PlatformIO for the ESP32-C3 (classic ESP32 also supported), using a UDP DNS sinkhole and a flash hash table, relying on WiFi connectivity.",
-        "hot": "It hit #2 on GitHub Trending (C++) with 476 stars today and 2,258 total. Featured by Tom's Hardware and XDA, it's a buzzworthy feat of Pi-hole-class blocking at extremely low cost.",
-        "uses": [
-          "DIY enthusiasts wanting low-cost home network ad blocking",
-          "Developers with an ESP32-C3 board looking for an embedded networking project",
-          "Engineers interested in flash hashing and memory optimization tricks",
-          "Everyday users wanting a plug-and-play USB dongle to block ads"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "rebalancer",
-      "full": "facebook/rebalancer",
-      "rank": 3,
-      "cat": "infra",
-      "lang": "C++",
-      "stars": 0.4,
-      "today": "+60",
-      "today_n": 60,
-      "auto": false,
-      "zh": {
-        "tag": "Meta开源的通用分配问题求解DSL与工具，支持C++/Python",
-        "what": "Rebalancer 是一个分配问题求解库，提供通用直观的 API 来定义任意分配问题（如将对象放入容器），并支持多种算法进行优化。它允许用户通过声明式规则和约束来描述问题，然后自动求解。",
-        "content": "仓库包含核心求解器（C++）、DSL 解析器、多种求解算法（局部搜索、MIP 等）、C++/Python 接口以及示例和文档。",
-        "stack": "核心用 C++ 编写，支持多线程并行，依赖外部求解器如 FICO Xpress、Gurobi 或开源 HiGHS，并提供 Python 绑定。",
-        "hot": "作为 Meta 开源的工业级分配问题求解器，今日新增 60 星，登上 C++ 日榜第 3，因其通用性和大规模处理能力（~1M 对象）受到关注。",
-        "uses": [
-          "需要解决资源分配问题的工程师，如服务器分配、任务调度等",
-          "研究人员和开发者，希望使用声明式 DSL 快速建模优化问题",
-          "Meta 内部用于硬件分配、ML 训练推理放置、流量路由等场景"
-        ]
-      },
-      "en": {
-        "tag": "Meta's open-source DSL and solver for generic assignment problems, with C++/Python APIs",
-        "what": "Rebalancer is an assignment solver library that provides a generic and intuitive API for defining any assignment problem (e.g., putting objects into containers) and optimizing it with various algorithms. Users declaratively specify constraints and objectives, and the solver finds an assignment.",
-        "content": "The repo contains the core solver (C++), a DSL parser, multiple solving algorithms (local search, MIP, etc.), C++/Python interfaces, examples, and documentation.",
-        "stack": "Core written in C++ with multi-threaded parallelism, depends on external solvers like FICO Xpress, Gurobi, or open-source HiGHS, and offers Python bindings.",
-        "hot": "As Meta's open-source industrial-grade assignment solver, it gained 60 stars today and ranked #3 on the C++ daily trending list, attracting attention for its generality and large-scale capability (~1M objects).",
-        "uses": [
-          "Engineers solving resource allocation problems, such as server allocation or task scheduling",
-          "Researchers and developers wanting to model optimization problems quickly with a declarative DSL",
-          "Used internally at Meta for hardware allocation, ML training/inference placement, traffic routing, etc."
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "trafficmonitor",
-      "full": "zhongyang219/TrafficMonitor",
-      "rank": 4,
-      "cat": "infra",
-      "lang": "C++",
-      "stars": 46.5,
-      "today": "+33",
-      "today_n": 33,
-      "auto": false,
-      "zh": {
-        "tag": "Windows 桌面网速与硬件监控悬浮窗，支持任务栏嵌入和皮肤更换",
-        "what": "TrafficMonitor 是一款 Windows 平台的桌面悬浮窗软件，用于实时显示当前网速、CPU 和内存利用率。它支持将监控窗口嵌入任务栏，并提供历史流量统计、硬件温度监控和插件扩展等功能。",
-        "content": "仓库包含完整的 C++ 源代码、资源文件、皮肤、插件接口以及多语言文档（中英文 README、Wiki 链接）。提供标准版和 Lite 版两个版本，标准版支持温度监控但需要管理员权限，Lite 版无需管理员权限且从 1.86 版起也支持显卡和硬盘利用率监控。",
-        "stack": "主要使用 C++ 开发，依赖 Microsoft Visual C++ 运行环境，采用 Windows API 进行系统监控和界面渲染，支持通过插件系统扩展功能。",
-        "hot": "凭借轻量、实用且免费的特点，TrafficMonitor 已获得超过 46,000 颗星，今日新增 33 星，位列 GitHub Trending 日榜 C++ 分类第 4 名，深受 Windows 用户喜爱。",
-        "uses": [
-          "Windows 用户 —— 需要实时监控网速和系统资源占用",
-          "IT 运维人员 —— 快速查看网络和硬件状态",
-          "开发者 —— 了解 C++ 桌面开发及插件系统设计",
-          "普通用户 —— 希望美化任务栏并获取流量统计"
-        ]
-      },
-      "en": {
-        "tag": "Windows desktop network and hardware monitor with floating window, taskbar embedding, and skin support",
-        "what": "TrafficMonitor is a Windows desktop floating window application that displays real-time network speed, CPU, and memory usage. It supports embedding into the taskbar, historical traffic statistics, hardware temperature monitoring, and plugin extensions.",
-        "content": "The repository contains full C++ source code, resource files, skins, plugin interfaces, and bilingual documentation (Chinese and English READMEs, Wiki links). It offers Standard and Lite editions: Standard supports temperature monitoring but requires admin rights, while Lite runs without admin rights and since v1.86 also supports GPU and disk utilization monitoring.",
-        "stack": "Primarily developed in C++, it depends on the Microsoft Visual C++ runtime and uses Windows APIs for system monitoring and UI rendering, with a plugin system for extensibility.",
-        "hot": "With its lightweight, practical, and free nature, TrafficMonitor has earned over 46,000 stars, adding 33 today, ranking 4th on GitHub Trending daily list for C++, and is highly popular among Windows users.",
-        "uses": [
-          "Windows users — need real-time monitoring of network speed and system resource usage",
-          "IT operations staff — quickly check network and hardware status",
-          "Developers — learn about C++ desktop development and plugin system design",
-          "General users — want to beautify the taskbar and get traffic statistics"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "ytsaurus",
-      "full": "ytsaurus/ytsaurus",
-      "rank": 5,
-      "cat": "infra",
-      "lang": "C++",
-      "stars": 2.3,
-      "today": "+31",
-      "today_n": 31,
-      "auto": false,
-      "zh": {
-        "tag": "可扩展容错的开源大数据平台，支持MapReduce、分布式文件系统和NoSQL数据库。",
-        "what": "YTsaurus 是一个分布式存储与处理平台，支持 MapReduce 模型、分布式文件系统和 NoSQL 键值数据库。它提供多租户生态系统，包含 SQL 查询引擎、作业调度和 OLTP 键值存储，可扩展至百万 CPU 核心和 EB 级数据。",
-        "content": "仓库包含核心 C++ 实现、文档、构建脚本和贡献指南，主要目录有 yt/（核心代码）、yt/docs/（文档）等。",
-        "stack": "主要使用 C++ 编写，依赖包括 Apache Spark、ClickHouse 等，支持 Kubernetes 部署。",
-        "hot": "YTsaurus 今日新增 31 星，登上 GitHub Trending 日榜 C++ 第 5 名，总星数 2288，因其可扩展性和丰富功能受到关注。",
-        "uses": [
-          "大数据工程师 —— 构建和管理大规模数据处理平台。",
-          "数据科学家 —— 利用 SQL 和 MapReduce 进行数据分析。",
-          "企业 IT 团队 —— 部署多租户大数据环境，支持多种工作负载。",
-          "开发者 —— 使用 SDK 和 API 开发数据应用。"
-        ]
-      },
-      "en": {
-        "tag": "Scalable and fault-tolerant open-source big data platform with MapReduce, distributed file system, and NoSQL database.",
-        "what": "YTsaurus is a distributed storage and processing platform that supports the MapReduce model, a distributed file system, and a NoSQL key-value database. It offers a multitenant ecosystem with an SQL query engine, job scheduler, and OLTP key-value store, scaling to a million CPU cores and exabytes of data.",
-        "content": "The repository contains the core C++ implementation, documentation, build scripts, and contribution guidelines, with main directories like yt/ (core code) and yt/docs/ (documentation).",
-        "stack": "Primarily written in C++, with dependencies including Apache Spark and ClickHouse, and supports Kubernetes deployment.",
-        "hot": "YTsaurus gained 31 stars today, ranking 5th on GitHub Trending daily list for C++, with a total of 2,288 stars, attracting attention for its scalability and rich features.",
-        "uses": [
-          "Big data engineers — build and manage large-scale data processing platforms.",
-          "Data scientists — perform data analysis using SQL and MapReduce.",
-          "Enterprise IT teams — deploy multitenant big data environments supporting diverse workloads.",
-          "Developers — develop data applications using SDKs and APIs."
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "llama.cpp",
-      "full": "ggml-org/llama.cpp",
-      "rank": 17,
-      "cat": "infra",
-      "lang": "C++",
-      "stars": 130.6,
-      "today": "+123",
-      "today_n": 123,
-      "auto": false,
-      "zh": {
-        "tag": "纯C/C++的高性能LLM推理引擎",
-        "what": "llama.cpp 是一个用纯 C/C++ 编写的高性能大语言模型推理引擎，支持在 CPU 和 GPU 上高效运行。它针对本地部署和资源受限环境进行了优化，无需依赖庞大的深度学习框架。",
-        "content": "仓库包含核心推理库 libllama、命令行工具、REST API 服务器（llama-server）以及 WebUI。支持多种量化格式（如 GGUF）和模型架构（如 LLaMA、GPT-OSS）。",
-        "stack": "纯 C/C++ 实现，依赖 ggml 张量库，可选支持 CUDA、Vulkan、Metal 等 GPU 加速后端。",
-        "hot": "作为最流行的本地 LLM 推理方案之一，llama.cpp 持续获得社区关注，今日新增 159 星，总星数突破 12 万。其高性能、跨平台和易用性使其成为 AI 开发者和爱好者的首选。",
-        "uses": [
-          "AI 开发者：在本地或边缘设备上运行和测试大语言模型",
-          "隐私敏感用户：无需联网即可使用 LLM，数据完全本地化",
-          "研究人员：探索模型量化、推理优化和自定义模型架构"
-        ]
-      },
-      "en": {
-        "tag": "High-performance LLM inference engine in pure C/C++",
-        "what": "llama.cpp is a high-performance LLM inference engine written in pure C/C++, optimized for CPU and GPU execution. It enables efficient local deployment without heavy deep learning frameworks.",
-        "content": "The repo includes the core inference library libllama, CLI tools, a REST API server (llama-server), and a WebUI. It supports various quantization formats (e.g., GGUF) and model architectures (e.g., LLaMA, GPT-OSS).",
-        "stack": "Pure C/C++ implementation, relies on the ggml tensor library, with optional GPU backends like CUDA, Vulkan, and Metal.",
-        "hot": "As one of the most popular local LLM inference solutions, llama.cpp continues to gain community traction with 159 new stars today, surpassing 120K total. Its performance, cross-platform support, and ease of use make it a top choice for AI developers and enthusiasts.",
-        "uses": [
-          "AI developers: run and test LLMs locally or on edge devices",
-          "Privacy-conscious users: use LLMs offline with full data locality",
-          "Researchers: explore quantization, inference optimization, and custom model architectures"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "sdrplusplus",
-      "full": "AlexandreRouma/SDRPlusPlus",
+      "slug": "multica",
+      "full": "multica-ai/multica",
       "rank": 7,
-      "cat": "infra",
-      "lang": "C++",
-      "stars": 6.4,
-      "today": "+9",
-      "today_n": 9,
+      "cat": "agent",
+      "lang": "Go",
+      "stars": 52.3,
+      "today": "+100",
+      "today_n": 100,
       "auto": false,
       "zh": {
-        "tag": "跨平台开源 SDR 软件，主打轻量无臃肿",
-        "what": "SDR++ 是一款跨平台的开源软件定义无线电（SDR）接收软件，目标是轻量、无臃肿且易于使用。它支持多种 SDR 硬件，提供多 VFO、SIMD 加速 DSP 与全瀑布图刷新等核心功能。",
-        "content": "仓库包含完整的 C++ 源码、模块化插件系统、各平台构建脚本与发布配置，以及 Windows/Linux/macOS/BSD 的安装说明。",
-        "stack": "主要使用 C++ 编写，依赖 SoapySDR 及各类硬件专用模块，采用 SIMD 加速 DSP 与模块化插件架构。",
-        "hot": "凭借 6417 颗星和今日新增 9 星登上 GitHub C++ 日榜第 7 名，说明轻量、跨平台的 SDR 工具在无线电爱好者中持续受到关注。",
+        "tag": "把 AI 编码代理当队友派活的开源自托管协作工作台",
+        "what": "Multica 是一个源码可得的协作工作台，让你像给同事派活一样把 issue 分配给 AI 编码代理。代理会认领任务、汇报进度、提出阻塞点，完成后交回人工评审。支持自托管，兼容你已在用的代理 CLI，无厂商锁定。",
+        "content": "仓库包含 Go 编写的后端服务与看板式工作区前端，以及 docs 文档、自托管部署说明（SELF_HOSTING.md）、愿景文档和 CI 工作流，提供云端快速上手与本地下载两种形态。",
+        "stack": "主语言为 Go，配套前端应用与文档站点，通过 GitHub Actions 做 CI，并集成 Claude Code、Codex 等现有代理 CLI。",
+        "hot": "上线不久即冲到 5.2 万 star，今日再增 100 并登上 GitHub Trending Go 日榜第 7，说明「多代理协同 + 自托管」正切中开发者被多个终端代理淹没的痛点。",
         "uses": [
-          "无线电爱好者与 SDR 玩家，用于接收和解调各类无线信号",
-          "射频/通信工程师，用于频谱监测与信号分析",
-          "开发者，基于其模块化设计编写自定义插件或扩展硬件支持",
-          "教学与科研场景，用于软件定义无线电的演示与实验"
+          "同时运行多个编码代理、需要统一任务看板管理的开发团队",
+          "希望自托管、避免被 SaaS 平台锁定的工程组织",
+          "想把 issue 流程与 AI 代理打通的 DevOps 与平台工程师",
+          "评估 AI 代理协作工作流的产品与研发负责人"
         ]
       },
       "en": {
-        "tag": "Cross-platform, open-source SDR software built to be bloat-free",
-        "what": "SDR++ is a cross-platform, open-source software-defined radio (SDR) application designed to be bloat-free and simple to use. It supports a wide range of SDR hardware and offers multi-VFO, SIMD-accelerated DSP, and full waterfall updates.",
-        "content": "The repo contains full C++ source code, a modular plugin system, build scripts and release configs for multiple platforms, plus install instructions for Windows, Linux, macOS, and BSD.",
-        "stack": "Primarily written in C++, it relies on SoapySDR and dedicated hardware modules, using SIMD-accelerated DSP and a modular plugin architecture.",
-        "hot": "With 6,417 stars and 9 added today, it ranks 7th on GitHub's daily C++ trending list, showing sustained interest in lightweight, cross-platform SDR tools among radio enthusiasts.",
+        "tag": "Self-hostable workspace where you assign issues to AI coding agents like teammates",
+        "what": "Multica is a source-available workspace where you assign work to AI coding agents the way you'd assign it to a teammate. Agents pick up issues, report progress, raise blockers, and hand work back for review. It is self-hostable, works with the agent CLIs you already use, and avoids lock-in.",
+        "content": "The repo contains a Go backend and a board-style workspace frontend, plus docs, a self-hosting guide (SELF_HOSTING.md), a vision document, and CI workflows, with both cloud quickstart and local download paths.",
+        "stack": "Primarily Go, with companion frontend apps and a docs site, CI via GitHub Actions, and integration with existing agent CLIs such as Claude Code and Codex.",
+        "hot": "It has raced to 52.3k stars, adding 100 today and landing at No. 7 on GitHub Trending (Go) daily, showing that multi-agent coordination plus self-hosting hits the pain of developers drowning in terminal-bound agents.",
         "uses": [
-          "Radio hobbyists and SDR enthusiasts receiving and demodulating wireless signals",
-          "RF/communications engineers doing spectrum monitoring and signal analysis",
-          "Developers writing custom plugins or extending hardware support via its modular design",
-          "Teaching and research settings for software-defined radio demos and experiments"
+          "Dev teams running multiple coding agents who need one unified task board",
+          "Engineering orgs that want self-hosting and no SaaS lock-in",
+          "DevOps and platform engineers wiring issue workflows into AI agents",
+          "Product and engineering leads evaluating AI-agent collaboration workflows"
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "tigervnc",
-      "full": "TigerVNC/tigervnc",
-      "rank": 8,
-      "cat": "infra",
-      "lang": "C++",
-      "stars": 7.5,
-      "today": "+3",
-      "today_n": 3,
+      "slug": "docker-agent",
+      "full": "docker/docker-agent",
+      "rank": 1,
+      "cat": "agent",
+      "lang": "Go",
+      "stars": 4.3,
+      "today": "+144",
+      "today_n": 144,
       "auto": false,
       "zh": {
-        "tag": "高性能跨平台 VNC 远程桌面客户端与服务端",
-        "what": "TigerVNC 是一个高性能的 VNC 远程桌面实现，允许用户查看并操作网络上另一台计算机的虚拟桌面环境。它基于 RealVNC 4 和 X.org 代码库，支持多种操作系统和架构，可作为服务端或客户端使用。",
-        "content": "仓库包含跨平台的 vncviewer（基于 FLTK）、Windows 的 winvnc 服务端、Unix/Linux 的 Xvnc 服务端以及 vncpasswd 等工具。",
-        "stack": "主要使用 C++ 编写，依赖 libjpeg-turbo 加速 Tight 编码，客户端基于 FLTK，服务端集成 X.org 组件。",
-        "hot": "作为老牌高性能 VNC 方案，TigerVNC 拥有 7550 颗星，今日新增 3 星，登上 GitHub Trending 日榜 C++ 分类第 8 名，持续受到远程桌面用户关注。",
+        "tag": "Docker 官方出品的 YAML 声明式 AI Agent 构建与运行工具",
+        "what": "docker-agent 让你用 YAML 声明式配置创建并运行可协作的 AI 智能体，无需写代码即可完成复杂任务。它作为 docker CLI 插件运行，支持多智能体编排、丰富的工具生态和多种模型提供商。",
+        "content": "仓库包含 Go 编写的 CLI 插件源码、examples/ 示例目录、docs/ 文档与演示 GIF，以及用于打包分享 Agent 的 OCI 注册表集成。",
+        "stack": "主语言为 Go，作为 docker CLI 插件分发；支持 OpenAI、Anthropic、Gemini、AWS Bedrock、Mistral、xAI 及 Docker Model Runner，并集成 MCP 工具与 BM25/向量混合检索 RAG。",
+        "hot": "作为 Docker 工程团队官方项目，它把 Agent 构建标准化为 YAML 并复用 Docker 生态，发布即冲上 GitHub Go 日榜第 1，单日新增 766 star，总 star 达 4251。",
         "uses": [
-          "系统管理员和运维人员 —— 需要远程管理 Linux/Unix 服务器桌面环境",
-          "开发者和远程办公者 —— 希望从本地访问远程图形应用程序",
-          "教育或演示场景 —— 教师或演讲者需要共享桌面给多个客户端",
-          "嵌入式或跨平台开发 —— 需要在多种架构上部署 VNC 服务"
+          "希望用 YAML 快速搭建 AI Agent 而无需写代码的开发者",
+          "需要多智能体协作与 MCP 工具集成的团队",
+          "想通过 OCI 注册表打包、分发和复用 Agent 配置的工程师",
+          "已在 Docker 生态中、想本地运行模型或接入云 API 的用户"
         ]
       },
       "en": {
-        "tag": "High-performance, multi-platform VNC client and server",
-        "what": "TigerVNC is a high-performance VNC implementation that lets users view and interact with a virtual desktop environment running on another computer. Based on RealVNC 4 and X.org codebases, it supports a wide range of operating systems and architectures as both server and client.",
-        "content": "The repository includes the cross-platform vncviewer (built with FLTK), the Windows winvnc server, the Unix/Linux Xvnc server, and tools like vncpasswd.",
-        "stack": "Primarily written in C++, it relies on libjpeg-turbo for accelerated Tight encoding, uses FLTK for the client, and integrates X.org components for the server.",
-        "hot": "As a veteran high-performance VNC solution, TigerVNC has 7,550 stars with 3 added today, ranking 8th on GitHub Trending's daily C++ list, maintaining steady interest from remote desktop users.",
+        "tag": "Docker's declarative YAML-based AI agent builder and runtime",
+        "what": "docker-agent lets you create and run collaborative AI agents through declarative YAML configs, with no coding required. It runs as a docker CLI plugin and supports multi-agent orchestration, a rich tool ecosystem, and multiple model providers.",
+        "content": "The repo contains the Go-based CLI plugin source, an examples/ directory, docs/ with a demo GIF, and OCI registry integration for packaging and sharing agents.",
+        "stack": "Written in Go and distributed as a docker CLI plugin; supports OpenAI, Anthropic, Gemini, AWS Bedrock, Mistral, xAI, and Docker Model Runner, with MCP tools and BM25/embedding hybrid RAG.",
+        "hot": "As an official Docker Engineering project, it standardizes agent building as YAML and reuses the Docker ecosystem, hitting #1 on GitHub's Go daily trending with 766 stars added in a day and 4,251 total.",
         "uses": [
-          "System administrators and ops engineers — need to remotely manage Linux/Unix server desktops",
-          "Developers and remote workers — want to access remote graphical applications locally",
-          "Education or presentation scenarios — teachers or speakers need to share desktops to multiple clients",
-          "Embedded or cross-platform development — need to deploy VNC services on various architectures"
+          "Developers who want to build AI agents quickly with YAML and no code",
+          "Teams needing multi-agent collaboration and MCP tool integration",
+          "Engineers who want to package, distribute, and reuse agent configs via OCI registries",
+          "Docker ecosystem users running local models or cloud APIs"
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "json",
-      "full": "nlohmann/json",
-      "rank": 8,
-      "cat": "infra",
-      "lang": "C++",
-      "stars": 50.7,
-      "today": "+11",
-      "today_n": 11,
-      "auto": false,
-      "zh": {
-        "tag": "现代 C++ 的 JSON 解析与序列化标准库",
-        "what": "nlohmann/json 是一个为现代 C++ 设计的 JSON 库，提供直观的语法和便捷的 API，让 JSON 像 STL 容器一样使用。它支持解析、生成、修改和序列化 JSON 数据，并兼容 C++11 及以上标准。",
-        "content": "仓库包含单头文件 json.hpp、完整的文档（mkdocs）、测试套件、示例代码以及 CI 配置，用户可直接包含头文件使用。",
-        "stack": "纯 C++11 实现，无外部依赖，仅需标准库；支持 CMake 集成，并提供可选的测试与文档构建工具。",
-        "hot": "凭借 50739 颗星和今日新增 9 星，它稳居 C++ 日榜第 8 名，是 C++ 社区最受欢迎的 JSON 库之一，因其易用性和单头文件设计而广受青睐。",
-        "uses": [
-          "C++ 开发者需要解析或生成 JSON 数据时使用",
-          "嵌入式或跨平台项目希望减少依赖时选用",
-          "教学或快速原型开发中需要轻量级 JSON 支持",
-          "与 REST API 交互或处理配置文件时集成"
-        ]
-      },
-      "en": {
-        "tag": "The modern C++ JSON parsing and serialization library",
-        "what": "nlohmann/json is a JSON library for modern C++ that offers intuitive syntax and a convenient API, making JSON feel like an STL container. It supports parsing, generating, modifying, and serializing JSON data, compatible with C++11 and later.",
-        "content": "The repository contains a single-header json.hpp, comprehensive documentation (mkdocs), test suites, examples, and CI configurations, allowing users to include the header directly.",
-        "stack": "Pure C++11 implementation with no external dependencies, only the standard library; supports CMake integration and optional tools for testing and documentation.",
-        "hot": "With 50,739 stars and 9 new stars today, it ranks 8th on the C++ daily trending list, being one of the most popular JSON libraries in the C++ community, favored for its ease of use and single-header design.",
-        "uses": [
-          "C++ developers needing to parse or generate JSON data",
-          "Embedded or cross-platform projects aiming to reduce dependencies",
-          "Teaching or rapid prototyping requiring lightweight JSON support",
-          "Integrating when interacting with REST APIs or handling config files"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "patchy",
-      "full": "SethRobinson/Patchy",
-      "rank": 10,
-      "cat": "other",
-      "lang": "C++",
-      "stars": 0.5,
-      "today": "+21",
-      "today_n": 21,
-      "auto": false,
-      "zh": {
-        "tag": "开源图像编辑器，主打 PSD 兼容与 Photoshop 式工作流",
-        "what": "Patchy 是一款免费开源的图像编辑器，覆盖 Windows、macOS、Linux 和浏览器。它专注于准确读写 PSD 文件，在处理分层 Photoshop 文件时保留文字、矢量、蒙版、图层样式和智能对象可编辑。",
-        "content": "仓库包含 C++ 源码、打包与品牌资源（packaging/branding）、文档与截图（docs/），以及各平台安装包说明和发布流程。",
-        "stack": "主语言为 C++，支持桌面端与浏览器运行，提供 Windows 安装包、macOS 签名公证 DMG、Linux Flatpak 及网页版。",
-        "hot": "今日新增 21 star，总数 507，登上 GitHub Trending 日榜 C++ 第 10 名；对 Photoshop 用户友好的 PSD 兼容性是其核心吸引力。",
-        "uses": [
-          "需要打开和编辑 PSD 文件的 Photoshop 用户",
-          "寻找免费开源替代方案的设计师与创作者",
-          "希望跨平台或直接在浏览器中修图的用户",
-          "对 C++ 图像编辑器实现感兴趣的开发者"
-        ]
-      },
-      "en": {
-        "tag": "Open-source image editor focused on PSD compatibility and Photoshop-like workflows",
-        "what": "Patchy is a free, open-source image editor for Windows, macOS, Linux, and the browser. It focuses on accurate PSD compatibility, keeping text, vectors, masks, layer styles, and Smart Objects editable when working with layered Photoshop files.",
-        "content": "The repo contains C++ source code, packaging and branding assets (packaging/branding), docs and screenshots (docs/), plus platform installer instructions and release workflows.",
-        "stack": "Primarily C++, it runs on desktop and in the browser, shipping Windows installers, a signed and notarized macOS DMG, Linux Flatpak, and a web version.",
-        "hot": "It gained 21 stars today for a total of 507, ranking #10 on GitHub Trending's daily C++ list; its Photoshop-friendly PSD compatibility is the main draw.",
-        "uses": [
-          "Photoshop users who need to open and edit PSD files",
-          "Designers and creators seeking a free open-source alternative",
-          "Users who want cross-platform or in-browser image editing",
-          "Developers interested in a C++ image editor implementation"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "litert-lm",
-      "full": "google-ai-edge/LiteRT-LM",
-      "rank": 11,
-      "cat": "infra",
-      "lang": "C++",
-      "stars": 6.6,
+      "slug": "cubesandbox",
+      "full": "TencentCloud/CubeSandbox",
+      "rank": 9,
+      "cat": "agent",
+      "lang": "Go",
+      "stars": 12.9,
       "today": "+13",
       "today_n": 13,
       "auto": false,
       "zh": {
-        "tag": "谷歌开源的端侧大模型高性能推理框架",
-        "what": "LiteRT-LM 是谷歌基于 LiteRT 打造的端侧大语言模型推理编排层，主打高性能与跨平台部署。它让 Gemma、Llama、Phi-4、Qwen 等模型能在手机、桌面、Web 与 IoT 设备上本地运行。",
-        "content": "仓库包含 C++ 核心运行时、Python/Kotlin/Swift/JS 多语言 API、CLI 工具（run/import/serve/describe）、Web 聊天与嵌入检索 Demo，以及完整文档。",
-        "stack": "以 C++ 实现核心，提供 Python、Kotlin、Swift、JavaScript 绑定，依赖 LiteRT 运行时，并支持 GPU/NPU 硬件加速与 Hugging Face 模型导入。",
-        "hot": "背靠谷歌且已用于 Chrome、Chromebook Plus、Pixel Watch 等产品，v0.18.0 新增多模态 EmbeddingGemma 2 与 NPU 优化，日榜 C++ 第 11，累计约 6.6k star。",
+        "tag": "为 AI 代理打造的毫秒级硬件隔离沙箱服务",
+        "what": "CubeSandbox 是腾讯云开源的高性能安全沙箱服务，专为 AI Agent 执行不可信代码而设计。它基于 RustVMM 与 KVM 提供硬件级隔离，可在 60ms 内启动一个完整可用的沙箱，内存开销低于 5MB。",
+        "content": "仓库包含 Go 编写的主服务代码、文档（快速开始、指南、变更日志）、部署配置与示例，并提供 Python 包 cubesandbox 及 E2B 兼容接口。",
+        "stack": "主语言为 Go，底层依赖 RustVMM 与 KVM 实现虚拟化隔离，兼容 E2B SDK，支持单机与多节点集群部署。",
+        "hot": "凭借 12851 颗星和今日新增 13 星登上 GitHub Go 日榜第 9，其毫秒级启动、硬件隔离与 E2B 兼容性正好切中 AI Agent 安全执行代码的刚需。",
         "uses": [
-          "移动端开发者想在 Android/iOS 应用中离线运行大模型",
-          "嵌入式与 IoT 工程师需要在树莓派等设备上部署 LLM",
-          "需要本地多模态嵌入检索能力的应用团队",
-          "希望用 CLI 快速试验端侧模型的研究与产品人员"
+          "AI Agent 开发者：需要安全执行 LLM 生成代码的运行时环境",
+          "平台工程团队：为多租户 Agent 服务提供高并发、高密度沙箱",
+          "安全研究人员：在隔离环境中分析不可信代码与提示注入风险",
+          "云原生开发者：寻找 E2B 兼容、可自托管的沙箱替代方案"
         ]
       },
       "en": {
-        "tag": "Google's production-ready inference framework for on-device LLMs",
-        "what": "LiteRT-LM is Google's orchestration layer for running LLMs on top of LiteRT, engineered for high-performance, cross-platform execution. It lets models like Gemma, Llama, Phi-4 and Qwen run locally on phones, desktops, the web and IoT devices.",
-        "content": "The repo ships a C++ core runtime, multi-language APIs (Python, Kotlin, Swift, JS), a CLI (run/import/serve/describe), web chat and embedding-search demos, plus full docs.",
-        "stack": "C++ core with Python, Kotlin, Swift and JavaScript bindings, built on the LiteRT runtime, with GPU/NPU acceleration and Hugging Face model import.",
-        "hot": "Backed by Google and already powering Chrome, Chromebook Plus and Pixel Watch, v0.18.0 adds multimodal EmbeddingGemma 2 and NPU optimizations, landing #11 on the C++ daily trending list with ~6.6k stars.",
+        "tag": "Instant, concurrent, secure sandbox service for AI agents",
+        "what": "CubeSandbox is a high-performance secure sandbox service open-sourced by Tencent Cloud, designed for AI agents running untrusted code. Built on RustVMM and KVM, it provides hardware-level isolation and can spin up a fully serviceable sandbox in under 60ms with less than 5MB of memory overhead.",
+        "content": "The repo contains the Go-based core service, documentation (quick start, guides, changelog), deployment configs and examples, plus a Python package cubesandbox with an E2B-compatible API.",
+        "stack": "Written mainly in Go, it relies on RustVMM and KVM for virtualization-based isolation, is compatible with the E2B SDK, and supports both single-node and multi-node cluster deployment.",
+        "hot": "With 12,851 stars and 13 added today, it ranks 9th on GitHub's daily Go trending list; its millisecond startup, hardware isolation and E2B compatibility hit the sweet spot for safely executing AI agent code.",
         "uses": [
-          "Mobile developers who want to run LLMs offline in Android/iOS apps",
-          "Embedded and IoT engineers deploying LLMs on devices like Raspberry Pi",
-          "Teams needing local multimodal embedding search",
-          "Researchers and product folks who want to try edge models quickly via CLI"
+          "AI agent developers needing a safe runtime for LLM-generated code",
+          "Platform engineering teams providing high-concurrency, high-density sandboxes for multi-tenant agent services",
+          "Security researchers analyzing untrusted code and prompt-injection risks in isolation",
+          "Cloud-native developers seeking an E2B-compatible, self-hostable sandbox alternative"
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "shadps4",
-      "full": "shadps4-emu/shadPS4",
-      "rank": 11,
-      "cat": "other",
-      "lang": "C++",
-      "stars": 33.3,
-      "today": "+48",
-      "today_n": 48,
+      "slug": "weknora",
+      "full": "Tencent/WeKnora",
+      "rank": 9,
+      "cat": "ai",
+      "lang": "Go",
+      "stars": 32.8,
+      "today": "+217",
+      "today_n": 217,
       "auto": false,
       "zh": {
-        "tag": "用 C++ 编写的跨平台 PlayStation 4 模拟器",
-        "what": "shadPS4 是一个用 C++ 编写的早期 PlayStation 4 模拟器，支持 Windows、Linux、macOS 和 FreeBSD。它专注于模拟 PS4 主机核心，让玩家能在 PC 上运行《血源诅咒》《如龙 0》等独占游戏。",
-        "content": "仓库包含模拟器核心代码、构建脚本、文档与截图，但不含图形界面；普通用户需搭配独立的 QtLauncher 使用。",
-        "stack": "主要使用 C++ 开发，依赖 CMake 构建，并涉及 Vulkan 图形后端与各平台系统库。",
-        "hot": "作为少有的开源 PS4 模拟器，它已能运行《血源诅咒》等大作，吸引大量玩家关注，星标数已近 3.3 万，今日再登 C++ 日榜。",
+        "tag": "把文档变成可查询RAG、自主推理Agent和自维护Wiki的LLM知识平台",
+        "what": "WeKnora是腾讯开源的LLM知识平台，将原始文档转化为可查询的RAG、自主推理的Agent和自维护的Wiki。它支持多源数据导入、树状文件夹视图、块编辑与版本回滚，并提供交互式知识图谱。",
+        "content": "仓库包含完整的框架代码、架构文档、API参考、开发者指南，以及多语言README（中英日韩）。核心功能包括RAG快速问答、ReAct Agent、Wiki模式、知识图谱、多源导入（飞书、Notion、语雀、RSS等）和网站嵌入组件。",
+        "stack": "主语言为Go，基于LLM能力构建，涉及RAG、ReAct Agent、MCP工具集成、向量检索等技术。支持多种文档格式和外部服务（如飞书、Notion、RSS）。",
+        "hot": "上线后迅速获得2万+星标，今日新增105星，位列GitHub Go语言日榜第5。其将文档自动转化为可交互知识图谱和自维护Wiki的能力，解决了企业知识管理的痛点，备受开发者关注。",
         "uses": [
-          "想在现代 PC 上重温 PS4 独占游戏的玩家",
-          "对主机模拟器开发感兴趣、想研究底层实现的技术爱好者",
-          "希望为开源模拟器项目贡献代码或测试兼容性的开发者"
+          "企业知识库建设：将内部文档自动整理为可查询的RAG和自维护Wiki，提升员工检索效率。",
+          "智能客服与问答系统：利用RAG快速问答能力，构建基于私有知识的对话机器人。",
+          "复杂任务自动化：通过ReAct Agent编排检索、工具调用和网络搜索，完成多步骤分析。",
+          "个人知识管理：导入个人文档，生成知识图谱和Wiki，辅助学习和研究。"
         ]
       },
       "en": {
-        "tag": "A cross-platform PlayStation 4 emulator written in C++",
-        "what": "shadPS4 is an early PlayStation 4 emulator written in C++ for Windows, Linux, macOS and FreeBSD. It focuses on emulating the PS4 core, letting players run exclusives like Bloodborne and Yakuza 0 on PC.",
-        "content": "The repo contains the emulator core, build scripts, docs and screenshots, but no GUI; end users need the separate QtLauncher.",
-        "stack": "Primarily C++ with CMake build system, a Vulkan graphics backend and platform-specific system libraries.",
-        "hot": "As one of the few open-source PS4 emulators, it can already run hits like Bloodborne, drawing huge attention with nearly 33k stars and a spot on today's C++ trending list.",
+        "tag": "Open-source LLM knowledge platform turning documents into queryable RAG, autonomous agent, and self-maintaining Wiki",
+        "what": "WeKnora is an open-source LLM knowledge platform from Tencent that transforms raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki. It supports multi-source ingestion, tree-structured folder views, chunk editing with revision history, and an interactive knowledge graph.",
+        "content": "The repository contains the full framework code, architecture docs, API reference, developer guide, and multi-language READMEs (EN, CN, JA, KO). Key features include RAG-based Q&A, ReAct Agent, Wiki mode, knowledge graph, multi-source ingestion (Feishu, Notion, Yuque, RSS, etc.), and website embed widgets.",
+        "stack": "Primarily written in Go, built on LLM capabilities, incorporating RAG, ReAct Agent, MCP tool integration, and vector retrieval. Supports various document formats and external services like Feishu, Notion, and RSS.",
+        "hot": "Quickly gained over 20k stars with 105 new stars today, ranking #5 on GitHub Go daily trending. Its ability to auto-convert documents into interactive knowledge graphs and self-maintaining wikis addresses enterprise knowledge management pain points, drawing significant developer attention.",
         "uses": [
-          "Players who want to replay PS4 exclusives on modern PCs",
-          "Tech enthusiasts curious about console emulator internals",
-          "Developers looking to contribute code or test game compatibility"
+          "Enterprise knowledge base: Automatically organize internal documents into queryable RAG and self-maintaining Wiki to boost employee retrieval efficiency.",
+          "Intelligent customer service and Q&A systems: Leverage RAG-based quick Q&A to build chatbots grounded in private knowledge.",
+          "Complex task automation: Use ReAct Agent to orchestrate retrieval, tool calls, and web search for multi-step analysis.",
+          "Personal knowledge management: Import personal documents to generate knowledge graphs and wikis for learning and research."
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-09-17",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-09-17",
+            "s": 25.3,
+            "r": 16
+          },
+          {
+            "d": "2026-09-18",
+            "s": 26.2,
+            "r": 9
+          }
+        ]
+      }
+    },
+    {
+      "slug": "pansou",
+      "full": "fish2018/pansou",
+      "rank": 11,
+      "cat": "infra",
+      "lang": "Go",
+      "stars": 14.8,
+      "today": "+17",
+      "today_n": 17,
+      "auto": false,
+      "zh": {
+        "tag": "高性能网盘资源搜索API，支持TG频道与插件并发搜索",
+        "what": "PanSou 是一个高性能的网盘资源搜索 API 服务，支持从 Telegram 频道和自定义插件中并发搜索网盘资源。它提供智能排序、网盘类型分类和二级缓存，旨在快速聚合多个来源的搜索结果。",
+        "content": "仓库包含 Go 后端 API 和 Docker 集成的前端，提供插件系统（如 qqpd、gying、weibo、woniu）、详细文档（系统设计、插件开发指南、AI 辅助开发 Skill）以及 Docker Compose 配置文件。",
+        "stack": "主要使用 Go 语言开发，依赖 Go 1.18+，支持 Docker 部署，可选 SOCKS5 代理，并集成 JWT 认证。",
+        "hot": "凭借高性能并发搜索和开箱即用的 Docker 部署，该项目已获得 14845 颗星，今日新增 17 星，登上 GitHub Trending 日榜（Go）第 11 名。",
+        "uses": [
+          "需要快速搜索多个网盘资源的普通用户",
+          "希望自建搜索服务并集成到自有应用的开发者",
+          "研究网盘搜索与并发架构的技术爱好者"
+        ]
+      },
+      "en": {
+        "tag": "High-performance cloud drive search API with TG channel and plugin concurrent search",
+        "what": "PanSou is a high-performance cloud drive resource search API service that supports concurrent searching from Telegram channels and custom plugins. It offers intelligent sorting, cloud drive type classification, and two-level caching to quickly aggregate search results from multiple sources.",
+        "content": "The repository includes a Go backend API and a Docker-integrated frontend, offering a plugin system (e.g., qqpd, gying, weibo, woniu), detailed documentation (system design, plugin development guide, AI-assisted development Skill), and Docker Compose configuration files.",
+        "stack": "Primarily developed in Go, requiring Go 1.18+, with Docker deployment support, optional SOCKS5 proxy, and JWT authentication integration.",
+        "hot": "With high-performance concurrent search and out-of-the-box Docker deployment, the project has gained 14,845 stars, with 17 new stars today, ranking 11th on GitHub Trending (Go) daily list.",
+        "uses": [
+          "General users who need to quickly search resources across multiple cloud drives",
+          "Developers who want to self-host a search service and integrate it into their own applications",
+          "Tech enthusiasts studying cloud drive search and concurrent architecture"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "ninja",
-      "full": "ninja-build/ninja",
+      "slug": "xray-core",
+      "full": "XTLS/Xray-core",
+      "rank": 12,
+      "cat": "infra",
+      "lang": "Go",
+      "stars": 42.0,
+      "today": "+24",
+      "today_n": 24,
+      "auto": false,
+      "zh": {
+        "tag": "穿透一切的开源网络代理平台，v2ray-core 的进化版",
+        "what": "Xray-core 是 Project X 推出的开源网络工具核心，源自 XTLS 协议，提供 VLESS、REALITY、XHTTP 等新一代代理与传输协议。它兼容 v2ray-core 生态，被广泛用于科学上网、内网穿透与流量转发等场景。",
+        "content": "仓库包含 Go 编写的核心代理程序源码、各协议实现（VLESS/VMess/Trojan/Shadowsocks 等）、传输层与配置模块，以及文档、安装脚本和 Docker 镜像指引。",
+        "stack": "主要使用 Go 语言开发，依赖 Go 标准库及少量第三方网络库，支持 Linux/Windows/macOS 等多平台，可通过官方脚本或 Docker 部署。",
+        "hot": "凭借 REALITY、XHTTP 等抗封锁协议持续迭代，Xray-core 已积累 4.2 万+ star，今日再登 Go 日榜第 12 名，是代理领域最活跃的项目之一。",
+        "uses": [
+          "需要稳定科学上网或跨境网络访问的个人用户",
+          "搭建私有代理服务器与流量转发的运维/自建服务爱好者",
+          "研究网络协议、抗审查与传输层安全的开发者与安全研究者",
+          "希望基于 v2ray 生态做二次开发或集成代理能力的项目团队"
+        ]
+      },
+      "en": {
+        "tag": "An open network proxy platform that penetrates everything, the evolved v2ray-core",
+        "what": "Xray-core is the open-source network tool core from Project X, originating from the XTLS protocol and offering next-gen proxy and transport protocols like VLESS, REALITY and XHTTP. It is compatible with the v2ray-core ecosystem and widely used for censorship circumvention, tunneling and traffic forwarding.",
+        "content": "The repo contains the Go source of the core proxy, implementations of protocols (VLESS/VMess/Trojan/Shadowsocks, etc.), transport and config modules, plus docs, install scripts and Docker image references.",
+        "stack": "Written mainly in Go, relying on the standard library and a few third-party networking libraries; runs on Linux/Windows/macOS and can be deployed via official scripts or Docker.",
+        "hot": "With continuous iteration on anti-censorship protocols like REALITY and XHTTP, Xray-core has gathered over 42k stars and ranks 12th on today's Go trending list, making it one of the most active proxy projects.",
+        "uses": [
+          "Individuals needing stable circumvention or cross-border network access",
+          "Self-hosters and ops enthusiasts building private proxy servers and traffic forwarding",
+          "Developers and security researchers studying network protocols, anti-censorship and transport security",
+          "Teams building on the v2ray ecosystem or integrating proxy capabilities into their projects"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "mcp-grafana",
+      "full": "grafana/mcp-grafana",
       "rank": 13,
       "cat": "infra",
-      "lang": "C++",
-      "stars": 13.3,
-      "today": "+0",
-      "today_n": 0,
+      "lang": "Go",
+      "stars": 3.5,
+      "today": "+6",
+      "today_n": 6,
       "auto": false,
       "zh": {
-        "tag": "以速度为核心的小型构建系统",
-        "what": "Ninja 是一个专注于速度的小型构建系统，通过极简的构建描述文件实现快速增量编译。它通常不手写，而是由 CMake、Meson 等上层工具生成 build.ninja 文件后调用。",
-        "content": "仓库包含 C++ 编写的核心源码、Python 编写的 configure.py 引导脚本、doc/ 下的 asciidoc 手册与 doxygen 文档，以及 misc/ 中的 shell 补全和编辑器模式文件。",
-        "stack": "核心用 C++ 实现，构建自身可选用 Python 的 configure.py --bootstrap 或 CMake；文档依赖 asciidoc、xsltproc、dblatex 和 doxygen。",
-        "hot": "作为 CMake、Chromium、LLVM 等大型项目的默认底层构建器，Ninja 长期稳居 C++ 日榜，13k+ star 体现了它在现代构建工具链中的基石地位。",
+        "tag": "让 AI 助手直接读写 Grafana 的 MCP 服务器",
+        "what": "这是 Grafana 官方推出的 Model Context Protocol 服务器，把 Grafana 实例及其生态能力暴露给 Claude Desktop、Cursor 等 MCP 客户端。通过它，AI 助手可以搜索、读取、创建和修改仪表盘，并访问数据源等周边资源。",
+        "content": "仓库以 Go 实现，包含 MCP 服务器源码、单元/集成/E2E 测试工作流，以及 Docker、二进制、Helm 等安装方式的文档；README 详细列出仪表盘搜索、按 UID 获取、版本列表、摘要、JSONPath 属性提取、更新/创建/补丁等工具能力。",
+        "stack": "主语言 Go，通过 uvx 分发，依赖 Grafana 9.0+ 的 API，支持 Docker、二进制与 Helm 部署，并接入 MCP 客户端配置。",
+        "hot": "作为 Grafana 官方 MCP 实现，它踩中 AI Agent 与可观测性结合的热点，3542 颗星且登上 Go 日榜第 13 名，说明开发者对让 AI 操作 Grafana 的需求很强烈。",
         "uses": [
-          "使用 CMake、Meson 等生成构建文件并追求极速增量编译的 C++ 开发者",
-          "维护 Chromium、LLVM 等大型代码库、需要高效构建调度的工程团队",
-          "想学习构建系统设计与高性能 C++ 实现细节的工程师"
+          "使用 Claude Desktop 或 Cursor 的开发者，想让 AI 直接查询和修改 Grafana 仪表盘",
+          "SRE/运维团队，希望通过自然语言快速检索仪表盘、数据源与告警配置",
+          "可观测性平台工程师，需要把 Grafana 能力接入自有 AI Agent 工作流",
+          "Grafana Cloud 用户，想用 MCP 客户端安全访问云端实例资源"
         ]
       },
       "en": {
-        "tag": "A small build system with a focus on speed",
-        "what": "Ninja is a small build system focused on speed, using a minimal build description file to achieve fast incremental builds. It is usually not written by hand but generated by higher-level tools like CMake or Meson, which then invoke ninja.",
-        "content": "The repo contains C++ core sources, a Python-based configure.py bootstrap script, asciidoc manual and doxygen docs under doc/, and shell completion plus editor mode files in misc/.",
-        "stack": "The core is written in C++; building itself uses either Python's configure.py --bootstrap or CMake; docs rely on asciidoc, xsltproc, dblatex, and doxygen.",
-        "hot": "As the default low-level builder for large projects like CMake, Chromium, and LLVM, Ninja stays on the C++ trending list; its 13k+ stars reflect its foundational role in modern build toolchains.",
+        "tag": "MCP server that lets AI assistants read and write Grafana",
+        "what": "An official Model Context Protocol server from Grafana that exposes a Grafana instance and its surrounding ecosystem to MCP clients like Claude Desktop and Cursor. It lets AI assistants search, read, create, and update dashboards and access datasources and related resources.",
+        "content": "Implemented in Go, the repo contains the MCP server source, unit/integration/E2E test workflows, and docs for Docker, binary, and Helm installs. The README details tools for dashboard search, get-by-UID, version listing, summaries, JSONPath property extraction, and update/create/patch operations.",
+        "stack": "Primarily Go, distributed via uvx, requires Grafana 9.0+ APIs, and supports Docker, binary, and Helm deployment with MCP client configuration.",
+        "hot": "As Grafana's official MCP implementation, it rides the AI-agent-meets-observability wave; with 3,542 stars and a #13 spot on the Go daily trending list, demand for AI-driven Grafana operations is clearly strong.",
         "uses": [
-          "C++ developers using CMake or Meson who want extremely fast incremental builds",
-          "Engineering teams maintaining large codebases like Chromium or LLVM that need efficient build scheduling",
-          "Engineers curious about build system design and high-performance C++ implementation details"
+          "Developers using Claude Desktop or Cursor who want AI to query and modify Grafana dashboards directly",
+          "SRE/ops teams wanting natural-language search across dashboards, datasources, and alert configs",
+          "Observability platform engineers integrating Grafana capabilities into custom AI agent workflows",
+          "Grafana Cloud users seeking secure MCP client access to cloud instance resources"
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "jsoncpp",
-      "full": "open-source-parsers/jsoncpp",
-      "rank": 14,
+      "slug": "pentagi",
+      "full": "vxcontrol/pentagi",
+      "rank": 8,
+      "cat": "agent",
+      "lang": "Go",
+      "stars": 25.4,
+      "today": "+55",
+      "today_n": 55,
+      "auto": false,
+      "zh": {
+        "tag": "自主AI渗透测试代理系统",
+        "what": "PentAGI 是一个全自主的 AI 代理系统，能够执行复杂的渗透测试任务。它利用先进的人工智能技术，为信息安全专业人员、研究人员和爱好者提供强大且灵活的安全测试解决方案。",
+        "content": "仓库包含完整的系统代码、架构文档、快速入门指南、LLM 提供商配置（如 OpenAI、Anthropic、Ollama 等）、Docker 镜像配置、开发与测试工具（如 ftester）以及社区链接。",
+        "stack": "主要使用 Go 语言开发，支持多种 LLM 提供商（OpenAI、Anthropic、Gemini、AWS Bedrock 等），集成 Docker 进行隔离，并支持 Langfuse 监控和知识图谱（Graphiti）。",
+        "hot": "随着 AI 与网络安全结合的热度上升，PentAGI 作为自动化渗透测试的领先项目，在 GitHub 上迅速获得关注，今日新增 89 星，总星数达 22519，位居 Go 语言趋势榜第一。",
+        "uses": [
+          "安全研究人员：利用 AI 代理自动执行渗透测试，提高效率。",
+          "红队与蓝队：在授权环境中进行自动化安全评估。",
+          "AI 爱好者：探索 AI 在网络安全领域的实际应用。"
+        ]
+      },
+      "en": {
+        "tag": "Autonomous AI agent system for complex penetration testing",
+        "what": "PentAGI is a fully autonomous AI agent system capable of performing complex penetration testing tasks. It leverages advanced AI technologies to provide a powerful and flexible security testing solution for infosec professionals, researchers, and enthusiasts.",
+        "content": "The repository includes full system code, architecture docs, quick start guides, LLM provider configurations (e.g., OpenAI, Anthropic, Ollama), Docker image setup, development and testing tools (like ftester), and community links.",
+        "stack": "Primarily developed in Go, supports multiple LLM providers (OpenAI, Anthropic, Gemini, AWS Bedrock, etc.), integrates Docker for isolation, and supports Langfuse monitoring and knowledge graph (Graphiti).",
+        "hot": "With the rising intersection of AI and cybersecurity, PentAGI as a leading autonomous pentesting project has gained rapid traction on GitHub, adding 89 stars today to reach 22,519 total, ranking #1 in Go trending.",
+        "uses": [
+          "Security researchers: leverage AI agents to automate penetration testing and improve efficiency.",
+          "Red and blue teams: conduct automated security assessments in authorized environments.",
+          "AI enthusiasts: explore practical applications of AI in cybersecurity."
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-09-13",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-09-13",
+            "s": 23.5,
+            "r": 16
+          },
+          {
+            "d": "2026-09-14",
+            "s": 24.0,
+            "r": 8
+          }
+        ]
+      }
+    },
+    {
+      "slug": "codeaf",
+      "full": "Agent-Field/CodeAF",
+      "rank": 11,
+      "cat": "agent",
+      "lang": "Go",
+      "stars": 0.4,
+      "today": "+29",
+      "today_n": 29,
+      "auto": false,
+      "zh": {
+        "tag": "面向开源模型的终端软件工厂式编码代理",
+        "what": "CodeAF 是一个专为开源模型打造的编码代理工具（harness），目标是让 DeepSeek、Qwen、GLM、Kimi 等开源模型以更低成本达到接近前沿的编码能力。它把多个代理任务收进一个窗口统一调度，你只需在关键处介入，像经营一座本地软件工厂。",
+        "content": "仓库包含 Go 编写的单一可执行文件、安装脚本、docs/GUIDE.md 使用指南、benchmarks 基准测试说明以及 assets 下的截图与演示素材。",
+        "stack": "主语言为 Go，编译成 darwin/linux/windows 单文件二进制，无需额外依赖；通过接入 DeepSeek、Qwen、GLM、Kimi、MiniMax、Ollama 等模型 API 工作，采用 Apache 2.0 许可。",
+        "hot": "本周新增 136 星、总数 309 星并登上 Go 周榜第 11，主要因为它在 DeepSWE 基准上以同一模型击败 Claude Code、Codex、OpenCode 等十个 harness，且每个已解决 issue 成本最低。",
+        "uses": [
+          "想用开源模型替代闭源编码代理、控制 API 成本的开发者",
+          "需要同时管理多个项目与代理任务、希望统一窗口调度的工程师",
+          "在本地或服务器上部署编码代理、偏好单二进制无依赖工具的技术团队",
+          "关注开源模型编码能力与 harness 基准表现的 AI 研究者"
+        ]
+      },
+      "en": {
+        "tag": "A terminal-based software factory coding harness for open models",
+        "what": "CodeAF is a coding harness built for open models, aiming to get frontier-grade coding out of DeepSeek, Qwen, GLM, Kimi and similar models at a fraction of the cost. It consolidates many agent tasks into one window where you hand off work and step in only where your judgment is needed, like running a local software factory.",
+        "content": "The repo ships a single Go binary, install scripts, a docs/GUIDE.md guide, benchmark documentation, and screenshots/demo assets under assets.",
+        "stack": "Written in Go and compiled into a single darwin/linux/windows binary with no extra runtime; it connects to model APIs such as DeepSeek, Qwen, GLM, Kimi, MiniMax and Ollama, licensed under Apache 2.0.",
+        "hot": "It gained 136 stars this week (309 total) and hit #11 on the Go trending weekly list, largely because it ranked #1 on DeepSWE against ten harnesses including Claude Code, Codex and OpenCode on the same model, at the lowest cost per solved issue.",
+        "uses": [
+          "Developers who want to replace closed coding agents with open models and cut API costs",
+          "Engineers juggling multiple projects and agent tasks who want one unified window",
+          "Teams deploying coding agents locally or on servers who prefer a single dependency-free binary",
+          "AI researchers tracking open-model coding ability and harness benchmarks"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "3x-ui",
+      "full": "MHSanaei/3x-ui",
+      "rank": 20,
+      "cat": "infra",
+      "lang": "Go",
+      "stars": 47.7,
+      "today": "+73",
+      "today_n": 73,
+      "auto": false,
+      "zh": {
+        "tag": "多协议多用户的 Xray 服务器 Web 管理面板",
+        "what": "3X-UI 是一个开源的高级 Web 控制面板，用于部署、配置和监控 Xray-core 代理与 VPN 服务器。它支持 VLESS、VMess、Trojan、Shadowsocks、WireGuard、Hysteria2、MTProto 等大量协议，并可在单台 VPS 到多节点环境中使用。",
+        "content": "仓库包含 Go 编写的后端服务、多语言 Web 前端界面、安装脚本与文档，以及面向多种协议的配置模板和媒体资源。",
+        "stack": "主要使用 Go 语言开发，基于 Xray-core 实现代理功能，前端为 Web 界面，依赖 Go 模块与相关网络库。",
+        "hot": "凭借对众多代理协议的一站式支持和活跃维护，该项目已获得超过 4.7 万颗星，今日新增 71 星并登上 Go 语言日榜第 20 名。",
+        "uses": [
+          "需要自建代理或 VPN 服务的个人用户，用于管理多协议节点",
+          "运维人员或小团队，用于集中管理多台 VPS 上的 Xray 服务",
+          "希望快速部署和监控代理服务的开发者，借助 Web 面板简化配置"
+        ]
+      },
+      "en": {
+        "tag": "A multi-protocol, multi-user web control panel for Xray-core servers",
+        "what": "3X-UI is an advanced open-source web control panel for deploying, configuring, and monitoring Xray-core proxy and VPN servers. It supports a wide range of protocols including VLESS, VMess, Trojan, Shadowsocks, WireGuard, Hysteria2, and MTProto, scaling from a single VPS to multi-node deployments.",
+        "content": "The repository contains a Go backend, a multi-language web frontend, installation scripts and documentation, plus configuration templates and media assets for various protocols.",
+        "stack": "Primarily built in Go, it leverages Xray-core for proxy functionality, with a web-based frontend and dependencies managed via Go modules and networking libraries.",
+        "hot": "With one-stop support for numerous proxy protocols and active maintenance, it has earned over 47k stars, gaining 71 stars today and ranking 20th on the Go daily trending list.",
+        "uses": [
+          "Individuals who self-host proxy or VPN services and need to manage multi-protocol nodes",
+          "Sysadmins or small teams managing Xray services across multiple VPS instances",
+          "Developers seeking quick deployment and monitoring of proxy services via a web panel"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "trufflehog",
+      "full": "trufflesecurity/trufflehog",
+      "rank": 9,
+      "cat": "infra",
+      "lang": "Go",
+      "stars": 28.4,
+      "today": "+41",
+      "today_n": 41,
+      "auto": false,
+      "zh": {
+        "tag": "发现、验证并分析泄露凭据的密钥扫描工具",
+        "what": "TruffleHog 是一款强大的密钥发现、分类、验证与分析工具，用于检测 API 密钥、数据库密码、私钥等机器认证凭据。它能扫描 Git、聊天记录、Wiki、日志、对象存储和文件系统等多种来源，并验证密钥是否仍然有效。",
+        "content": "仓库包含 Go 语言编写的核心扫描引擎、超过 800 种密钥类型的检测器（pkg/detectors 目录），以及用于分类、验证和分析的模块。还提供企业版，支持持续监控 Git、Jira、Slack 等平台。",
+        "stack": "主要使用 Go 语言开发，依赖 GoReleaser 进行构建发布，采用 AGPL-3.0 许可证。",
+        "hot": "凭借 28,193 个 Star 和今日新增 25 个 Star，TruffleHog 在 GitHub Go 语言日榜排名第 9，反映出开发者对密钥安全扫描的持续高需求。",
+        "uses": [
+          "安全工程师：用于扫描代码库和基础设施中的泄露凭据",
+          "DevOps 团队：集成到 CI/CD 流程中自动检测密钥泄露",
+          "开源维护者：检查公开仓库是否意外提交了敏感信息",
+          "企业安全团队：通过企业版持续监控 Git、Slack 等平台"
+        ]
+      },
+      "en": {
+        "tag": "Find, verify, and analyze leaked credentials",
+        "what": "TruffleHog is a powerful secrets discovery, classification, validation, and analysis tool for detecting credentials like API keys, database passwords, and private keys. It scans Git, chats, wikis, logs, object stores, and filesystems, and verifies whether secrets are still live.",
+        "content": "The repo contains a Go-based scanning engine, over 800 secret-type detectors (in pkg/detectors), and modules for classification, validation, and analysis. An enterprise version offers continuous monitoring for Git, Jira, Slack, and more.",
+        "stack": "Primarily built in Go, uses GoReleaser for builds and releases, and is licensed under AGPL-3.0.",
+        "hot": "With 28,193 stars and 25 added today, TruffleHog ranks 9th on GitHub's daily Go trending list, reflecting strong ongoing demand for secret-scanning security tools.",
+        "uses": [
+          "Security engineers: scan codebases and infrastructure for leaked credentials",
+          "DevOps teams: integrate into CI/CD pipelines to automatically detect secret leaks",
+          "Open-source maintainers: check public repos for accidentally committed sensitive data",
+          "Enterprise security teams: use the enterprise version to continuously monitor Git, Slack, and more"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "xiaozhi-esp32",
+      "full": "78/xiaozhi-esp32",
+      "rank": 2,
+      "cat": "agent",
+      "lang": "C++",
+      "stars": 30.6,
+      "today": "+39",
+      "today_n": 39,
+      "auto": false,
+      "zh": {
+        "tag": "基于MCP协议的开源ESP32语音AI聊天机器人固件",
+        "what": "小智是一个运行在ESP32系列芯片上的语音交互聊天机器人固件，接入Qwen、DeepSeek等大模型实现语音对话。它通过MCP协议连接设备端与云端能力，让语音助手可以控制硬件、智能家居甚至PC桌面。",
+        "content": "仓库包含固件源码、138个开发板目录与171个发布变体、WebSocket与MQTT+UDP通信文档，以及配套的自定义素材生成器项目。",
+        "stack": "主语言C++，基于ESP-IDF v6.0.1+（推荐6.1），集成ESP-SR离线唤醒、Opus音频流、3D-Speaker声纹识别，支持Wi-Fi/以太网/4G联网。",
+        "hot": "3万+ star 的硬件AI项目，今日仍新增39星并登上C++日榜第2，凭借低成本DIY语音助手与MCP生态扩展持续吸引创客与开发者。",
+        "uses": [
+          "硬件创客与嵌入式开发者，想用ESP32做低成本语音助手",
+          "想给孩子或自己DIY一个可对话AI玩具/桌面机器人的爱好者",
+          "研究MCP协议与端云协同语音交互方案的技术团队",
+          "需要离线唤醒+多语言语音交互产品的方案选型者"
+        ]
+      },
+      "en": {
+        "tag": "Open-source ESP32 voice AI chatbot firmware built on the MCP protocol",
+        "what": "XiaoZhi is a voice-interaction chatbot firmware running on ESP32 chips, wired to large models like Qwen and DeepSeek for spoken dialogue. It uses the MCP protocol to bridge on-device and cloud capabilities, letting the assistant control hardware, smart home devices, and even a PC desktop.",
+        "content": "The repo ships firmware source, 138 board directories and 171 release variants, WebSocket and MQTT+UDP transport docs, plus a companion custom-assets generator project.",
+        "stack": "Primarily C++ on ESP-IDF v6.0.1+ (6.1 recommended), integrating ESP-SR offline wake word, Opus audio streaming, 3D-Speaker voiceprint recognition, and Wi-Fi/Ethernet/4G connectivity.",
+        "hot": "With 30k+ stars and 39 added today, it ranks #2 on the C++ daily trending list, drawing makers and developers through low-cost DIY voice assistants and MCP ecosystem extensibility.",
+        "uses": [
+          "Hardware makers and embedded developers building low-cost voice assistants on ESP32",
+          "Hobbyists wanting a DIY talking AI toy or desktop robot for themselves or kids",
+          "Teams studying MCP protocol and device-cloud collaborative voice interaction",
+          "Solution evaluators needing offline wake word plus multilingual voice interaction"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "typesense",
+      "full": "typesense/typesense",
+      "rank": 3,
       "cat": "infra",
       "lang": "C++",
-      "stars": 8.9,
+      "stars": 26.8,
+      "today": "+173",
+      "today_n": 173,
+      "auto": false,
+      "zh": {
+        "tag": "开源高性能容错搜索引擎，Algolia 与 ElasticSearch 的轻量替代",
+        "what": "Typesense 是一个用 C++ 编写的高性能开源搜索引擎，主打毫秒级响应与容错模糊匹配，让开发者快速搭建顺滑的搜索体验。它定位为 Algolia 的开源替代品，同时比 ElasticSearch 更易上手，支持拼写纠错、即时搜索、语义与混合检索等能力。",
+        "content": "仓库以 C++ 核心引擎为主体，包含构建脚本、Docker 配置、文档与大量演示资源（如 3200 万首歌曲、2800 万本书籍等在线 Demo 链接）。",
+        "stack": "核心用 C++ 实现，提供 Docker 镜像与多语言官方客户端，依赖轻量、可单机或集群部署，并支持语义/向量混合搜索。",
+        "hot": "凭借 26,840 颗星与今日新增 173 星冲上 GitHub C++ 日榜第 3，云服务月搜索量已达 100 亿次，开源搜索替代需求持续升温。",
+        "uses": [
+          "需要为网站或 App 快速接入搜索的开发者 —— 用少量代码即可获得容错即时搜索",
+          "想替换 Algolia 等付费搜索服务、控制成本的团队 —— 开源可自托管",
+          "觉得 ElasticSearch 配置复杂的中小项目 —— 更轻量、更易上手",
+          "需要语义/向量混合检索的 AI 应用 —— 支持现代检索场景"
+        ]
+      },
+      "en": {
+        "tag": "Open-source, typo-tolerant search engine — a lighter Algolia/ElasticSearch alternative",
+        "what": "Typesense is a high-performance open-source search engine written in C++, focused on millisecond latency and typo-tolerant fuzzy matching for delightful search experiences. Positioned as an open-source Algolia alternative and an easier-to-use ElasticSearch replacement, it supports spell correction, instant search, and semantic/hybrid retrieval.",
+        "content": "The repo centers on a C++ core engine, plus build scripts, Docker configs, docs, and a rich set of demo assets (links to live demos over 32M songs, 28M books, and more).",
+        "stack": "Built in C++ with Docker images and official multi-language clients; lightweight to deploy on a single node or cluster, with semantic/vector hybrid search support.",
+        "hot": "With 26,840 stars and +173 today, it hit #3 on GitHub's C++ daily trending; its cloud handles 10 billion searches per month, riding the demand for open-source search alternatives.",
+        "uses": [
+          "Developers adding search to a site or app — get typo-tolerant instant search with minimal code",
+          "Teams replacing paid services like Algolia to cut costs — open source and self-hostable",
+          "Small-to-mid projects finding ElasticSearch too complex — lighter and easier to run",
+          "AI apps needing semantic/vector hybrid retrieval — supports modern search use cases"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "perfetto",
+      "full": "google/perfetto",
+      "rank": 4,
+      "cat": "infra",
+      "lang": "C++",
+      "stars": 6.6,
+      "today": "+9",
+      "today_n": 9,
+      "auto": false,
+      "zh": {
+        "tag": "生产级客户端追踪与性能分析套件",
+        "what": "Perfetto 是一套开源 SDK、守护进程和工具，通过追踪帮助开发者理解复杂系统行为并定位功能与性能问题。它是 Android 操作系统和 Chromium 浏览器的默认追踪系统。",
+        "content": "包含高性能追踪守护进程、低开销 C++17 追踪 SDK、操作系统级探针、基于浏览器的 UI 和 SQL 分析库。",
+        "stack": "主要使用 C++ 编写，提供 C++17 SDK，支持 Android、Linux、macOS、Windows，UI 基于 Web 技术。",
+        "hot": "作为 Android 和 Chromium 的默认追踪系统，拥有 6619 颗星，今日新增 9 星，位列 GitHub Trending C++ 日榜第 4 名。",
+        "uses": [
+          "Android 应用与平台开发者：调试启动慢、掉帧、内存不足等问题。",
+          "C/C++ 开发者（Linux/macOS/Windows）：使用追踪 SDK 分析应用执行流和性能瓶颈。",
+          "Linux 内核与系统开发者：通过 ftrace 可视化调度、系统调用和中断。",
+          "性能工程师与 SRE：使用 SQL 接口分析多种格式的追踪数据。"
+        ]
+      },
+      "en": {
+        "tag": "Production-grade client-side tracing and profiling suite",
+        "what": "Perfetto is an open-source suite of SDKs, daemons and tools that use tracing to help developers understand complex system behavior and root-cause functional and performance issues. It is the default tracing system for Android and Chromium.",
+        "content": "Includes high-performance tracing daemons, a low-overhead C++17 tracing SDK, OS-level probes, a browser-based UI, and a SQL analysis library.",
+        "stack": "Primarily written in C++, with a C++17 SDK, supporting Android, Linux, macOS, and Windows; the UI is web-based.",
+        "hot": "As the default tracing system for Android and Chromium, it has 6619 stars with 9 added today, ranking 4th on GitHub Trending C++ daily list.",
+        "uses": [
+          "Android app and platform developers: debug slow startups, jank, memory issues, and ANRs.",
+          "C/C++ developers (Linux/macOS/Windows): instrument apps with the tracing SDK to analyze execution flow and bottlenecks.",
+          "Linux kernel and system developers: visualize scheduling, syscalls, and interrupts via ftrace.",
+          "Performance engineers and SREs: analyze traces from various tools using the SQL interface."
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "neuralnote",
+      "full": "DamRsn/NeuralNote",
+      "rank": 5,
+      "cat": "ai",
+      "lang": "C++",
+      "stars": 3.1,
+      "today": "+20",
+      "today_n": 20,
+      "auto": false,
+      "zh": {
+        "tag": "深度学习驱动的音频转 MIDI 插件，支持多乐器转录",
+        "what": "NeuralNote 是一款音频插件，利用深度学习将音频实时转录为 MIDI 音符。它支持多乐器混合转录，并内置合成器试听，所有处理均在本地完成。",
+        "content": "仓库包含插件源代码（C++）、预训练模型下载脚本、安装包构建配置以及 UI 资源。主要目录有 NeuralNote/（核心代码）、Assets/（图标等）和 Scripts/（模型下载）。",
+        "stack": "基于 C++ 和 JUCE 框架开发，使用 MuScriptor 转录模型（103M-1.4B 参数的 Transformer），依赖 PyTorch 进行推理，支持 VST3/AU/独立应用格式。",
+        "hot": "NeuralNote 在 GitHub 上已获得 3070 颗星，今日新增 20 星，登上 C++ 日榜第 5 名。其 v2.0 版本引入了更强大的 MuScriptor 模型和多乐器转录功能，吸引了大量音乐制作人和开发者的关注。",
+        "uses": [
+          "音乐制作人 —— 快速将音频灵感转换为 MIDI 音符，方便后续编曲。",
+          "音频工程师 —— 从混音中提取多乐器 MIDI 轨道，用于重新混音或分析。",
+          "AI 研究者 —— 研究音频转录模型的实际应用与性能。",
+          "音乐教育者 —— 演示音频到 MIDI 的转换过程，辅助教学。"
+        ]
+      },
+      "en": {
+        "tag": "Deep learning audio-to-MIDI plugin with multi-instrument transcription",
+        "what": "NeuralNote is an audio plugin that uses deep learning to transcribe audio into MIDI notes in real time. It supports multi-instrument transcription from full mixes and includes a built-in synth for playback, all processed locally.",
+        "content": "The repo contains the plugin source code (C++), scripts for downloading pre-trained models, build configurations for installers, and UI assets. Key directories include NeuralNote/ (core code), Assets/ (icons), and Scripts/ (model download).",
+        "stack": "Built with C++ and the JUCE framework, it uses the MuScriptor transcription model (a 103M-1.4B parameter Transformer) and relies on PyTorch for inference. It supports VST3, AU, and standalone formats.",
+        "hot": "NeuralNote has earned 3,070 stars on GitHub, with 20 new stars today, ranking 5th on the C++ daily trending list. Its v2.0 release introduces the more powerful MuScriptor model and multi-instrument transcription, drawing attention from music producers and developers.",
+        "uses": [
+          "Music producers — quickly convert audio ideas into MIDI notes for further arrangement.",
+          "Audio engineers — extract multi-instrument MIDI tracks from mixes for remixing or analysis.",
+          "AI researchers — study practical applications and performance of audio transcription models.",
+          "Music educators — demonstrate audio-to-MIDI conversion for teaching purposes."
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "tracy",
+      "full": "wolfpld/tracy",
+      "rank": 6,
+      "cat": "infra",
+      "lang": "C++",
+      "stars": 16.9,
+      "today": "+9",
+      "today_n": 9,
+      "auto": false,
+      "zh": {
+        "tag": "面向游戏与实时应用的纳秒级远程帧与采样性能分析器",
+        "what": "Tracy 是一款实时、纳秒分辨率的远程遥测性能分析器，专注于游戏等对帧率敏感的应用。它同时支持帧分析与采样分析，可追踪 CPU、GPU、内存分配、锁与上下文切换等关键指标。",
+        "content": "仓库包含 C++ 编写的分析器服务端与客户端库、PDF 文档、编译好的 Windows x64 发行包、更新日志以及多张界面截图和演示链接。",
+        "stack": "核心用 C++ 实现，官方支持 C、C++、Lua、Python、Fortran 集成，并覆盖 OpenGL、Vulkan、Direct3D 11/12、Metal、OpenCL、CUDA、WebGPU 等图形与计算 API。",
+        "hot": "作为游戏与高性能 C++ 领域久经考验的性能分析工具，它已积累约 1.69 万 star，今日仍登上 GitHub C++ 日榜第 6 名。",
+        "uses": [
+          "游戏引擎与实时图形开发者，用于定位帧率瓶颈与卡顿",
+          "C/C++/Rust/Zig 等系统级性能工程师，做 CPU 与内存分析",
+          "GPU 计算与图形管线开发者，追踪 Vulkan、CUDA 等负载",
+          "需要远程遥测与纳秒级精度分析的嵌入式或桌面应用团队"
+        ]
+      },
+      "en": {
+        "tag": "A real-time, nanosecond-resolution remote frame and sampling profiler for games and other applications",
+        "what": "Tracy is a real-time, nanosecond-resolution remote telemetry profiler aimed at games and other frame-rate-sensitive applications. It combines frame and sampling profiling, tracking CPU, GPU, memory allocations, locks, context switches and more.",
+        "content": "The repo contains the C++ profiler server and client library, PDF documentation, prebuilt Windows x64 release binaries, a changelog, plus UI screenshots and demo links.",
+        "stack": "Built in C++, with official integration for C, C++, Lua, Python and Fortran, and support for OpenGL, Vulkan, Direct3D 11/12, Metal, OpenCL, CUDA and WebGPU.",
+        "hot": "A battle-tested profiler in the game and high-performance C++ world, it has gathered about 16.9k stars and still ranks 6th on GitHub's daily C++ trending list.",
+        "uses": [
+          "Game engine and real-time graphics developers hunting frame-rate bottlenecks and stutters",
+          "C/C++/Rust/Zig systems performance engineers doing CPU and memory analysis",
+          "GPU compute and graphics pipeline developers profiling Vulkan, CUDA and similar workloads",
+          "Teams needing remote telemetry and nanosecond-resolution profiling for embedded or desktop apps"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "video2x",
+      "full": "k4yt3x/video2x",
+      "rank": 7,
+      "cat": "ai",
+      "lang": "C++",
+      "stars": 22.1,
+      "today": "+56",
+      "today_n": 56,
+      "auto": false,
+      "zh": {
+        "tag": "基于机器学习的视频超分与补帧框架",
+        "what": "Video2X 是一个用机器学习做视频超分辨率放大和补帧的开源工具。它能把低清视频通过 AI 模型提升分辨率，并插帧提高帧率，让画面更清晰流畅。",
+        "content": "仓库包含 C/C++ 重写的核心程序、Qt6 图形界面、Windows 安装包，以及 Anime4K、Real-ESRGAN、Real-CUGAN、RIFE 等模型集成与文档。",
+        "stack": "主要用 C/C++ 编写，依赖 ncnn 与 Vulkan 做 GPU 推理，支持 Windows 和 Linux，需要 AVX2 CPU 与支持 Vulkan 的 GPU。",
+        "hot": "6.0.0 版本用 C/C++ 完全重写，速度更快、质量更好并新增 GUI，加上 2.2 万 star 的积累，今日再登 C++ 日榜第 7。",
+        "uses": [
+          "想给老动画、老电影做高清修复和补帧的爱好者",
+          "需要批量提升视频分辨率与帧率的视频创作者",
+          "研究视频超分、插帧与 AI 推理部署的开发者",
+          "在 Windows 或 Linux 上寻求开箱即用 GUI 工具的用户"
+        ]
+      },
+      "en": {
+        "tag": "A machine learning-based video super resolution and frame interpolation framework",
+        "what": "Video2X is an open-source tool that uses machine learning for video super resolution and frame interpolation. It upscales low-resolution videos with AI models and interpolates frames to boost frame rate for smoother, sharper playback.",
+        "content": "The repo contains the C/C++ rewritten core, a Qt6 GUI, a Windows installer, and integrations for Anime4K, Real-ESRGAN, Real-CUGAN, and RIFE models, plus documentation.",
+        "stack": "Written mainly in C/C++, it relies on ncnn and Vulkan for GPU inference, supports Windows and Linux, and requires an AVX2 CPU and a Vulkan-capable GPU.",
+        "hot": "The 6.0.0 release is a complete C/C++ rewrite that is faster, higher quality, and adds a GUI; with 22k+ stars, it re-enters the C++ daily trending list at #7.",
+        "uses": [
+          "Enthusiasts restoring old anime or films to HD with upscaling and interpolation",
+          "Video creators needing batch resolution and frame-rate enhancement",
+          "Developers researching video super resolution, interpolation, and AI inference deployment",
+          "Users wanting an out-of-the-box GUI tool on Windows or Linux"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "rocm-systems",
+      "full": "ROCm/rocm-systems",
+      "rank": 8,
+      "cat": "infra",
+      "lang": "C++",
+      "stars": 0.5,
       "today": "+2",
       "today_n": 2,
       "auto": false,
       "zh": {
-        "tag": "成熟稳定的 C++ JSON 序列化与反序列化库",
-        "what": "JsonCpp 是一个用于操作 JSON 值的 C++ 库，支持字符串与 JSON 对象之间的序列化和反序列化。它还能在解析和生成过程中保留注释，适合存储用户输入文件。",
-        "content": "仓库包含库源码、头文件、构建脚本（如 Meson）、测试用例和文档；还提供 amalgamate.py 脚本，可生成单文件分发的 jsoncpp.cpp 与头文件。",
-        "stack": "基于 C++11（1.y.z 分支），兼容 GCC、Clang、MSVC 等编译器，依赖 CMake/Meson 构建，可通过 vcpkg、Conan 等包管理器集成。",
-        "hot": "作为长期维护的经典库，JsonCpp 拥有近 9 千 star，今日虽仅增 2 星，仍稳居 C++ 日榜第 14 名，体现其在遗留项目和需要注释保留场景中的持久需求。",
+        "tag": "AMD ROCm 系统级组件超级仓库，统一开发与 CI",
+        "what": "这是 AMD ROCm 的超级仓库，把原本分散的多个 ROCm 系统项目合并到一处，以简化开发、CI 与集成流程。首批项目聚焦于构建 PyTorch 所需的底层组件。",
+        "content": "仓库以 monorepo 形式收纳 amdsmi、aqlprofile、clr、hip、hipfile、rocdecode、rocjpeg、rocm-core、rocminfo、rocm-smi-lib、rocprofiler 等组件，并用状态表标注各项目的迁移进度与 CI 健康度。",
+        "stack": "以 C++ 为主，围绕 HIP、ROCm 运行时与性能分析工具链构建，依赖 CMake 及 GitHub Actions 做持续集成。",
+        "hot": "作为 AMD 官方整合 ROCm 生态的关键动作，它登上 GitHub Trending C++ 日榜第 8，虽仅 527 star、今日新增 2，但战略意义让开发者持续关注。",
         "uses": [
-          "需要处理 JSON 的 C++ 开发者，尤其是维护旧代码库或使用旧编译器的团队",
-          "需要保留 JSON 注释以存储用户配置或输入文件的项目",
-          "希望集成稳定、无需频繁升级的 JSON 依赖的工程",
-          "通过包管理器（vcpkg、Conan）快速引入 JSON 支持的 C++ 项目"
+          "AMD GPU 与 ROCm 平台开发者，需要一站式获取 HIP 及系统组件源码",
+          "构建或移植 PyTorch 等框架到 ROCm 的工程师",
+          "关注 GPU 性能分析、调试与系统监控工具链的研究人员",
+          "希望参与 ROCm 开源生态贡献的 C++ 开发者"
         ]
       },
       "en": {
-        "tag": "A mature, stable C++ library for JSON serialization and deserialization",
-        "what": "JsonCpp is a C++ library for manipulating JSON values, supporting serialization and deserialization to and from strings. It can also preserve comments during parsing and generation, making it convenient for storing user input files.",
-        "content": "The repo contains library sources, headers, build scripts (e.g., Meson), tests, and documentation; it also provides amalgamate.py to generate a single-file distribution with jsoncpp.cpp and headers.",
-        "stack": "Based on C++11 (1.y.z branch), compatible with GCC, Clang, MSVC, built with CMake/Meson, and integrable via package managers like vcpkg and Conan.",
-        "hot": "As a long-maintained classic library, JsonCpp has nearly 9k stars; with only 2 stars added today, it still ranks 14th on the C++ daily trending list, reflecting persistent demand in legacy projects and scenarios requiring comment preservation.",
+        "tag": "AMD ROCm systems super-repo consolidating core components for unified dev and CI",
+        "what": "This is AMD's ROCm systems super-repo, consolidating multiple previously separate ROCm systems projects into one place to streamline development, CI, and integration. The first batch of projects focuses on the requirements for building PyTorch.",
+        "content": "It hosts components like amdsmi, aqlprofile, clr, hip, hipfile, rocdecode, rocjpeg, rocm-core, rocminfo, rocm-smi-lib, and rocprofiler in a monorepo layout, with a status table tracking each project's migration progress and CI health.",
+        "stack": "Primarily C++, built around HIP, the ROCm runtime, and profiling tooling, with CMake and GitHub Actions for continuous integration.",
+        "hot": "As AMD's key move to unify the ROCm ecosystem, it hit #8 on GitHub Trending (C++ daily); with 527 stars and +2 today, its strategic importance keeps developers watching.",
         "uses": [
-          "C++ developers working with JSON, especially those maintaining legacy codebases or using older compilers",
-          "Projects that need to preserve JSON comments for storing user configuration or input files",
-          "Engineering teams wanting a stable JSON dependency that doesn't require frequent updates",
-          "C++ projects seeking quick JSON support via package managers like vcpkg or Conan"
+          "AMD GPU and ROCm platform developers needing one-stop access to HIP and system component sources",
+          "Engineers building or porting frameworks like PyTorch to ROCm",
+          "Researchers interested in GPU profiling, debugging, and system monitoring tooling",
+          "C++ developers wanting to contribute to the ROCm open-source ecosystem"
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "mooncake",
+      "full": "kvcache-ai/Mooncake",
+      "rank": 9,
+      "cat": "infra",
+      "lang": "C++",
+      "stars": 6.7,
+      "today": "+9",
+      "today_n": 9,
+      "auto": false,
+      "zh": {
+        "tag": "Kimi 背后的 KVCache 中心化分离式 LLM 推理服务平台",
+        "what": "Mooncake 是 Moonshot AI 为 Kimi 打造的 LLM 推理服务平台，采用以 KVCache 为中心的分离式架构，把预填充与解码、缓存与计算解耦。在真实负载下，该架构让 Kimi 在满足 SLO 的前提下多处理 75% 的请求。",
+        "content": "仓库包含核心 C++ 实现、Mooncake Transfer Engine 传输引擎（提供 CUDA/non-CUDA/NPU/ROCm 等多版本 PyPI 包）、FAST25 论文与幻灯片、真实 traces 数据集，以及文档站点和 Docker 镜像。",
+        "stack": "以 C++ 为主，提供 Python 绑定与 PyPI 包，依赖 CUDA/ROCm/NPU 等异构加速后端，支持 Docker 部署，并配有 Slack 社区与在线文档。",
+        "hot": "作为 Kimi 生产级推理平台的开源实现，加上 FAST25 论文与真实 traces 的学术背书，已积累 6746 stars，今日再登 C++ 日榜第 9。",
+        "uses": [
+          "LLM 推理基础设施工程师，用于搭建高吞吐、低延迟的分离式推理服务",
+          "研究 KVCache 调度与预填充/解码分离架构的科研人员",
+          "需要跨 GPU/NPU/ROCm 异构集群做缓存传输的云平台团队",
+          "希望复现 FAST25 论文实验并基于真实 traces 做压测的开发者"
+        ]
+      },
+      "en": {
+        "tag": "The KVCache-centric disaggregated serving platform behind Kimi",
+        "what": "Mooncake is the serving platform for Kimi, built by Moonshot AI on a KVCache-centric disaggregated architecture that separates prefill from decode and cache from compute. Under real workloads it lets Kimi handle 75% more requests while still meeting SLOs.",
+        "content": "The repo ships the core C++ implementation, the Mooncake Transfer Engine (with CUDA, non-CUDA, NPU, ROCm and other PyPI variants), the FAST25 paper and slides, real-world traces, plus a documentation site and Docker images.",
+        "stack": "Primarily C++ with Python bindings and PyPI packages, supporting CUDA/ROCm/NPU heterogeneous backends, Docker deployment, plus a Slack community and online docs.",
+        "hot": "As the open-source implementation of Kimi's production serving platform, backed by a FAST25 paper and real traces, it has reached 6,746 stars and ranks 9th on today's C++ trending list.",
+        "uses": [
+          "LLM inference infra engineers building high-throughput, low-latency disaggregated serving",
+          "Researchers studying KVCache scheduling and prefill/decode disaggregation",
+          "Cloud platform teams needing cache transfer across GPU/NPU/ROCm heterogeneous clusters",
+          "Developers reproducing the FAST25 paper and benchmarking on real traces"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "freecad",
+      "full": "FreeCAD/FreeCAD",
+      "rank": 10,
+      "cat": "infra",
+      "lang": "C++",
+      "stars": 34.1,
+      "today": "+55",
+      "today_n": 55,
+      "auto": false,
+      "zh": {
+        "tag": "开源跨平台参数化 3D 建模软件官方源码",
+        "what": "FreeCAD 是一款免费开源的跨平台参数化 3D 建模软件，用于设计任意尺寸的真实物体。通过修改模型历史中的参数即可调整设计，并支持从 2D 草图构建 3D 模型、反向生成工程图纸。",
+        "content": "仓库是 FreeCAD 的官方源代码，包含核心 C++ 代码、Qt 图形界面、Python API 以及各工作台模块，并附有构建脚本、图标资源与文档链接。",
+        "stack": "主要使用 C++ 编写，基于 OpenCASCADE 几何内核、Coin3D 场景库与 Qt 界面框架，并提供广泛的 Python API 用于脚本扩展。",
+        "hot": "作为拥有 34089 颗星的老牌开源 CAD 项目，它今日再登 GitHub C++ 日榜第 10 名（新增 55 星），持续吸引工程师与创客关注。",
+        "uses": [
+          "机械工程师与产品设计师，用于参数化零件与装配体建模",
+          "建筑师与土木从业者，用于建筑与结构的三维设计",
+          "学生和教师，作为免费学习 CAD 与参数化建模的教学工具",
+          "程序员与爱好者，通过 Python API 扩展自定义工作台与自动化流程"
+        ]
+      },
+      "en": {
+        "tag": "Official source of the free, open-source, cross-platform parametric 3D modeler",
+        "what": "FreeCAD is a free, open-source, cross-platform parametric 3D modeler for designing real-life objects of any size. Designs can be modified by changing parameters in the model history, and it supports building 3D from 2D sketches and producing production drawings.",
+        "content": "The repo hosts FreeCAD's official source code, including core C++ code, the Qt GUI, the Python API, workbench modules, build scripts, icon assets and documentation links.",
+        "stack": "Written mainly in C++, it builds on the OpenCASCADE geometry kernel, the Coin3D scene library and the Qt GUI framework, with an extensive Python API for scripting.",
+        "hot": "With 34,089 stars, this veteran open-source CAD project is back on GitHub's daily C++ trending list at No. 10 (+55 stars today), drawing steady attention from engineers and makers.",
+        "uses": [
+          "Mechanical engineers and product designers for parametric part and assembly modeling",
+          "Architects and civil professionals for 3D building and structural design",
+          "Students and teachers as a free tool for learning CAD and parametric modeling",
+          "Programmers and hobbyists extending custom workbenches and automation via the Python API"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "esp32marauder",
+      "full": "justcallmekoko/ESP32Marauder",
+      "rank": 11,
+      "cat": "infra",
+      "lang": "C++",
+      "stars": 12.7,
+      "today": "+34",
+      "today_n": 34,
+      "auto": false,
+      "zh": {
+        "tag": "ESP32上的WiFi/蓝牙攻防工具套件",
+        "what": "ESP32 Marauder 是一套运行在 ESP32 微控制器上的 WiFi 和蓝牙安全测试工具集合。它提供了扫描、嗅探、攻击和防御等多种功能，用于无线网络的安全评估。",
+        "content": "仓库包含固件源代码、预编译的发布版本、详细的 Wiki 文档以及硬件购买链接。主要目录包括固件源码、构建脚本和文档。",
+        "stack": "基于 C++ 开发，使用 ESP-IDF 框架和 Arduino 库，依赖 ESP32 硬件平台。",
+        "hot": "凭借其强大的无线攻防能力和活跃的社区支持，该项目已获得 12681 颗星，今日新增 34 星，位列 GitHub Trending 日榜 C++ 第 11 名。",
+        "uses": [
+          "网络安全研究人员用于无线渗透测试和漏洞评估",
+          "硬件爱好者学习 ESP32 和无线通信技术",
+          "安全讲师在教学中演示无线攻击与防御"
+        ]
+      },
+      "en": {
+        "tag": "A suite of WiFi/Bluetooth offensive and defensive tools for the ESP32",
+        "what": "ESP32 Marauder is a suite of WiFi and Bluetooth security testing tools that runs on the ESP32 microcontroller. It offers a range of functions including scanning, sniffing, attacking, and defending, for wireless network security assessment.",
+        "content": "The repository contains firmware source code, pre-compiled releases, detailed Wiki documentation, and hardware purchase links. Main directories include firmware source, build scripts, and documentation.",
+        "stack": "Developed in C++, using the ESP-IDF framework and Arduino libraries, dependent on the ESP32 hardware platform.",
+        "hot": "With its powerful wireless attack and defense capabilities and active community support, the project has gained 12,681 stars, with 34 new stars today, ranking 11th on GitHub Trending daily list for C++.",
+        "uses": [
+          "Cybersecurity researchers for wireless penetration testing and vulnerability assessment",
+          "Hardware enthusiasts learning ESP32 and wireless communication technology",
+          "Security instructors demonstrating wireless attacks and defenses in teaching"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -6891,9 +6228,9 @@ window.TRENDING_DATA = {
       "rank": 3,
       "cat": "agent",
       "lang": "TypeScript",
-      "stars": 6.2,
-      "today": "+2.7k",
-      "today_n": 2693,
+      "stars": 6.5,
+      "today": "+2.3k",
+      "today_n": 2338,
       "auto": false,
       "zh": {
         "tag": "把 Claude Code 与 Codex 编排成一支持久化多智能体团队的 harness 管理框架",
@@ -6946,9 +6283,9 @@ window.TRENDING_DATA = {
       "rank": 10,
       "cat": "agent",
       "lang": "TypeScript",
-      "stars": 59.3,
+      "stars": 59.8,
       "today": "+4.0k",
-      "today_n": 3996,
+      "today_n": 4003,
       "auto": false,
       "zh": {
         "tag": "为 AI 代理打造的 HTML 转视频渲染框架",
@@ -7001,9 +6338,9 @@ window.TRENDING_DATA = {
       "rank": 3,
       "cat": "agent",
       "lang": "TypeScript",
-      "stars": 10.4,
+      "stars": 10.6,
       "today": "+1.1k",
-      "today_n": 1109,
+      "today_n": 1125,
       "auto": false,
       "zh": {
         "tag": "Cursor 官方插件规范与插件集合",
@@ -7061,14 +6398,189 @@ window.TRENDING_DATA = {
       }
     },
     {
+      "slug": "raddebugger",
+      "full": "EpicGames/raddebugger",
+      "rank": 6,
+      "cat": "infra",
+      "lang": "C",
+      "stars": 8.3,
+      "today": "+654",
+      "today_n": 654,
+      "auto": false,
+      "zh": {
+        "tag": "Epic Games 出品的原生多进程图形调试器，自带 RDI 调试信息格式与 RAD 链接器",
+        "what": "RAD Debugger 是一个原生、用户态、支持多进程的图形化调试器，目前仅支持本地 Windows x64 + PDB 调试，未来计划扩展到 Linux 与 DWARF。除调试器本体外，项目还包含自定义的 RAD Debug Info（RDI）格式和面向超大工程的 RAD Linker。",
+        "content": "仓库以 C 源码为主，核心包括 src/lib_rdi（RDI 格式定义与解析）、src/lib_rdi_make（RDI 构造与序列化库）以及 radbin 工具，可把 PDB 等原生调试信息转换为 RDI 并输出文本转储。",
+        "stack": "使用 C 语言编写，依赖 Windows x64 平台与 PDB 调试信息，构建产物包含调试器可执行文件与 radbin 工具，RAD Linker 面向 x64 PE/COFF 二进制。",
+        "hot": "作为 Epic Games 开源的调试器项目，它直击大型工程调试与链接性能痛点，已积累约 7940 star，今日新增 90 并登上 GitHub Trending 日榜第 7 名。",
+        "uses": [
+          "Windows 平台 C/C++ 开发者，需要多进程图形化调试体验",
+          "处理超大可执行文件、被 PDB 32 位表溢出困扰的工程团队",
+          "对调试信息格式（RDI/DWARF/PDB）与链接器实现感兴趣的工具链研究者",
+          "希望参与 ALPHA 阶段项目、提交 issue 与复现用例的开源贡献者"
+        ]
+      },
+      "en": {
+        "tag": "Epic Games' native, multi-process graphical debugger with its own RDI debug info format and RAD linker",
+        "what": "RAD Debugger is a native, user-mode, multi-process graphical debugger, currently limited to local-machine Windows x64 debugging with PDBs, with Linux and DWARF support planned. Beyond the debugger itself, the project also ships a custom RAD Debug Info (RDI) format and the RAD Linker for very large projects.",
+        "content": "The repo is mostly C source, centered on src/lib_rdi (RDI format definition and parsing), src/lib_rdi_make (an in-progress RDI construction/serialization library), and the radbin utility that converts native debug info such as PDB into RDI and dumps it as text.",
+        "stack": "Written in C, it targets Windows x64 with PDB debug info; build outputs include the debugger executable and the radbin utility, while RAD Linker targets x64 PE/COFF binaries.",
+        "hot": "As an Epic Games open-source debugger, it targets real pain points in large-project debugging and linking, with roughly 7,940 stars, 90 added today, and a #7 spot on GitHub Trending's daily list.",
+        "uses": [
+          "Windows C/C++ developers who want a multi-process graphical debugging experience",
+          "Teams with huge executables suffering from PDB 32-bit table overflows",
+          "Toolchain researchers interested in debug info formats (RDI/DWARF/PDB) and linker internals",
+          "Open-source contributors willing to file issues and repro cases for an ALPHA-stage project"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-08",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-10-08",
+            "s": 7.9,
+            "r": 7
+          },
+          {
+            "d": "2026-10-09",
+            "s": 8.2,
+            "r": 6
+          }
+        ]
+      }
+    },
+    {
+      "slug": "text-to-cad",
+      "full": "earthtojake/text-to-cad",
+      "rank": 2,
+      "cat": "agent",
+      "lang": "Python",
+      "stars": 18.8,
+      "today": "+2.1k",
+      "today_n": 2125,
+      "auto": false,
+      "zh": {
+        "tag": "让 AI 代理获得本地 CAD 建模与制造能力",
+        "what": "text-to-cad 是一个为 AI 代理提供本地 CAD 工作流的插件，能将文本描述转化为 STEP、GLB、STL 或 3MF 格式的 3D 模型。它还支持可制造性设计检查、生成工程图纸，并连接主流的 3D 打印、钣金和 CNC 加工服务。",
+        "content": "仓库包含一个 Python 包 cadgen（已发布到 PyPI）和配套的文档应用（apps/docs），提供代理插件/技能定义、CAD 生成与检查逻辑，以及安装和使用指南。",
+        "stack": "主要使用 Python 3.11+，依赖 build123d 0.11 和 Open CASCADE 7.9 进行几何建模，通过 uv 运行；文档部分使用 Node.js 20+。",
+        "hot": "该项目今日新增 447 颗星，总星数达 18,323，位列 GitHub Trending 日榜（Python）第 2 名，反映出 AI 代理与 CAD/制造结合的热门趋势。",
+        "uses": [
+          "AI 代理开发者 —— 为 Claude Code、Codex、Cursor 等代理添加 CAD 生成能力",
+          "机械工程师与产品设计师 —— 用自然语言快速生成可制造的 3D 模型",
+          "3D 打印/CNC 爱好者 —— 直接输出 STL/STEP 并连接制造服务",
+          "制造与原型团队 —— 自动进行可制造性检查并生成工程图纸"
+        ]
+      },
+      "en": {
+        "tag": "Give your agent CAD superpowers for local 3D modeling and fabrication",
+        "what": "text-to-cad is a plugin that gives AI agents local CAD workflows for generating 3D models as STEP, GLB, STL, or 3MF files. It also performs design-for-manufacturing checks, generates engineering drawings, and connects to popular 3D printing, sheet metal, and CNC fabrication services.",
+        "content": "The repository contains a Python package cadgen (published on PyPI) and a companion docs app (apps/docs), providing agent plugin/skill definitions, CAD generation and checking logic, plus installation and usage guides.",
+        "stack": "Primarily Python 3.11+ with build123d 0.11 and Open CASCADE 7.9 for geometry, run via uv; the docs part uses Node.js 20+.",
+        "hot": "It gained 447 stars today, reaching 18,323 total, and ranks #2 on GitHub Trending (Python daily), reflecting the hot trend of combining AI agents with CAD and fabrication.",
+        "uses": [
+          "AI agent developers — add CAD generation to agents like Claude Code, Codex, Cursor",
+          "Mechanical engineers and product designers — quickly generate manufacturable 3D models from natural language",
+          "3D printing/CNC hobbyists — output STL/STEP directly and connect to fabrication services",
+          "Manufacturing and prototyping teams — automate design-for-manufacturing checks and generate engineering drawings"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-22",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-07-22",
+            "s": 9.1,
+            "r": 5
+          },
+          {
+            "d": "2026-07-24",
+            "s": 10.0,
+            "r": 9
+          },
+          {
+            "d": "2026-09-10",
+            "s": 15.0,
+            "r": 5
+          }
+        ]
+      }
+    },
+    {
+      "slug": "t3code",
+      "full": "pingdotgg/t3code",
+      "rank": 9,
+      "cat": "agent",
+      "lang": "TypeScript",
+      "stars": 26.6,
+      "today": "+2.4k",
+      "today_n": 2379,
+      "auto": false,
+      "zh": {
+        "tag": "跨平台 AI 编码代理控制台，手机也能遥控本机 Agent",
+        "what": "T3 Code 是一个「Agent 控制台」，让你用手机、网页或桌面应用远程操控本机已安装的编码代理。它兼容 Claude Code、Codex、Cursor、Grok Build、OpenCode 和 Google Antigravity，只要这些工具在本机配置好就能被接管。",
+        "content": "仓库包含 CLI 安装脚本、本地服务端、Web 应用、Electron 桌面端，以及 iOS/Android 移动端配套，另有 AUR 等打包目录。",
+        "stack": "主语言 TypeScript，核心为 Node 服务端 + Web/Electron 前端，通过 CLI 与各代理的本地登录态对接。",
+        "hot": "上线不久即冲到 2.6 万 star，今日再涨 241，靠的是「一个界面统管所有编码代理 + 真开源可 fork」的定位。",
+        "uses": [
+          "同时使用多个编码代理、想统一入口管理的开发者",
+          "需要在手机或平板上远程查看和推进 Agent 任务的人",
+          "想自托管、可 fork 定制编辑器体验的团队",
+          "对 Claude Code、Codex 等 CLI 工作流已熟悉的重度用户"
+        ]
+      },
+      "en": {
+        "tag": "A cross-platform control surface for AI coding agents on your machine",
+        "what": "T3 Code is an \"agent harness control surface\" that lets you drive the coding agents installed on your machine from a mobile app, web app, or Electron desktop app. It works with Claude Code, Codex, Cursor, Grok Build, OpenCode, and Google Antigravity as long as they're set up locally.",
+        "content": "The repo ships a CLI installer, a local server, a web app, an Electron desktop client, companion iOS/Android apps, plus packaging directories such as AUR.",
+        "stack": "Primarily TypeScript, built around a Node server with web/Electron frontends that hook into each agent's local CLI login.",
+        "hot": "It raced to 26.2k stars shortly after launch and added 241 today, riding its pitch of one interface for every coding agent plus a truly forkable open codebase.",
+        "uses": [
+          "Developers juggling multiple coding agents who want one unified entry point",
+          "People who need to check in on and steer agent tasks from phone or tablet",
+          "Teams that want a self-hosted, forkable editor experience",
+          "Heavy users already comfortable with Claude Code, Codex, and similar CLI workflows"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-27",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-07-27",
+            "s": 15.0,
+            "r": 4
+          },
+          {
+            "d": "2026-08-10",
+            "s": 17.7,
+            "r": 12
+          },
+          {
+            "d": "2026-08-11",
+            "s": 18.0,
+            "r": 14
+          }
+        ]
+      }
+    },
+    {
       "slug": "agent-reach",
       "full": "Panniantong/Agent-Reach",
       "rank": 6,
       "cat": "agent",
       "lang": "Python",
-      "stars": 94.3,
-      "today": "+7.0k",
-      "today_n": 6987,
+      "stars": 94.9,
+      "today": "+7.1k",
+      "today_n": 7084,
       "auto": false,
       "zh": {
         "tag": "给 AI Agent 一键装上全网读取与搜索能力的 CLI 工具",
@@ -7109,292 +6621,14 @@ window.TRENDING_DATA = {
       }
     },
     {
-      "slug": "yoinks",
-      "full": "pablostanley/yoinks",
-      "rank": 8,
-      "cat": "other",
-      "lang": "TypeScript",
-      "stars": 5.5,
-      "today": "+2.7k",
-      "today_n": 2706,
-      "auto": false,
-      "zh": {
-        "tag": "终端里的视频下载器，粘贴链接即可保存 1800+ 网站视频",
-        "what": "yoinks 是一个命令行视频下载工具，支持 YouTube、X/Twitter、Instagram、Threads、TikTok 等 1800 多个网站。粘贴链接后选择分辨率或纯音频 mp3，即可直接下载到本地，全程无广告弹窗和诱导按钮。",
-        "content": "仓库是一个 TypeScript CLI 项目，核心是 Ink 构建的全屏终端界面（含格式选择器、主题切换、鼠标点击支持），底层调用 yt-dlp 和 ffmpeg，并附带 logo 与界面截图等资源。",
-        "stack": "基于 TypeScript 与 Node 18+，UI 用 Ink（终端版 React），下载依赖 yt-dlp 独立二进制，ffmpeg 取自 PATH 或以 ffmpeg-static 兜底，构建用 tsup。",
-        "hot": "本周新增 2732 star、总数 5197，冲上 GitHub Trending 周榜第 8。它精准击中「网页下载站广告满天飞」的痛点，用 npx 一行即可零安装体验，加上精致的终端 UI，传播力极强。",
-        "uses": [
-          "经常从视频网站存档素材、需要批量保存内容的自媒体与研究者",
-          "讨厌网页下载站广告和假按钮、偏好命令行的开发者",
-          "想在服务器或无图形界面环境里下载视频的用户",
-          "需要把视频转成 mp3 音频做播客或听书素材的人"
-        ]
-      },
-      "en": {
-        "tag": "Terminal video downloader — paste a link, yoink it from 1,800+ sites",
-        "what": "yoinks is a command-line video downloader supporting YouTube, X/Twitter, Instagram, Threads, TikTok and 1,800+ other sites. Paste a URL, pick a resolution or audio-only mp3, and it downloads straight to your machine — no popups, fake buttons, or sketchy redirects.",
-        "content": "The repo is a TypeScript CLI project whose core is a full-screen Ink terminal UI (format picker, theme cycling, mouse-clickable controls) wrapping yt-dlp and ffmpeg, plus logo and screenshot assets.",
-        "stack": "Built with TypeScript on Node 18+, UI via Ink (React for the terminal), downloads powered by the standalone yt-dlp binary, ffmpeg from PATH or bundled ffmpeg-static, bundled with tsup.",
-        "hot": "It gained 2,732 stars this week (5,197 total), landing at #8 on GitHub Trending weekly. It nails the pain of ad-ridden download sites, runs instantly via npx with zero install, and pairs that with a polished terminal UI — a highly shareable combo.",
-        "uses": [
-          "Creators and researchers who archive video content and need to save media regularly",
-          "Developers who hate ad-filled download sites and prefer the command line",
-          "Users downloading videos on servers or headless environments without a GUI",
-          "Anyone extracting mp3 audio from videos for podcasts or listening material"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "ghosttrack",
-      "full": "HunxByts/GhostTrack",
-      "rank": 15,
-      "cat": "other",
-      "lang": "Python",
-      "stars": 17.6,
-      "today": "+1.3k",
-      "today_n": 1292,
-      "auto": false,
-      "zh": {
-        "tag": "开源情报追踪工具，可查 IP、手机号与社交账号信息",
-        "what": "GhostTrack 是一款用 Python 编写的开源情报（OSINT）工具，主打信息收集与目标追踪。它提供 IP 追踪、手机号信息查询和社交平台用户名检索三大功能，常被用于渗透测试前期的信息侦察。",
-        "content": "仓库主体是 GhostTR.py 主程序加 requirements.txt 依赖，另含 asset 目录存放菜单截图，README 给出 Linux 与 Termux 的安装步骤。",
-        "stack": "基于 Python 3，依赖见 requirements.txt，可在 Debian/Linux 或 Termux 上运行，IP 追踪可与 Seeker 工具联动。",
-        "hot": "作为门槛低、上手快的 OSINT 工具，它契合安全爱好者与 CTF 玩家的需求，已积累近 1.6 万 star，今日新增 635 星冲上 Python 日榜第 15。",
-        "uses": [
-          "安全爱好者与渗透测试人员做前期信息侦察",
-          "CTF 与网络安全课程中演示 OSINT 技术",
-          "想了解自己手机号/账号暴露情况的普通用户",
-          "在 Termux 上做移动端信息收集的玩家"
-        ]
-      },
-      "en": {
-        "tag": "OSINT tool to track IP, phone number and social media username",
-        "what": "GhostTrack is a Python-based OSINT tool focused on information gathering and target tracking. It offers three main modules: IP tracking, phone number lookup, and social media username search, often used for reconnaissance before penetration testing.",
-        "content": "The repo centers on the GhostTR.py entry script plus requirements.txt, with an asset folder holding menu screenshots and a README covering Linux and Termux installation.",
-        "stack": "Built on Python 3 with dependencies listed in requirements.txt, runs on Debian/Linux or Termux, and its IP tracker can be combined with the Seeker tool.",
-        "hot": "As a low-barrier, easy-to-run OSINT tool it appeals to security hobbyists and CTF players, racking up nearly 16k stars and gaining 635 today to reach No.15 on the Python trending list.",
-        "uses": [
-          "Security hobbyists and pentesters doing early reconnaissance",
-          "CTF players and cybersecurity courses demonstrating OSINT techniques",
-          "Everyday users checking how much their phone number or account exposes",
-          "Mobile users running information gathering via Termux"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "production-agentic-rag-course",
-      "full": "jamwithai/production-agentic-rag-course",
-      "rank": 4,
-      "cat": "agent",
-      "lang": "Python",
-      "stars": 9.7,
-      "today": "+630",
-      "today_n": 630,
-      "auto": false,
-      "zh": {
-        "tag": "从零构建生产级 RAG 系统的 7 周实战课程，含 Agentic RAG 与 Telegram 机器人",
-        "what": "这是一个以学习者为中心的实战项目，带你构建 arXiv 论文研究助手：自动抓取学术论文、理解内容并回答研究问题。课程强调专业路径，先打好关键词搜索基础，再引入向量实现混合检索，最终升级为 Agentic RAG。",
-        "content": "仓库按周组织课程内容，包含 Docker 基础设施、数据管道、BM25 搜索、混合检索、完整 RAG 流水线、监控与缓存，以及第 7 周的 LangGraph Agentic RAG 和 Telegram 机器人集成，并配有架构图。",
-        "stack": "技术栈包括 Python 3.12+、FastAPI、OpenSearch、PostgreSQL、Airflow、Docker Compose、LangGraph、Langfuse、Redis 和 Gradio，并集成本地 LLM 与 Telegram Bot。",
-        "hot": "作为 GitHub Trending 周榜 Python 第 4 名，本周新增 688 star，总 star 达 9660，反映出开发者对生产级 RAG 与 Agentic AI 实战技能的强烈需求。",
-        "uses": [
-          "想系统学习生产级 RAG 系统构建的 AI 工程师与开发者",
-          "希望从关键词搜索进阶到混合检索与 Agentic RAG 的技术人员",
-          "需要完整项目案例来教学或自学的高校师生与训练营"
-        ]
-      },
-      "en": {
-        "tag": "A 7-week hands-on course building a production-grade RAG system, including Agentic RAG and a Telegram bot",
-        "what": "This is a learner-focused hands-on project where you build an arXiv paper research assistant that automatically fetches academic papers, understands their content, and answers research questions. It follows the professional path: master keyword search first, then add vectors for hybrid retrieval, and finally evolve into Agentic RAG.",
-        "content": "The repo organizes the course by weeks, covering Docker infrastructure, data pipelines, BM25 search, hybrid retrieval, a full RAG pipeline, monitoring and caching, and Week 7's LangGraph Agentic RAG with Telegram bot integration, complete with architecture diagrams.",
-        "stack": "Tech stack includes Python 3.12+, FastAPI, OpenSearch, PostgreSQL, Airflow, Docker Compose, LangGraph, Langfuse, Redis, and Gradio, with local LLM and Telegram Bot integration.",
-        "hot": "Ranked #4 on GitHub Trending weekly for Python with 688 new stars this week and 9,660 total, reflecting strong demand for hands-on production RAG and Agentic AI skills.",
-        "uses": [
-          "AI engineers and developers who want to systematically learn production-grade RAG system building",
-          "Technologists looking to advance from keyword search to hybrid retrieval and Agentic RAG",
-          "University teachers, students, and bootcamps needing a complete project case study for teaching or self-learning"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "ifixai",
-      "full": "ifixai-ai/iFixAi",
-      "rank": 6,
-      "cat": "agent",
-      "lang": "Python",
-      "stars": 22.7,
-      "today": "+4.8k",
-      "today_n": 4795,
-      "auto": false,
-      "zh": {
-        "tag": "AI 智能体的独立审计工具，120 秒内判断代理是否按预期工作",
-        "what": "iFixAi 是一个面向 AI 智能体的独立审计工具，用来回答 AI Agent 经济中最关键的问题：代理是否在做它该做的事。它可由人类或代理自身运行，在不到 120 秒内给出诊断结果，帮助你在问题爆发前发现代理的错误与盲区。",
-        "content": "仓库包含 CLI 工具与文档：一次 ifixai run 会引导选择被测系统、评判模型与测试套件，执行覆盖五大支柱的多项检查，最终输出 A–F 等级与核心支柱评分卡。",
-        "stack": "主语言 Python（要求 3.10+），采用 Apache 2.0 许可，配有 CI 工作流与 pyproject.toml 配置，内置约 60 项检查。",
-        "hot": "随着 AI Agent 大规模落地，如何验证代理行为是否可靠成为刚需；该项目已获 17373 星，今日新增 340，位列 GitHub Trending 日榜 Python 第 6 名。",
-        "uses": [
-          "AI 代理开发者：在发布前对代理做独立审计，提前发现错误与盲区",
-          "AI 平台与运维团队：把代理行为检查纳入 CI/CD 与上线流程",
-          "安全与合规人员：评估代理是否偏离预期目标与策略",
-          "研究者与产品经理：快速获得代理表现的量化评分与报告"
-        ]
-      },
-      "en": {
-        "tag": "Independent auditing of AI agents — know in under 120 seconds whether your agent does what it should",
-        "what": "iFixAi is an independent auditing tool for AI agents that answers the most crucial question in the AI Agent Economy: is the agent doing what it is supposed to do? It can be run by a human or by the agent itself and returns a diagnosis in under 120 seconds, catching mistakes and blind spots before they blow up.",
-        "content": "The repo ships a CLI plus docs: a single `ifixai run` guides you through picking the system under test, the judge, and the suite, executes inspections across five pillars, and returns an A–F grade with a scored core-pillar scorecard.",
-        "stack": "Primarily Python (3.10+), Apache 2.0 licensed, with a CI workflow and pyproject.toml config, bundling around 60 inspections.",
-        "hot": "As AI agents proliferate, verifying that they behave reliably has become a pressing need; the project has 17,373 stars, +340 today, ranking #6 on GitHub Trending daily for Python.",
-        "uses": [
-          "AI agent developers: audit agents independently before release to catch mistakes and blind spots",
-          "AI platform and ops teams: fold agent behavior checks into CI/CD and release pipelines",
-          "Security and compliance staff: assess whether agents drift from intended goals and policies",
-          "Researchers and PMs: get quick quantitative scores and reports on agent performance"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "open-dots",
-      "full": "Anil-matcha/open-dots",
-      "rank": 7,
-      "cat": "agent",
-      "lang": "Python",
-      "stars": 5.6,
-      "today": "+464",
-      "today_n": 464,
-      "auto": false,
-      "zh": {
-        "tag": "开源可自托管的 AI 代理工作台，付费代理产品的替代方案",
-        "what": "Open Dots 是一个开源、可自托管的 AI 代理工作台，定位为 OpenAI Dots、Manus Cue、Claude Cowork 等付费代理产品的替代品。当前原型聚焦编码代理工作流：可从 Telegram 或网页运行 Claude Code 任务、审查高风险操作、连接 GitHub 并设置定时提示。",
-        "content": "仓库包含 Python 后端与 Node 网页前端，提供聊天、连接器、审批与可选的计算机使用能力，并附有演示视频、快速开始、架构说明与已知限制文档。",
-        "stack": "以 Python 为主，使用 uv 管理依赖，前端基于 Node.js 18+ 与 npm，PostgreSQL 通过 Docker 运行，并依赖 Boat API 创建沙箱、Telegram Bot 提供交互入口。",
-        "hot": "本周新增 464 star、总数达 5568，登上 GitHub Trending Python 周榜第 7 名，反映出开发者对可自托管、可审查的代理工作台需求旺盛。",
-        "uses": [
-          "想自托管 AI 代理、掌控数据与凭据的个人开发者",
-          "需要从 Telegram 或网页运行编码代理任务并审查高风险操作的团队",
-          "希望用开源方案替代付费代理产品的技术探索者",
-          "关注代理沙箱、审批流程与定时任务架构的工程师"
-        ]
-      },
-      "en": {
-        "tag": "Open-source, self-hosted AI agent workspace, an alternative to paid agent products",
-        "what": "Open Dots is an open-source, self-hosted AI agent workspace positioned as an alternative to paid agent products like OpenAI Dots, Manus Cue, and Claude Cowork. The current prototype focuses on coding-agent workflows: running Claude Code tasks from Telegram or the web, reviewing risky actions, connecting GitHub, and scheduling recurring prompts.",
-        "content": "The repo ships a Python backend and a Node web UI, offering chat, connectors, approvals, and optional computer use, plus a demo video, quick start, architecture notes, and known-limitations docs.",
-        "stack": "Primarily Python with uv for dependency management, a Node.js 18+ / npm web frontend, PostgreSQL via Docker, plus the Boat API for sandbox creation and a Telegram bot for interaction.",
-        "hot": "It gained 464 stars this week for a total of 5,568, ranking 7th on GitHub's weekly Python trending list, reflecting strong demand for self-hostable, inspectable agent workspaces.",
-        "uses": [
-          "Individual developers who want to self-host an AI agent and control their data and credentials",
-          "Teams running coding-agent tasks from Telegram or the web with approval for risky actions",
-          "Technical explorers seeking an open-source alternative to paid agent products",
-          "Engineers interested in agent sandboxing, approval flows, and scheduled-task architecture"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "heretic",
-      "full": "p-e-w/heretic",
-      "rank": 12,
-      "cat": "ai",
-      "lang": "Python",
-      "stars": 34.1,
-      "today": "+1.4k",
-      "today_n": 1434,
-      "auto": false,
-      "zh": {
-        "tag": "全自动移除语言模型审查，无需昂贵后训练",
-        "what": "Heretic 是一个自动移除基于 Transformer 的语言模型审查（即“安全对齐”）的工具。它结合了方向消融（abliteration）和基于 TPE 的参数优化器，能自动找到高质量消融参数，在最小化拒绝回答的同时保持模型原有智能。",
-        "content": "仓库包含 Python 源代码、命令行工具、配置文件以及示例脚本，用于自动执行消融过程。还提供了与 Hugging Face 集成的模型发布工具和详细的文档。",
-        "stack": "主要使用 Python 编写，依赖 PyTorch、Transformers 和 Optuna 等库，支持大多数稠密模型、多模态模型和 MoE 架构。",
-        "hot": "该项目在 GitHub 上已获得 33960 颗星，本周新增 1287 颗星，位列 Python 周榜第 12 名，因其能自动、高效地移除模型审查且无需昂贵训练而备受关注。",
-        "uses": [
-          "AI 研究人员和开发者 —— 需要移除模型审查以进行安全研究或开发无限制应用。",
-          "开源模型爱好者 —— 希望自定义模型行为，去除不必要的拒绝回答。",
-          "命令行用户 —— 无需了解 Transformer 内部原理即可使用。",
-          "模型部署者 —— 需要快速生成无审查模型用于特定场景。"
-        ]
-      },
-      "en": {
-        "tag": "Fully automatic censorship removal for language models without expensive post-training",
-        "what": "Heretic is a tool that automatically removes censorship (aka 'safety alignment') from transformer-based language models. It combines directional ablation (abliteration) with a TPE-based parameter optimizer to find high-quality ablation parameters, minimizing refusals while preserving the original model's intelligence.",
-        "content": "The repository contains Python source code, a command-line tool, configuration files, and example scripts for automating the abliteration process. It also includes tools for publishing models to Hugging Face and detailed documentation.",
-        "stack": "Primarily written in Python, it depends on PyTorch, Transformers, and Optuna, and supports most dense models, multimodal models, and MoE architectures.",
-        "hot": "With 33,960 stars and 1,287 new stars this week, ranking 12th on the Python weekly trending list, it's popular for automatically and efficiently removing model censorship without expensive training.",
-        "uses": [
-          "AI researchers and developers — need to remove model censorship for safety research or building unrestricted applications.",
-          "Open-source model enthusiasts — want to customize model behavior and eliminate unnecessary refusals.",
-          "Command-line users — can use it without understanding transformer internals.",
-          "Model deployers — need to quickly produce uncensored models for specific scenarios."
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-08-30",
-        "is_new": false,
-        "is_back": false,
-        "hist": [
-          {
-            "d": "2026-08-30",
-            "s": 28.7,
-            "r": 6
-          },
-          {
-            "d": "2026-08-31",
-            "s": 29.2,
-            "r": 5
-          },
-          {
-            "d": "2026-09-01",
-            "s": 29.7,
-            "r": 13
-          }
-        ]
-      }
-    },
-    {
       "slug": "openmontage",
       "full": "calesthio/OpenMontage",
       "rank": 4,
       "cat": "agent",
       "lang": "Python",
-      "stars": 65.6,
-      "today": "+3.4k",
-      "today_n": 3407,
+      "stars": 65.9,
+      "today": "+3.5k",
+      "today_n": 3479,
       "auto": false,
       "zh": {
         "tag": "把 AI 编程助手变成完整视频制作工作室的开源智能体系统",
@@ -7455,42 +6689,190 @@ window.TRENDING_DATA = {
       }
     },
     {
-      "slug": "tilelang",
-      "full": "tile-ai/tilelang",
-      "rank": 10,
-      "cat": "infra",
+      "slug": "heretic",
+      "full": "p-e-w/heretic",
+      "rank": 12,
+      "cat": "ai",
       "lang": "Python",
-      "stars": 8.5,
-      "today": "+495",
-      "today_n": 495,
+      "stars": 34.4,
+      "today": "+1.5k",
+      "today_n": 1546,
       "auto": false,
       "zh": {
-        "tag": "面向高性能 GPU/CPU/NPU 内核的 Python 领域特定语言",
-        "what": "TileLang 是一个简洁的领域特定语言，用于简化高性能 GPU/CPU/NPU 内核（如 GEMM、FlashAttention）的开发。它采用 Python 风格语法，底层基于 TVM 编译器基础设施，让开发者兼顾生产力和底层优化。",
-        "content": "仓库包含 TileLang 核心实现、示例（examples）、文档、测试以及针对不同后端的代码（如 Ascend NPU）。还提供了 LSP 工具和 Puzzles 学习资源。",
-        "stack": "主要使用 Python 编写，依赖 TVM 编译器栈，支持 CUDA、Metal、Ascend 等多种硬件后端。",
-        "hot": "TileLang 本周新增 639 颗星，登上 GitHub Trending 周榜第 10 名，总星数达 8503。其热度源于对高性能内核开发效率的显著提升，以及对新兴硬件（如华为昇腾 950）的快速支持。",
+        "tag": "全自动移除语言模型审查，无需昂贵后训练",
+        "what": "Heretic 是一个自动移除基于 Transformer 的语言模型审查（即“安全对齐”）的工具。它结合了方向消融（abliteration）和基于 TPE 的参数优化器，能自动找到高质量消融参数，在最小化拒绝回答的同时保持模型原有智能。",
+        "content": "仓库包含 Python 源代码、命令行工具、配置文件以及示例脚本，用于自动执行消融过程。还提供了与 Hugging Face 集成的模型发布工具和详细的文档。",
+        "stack": "主要使用 Python 编写，依赖 PyTorch、Transformers 和 Optuna 等库，支持大多数稠密模型、多模态模型和 MoE 架构。",
+        "hot": "该项目在 GitHub 上已获得 33960 颗星，本周新增 1287 颗星，位列 Python 周榜第 12 名，因其能自动、高效地移除模型审查且无需昂贵训练而备受关注。",
         "uses": [
-          "AI 系统工程师和性能优化专家，需要为特定硬件编写高效内核。",
-          "研究人员和开发者，希望快速实现和实验新的注意力机制或矩阵乘法算法。",
-          "学生和爱好者，通过 TileLang Puzzles 学习 GPU 编程和编译器技术。"
+          "AI 研究人员和开发者 —— 需要移除模型审查以进行安全研究或开发无限制应用。",
+          "开源模型爱好者 —— 希望自定义模型行为，去除不必要的拒绝回答。",
+          "命令行用户 —— 无需了解 Transformer 内部原理即可使用。",
+          "模型部署者 —— 需要快速生成无审查模型用于特定场景。"
         ]
       },
       "en": {
-        "tag": "A Python DSL for high-performance GPU/CPU/NPU kernels",
-        "what": "TileLang is a concise domain-specific language designed to streamline the development of high-performance GPU/CPU/NPU kernels (e.g., GEMM, FlashAttention). It uses a Pythonic syntax with a compiler infrastructure built on TVM, allowing developers to focus on productivity without sacrificing low-level optimizations.",
-        "content": "The repository contains the core TileLang implementation, examples, documentation, tests, and backend-specific code (e.g., for Ascend NPU). It also offers an LSP tool and learning puzzles.",
-        "stack": "Primarily written in Python, it depends on the TVM compiler stack and supports multiple hardware backends such as CUDA, Metal, and Ascend.",
-        "hot": "TileLang gained 639 stars this week, ranking 10th on GitHub Trending, with a total of 8,503 stars. Its popularity stems from significantly improving kernel development productivity and rapid support for emerging hardware like Huawei Ascend 950.",
+        "tag": "Fully automatic censorship removal for language models without expensive post-training",
+        "what": "Heretic is a tool that automatically removes censorship (aka 'safety alignment') from transformer-based language models. It combines directional ablation (abliteration) with a TPE-based parameter optimizer to find high-quality ablation parameters, minimizing refusals while preserving the original model's intelligence.",
+        "content": "The repository contains Python source code, a command-line tool, configuration files, and example scripts for automating the abliteration process. It also includes tools for publishing models to Hugging Face and detailed documentation.",
+        "stack": "Primarily written in Python, it depends on PyTorch, Transformers, and Optuna, and supports most dense models, multimodal models, and MoE architectures.",
+        "hot": "With 33,960 stars and 1,287 new stars this week, ranking 12th on the Python weekly trending list, it's popular for automatically and efficiently removing model censorship without expensive training.",
         "uses": [
-          "AI system engineers and performance optimization experts who need to write efficient kernels for specific hardware.",
-          "Researchers and developers who want to quickly implement and experiment with new attention mechanisms or matrix multiplication algorithms.",
-          "Students and enthusiasts learning GPU programming and compiler techniques through TileLang Puzzles."
+          "AI researchers and developers — need to remove model censorship for safety research or building unrestricted applications.",
+          "Open-source model enthusiasts — want to customize model behavior and eliminate unnecessary refusals.",
+          "Command-line users — can use it without understanding transformer internals.",
+          "Model deployers — need to quickly produce uncensored models for specific scenarios."
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-08-30",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-08-30",
+            "s": 28.7,
+            "r": 6
+          },
+          {
+            "d": "2026-08-31",
+            "s": 29.2,
+            "r": 5
+          },
+          {
+            "d": "2026-09-01",
+            "s": 29.7,
+            "r": 13
+          }
+        ]
+      }
+    },
+    {
+      "slug": "production-agentic-rag-course",
+      "full": "jamwithai/production-agentic-rag-course",
+      "rank": 4,
+      "cat": "agent",
+      "lang": "Python",
+      "stars": 9.7,
+      "today": "+527",
+      "today_n": 527,
+      "auto": false,
+      "zh": {
+        "tag": "从零构建生产级 RAG 系统的 7 周实战课程，含 Agentic RAG 与 Telegram 机器人",
+        "what": "这是一个以学习者为中心的实战项目，带你构建 arXiv 论文研究助手：自动抓取学术论文、理解内容并回答研究问题。课程强调专业路径，先打好关键词搜索基础，再引入向量实现混合检索，最终升级为 Agentic RAG。",
+        "content": "仓库按周组织课程内容，包含 Docker 基础设施、数据管道、BM25 搜索、混合检索、完整 RAG 流水线、监控与缓存，以及第 7 周的 LangGraph Agentic RAG 和 Telegram 机器人集成，并配有架构图。",
+        "stack": "技术栈包括 Python 3.12+、FastAPI、OpenSearch、PostgreSQL、Airflow、Docker Compose、LangGraph、Langfuse、Redis 和 Gradio，并集成本地 LLM 与 Telegram Bot。",
+        "hot": "作为 GitHub Trending 周榜 Python 第 4 名，本周新增 688 star，总 star 达 9660，反映出开发者对生产级 RAG 与 Agentic AI 实战技能的强烈需求。",
+        "uses": [
+          "想系统学习生产级 RAG 系统构建的 AI 工程师与开发者",
+          "希望从关键词搜索进阶到混合检索与 Agentic RAG 的技术人员",
+          "需要完整项目案例来教学或自学的高校师生与训练营"
+        ]
+      },
+      "en": {
+        "tag": "A 7-week hands-on course building a production-grade RAG system, including Agentic RAG and a Telegram bot",
+        "what": "This is a learner-focused hands-on project where you build an arXiv paper research assistant that automatically fetches academic papers, understands their content, and answers research questions. It follows the professional path: master keyword search first, then add vectors for hybrid retrieval, and finally evolve into Agentic RAG.",
+        "content": "The repo organizes the course by weeks, covering Docker infrastructure, data pipelines, BM25 search, hybrid retrieval, a full RAG pipeline, monitoring and caching, and Week 7's LangGraph Agentic RAG with Telegram bot integration, complete with architecture diagrams.",
+        "stack": "Tech stack includes Python 3.12+, FastAPI, OpenSearch, PostgreSQL, Airflow, Docker Compose, LangGraph, Langfuse, Redis, and Gradio, with local LLM and Telegram Bot integration.",
+        "hot": "Ranked #4 on GitHub Trending weekly for Python with 688 new stars this week and 9,660 total, reflecting strong demand for hands-on production RAG and Agentic AI skills.",
+        "uses": [
+          "AI engineers and developers who want to systematically learn production-grade RAG system building",
+          "Technologists looking to advance from keyword search to hybrid retrieval and Agentic RAG",
+          "University teachers, students, and bootcamps needing a complete project case study for teaching or self-learning"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "opensre",
+      "full": "Tracer-Cloud/opensre",
+      "rank": 4,
+      "cat": "agent",
+      "lang": "Python",
+      "stars": 11.7,
+      "today": "+356",
+      "today_n": 356,
+      "auto": false,
+      "zh": {
+        "tag": "构建你自己的 AI SRE 智能体开源框架",
+        "what": "OpenSRE 是一个用于构建 AI SRE（站点可靠性工程）智能体的开源框架，同时提供训练与评估环境。它可接入你已在使用的 60 多种工具，自定义工作流，并在自有基础设施上回答生产环境问题。",
+        "content": "仓库包含框架核心代码、文档（docs 目录与 logo 资源）、CI 工作流配置，以及快速上手、FAQ、安全等文档入口，当前为 v0.1 公开 alpha 版本。",
+        "stack": "主语言为 Python，采用 Apache 2.0 许可证，通过 CI 工作流做持续集成，并配有 Discord 社区与官方文档站。",
+        "hot": "上线即获约 1.16 万 star，今日新增 81，登上 GitHub Trending 日榜 Python 第 4 名，反映 AI 运维（AIOps/SRE）方向的高关注度。",
+        "uses": [
+          "SRE/运维工程师：用 AI 智能体自动化生产环境问题排查与响应",
+          "平台工程团队：接入现有 60+ 工具，构建自定义运维工作流",
+          "AI 应用开发者：基于框架训练和评估自己的运维智能体",
+          "技术负责人：在自有基础设施上安全落地 AI 运维能力"
+        ]
+      },
+      "en": {
+        "tag": "The open-source framework for building your own AI SRE agents",
+        "what": "OpenSRE is an open-source framework for building AI SRE agents, along with the training and evaluation environment they need to improve. It connects the 60+ tools you already run, lets you define custom workflows, and answers production questions on your own infrastructure.",
+        "content": "The repo contains the core framework code, documentation (docs directory with logo assets), CI workflow configs, and entry points for quickstart, FAQ, and security docs, currently at v0.1 public alpha.",
+        "stack": "Written primarily in Python under the Apache 2.0 license, with CI workflows for continuous integration, plus a Discord community and official docs site.",
+        "hot": "It has already gathered ~11.6k stars with 81 added today, ranking 4th on GitHub Trending's daily Python list, reflecting strong interest in AI-driven operations (AIOps/SRE).",
+        "uses": [
+          "SRE/ops engineers: automate production troubleshooting and response with AI agents",
+          "Platform engineering teams: connect existing 60+ tools and build custom ops workflows",
+          "AI application developers: train and evaluate their own ops agents on the framework",
+          "Tech leads: safely adopt AI-driven operations on their own infrastructure"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "ghosttrack",
+      "full": "HunxByts/GhostTrack",
+      "rank": 15,
+      "cat": "other",
+      "lang": "Python",
+      "stars": 17.9,
+      "today": "+1.2k",
+      "today_n": 1166,
+      "auto": false,
+      "zh": {
+        "tag": "开源情报追踪工具，可查 IP、手机号与社交账号信息",
+        "what": "GhostTrack 是一款用 Python 编写的开源情报（OSINT）工具，主打信息收集与目标追踪。它提供 IP 追踪、手机号信息查询和社交平台用户名检索三大功能，常被用于渗透测试前期的信息侦察。",
+        "content": "仓库主体是 GhostTR.py 主程序加 requirements.txt 依赖，另含 asset 目录存放菜单截图，README 给出 Linux 与 Termux 的安装步骤。",
+        "stack": "基于 Python 3，依赖见 requirements.txt，可在 Debian/Linux 或 Termux 上运行，IP 追踪可与 Seeker 工具联动。",
+        "hot": "作为门槛低、上手快的 OSINT 工具，它契合安全爱好者与 CTF 玩家的需求，已积累近 1.6 万 star，今日新增 635 星冲上 Python 日榜第 15。",
+        "uses": [
+          "安全爱好者与渗透测试人员做前期信息侦察",
+          "CTF 与网络安全课程中演示 OSINT 技术",
+          "想了解自己手机号/账号暴露情况的普通用户",
+          "在 Termux 上做移动端信息收集的玩家"
+        ]
+      },
+      "en": {
+        "tag": "OSINT tool to track IP, phone number and social media username",
+        "what": "GhostTrack is a Python-based OSINT tool focused on information gathering and target tracking. It offers three main modules: IP tracking, phone number lookup, and social media username search, often used for reconnaissance before penetration testing.",
+        "content": "The repo centers on the GhostTR.py entry script plus requirements.txt, with an asset folder holding menu screenshots and a README covering Linux and Termux installation.",
+        "stack": "Built on Python 3 with dependencies listed in requirements.txt, runs on Debian/Linux or Termux, and its IP tracker can be combined with the Seeker tool.",
+        "hot": "As a low-barrier, easy-to-run OSINT tool it appeals to security hobbyists and CTF players, racking up nearly 16k stars and gaining 635 today to reach No.15 on the Python trending list.",
+        "uses": [
+          "Security hobbyists and pentesters doing early reconnaissance",
+          "CTF players and cybersecurity courses demonstrating OSINT techniques",
+          "Everyday users checking how much their phone number or account exposes",
+          "Mobile users running information gathering via Termux"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -7502,9 +6884,9 @@ window.TRENDING_DATA = {
       "rank": 10,
       "cat": "ai",
       "lang": "Python",
-      "stars": 65.9,
+      "stars": 66.2,
       "today": "+3.6k",
-      "today_n": 3582,
+      "today_n": 3627,
       "auto": false,
       "zh": {
         "tag": "523 节课、20 阶段的 AI 工程从零到上线开源课程",
@@ -7602,147 +6984,190 @@ window.TRENDING_DATA = {
       }
     },
     {
-      "slug": "opencore-legacy-patcher",
-      "full": "dortania/OpenCore-Legacy-Patcher",
-      "rank": 12,
+      "slug": "sentry",
+      "full": "getsentry/sentry",
+      "rank": 10,
       "cat": "infra",
       "lang": "Python",
-      "stars": 18.5,
-      "today": "+156",
-      "today_n": 156,
+      "stars": 45.5,
+      "today": "+555",
+      "today_n": 555,
       "auto": false,
       "zh": {
-        "tag": "让老旧 Mac 也能跑上新版 macOS 的开源补丁工具",
-        "what": "OpenCore Legacy Patcher 是一个基于 Python 的项目，围绕 Acidanthera 的 OpenCorePkg 和 Lilu 构建，用于在苹果已停止支持的旧款 Mac 上安装并运行 macOS Big Sur 及更新版本。它通过引导加载器与内核补丁，解锁图形加速、Wi-Fi、隔空投送等原本被官方屏蔽的功能。",
-        "content": "仓库包含 Python 编写的图形化补丁程序、OpenCore 引导配置与内核扩展（kext）资源，以及配套的文档与构建脚本，可生成可启动的 OpenCore EFI 并执行系统补丁。",
-        "stack": "主要使用 Python 开发，依赖 Acidanthera 的 OpenCorePkg 与 Lilu，并涉及 macOS 内核扩展、APFS 与 SIP 相关底层技术。",
-        "hot": "凭借让 2007 年以来的老 Mac 重获新生的实用价值，该项目已积累 18,519 颗星，本周新增 156 星，位列 GitHub Trending Python 周榜第 12 名。",
+        "tag": "开发者优先的错误追踪与性能监控平台",
+        "what": "Sentry 是一个帮助开发者检测、追踪并修复代码问题的调试平台，覆盖错误追踪、性能监控、日志、会话回放与可用性监控。它通过官方 SDK 接入各类语言与框架，把线上异常和性能瓶颈集中呈现并定位根因。",
+        "content": "仓库是 Sentry 的服务端主体（Python 实现），包含后端 API、数据处理与 Web 前端，并链接了 JavaScript、Python、Go、Rust、Java、Unity 等数十个官方 SDK 仓库。",
+        "stack": "以 Python 为主，配合 Django、Celery、PostgreSQL、ClickHouse、Redis、Kafka 等组件，前端使用 React/TypeScript，依赖较重、部署形态多样。",
+        "hot": "作为可观测性领域的老牌标杆项目，Sentry 已积累 45523 颗星，本周再增 555 星并登上 GitHub Trending Python 周榜第 10 名，说明自托管与开源监控需求持续旺盛。",
         "uses": [
-          "拥有苹果已停止支持的老款 Mac、希望升级到新版 macOS 的用户",
-          "喜欢折腾黑苹果或系统补丁、想研究 OpenCore 引导机制的技术爱好者",
-          "需要为旧设备延长使用寿命、节省换机成本的个人或小型团队"
+          "需要统一收集线上错误与性能数据的研发与运维团队",
+          "希望自托管、对数据隐私有要求的公司或组织",
+          "想学习大型 Python/Django 项目架构与可观测性实现的工程师",
+          "为多语言、多端应用（Web、移动、游戏）接入监控的开发者"
         ]
       },
       "en": {
-        "tag": "An open-source patcher that lets unsupported Macs run modern macOS",
-        "what": "OpenCore Legacy Patcher is a Python-based project built around Acidanthera's OpenCorePkg and Lilu that installs and runs macOS Big Sur and newer on Macs Apple no longer supports. Through bootloader and kernel patches, it unlocks graphics acceleration, Wi-Fi, AirPlay and other features that were officially disabled.",
-        "content": "The repo contains a Python GUI patcher, OpenCore boot configuration and kernel extension (kext) resources, plus documentation and build scripts that generate a bootable OpenCore EFI and apply system patches.",
-        "stack": "Primarily written in Python, it depends on Acidanthera's OpenCorePkg and Lilu, and touches low-level macOS technologies such as kernel extensions, APFS and SIP.",
-        "hot": "By giving Macs as old as 2007 a new lease on life, it has gathered 18,519 stars, adding 156 this week and ranking 12th on GitHub Trending's Python weekly list.",
+        "tag": "Developer-first error tracking and performance monitoring platform",
+        "what": "Sentry is a debugging platform that helps developers detect, trace, and fix issues in their code, covering error tracking, performance monitoring, logs, replays, and uptime. Official SDKs across many languages and frameworks funnel production errors and performance bottlenecks into one place for root-cause analysis.",
+        "content": "The repo is Sentry's server-side core (written in Python), containing the backend API, data processing, and web frontend, and links out to dozens of official SDK repos such as JavaScript, Python, Go, Rust, Java, and Unity.",
+        "stack": "Primarily Python with Django, Celery, PostgreSQL, ClickHouse, Redis, and Kafka, plus a React/TypeScript frontend; it has heavy dependencies and multiple deployment options.",
+        "hot": "As a long-standing benchmark in observability, Sentry has accumulated 45,523 stars, gaining 555 more this week and ranking 10th on GitHub Trending's Python weekly list, showing sustained demand for self-hosted, open-source monitoring.",
         "uses": [
-          "Users with older Macs that Apple no longer supports but want to upgrade to newer macOS",
-          "Hackintosh and system-patching enthusiasts interested in how OpenCore booting works",
-          "Individuals or small teams looking to extend old hardware's lifespan and avoid buying new machines"
+          "Engineering and ops teams needing unified production error and performance data",
+          "Companies or organizations that want self-hosting and stronger data privacy",
+          "Engineers studying large-scale Python/Django architecture and observability design",
+          "Developers instrumenting multi-language, multi-platform apps (web, mobile, games)"
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "octabam",
-      "full": "sambanks/octabam",
-      "rank": 7,
-      "cat": "other",
+      "slug": "longcat-video",
+      "full": "meituan-longcat/LongCat-Video",
+      "rank": 11,
+      "cat": "ai",
       "lang": "Python",
-      "stars": 0.2,
-      "today": "+49",
-      "today_n": 49,
+      "stars": 9.1,
+      "today": "+562",
+      "today_n": 562,
       "auto": false,
       "zh": {
-        "tag": "Elektron Octatrack 固件的社区模块化重混工具",
-        "what": "octabam 是 Elektron Octatrack 操作系统的非官方社区重混器，让你从自己的 OS 1.40C 出发，挑选想要的修改并编译成一个固件镜像。修改以模块形式存在，命名的一组模块称为 remix，用 make image REMIX=<name> 即可生成可刷卡的镜像。",
-        "content": "仓库由 modules/（单个修改，如总线延迟、混响等 DSP 效果）、remixes/（模块组合）、docs/（构建、重混器、固件架构与贡献指南）以及 Python 工具链和 CI 工作流组成。",
-        "stack": "以 Python 3.10+ 编写工具链，配合 CMake、uv 与 make 构建；涉及 DSP56300 效果与 ColdFire 修改，并带模拟器与字节级比对测试。",
-        "hot": "本周新增 50 star、总计 233，登上 GitHub Trending Python 周榜第 7；小众硬件固件改造加上模块化重混的巧思，吸引了对 Octatrack 与嵌入式音频感兴趣的开发者。",
+        "tag": "美团开源 136 亿参数视频生成基础模型，统一文生/图生/续写",
+        "what": "LongCat-Video 是美团 LongCat 团队开源的基础视频生成模型，拥有 136 亿参数，在文生视频、图生视频和视频续写三类任务上均有出色表现。它原生支持长视频生成，可产出数分钟级别且不出现色彩漂移或画质衰减的视频，被视为迈向世界模型的第一步。",
+        "content": "仓库包含模型推理与训练代码、技术报告（arXiv 2510.22200）、项目主页，以及 Hugging Face / ModelScope 上的模型权重；另有 LongCat-Video-Avatar 1.5 数字人分支及其技术报告。",
+        "stack": "以 Python 为主，依赖 PyTorch 生态与 Hugging Face 权重分发，模型权重同时托管在 Hugging Face 和 ModelScope，采用 MIT 许可证。",
+        "hot": "本周新增 562 star、总数突破 9100，登上 GitHub Trending Python 周榜第 11 名；大厂开源的十亿级视频生成基础模型本就稀缺，加上统一架构与长视频能力，自然吸引大量关注。",
         "uses": [
-          "Elektron Octatrack 用户，想自定义固件效果与功能",
-          "嵌入式音频/DSP 开发者，研究 DSP56300 与 ColdFire 修改",
-          "想学习模块化构建与字节级验证工具链的工程师"
+          "视频生成研究者与算法工程师，用于复现和二次开发基础视频模型",
+          "内容创作者与短视频团队，用于文生视频、图生视频及长视频续写",
+          "数字人与虚拟主播开发者，可基于 Avatar 1.5 分支构建说话人视频",
+          "希望评估开源视频生成方案、对比闭源 API 的产品与创业团队"
         ]
       },
       "en": {
-        "tag": "A community remixer that composes Octatrack OS modules into one firmware image",
-        "what": "octabam is an unofficial community remixer for the Elektron Octatrack OS: pick the modifications you want and build them into one firmware image from your own copy of OS 1.40C. Modifications live as modules, a named selection is a remix, and `make image REMIX=<name>` composes one into a card-flashable image.",
-        "content": "The repo holds modules/ (individual mods such as bus delay and reverb DSP effects), remixes/ (module selections), docs/ (building, remixer, firmware architecture, contributing guides), plus a Python toolchain and CI workflows.",
-        "stack": "Python 3.10+ tooling with CMake, uv and make for builds; it touches DSP56300 effects and ColdFire mods, with an emulator and byte-for-byte comparison tests.",
-        "hot": "It gained 50 stars this week for 233 total, ranking 7th on GitHub Trending's Python weekly list; a niche hardware-firmware hack with a clever modular remix design appeals to Octatrack and embedded-audio developers.",
+        "tag": "Meituan's open-source 13.6B foundational video generation model unifying T2V, I2V and continuation",
+        "what": "LongCat-Video is a 13.6B-parameter foundational video generation model open-sourced by Meituan's LongCat team, performing strongly on text-to-video, image-to-video and video-continuation tasks. It natively supports minutes-long generation without color drifting or quality degradation, framed as a first step toward world models.",
+        "content": "The repo ships inference and training code, a technique report (arXiv 2510.22200), a project page, and model weights on Hugging Face / ModelScope, plus a LongCat-Video-Avatar 1.5 avatar branch with its own report.",
+        "stack": "Primarily Python on the PyTorch ecosystem, distributing weights via Hugging Face and ModelScope, released under the MIT license.",
+        "hot": "It gained 562 stars this week to pass 9,100 total, ranking 11th on GitHub's weekly Python trending list; a big-lab open-source billion-scale video foundation model with unified architecture and long-video ability is rare enough to draw heavy attention.",
         "uses": [
-          "Elektron Octatrack owners who want custom firmware effects and features",
-          "Embedded audio/DSP developers exploring DSP56300 and ColdFire mods",
-          "Engineers curious about modular build and byte-for-byte verification tooling"
+          "Video generation researchers and ML engineers reproducing or fine-tuning a foundation video model",
+          "Content creators and short-video teams doing text-to-video, image-to-video and long-video continuation",
+          "Digital human and virtual avatar developers building on the Avatar 1.5 branch",
+          "Product and startup teams evaluating open-source video generation against closed APIs"
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "t3code",
-      "full": "pingdotgg/t3code",
-      "rank": 9,
+      "slug": "mirofish",
+      "full": "666ghj/MiroFish",
+      "rank": 12,
       "cat": "agent",
-      "lang": "TypeScript",
-      "stars": 26.4,
-      "today": "+2.3k",
-      "today_n": 2317,
+      "lang": "Python",
+      "stars": 77.5,
+      "today": "+1.9k",
+      "today_n": 1861,
       "auto": false,
       "zh": {
-        "tag": "跨平台 AI 编码代理控制台，手机也能遥控本机 Agent",
-        "what": "T3 Code 是一个「Agent 控制台」，让你用手机、网页或桌面应用远程操控本机已安装的编码代理。它兼容 Claude Code、Codex、Cursor、Grok Build、OpenCode 和 Google Antigravity，只要这些工具在本机配置好就能被接管。",
-        "content": "仓库包含 CLI 安装脚本、本地服务端、Web 应用、Electron 桌面端，以及 iOS/Android 移动端配套，另有 AUR 等打包目录。",
-        "stack": "主语言 TypeScript，核心为 Node 服务端 + Web/Electron 前端，通过 CLI 与各代理的本地登录态对接。",
-        "hot": "上线不久即冲到 2.6 万 star，今日再涨 241，靠的是「一个界面统管所有编码代理 + 真开源可 fork」的定位。",
+        "tag": "多智能体群体智能引擎，用数字沙盘推演未来",
+        "what": "MiroFish 是一个基于多智能体的通用预测引擎。它从新闻、政策草案、金融信号等真实世界素材中提取种子信息，自动构建高保真平行数字世界，让成千上万个具备独立人格、长期记忆与行为逻辑的智能体自由交互与社会演化。用户可从上帝视角注入变量，推演未来走向并获得预测报告。",
+        "content": "仓库以 Python 实现，包含智能体建模、数字世界构建与预测报告生成等核心模块，并提供 Docker 部署、中英文双语文档、Discord/X/Instagram 社区入口与 DeepWiki 文档。",
+        "stack": "主语言为 Python，支持 Docker 构建部署，依赖多智能体仿真与大模型推理能力，并配有 Discord 社区与 DeepWiki 文档支持。",
+        "hot": "以「群体智能预测万物」的宏大叙事和可交互数字沙盘概念吸引关注，本周新增 1861 star，累计 77475 star，位列 GitHub Trending 周榜 Python 第 12 名。",
         "uses": [
-          "同时使用多个编码代理、想统一入口管理的开发者",
-          "需要在手机或平板上远程查看和推进 Agent 任务的人",
-          "想自托管、可 fork 定制编辑器体验的团队",
-          "对 Claude Code、Codex 等 CLI 工作流已熟悉的重度用户"
+          "政策与公关团队：在零风险数字沙盘中预演舆情与政策效果",
+          "金融与投资研究者：从市场信号推演未来走势与风险情景",
+          "AI 智能体开发者：研究多智能体社会演化与群体涌现机制",
+          "科幻与叙事创作者：上传故事设定，生成可交互的平行世界"
         ]
       },
       "en": {
-        "tag": "A cross-platform control surface for AI coding agents on your machine",
-        "what": "T3 Code is an \"agent harness control surface\" that lets you drive the coding agents installed on your machine from a mobile app, web app, or Electron desktop app. It works with Claude Code, Codex, Cursor, Grok Build, OpenCode, and Google Antigravity as long as they're set up locally.",
-        "content": "The repo ships a CLI installer, a local server, a web app, an Electron desktop client, companion iOS/Android apps, plus packaging directories such as AUR.",
-        "stack": "Primarily TypeScript, built around a Node server with web/Electron frontends that hook into each agent's local CLI login.",
-        "hot": "It raced to 26.2k stars shortly after launch and added 241 today, riding its pitch of one interface for every coding agent plus a truly forkable open codebase.",
+        "tag": "A multi-agent swarm intelligence engine that rehearses the future in a digital sandbox",
+        "what": "MiroFish is a general-purpose prediction engine built on multi-agent technology. It extracts seed information from real-world material such as breaking news, policy drafts, or financial signals, then automatically constructs a high-fidelity parallel digital world where thousands of agents with independent personalities, long-term memory, and behavioral logic interact and socially evolve. Users can inject variables from a god's-eye view to deduce future trajectories and receive prediction reports.",
+        "content": "Implemented in Python, the repo contains core modules for agent modeling, digital-world construction, and prediction report generation, plus Docker deployment, bilingual docs, Discord/X/Instagram community links, and DeepWiki documentation.",
+        "stack": "Primary language is Python, with Docker-based build and deployment, relying on multi-agent simulation and LLM reasoning, backed by a Discord community and DeepWiki docs.",
+        "hot": "Its grand vision of \"predicting anything with swarm intelligence\" and an interactive digital sandbox concept draw attention, adding 1,861 stars this week for 77,475 total and ranking 12th on GitHub Trending's weekly Python chart.",
         "uses": [
-          "Developers juggling multiple coding agents who want one unified entry point",
-          "People who need to check in on and steer agent tasks from phone or tablet",
-          "Teams that want a self-hosted, forkable editor experience",
-          "Heavy users already comfortable with Claude Code, Codex, and similar CLI workflows"
+          "Policy and PR teams: rehearse public-opinion and policy outcomes at zero risk in a digital sandbox",
+          "Finance and investment researchers: deduce market trends and risk scenarios from signals",
+          "AI agent developers: study multi-agent social evolution and collective emergence",
+          "Sci-fi and narrative creators: upload story settings to generate interactive parallel worlds"
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-07-27",
+        "first": "2026-08-08",
         "is_new": false,
         "is_back": false,
         "hist": [
           {
-            "d": "2026-07-27",
-            "s": 15.0,
-            "r": 4
+            "d": "2026-08-08",
+            "s": 70.5,
+            "r": 8
           },
           {
-            "d": "2026-08-10",
-            "s": 17.7,
-            "r": 12
-          },
-          {
-            "d": "2026-08-11",
-            "s": 18.0,
-            "r": 14
+            "d": "2026-09-15",
+            "s": 73.1,
+            "r": 5
           }
         ]
+      }
+    },
+    {
+      "slug": "yoinks",
+      "full": "pablostanley/yoinks",
+      "rank": 8,
+      "cat": "other",
+      "lang": "TypeScript",
+      "stars": 5.6,
+      "today": "+2.3k",
+      "today_n": 2295,
+      "auto": false,
+      "zh": {
+        "tag": "终端里的视频下载器，粘贴链接即可保存 1800+ 网站视频",
+        "what": "yoinks 是一个命令行视频下载工具，支持 YouTube、X/Twitter、Instagram、Threads、TikTok 等 1800 多个网站。粘贴链接后选择分辨率或纯音频 mp3，即可直接下载到本地，全程无广告弹窗和诱导按钮。",
+        "content": "仓库是一个 TypeScript CLI 项目，核心是 Ink 构建的全屏终端界面（含格式选择器、主题切换、鼠标点击支持），底层调用 yt-dlp 和 ffmpeg，并附带 logo 与界面截图等资源。",
+        "stack": "基于 TypeScript 与 Node 18+，UI 用 Ink（终端版 React），下载依赖 yt-dlp 独立二进制，ffmpeg 取自 PATH 或以 ffmpeg-static 兜底，构建用 tsup。",
+        "hot": "本周新增 2732 star、总数 5197，冲上 GitHub Trending 周榜第 8。它精准击中「网页下载站广告满天飞」的痛点，用 npx 一行即可零安装体验，加上精致的终端 UI，传播力极强。",
+        "uses": [
+          "经常从视频网站存档素材、需要批量保存内容的自媒体与研究者",
+          "讨厌网页下载站广告和假按钮、偏好命令行的开发者",
+          "想在服务器或无图形界面环境里下载视频的用户",
+          "需要把视频转成 mp3 音频做播客或听书素材的人"
+        ]
+      },
+      "en": {
+        "tag": "Terminal video downloader — paste a link, yoink it from 1,800+ sites",
+        "what": "yoinks is a command-line video downloader supporting YouTube, X/Twitter, Instagram, Threads, TikTok and 1,800+ other sites. Paste a URL, pick a resolution or audio-only mp3, and it downloads straight to your machine — no popups, fake buttons, or sketchy redirects.",
+        "content": "The repo is a TypeScript CLI project whose core is a full-screen Ink terminal UI (format picker, theme cycling, mouse-clickable controls) wrapping yt-dlp and ffmpeg, plus logo and screenshot assets.",
+        "stack": "Built with TypeScript on Node 18+, UI via Ink (React for the terminal), downloads powered by the standalone yt-dlp binary, ffmpeg from PATH or bundled ffmpeg-static, bundled with tsup.",
+        "hot": "It gained 2,732 stars this week (5,197 total), landing at #8 on GitHub Trending weekly. It nails the pain of ad-ridden download sites, runs instantly via npx with zero install, and pairs that with a polished terminal UI — a highly shareable combo.",
+        "uses": [
+          "Creators and researchers who archive video content and need to save media regularly",
+          "Developers who hate ad-filled download sites and prefer the command line",
+          "Users downloading videos on servers or headless environments without a GUI",
+          "Anyone extracting mp3 audio from videos for podcasts or listening material"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
       }
     },
     {
@@ -7751,9 +7176,9 @@ window.TRENDING_DATA = {
       "rank": 18,
       "cat": "infra",
       "lang": "TypeScript",
-      "stars": 93.3,
+      "stars": 93.4,
       "today": "+2.3k",
-      "today_n": 2304,
+      "today_n": 2264,
       "auto": false,
       "zh": {
         "tag": "开源版 CapCut（剪映），免费跨平台视频编辑器",
@@ -7820,8 +7245,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "TypeScript",
       "stars": 17.2,
-      "today": "+868",
-      "today_n": 868,
+      "today": "+750",
+      "today_n": 750,
       "auto": false,
       "zh": {
         "tag": "TypeScript 生产级应用的全能效应系统库",
@@ -7851,7 +7276,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -7864,8 +7289,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "TypeScript",
       "stars": 11.3,
-      "today": "+1.1k",
-      "today_n": 1075,
+      "today": "+1.0k",
+      "today_n": 1027,
       "auto": false,
       "zh": {
         "tag": "Cloudflare 开源的 AI 生产力操作系统，让企业安全地用智能体干活",
@@ -7895,98 +7320,162 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "wa-akg",
-      "full": "mrifqidaffaaditya/WA-AKG",
-      "rank": 10,
+      "slug": "freellmapi",
+      "full": "tashfeenahmed/freellmapi",
+      "rank": 20,
       "cat": "infra",
       "lang": "TypeScript",
-      "stars": 0.5,
-      "today": "+127",
-      "today_n": 127,
+      "stars": 32.5,
+      "today": "+2.4k",
+      "today_n": 2397,
       "auto": false,
       "zh": {
-        "tag": "自托管 WhatsApp 多会话网关与自动化面板",
-        "what": "WA-AKG 是一个自托管的 WhatsApp 网关与仪表盘，把 WhatsApp 账号变成可编程的 RESTful API。它支持多会话账号管理、消息定时发送、自动回复，并通过 Webhook 与外部系统集成。",
-        "content": "仓库包含 Next.js 应用主体、Baileys 连接层、Prisma 数据模型，以及完整文档（用户指南、API 文档、数据库设置、环境变量说明）。提供 109+ 个 API 端点，并配有 OpenAPI/Swagger 与 cURL/JS 示例。",
-        "stack": "技术栈为 TypeScript + Next.js 15/16 + React，使用 Baileys 连接 WhatsApp，Prisma 作为 ORM 对接数据库。",
-        "hot": "本周新增 154 star，总数达 503，登上 GitHub Trending TypeScript 周榜第 10 名。自托管、多会话和 Webhook 集成切中了 WhatsApp 自动化与客服场景的刚需。",
+        "tag": "把34家免费LLM聚合到一个OpenAI兼容端点",
+        "what": "FreeLLMAPI 把数十家免费 LLM 提供商的免费额度聚合到单个 /v1 端点，同时支持自定义 OpenAI 兼容的对话、嵌入、图像与音频端点。它通过智能路由为每个请求挑选可用模型，遇到限流自动故障转移，并加密存储密钥、跟踪各 key 用量以守住免费额度上限。",
+        "content": "仓库为 TypeScript 项目，包含路由与故障转移核心、加密密钥存储、用量追踪、模型目录（474 个模型家族、635 个免费端点）、自更新签名模型源，以及 macOS/Windows/Docker/移动端安装方式与文档。",
+        "stack": "主语言 TypeScript，提供 Docker 镜像（ghcr.io）与 CI，支持 OpenAI 兼容 API，并发布 macOS、Windows、Android、iOS 客户端。",
+        "hot": "本月新增 1844 star、总数达 31831，登上 GitHub Trending 月榜第 20 名；它直击开发者想白嫖多家免费 LLM 额度却要逐个对接的痛点，一个端点即可统一调用。",
         "uses": [
-          "需要自建 WhatsApp 客服或通知网关的中小团队",
-          "想用 REST API 和 Webhook 把 WhatsApp 接入现有业务系统的开发者",
-          "需要多账号、定时群发和自动回复的运营人员",
-          "希望自托管、掌控数据与账号会话的隐私敏感用户"
+          "个人开发者想低成本试验多家免费 LLM 模型",
+          "需要为本地编码助手或 CLI 提供统一 OpenAI 兼容后端的用户",
+          "想自托管、加密管理多平台 API key 并控制免费额度的团队",
+          "做 AI 应用原型、需要自动故障转移与多模型路由的开发者"
         ]
       },
       "en": {
-        "tag": "Self-hosted multi-session WhatsApp gateway and automation dashboard",
-        "what": "WA-AKG is a self-hosted WhatsApp gateway and dashboard that turns WhatsApp accounts into a programmable RESTful API. It supports multi-session account management, scheduled messages, auto-replies, and webhook integration with external systems.",
-        "content": "The repo contains the Next.js app, a Baileys connection layer, Prisma data models, and thorough docs (user guide, API docs, database setup, environment variables). It exposes 109+ API endpoints with OpenAPI/Swagger and cURL/JS snippets.",
-        "stack": "Built with TypeScript, Next.js 15/16, and React, using Baileys to connect to WhatsApp and Prisma as the ORM for the database.",
-        "hot": "It gained 154 stars this week for a total of 503, ranking 10th on GitHub Trending's weekly TypeScript list. Self-hosting, multi-session support, and webhook integration hit a real need for WhatsApp automation and customer service.",
+        "tag": "Aggregate 34 free LLM providers behind one OpenAI-compatible endpoint",
+        "what": "FreeLLMAPI aggregates the free tiers of dozens of LLM providers plus custom OpenAI-compatible chat, embedding, image and audio endpoints behind a single /v1 API. A router picks the best available model per request, fails over when a provider is rate-limited, stores keys encrypted, and tracks per-key usage to stay under every free-tier cap.",
+        "content": "It's a TypeScript project containing the routing and failover core, encrypted key storage, usage tracking, a model catalog (474 model families, 635 free endpoints), a self-updating signed model feed, and install paths for macOS, Windows, Docker and mobile plus docs.",
+        "stack": "Primary language is TypeScript, shipped as a Docker image (ghcr.io) with CI, exposing an OpenAI-compatible API, with macOS, Windows, Android and iOS clients.",
+        "hot": "It gained 1,844 stars this month for a total of 31,831, ranking #20 on GitHub Trending monthly; it hits the pain point of juggling many free LLM tiers by unifying them behind one endpoint.",
         "uses": [
-          "Small teams needing a self-hosted WhatsApp customer service or notification gateway",
-          "Developers integrating WhatsApp into existing business systems via REST API and webhooks",
-          "Operators needing multi-account, scheduled broadcasts, and auto-replies",
-          "Privacy-conscious users who want self-hosting and control over sessions and data"
+          "Individual developers experimenting with many free LLM models at low cost",
+          "Users who need a unified OpenAI-compatible backend for local coding agents or CLIs",
+          "Teams wanting self-hosted, encrypted multi-provider key management within free-tier caps",
+          "Developers prototyping AI apps who need automatic failover and multi-model routing"
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-08-25",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-08-25",
+            "s": 19.8,
+            "r": 15
+          },
+          {
+            "d": "2026-08-29",
+            "s": 21.6,
+            "r": 15
+          },
+          {
+            "d": "2026-08-31",
+            "s": 22.8,
+            "r": 17
+          }
+        ]
+      }
+    },
+    {
+      "slug": "dmnote",
+      "full": "DmNote-App/DmNote",
+      "rank": 13,
+      "cat": "other",
+      "lang": "TypeScript",
+      "stars": 2.9,
+      "today": "+1.1k",
+      "today_n": 1070,
+      "auto": false,
+      "zh": {
+        "tag": "可自定义的跨游戏按键可视化工具，主打 DJMAX RESPECT V",
+        "what": "DM Note 是一款实时按键可视化（key viewer）工具，最初为 DJMAX RESPECT V 打造，也能用于任意游戏。它把键盘输入实时显示在屏幕上，方便直播或录制游玩视频时展示操作。",
+        "content": "仓库包含 React + Tauri 的桌面应用源码，以及文档、截图、图标和官方插件/CSS 示例（assets.zip）。",
+        "stack": "前端用 React 19 + TypeScript + Vite 7，后端用 Tauri，样式用 Tailwind CSS 3；Windows 通过 Raw Input API 检测输入，macOS 用全局输入事件。",
+        "hot": "作为 DJMAX 玩家社区常用的按键显示工具，它支持自定义 CSS、插件和 OBS 叠加，今日新增 263 star，登上 TypeScript 日榜第 13 名。",
+        "uses": [
+          "音游玩家：在直播或录制中实时展示按键操作",
+          "内容创作者：用 OBS 叠加和自定义样式制作游玩视频",
+          "开发者：基于 React + Tauri 二次开发或编写插件/CSS 主题"
+        ]
+      },
+      "en": {
+        "tag": "A customizable key viewer for DJMAX RESPECT V and any game",
+        "what": "DM Note is a real-time key viewer originally built for DJMAX RESPECT V but usable with any game. It displays keyboard input on screen in real time, making it easy to show your play during streams or recordings.",
+        "content": "The repo contains the React + Tauri desktop app source, plus docs, screenshots, icons, and official plugin/CSS examples (assets.zip).",
+        "stack": "Frontend uses React 19 + TypeScript + Vite 7, backend uses Tauri, styling uses Tailwind CSS 3; input detection uses Raw Input API on Windows and global input events on macOS.",
+        "hot": "As a popular key viewer in the DJMAX community, it supports custom CSS, plugins, and OBS overlays, gaining 263 stars today and ranking 13th on the TypeScript daily trending list.",
+        "uses": [
+          "Rhythm game players: show key inputs live during streams or recordings",
+          "Content creators: make gameplay videos with OBS overlays and custom styles",
+          "Developers: build on React + Tauri or write plugins/CSS themes"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "vela",
-      "full": "LuxAlgo/Vela",
-      "rank": 12,
+      "slug": "flowsint",
+      "full": "reconurge/flowsint",
+      "rank": 4,
       "cat": "infra",
       "lang": "TypeScript",
-      "stars": 1.1,
-      "today": "+611",
-      "today_n": 611,
+      "stars": 9.6,
+      "today": "+514",
+      "today_n": 514,
       "auto": false,
       "zh": {
-        "tag": "LuxAlgo 开源的 Web 金融图表引擎，WebGL2 渲染、可插拔扩展",
-        "what": "Vela 是 LuxAlgo 开源的 Web 金融图表核心，用自研 WebGL2 渲染器（带 canvas2d 回退）绘制交互式行情图。图表本身保持 headless，可完全用代码驱动，也能直接调用 workspace 得到一个完整图表应用。",
-        "content": "仓库以 TypeScript 包形式组织：@luxalgo/vela 是 headless 图表核心，/workspace 是完整图表应用，/ui 是组件库，/plugin 是扩展 SDK，/providers/* 内置 Binance、Coinbase、Hyperliquid 数据源。",
-        "stack": "TypeScript 编写，自研 WebGL2 渲染器并支持 canvas2d 回退；UI 层基于 Zag.js 组件原语，通过 npm 安装 @luxalgo/vela 使用。",
-        "hot": "作为知名交易工具厂商 LuxAlgo 的开源核心，一周新增 589 star、总数破千并冲上 TypeScript 周榜第 12，说明开发者对高性能可扩展金融图表的真实需求。",
+        "tag": "面向网络安全分析师的图调查平台",
+        "what": "Flowsint 是一个开源 OSINT 图探索工具，专为道德调查、透明度和验证而设计。它允许用户以可视化、灵活且可扩展的方式，对网络安全调查中的实体和关系进行图分析。",
+        "content": "仓库包含前端应用（flowsint-app）、核心逻辑（flowsint-core）和 API 服务（flowsint-api），并提供 Docker 生产部署配置。",
+        "stack": "主要使用 TypeScript 开发，依赖 Docker 进行容器化部署，支持 Linux、macOS 和 Windows。",
+        "hot": "今日新增 215 颗星，总星数达 9521，登上 GitHub Trending 日榜 TypeScript 第 4 名，反映出网络安全和图分析工具的需求旺盛。",
         "uses": [
-          "量化交易与行情看板开发者，需要自建高性能 K 线图",
-          "金融科技团队想用可插拔 SDK 定制指标与渲染层",
-          "前端工程师寻找 WebGL 图表引擎或 headless 图表方案",
-          "想快速搭建带多图网格与键盘操作的交易终端原型"
+          "网络安全分析师 —— 用于可视化调查网络威胁和实体关系",
+          "OSINT 调查人员 —— 进行开源情报收集与关联分析",
+          "安全团队 —— 在内部网络中部署，进行协作调查",
+          "研究人员 —— 探索图分析在安全领域的应用"
         ]
       },
       "en": {
-        "tag": "LuxAlgo's open-source WebGL2 financial charting engine with a plugin SDK",
-        "what": "Vela is the open-source core of LuxAlgo's financial charting product, rendering interactive market charts with a native WebGL2 renderer (canvas2d fallback). The chart stays headless so you can drive it entirely from code, or drop in the workspace for a complete chart app in one call.",
-        "content": "It ships as TypeScript packages: @luxalgo/vela is the headless chart core, /workspace the full chart app, /ui the component kit, /plugin the extension SDK, and /providers/* includes ready-to-register Binance, Coinbase and Hyperliquid data feeds.",
-        "stack": "Written in TypeScript with a custom WebGL2 renderer and canvas2d fallback; the UI layer builds on Zag.js primitives and it installs via npm as @luxalgo/vela.",
-        "hot": "As the open-source core from well-known trading-tools vendor LuxAlgo, it gained 589 stars in a week to pass 1,000 and hit #12 on the TypeScript trending list, reflecting real demand for fast, extensible financial charts.",
+        "tag": "A graph-based investigation platform for cybersecurity analysts",
+        "what": "Flowsint is an open-source OSINT graph exploration tool designed for ethical investigation, transparency, and verification. It enables visual, flexible, and extensible graph-based investigations for cybersecurity analysts and investigators.",
+        "content": "The repository contains a frontend app (flowsint-app), core logic (flowsint-core), and an API service (flowsint-api), along with Docker production deployment configurations.",
+        "stack": "Primarily built with TypeScript, relies on Docker for containerized deployment, and supports Linux, macOS, and Windows.",
+        "hot": "With 215 stars added today and a total of 9,521 stars, it ranks 4th on GitHub Trending (TypeScript), reflecting strong demand for cybersecurity and graph analysis tools.",
         "uses": [
-          "Quant and market-dashboard developers building custom high-performance candlestick charts",
-          "Fintech teams wanting a pluggable SDK to extend indicators and render layers",
-          "Frontend engineers looking for a WebGL chart engine or headless charting solution",
-          "Anyone prototyping a trading terminal with multi-chart grids and keyboard-first UX"
+          "Cybersecurity analysts — for visual investigation of cyber threats and entity relationships",
+          "OSINT investigators — for open-source intelligence gathering and correlation analysis",
+          "Security teams — deploy on internal networks for collaborative investigations",
+          "Researchers — explore graph analysis applications in security"
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-09-15",
         "is_new": false,
         "is_back": false,
-        "hist": []
+        "hist": [
+          {
+            "d": "2026-09-15",
+            "s": 8.3,
+            "r": 18
+          }
+        ]
       }
     },
     {
@@ -7995,9 +7484,9 @@ window.TRENDING_DATA = {
       "rank": 13,
       "cat": "other",
       "lang": "TypeScript",
-      "stars": 3.9,
-      "today": "+684",
-      "today_n": 684,
+      "stars": 4.1,
+      "today": "+816",
+      "today_n": 816,
       "auto": false,
       "zh": {
         "tag": "以全屏沉浸式歌词动画为核心的跨平台音乐播放器",
@@ -8027,95 +7516,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "atomic-agent",
-      "full": "AtomicBot-ai/atomic-agent",
-      "rank": 15,
-      "cat": "agent",
-      "lang": "TypeScript",
-      "stars": 3.1,
-      "today": "+649",
-      "today_n": 649,
-      "auto": false,
-      "zh": {
-        "tag": "本地优先的 AI 代理，用 llama.cpp 在你自己的机器上跑开源模型",
-        "what": "Atomic Agent 是一个本地优先的 AI 代理，控制循环与全部状态都跑在用户机器上。它能驱动浏览器、读写文件、执行经批准的命令、跨会话记忆上下文，并通过 MCP 调用外部工具。",
-        "content": "仓库包含 TypeScript 编写的 CLI/TUI 主体、Tauri sidecar 与 HTTP 嵌入接口，以及 grammars、原生预编译产物和内置 ripgrep 等支持资源，并提供一键安装脚本与自更新机制。",
-        "stack": "基于 TypeScript 5.x 与 Node.js ≥25.7，底层用自研 TurboQuant 优化的 llama.cpp 推理，界面走 Tauri sidecar，工具扩展走 MCP。",
-        "hot": "本周新增 562 star、总数 3029，登上 GitHub Trending TypeScript 周榜第 15 名；本地优先、隐私可控加上 GAIA L1 69.8% 的基准成绩，正好切中当下对本地代理的需求。",
-        "uses": [
-          "注重数据隐私、希望模型与状态都留在本机的个人开发者",
-          "想在消费级硬件上跑量化小模型完成多步任务的本地 AI 玩家",
-          "需要把代理能力通过 HTTP 或 Tauri sidecar 嵌入自家应用的团队",
-          "研究本地推理吞吐优化与 llama.cpp 生态的工程师"
-        ]
-      },
-      "en": {
-        "tag": "A local-first AI agent running open-weight models on your own machine via llama.cpp",
-        "what": "Atomic Agent is a local-first AI agent whose control loop and all state live on your machine. It drives your browser, reads and edits files, runs approved shell commands, remembers context across sessions, and calls external tools over MCP.",
-        "content": "The repo ships a TypeScript CLI/TUI core, a Tauri sidecar and HTTP embedding interface, plus support assets like grammars, native prebuilds and bundled ripgrep, along with one-line install scripts and self-update.",
-        "stack": "Built on TypeScript 5.x and Node.js ≥25.7, with a TurboQuant-tuned llama.cpp backend, a Tauri sidecar shell, and MCP for tool extensions.",
-        "hot": "It gained 562 stars this week (3,029 total) and hit #15 on GitHub Trending's weekly TypeScript chart; local-first privacy plus a 69.8% GAIA L1 score lands right on the current demand for on-device agents.",
-        "uses": [
-          "Privacy-conscious developers who want models and state to stay on their own machine",
-          "Local-AI enthusiasts running quantized small models for multi-step tasks on consumer hardware",
-          "Teams embedding agent capabilities into their apps via HTTP or a Tauri sidecar",
-          "Engineers exploring local inference throughput and the llama.cpp ecosystem"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "aitoearn",
-      "full": "yikart/AiToEarn",
-      "rank": 14,
-      "cat": "agent",
-      "lang": "TypeScript",
-      "stars": 26.4,
-      "today": "+387",
-      "today_n": 387,
-      "auto": false,
-      "zh": {
-        "tag": "面向一人公司的 AI 内容营销智能体，一站式创作分发变现",
-        "what": "AiToEarn 是一个 AI Agent 驱动的自动化平台，帮助 OPC（一人公司）、创作者、品牌与企业在全球主流平台上构建、分发并变现内容。它覆盖从草稿生成、多平台发布到互动运营与收益转化的完整链路。",
-        "content": "仓库以 TypeScript 实现，包含 Web 端、Docker 部署、源码开发以及 OpenClaw、Claude/Cursor 等 AI 助手接入方式，并配有中英日多语言 README 与开放平台文档。",
-        "stack": "主语言为 TypeScript，要求 Node.js 20.18.x，采用 MIT 许可，支持 Docker 私有化部署，并可对接 OpenAI 兼容的 AI 与视频生成 API。",
-        "hot": "凭借“AI 帮你赚钱”的直白定位与覆盖抖音、小红书、TikTok、YouTube 等十余个平台的自动化能力，项目已积累 26389 stars，本周新增 407，登上 GitHub Trending TypeScript 周榜第 14 名。",
-        "uses": [
-          "一人公司与独立创作者，用 AI 批量生产并分发内容",
-          "品牌与企业营销团队，需要多平台统一发布与运营",
-          "想私有化部署内容营销系统的团队，可用 Docker 自建",
-          "AI 工具用户，希望在 Claude/Cursor 等助手中直接调用发布能力"
-        ]
-      },
-      "en": {
-        "tag": "An AI content-marketing agent for one-person companies: create, publish, monetize",
-        "what": "AiToEarn is an AI-agent-driven automation platform that helps one-person companies, creators, brands and enterprises build, distribute and monetize content across major global platforms. It covers the full loop from draft generation and multi-platform publishing to engagement and revenue conversion.",
-        "content": "The repo is implemented in TypeScript and offers a web app, Docker deployment, source-level development, plus integrations with OpenClaw and AI assistants like Claude/Cursor, alongside multilingual READMEs and open-platform docs.",
-        "stack": "Primarily TypeScript with Node.js 20.18.x required, MIT-licensed, supports Docker self-hosting and integrates OpenAI-compatible AI and video-generation APIs.",
-        "hot": "With its blunt 'use AI to earn' pitch and automation across 10+ platforms like Douyin, Rednote, TikTok and YouTube, it has reached 26,389 stars, adding 407 this week and ranking 14th on the GitHub Trending TypeScript weekly chart.",
-        "uses": [
-          "Solo founders and independent creators who want AI to mass-produce and distribute content",
-          "Brand and enterprise marketing teams needing unified multi-platform publishing and operations",
-          "Teams wanting a self-hosted content-marketing system via Docker",
-          "AI-tool users who want to trigger publishing directly from Claude/Cursor and similar assistants"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -8128,8 +7529,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "TypeScript",
       "stars": 5.0,
-      "today": "+168",
-      "today_n": 168,
+      "today": "+141",
+      "today_n": 141,
       "auto": false,
       "zh": {
         "tag": "为 AI 编程代理提供持久记忆的自组织 Obsidian 知识库",
@@ -8159,51 +7560,51 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "nanobrowser",
-      "full": "nanobrowser/nanobrowser",
-      "rank": 17,
+      "slug": "atomic-agent",
+      "full": "AtomicBot-ai/atomic-agent",
+      "rank": 15,
       "cat": "agent",
       "lang": "TypeScript",
-      "stars": 14.0,
-      "today": "+169",
-      "today_n": 169,
+      "stars": 3.2,
+      "today": "+671",
+      "today_n": 671,
       "auto": false,
       "zh": {
-        "tag": "开源 Chrome 扩展，用自带 LLM API Key 跑多智能体网页自动化",
-        "what": "Nanobrowser 是一个运行在浏览器里的开源 AI 网页自动化工具，可作为 OpenAI Operator 的免费替代品。它通过 Planner、Navigator 等多智能体协作完成复杂的网页操作流程，全部在本地浏览器中执行。",
-        "content": "仓库主体是一个 TypeScript 编写的 Chrome 扩展，包含多智能体调度、侧边栏交互界面与 LLM 提供商适配层，并配有演示 GIF 与社区链接。",
-        "stack": "基于 TypeScript 与 Chrome Extension Manifest V3 开发，支持 OpenAI、Anthropic、Gemini、DeepSeek、Grok、Azure OpenAI、OpenRouter、Ollama 及自定义 OpenAI 兼容接口。",
-        "hot": "凭借“免费替代 OpenAI Operator”的定位和自带 Key 的隐私优势，已积累 14016 颗星，本周新增 169 星，位列 GitHub Trending TypeScript 周榜第 17 名。",
+        "tag": "本地优先的 AI 代理，用 llama.cpp 在你自己的机器上跑开源模型",
+        "what": "Atomic Agent 是一个本地优先的 AI 代理，控制循环与全部状态都跑在用户机器上。它能驱动浏览器、读写文件、执行经批准的命令、跨会话记忆上下文，并通过 MCP 调用外部工具。",
+        "content": "仓库包含 TypeScript 编写的 CLI/TUI 主体、Tauri sidecar 与 HTTP 嵌入接口，以及 grammars、原生预编译产物和内置 ripgrep 等支持资源，并提供一键安装脚本与自更新机制。",
+        "stack": "基于 TypeScript 5.x 与 Node.js ≥25.7，底层用自研 TurboQuant 优化的 llama.cpp 推理，界面走 Tauri sidecar，工具扩展走 MCP。",
+        "hot": "本周新增 562 star、总数 3029，登上 GitHub Trending TypeScript 周榜第 15 名；本地优先、隐私可控加上 GAIA L1 69.8% 的基准成绩，正好切中当下对本地代理的需求。",
         "uses": [
-          "想用 AI 自动操作网页但不愿支付 Operator 订阅费的个人用户",
-          "对数据隐私敏感、希望凭证只留在本地的开发者与团队",
-          "需要多智能体协作完成表单填写、信息抓取等重复网页任务的自动化爱好者",
-          "想研究或二次开发浏览器端 AI Agent 的 TypeScript 工程师"
+          "注重数据隐私、希望模型与状态都留在本机的个人开发者",
+          "想在消费级硬件上跑量化小模型完成多步任务的本地 AI 玩家",
+          "需要把代理能力通过 HTTP 或 Tauri sidecar 嵌入自家应用的团队",
+          "研究本地推理吞吐优化与 llama.cpp 生态的工程师"
         ]
       },
       "en": {
-        "tag": "Open-source Chrome extension for multi-agent web automation with your own LLM API key",
-        "what": "Nanobrowser is an open-source AI web automation tool that runs inside your browser, positioned as a free alternative to OpenAI Operator. It uses a multi-agent system (Planner, Navigator, etc.) to complete complex web workflows entirely locally.",
-        "content": "The repo is a TypeScript Chrome extension containing the multi-agent orchestration layer, a sidebar UI, and LLM provider adapters, plus demo GIFs and community links.",
-        "stack": "Built with TypeScript on Chrome Extension Manifest V3, supporting OpenAI, Anthropic, Gemini, DeepSeek, Grok, Azure OpenAI, OpenRouter, Ollama and custom OpenAI-compatible endpoints.",
-        "hot": "With its 'free OpenAI Operator alternative' pitch and bring-your-own-key privacy angle, it has reached 14,016 stars, adding 169 this week and ranking 17th on the GitHub Trending TypeScript weekly chart.",
+        "tag": "A local-first AI agent running open-weight models on your own machine via llama.cpp",
+        "what": "Atomic Agent is a local-first AI agent whose control loop and all state live on your machine. It drives your browser, reads and edits files, runs approved shell commands, remembers context across sessions, and calls external tools over MCP.",
+        "content": "The repo ships a TypeScript CLI/TUI core, a Tauri sidecar and HTTP embedding interface, plus support assets like grammars, native prebuilds and bundled ripgrep, along with one-line install scripts and self-update.",
+        "stack": "Built on TypeScript 5.x and Node.js ≥25.7, with a TurboQuant-tuned llama.cpp backend, a Tauri sidecar shell, and MCP for tool extensions.",
+        "hot": "It gained 562 stars this week (3,029 total) and hit #15 on GitHub Trending's weekly TypeScript chart; local-first privacy plus a 69.8% GAIA L1 score lands right on the current demand for on-device agents.",
         "uses": [
-          "Individuals who want AI-driven web automation without paying for Operator",
-          "Privacy-conscious developers and teams who want credentials to stay local",
-          "Automation enthusiasts needing multi-agent help with forms, scraping and repetitive web tasks",
-          "TypeScript engineers wanting to study or extend a browser-based AI agent"
+          "Privacy-conscious developers who want models and state to stay on their own machine",
+          "Local-AI enthusiasts running quantized small models for multi-step tasks on consumer hardware",
+          "Teams embedding agent capabilities into their apps via HTTP or a Tauri sidecar",
+          "Engineers exploring local inference throughput and the llama.cpp ecosystem"
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -8215,9 +7616,9 @@ window.TRENDING_DATA = {
       "rank": 16,
       "cat": "infra",
       "lang": "TypeScript",
-      "stars": 4.7,
-      "today": "+881",
-      "today_n": 881,
+      "stars": 4.8,
+      "today": "+903",
+      "today_n": 903,
       "auto": false,
       "zh": {
         "tag": "基于 Cloudflare 的自托管域名邮箱收件箱",
@@ -8247,7 +7648,95 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "nanobrowser",
+      "full": "nanobrowser/nanobrowser",
+      "rank": 17,
+      "cat": "agent",
+      "lang": "TypeScript",
+      "stars": 14.0,
+      "today": "+179",
+      "today_n": 179,
+      "auto": false,
+      "zh": {
+        "tag": "开源 Chrome 扩展，用自带 LLM API Key 跑多智能体网页自动化",
+        "what": "Nanobrowser 是一个运行在浏览器里的开源 AI 网页自动化工具，可作为 OpenAI Operator 的免费替代品。它通过 Planner、Navigator 等多智能体协作完成复杂的网页操作流程，全部在本地浏览器中执行。",
+        "content": "仓库主体是一个 TypeScript 编写的 Chrome 扩展，包含多智能体调度、侧边栏交互界面与 LLM 提供商适配层，并配有演示 GIF 与社区链接。",
+        "stack": "基于 TypeScript 与 Chrome Extension Manifest V3 开发，支持 OpenAI、Anthropic、Gemini、DeepSeek、Grok、Azure OpenAI、OpenRouter、Ollama 及自定义 OpenAI 兼容接口。",
+        "hot": "凭借“免费替代 OpenAI Operator”的定位和自带 Key 的隐私优势，已积累 14016 颗星，本周新增 169 星，位列 GitHub Trending TypeScript 周榜第 17 名。",
+        "uses": [
+          "想用 AI 自动操作网页但不愿支付 Operator 订阅费的个人用户",
+          "对数据隐私敏感、希望凭证只留在本地的开发者与团队",
+          "需要多智能体协作完成表单填写、信息抓取等重复网页任务的自动化爱好者",
+          "想研究或二次开发浏览器端 AI Agent 的 TypeScript 工程师"
+        ]
+      },
+      "en": {
+        "tag": "Open-source Chrome extension for multi-agent web automation with your own LLM API key",
+        "what": "Nanobrowser is an open-source AI web automation tool that runs inside your browser, positioned as a free alternative to OpenAI Operator. It uses a multi-agent system (Planner, Navigator, etc.) to complete complex web workflows entirely locally.",
+        "content": "The repo is a TypeScript Chrome extension containing the multi-agent orchestration layer, a sidebar UI, and LLM provider adapters, plus demo GIFs and community links.",
+        "stack": "Built with TypeScript on Chrome Extension Manifest V3, supporting OpenAI, Anthropic, Gemini, DeepSeek, Grok, Azure OpenAI, OpenRouter, Ollama and custom OpenAI-compatible endpoints.",
+        "hot": "With its 'free OpenAI Operator alternative' pitch and bring-your-own-key privacy angle, it has reached 14,016 stars, adding 169 this week and ranking 17th on the GitHub Trending TypeScript weekly chart.",
+        "uses": [
+          "Individuals who want AI-driven web automation without paying for Operator",
+          "Privacy-conscious developers and teams who want credentials to stay local",
+          "Automation enthusiasts needing multi-agent help with forms, scraping and repetitive web tasks",
+          "TypeScript engineers wanting to study or extend a browser-based AI agent"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "billion-context",
+      "full": "ranxianglei/billion-context",
+      "rank": 18,
+      "cat": "agent",
+      "lang": "TypeScript",
+      "stars": 0.7,
+      "today": "+246",
+      "today_n": 246,
+      "auto": false,
+      "zh": {
+        "tag": "面向编码代理的上下文压缩插件，小窗口省 token 撑超长会话",
+        "what": "billion-context 是一个上下文压缩插件，让编码代理在 100K 的小上下文窗口下也能稳定工作。它把历史对话压缩到约五分之一的 token 量，同时保持压缩质量，从而支持单会话持续数月、累计几十亿 token 的超长任务。",
+        "content": "仓库以 TypeScript 实现，作为 npm 包发布（billion-context），提供 CLI 安装方式，并适配 Claude Code、Codex、OpenCode、Gemini CLI、Kimi、Qwen Code、Copilot CLI、TRAE 等多种代理客户端。",
+        "stack": "主语言 TypeScript，通过 npm 分发（npm install -g billion-context），依赖 Node.js 环境，并以插件形式接入各类编码代理的命令行工具。",
+        "hot": "本周新增 246 颗星、总数达 711，冲上 GitHub Trending TypeScript 周榜第 18 名；长会话与 token 成本是代理用户的普遍痛点，而它同时给出省 token 与超长会话的方案，因此快速走红。",
+        "uses": [
+          "长期使用 Claude Code、Codex 等编码代理、常被上下文窗口截断的开发者",
+          "需要单会话连续数周/数月推进大型项目的团队与个人",
+          "对 API token 成本敏感、希望降低调用开销的用户",
+          "想为自研代理接入上下文压缩能力的工具开发者"
+        ]
+      },
+      "en": {
+        "tag": "A context-compression plugin for coding agents: small windows, 5x token savings, month-long sessions",
+        "what": "billion-context is a context-compression plugin that keeps coding agents stable even inside a small 100K context window. It shrinks conversation history to roughly one-fifth of the tokens while preserving quality, enabling single sessions that last months and span billions of tokens.",
+        "content": "The repo is a TypeScript implementation published as the npm package billion-context, installed via a CLI command, with adapters for many agent clients such as Claude Code, Codex, OpenCode, Gemini CLI, Kimi, Qwen Code, Copilot CLI, and TRAE.",
+        "stack": "Primary language is TypeScript, distributed via npm (npm install -g billion-context), requiring a Node.js environment and plugging into the CLI tools of various coding agents.",
+        "hot": "It gained 246 stars this week for a total of 711, landing at #18 on the GitHub Trending TypeScript weekly chart; long sessions and token costs are widespread pain points for agent users, and it addresses both token savings and ultra-long sessions at once.",
+        "uses": [
+          "Developers who run coding agents like Claude Code or Codex daily and keep hitting context limits",
+          "Teams and individuals pushing large projects across weeks or months in a single session",
+          "Users sensitive to API token costs who want to cut per-call overhead",
+          "Tool builders who want to add context compression to their own agents"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -8259,9 +7748,9 @@ window.TRENDING_DATA = {
       "rank": 15,
       "cat": "agent",
       "lang": "JavaScript",
-      "stars": 78.7,
-      "today": "+5.3k",
-      "today_n": 5260,
+      "stars": 79.0,
+      "today": "+4.9k",
+      "today_n": 4853,
       "auto": false,
       "zh": {
         "tag": "让 AI 编码代理产出专业级前端设计的技能包与检测工具",
@@ -8314,64 +7803,14 @@ window.TRENDING_DATA = {
       }
     },
     {
-      "slug": "starnet",
-      "full": "androoAGI/starnet",
-      "rank": 8,
-      "cat": "agent",
-      "lang": "JavaScript",
-      "stars": 1.3,
-      "today": "+409",
-      "today_n": 409,
-      "auto": false,
-      "zh": {
-        "tag": "像素风空间站里的本地优先 AI 代理工作台",
-        "what": "StarNet 是一个本地优先的桌面代理运行框架，让你创建多个 AI 代理、把它们安置在像素风空间站里，并真实地调用模型和工具干活。空间站不是装饰，而是运行时状态的可视化投影：房间代表有权限边界的小队，走廊是授权的交接通道，摆放的物件就是真实的能力授权。",
-        "content": "仓库包含桌面应用本体（JavaScript 主语言）、安装与隐私文档、docs 文档索引、贡献指南，以及发布版下载入口；核心是代理运行时、像素空间站渲染与多通道消息集成。",
-        "stack": "以 JavaScript 为主，桌面端本地运行，密钥存放在操作系统钥匙串中；支持 OpenRouter、Anthropic、OpenAI、Google 等模型接入，并可通过 MCP 连接器扩展工具能力。",
-        "hot": "今日新增 113 星、总数 259 星并登上 GitHub Trending JavaScript 日榜第 6，靠的是「像素空间站 + 真实代理执行」这一反差感极强的本地优先玩法。",
-        "uses": [
-          "想同时运行多个有独立工作区与权限边界的 AI 代理的开发者",
-          "偏好本地优先、自带 API Key、不愿把数据交给云端的隐私敏感用户",
-          "喜欢像素风界面、希望把工作流可视化编排的创意型玩家",
-          "需要通过 Telegram、Discord、Slack 等渠道远程指挥代理干活的团队"
-        ]
-      },
-      "en": {
-        "tag": "A local-first desktop agent harness set in a living pixel-art space station",
-        "what": "StarNet is a local-first desktop harness where you create AI agents, arrange them in a pixel-art space station, and watch them do real work with real models and tools. The station is not decoration but a projection of live runtime state: a room is a capability-scoped team, a hallway is an authorized handoff lane, and a placed object is a real capability grant.",
-        "content": "The repo contains the desktop app itself (JavaScript-first), install and privacy docs, a docs index, contributing guide, and release download links; at its core are the agent runtime, the pixel-station renderer, and multi-channel messaging integrations.",
-        "stack": "Primarily JavaScript, running locally on the desktop with keys stored in the OS keychain; it supports OpenRouter, Anthropic, OpenAI, and Google model access, and extends tool reach via MCP connectors.",
-        "hot": "It gained 113 stars today for 259 total and hit #6 on GitHub Trending (JavaScript) daily, driven by the striking contrast of a pixel-art station paired with genuinely real agent execution, all local-first.",
-        "uses": [
-          "Developers who want to run several AI agents concurrently, each with its own workspace and permission boundary",
-          "Privacy-conscious users who prefer local-first operation with their own API keys",
-          "Creative tinkerers drawn to pixel-art interfaces and visual workflow arrangement",
-          "Teams that want to command agents remotely via Telegram, Discord, Slack, Signal, or Matrix"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-09-26",
-        "is_new": false,
-        "is_back": false,
-        "hist": [
-          {
-            "d": "2026-09-26",
-            "s": 0.5,
-            "r": 8
-          }
-        ]
-      }
-    },
-    {
       "slug": "ponytail",
       "full": "DietrichGebert/ponytail",
       "rank": 5,
       "cat": "agent",
       "lang": "JavaScript",
-      "stars": 158.7,
-      "today": "+8.5k",
-      "today_n": 8511,
+      "stars": 159.7,
+      "today": "+8.3k",
+      "today_n": 8319,
       "auto": false,
       "zh": {
         "tag": "让 AI 代理像最懒的高级工程师一样写最少代码",
@@ -8452,14 +7891,158 @@ window.TRENDING_DATA = {
       }
     },
     {
+      "slug": "starnet",
+      "full": "androoAGI/starnet",
+      "rank": 8,
+      "cat": "agent",
+      "lang": "JavaScript",
+      "stars": 1.3,
+      "today": "+337",
+      "today_n": 337,
+      "auto": false,
+      "zh": {
+        "tag": "像素风空间站里的本地优先 AI 代理工作台",
+        "what": "StarNet 是一个本地优先的桌面代理运行框架，让你创建多个 AI 代理、把它们安置在像素风空间站里，并真实地调用模型和工具干活。空间站不是装饰，而是运行时状态的可视化投影：房间代表有权限边界的小队，走廊是授权的交接通道，摆放的物件就是真实的能力授权。",
+        "content": "仓库包含桌面应用本体（JavaScript 主语言）、安装与隐私文档、docs 文档索引、贡献指南，以及发布版下载入口；核心是代理运行时、像素空间站渲染与多通道消息集成。",
+        "stack": "以 JavaScript 为主，桌面端本地运行，密钥存放在操作系统钥匙串中；支持 OpenRouter、Anthropic、OpenAI、Google 等模型接入，并可通过 MCP 连接器扩展工具能力。",
+        "hot": "今日新增 113 星、总数 259 星并登上 GitHub Trending JavaScript 日榜第 6，靠的是「像素空间站 + 真实代理执行」这一反差感极强的本地优先玩法。",
+        "uses": [
+          "想同时运行多个有独立工作区与权限边界的 AI 代理的开发者",
+          "偏好本地优先、自带 API Key、不愿把数据交给云端的隐私敏感用户",
+          "喜欢像素风界面、希望把工作流可视化编排的创意型玩家",
+          "需要通过 Telegram、Discord、Slack 等渠道远程指挥代理干活的团队"
+        ]
+      },
+      "en": {
+        "tag": "A local-first desktop agent harness set in a living pixel-art space station",
+        "what": "StarNet is a local-first desktop harness where you create AI agents, arrange them in a pixel-art space station, and watch them do real work with real models and tools. The station is not decoration but a projection of live runtime state: a room is a capability-scoped team, a hallway is an authorized handoff lane, and a placed object is a real capability grant.",
+        "content": "The repo contains the desktop app itself (JavaScript-first), install and privacy docs, a docs index, contributing guide, and release download links; at its core are the agent runtime, the pixel-station renderer, and multi-channel messaging integrations.",
+        "stack": "Primarily JavaScript, running locally on the desktop with keys stored in the OS keychain; it supports OpenRouter, Anthropic, OpenAI, and Google model access, and extends tool reach via MCP connectors.",
+        "hot": "It gained 113 stars today for 259 total and hit #6 on GitHub Trending (JavaScript) daily, driven by the striking contrast of a pixel-art station paired with genuinely real agent execution, all local-first.",
+        "uses": [
+          "Developers who want to run several AI agents concurrently, each with its own workspace and permission boundary",
+          "Privacy-conscious users who prefer local-first operation with their own API keys",
+          "Creative tinkerers drawn to pixel-art interfaces and visual workflow arrangement",
+          "Teams that want to command agents remotely via Telegram, Discord, Slack, Signal, or Matrix"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-09-26",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-09-26",
+            "s": 0.5,
+            "r": 8
+          }
+        ]
+      }
+    },
+    {
+      "slug": "awesome-free-llm-apis",
+      "full": "mnfst/awesome-free-llm-apis",
+      "rank": 4,
+      "cat": "ai",
+      "lang": "JavaScript",
+      "stars": 9.6,
+      "today": "+650",
+      "today_n": 650,
+      "auto": false,
+      "zh": {
+        "tag": "永久免费 LLM API 清单，附密钥入口与限速对比",
+        "what": "这是一个收录「永久免费额度」大模型 API 的精选清单，覆盖官方厂商与推理服务商，每条都指向申请 API Key 的页面。除特别说明外，所有端点都兼容 OpenAI SDK，可直接替换 base_url 使用。",
+        "content": "仓库以 README 为主体，按 Provider APIs 与 Inference providers 分类，用表格列出模型名、上下文长度、最大输出、模态与限速，并附术语表。",
+        "stack": "主体是 Markdown 文档，仓库语言标记为 JavaScript，可能用于徽章或站点生成；内容本身不依赖任何运行时库。",
+        "hot": "免费额度是开发者最刚需的信息，加上 7951 星、今日新增 151 并冲上 JavaScript 日榜第 4，说明大家对「不花钱跑模型」的需求非常旺盛。",
+        "uses": [
+          "个人开发者想零成本做 LLM 原型验证与 Demo",
+          "学生或研究者需要免费额度跑实验、写论文",
+          "独立开发者挑选可长期使用的免费推理后端",
+          "团队在选型阶段快速对比各家免费额度与限速"
+        ]
+      },
+      "en": {
+        "tag": "A curated list of permanently free LLM APIs with key links and rate limits",
+        "what": "A curated list of LLM APIs that offer permanent free tiers, covering both model providers and inference platforms, with each entry linking to the provider's API key page. Unless noted, all endpoints are OpenAI SDK-compatible, so you can just swap the base URL.",
+        "content": "The repo is essentially a README, organized into Provider APIs and Inference providers sections, with tables listing model name, context, max output, modality and rate limits, plus a glossary.",
+        "stack": "Mostly Markdown documentation; the repo is tagged JavaScript, likely for badges or site generation, while the content itself needs no runtime dependencies.",
+        "hot": "Free tiers are a core need for developers, and with 7,951 stars, +151 today and a #4 spot on the JavaScript daily trending list, demand for running models without paying is clearly intense.",
+        "uses": [
+          "Indie developers prototyping LLM apps with zero budget",
+          "Students and researchers needing free quota for experiments and papers",
+          "Solo builders picking a long-term free inference backend",
+          "Teams comparing free tiers and rate limits during model selection"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "next.js",
+      "full": "vercel/next.js",
+      "rank": 15,
+      "cat": "infra",
+      "lang": "JavaScript",
+      "stars": 143.1,
+      "today": "+416",
+      "today_n": 416,
+      "auto": false,
+      "zh": {
+        "tag": "Vercel 出品的全栈 React 生产级框架",
+        "what": "Next.js 是构建全栈 Web 应用的主流 React 框架，在最新 React 特性之上提供路由、渲染、数据获取与构建等一体化能力。它集成基于 Rust 的 JavaScript 工具链，追求更快的构建与更完整的生产部署体验。",
+        "content": "仓库包含框架核心源码、编译器与构建工具、示例项目、文档与测试套件，并配有贡献指南和 good first issues 列表。整体是一个由 Vercel 主导、社区共同维护的大型 monorepo。",
+        "stack": "以 JavaScript/TypeScript 为主，核心依赖 React，并内置基于 Rust 的 SWC 编译器与 Turbopack 构建工具。",
+        "hot": "作为 React 生态的默认生产框架，它已积累 14.2 万+ star，本周仍新增 217 星并进入 JavaScript 周榜第 18 名。持续迭代与庞大企业采用度让它长期保持热度。",
+        "uses": [
+          "前端/全栈开发者构建 SSR、SSG 与混合渲染的 React 应用",
+          "需要 SEO 友好、首屏性能优秀的营销站与电商站点",
+          "团队希望用统一框架覆盖 API 路由与前端页面",
+          "想学习现代 React 工程化与生产部署的进阶学习者"
+        ]
+      },
+      "en": {
+        "tag": "Vercel's production-grade full-stack React framework",
+        "what": "Next.js is the leading React framework for building full-stack web applications, layering routing, rendering, data fetching and build tooling on top of the latest React features. It integrates Rust-based JavaScript tooling for faster builds and a more complete production deployment experience.",
+        "content": "The repo holds the framework core, compiler and build tooling, examples, docs and test suites, plus contribution guidelines and a good first issues list. It is a large Vercel-led monorepo maintained together with the community.",
+        "stack": "Primarily JavaScript/TypeScript, built on React and shipping Rust-based tooling such as SWC and Turbopack.",
+        "hot": "As the default production framework in the React ecosystem, it has accumulated over 142k stars, adding 217 this week to rank 18th on the JavaScript weekly chart. Continuous releases and heavy enterprise adoption keep it consistently hot.",
+        "uses": [
+          "Frontend/full-stack developers building SSR, SSG and hybrid React apps",
+          "Marketing and e-commerce sites needing SEO-friendly, fast first paint",
+          "Teams wanting one framework for both API routes and frontend pages",
+          "Advanced learners studying modern React engineering and production deployment"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-09-27",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-09-27",
+            "s": 142.6,
+            "r": 15
+          }
+        ]
+      }
+    },
+    {
       "slug": "marketingskills",
       "full": "coreyhaines31/marketingskills",
       "rank": 8,
       "cat": "agent",
       "lang": "JavaScript",
-      "stars": 53.8,
+      "stars": 53.9,
       "today": "+1.6k",
-      "today_n": 1643,
+      "today_n": 1603,
       "auto": false,
       "zh": {
         "tag": "面向 AI 编程代理的营销技能库，覆盖 CRO、文案、SEO 与增长工程",
@@ -8507,142 +8090,12 @@ window.TRENDING_DATA = {
       }
     },
     {
-      "slug": "awesome-free-llm-apis",
-      "full": "mnfst/awesome-free-llm-apis",
-      "rank": 4,
-      "cat": "ai",
-      "lang": "JavaScript",
-      "stars": 9.5,
-      "today": "+648",
-      "today_n": 648,
-      "auto": false,
-      "zh": {
-        "tag": "永久免费 LLM API 清单，附密钥入口与限速对比",
-        "what": "这是一个收录「永久免费额度」大模型 API 的精选清单，覆盖官方厂商与推理服务商，每条都指向申请 API Key 的页面。除特别说明外，所有端点都兼容 OpenAI SDK，可直接替换 base_url 使用。",
-        "content": "仓库以 README 为主体，按 Provider APIs 与 Inference providers 分类，用表格列出模型名、上下文长度、最大输出、模态与限速，并附术语表。",
-        "stack": "主体是 Markdown 文档，仓库语言标记为 JavaScript，可能用于徽章或站点生成；内容本身不依赖任何运行时库。",
-        "hot": "免费额度是开发者最刚需的信息，加上 7951 星、今日新增 151 并冲上 JavaScript 日榜第 4，说明大家对「不花钱跑模型」的需求非常旺盛。",
-        "uses": [
-          "个人开发者想零成本做 LLM 原型验证与 Demo",
-          "学生或研究者需要免费额度跑实验、写论文",
-          "独立开发者挑选可长期使用的免费推理后端",
-          "团队在选型阶段快速对比各家免费额度与限速"
-        ]
-      },
-      "en": {
-        "tag": "A curated list of permanently free LLM APIs with key links and rate limits",
-        "what": "A curated list of LLM APIs that offer permanent free tiers, covering both model providers and inference platforms, with each entry linking to the provider's API key page. Unless noted, all endpoints are OpenAI SDK-compatible, so you can just swap the base URL.",
-        "content": "The repo is essentially a README, organized into Provider APIs and Inference providers sections, with tables listing model name, context, max output, modality and rate limits, plus a glossary.",
-        "stack": "Mostly Markdown documentation; the repo is tagged JavaScript, likely for badges or site generation, while the content itself needs no runtime dependencies.",
-        "hot": "Free tiers are a core need for developers, and with 7,951 stars, +151 today and a #4 spot on the JavaScript daily trending list, demand for running models without paying is clearly intense.",
-        "uses": [
-          "Indie developers prototyping LLM apps with zero budget",
-          "Students and researchers needing free quota for experiments and papers",
-          "Solo builders picking a long-term free inference backend",
-          "Teams comparing free tiers and rate limits during model selection"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "spicetify-cli",
-      "full": "spicetify/cli",
-      "rank": 11,
-      "cat": "other",
-      "lang": "JavaScript",
-      "stars": 24.9,
-      "today": "+165",
-      "today_n": 165,
-      "auto": false,
-      "zh": {
-        "tag": "命令行定制 Spotify 客户端，跨三平台",
-        "what": "Spicetify CLI 是一个命令行工具，用于深度定制官方 Spotify 客户端。它可以修改界面配色、注入 CSS 与扩展、添加自定义应用，让用户完全掌控播放器外观与功能。支持 Windows、macOS 和 Linux。",
-        "content": "仓库以 Go 编写的 CLI 为核心，配套安装脚本、主题与扩展的注入逻辑，以及文档与发布流程配置。",
-        "stack": "主语言为 Go（GitHub 标注为 JavaScript 系历史遗留），依赖 Go 工具链与各平台 Spotify 客户端，通过注入 CSS/JS 实现定制。",
-        "hot": "作为老牌 Spotify 定制工具，累计 24851 颗星，本周新增 164 颗，长期稳居 JavaScript 周榜第 11 名，社区需求稳定。",
-        "uses": [
-          "想深度美化 Spotify 界面、更换主题配色的普通用户",
-          "希望为 Spotify 开发扩展或自定义应用的开发者",
-          "在 Windows/macOS/Linux 上追求统一定制体验的极客"
-        ]
-      },
-      "en": {
-        "tag": "CLI tool to customize the official Spotify client, cross-platform",
-        "what": "Spicetify CLI is a command-line tool for deeply customizing the official Spotify client. It changes UI colors, injects CSS and extensions, and adds custom apps, giving users full control over the player's look and features. It supports Windows, macOS, and Linux.",
-        "content": "The repo centers on a Go-based CLI, plus install scripts, theme and extension injection logic, documentation, and release pipeline configs.",
-        "stack": "Primarily written in Go (GitHub labels it JavaScript due to legacy history), relying on the Go toolchain and the platform's Spotify client, customizing via injected CSS/JS.",
-        "hot": "A veteran Spotify customization tool with 24,851 stars and 164 added this week, holding steady at #11 on the JavaScript weekly trending list thanks to consistent community demand.",
-        "uses": [
-          "Regular users who want to deeply beautify Spotify's UI and swap themes",
-          "Developers building extensions or custom apps for Spotify",
-          "Power users seeking a consistent customization experience across Windows/macOS/Linux"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "neo",
-      "full": "hughhowey/neo",
-      "rank": 7,
-      "cat": "other",
-      "lang": "JavaScript",
-      "stars": 1.4,
-      "today": "+187",
-      "today_n": 187,
-      "auto": false,
-      "zh": {
-        "tag": "小说家打造的无干扰写作软件，专注写书本身",
-        "what": "NEO 是一款专为写小说设计的本地写作软件，从安装起就假定你只写书，界面像书稿而非文档列表。它完全离线运行，稿件以纯文本文件保存在本地，无需账号、订阅，且免费。",
-        "content": "仓库包含 macOS（.dmg/arm64）、Windows（安装版与便携版 .exe）和 Linux（.AppImage）的安装包与发布文件，以及应用源码。核心功能有书架式书库、自动章节编号、Darlings 暂存区、占位符待办和进度条。",
-        "stack": "主语言为 JavaScript，基于 Electron 构建跨平台桌面应用，本地文件存储，无后端服务或云依赖。",
-        "hot": "本周新增 222 星、总计 1340 星，登上 GitHub Trending JavaScript 周榜第 7 名；由小说家亲自打造、免费无订阅的定位，加上对写作者痛点的精准回应，吸引了大量关注。",
-        "uses": [
-          "小说与长篇虚构写作者，需要沉浸式无干扰环境",
-          "厌倦订阅制与云同步、重视本地纯文本存稿的作者",
-          "想用书架式管理多部作品、系列与笔名的写手",
-          "对 Electron 桌面应用或写作工具设计感兴趣的开发者"
-        ]
-      },
-      "en": {
-        "tag": "A distraction-free word processor for novelists, built by a novelist",
-        "what": "NEO is a local writing app built specifically for novelists, assuming from install that you only write books, with manuscripts that look like books. It runs fully offline, saves drafts as plain files on your disk, and needs no accounts, subscriptions, or fees.",
-        "content": "The repo holds installers and release files for macOS (.dmg/arm64), Windows (setup and portable .exe), and Linux (.AppImage), plus the app source. Core features include a bookshelf-style library, auto-numbered chapters, a Darlings holding area, placeholder to-dos, and progress bars.",
-        "stack": "Written mainly in JavaScript and built as a cross-platform desktop app with Electron, using local file storage with no backend or cloud dependency.",
-        "hot": "It gained 222 stars this week for a total of 1,340, ranking 7th on GitHub Trending's weekly JavaScript chart. Being built by a novelist, free with no subscription, and sharply tuned to writers' pain points has drawn wide attention.",
-        "uses": [
-          "Novelists and long-form fiction writers who need a distraction-free environment",
-          "Authors tired of subscriptions and cloud sync who value local plain-text drafts",
-          "Writers managing multiple books, series, or pen names with a bookshelf view",
-          "Developers curious about Electron desktop apps or writing-tool design"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
       "slug": "up",
       "full": "byoungd/up",
       "rank": 13,
       "cat": "other",
       "lang": "JavaScript",
-      "stars": 67.9,
+      "stars": 68.0,
       "today": "+1.3k",
       "today_n": 1323,
       "auto": false,
@@ -8687,95 +8140,91 @@ window.TRENDING_DATA = {
       }
     },
     {
-      "slug": "telegram-media-downloader",
-      "full": "Neet-Nestor/Telegram-Media-Downloader",
-      "rank": 6,
-      "cat": "other",
+      "slug": "taste-skill",
+      "full": "Leonxlnx/taste-skill",
+      "rank": 16,
+      "cat": "agent",
       "lang": "JavaScript",
-      "stars": 6.0,
-      "today": "+80",
-      "today_n": 80,
+      "stars": 94.1,
+      "today": "+2.2k",
+      "today_n": 2160,
       "auto": false,
       "zh": {
-        "tag": "突破 Telegram 下载限制的油猴脚本",
-        "what": "这是一个用户脚本，允许你在 Telegram 网页版中下载图片、视频、GIF 和音频，即使群组或频道禁止下载。它通过注入代码解锁下载按钮，支持聊天、故事和私密频道。",
-        "content": "仓库主要包含一个 JavaScript 用户脚本文件，以及安装说明和许可证。脚本通过 Greasy Fork 分发，支持多种浏览器和用户脚本管理器。",
-        "stack": "基于 JavaScript 编写，依赖用户脚本管理器（如 Tampermonkey、Violentmonkey）运行在浏览器中。无后端依赖，纯前端实现。",
-        "hot": "Telegram 下载限制是常见痛点，该脚本提供了简单有效的解决方案，因此广受欢迎。目前获得 6001 颗星，本周新增 263 星，位列 GitHub Trending JavaScript 周榜第 6 名。",
+        "tag": "给 AI 代理装上审美，专治前端生成千篇一律的\"AI 味\"",
+        "what": "Taste-Skill 是一套面向 AI 代理的前端\"反平庸\"技能包，目标是阻止 AI 生成无聊、通用、模板化的界面代码。它把设计品味与审美规则注入代理工作流，让生成的前端更接近专业设计师水准。",
+        "content": "仓库以技能/提示规则集与配套资源为主，包含 README 横幅、赞助商素材、官网 tasteskill.dev 链接以及面向代理的技能定义文件。",
+        "stack": "主语言为 JavaScript，形态是面向 AI 代理的技能/提示工程包，可接入各类编码代理与前端生成流程，无重型运行时依赖。",
+        "hot": "近 9.2 万 star、日增 323 并登上 GitHub Trending JavaScript 日榜第 16，说明\"AI 生成界面太丑太像\"是开发者普遍痛点，且项目有 Kimi、Fluxion AI 等赞助背书。",
         "uses": [
-          "需要从 Telegram 受限群组或频道保存媒体文件的普通用户",
-          "研究人员或记者需要存档 Telegram 上的公开信息",
-          "经常使用 Telegram 网页版并希望增强下载功能的用户"
+          "用 Cursor、Claude Code 等代理写前端的开发者，想让产出摆脱模板感",
+          "独立开发者与小型团队，缺乏专职设计师但需要体面的界面",
+          "设计工程师与前端团队，希望把审美规范固化成可复用的代理技能",
+          "做 AI 产品 Demo 或落地页、追求视觉质感的创业者"
         ]
       },
       "en": {
-        "tag": "A userscript to bypass Telegram download restrictions",
-        "what": "This is a userscript that enables downloading images, videos, GIFs, and audios from Telegram web apps, even in chats, stories, and private channels where downloading is restricted. It unlocks download buttons by injecting code into the web page.",
-        "content": "The repository mainly contains a JavaScript userscript file, along with installation instructions and a license. The script is distributed via Greasy Fork and supports multiple browsers and userscript managers.",
-        "stack": "Written in JavaScript, it relies on userscript managers (e.g., Tampermonkey, Violentmonkey) to run in the browser. It has no backend dependencies and is purely front-end.",
-        "hot": "Telegram download restrictions are a common pain point, and this script provides a simple and effective solution, making it widely popular. It has 6,001 stars, with 263 added this week, ranking 6th on GitHub Trending JavaScript weekly.",
+        "tag": "Gives AI agents good taste, stopping generic AI-slop frontends",
+        "what": "Taste-Skill is an anti-slop frontend skill set for AI agents that stops them from generating boring, generic, template-like UI code. It injects design taste and aesthetic rules into agent workflows so output looks closer to professional design work.",
+        "content": "The repo mainly holds skill/prompt rule sets plus supporting assets: README banners, sponsor images, a link to tasteskill.dev, and agent-facing skill definition files.",
+        "stack": "Primary language is JavaScript; it ships as an agent skill/prompt-engineering package that plugs into coding agents and frontend generation flows, with no heavy runtime dependencies.",
+        "hot": "With ~91.5K stars, +323 today, and #16 on GitHub Trending (JavaScript), it hits a widespread pain point—AI-generated UIs looking generic—and is backed by sponsors like Kimi and Fluxion AI.",
         "uses": [
-          "Regular users who need to save media from restricted Telegram groups or channels",
-          "Researchers or journalists who need to archive public information from Telegram",
-          "Users who frequently use Telegram web and want enhanced download capabilities"
+          "Developers using agents like Cursor or Claude Code who want frontend output free of template vibes",
+          "Indie devs and small teams without a dedicated designer but needing presentable UI",
+          "Design engineers and frontend teams wanting to codify aesthetic rules into reusable agent skills",
+          "Founders building AI demos or landing pages who care about visual polish"
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "next.js",
-      "full": "vercel/next.js",
-      "rank": 15,
+      "slug": "iptv",
+      "full": "akiralereal/iptv",
+      "rank": 11,
       "cat": "infra",
       "lang": "JavaScript",
-      "stars": 143.0,
-      "today": "+415",
-      "today_n": 415,
+      "stars": 1.2,
+      "today": "+154",
+      "today_n": 154,
       "auto": false,
       "zh": {
-        "tag": "Vercel 出品的全栈 React 生产级框架",
-        "what": "Next.js 是构建全栈 Web 应用的主流 React 框架，在最新 React 特性之上提供路由、渲染、数据获取与构建等一体化能力。它集成基于 Rust 的 JavaScript 工具链，追求更快的构建与更完整的生产部署体验。",
-        "content": "仓库包含框架核心源码、编译器与构建工具、示例项目、文档与测试套件，并配有贡献指南和 good first issues 列表。整体是一个由 Vercel 主导、社区共同维护的大型 monorepo。",
-        "stack": "以 JavaScript/TypeScript 为主，核心依赖 React，并内置基于 Rust 的 SWC 编译器与 Turbopack 构建工具。",
-        "hot": "作为 React 生态的默认生产框架，它已积累 14.2 万+ star，本周仍新增 217 星并进入 JavaScript 周榜第 18 名。持续迭代与庞大企业采用度让它长期保持热度。",
+        "tag": "自托管 IPTV 直播源聚合与分发系统，开箱 800+ 频道",
+        "what": "iPTV 是一套面向家庭影音与 NAS 用户的模块化直播源管理与分发系统。它把央视频、咪咕、B站、抖音、虎牙、斗鱼及各地广电等分散来源统一抓取、聚合、去重和编排，再输出干净的播放列表与 EPG 节目单。",
+        "content": "仓库包含内置抓取模块、源管理后台、频道编排界面、EPG 聚合功能，以及 Docker Compose 与 Node.js 两种运行方式，并附产品预览截图和部署文档。",
+        "stack": "主语言 JavaScript，基于 Node.js 运行，提供 Docker 镜像 akiralereal/iptv:latest，支持 Docker Compose 部署，适合 NAS 与家庭服务器。",
+        "hot": "本周新增 154 star、总数 1177，登上 GitHub Trending JavaScript 周榜第 11 名；开箱 800+ 频道与可视化后台切中了自托管直播源管理的刚需。",
         "uses": [
-          "前端/全栈开发者构建 SSR、SSG 与混合渲染的 React 应用",
-          "需要 SEO 友好、首屏性能优秀的营销站与电商站点",
-          "团队希望用统一框架覆盖 API 路由与前端页面",
-          "想学习现代 React 工程化与生产部署的进阶学习者"
+          "NAS 与家庭服务器用户，想搭建自己的直播频道系统",
+          "希望统一管理多个直播源并生成 EPG 节目单的影音爱好者",
+          "需要多端共享、按用户分配频道组合的家庭或小团队",
+          "想用 Docker 快速部署 IPTV 服务的开发者与运维人员"
         ]
       },
       "en": {
-        "tag": "Vercel's production-grade full-stack React framework",
-        "what": "Next.js is the leading React framework for building full-stack web applications, layering routing, rendering, data fetching and build tooling on top of the latest React features. It integrates Rust-based JavaScript tooling for faster builds and a more complete production deployment experience.",
-        "content": "The repo holds the framework core, compiler and build tooling, examples, docs and test suites, plus contribution guidelines and a good first issues list. It is a large Vercel-led monorepo maintained together with the community.",
-        "stack": "Primarily JavaScript/TypeScript, built on React and shipping Rust-based tooling such as SWC and Turbopack.",
-        "hot": "As the default production framework in the React ecosystem, it has accumulated over 142k stars, adding 217 this week to rank 18th on the JavaScript weekly chart. Continuous releases and heavy enterprise adoption keep it consistently hot.",
+        "tag": "Self-hosted IPTV source aggregator and distributor with 800+ channels out of the box",
+        "what": "iPTV is a modular live-TV source management and distribution system for home media and NAS users. It scrapes, aggregates, deduplicates and organizes scattered sources like CCTV, Migu, Bilibili, Douyin, Huya, Douyu and regional broadcasters, then outputs clean playlists and EPG data.",
+        "content": "The repo ships built-in scraping modules, a source-management backend, a channel-orchestration UI, EPG aggregation, plus Docker Compose and Node.js deployment paths, along with preview screenshots and docs.",
+        "stack": "Primary language is JavaScript, runs on Node.js, ships a Docker image akiralereal/iptv:latest, supports Docker Compose, and targets NAS and home servers.",
+        "hot": "It gained 154 stars this week for 1,177 total, ranking 11th on GitHub Trending's weekly JavaScript chart; 800+ out-of-box channels and a visual admin panel hit a real need for self-hosted IPTV management.",
         "uses": [
-          "Frontend/full-stack developers building SSR, SSG and hybrid React apps",
-          "Marketing and e-commerce sites needing SEO-friendly, fast first paint",
-          "Teams wanting one framework for both API routes and frontend pages",
-          "Advanced learners studying modern React engineering and production deployment"
+          "NAS and home-server users who want their own live-TV channel system",
+          "Media enthusiasts who need to unify multiple sources and generate EPG guides",
+          "Families or small teams needing multi-device sharing and per-user channel sets",
+          "Developers and ops folks wanting a quick Docker-based IPTV deployment"
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-09-27",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
-        "hist": [
-          {
-            "d": "2026-09-27",
-            "s": 142.6,
-            "r": 15
-          }
-        ]
+        "hist": []
       }
     },
     {
@@ -8785,8 +8234,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "JavaScript",
       "stars": 4.8,
-      "today": "+178",
-      "today_n": 178,
+      "today": "+194",
+      "today_n": 194,
       "auto": false,
       "zh": {
         "tag": "面向小学阶段的开源学习微主题知识图谱与先修依赖数据集",
@@ -8816,7 +8265,51 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "nova-proxy",
+      "full": "IRNova/Nova-Proxy",
+      "rank": 13,
+      "cat": "infra",
+      "lang": "JavaScript",
+      "stars": 3.3,
+      "today": "+49",
+      "today_n": 49,
+      "auto": false,
+      "zh": {
+        "tag": "跑在单个 Cloudflare Worker 上的抗审查代理面板，自带多用户管理与订阅分发",
+        "what": "Nova-Proxy 是一个部署在 Cloudflare Workers 上的代理控制面板，把 VLESS、Trojan、Shadowsocks、gRPC、XHTTP over WebSocket+TLS 等协议与完整管理后台打包进一个 Worker。用户部署到自己的免费 Cloudflare 账号后，可创建多用户、分配独立订阅链接，并借助 WARP、代理链、干净 IP 优化与高级路由对抗网络审查。",
+        "content": "仓库包含 Worker 端核心代码（JavaScript）、双语（英/波斯语，另有俄语）管理面板前端、订阅生成与路由规则模块，以及 Telegram 机器人、Backend 模式和多平台客户端配置模板。",
+        "stack": "主语言 JavaScript，运行于 Cloudflare Workers 免费套餐，兼容 Amnezia、WireGuard、Sing-box、Clash/Mihomo、Xray 等内核，依赖 Cloudflare 边缘网络与 WARP。",
+        "hot": "凭借 3345 颗星、本周新增 49 星登上 GitHub Trending 周榜 JavaScript 第 13 名，主打零成本、单 Worker 部署与抗审查能力，切中伊朗等高压网络环境用户的刚需。",
+        "uses": [
+          "需要自建抗审查代理的伊朗及其他高审查地区用户",
+          "想零成本在 Cloudflare 免费套餐上搭建多用户代理服务的个人或小团队",
+          "需要给他人分发订阅链接并管理配额、到期时间的运营者",
+          "希望用 Telegram 机器人远程管理代理节点的技术用户"
+        ]
+      },
+      "en": {
+        "tag": "A censorship-resistant proxy panel with full admin UI running on a single Cloudflare Worker",
+        "what": "Nova-Proxy is a proxy control panel that runs entirely on Cloudflare Workers, bundling VLESS, Trojan, Shadowsocks, gRPC and XHTTP over WebSocket+TLS with a full admin dashboard. Deployed to your own free Cloudflare account, it lets you create multi-user accounts, hand out private subscription links, and fight censorship with WARP, proxy chaining, clean-IP optimization and advanced routing.",
+        "content": "The repo contains the Worker-side core in JavaScript, a bilingual (English/Persian, plus Russian) admin panel frontend, subscription-generation and routing-rule modules, plus a Telegram bot, Backend mode and client config templates for all platforms.",
+        "stack": "JavaScript running on Cloudflare Workers' free tier, compatible with Amnezia, WireGuard, Sing-box, Clash/Mihomo and Xray cores, relying on Cloudflare's edge network and WARP.",
+        "hot": "With 3,345 stars and 49 added this week, it ranks 13th on GitHub's weekly JavaScript trending list, driven by zero-cost single-Worker deployment and strong censorship resistance for users in heavily filtered networks like Iran.",
+        "uses": [
+          "Users in Iran and other heavily censored regions who need a self-hosted anti-censorship proxy",
+          "Individuals or small teams wanting a zero-cost multi-user proxy on Cloudflare's free plan",
+          "Operators who need to distribute subscription links and manage quotas and expiry dates",
+          "Technical users who want to manage proxy nodes remotely via a Telegram bot"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -8829,8 +8322,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "JavaScript",
       "stars": 2.6,
-      "today": "+623",
-      "today_n": 623,
+      "today": "+641",
+      "today_n": 641,
       "auto": false,
       "zh": {
         "tag": "某兴随身WiFi与展锐设备的全能管理扩展工具",
@@ -8858,63 +8351,54 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "openshell",
-      "full": "NVIDIA/OpenShell",
-      "rank": 1,
-      "cat": "agent",
-      "lang": "Rust",
-      "stars": 15.5,
-      "today": "+1.7k",
-      "today_n": 1680,
+      "slug": "tabler-icons",
+      "full": "tabler/tabler-icons",
+      "rank": 12,
+      "cat": "other",
+      "lang": "JavaScript",
+      "stars": 22.2,
+      "today": "+269",
+      "today_n": 269,
       "auto": false,
       "zh": {
-        "tag": "NVIDIA 出品的自主 AI 代理安全私有运行时",
-        "what": "OpenShell 为自主 AI 代理提供隔离沙箱运行时，让代理能读文件、装包、调 API、用凭证，但不会获得对数据、密钥和网络的无限访问权。用户通过策略声明每个代理能触碰什么，OpenShell 在内核层强制执行。",
-        "content": "仓库包含 Rust 实现的 CLI 与本地 gateway、内核级沙箱与 supervisor 组件、策略定义与形式化验证模块，以及文档、品牌资源和安装脚本。",
-        "stack": "主语言为 Rust，提供 PyPI 包 openshell，依赖 Docker、Podman 或主机虚拟化，支持 Linux、Apple Silicon macOS 和 WSL 2。",
-        "hot": "凭借 NVIDIA 品牌背书和「代理安全」这一 2025 年最热议题，项目单日新增 990 star、总数达 10622，冲上 GitHub Trending 日榜第 2。",
+        "tag": "6200+ 枚 MIT 免费高质量 SVG 图标库",
+        "what": "Tabler Icons 提供超过 6200 枚免费、MIT 许可的高质量 SVG 图标，供网页项目直接使用。每枚图标都基于 24x24 网格、2px 描边设计，风格统一，包含描边与填充两种版本。",
+        "content": "仓库以原始 SVG 文件为核心，同时按格式和框架拆分为多个官方 npm 包（如 @tabler/icons 等），并附带图标元数据与完整文档。",
+        "stack": "主语言为 JavaScript，图标以 SVG 形式分发，通过 npm 发布多个包，覆盖不同框架与格式，依赖轻量。",
+        "hot": "已获 22058 颗星，本周新增 183 颗，登上 GitHub Trending 周榜 JavaScript 第 12 名，凭借超大图标量和免费 MIT 许可持续吸引前端开发者。",
         "uses": [
-          "需要让 AI 代理安全访问文件、API 和凭证的企业开发团队",
-          "构建多代理系统、关注沙箱隔离与权限治理的平台工程师",
-          "研究代理安全、策略形式化验证的安全与合规人员"
+          "前端开发者与 UI 设计师，需要统一风格的免费图标资源",
+          "个人或商业网页项目，希望以 MIT 许可直接嵌入 SVG 图标",
+          "使用 React、Vue 等框架并需要现成图标包的团队",
+          "追求 24x24 网格与 2px 描边一致性的产品界面"
         ]
       },
       "en": {
-        "tag": "NVIDIA's safe, private runtime for autonomous AI agents",
-        "what": "OpenShell is a runtime that sandboxes autonomous AI agents so they can read files, install packages, call APIs and use credentials without gaining unrestricted access to your data, secrets or network. You declare what each agent may touch in a policy, and OpenShell enforces it.",
-        "content": "The repo contains a Rust-based CLI and local gateway, kernel-level sandbox and supervisor components, policy definitions with formal verification, plus docs, brand assets and an install script.",
-        "stack": "Primarily written in Rust, distributed as the openshell PyPI package, and relies on Docker, Podman or host virtualization across Linux, Apple Silicon macOS and WSL 2.",
-        "hot": "Backed by NVIDIA and riding the hottest 2025 topic of agent safety, it gained 990 stars in a single day to reach 10,622 and hit #2 on GitHub Trending daily.",
+        "tag": "A free MIT-licensed library of 6,200+ high-quality SVG icons",
+        "what": "Tabler Icons offers over 6,200 free, MIT-licensed, high-quality SVG icons for web projects. Each icon is designed on a 24x24 grid with a 2px stroke, available in both outline and filled versions.",
+        "content": "The repo centers on raw SVG files and ships official npm packages split by format and framework (such as @tabler/icons), along with icon metadata and full documentation.",
+        "stack": "Primarily JavaScript, icons are distributed as SVG and published to npm as multiple packages covering different frameworks and formats, with light dependencies.",
+        "hot": "With 22,058 stars and 183 added this week, it ranks 12th on the GitHub Trending weekly JavaScript chart, drawing frontend developers with its huge icon count and free MIT license.",
         "uses": [
-          "Enterprise teams that need AI agents to safely access files, APIs and credentials",
-          "Platform engineers building multi-agent systems with sandboxing and permission governance",
-          "Security and compliance staff researching agent safety and formal policy verification"
+          "Frontend developers and UI designers needing a consistent set of free icons",
+          "Personal or commercial web projects wanting MIT-licensed SVG icons to embed directly",
+          "Teams using React, Vue, or similar frameworks that need ready-made icon packages",
+          "Product interfaces that require consistent 24x24 grid and 2px stroke styling"
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-09-30",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
-        "hist": [
-          {
-            "d": "2026-09-30",
-            "s": 10.6,
-            "r": 2
-          },
-          {
-            "d": "2026-10-01",
-            "s": 12.7,
-            "r": 1
-          }
-        ]
+        "hist": []
       }
     },
     {
@@ -8924,8 +8408,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "Rust",
       "stars": 4.1,
-      "today": "+743",
-      "today_n": 743,
+      "today": "+772",
+      "today_n": 772,
       "auto": false,
       "zh": {
         "tag": "Rust 驱动的多协议下载管理器，IDM 免费开源替代",
@@ -8955,10 +8439,254 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
+      }
+    },
+    {
+      "slug": "handy",
+      "full": "cjpais/Handy",
+      "rank": 2,
+      "cat": "ai",
+      "lang": "Rust",
+      "stars": 33.4,
+      "today": "+739",
+      "today_n": 739,
+      "auto": false,
+      "zh": {
+        "tag": "完全离线的开源跨平台语音转文字桌面应用",
+        "what": "Handy 是一款跨平台桌面语音转文字工具，按下快捷键说话，松开后文字自动粘贴到任意输入框。全程在本机运行，音频不上传云端，支持 Windows、macOS 和 Linux。",
+        "content": "仓库包含 Rust 编写的桌面应用源码、构建说明 BUILD.md、各平台打包配置与发布流程，以及 Discord 社区入口和赞助信息。",
+        "stack": "主语言为 Rust，语音识别基于 Whisper（Small/Medium/Turbo/Large，支持 GPU 加速）与 CPU 优化的 Parakeet V3，并用 Silero VAD 做静音过滤。",
+        "hot": "上线即获 33369 颗星、本周新增 739，位列 GitHub Trending Rust 周榜第 2，主打免费、开源、隐私与离线，切中云端听写工具的痛点。",
+        "uses": [
+          "注重隐私、不希望语音上传云端的个人用户",
+          "需要跨平台离线听写的开发者与写作者",
+          "希望基于开源代码扩展自定义语音输入流程的技术爱好者",
+          "在无网络或弱网环境下仍需语音转文字的场景"
+        ]
+      },
+      "en": {
+        "tag": "A free, open-source, offline cross-platform speech-to-text desktop app",
+        "what": "Handy is a cross-platform desktop speech-to-text tool: press a shortcut, speak, release, and your words are pasted into any text field. Everything runs locally with no audio sent to the cloud, and it works on Windows, macOS, and Linux.",
+        "content": "The repo contains the Rust desktop app source, BUILD.md build instructions, per-platform packaging and release configs, plus a Discord community link and sponsor info.",
+        "stack": "Built in Rust, it uses Whisper models (Small/Medium/Turbo/Large with GPU acceleration) and the CPU-optimized Parakeet V3 for transcription, with Silero VAD for silence filtering.",
+        "hot": "It has 33,369 stars with 739 added this week, ranking #2 on GitHub Trending's weekly Rust list, thanks to its free, open-source, private, offline pitch that addresses cloud dictation pain points.",
+        "uses": [
+          "Privacy-conscious users who don't want their voice sent to the cloud",
+          "Developers and writers needing cross-platform offline dictation",
+          "Tinkerers who want to extend an open-source speech input pipeline",
+          "Scenarios requiring speech-to-text without reliable internet access"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "fframes",
+      "full": "dmtrKovalenko/fframes",
+      "rank": 3,
+      "cat": "infra",
+      "lang": "Rust",
+      "stars": 2.5,
+      "today": "+621",
+      "today_n": 621,
+      "auto": false,
+      "zh": {
+        "tag": "用 Rust 与 SVG 写代码、GPU 渲染的快速视频框架",
+        "what": "fframes 是一个程序化视频渲染框架，让你用 Rust 代码和 SVG 描述画面，再由 GPU 高速渲染成视频。它主打「视频 vibe coding」，配合编码代理技能，可从空目录一路生成渲染好的 .mp4。",
+        "content": "仓库包含 Rust 库本体（crates.io 上的 fframes crate）、示例项目（如 examples/fframes-intro）、品牌与落地页素材，以及面向编码代理的技能与命令行工具。",
+        "stack": "以 Rust 为主语言，画面描述使用 SVG，渲染走 GPU；发布在 crates.io，文档在 docs.rs，采用 MIT 许可证。",
+        "hot": "本周新增 621 star、总数 2503，冲上 GitHub Trending 周榜 Rust 第 3 名；官方演示的 128 秒视频 48 分钟写完、36 秒渲染完，速度与代理工作流是主要卖点。",
+        "uses": [
+          "想用代码而非剪辑软件生成视频的 Rust 开发者",
+          "用编码代理批量产出演示、宣传或数据可视化视频的团队",
+          "需要 GPU 加速、可脚本化渲染管线的动效与内容创作者",
+          "研究 AI 代理如何「看」和校验视频输出的工具开发者"
+        ]
+      },
+      "en": {
+        "tag": "A fast programmatic video framework: write in Rust and SVG, render on the GPU",
+        "what": "fframes is a programmatic video rendering framework that lets you describe scenes in Rust code and SVG, then renders them on the GPU. Built for 'video vibe coding', it pairs with a coding-agent skill that takes an empty folder all the way to a rendered .mp4.",
+        "content": "The repo contains the Rust library (the fframes crate on crates.io), example projects such as examples/fframes-intro, brand and landing-page assets, plus a coding-agent skill and CLI tooling.",
+        "stack": "Primarily Rust, with SVG for scene description and GPU-based rendering; published on crates.io, documented on docs.rs, MIT licensed.",
+        "hot": "It gained 621 stars this week for a total of 2,503, ranking 3rd on GitHub Trending's weekly Rust list; the demo 128-second video was written in 48 minutes and rendered in 36 seconds, with speed and agent workflows as the main draw.",
+        "uses": [
+          "Rust developers who want to generate videos in code instead of using editing software",
+          "Teams using coding agents to mass-produce demo, promo, or data-visualization videos",
+          "Motion and content creators needing a GPU-accelerated, scriptable rendering pipeline",
+          "Tool developers exploring how AI agents can 'watch' and verify video output"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "gpui-kit",
+      "full": "longbridge/gpui-kit",
+      "rank": 1,
+      "cat": "other",
+      "lang": "Rust",
+      "stars": 16.7,
+      "today": "+1.1k",
+      "today_n": 1063,
+      "auto": false,
+      "zh": {
+        "tag": "基于 GPUI 的 Rust 跨平台桌面 UI 组件库",
+        "what": "GPUI Kit 是一个用于构建高性能跨平台桌面应用的 Rust 框架，提供 60+ 生产级 UI 组件和完整的数据、布局、编辑能力。它基于 Zed 编辑器使用的 GPUI 构建，并支持 JavaScript 扩展。",
+        "content": "仓库包含三个子 crate：gpui-base（无样式行为、状态和基础设施）、gpui-shell（JavaScript 扩展）、gpui-component（完整样式化 UI 系统）。主 crate 重新导出所有层，应用只需依赖 gpui-kit 即可。",
+        "stack": "基于 Rust 和 GPUI（Zed 编辑器使用的 GPU 加速 UI 框架），支持 macOS、Windows、Linux，集成 Tree-sitter、LSP 等。",
+        "hot": "凭借 13.9K stars 和日增 179 登顶 Rust 日榜，因为它是首个将 GPUI 从 Zed 中解耦并打包成通用组件库的项目，填补了 Rust 桌面 UI 生态的空白。",
+        "uses": [
+          "Rust 开发者希望用 Rust 构建跨平台桌面应用，并追求高性能和原生体验。",
+          "需要数据表格、虚拟列表、代码编辑器等复杂组件的桌面应用开发场景。",
+          "希望复用 Zed 编辑器 UI 能力但不想直接依赖 Zed 的团队。",
+          "对 GPUI 感兴趣，想学习其架构或基于 gpui-base 自定义 UI 系统的开发者。"
+        ]
+      },
+      "en": {
+        "tag": "Rust desktop UI component library built on GPUI for cross-platform apps",
+        "what": "GPUI Kit is a Rust framework for building high-performance cross-platform desktop apps, offering 60+ production-ready UI components and full data, layout, and editing capabilities. It is built on GPUI, the UI framework used by Zed editor, and supports JavaScript extensions.",
+        "content": "The repo contains three sub-crates: gpui-base (unstyled behavior, state, and infrastructure), gpui-shell (JavaScript extensions), and gpui-component (complete styled UI system). The main crate re-exports all layers, so apps only need to depend on gpui-kit.",
+        "stack": "Built on Rust and GPUI (GPU-accelerated UI framework used by Zed editor), supports macOS, Windows, Linux, integrates Tree-sitter, LSP, etc.",
+        "hot": "With 13.9K stars and +179 today, it tops the Rust daily chart as the first project to decouple GPUI from Zed and package it as a general-purpose component library, filling a gap in the Rust desktop UI ecosystem.",
+        "uses": [
+          "Rust developers who want to build cross-platform desktop apps with high performance and native feel.",
+          "Desktop app development requiring complex components like data tables, virtual lists, and code editors.",
+          "Teams that want to reuse Zed's UI capabilities without depending on Zed directly.",
+          "Developers interested in GPUI, learning its architecture, or building custom UI systems on gpui-base."
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "skills-manager",
+      "full": "xingkongliang/skills-manager",
+      "rank": 5,
+      "cat": "agent",
+      "lang": "Rust",
+      "stars": 5.8,
+      "today": "+457",
+      "today_n": 457,
+      "auto": false,
+      "zh": {
+        "tag": "跨 50+ 编程工具统一管理 AI 代理技能库的桌面应用",
+        "what": "Skills Manager 是一款轻量级桌面应用，用于集中管理、同步和整理 AI 代理技能（skills）。它把散落在 Claude Code、Codex、Cursor、Copilot、Gemini CLI 等 50 多种工具里的技能统一到一个中央库中，并支持跨设备备份与同步。",
+        "content": "仓库包含 Rust 桌面应用源码，以及技能库、市场（Marketplace）、全局/代理/项目工作区、备份同步和设置等界面演示，默认技能库位于 ~/.skills-manager。",
+        "stack": "主语言为 Rust，构建跨平台桌面应用；依赖包括 Git 仓库、本地文件夹、.zip/.skill 归档及 skills.sh 市场作为技能来源。",
+        "hot": "上线不久即收获 5739 stars，今日新增 56，登上 GitHub Trending 日榜 Rust 第 5 名，切中了多工具时代技能碎片化管理的痛点。",
+        "uses": [
+          "同时使用多个 AI 编程工具的开发者，想统一管理散落的技能",
+          "需要在多台设备间同步和备份 AI 代理技能配置的用户",
+          "想从市场发现并一键安装热门技能的 AI 代理使用者",
+          "希望让代理自动安装、部署技能到其他工具的进阶用户"
+        ]
+      },
+      "en": {
+        "tag": "A desktop app to manage AI agent skills across 50+ coding tools",
+        "what": "Skills Manager is a lightweight desktop app for managing, syncing, and organizing AI agent skills. It consolidates skills scattered across 50+ tools like Claude Code, Codex, Cursor, Copilot, and Gemini CLI into one central library with backup and multi-device sync.",
+        "content": "The repo contains the Rust desktop app source plus UI demos for the Library, Marketplace, Global/Agent/Project Workspaces, backup & sync, and settings, with the default skill library at ~/.skills-manager.",
+        "stack": "Written primarily in Rust as a cross-platform desktop app; it pulls skills from Git repos, local folders, .zip/.skill archives, and the skills.sh marketplace.",
+        "hot": "It has quickly gained 5,739 stars with 56 added today, ranking #5 on GitHub Trending (Rust) daily, hitting the pain point of fragmented skill management across many tools.",
+        "uses": [
+          "Developers using multiple AI coding tools who want one place to manage scattered skills",
+          "Users who need to sync and back up AI agent skill configs across devices",
+          "AI agent users who want to discover and one-click install popular skills from a marketplace",
+          "Advanced users who want agents to auto-install and deploy skills to other tools"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "pumpkin",
+      "full": "Pumpkin-MC/Pumpkin",
+      "rank": 5,
+      "cat": "infra",
+      "lang": "Rust",
+      "stars": 12.2,
+      "today": "+375",
+      "today_n": 375,
+      "auto": false,
+      "zh": {
+        "tag": "用 Rust 从零重写的 Minecraft 服务端，追求高性能与高兼容",
+        "what": "Pumpkin 是一个完全用 Rust 编写的 Minecraft 服务器实现，目标是提供快速、高效且可定制的游戏服务端。它同时兼容最新的 Java 与 Bedrock 版本，并尽量遵循原版游戏机制。",
+        "content": "仓库包含服务端核心代码、协议与世界/玩家/实体等模块，以及配置示例、资源图片和 CI 工作流，功能清单以 issue 追踪形式列出。",
+        "stack": "主要使用 Rust 编写，采用多线程架构，配置使用 TOML，构建与测试由 GitHub Actions 驱动，遵循 GPLv3 许可。",
+        "hot": "作为少见的 Rust 版 Minecraft 服务端，它已收获 11679 颗星，今日新增 221 星并登上 GitHub Trending 日榜 Rust 第 5 名，性能与兼容性愿景吸引大量关注。",
+        "uses": [
+          "想自建高性能 Minecraft 服务器的服主与运维人员",
+          "对 Rust 网络编程和服务端架构感兴趣的开发者",
+          "希望为服务端开发插件或参与开源贡献的玩家社区成员"
+        ]
+      },
+      "en": {
+        "tag": "A Minecraft server rewritten from scratch in Rust, built for speed and compatibility",
+        "what": "Pumpkin is a Minecraft server implementation written entirely in Rust, aiming to deliver a fast, efficient and customizable experience. It supports the latest Java and Bedrock versions while sticking close to vanilla game mechanics.",
+        "content": "The repo contains the server core, protocol and world/player/entity modules, plus config samples, asset images and CI workflows, with feature tracking done through issues.",
+        "stack": "Written mainly in Rust with a multi-threaded architecture, TOML-based configuration, GitHub Actions for CI, and licensed under GPLv3.",
+        "hot": "As a rare Rust-based Minecraft server, it has gathered 11,679 stars, adding 221 today and ranking 5th on GitHub Trending's daily Rust list, drawing attention for its performance and compatibility goals.",
+        "uses": [
+          "Server owners and operators wanting to self-host a high-performance Minecraft server",
+          "Developers interested in Rust network programming and server architecture",
+          "Community members looking to build plugins or contribute to open source"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-07-23",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-07-23",
+            "s": 8.4,
+            "r": 18
+          },
+          {
+            "d": "2026-07-24",
+            "s": 8.9,
+            "r": 4
+          },
+          {
+            "d": "2026-07-25",
+            "s": 9.3,
+            "r": 4
+          },
+          {
+            "d": "2026-07-26",
+            "s": 9.7,
+            "r": 9
+          },
+          {
+            "d": "2026-07-27",
+            "s": 10.0,
+            "r": 14
+          }
+        ]
       }
     },
     {
@@ -8969,7 +8697,7 @@ window.TRENDING_DATA = {
       "lang": "Rust",
       "stars": 41.7,
       "today": "+1.4k",
-      "today_n": 1359,
+      "today_n": 1350,
       "auto": false,
       "zh": {
         "tag": "Rust 编写的轻量开源 AI 代理框架，可插拔任意 LLM 与记忆",
@@ -9032,58 +8760,14 @@ window.TRENDING_DATA = {
       }
     },
     {
-      "slug": "zeron",
-      "full": "zeronsh/zeron",
-      "rank": 14,
-      "cat": "agent",
-      "lang": "Rust",
-      "stars": 3.1,
-      "today": "+634",
-      "today_n": 634,
-      "auto": false,
-      "zh": {
-        "tag": "本地优先的多设备编码代理控制平面",
-        "what": "Zeron 是一个面向 Claude Code、Codex、Cursor、Devin 等编码代理的原生控制平面。它默认在本地运行，每台设备上的小型引擎把会话存在本机，无需账号或联网即可使用，并可选开启多设备同步。",
-        "content": "仓库包含 Rust 编写的引擎与守护进程、桌面侧边栏应用、落地页资源（apps/landing）、安装脚本以及架构与 Linux/Windows 参考文档。",
-        "stack": "以 Rust 为主语言，提供 CLI（zeron status/update/daemon）、安装脚本与桌面应用；依赖本地守护进程与可选的同步账户体系。",
-        "hot": "本周新增 394 星、总计 1823 星，登上 GitHub Trending Rust 周榜第 14 名；本地优先、多代理统一管控的定位正好切中编码代理爆发的痛点。",
-        "uses": [
-          "同时使用多个编码代理、希望统一管理会话的开发者",
-          "注重隐私、要求会话数据默认留在本地的团队",
-          "需要在一台常开机器上远程驱动其他设备代理的用户",
-          "想研究编码代理控制平面架构的 Rust 开发者"
-        ]
-      },
-      "en": {
-        "tag": "A local-first control plane for coding agents across devices",
-        "what": "Zeron is a native control plane for coding agents such as Claude Code, Codex, Cursor, and Devin. It runs locally by default, with each device storing sessions on-device and no account or network required, plus optional multi-device sync.",
-        "content": "The repo contains a Rust engine and daemon, a desktop sidebar app, landing page assets under apps/landing, an install script, and architecture plus Linux/Windows reference docs.",
-        "stack": "Primarily Rust, offering a CLI (zeron status/update/daemon), an install script, and a desktop app; it relies on a local daemon and an optional synced account system.",
-        "hot": "It gained 394 stars this week for 1,823 total, ranking 14th on GitHub Trending's weekly Rust list; its local-first, multi-agent control positioning hits a real pain point as coding agents proliferate.",
-        "uses": [
-          "Developers juggling multiple coding agents who want unified session management",
-          "Teams that prioritize privacy and want sessions to stay local by default",
-          "Users who need an always-on machine to drive agents on other devices remotely",
-          "Rust developers curious about coding-agent control plane architecture"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
       "slug": "touchhle",
       "full": "touchHLE/touchHLE",
       "rank": 7,
       "cat": "other",
       "lang": "Rust",
       "stars": 4.0,
-      "today": "+42",
-      "today_n": 42,
+      "today": "+37",
+      "today_n": 37,
       "auto": false,
       "zh": {
         "tag": "用 Rust 重写 iOS 系统框架，让早期 iPhone 游戏在现代设备上复活",
@@ -9111,78 +8795,10 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
-      }
-    },
-    {
-      "slug": "pumpkin",
-      "full": "Pumpkin-MC/Pumpkin",
-      "rank": 5,
-      "cat": "infra",
-      "lang": "Rust",
-      "stars": 12.2,
-      "today": "+359",
-      "today_n": 359,
-      "auto": false,
-      "zh": {
-        "tag": "用 Rust 从零重写的 Minecraft 服务端，追求高性能与高兼容",
-        "what": "Pumpkin 是一个完全用 Rust 编写的 Minecraft 服务器实现，目标是提供快速、高效且可定制的游戏服务端。它同时兼容最新的 Java 与 Bedrock 版本，并尽量遵循原版游戏机制。",
-        "content": "仓库包含服务端核心代码、协议与世界/玩家/实体等模块，以及配置示例、资源图片和 CI 工作流，功能清单以 issue 追踪形式列出。",
-        "stack": "主要使用 Rust 编写，采用多线程架构，配置使用 TOML，构建与测试由 GitHub Actions 驱动，遵循 GPLv3 许可。",
-        "hot": "作为少见的 Rust 版 Minecraft 服务端，它已收获 11679 颗星，今日新增 221 星并登上 GitHub Trending 日榜 Rust 第 5 名，性能与兼容性愿景吸引大量关注。",
-        "uses": [
-          "想自建高性能 Minecraft 服务器的服主与运维人员",
-          "对 Rust 网络编程和服务端架构感兴趣的开发者",
-          "希望为服务端开发插件或参与开源贡献的玩家社区成员"
-        ]
-      },
-      "en": {
-        "tag": "A Minecraft server rewritten from scratch in Rust, built for speed and compatibility",
-        "what": "Pumpkin is a Minecraft server implementation written entirely in Rust, aiming to deliver a fast, efficient and customizable experience. It supports the latest Java and Bedrock versions while sticking close to vanilla game mechanics.",
-        "content": "The repo contains the server core, protocol and world/player/entity modules, plus config samples, asset images and CI workflows, with feature tracking done through issues.",
-        "stack": "Written mainly in Rust with a multi-threaded architecture, TOML-based configuration, GitHub Actions for CI, and licensed under GPLv3.",
-        "hot": "As a rare Rust-based Minecraft server, it has gathered 11,679 stars, adding 221 today and ranking 5th on GitHub Trending's daily Rust list, drawing attention for its performance and compatibility goals.",
-        "uses": [
-          "Server owners and operators wanting to self-host a high-performance Minecraft server",
-          "Developers interested in Rust network programming and server architecture",
-          "Community members looking to build plugins or contribute to open source"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-23",
-        "is_new": false,
-        "is_back": false,
-        "hist": [
-          {
-            "d": "2026-07-23",
-            "s": 8.4,
-            "r": 18
-          },
-          {
-            "d": "2026-07-24",
-            "s": 8.9,
-            "r": 4
-          },
-          {
-            "d": "2026-07-25",
-            "s": 9.3,
-            "r": 4
-          },
-          {
-            "d": "2026-07-26",
-            "s": 9.7,
-            "r": 9
-          },
-          {
-            "d": "2026-07-27",
-            "s": 10.0,
-            "r": 14
-          }
-        ]
       }
     },
     {
@@ -9192,8 +8808,8 @@ window.TRENDING_DATA = {
       "cat": "ai",
       "lang": "Rust",
       "stars": 1.2,
-      "today": "+167",
-      "today_n": 167,
+      "today": "+116",
+      "today_n": 116,
       "auto": false,
       "zh": {
         "tag": "本地优先的长视频转竖屏短视频 AI 剪辑桌面工具",
@@ -9223,54 +8839,107 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "gpui-kit",
-      "full": "longbridge/gpui-kit",
-      "rank": 1,
-      "cat": "other",
+      "slug": "hyperfine",
+      "full": "sharkdp/hyperfine",
+      "rank": 10,
+      "cat": "infra",
       "lang": "Rust",
-      "stars": 16.6,
-      "today": "+1.2k",
-      "today_n": 1151,
+      "stars": 29.0,
+      "today": "+106",
+      "today_n": 106,
       "auto": false,
       "zh": {
-        "tag": "基于 GPUI 的 Rust 跨平台桌面 UI 组件库",
-        "what": "GPUI Kit 是一个用于构建高性能跨平台桌面应用的 Rust 框架，提供 60+ 生产级 UI 组件和完整的数据、布局、编辑能力。它基于 Zed 编辑器使用的 GPUI 构建，并支持 JavaScript 扩展。",
-        "content": "仓库包含三个子 crate：gpui-base（无样式行为、状态和基础设施）、gpui-shell（JavaScript 扩展）、gpui-component（完整样式化 UI 系统）。主 crate 重新导出所有层，应用只需依赖 gpui-kit 即可。",
-        "stack": "基于 Rust 和 GPUI（Zed 编辑器使用的 GPU 加速 UI 框架），支持 macOS、Windows、Linux，集成 Tree-sitter、LSP 等。",
-        "hot": "凭借 13.9K stars 和日增 179 登顶 Rust 日榜，因为它是首个将 GPUI 从 Zed 中解耦并打包成通用组件库的项目，填补了 Rust 桌面 UI 生态的空白。",
+        "tag": "命令行基准测试工具，支持统计分析、预热与参数化扫描",
+        "what": "hyperfine 是一个命令行基准测试工具，用于精确测量和比较任意 shell 命令或程序的执行时间。它自动进行多次运行、统计分析，并支持预热、缓存清理、参数化扫描等高级功能。",
+        "content": "仓库包含完整的 Rust 源代码、测试套件、文档和示例，核心是命令行二进制工具，可通过 cargo 安装或下载预编译二进制。",
+        "stack": "使用 Rust 编写，依赖包括 clap 用于参数解析、statistical 用于统计分析、serde 用于序列化等，跨平台支持 Linux、macOS 和 Windows。",
+        "hot": "hyperfine 因其简单易用、功能强大而广受欢迎，已获得 29038 颗星，本周新增 106 星，位列 GitHub Trending 周榜 Rust 类别第 10 名。",
         "uses": [
-          "Rust 开发者希望用 Rust 构建跨平台桌面应用，并追求高性能和原生体验。",
-          "需要数据表格、虚拟列表、代码编辑器等复杂组件的桌面应用开发场景。",
-          "希望复用 Zed 编辑器 UI 能力但不想直接依赖 Zed 的团队。",
-          "对 GPUI 感兴趣，想学习其架构或基于 gpui-base 自定义 UI 系统的开发者。"
+          "开发者和性能工程师 —— 用于比较不同命令行工具或程序的执行效率。",
+          "CI/CD 流程 —— 集成到自动化测试中，监控性能回归。",
+          "学术研究 —— 进行可重复的命令行基准测试实验。",
+          "日常脚本优化 —— 快速测试不同命令或参数的耗时。"
         ]
       },
       "en": {
-        "tag": "Rust desktop UI component library built on GPUI for cross-platform apps",
-        "what": "GPUI Kit is a Rust framework for building high-performance cross-platform desktop apps, offering 60+ production-ready UI components and full data, layout, and editing capabilities. It is built on GPUI, the UI framework used by Zed editor, and supports JavaScript extensions.",
-        "content": "The repo contains three sub-crates: gpui-base (unstyled behavior, state, and infrastructure), gpui-shell (JavaScript extensions), and gpui-component (complete styled UI system). The main crate re-exports all layers, so apps only need to depend on gpui-kit.",
-        "stack": "Built on Rust and GPUI (GPU-accelerated UI framework used by Zed editor), supports macOS, Windows, Linux, integrates Tree-sitter, LSP, etc.",
-        "hot": "With 13.9K stars and +179 today, it tops the Rust daily chart as the first project to decouple GPUI from Zed and package it as a general-purpose component library, filling a gap in the Rust desktop UI ecosystem.",
+        "tag": "A command-line benchmarking tool with statistical analysis, warmup, and parameter scans",
+        "what": "hyperfine is a command-line benchmarking tool for accurately measuring and comparing the execution time of arbitrary shell commands or programs. It automatically performs multiple runs, statistical analysis, and supports advanced features like warmup, cache clearing, and parameterized scans.",
+        "content": "The repository contains the complete Rust source code, test suite, documentation, and examples, with the core being a command-line binary installable via cargo or pre-built binaries.",
+        "stack": "Written in Rust, with dependencies including clap for argument parsing, statistical for analysis, serde for serialization, and cross-platform support for Linux, macOS, and Windows.",
+        "hot": "hyperfine is widely popular for its simplicity and powerful features, with 29,038 stars and 106 new stars this week, ranking 10th on GitHub Trending weekly for Rust.",
         "uses": [
-          "Rust developers who want to build cross-platform desktop apps with high performance and native feel.",
-          "Desktop app development requiring complex components like data tables, virtual lists, and code editors.",
-          "Teams that want to reuse Zed's UI capabilities without depending on Zed directly.",
-          "Developers interested in GPUI, learning its architecture, or building custom UI systems on gpui-base."
+          "Developers and performance engineers — compare the efficiency of different CLI tools or programs.",
+          "CI/CD pipelines — integrate into automated testing to monitor performance regressions.",
+          "Academic research — conduct reproducible command-line benchmarking experiments.",
+          "Everyday script optimization — quickly test the time consumption of different commands or parameters."
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
+      }
+    },
+    {
+      "slug": "openshell",
+      "full": "NVIDIA/OpenShell",
+      "rank": 1,
+      "cat": "agent",
+      "lang": "Rust",
+      "stars": 15.6,
+      "today": "+1.3k",
+      "today_n": 1315,
+      "auto": false,
+      "zh": {
+        "tag": "NVIDIA 出品的自主 AI 代理安全私有运行时",
+        "what": "OpenShell 为自主 AI 代理提供隔离沙箱运行时，让代理能读文件、装包、调 API、用凭证，但不会获得对数据、密钥和网络的无限访问权。用户通过策略声明每个代理能触碰什么，OpenShell 在内核层强制执行。",
+        "content": "仓库包含 Rust 实现的 CLI 与本地 gateway、内核级沙箱与 supervisor 组件、策略定义与形式化验证模块，以及文档、品牌资源和安装脚本。",
+        "stack": "主语言为 Rust，提供 PyPI 包 openshell，依赖 Docker、Podman 或主机虚拟化，支持 Linux、Apple Silicon macOS 和 WSL 2。",
+        "hot": "凭借 NVIDIA 品牌背书和「代理安全」这一 2025 年最热议题，项目单日新增 990 star、总数达 10622，冲上 GitHub Trending 日榜第 2。",
+        "uses": [
+          "需要让 AI 代理安全访问文件、API 和凭证的企业开发团队",
+          "构建多代理系统、关注沙箱隔离与权限治理的平台工程师",
+          "研究代理安全、策略形式化验证的安全与合规人员"
+        ]
+      },
+      "en": {
+        "tag": "NVIDIA's safe, private runtime for autonomous AI agents",
+        "what": "OpenShell is a runtime that sandboxes autonomous AI agents so they can read files, install packages, call APIs and use credentials without gaining unrestricted access to your data, secrets or network. You declare what each agent may touch in a policy, and OpenShell enforces it.",
+        "content": "The repo contains a Rust-based CLI and local gateway, kernel-level sandbox and supervisor components, policy definitions with formal verification, plus docs, brand assets and an install script.",
+        "stack": "Primarily written in Rust, distributed as the openshell PyPI package, and relies on Docker, Podman or host virtualization across Linux, Apple Silicon macOS and WSL 2.",
+        "hot": "Backed by NVIDIA and riding the hottest 2025 topic of agent safety, it gained 990 stars in a single day to reach 10,622 and hit #2 on GitHub Trending daily.",
+        "uses": [
+          "Enterprise teams that need AI agents to safely access files, APIs and credentials",
+          "Platform engineers building multi-agent systems with sandboxing and permission governance",
+          "Security and compliance staff researching agent safety and formal policy verification"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-09-30",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-09-30",
+            "s": 10.6,
+            "r": 2
+          },
+          {
+            "d": "2026-10-01",
+            "s": 12.7,
+            "r": 1
+          }
+        ]
       }
     },
     {
@@ -9279,9 +8948,9 @@ window.TRENDING_DATA = {
       "rank": 15,
       "cat": "infra",
       "lang": "Rust",
-      "stars": 25.3,
+      "stars": 25.4,
       "today": "+1.6k",
-      "today_n": 1586,
+      "today_n": 1579,
       "auto": false,
       "zh": {
         "tag": "25MB 轻量级跨平台数据库客户端，支持 100+ 数据库并内置 AI 与 MCP。",
@@ -9335,8 +9004,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "Rust",
       "stars": 1.0,
-      "today": "+663",
-      "today_n": 663,
+      "today": "+697",
+      "today_n": 697,
       "auto": false,
       "zh": {
         "tag": "用 Rust 重写的经典 Photoshop 风格桌面图像编辑器，原生支持 PSD/PSB",
@@ -9366,95 +9035,51 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "falkordb",
-      "full": "FalkorDB/FalkorDB",
-      "rank": 11,
-      "cat": "infra",
-      "lang": "Rust",
-      "stars": 8.3,
-      "today": "+1.6k",
-      "today_n": 1585,
-      "auto": false,
-      "zh": {
-        "tag": "基于 GraphBLAS 稀疏矩阵的超高速图数据库，为 LLM 打造知识图谱",
-        "what": "FalkorDB 是一个超高速、多租户的图数据库，底层用 GraphBLAS 的稀疏邻接矩阵表示图，并用线性代数执行查询。它的目标是为大语言模型提供最佳的知识图谱，支撑 GraphRAG、Agent 记忆、云安全与欺诈检测等场景。",
-        "content": "仓库包含用 Rust 编写的核心数据库引擎、OpenCypher 查询支持、多租户与 Docker 镜像，以及面向云端的 FalkorDB Cloud 入口和 Discord 社区链接。",
-        "stack": "主语言为 Rust，核心依赖 GraphBLAS 做稀疏矩阵运算，兼容 OpenCypher 查询语言，提供 Docker 镜像并采用 Server Side Public License 授权。",
-        "hot": "本周新增 1585 颗星、总数达 8267，登上 GitHub Trending 周榜 Rust 第 11 名；GraphRAG 与 Agent 记忆需求爆发，让这款主打低延迟的图数据库迅速走红。",
-        "uses": [
-          "构建 GraphRAG 知识图谱、为 LLM 提供检索增强的开发者",
-          "需要低延迟图查询的 Agent 记忆与推荐系统团队",
-          "云安全、欺诈检测等实时关系分析场景的工程师",
-          "希望用 OpenCypher 快速搭建多租户图服务的后端团队"
-        ]
-      },
-      "en": {
-        "tag": "An ultra-fast graph database built on GraphBLAS sparse matrices, designed as the knowledge graph for LLMs",
-        "what": "FalkorDB is an ultra-fast, multi-tenant graph database that represents graphs as sparse adjacency matrices via GraphBLAS and executes queries using linear algebra. Its goal is to provide the best knowledge graph for LLMs, powering GraphRAG, agent memory, cloud security, and fraud detection.",
-        "content": "The repo contains the Rust-based core database engine, OpenCypher query support, multi-tenancy, Docker images, plus a FalkorDB Cloud entry point and Discord community links.",
-        "stack": "Written primarily in Rust, it relies on GraphBLAS for sparse matrix operations, supports the OpenCypher query language, ships as a Docker image, and is licensed under the Server Side Public License.",
-        "hot": "It gained 1,585 stars this week for a total of 8,267, ranking 11th on GitHub Trending's weekly Rust list; the surge in GraphRAG and agent-memory demand has quickly made this low-latency graph database popular.",
-        "uses": [
-          "Developers building GraphRAG knowledge graphs for LLM retrieval augmentation",
-          "Teams needing low-latency graph queries for agent memory and recommendation systems",
-          "Engineers in cloud security and fraud detection doing real-time relationship analysis",
-          "Backend teams wanting to spin up multi-tenant graph services quickly with OpenCypher"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "skills-manager",
-      "full": "xingkongliang/skills-manager",
-      "rank": 5,
+      "slug": "zeron",
+      "full": "zeronsh/zeron",
+      "rank": 14,
       "cat": "agent",
       "lang": "Rust",
-      "stars": 5.8,
-      "today": "+447",
-      "today_n": 447,
+      "stars": 3.1,
+      "today": "+393",
+      "today_n": 393,
       "auto": false,
       "zh": {
-        "tag": "跨 50+ 编程工具统一管理 AI 代理技能库的桌面应用",
-        "what": "Skills Manager 是一款轻量级桌面应用，用于集中管理、同步和整理 AI 代理技能（skills）。它把散落在 Claude Code、Codex、Cursor、Copilot、Gemini CLI 等 50 多种工具里的技能统一到一个中央库中，并支持跨设备备份与同步。",
-        "content": "仓库包含 Rust 桌面应用源码，以及技能库、市场（Marketplace）、全局/代理/项目工作区、备份同步和设置等界面演示，默认技能库位于 ~/.skills-manager。",
-        "stack": "主语言为 Rust，构建跨平台桌面应用；依赖包括 Git 仓库、本地文件夹、.zip/.skill 归档及 skills.sh 市场作为技能来源。",
-        "hot": "上线不久即收获 5739 stars，今日新增 56，登上 GitHub Trending 日榜 Rust 第 5 名，切中了多工具时代技能碎片化管理的痛点。",
+        "tag": "本地优先的多设备编码代理控制平面",
+        "what": "Zeron 是一个面向 Claude Code、Codex、Cursor、Devin 等编码代理的原生控制平面。它默认在本地运行，每台设备上的小型引擎把会话存在本机，无需账号或联网即可使用，并可选开启多设备同步。",
+        "content": "仓库包含 Rust 编写的引擎与守护进程、桌面侧边栏应用、落地页资源（apps/landing）、安装脚本以及架构与 Linux/Windows 参考文档。",
+        "stack": "以 Rust 为主语言，提供 CLI（zeron status/update/daemon）、安装脚本与桌面应用；依赖本地守护进程与可选的同步账户体系。",
+        "hot": "本周新增 394 星、总计 1823 星，登上 GitHub Trending Rust 周榜第 14 名；本地优先、多代理统一管控的定位正好切中编码代理爆发的痛点。",
         "uses": [
-          "同时使用多个 AI 编程工具的开发者，想统一管理散落的技能",
-          "需要在多台设备间同步和备份 AI 代理技能配置的用户",
-          "想从市场发现并一键安装热门技能的 AI 代理使用者",
-          "希望让代理自动安装、部署技能到其他工具的进阶用户"
+          "同时使用多个编码代理、希望统一管理会话的开发者",
+          "注重隐私、要求会话数据默认留在本地的团队",
+          "需要在一台常开机器上远程驱动其他设备代理的用户",
+          "想研究编码代理控制平面架构的 Rust 开发者"
         ]
       },
       "en": {
-        "tag": "A desktop app to manage AI agent skills across 50+ coding tools",
-        "what": "Skills Manager is a lightweight desktop app for managing, syncing, and organizing AI agent skills. It consolidates skills scattered across 50+ tools like Claude Code, Codex, Cursor, Copilot, and Gemini CLI into one central library with backup and multi-device sync.",
-        "content": "The repo contains the Rust desktop app source plus UI demos for the Library, Marketplace, Global/Agent/Project Workspaces, backup & sync, and settings, with the default skill library at ~/.skills-manager.",
-        "stack": "Written primarily in Rust as a cross-platform desktop app; it pulls skills from Git repos, local folders, .zip/.skill archives, and the skills.sh marketplace.",
-        "hot": "It has quickly gained 5,739 stars with 56 added today, ranking #5 on GitHub Trending (Rust) daily, hitting the pain point of fragmented skill management across many tools.",
+        "tag": "A local-first control plane for coding agents across devices",
+        "what": "Zeron is a native control plane for coding agents such as Claude Code, Codex, Cursor, and Devin. It runs locally by default, with each device storing sessions on-device and no account or network required, plus optional multi-device sync.",
+        "content": "The repo contains a Rust engine and daemon, a desktop sidebar app, landing page assets under apps/landing, an install script, and architecture plus Linux/Windows reference docs.",
+        "stack": "Primarily Rust, offering a CLI (zeron status/update/daemon), an install script, and a desktop app; it relies on a local daemon and an optional synced account system.",
+        "hot": "It gained 394 stars this week for 1,823 total, ranking 14th on GitHub Trending's weekly Rust list; its local-first, multi-agent control positioning hits a real pain point as coding agents proliferate.",
         "uses": [
-          "Developers using multiple AI coding tools who want one place to manage scattered skills",
-          "Users who need to sync and back up AI agent skill configs across devices",
-          "AI agent users who want to discover and one-click install popular skills from a marketplace",
-          "Advanced users who want agents to auto-install and deploy skills to other tools"
+          "Developers juggling multiple coding agents who want unified session management",
+          "Teams that prioritize privacy and want sessions to stay local by default",
+          "Users who need an always-on machine to drive agents on other devices remotely",
+          "Rust developers curious about coding-agent control plane architecture"
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -9468,7 +9093,7 @@ window.TRENDING_DATA = {
       "lang": "Go",
       "stars": 77.6,
       "today": "+1.4k",
-      "today_n": 1375,
+      "today_n": 1417,
       "auto": false,
       "zh": {
         "tag": "默认开启 HTTPS 的快速可扩展多平台 Web 服务器",
@@ -9498,7 +9123,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -9511,8 +9136,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "Go",
       "stars": 5.1,
-      "today": "+609",
-      "today_n": 609,
+      "today": "+541",
+      "today_n": 541,
       "auto": false,
       "zh": {
         "tag": "懂你 AI 代理在干什么的终端窗口管理器",
@@ -9542,269 +9167,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "whatsapp-mcp",
-      "full": "lharries/whatsapp-mcp",
-      "rank": 4,
-      "cat": "agent",
-      "lang": "Go",
-      "stars": 6.4,
-      "today": "+73",
-      "today_n": 73,
-      "auto": false,
-      "zh": {
-        "tag": "通过 MCP 协议让 AI 助手安全访问你的个人 WhatsApp 消息",
-        "what": "这是一个基于 Model Context Protocol (MCP) 的服务器，允许 AI 助手（如 Claude）搜索和读取你的个人 WhatsApp 消息（包括图片、视频、文档和音频），搜索联系人，并向个人或群组发送消息和媒体文件。它通过 WhatsApp Web 多设备 API 直接连接你的个人账户，所有消息本地存储在 SQLite 数据库中，仅在 AI 通过工具访问时才会发送给 LLM。",
-        "content": "仓库包含一个 Go 语言编写的 WhatsApp 桥接程序（whatsapp-bridge）和一个 Python 编写的 MCP 服务器（whatsapp-mcp-server），以及配置示例和说明文档。",
-        "stack": "技术栈包括 Go（用于 WhatsApp 桥接，依赖 whatsmeow 库）、Python 3.6+（用于 MCP 服务器）、SQLite（本地存储消息）以及可选的 FFmpeg（用于音频转换）。",
-        "hot": "该项目在 GitHub 上已获得 6420 颗星，本周新增 88 颗，位列 Go 语言周榜第 4 名，因其创新性地将个人通讯工具与 AI 助手结合，并强调本地隐私保护而受到关注。",
-        "uses": [
-          "希望用 AI 助手管理个人 WhatsApp 消息、自动回复或搜索历史记录的用户。",
-          "开发者想要学习如何构建 MCP 服务器或集成 WhatsApp API。",
-          "注重隐私、希望数据本地存储且仅按需发送给 LLM 的用户。",
-          "需要向群组或个人批量发送媒体文件（如图片、视频、文档）的自动化场景。"
-        ]
-      },
-      "en": {
-        "tag": "MCP server that lets AI assistants securely access your personal WhatsApp messages",
-        "what": "This is a Model Context Protocol (MCP) server for WhatsApp that enables AI assistants (like Claude) to search and read your personal WhatsApp messages (including images, videos, documents, and audio), search contacts, and send messages and media to individuals or groups. It connects directly to your personal WhatsApp account via the WhatsApp Web multidevice API, stores all messages locally in a SQLite database, and only sends them to an LLM when the agent accesses them through tools.",
-        "content": "The repository contains a Go-based WhatsApp bridge (whatsapp-bridge) and a Python-based MCP server (whatsapp-mcp-server), along with configuration examples and documentation.",
-        "stack": "Tech stack includes Go (for the WhatsApp bridge, using the whatsmeow library), Python 3.6+ (for the MCP server), SQLite (for local message storage), and optional FFmpeg (for audio conversion).",
-        "hot": "With 6,420 stars and 88 new stars this week, ranking 4th on the Go weekly trending list, it's gaining attention for innovatively bridging personal messaging with AI assistants while emphasizing local privacy.",
-        "uses": [
-          "Users who want to manage personal WhatsApp messages, auto-reply, or search history with an AI assistant.",
-          "Developers interested in learning how to build MCP servers or integrate WhatsApp APIs.",
-          "Privacy-conscious users who prefer local data storage and only send data to LLMs on demand.",
-          "Automation scenarios requiring bulk sending of media files (images, videos, documents) to groups or individuals."
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "trivy",
-      "full": "aquasecurity/trivy",
-      "rank": 1,
-      "cat": "infra",
-      "lang": "Go",
-      "stars": 38.3,
-      "today": "+151",
-      "today_n": 151,
-      "auto": false,
-      "zh": {
-        "tag": "全能安全扫描器：容器、K8s、代码、云一网打尽",
-        "what": "Trivy 是一款综合性的安全扫描工具，能够检测容器镜像、文件系统、Git 仓库、虚拟机镜像和 Kubernetes 中的漏洞、配置错误、敏感信息与许可证问题。它通过多种扫描器（scanner）针对不同目标（target）发现安全问题，并生成 SBOM。",
-        "content": "仓库包含 Go 语言编写的核心扫描引擎、丰富的文档（docs 目录）、安装脚本、集成示例（如 GitHub Actions、K8s operator、VS Code 插件）以及测试代码。",
-        "stack": "主要使用 Go 语言开发，依赖多个开源库进行漏洞数据库查询、文件系统解析和镜像层分析，支持跨平台运行。",
-        "hot": "作为云原生安全领域的标杆工具，Trivy 拥有超过 38k stars，今日新增 19 星并登上 Go 日榜第一，反映出社区对 DevSecOps 和供应链安全的高度关注。",
-        "uses": [
-          "DevSecOps 工程师：在 CI/CD 流水线中集成 Trivy 进行自动化安全扫描",
-          "云原生开发者：扫描容器镜像和 Kubernetes 集群，确保部署安全",
-          "安全分析师：快速检测代码仓库中的漏洞、密钥和错误配置",
-          "开源维护者：生成 SBOM 并检查依赖项许可证合规性"
-        ]
-      },
-      "en": {
-        "tag": "All-in-one security scanner for containers, K8s, code, and clouds",
-        "what": "Trivy is a comprehensive security scanner that detects vulnerabilities, misconfigurations, secrets, and licenses in container images, filesystems, Git repositories, VM images, and Kubernetes. It uses multiple scanners against various targets and can generate SBOMs.",
-        "content": "The repository contains the Go-based core scanning engine, extensive documentation (docs directory), installation scripts, integration examples (GitHub Actions, K8s operator, VS Code plugin), and test code.",
-        "stack": "Primarily developed in Go, it relies on various open-source libraries for vulnerability database queries, filesystem parsing, and image layer analysis, and runs cross-platform.",
-        "hot": "As a benchmark tool in cloud-native security, Trivy has over 38k stars, gained 19 today, and topped the Go daily trending list, reflecting strong community focus on DevSecOps and supply chain security.",
-        "uses": [
-          "DevSecOps engineers: integrate Trivy into CI/CD pipelines for automated security scanning",
-          "Cloud-native developers: scan container images and Kubernetes clusters to ensure deployment security",
-          "Security analysts: quickly detect vulnerabilities, secrets, and misconfigurations in code repositories",
-          "Open-source maintainers: generate SBOMs and check dependency license compliance"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "gvisor",
-      "full": "google/gvisor",
-      "rank": 8,
-      "cat": "infra",
-      "lang": "Go",
-      "stars": 19.6,
-      "today": "+142",
-      "today_n": 142,
-      "auto": false,
-      "zh": {
-        "tag": "为容器提供用户态应用内核的强隔离沙箱运行时",
-        "what": "gVisor 是 Google 开源的容器应用内核，在应用与宿主操作系统之间提供强隔离层。它用内存安全的 Go 语言在用户态实现类 Linux 接口，并附带 OCI 运行时 runsc，可无缝对接 Docker 与 Kubernetes。",
-        "content": "仓库包含用户态内核源码（如 pkg/sentry 系统调用实现）、OCI 运行时 runsc、平台抽象层以及 Bazel 构建配置和 gvisor.dev 文档。",
-        "stack": "主要用 Go 编写，使用 Bazel 构建，支持 x86_64 与 ARM64，依赖 Linux 宿主内核能力并集成 Docker/Kubernetes 生态。",
-        "hot": "作为容器安全隔离的标杆方案，gVisor 已积累近 2 万 star，本周新增 127 星并登上 Go 周榜第 8，反映多租户与不可信负载场景下对强沙箱的持续需求。",
-        "uses": [
-          "云平台与多租户环境，需要安全运行不可信容器负载的工程师",
-          "在 Kubernetes 上部署沙箱化容器的平台与安全团队",
-          "研究容器隔离、系统调用拦截与用户态内核的技术人员",
-          "希望在不牺牲启动速度的前提下获得类 VM 隔离的开发者"
-        ]
-      },
-      "en": {
-        "tag": "A userspace application kernel delivering strong sandbox isolation for containers",
-        "what": "gVisor is Google's open-source application kernel that adds a strong isolation layer between applications and the host OS. Written in memory-safe Go and running in userspace, it implements a Linux-like interface and ships an OCI runtime called runsc that plugs into Docker and Kubernetes.",
-        "content": "The repo contains the userspace kernel source (e.g. pkg/sentry syscall implementations), the runsc OCI runtime, platform abstraction layers, plus Bazel build configs and gvisor.dev docs.",
-        "stack": "Primarily written in Go and built with Bazel, supporting x86_64 and ARM64; it leverages host Linux kernel features and integrates with the Docker/Kubernetes ecosystem.",
-        "hot": "As a flagship container isolation approach, gVisor has nearly 20k stars, adding 127 this week to rank 8th on the Go trending list, reflecting steady demand for strong sandboxes in multi-tenant and untrusted-workload scenarios.",
-        "uses": [
-          "Cloud and multi-tenant engineers who must run untrusted container workloads safely",
-          "Platform and security teams deploying sandboxed containers on Kubernetes",
-          "Researchers studying container isolation, syscall interception, and userspace kernels",
-          "Developers wanting VM-like isolation without sacrificing fast startup"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "3x-ui",
-      "full": "MHSanaei/3x-ui",
-      "rank": 20,
-      "cat": "infra",
-      "lang": "Go",
-      "stars": 47.7,
-      "today": "+415",
-      "today_n": 415,
-      "auto": false,
-      "zh": {
-        "tag": "多协议多用户的 Xray 服务器 Web 管理面板",
-        "what": "3X-UI 是一个开源的高级 Web 控制面板，用于部署、配置和监控 Xray-core 代理与 VPN 服务器。它支持 VLESS、VMess、Trojan、Shadowsocks、WireGuard、Hysteria2、MTProto 等大量协议，并可在单台 VPS 到多节点环境中使用。",
-        "content": "仓库包含 Go 编写的后端服务、多语言 Web 前端界面、安装脚本与文档，以及面向多种协议的配置模板和媒体资源。",
-        "stack": "主要使用 Go 语言开发，基于 Xray-core 实现代理功能，前端为 Web 界面，依赖 Go 模块与相关网络库。",
-        "hot": "凭借对众多代理协议的一站式支持和活跃维护，该项目已获得超过 4.7 万颗星，今日新增 71 星并登上 Go 语言日榜第 20 名。",
-        "uses": [
-          "需要自建代理或 VPN 服务的个人用户，用于管理多协议节点",
-          "运维人员或小团队，用于集中管理多台 VPS 上的 Xray 服务",
-          "希望快速部署和监控代理服务的开发者，借助 Web 面板简化配置"
-        ]
-      },
-      "en": {
-        "tag": "A multi-protocol, multi-user web control panel for Xray-core servers",
-        "what": "3X-UI is an advanced open-source web control panel for deploying, configuring, and monitoring Xray-core proxy and VPN servers. It supports a wide range of protocols including VLESS, VMess, Trojan, Shadowsocks, WireGuard, Hysteria2, and MTProto, scaling from a single VPS to multi-node deployments.",
-        "content": "The repository contains a Go backend, a multi-language web frontend, installation scripts and documentation, plus configuration templates and media assets for various protocols.",
-        "stack": "Primarily built in Go, it leverages Xray-core for proxy functionality, with a web-based frontend and dependencies managed via Go modules and networking libraries.",
-        "hot": "With one-stop support for numerous proxy protocols and active maintenance, it has earned over 47k stars, gaining 71 stars today and ranking 20th on the Go daily trending list.",
-        "uses": [
-          "Individuals who self-host proxy or VPN services and need to manage multi-protocol nodes",
-          "Sysadmins or small teams managing Xray services across multiple VPS instances",
-          "Developers seeking quick deployment and monitoring of proxy services via a web panel"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "codeaf",
-      "full": "Agent-Field/CodeAF",
-      "rank": 11,
-      "cat": "agent",
-      "lang": "Go",
-      "stars": 0.4,
-      "today": "+131",
-      "today_n": 131,
-      "auto": false,
-      "zh": {
-        "tag": "面向开源模型的终端软件工厂式编码代理",
-        "what": "CodeAF 是一个专为开源模型打造的编码代理工具（harness），目标是让 DeepSeek、Qwen、GLM、Kimi 等开源模型以更低成本达到接近前沿的编码能力。它把多个代理任务收进一个窗口统一调度，你只需在关键处介入，像经营一座本地软件工厂。",
-        "content": "仓库包含 Go 编写的单一可执行文件、安装脚本、docs/GUIDE.md 使用指南、benchmarks 基准测试说明以及 assets 下的截图与演示素材。",
-        "stack": "主语言为 Go，编译成 darwin/linux/windows 单文件二进制，无需额外依赖；通过接入 DeepSeek、Qwen、GLM、Kimi、MiniMax、Ollama 等模型 API 工作，采用 Apache 2.0 许可。",
-        "hot": "本周新增 136 星、总数 309 星并登上 Go 周榜第 11，主要因为它在 DeepSWE 基准上以同一模型击败 Claude Code、Codex、OpenCode 等十个 harness，且每个已解决 issue 成本最低。",
-        "uses": [
-          "想用开源模型替代闭源编码代理、控制 API 成本的开发者",
-          "需要同时管理多个项目与代理任务、希望统一窗口调度的工程师",
-          "在本地或服务器上部署编码代理、偏好单二进制无依赖工具的技术团队",
-          "关注开源模型编码能力与 harness 基准表现的 AI 研究者"
-        ]
-      },
-      "en": {
-        "tag": "A terminal-based software factory coding harness for open models",
-        "what": "CodeAF is a coding harness built for open models, aiming to get frontier-grade coding out of DeepSeek, Qwen, GLM, Kimi and similar models at a fraction of the cost. It consolidates many agent tasks into one window where you hand off work and step in only where your judgment is needed, like running a local software factory.",
-        "content": "The repo ships a single Go binary, install scripts, a docs/GUIDE.md guide, benchmark documentation, and screenshots/demo assets under assets.",
-        "stack": "Written in Go and compiled into a single darwin/linux/windows binary with no extra runtime; it connects to model APIs such as DeepSeek, Qwen, GLM, Kimi, MiniMax and Ollama, licensed under Apache 2.0.",
-        "hot": "It gained 136 stars this week (309 total) and hit #11 on the Go trending weekly list, largely because it ranked #1 on DeepSWE against ten harnesses including Claude Code, Codex and OpenCode on the same model, at the lowest cost per solved issue.",
-        "uses": [
-          "Developers who want to replace closed coding agents with open models and cut API costs",
-          "Engineers juggling multiple projects and agent tasks who want one unified window",
-          "Teams deploying coding agents locally or on servers who prefer a single dependency-free binary",
-          "AI researchers tracking open-model coding ability and harness benchmarks"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "gitea",
-      "full": "go-gitea/gitea",
-      "rank": 5,
-      "cat": "infra",
-      "lang": "Go",
-      "stars": 58.4,
-      "today": "+137",
-      "today_n": 137,
-      "auto": false,
-      "zh": {
-        "tag": "用 Go 写的轻量级自托管一体化 DevOps 平台",
-        "what": "Gitea 是一个用 Go 编写的自托管软件开发服务，把 Git 托管、代码评审、Issue 跟踪、项目看板、Wiki、团队协作、包注册表和 CI/CD 集成在一个二进制里。目标是让搭建自托管开发平台变得最简单、最快、最省心。",
-        "content": "仓库包含完整的 Go 服务端源码、前端资源、数据库迁移脚本、Docker 与 Helm 部署配置、多语言翻译文件以及详细的安装、管理与开发文档。",
-        "stack": "主语言为 Go，前端使用 TypeScript/Vue，支持 SQLite、MySQL、PostgreSQL 等数据库，可编译为单一二进制并跨 Linux、macOS、Windows、ARM、RISC-V 等平台运行。",
-        "hot": "作为 GitHub/GitLab 的轻量自托管替代品，Gitea 已积累 58,355 颗星，本周再增 128 星并登上 Go 周榜第 5，社区对数据自主与低资源部署的需求持续推动其热度。",
-        "uses": [
-          "希望自托管代码仓库、保护数据主权的个人开发者与小团队",
-          "需要内网部署 Git 服务与 CI/CD 的企业或组织",
-          "在 ARM、RISC-V 等边缘设备上搭建轻量开发平台的用户",
-          "想用单一二进制快速替代 GitHub/GitLab 的运维人员"
-        ]
-      },
-      "en": {
-        "tag": "A painless self-hosted all-in-one DevOps platform written in Go",
-        "what": "Gitea is a self-hosted software development service written in Go that bundles Git hosting, code review, issue tracking, project kanban, wiki, team collaboration, package registry and CI/CD into one binary. Its goal is to make setting up a self-hosted all-in-one development platform as easy, fast and painless as possible.",
-        "content": "The repo contains the full Go server source, frontend assets, database migration scripts, Docker and Helm deployment configs, multilingual translation files, and detailed installation, admin and development docs.",
-        "stack": "Written mainly in Go with a TypeScript/Vue frontend, it supports SQLite, MySQL and PostgreSQL, compiles to a single binary, and runs across Linux, macOS, Windows, ARM, RISC-V and more.",
-        "hot": "As a lightweight self-hosted alternative to GitHub/GitLab, Gitea has reached 58,355 stars, adding 128 this week and ranking 5th on the Go weekly trending list, driven by demand for data ownership and low-resource deployment.",
-        "uses": [
-          "Individual developers and small teams wanting self-hosted repos and data sovereignty",
-          "Enterprises or organizations needing on-premise Git hosting and CI/CD",
-          "Users deploying lightweight dev platforms on ARM, RISC-V or edge devices",
-          "Ops engineers seeking a single-binary replacement for GitHub/GitLab"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -9817,8 +9180,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "Go",
       "stars": 0.8,
-      "today": "+177",
-      "today_n": 177,
+      "today": "+169",
+      "today_n": 169,
       "auto": false,
       "zh": {
         "tag": "覆盖30+协议并内置自主AI Agent的一体化终端",
@@ -9848,7 +9211,137 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "trivy",
+      "full": "aquasecurity/trivy",
+      "rank": 1,
+      "cat": "infra",
+      "lang": "Go",
+      "stars": 38.3,
+      "today": "+143",
+      "today_n": 143,
+      "auto": false,
+      "zh": {
+        "tag": "全能安全扫描器：容器、K8s、代码、云一网打尽",
+        "what": "Trivy 是一款综合性的安全扫描工具，能够检测容器镜像、文件系统、Git 仓库、虚拟机镜像和 Kubernetes 中的漏洞、配置错误、敏感信息与许可证问题。它通过多种扫描器（scanner）针对不同目标（target）发现安全问题，并生成 SBOM。",
+        "content": "仓库包含 Go 语言编写的核心扫描引擎、丰富的文档（docs 目录）、安装脚本、集成示例（如 GitHub Actions、K8s operator、VS Code 插件）以及测试代码。",
+        "stack": "主要使用 Go 语言开发，依赖多个开源库进行漏洞数据库查询、文件系统解析和镜像层分析，支持跨平台运行。",
+        "hot": "作为云原生安全领域的标杆工具，Trivy 拥有超过 38k stars，今日新增 19 星并登上 Go 日榜第一，反映出社区对 DevSecOps 和供应链安全的高度关注。",
+        "uses": [
+          "DevSecOps 工程师：在 CI/CD 流水线中集成 Trivy 进行自动化安全扫描",
+          "云原生开发者：扫描容器镜像和 Kubernetes 集群，确保部署安全",
+          "安全分析师：快速检测代码仓库中的漏洞、密钥和错误配置",
+          "开源维护者：生成 SBOM 并检查依赖项许可证合规性"
+        ]
+      },
+      "en": {
+        "tag": "All-in-one security scanner for containers, K8s, code, and clouds",
+        "what": "Trivy is a comprehensive security scanner that detects vulnerabilities, misconfigurations, secrets, and licenses in container images, filesystems, Git repositories, VM images, and Kubernetes. It uses multiple scanners against various targets and can generate SBOMs.",
+        "content": "The repository contains the Go-based core scanning engine, extensive documentation (docs directory), installation scripts, integration examples (GitHub Actions, K8s operator, VS Code plugin), and test code.",
+        "stack": "Primarily developed in Go, it relies on various open-source libraries for vulnerability database queries, filesystem parsing, and image layer analysis, and runs cross-platform.",
+        "hot": "As a benchmark tool in cloud-native security, Trivy has over 38k stars, gained 19 today, and topped the Go daily trending list, reflecting strong community focus on DevSecOps and supply chain security.",
+        "uses": [
+          "DevSecOps engineers: integrate Trivy into CI/CD pipelines for automated security scanning",
+          "Cloud-native developers: scan container images and Kubernetes clusters to ensure deployment security",
+          "Security analysts: quickly detect vulnerabilities, secrets, and misconfigurations in code repositories",
+          "Open-source maintainers: generate SBOMs and check dependency license compliance"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "oauth2-proxy",
+      "full": "oauth2-proxy/oauth2-proxy",
+      "rank": 16,
+      "cat": "infra",
+      "lang": "Go",
+      "stars": 15.1,
+      "today": "+64",
+      "today_n": 64,
+      "auto": false,
+      "zh": {
+        "tag": "为 Web 应用提供 OAuth2/OIDC 认证的反向代理",
+        "what": "OAuth2 Proxy 是一个开源的反向代理，可为 Web 应用加上 OAuth2 / OIDC 登录认证。它既能独立部署，也能作为中间件嵌入已有的反向代理或负载均衡架构中，拦截请求并把未登录用户重定向到身份提供商。",
+        "content": "仓库包含 Go 编写的代理核心、各身份提供商（Google、Microsoft Entra ID、GitHub、login.gov 及通用 OIDC）的实现、文档站点与本地环境示例配置。",
+        "stack": "主要用 Go 编写，依赖标准 OAuth2/OIDC 协议库，提供多架构预编译二进制，可容器化部署。",
+        "hot": "作为自托管应用统一登录的成熟方案，它已积累约 1.5 万 star，本周仍新增 28 star 并进入 Go 周榜第 16 名，说明企业内网与自建服务的认证需求持续旺盛。",
+        "uses": [
+          "运维/平台工程师为内网自建服务统一接入企业 SSO",
+          "开发者想给没有内置登录的 Web 应用快速加上 OAuth2/OIDC 认证",
+          "需要在 Kubernetes Ingress 或 Nginx 前做统一身份校验的团队"
+        ]
+      },
+      "en": {
+        "tag": "A reverse proxy that adds OAuth2/OIDC authentication to your web apps",
+        "what": "OAuth2 Proxy is an open-source reverse proxy that adds OAuth2/OIDC authentication to web applications. It can run standalone or as middleware inside existing reverse proxies and load balancers, intercepting requests and redirecting unauthenticated users to an identity provider.",
+        "content": "The repo contains the Go proxy core, provider implementations (Google, Microsoft Entra ID, GitHub, login.gov and generic OIDC), a docs site, and example local-environment configs.",
+        "stack": "Written mainly in Go, relying on standard OAuth2/OIDC libraries, shipping prebuilt binaries for many architectures and deployable as a container.",
+        "hot": "As a mature way to add single sign-on to self-hosted apps, it has around 15k stars and still gained 28 this week, ranking 16th on the Go weekly trending list, showing steady demand for auth in internal and self-hosted services.",
+        "uses": [
+          "Ops/platform engineers adding corporate SSO to internal self-hosted services",
+          "Developers wanting to quickly add OAuth2/OIDC login to apps lacking built-in auth",
+          "Teams needing centralized identity checks in front of Kubernetes Ingress or Nginx"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "gitea",
+      "full": "go-gitea/gitea",
+      "rank": 5,
+      "cat": "infra",
+      "lang": "Go",
+      "stars": 58.4,
+      "today": "+133",
+      "today_n": 133,
+      "auto": false,
+      "zh": {
+        "tag": "用 Go 写的轻量级自托管一体化 DevOps 平台",
+        "what": "Gitea 是一个用 Go 编写的自托管软件开发服务，把 Git 托管、代码评审、Issue 跟踪、项目看板、Wiki、团队协作、包注册表和 CI/CD 集成在一个二进制里。目标是让搭建自托管开发平台变得最简单、最快、最省心。",
+        "content": "仓库包含完整的 Go 服务端源码、前端资源、数据库迁移脚本、Docker 与 Helm 部署配置、多语言翻译文件以及详细的安装、管理与开发文档。",
+        "stack": "主语言为 Go，前端使用 TypeScript/Vue，支持 SQLite、MySQL、PostgreSQL 等数据库，可编译为单一二进制并跨 Linux、macOS、Windows、ARM、RISC-V 等平台运行。",
+        "hot": "作为 GitHub/GitLab 的轻量自托管替代品，Gitea 已积累 58,355 颗星，本周再增 128 星并登上 Go 周榜第 5，社区对数据自主与低资源部署的需求持续推动其热度。",
+        "uses": [
+          "希望自托管代码仓库、保护数据主权的个人开发者与小团队",
+          "需要内网部署 Git 服务与 CI/CD 的企业或组织",
+          "在 ARM、RISC-V 等边缘设备上搭建轻量开发平台的用户",
+          "想用单一二进制快速替代 GitHub/GitLab 的运维人员"
+        ]
+      },
+      "en": {
+        "tag": "A painless self-hosted all-in-one DevOps platform written in Go",
+        "what": "Gitea is a self-hosted software development service written in Go that bundles Git hosting, code review, issue tracking, project kanban, wiki, team collaboration, package registry and CI/CD into one binary. Its goal is to make setting up a self-hosted all-in-one development platform as easy, fast and painless as possible.",
+        "content": "The repo contains the full Go server source, frontend assets, database migration scripts, Docker and Helm deployment configs, multilingual translation files, and detailed installation, admin and development docs.",
+        "stack": "Written mainly in Go with a TypeScript/Vue frontend, it supports SQLite, MySQL and PostgreSQL, compiles to a single binary, and runs across Linux, macOS, Windows, ARM, RISC-V and more.",
+        "hot": "As a lightweight self-hosted alternative to GitHub/GitLab, Gitea has reached 58,355 stars, adding 128 this week and ranking 5th on the Go weekly trending list, driven by demand for data ownership and low-resource deployment.",
+        "uses": [
+          "Individual developers and small teams wanting self-hosted repos and data sovereignty",
+          "Enterprises or organizations needing on-premise Git hosting and CI/CD",
+          "Users deploying lightweight dev platforms on ARM, RISC-V or edge devices",
+          "Ops engineers seeking a single-binary replacement for GitHub/GitLab"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -9860,9 +9353,9 @@ window.TRENDING_DATA = {
       "rank": 10,
       "cat": "agent",
       "lang": "Go",
-      "stars": 110.6,
-      "today": "+2.0k",
-      "today_n": 2034,
+      "stars": 110.8,
+      "today": "+1.9k",
+      "today_n": 1941,
       "auto": false,
       "zh": {
         "tag": "用原始人语体为编码代理节省65% token的爆红技能与代理",
@@ -9913,14 +9406,142 @@ window.TRENDING_DATA = {
       }
     },
     {
+      "slug": "gvisor",
+      "full": "google/gvisor",
+      "rank": 8,
+      "cat": "infra",
+      "lang": "Go",
+      "stars": 19.6,
+      "today": "+147",
+      "today_n": 147,
+      "auto": false,
+      "zh": {
+        "tag": "为容器提供用户态应用内核的强隔离沙箱运行时",
+        "what": "gVisor 是 Google 开源的容器应用内核，在应用与宿主操作系统之间提供强隔离层。它用内存安全的 Go 语言在用户态实现类 Linux 接口，并附带 OCI 运行时 runsc，可无缝对接 Docker 与 Kubernetes。",
+        "content": "仓库包含用户态内核源码（如 pkg/sentry 系统调用实现）、OCI 运行时 runsc、平台抽象层以及 Bazel 构建配置和 gvisor.dev 文档。",
+        "stack": "主要用 Go 编写，使用 Bazel 构建，支持 x86_64 与 ARM64，依赖 Linux 宿主内核能力并集成 Docker/Kubernetes 生态。",
+        "hot": "作为容器安全隔离的标杆方案，gVisor 已积累近 2 万 star，本周新增 127 星并登上 Go 周榜第 8，反映多租户与不可信负载场景下对强沙箱的持续需求。",
+        "uses": [
+          "云平台与多租户环境，需要安全运行不可信容器负载的工程师",
+          "在 Kubernetes 上部署沙箱化容器的平台与安全团队",
+          "研究容器隔离、系统调用拦截与用户态内核的技术人员",
+          "希望在不牺牲启动速度的前提下获得类 VM 隔离的开发者"
+        ]
+      },
+      "en": {
+        "tag": "A userspace application kernel delivering strong sandbox isolation for containers",
+        "what": "gVisor is Google's open-source application kernel that adds a strong isolation layer between applications and the host OS. Written in memory-safe Go and running in userspace, it implements a Linux-like interface and ships an OCI runtime called runsc that plugs into Docker and Kubernetes.",
+        "content": "The repo contains the userspace kernel source (e.g. pkg/sentry syscall implementations), the runsc OCI runtime, platform abstraction layers, plus Bazel build configs and gvisor.dev docs.",
+        "stack": "Primarily written in Go and built with Bazel, supporting x86_64 and ARM64; it leverages host Linux kernel features and integrates with the Docker/Kubernetes ecosystem.",
+        "hot": "As a flagship container isolation approach, gVisor has nearly 20k stars, adding 127 this week to rank 8th on the Go trending list, reflecting steady demand for strong sandboxes in multi-tenant and untrusted-workload scenarios.",
+        "uses": [
+          "Cloud and multi-tenant engineers who must run untrusted container workloads safely",
+          "Platform and security teams deploying sandboxed containers on Kubernetes",
+          "Researchers studying container isolation, syscall interception, and userspace kernels",
+          "Developers wanting VM-like isolation without sacrificing fast startup"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "typescript",
+      "full": "microsoft/TypeScript",
+      "rank": 18,
+      "cat": "infra",
+      "lang": "Go",
+      "stars": 111.4,
+      "today": "+134",
+      "today_n": 134,
+      "auto": false,
+      "zh": {
+        "tag": "给 JavaScript 加上类型系统的编译器与语言工具链",
+        "what": "TypeScript 是 JavaScript 的超集，为其添加可选静态类型，让大型应用在任意浏览器、宿主和操作系统上都能获得更好的工具支持。它最终编译输出可读、符合标准的 JavaScript 代码。",
+        "content": "仓库包含编译器源码（现以 Go 重写实现）、语言服务、类型检查器、测试套件与文档，并配套 npm 包 typescript 及 nightly 版本。",
+        "stack": "核心编译器已用 Go 重写以提升性能，对外以 npm 包发布，依赖 Node.js 生态与 GitHub Actions CI。",
+        "hot": "作为前端与 Node 生态的基石项目，它已累积 111,394 颗星，今日新增 19 星并登上 Go 日榜第 18 名，Go 重写带来的性能话题持续引发关注。",
+        "uses": [
+          "前端与 Node.js 开发者，用类型系统提升大型项目的可维护性",
+          "库与框架作者，需要发布带类型声明的 npm 包",
+          "团队希望在不放弃 JavaScript 生态的前提下引入静态检查"
+        ]
+      },
+      "en": {
+        "tag": "A typed superset of JavaScript that compiles to clean JavaScript",
+        "what": "TypeScript is a superset of JavaScript that adds optional static types, enabling tooling for application-scale JavaScript across any browser, host, or OS. It compiles down to readable, standards-based JavaScript output.",
+        "content": "The repo holds the compiler source (now rewritten in Go), the language service, type checker, test suites, and docs, shipping as the npm package typescript plus nightly builds.",
+        "stack": "The core compiler has been rewritten in Go for performance, distributed via npm, and relies on the Node.js ecosystem with GitHub Actions CI.",
+        "hot": "As a cornerstone of the frontend and Node ecosystem, it has amassed 111,394 stars, adding 19 today and ranking 18th on the Go daily trending list, fueled by interest in the Go rewrite's performance gains.",
+        "uses": [
+          "Frontend and Node.js developers improving maintainability of large projects with types",
+          "Library and framework authors shipping npm packages with type declarations",
+          "Teams wanting static checking without leaving the JavaScript ecosystem"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "awesome-ai-agents",
+      "full": "slavakurilyak/awesome-ai-agents",
+      "rank": 14,
+      "cat": "agent",
+      "lang": "Go",
+      "stars": 2.4,
+      "today": "+129",
+      "today_n": 129,
+      "auto": false,
+      "zh": {
+        "tag": "收录300+个智能体AI资源的精选清单",
+        "what": "这是一个由Slava Kurilyak维护的Awesome清单，系统整理了300多个智能体AI（agentic AI）相关项目与资源。每个条目都标注了原始提交者和当前维护者，并要求项目必须有公开的GitHub、GitLab或Codeberg仓库。",
+        "content": "仓库以分类目录形式组织，包含AI Agents（103个）、AI Agent Frameworks、AI Agent Tools等多个类别，每个项目附有链接和简要说明。",
+        "stack": "仓库本身以Go语言标记为主，但内容主要是Markdown文档和链接列表，不依赖特定运行时。",
+        "hot": "本周新增129颗星，总星数达2416，登上GitHub Trending周榜（Go）第14名，反映出智能体AI领域的持续高热度和开发者对资源聚合的强烈需求。",
+        "uses": [
+          "AI开发者与研究者，快速查找智能体相关项目与工具",
+          "产品经理与创业者，调研智能体AI生态与竞品",
+          "技术爱好者，跟进智能体领域最新开源动态"
+        ]
+      },
+      "en": {
+        "tag": "Curated awesome list of 300+ agentic AI resources",
+        "what": "This is an Awesome list maintained by Slava Kurilyak that curates 300+ agentic AI projects and resources. Each listing credits the original submitter and current maintainers, and requires a public repository on GitHub, GitLab.com, or Codeberg.",
+        "content": "The repo is organized as categorized directories, including AI Agents (103), AI Agent Frameworks, AI Agent Tools, and more, with each project linked and briefly described.",
+        "stack": "The repo is primarily marked as Go, but its content is mainly Markdown docs and link lists, with no specific runtime dependency.",
+        "hot": "It gained 129 stars this week, reaching 2,416 total, and ranked 14th on GitHub Trending (Go) weekly, reflecting the ongoing hype around agentic AI and strong demand for resource aggregation.",
+        "uses": [
+          "AI developers and researchers looking for agent-related projects and tools",
+          "Product managers and founders researching the agentic AI ecosystem and competitors",
+          "Tech enthusiasts following the latest open-source trends in agentic AI"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
       "slug": "pocket-id",
       "full": "pocket-id/pocket-id",
       "rank": 11,
       "cat": "infra",
       "lang": "Go",
       "stars": 9.5,
-      "today": "+132",
-      "today_n": 132,
+      "today": "+124",
+      "today_n": 124,
       "auto": false,
       "zh": {
         "tag": "无密码的轻量级 OIDC/OAuth 2.0 身份认证服务",
@@ -9950,91 +9571,51 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "typescript",
-      "full": "microsoft/TypeScript",
-      "rank": 18,
-      "cat": "infra",
+      "slug": "whatsapp-mcp",
+      "full": "lharries/whatsapp-mcp",
+      "rank": 4,
+      "cat": "agent",
       "lang": "Go",
-      "stars": 111.4,
-      "today": "+140",
-      "today_n": 140,
+      "stars": 6.5,
+      "today": "+57",
+      "today_n": 57,
       "auto": false,
       "zh": {
-        "tag": "给 JavaScript 加上类型系统的编译器与语言工具链",
-        "what": "TypeScript 是 JavaScript 的超集，为其添加可选静态类型，让大型应用在任意浏览器、宿主和操作系统上都能获得更好的工具支持。它最终编译输出可读、符合标准的 JavaScript 代码。",
-        "content": "仓库包含编译器源码（现以 Go 重写实现）、语言服务、类型检查器、测试套件与文档，并配套 npm 包 typescript 及 nightly 版本。",
-        "stack": "核心编译器已用 Go 重写以提升性能，对外以 npm 包发布，依赖 Node.js 生态与 GitHub Actions CI。",
-        "hot": "作为前端与 Node 生态的基石项目，它已累积 111,394 颗星，今日新增 19 星并登上 Go 日榜第 18 名，Go 重写带来的性能话题持续引发关注。",
+        "tag": "通过 MCP 协议让 AI 助手安全访问你的个人 WhatsApp 消息",
+        "what": "这是一个基于 Model Context Protocol (MCP) 的服务器，允许 AI 助手（如 Claude）搜索和读取你的个人 WhatsApp 消息（包括图片、视频、文档和音频），搜索联系人，并向个人或群组发送消息和媒体文件。它通过 WhatsApp Web 多设备 API 直接连接你的个人账户，所有消息本地存储在 SQLite 数据库中，仅在 AI 通过工具访问时才会发送给 LLM。",
+        "content": "仓库包含一个 Go 语言编写的 WhatsApp 桥接程序（whatsapp-bridge）和一个 Python 编写的 MCP 服务器（whatsapp-mcp-server），以及配置示例和说明文档。",
+        "stack": "技术栈包括 Go（用于 WhatsApp 桥接，依赖 whatsmeow 库）、Python 3.6+（用于 MCP 服务器）、SQLite（本地存储消息）以及可选的 FFmpeg（用于音频转换）。",
+        "hot": "该项目在 GitHub 上已获得 6420 颗星，本周新增 88 颗，位列 Go 语言周榜第 4 名，因其创新性地将个人通讯工具与 AI 助手结合，并强调本地隐私保护而受到关注。",
         "uses": [
-          "前端与 Node.js 开发者，用类型系统提升大型项目的可维护性",
-          "库与框架作者，需要发布带类型声明的 npm 包",
-          "团队希望在不放弃 JavaScript 生态的前提下引入静态检查"
+          "希望用 AI 助手管理个人 WhatsApp 消息、自动回复或搜索历史记录的用户。",
+          "开发者想要学习如何构建 MCP 服务器或集成 WhatsApp API。",
+          "注重隐私、希望数据本地存储且仅按需发送给 LLM 的用户。",
+          "需要向群组或个人批量发送媒体文件（如图片、视频、文档）的自动化场景。"
         ]
       },
       "en": {
-        "tag": "A typed superset of JavaScript that compiles to clean JavaScript",
-        "what": "TypeScript is a superset of JavaScript that adds optional static types, enabling tooling for application-scale JavaScript across any browser, host, or OS. It compiles down to readable, standards-based JavaScript output.",
-        "content": "The repo holds the compiler source (now rewritten in Go), the language service, type checker, test suites, and docs, shipping as the npm package typescript plus nightly builds.",
-        "stack": "The core compiler has been rewritten in Go for performance, distributed via npm, and relies on the Node.js ecosystem with GitHub Actions CI.",
-        "hot": "As a cornerstone of the frontend and Node ecosystem, it has amassed 111,394 stars, adding 19 today and ranking 18th on the Go daily trending list, fueled by interest in the Go rewrite's performance gains.",
+        "tag": "MCP server that lets AI assistants securely access your personal WhatsApp messages",
+        "what": "This is a Model Context Protocol (MCP) server for WhatsApp that enables AI assistants (like Claude) to search and read your personal WhatsApp messages (including images, videos, documents, and audio), search contacts, and send messages and media to individuals or groups. It connects directly to your personal WhatsApp account via the WhatsApp Web multidevice API, stores all messages locally in a SQLite database, and only sends them to an LLM when the agent accesses them through tools.",
+        "content": "The repository contains a Go-based WhatsApp bridge (whatsapp-bridge) and a Python-based MCP server (whatsapp-mcp-server), along with configuration examples and documentation.",
+        "stack": "Tech stack includes Go (for the WhatsApp bridge, using the whatsmeow library), Python 3.6+ (for the MCP server), SQLite (for local message storage), and optional FFmpeg (for audio conversion).",
+        "hot": "With 6,420 stars and 88 new stars this week, ranking 4th on the Go weekly trending list, it's gaining attention for innovatively bridging personal messaging with AI assistants while emphasizing local privacy.",
         "uses": [
-          "Frontend and Node.js developers improving maintainability of large projects with types",
-          "Library and framework authors shipping npm packages with type declarations",
-          "Teams wanting static checking without leaving the JavaScript ecosystem"
+          "Users who want to manage personal WhatsApp messages, auto-reply, or search history with an AI assistant.",
+          "Developers interested in learning how to build MCP servers or integrate WhatsApp APIs.",
+          "Privacy-conscious users who prefer local data storage and only send data to LLMs on demand.",
+          "Automation scenarios requiring bulk sending of media files (images, videos, documents) to groups or individuals."
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "oauth2-proxy",
-      "full": "oauth2-proxy/oauth2-proxy",
-      "rank": 16,
-      "cat": "infra",
-      "lang": "Go",
-      "stars": 15.1,
-      "today": "+32",
-      "today_n": 32,
-      "auto": false,
-      "zh": {
-        "tag": "为 Web 应用提供 OAuth2/OIDC 认证的反向代理",
-        "what": "OAuth2 Proxy 是一个开源的反向代理，可为 Web 应用加上 OAuth2 / OIDC 登录认证。它既能独立部署，也能作为中间件嵌入已有的反向代理或负载均衡架构中，拦截请求并把未登录用户重定向到身份提供商。",
-        "content": "仓库包含 Go 编写的代理核心、各身份提供商（Google、Microsoft Entra ID、GitHub、login.gov 及通用 OIDC）的实现、文档站点与本地环境示例配置。",
-        "stack": "主要用 Go 编写，依赖标准 OAuth2/OIDC 协议库，提供多架构预编译二进制，可容器化部署。",
-        "hot": "作为自托管应用统一登录的成熟方案，它已积累约 1.5 万 star，本周仍新增 28 star 并进入 Go 周榜第 16 名，说明企业内网与自建服务的认证需求持续旺盛。",
-        "uses": [
-          "运维/平台工程师为内网自建服务统一接入企业 SSO",
-          "开发者想给没有内置登录的 Web 应用快速加上 OAuth2/OIDC 认证",
-          "需要在 Kubernetes Ingress 或 Nginx 前做统一身份校验的团队"
-        ]
-      },
-      "en": {
-        "tag": "A reverse proxy that adds OAuth2/OIDC authentication to your web apps",
-        "what": "OAuth2 Proxy is an open-source reverse proxy that adds OAuth2/OIDC authentication to web applications. It can run standalone or as middleware inside existing reverse proxies and load balancers, intercepting requests and redirecting unauthenticated users to an identity provider.",
-        "content": "The repo contains the Go proxy core, provider implementations (Google, Microsoft Entra ID, GitHub, login.gov and generic OIDC), a docs site, and example local-environment configs.",
-        "stack": "Written mainly in Go, relying on standard OAuth2/OIDC libraries, shipping prebuilt binaries for many architectures and deployable as a container.",
-        "hot": "As a mature way to add single sign-on to self-hosted apps, it has around 15k stars and still gained 28 this week, ranking 16th on the Go weekly trending list, showing steady demand for auth in internal and self-hosted services.",
-        "uses": [
-          "Ops/platform engineers adding corporate SSO to internal self-hosted services",
-          "Developers wanting to quickly add OAuth2/OIDC login to apps lacking built-in auth",
-          "Teams needing centralized identity checks in front of Kubernetes Ingress or Nginx"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -10047,8 +9628,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "C++",
       "stars": 1.1,
-      "today": "+71",
-      "today_n": 71,
+      "today": "+54",
+      "today_n": 54,
       "auto": false,
       "zh": {
         "tag": "《塞尔达传说：风之杖》GameCube 版反编译工程",
@@ -10076,7 +9657,91 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "shadps4",
+      "full": "shadps4-emu/shadPS4",
+      "rank": 11,
+      "cat": "other",
+      "lang": "C++",
+      "stars": 33.3,
+      "today": "+280",
+      "today_n": 280,
+      "auto": false,
+      "zh": {
+        "tag": "用 C++ 编写的跨平台 PlayStation 4 模拟器",
+        "what": "shadPS4 是一个用 C++ 编写的早期 PlayStation 4 模拟器，支持 Windows、Linux、macOS 和 FreeBSD。它专注于模拟 PS4 主机核心，让玩家能在 PC 上运行《血源诅咒》《如龙 0》等独占游戏。",
+        "content": "仓库包含模拟器核心代码、构建脚本、文档与截图，但不含图形界面；普通用户需搭配独立的 QtLauncher 使用。",
+        "stack": "主要使用 C++ 开发，依赖 CMake 构建，并涉及 Vulkan 图形后端与各平台系统库。",
+        "hot": "作为少有的开源 PS4 模拟器，它已能运行《血源诅咒》等大作，吸引大量玩家关注，星标数已近 3.3 万，今日再登 C++ 日榜。",
+        "uses": [
+          "想在现代 PC 上重温 PS4 独占游戏的玩家",
+          "对主机模拟器开发感兴趣、想研究底层实现的技术爱好者",
+          "希望为开源模拟器项目贡献代码或测试兼容性的开发者"
+        ]
+      },
+      "en": {
+        "tag": "A cross-platform PlayStation 4 emulator written in C++",
+        "what": "shadPS4 is an early PlayStation 4 emulator written in C++ for Windows, Linux, macOS and FreeBSD. It focuses on emulating the PS4 core, letting players run exclusives like Bloodborne and Yakuza 0 on PC.",
+        "content": "The repo contains the emulator core, build scripts, docs and screenshots, but no GUI; end users need the separate QtLauncher.",
+        "stack": "Primarily C++ with CMake build system, a Vulkan graphics backend and platform-specific system libraries.",
+        "hot": "As one of the few open-source PS4 emulators, it can already run hits like Bloodborne, drawing huge attention with nearly 33k stars and a spot on today's C++ trending list.",
+        "uses": [
+          "Players who want to replay PS4 exclusives on modern PCs",
+          "Tech enthusiasts curious about console emulator internals",
+          "Developers looking to contribute code or test game compatibility"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "vita3k",
+      "full": "Vita3K/Vita3K",
+      "rank": 6,
+      "cat": "other",
+      "lang": "C++",
+      "stars": 5.8,
+      "today": "+44",
+      "today_n": 44,
+      "auto": false,
+      "zh": {
+        "tag": "实验性 PlayStation Vita 模拟器，跨平台运行 PSV 游戏与自制程序",
+        "what": "Vita3K 是一个实验性的 PlayStation Vita 模拟器，支持 Windows、Linux、macOS 和 Android。它目前能运行大多数自制程序以及相当数量的商业游戏，并提供官方的兼容性列表供玩家查询。",
+        "content": "仓库主体是 C++ 编写的模拟器源码，包含 CPU/GPU 模拟、系统模块等核心组件，另有 README 截图画廊、CI 配置、构建脚本以及面向开发者的 Wiki 链接。",
+        "stack": "主要使用 C++ 开发，依赖 Unicorn 等外部库（因此采用 GPLv2 许可），图形后端支持 OpenGL 或 Vulkan，并配有 GitHub Actions 的 C/C++ CI 流程。",
+        "hot": "作为少数仍在活跃开发的 PSV 模拟器，Vita3K 已积累约 5.8k stars，本周新增 44 星并登上 GitHub Trending 周榜 C++ 分类第 6 名，说明复古掌机模拟社区关注度持续。",
+        "uses": [
+          "想在 PC 或手机上重温《女神异闻录4 黄金版》等 PSV 游戏的玩家",
+          "对掌机模拟器开发、CPU/GPU 模拟技术感兴趣的研究者与开发者",
+          "希望测试自制程序或为兼容性列表贡献反馈的 PSV 爱好者"
+        ]
+      },
+      "en": {
+        "tag": "Experimental PlayStation Vita emulator running PSV games and homebrew across platforms",
+        "what": "Vita3K is an experimental PlayStation Vita emulator for Windows, Linux, macOS and Android. It currently runs most homebrew programs and a good number of commercial games, with official compatibility lists available for users.",
+        "content": "The repo contains the C++ emulator source with CPU/GPU emulation and system modules, plus a README screenshot gallery, CI configs, build scripts and links to the developer wiki.",
+        "stack": "Written mainly in C++ and depending on external libraries such as Unicorn (hence the GPLv2 license), it supports OpenGL or Vulkan graphics backends and uses GitHub Actions C/C++ CI.",
+        "hot": "As one of the few actively developed PSV emulators, Vita3K has around 5.8k stars, gained 44 this week and ranked 6th on GitHub Trending's weekly C++ list, showing steady interest from the retro handheld emulation community.",
+        "uses": [
+          "Players who want to revisit PSV titles like Persona 4 Golden on PC or mobile",
+          "Researchers and developers interested in emulator development and CPU/GPU emulation",
+          "PSV enthusiasts who want to test homebrew or contribute compatibility feedback"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -10089,8 +9754,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "C++",
       "stars": 19.0,
-      "today": "+161",
-      "today_n": 161,
+      "today": "+173",
+      "today_n": 173,
       "auto": false,
       "zh": {
         "tag": "跨平台开源游戏串流客户端，支持 NVIDIA GameStream 与 Sunshine",
@@ -10120,93 +9785,51 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "vita3k",
-      "full": "Vita3K/Vita3K",
-      "rank": 6,
-      "cat": "other",
-      "lang": "C++",
-      "stars": 5.8,
-      "today": "+45",
-      "today_n": 45,
-      "auto": false,
-      "zh": {
-        "tag": "实验性 PlayStation Vita 模拟器，跨平台运行 PSV 游戏与自制程序",
-        "what": "Vita3K 是一个实验性的 PlayStation Vita 模拟器，支持 Windows、Linux、macOS 和 Android。它目前能运行大多数自制程序以及相当数量的商业游戏，并提供官方的兼容性列表供玩家查询。",
-        "content": "仓库主体是 C++ 编写的模拟器源码，包含 CPU/GPU 模拟、系统模块等核心组件，另有 README 截图画廊、CI 配置、构建脚本以及面向开发者的 Wiki 链接。",
-        "stack": "主要使用 C++ 开发，依赖 Unicorn 等外部库（因此采用 GPLv2 许可），图形后端支持 OpenGL 或 Vulkan，并配有 GitHub Actions 的 C/C++ CI 流程。",
-        "hot": "作为少数仍在活跃开发的 PSV 模拟器，Vita3K 已积累约 5.8k stars，本周新增 44 星并登上 GitHub Trending 周榜 C++ 分类第 6 名，说明复古掌机模拟社区关注度持续。",
-        "uses": [
-          "想在 PC 或手机上重温《女神异闻录4 黄金版》等 PSV 游戏的玩家",
-          "对掌机模拟器开发、CPU/GPU 模拟技术感兴趣的研究者与开发者",
-          "希望测试自制程序或为兼容性列表贡献反馈的 PSV 爱好者"
-        ]
-      },
-      "en": {
-        "tag": "Experimental PlayStation Vita emulator running PSV games and homebrew across platforms",
-        "what": "Vita3K is an experimental PlayStation Vita emulator for Windows, Linux, macOS and Android. It currently runs most homebrew programs and a good number of commercial games, with official compatibility lists available for users.",
-        "content": "The repo contains the C++ emulator source with CPU/GPU emulation and system modules, plus a README screenshot gallery, CI configs, build scripts and links to the developer wiki.",
-        "stack": "Written mainly in C++ and depending on external libraries such as Unicorn (hence the GPLv2 license), it supports OpenGL or Vulkan graphics backends and uses GitHub Actions C/C++ CI.",
-        "hot": "As one of the few actively developed PSV emulators, Vita3K has around 5.8k stars, gained 44 this week and ranked 6th on GitHub Trending's weekly C++ list, showing steady interest from the retro handheld emulation community.",
-        "uses": [
-          "Players who want to revisit PSV titles like Persona 4 Golden on PC or mobile",
-          "Researchers and developers interested in emulator development and CPU/GPU emulation",
-          "PSV enthusiasts who want to test homebrew or contribute compatibility feedback"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "wsl",
-      "full": "microsoft/WSL",
-      "rank": 5,
+      "slug": "desktop",
+      "full": "zen-browser/desktop",
+      "rank": 13,
       "cat": "infra",
       "lang": "C++",
-      "stars": 34.0,
-      "today": "+144",
-      "today_n": 144,
+      "stars": 44.8,
+      "today": "+209",
+      "today_n": 209,
       "auto": false,
       "zh": {
-        "tag": "微软官方 WSL 仓库，在 Windows 上原生运行 Linux 命令行工具",
-        "what": "WSL（Windows Subsystem for Linux）让你无需传统虚拟机或双系统，就能直接在 Windows 上原封不动地运行 Linux 命令行工具、实用程序和应用程序。只需在 Windows 命令行执行 wsl --install 即可安装。",
-        "content": "仓库包含 WSL 的源码、开发者文档（doc/docs/dev-loop.md）、贡献指南、行为准则、隐私与遥测说明，以及配套的 WSL2-Linux-Kernel、WSLg 和文档仓库链接。",
-        "stack": "以 C++ 为主语言，深度集成 Windows 内核与虚拟化技术，并配套 Linux 内核（WSL2-Linux-Kernel）和 GUI 支持组件（WSLg）。",
-        "hot": "作为微软官方项目，WSL 拥有约 3.4 万 star，本周新增 162 并登上 GitHub Trending 周榜 C++ 第 5 名，持续受到开发者关注。",
+        "tag": "基于 Firefox 的极简生产力浏览器",
+        "what": "Zen Browser 是一个基于 Firefox 内核的开源浏览器，主打「更平静的互联网」体验。它通过垂直标签栏、工作区、分屏等设计，把浏览器变成高效的生产力工具。",
+        "content": "仓库包含浏览器桌面端完整源码，涵盖构建脚本、Firefox 补丁、界面主题与文档，并提供 Release 与 Twilight 两条构建通道。",
+        "stack": "以 C++ 为主，基于 Firefox 源码树构建，配套 JavaScript/TypeScript 前端界面与 GitHub Actions 自动化构建。",
+        "hot": "已获 44836 颗星，本周新增 200，登上 GitHub Trending 周榜 C++ 第 13 名，反映出用户对隐私友好、可定制浏览器的强烈需求。",
         "uses": [
-          "需要在 Windows 上使用 Linux 命令行工具的开发者和运维人员",
-          "想避免双系统或虚拟机开销、追求轻量 Linux 环境的用户",
-          "希望为 WSL 贡献代码、文档或设计提案的开源贡献者",
-          "需要运行 Linux GUI 应用或定制 Linux 内核的高级用户"
+          "希望摆脱杂乱标签页、追求专注浏览体验的普通用户",
+          "需要多工作区隔离与分屏操作的知识工作者和开发者",
+          "关注开源、隐私与可定制性的 Firefox 爱好者",
+          "想基于 Firefox 内核二次开发浏览器的技术团队"
         ]
       },
       "en": {
-        "tag": "Microsoft's official WSL repo for running Linux tools natively on Windows",
-        "what": "WSL (Windows Subsystem for Linux) lets you run Linux command-line tools, utilities and applications unmodified and directly on Windows, without the overhead of a traditional VM or dual boot. You can install it right away by running wsl --install in a Windows command line.",
-        "content": "The repo contains WSL source code, developer docs (doc/docs/dev-loop.md), a contributor guide, code of conduct, privacy/telemetry notes, and links to companion repos WSL2-Linux-Kernel, WSLg and the docs repo.",
-        "stack": "Primarily written in C++, deeply integrated with the Windows kernel and virtualization, with companion components including a Linux kernel (WSL2-Linux-Kernel) and GUI support (WSLg).",
-        "hot": "As an official Microsoft project, WSL has about 34k stars, gained 162 this week and ranked 5th on GitHub Trending's weekly C++ list, keeping strong developer attention.",
+        "tag": "A Firefox-based browser built for calm productivity",
+        "what": "Zen Browser is an open-source browser built on the Firefox engine, aiming for a calmer internet experience. Through vertical tabs, workspaces, and split view, it turns the browser into a productivity tool.",
+        "content": "The repo holds the full desktop browser source, including build scripts, Firefox patches, UI themes, and docs, with Release and Twilight build channels.",
+        "stack": "Primarily C++ built on the Firefox source tree, with JavaScript/TypeScript UI code and GitHub Actions for automated builds.",
+        "hot": "With 44,836 stars and 200 added this week, it ranks 13th on GitHub Trending's weekly C++ list, reflecting strong demand for privacy-friendly, customizable browsers.",
         "uses": [
-          "Developers and ops engineers who need Linux CLI tools on Windows",
-          "Users wanting a lightweight Linux environment without dual boot or VM overhead",
-          "Open-source contributors adding code, docs or design proposals to WSL",
-          "Advanced users running Linux GUI apps or customizing the Linux kernel"
+          "Everyday users who want a focused, clutter-free browsing experience",
+          "Knowledge workers and developers needing workspaces and split view",
+          "Firefox fans who value open source, privacy, and customization",
+          "Teams wanting to build a browser on the Firefox engine"
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -10219,8 +9842,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "C++",
       "stars": 18.3,
-      "today": "+74",
-      "today_n": 74,
+      "today": "+72",
+      "today_n": 72,
       "auto": false,
       "zh": {
         "tag": "基于 Vulkan 的 D3D8/9/10/11 转译层，让 Linux/Wine 跑 Windows 3D 游戏",
@@ -10250,7 +9873,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -10294,93 +9917,49 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "thesimpsonsgamerecomp",
-      "full": "YesterMester/TheSimpsonsGameRecomp",
+      "slug": "copyq",
+      "full": "hluk/CopyQ",
       "rank": 9,
       "cat": "other",
       "lang": "C++",
-      "stars": 0.3,
-      "today": "+48",
-      "today_n": 48,
+      "stars": 12.4,
+      "today": "+86",
+      "today_n": 86,
       "auto": false,
       "zh": {
-        "tag": "用静态重编译把 2007 年《辛普森一家》游戏搬上 PC 与 Steam Deck",
-        "what": "该项目把 Xbox 360 版《辛普森一家》游戏的 PowerPC 可执行文件提前翻译成 C++，再编译为 x86-64 原生程序，让游戏代码直接跑在 CPU 上而非模拟器里。底层由源自 Xenia 的 ReXGlue 运行时提供 Xbox 360 内核、音频、输入与图形层。项目本身不含任何游戏内容，需自备正版游戏。",
-        "content": "仓库是一个 C++ 重编译工程，包含重编译产物、ReXGlue 运行时集成、Vulkan/D3D12/D3D11 渲染后端以及启动器与配置代码，README 记录了状态、功能、安装、已知问题、项目结构与路线图。",
-        "stack": "主要语言为 C++，图形层使用 Vulkan（Linux/Windows）、Direct3D 12 与实验性 Direct3D 11（Windows），运行时基于 Xenia 衍生的 ReXGlue，并涉及 Havok 物理与音频解码。",
-        "hot": "本周新增 48 星、总数 303，登上 GitHub Trending 周榜 C++ 第 9 名；静态重编译让经典主机游戏原生跑在 Steam Deck 上，加上 60 FPS、自由相机等增强，吸引大量怀旧玩家与重编译技术爱好者。",
+        "tag": "跨平台高级剪贴板管理器，支持脚本与自定义命令",
+        "what": "CopyQ 是一款跨平台的剪贴板管理器，持续监控系统剪贴板并把内容保存到可自定义的标签页中。它支持文本、HTML、图片及任意自定义格式，并提供强大的编辑、搜索、过滤与脚本自动化能力。",
+        "content": "仓库包含完整的 C++/Qt 源码、构建脚本、多语言翻译文件以及详尽的文档（ReadTheDocs）。同时提供 Linux、Windows、macOS 的安装包与 CI 构建配置。",
+        "stack": "基于 C++ 与 Qt 框架开发，使用 CMake 构建，依赖 Qt 的 GUI、网络与脚本模块，并集成 Weblate 翻译与 GitHub Actions 持续集成。",
+        "hot": "作为一款成熟稳定的开源剪贴板工具，CopyQ 已积累超过 1.2 万 Star，本周新增 86 星并登上 C++ 周榜第 9 名，说明其在开发者与效率工具爱好者中持续受到关注。",
         "uses": [
-          "想在现代 PC 或 Steam Deck 上重温《辛普森一家》游戏、且拥有 Xbox 360 正版的老玩家",
-          "对静态重编译、Xenia/ReXGlue 运行时和主机移植技术感兴趣的研究者与开发者",
-          "希望在 Linux 上以 Vulkan 原生方式运行该游戏、并需要 60 FPS 与画质增强选项的用户"
+          "需要频繁复制粘贴、管理多段剪贴板内容的开发者与文字工作者",
+          "希望用脚本自动化剪贴板操作、自定义快捷键的高级用户",
+          "在 Linux、Windows 或 macOS 上寻找跨平台剪贴板管理方案的用户"
         ]
       },
       "en": {
-        "tag": "A static-recompilation PC port of The Simpsons Game (2007) for Linux, Steam Deck and Windows",
-        "what": "This project ahead-of-time translates the Xbox 360 PowerPC executable of The Simpsons Game into C++ and compiles it for x86-64, so the game's own code runs natively instead of inside an emulator. The ReXGlue runtime, derived from Xenia, supplies the Xbox 360 kernel, audio, input and graphics layers. It ships no game content, so you need your own copy of the game.",
-        "content": "The repo is a C++ recompilation project containing the recompiled output, ReXGlue runtime integration, Vulkan/D3D12/D3D11 render backends, and launcher/configuration code, with README sections for status, features, installation, known issues, project layout and roadmap.",
-        "stack": "Primarily C++, with Vulkan (Linux/Windows), Direct3D 12 and an experimental Direct3D 11 renderer (Windows), built on the Xenia-derived ReXGlue runtime, plus Havok physics and audio decoding.",
-        "hot": "It gained 48 stars this week for 303 total, ranking 9th on GitHub Trending's weekly C++ list; static recompilation bringing a classic console game natively to Steam Deck, plus 60 FPS and free-camera enhancements, draws both nostalgic players and recompilation enthusiasts.",
+        "tag": "Cross-platform advanced clipboard manager with scripting and custom commands",
+        "what": "CopyQ is a cross-platform clipboard manager that monitors the system clipboard and saves its content into customizable tabs. It supports text, HTML, images, and any custom formats, with powerful editing, search, filtering, and scripting automation.",
+        "content": "The repository contains the full C++/Qt source code, build scripts, multi-language translation files, and extensive documentation (ReadTheDocs). It also provides installers for Linux, Windows, and macOS along with CI build configurations.",
+        "stack": "Built with C++ and the Qt framework, using CMake for building, relying on Qt's GUI, network, and scripting modules, with Weblate translations and GitHub Actions CI.",
+        "hot": "As a mature and stable open-source clipboard tool, CopyQ has accumulated over 12,000 stars, gaining 86 stars this week and ranking 9th on the C++ weekly trending list, showing sustained interest from developers and productivity enthusiasts.",
         "uses": [
-          "Nostalgic players who own the Xbox 360 game and want to replay it on modern PCs or Steam Deck",
-          "Researchers and developers interested in static recompilation, the Xenia/ReXGlue runtime and console porting",
-          "Linux users who want a native Vulkan build with 60 FPS and visual enhancement options"
+          "Developers and writers who frequently copy/paste and manage multiple clipboard entries",
+          "Advanced users who want to automate clipboard operations with scripts and custom shortcuts",
+          "Users looking for a cross-platform clipboard manager on Linux, Windows, or macOS"
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "gdsdecomp",
-      "full": "GDRETools/gdsdecomp",
-      "rank": 10,
-      "cat": "other",
-      "lang": "C++",
-      "stars": 4.3,
-      "today": "+36",
-      "today_n": 36,
-      "auto": false,
-      "zh": {
-        "tag": "Godot 游戏逆向工程与项目恢复工具集",
-        "what": "GDRETools/gdsdecomp 是一套面向 Godot 引擎的逆向工程工具，可以从 APK、PCK 或内嵌 EXE 中完整恢复游戏项目。它支持反编译 GDScript、还原资源格式、重建项目文件，覆盖 Godot 4.x、3.x 和 2.x。",
-        "content": "仓库包含 GUI 与命令行工具，提供完整项目恢复、PCK 提取/创建、GDScript 批量反编译、资源文本与二进制互转、翻译补丁等功能。",
-        "stack": "主要使用 C++ 编写，依赖 Godot 引擎的模块系统，可编译为独立可执行文件，支持 Windows、Linux 等平台。",
-        "hot": "作为 Godot 生态中少有的成熟逆向工具，它解决了游戏资源提取与项目恢复的痛点，已获 4293 星，本周新增 36 星，登上 GitHub C++ 周榜第 10 名。",
-        "uses": [
-          "游戏开发者与模组制作者：用于提取和分析 Godot 游戏资源，制作模组或学习他人实现。",
-          "安全研究人员与逆向工程师：分析 Godot 应用的打包结构与脚本逻辑。",
-          "Godot 学习者：通过反编译优秀项目来学习 GDScript 与资源组织方式。",
-          "游戏本地化团队：提取并替换翻译资源，快速制作语言补丁。"
-        ]
-      },
-      "en": {
-        "tag": "Godot reverse engineering and project recovery toolkit",
-        "what": "GDRETools/gdsdecomp is a reverse engineering toolkit for the Godot engine that fully recovers game projects from APK, PCK, or embedded EXE files. It decompiles GDScript, restores original resource formats, and rebuilds project files, supporting Godot 4.x, 3.x, and 2.x.",
-        "content": "The repo includes GUI and command-line tools offering full project recovery, PCK extraction/creation, batch GDScript decompilation, text/binary resource conversion, and translation patching.",
-        "stack": "Primarily written in C++, it relies on the Godot engine's module system and compiles into a standalone executable for Windows, Linux, and other platforms.",
-        "hot": "As a rare mature reverse engineering tool in the Godot ecosystem, it addresses the pain points of game asset extraction and project recovery, earning 4,293 stars with 36 added this week, ranking 10th on GitHub's weekly C++ trending list.",
-        "uses": [
-          "Game developers and modders: extract and analyze Godot game assets to create mods or learn from others' implementations.",
-          "Security researchers and reverse engineers: analyze packaging structures and script logic of Godot applications.",
-          "Godot learners: decompile quality projects to study GDScript and resource organization.",
-          "Game localization teams: extract and replace translation resources to quickly create language patches."
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -10393,8 +9972,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "C++",
       "stars": 0.4,
-      "today": "+95",
-      "today_n": 95,
+      "today": "+90",
+      "today_n": 90,
       "auto": false,
       "zh": {
         "tag": "越狱 PS5 的一体化 HEN 与工具箱",
@@ -10424,237 +10003,10 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
-      }
-    },
-    {
-      "slug": "emscripten",
-      "full": "emscripten-core/emscripten",
-      "rank": 12,
-      "cat": "infra",
-      "lang": "C++",
-      "stars": 27.7,
-      "today": "+42",
-      "today_n": 42,
-      "auto": false,
-      "zh": {
-        "tag": "把 C/C++ 编译成 WebAssembly 的 LLVM 工具链",
-        "what": "Emscripten 基于 LLVM 与 Binaryen，把 C 和 C++ 代码编译为 WebAssembly。产物可运行在浏览器、Node.js 以及各类 wasm 运行时中，并内置对 OpenGL、SDL2 等可移植 API 的 Web 支持。",
-        "content": "仓库是完整的编译器工具链源码，包含 emcc 前端、系统库、SDK 安装脚本（emsdk/bootstrap.py）以及测试与文档。",
-        "stack": "主要用 C++ 编写，依赖 LLVM/Clang 与 Binaryen，通过 Python 脚本驱动构建与 SDK 安装。",
-        "hot": "作为 WebAssembly 生态的基石项目，它已积累 27689 颗星，本周新增 53 星并登上 C++ 周榜第 12 名，热度长期稳定。",
-        "uses": [
-          "想把现有 C/C++ 桌面或游戏代码搬到浏览器运行的开发者",
-          "需要在 Web 端复用 OpenGL/SDL2 等原生图形与多媒体库的团队",
-          "研究 WebAssembly 工具链与 LLVM 后端的编译工程师",
-          "希望用 Rust 等其他 LLVM 语言编译到 wasm32-unknown-emscripten 的开发者"
-        ]
-      },
-      "en": {
-        "tag": "The LLVM-to-WebAssembly compiler toolchain for C/C++",
-        "what": "Emscripten compiles C and C++ to WebAssembly using LLVM and Binaryen. Its output runs on the Web, in Node.js, and in wasm runtimes, with built-in Web support for portable APIs like OpenGL and SDL2.",
-        "content": "The repo holds the full compiler toolchain source: the emcc frontend, system libraries, SDK install scripts (emsdk/bootstrap.py), plus tests and docs.",
-        "stack": "Written mainly in C++, it depends on LLVM/Clang and Binaryen, with Python scripts driving builds and SDK installation.",
-        "hot": "A cornerstone of the WebAssembly ecosystem, it has 27,689 stars, gained 53 this week, and ranked 12th on the C++ weekly trending list.",
-        "uses": [
-          "Developers porting existing C/C++ desktop or game code to run in the browser",
-          "Teams needing to reuse native graphics and media libs like OpenGL/SDL2 on the Web",
-          "Compiler engineers studying WebAssembly toolchains and LLVM backends",
-          "Developers targeting wasm32-unknown-emscripten from other LLVM languages such as Rust"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "desktop",
-      "full": "zen-browser/desktop",
-      "rank": 13,
-      "cat": "infra",
-      "lang": "C++",
-      "stars": 44.8,
-      "today": "+200",
-      "today_n": 200,
-      "auto": false,
-      "zh": {
-        "tag": "基于 Firefox 的极简生产力浏览器",
-        "what": "Zen Browser 是一个基于 Firefox 内核的开源浏览器，主打「更平静的互联网」体验。它通过垂直标签栏、工作区、分屏等设计，把浏览器变成高效的生产力工具。",
-        "content": "仓库包含浏览器桌面端完整源码，涵盖构建脚本、Firefox 补丁、界面主题与文档，并提供 Release 与 Twilight 两条构建通道。",
-        "stack": "以 C++ 为主，基于 Firefox 源码树构建，配套 JavaScript/TypeScript 前端界面与 GitHub Actions 自动化构建。",
-        "hot": "已获 44836 颗星，本周新增 200，登上 GitHub Trending 周榜 C++ 第 13 名，反映出用户对隐私友好、可定制浏览器的强烈需求。",
-        "uses": [
-          "希望摆脱杂乱标签页、追求专注浏览体验的普通用户",
-          "需要多工作区隔离与分屏操作的知识工作者和开发者",
-          "关注开源、隐私与可定制性的 Firefox 爱好者",
-          "想基于 Firefox 内核二次开发浏览器的技术团队"
-        ]
-      },
-      "en": {
-        "tag": "A Firefox-based browser built for calm productivity",
-        "what": "Zen Browser is an open-source browser built on the Firefox engine, aiming for a calmer internet experience. Through vertical tabs, workspaces, and split view, it turns the browser into a productivity tool.",
-        "content": "The repo holds the full desktop browser source, including build scripts, Firefox patches, UI themes, and docs, with Release and Twilight build channels.",
-        "stack": "Primarily C++ built on the Firefox source tree, with JavaScript/TypeScript UI code and GitHub Actions for automated builds.",
-        "hot": "With 44,836 stars and 200 added this week, it ranks 13th on GitHub Trending's weekly C++ list, reflecting strong demand for privacy-friendly, customizable browsers.",
-        "uses": [
-          "Everyday users who want a focused, clutter-free browsing experience",
-          "Knowledge workers and developers needing workspaces and split view",
-          "Firefox fans who value open source, privacy, and customization",
-          "Teams wanting to build a browser on the Firefox engine"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "ds5dongle",
-      "full": "awalol/DS5Dongle",
-      "rank": 14,
-      "cat": "infra",
-      "lang": "C++",
-      "stars": 2.9,
-      "today": "+42",
-      "today_n": 42,
-      "auto": false,
-      "zh": {
-        "tag": "把 Pico 2 W 变成 DualSense 5 无线接收器",
-        "what": "该项目让树莓派 Pico 2 W（或其他兼容板）充当 DualSense 5 手柄的蓝牙桥接器，把无线手柄模拟成有线连接。它支持高清触觉反馈、手柄扬声器与 3.5mm 耳机音频输出，以及手柄麦克风作为 USB 音频输入。",
-        "content": "仓库提供预编译的 .uf2 固件、其他开发板的构建包和 config_tool.py 配置工具，并包含完整的构建说明与网页配置界面。核心代码用 C++ 实现，围绕 USB 与蓝牙桥接逻辑展开。",
-        "stack": "主要使用 C++ 开发，基于 Raspberry Pi Pico SDK 与 BTstack 蓝牙协议栈，面向 RP2350 平台。依赖 Pico 2 W 或 Waveshare RP2350B-Plus-W 等兼容硬件。",
-        "hot": "项目以极低成本让 DualSense 手柄在 PC 上获得完整无线体验，包括触觉反馈和音频，切中玩家痛点。本周新增 42 star，累计 2877 star，登上 GitHub Trending 周榜 C++ 第 14 名。",
-        "uses": [
-          "想用 DualSense 手柄在 PC 上无线游玩并保留触觉反馈与音频的玩家",
-          "手头有 Pico 2 W 或兼容开发板、喜欢折腾硬件的 DIY 爱好者",
-          "需要低成本把无线手柄转为有线 HID 设备的嵌入式开发者",
-          "希望为 DualSense 添加自定义功能并参考社区分支的进阶用户"
-        ]
-      },
-      "en": {
-        "tag": "Turn a Pico 2 W into a DualSense 5 wireless dongle",
-        "what": "This project turns a Raspberry Pi Pico 2 W (or other compatible boards) into a Bluetooth bridge for the DualSense 5 controller, making the wireless gamepad appear as a wired connection. It supports HD haptics, controller speaker and 3.5 mm headset audio output, and exposes the controller mic as a USB audio input.",
-        "content": "The repo ships prebuilt .uf2 firmware, board-specific build bundles, and a config_tool.py utility, along with full build instructions and a web configuration interface. The core code is written in C++, centered on USB and Bluetooth bridging logic.",
-        "stack": "Primarily C++ built on the Raspberry Pi Pico SDK and the BTstack Bluetooth stack, targeting the RP2350 platform. It requires a Pico 2 W or compatible boards like the Waveshare RP2350B-Plus-W.",
-        "hot": "It delivers a full wireless DualSense experience on PC—haptics and audio included—at very low cost, hitting a real gamer pain point. It gained 42 stars this week for a total of 2,877, ranking 14th on GitHub Trending's weekly C++ list.",
-        "uses": [
-          "PC gamers who want to use a DualSense controller wirelessly with haptics and audio intact",
-          "DIY hardware enthusiasts who own a Pico 2 W or compatible board",
-          "Embedded developers needing a low-cost way to present a wireless gamepad as a wired HID device",
-          "Advanced users looking to extend DualSense features via community forks"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "open-code-review",
-      "full": "alibaba/open-code-review",
-      "rank": 3,
-      "cat": "agent",
-      "lang": "Go",
-      "stars": 44.7,
-      "today": "+22.8k",
-      "today_n": 22779,
-      "auto": false,
-      "zh": {
-        "tag": "阿里内部验证的混合架构 AI 代码审查 CLI 工具",
-        "what": "Open Code Review 是阿里巴巴内部孵化并开源的 AI 代码审查命令行工具，采用确定性流水线加 LLM Agent 的混合架构。它能在代码行级别给出精确评论，并内置 NPE、线程安全、XSS、SQL 注入等多语言规则集。",
-        "content": "仓库以 Go 编写，提供 CLI 主程序、内置规则集与 Agent 集成配置，并附带官网、多语言 README 与 npm 包发布脚本。",
-        "stack": "主语言为 Go，通过 npm 包 @alibaba-group/open-code-review 分发，兼容 OpenAI 与 Anthropic 接口，并支持 Claude Code、Codex、Cursor 等 Agent。",
-        "hot": "背靠阿里内部两年、数万开发者与数百万缺陷的实战验证，加上 22734 星、今日新增 264 星并登上 Go 日榜第 11 名，关注度持续攀升。",
-        "uses": [
-          "希望把 AI 代码审查接入 CI/CD 的工程团队",
-          "使用 Claude Code、Codex、Cursor 等 Agent 的开发者",
-          "需要 NPE、线程安全、SQL 注入等规则检查的 Go/多语言项目",
-          "想借鉴混合架构与规则集设计的 AI 工具开发者"
-        ]
-      },
-      "en": {
-        "tag": "Alibaba's battle-tested hybrid-architecture AI code review CLI",
-        "what": "Open Code Review is an open-sourced AI code review CLI incubated inside Alibaba, combining deterministic pipelines with an LLM Agent. It produces precise line-level comments and ships with a built-in multi-language ruleset covering NPE, thread-safety, XSS and SQL injection.",
-        "content": "Written in Go, the repo contains the CLI, built-in rule sets and agent integration configs, plus a website, multilingual READMEs and npm publishing setup.",
-        "stack": "Primary language is Go, distributed via the npm package @alibaba-group/open-code-review, compatible with OpenAI and Anthropic APIs, and integrates with Claude Code, Codex and Cursor.",
-        "hot": "Backed by two years of internal Alibaba use by tens of thousands of developers and millions of defects found, it has reached 22,734 stars with 264 added today, ranking 11th on the Go daily trending list.",
-        "uses": [
-          "Engineering teams wanting AI code review in CI/CD",
-          "Developers using Claude Code, Codex or Cursor agents",
-          "Go and multi-language projects needing NPE, thread-safety and SQL injection checks",
-          "AI tool builders studying hybrid architecture and ruleset design"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-24",
-        "is_new": false,
-        "is_back": false,
-        "hist": [
-          {
-            "d": "2026-07-24",
-            "s": 11.5,
-            "r": 11
-          },
-          {
-            "d": "2026-07-26",
-            "s": 13.0,
-            "r": 2
-          },
-          {
-            "d": "2026-07-27",
-            "s": 13.8,
-            "r": 11
-          },
-          {
-            "d": "2026-07-28",
-            "s": 14.8,
-            "r": 9
-          },
-          {
-            "d": "2026-09-14",
-            "s": 23.5,
-            "r": 14
-          },
-          {
-            "d": "2026-09-15",
-            "s": 25.7,
-            "r": 2
-          },
-          {
-            "d": "2026-09-16",
-            "s": 28.6,
-            "r": 1
-          },
-          {
-            "d": "2026-09-17",
-            "s": 31.9,
-            "r": 1
-          },
-          {
-            "d": "2026-09-18",
-            "s": 34.8,
-            "r": 1
-          },
-          {
-            "d": "2026-09-19",
-            "s": 36.7,
-            "r": 3
-          }
-        ]
       }
     },
     {
@@ -10663,9 +10015,9 @@ window.TRENDING_DATA = {
       "rank": 2,
       "cat": "agent",
       "lang": "Python",
-      "stars": 55.4,
-      "today": "+34.3k",
-      "today_n": 34334,
+      "stars": 56.3,
+      "today": "+34.6k",
+      "today_n": 34560,
       "auto": false,
       "zh": {
         "tag": "本地优先的全能语音工作室",
@@ -10738,92 +10090,14 @@ window.TRENDING_DATA = {
       }
     },
     {
-      "slug": "gods-eye-view",
-      "full": "bilawalsidhu/gods-eye-view",
-      "rank": 3,
-      "cat": "other",
-      "lang": "JavaScript",
-      "stars": 49.3,
-      "today": "+30.2k",
-      "today_n": 30207,
-      "auto": false,
-      "zh": {
-        "tag": "浏览器里的实时全球态势感知模拟器",
-        "what": "这是一个在浏览器中运行的间谍卫星模拟器，但数据是真实的。它在一个逼真的3D地球上实时展示飞机、船舶、卫星、地震、交通和公共摄像头等公开信号，并支持语音控制。",
-        "content": "仓库包含完整的Web应用源码，包括3D地球渲染、实时数据图层、语音控制AI代理、以及清晰的标注（如模拟与实时区分）。",
-        "stack": "主要使用JavaScript，可能涉及Three.js或类似3D库、WebSocket实时数据、语音识别API等。",
-        "hot": "该项目在GitHub Trending日榜排名第一，今日新增近2000星，因其独特的'真实数据间谍卫星'概念和病毒式传播的YouTube系列而迅速走红。",
-        "uses": [
-          "对开源情报、地理空间数据可视化感兴趣的开发者或研究者。",
-          "希望体验实时全球动态（航班、船舶、卫星等）的科技爱好者。",
-          "教育场景中用于演示实时数据源和3D可视化技术。"
-        ]
-      },
-      "en": {
-        "tag": "A real-time global situational awareness simulator in your browser",
-        "what": "A spy-satellite simulator in your browser with real data. It visualizes live aircraft, ships, satellites, earthquakes, traffic, and public cameras on a photorealistic 3D globe, with hands-free voice control.",
-        "content": "The repo contains the full web app source code, including 3D globe rendering, live data layers, a voice-controlled AI agent, and clear labeling of simulated vs. live feeds.",
-        "stack": "Primarily JavaScript, likely using Three.js or similar 3D libraries, WebSocket for real-time data, and speech recognition APIs.",
-        "hot": "Ranked #1 on GitHub Trending daily with ~2,000 stars added today, it went viral due to its unique 'real-data spy satellite' concept and the popular YouTube series behind it.",
-        "uses": [
-          "Developers or researchers interested in open-source intelligence and geospatial data visualization.",
-          "Tech enthusiasts who want to experience real-time global dynamics (flights, ships, satellites, etc.).",
-          "Educational settings for demonstrating real-time data sources and 3D visualization techniques."
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-08-28",
-        "is_new": false,
-        "is_back": false,
-        "hist": [
-          {
-            "d": "2026-08-28",
-            "s": 8.5,
-            "r": 1
-          },
-          {
-            "d": "2026-08-29",
-            "s": 11.1,
-            "r": 4
-          },
-          {
-            "d": "2026-08-30",
-            "s": 12.6,
-            "r": 2
-          },
-          {
-            "d": "2026-09-11",
-            "s": 24.3,
-            "r": 2
-          },
-          {
-            "d": "2026-09-12",
-            "s": 27.1,
-            "r": 2
-          },
-          {
-            "d": "2026-09-13",
-            "s": 29.9,
-            "r": 1
-          },
-          {
-            "d": "2026-09-14",
-            "s": 31.9,
-            "r": 3
-          }
-        ]
-      }
-    },
-    {
       "slug": "financial-services",
       "full": "anthropics/financial-services",
       "rank": 7,
       "cat": "agent",
       "lang": "Python",
-      "stars": 39.1,
-      "today": "+4.4k",
-      "today_n": 4400,
+      "stars": 39.2,
+      "today": "+4.5k",
+      "today_n": 4495,
       "auto": false,
       "zh": {
         "tag": "面向投行、研究与财富管理的金融工作流 AI 代理与技能库",
@@ -10881,9 +10155,9 @@ window.TRENDING_DATA = {
       "rank": 4,
       "cat": "agent",
       "lang": "TypeScript",
-      "stars": 98.9,
-      "today": "+18.9k",
-      "today_n": 18863,
+      "stars": 99.2,
+      "today": "+19.1k",
+      "today_n": 19137,
       "auto": false,
       "zh": {
         "tag": "开源AI代理团队管理平台，像运营公司一样管理代理。",
@@ -10956,9 +10230,9 @@ window.TRENDING_DATA = {
       "rank": 1,
       "cat": "agent",
       "lang": "JavaScript",
-      "stars": 275.5,
-      "today": "+23.1k",
-      "today_n": 23115,
+      "stars": 276.0,
+      "today": "+22.7k",
+      "today_n": 22710,
       "auto": false,
       "zh": {
         "tag": "为 Claude Code 等 AI 编码代理打造的性能优化与安全增强系统",
@@ -11064,14 +10338,92 @@ window.TRENDING_DATA = {
       }
     },
     {
+      "slug": "gods-eye-view",
+      "full": "bilawalsidhu/gods-eye-view",
+      "rank": 3,
+      "cat": "other",
+      "lang": "JavaScript",
+      "stars": 49.7,
+      "today": "+29.2k",
+      "today_n": 29212,
+      "auto": false,
+      "zh": {
+        "tag": "浏览器里的实时全球态势感知模拟器",
+        "what": "这是一个在浏览器中运行的间谍卫星模拟器，但数据是真实的。它在一个逼真的3D地球上实时展示飞机、船舶、卫星、地震、交通和公共摄像头等公开信号，并支持语音控制。",
+        "content": "仓库包含完整的Web应用源码，包括3D地球渲染、实时数据图层、语音控制AI代理、以及清晰的标注（如模拟与实时区分）。",
+        "stack": "主要使用JavaScript，可能涉及Three.js或类似3D库、WebSocket实时数据、语音识别API等。",
+        "hot": "该项目在GitHub Trending日榜排名第一，今日新增近2000星，因其独特的'真实数据间谍卫星'概念和病毒式传播的YouTube系列而迅速走红。",
+        "uses": [
+          "对开源情报、地理空间数据可视化感兴趣的开发者或研究者。",
+          "希望体验实时全球动态（航班、船舶、卫星等）的科技爱好者。",
+          "教育场景中用于演示实时数据源和3D可视化技术。"
+        ]
+      },
+      "en": {
+        "tag": "A real-time global situational awareness simulator in your browser",
+        "what": "A spy-satellite simulator in your browser with real data. It visualizes live aircraft, ships, satellites, earthquakes, traffic, and public cameras on a photorealistic 3D globe, with hands-free voice control.",
+        "content": "The repo contains the full web app source code, including 3D globe rendering, live data layers, a voice-controlled AI agent, and clear labeling of simulated vs. live feeds.",
+        "stack": "Primarily JavaScript, likely using Three.js or similar 3D libraries, WebSocket for real-time data, and speech recognition APIs.",
+        "hot": "Ranked #1 on GitHub Trending daily with ~2,000 stars added today, it went viral due to its unique 'real-data spy satellite' concept and the popular YouTube series behind it.",
+        "uses": [
+          "Developers or researchers interested in open-source intelligence and geospatial data visualization.",
+          "Tech enthusiasts who want to experience real-time global dynamics (flights, ships, satellites, etc.).",
+          "Educational settings for demonstrating real-time data sources and 3D visualization techniques."
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-08-28",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-08-28",
+            "s": 8.5,
+            "r": 1
+          },
+          {
+            "d": "2026-08-29",
+            "s": 11.1,
+            "r": 4
+          },
+          {
+            "d": "2026-08-30",
+            "s": 12.6,
+            "r": 2
+          },
+          {
+            "d": "2026-09-11",
+            "s": 24.3,
+            "r": 2
+          },
+          {
+            "d": "2026-09-12",
+            "s": 27.1,
+            "r": 2
+          },
+          {
+            "d": "2026-09-13",
+            "s": 29.9,
+            "r": 1
+          },
+          {
+            "d": "2026-09-14",
+            "s": 31.9,
+            "r": 3
+          }
+        ]
+      }
+    },
+    {
       "slug": "hindsight",
       "full": "vectorize-io/hindsight",
       "rank": 3,
       "cat": "agent",
       "lang": "Python",
-      "stars": 47.4,
-      "today": "+24.3k",
-      "today_n": 24260,
+      "stars": 47.7,
+      "today": "+24.6k",
+      "today_n": 24617,
       "auto": false,
       "zh": {
         "tag": "让智能体真正学会学习的长期记忆系统",
@@ -11129,69 +10481,14 @@ window.TRENDING_DATA = {
       }
     },
     {
-      "slug": "weknora",
-      "full": "Tencent/WeKnora",
-      "rank": 9,
-      "cat": "ai",
-      "lang": "Go",
-      "stars": 32.7,
-      "today": "+11.0k",
-      "today_n": 11015,
-      "auto": false,
-      "zh": {
-        "tag": "把文档变成可查询RAG、自主推理Agent和自维护Wiki的LLM知识平台",
-        "what": "WeKnora是腾讯开源的LLM知识平台，将原始文档转化为可查询的RAG、自主推理的Agent和自维护的Wiki。它支持多源数据导入、树状文件夹视图、块编辑与版本回滚，并提供交互式知识图谱。",
-        "content": "仓库包含完整的框架代码、架构文档、API参考、开发者指南，以及多语言README（中英日韩）。核心功能包括RAG快速问答、ReAct Agent、Wiki模式、知识图谱、多源导入（飞书、Notion、语雀、RSS等）和网站嵌入组件。",
-        "stack": "主语言为Go，基于LLM能力构建，涉及RAG、ReAct Agent、MCP工具集成、向量检索等技术。支持多种文档格式和外部服务（如飞书、Notion、RSS）。",
-        "hot": "上线后迅速获得2万+星标，今日新增105星，位列GitHub Go语言日榜第5。其将文档自动转化为可交互知识图谱和自维护Wiki的能力，解决了企业知识管理的痛点，备受开发者关注。",
-        "uses": [
-          "企业知识库建设：将内部文档自动整理为可查询的RAG和自维护Wiki，提升员工检索效率。",
-          "智能客服与问答系统：利用RAG快速问答能力，构建基于私有知识的对话机器人。",
-          "复杂任务自动化：通过ReAct Agent编排检索、工具调用和网络搜索，完成多步骤分析。",
-          "个人知识管理：导入个人文档，生成知识图谱和Wiki，辅助学习和研究。"
-        ]
-      },
-      "en": {
-        "tag": "Open-source LLM knowledge platform turning documents into queryable RAG, autonomous agent, and self-maintaining Wiki",
-        "what": "WeKnora is an open-source LLM knowledge platform from Tencent that transforms raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki. It supports multi-source ingestion, tree-structured folder views, chunk editing with revision history, and an interactive knowledge graph.",
-        "content": "The repository contains the full framework code, architecture docs, API reference, developer guide, and multi-language READMEs (EN, CN, JA, KO). Key features include RAG-based Q&A, ReAct Agent, Wiki mode, knowledge graph, multi-source ingestion (Feishu, Notion, Yuque, RSS, etc.), and website embed widgets.",
-        "stack": "Primarily written in Go, built on LLM capabilities, incorporating RAG, ReAct Agent, MCP tool integration, and vector retrieval. Supports various document formats and external services like Feishu, Notion, and RSS.",
-        "hot": "Quickly gained over 20k stars with 105 new stars today, ranking #5 on GitHub Go daily trending. Its ability to auto-convert documents into interactive knowledge graphs and self-maintaining wikis addresses enterprise knowledge management pain points, drawing significant developer attention.",
-        "uses": [
-          "Enterprise knowledge base: Automatically organize internal documents into queryable RAG and self-maintaining Wiki to boost employee retrieval efficiency.",
-          "Intelligent customer service and Q&A systems: Leverage RAG-based quick Q&A to build chatbots grounded in private knowledge.",
-          "Complex task automation: Use ReAct Agent to orchestrate retrieval, tool calls, and web search for multi-step analysis.",
-          "Personal knowledge management: Import personal documents to generate knowledge graphs and wikis for learning and research."
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-09-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": [
-          {
-            "d": "2026-09-17",
-            "s": 25.3,
-            "r": 16
-          },
-          {
-            "d": "2026-09-18",
-            "s": 26.2,
-            "r": 9
-          }
-        ]
-      }
-    },
-    {
       "slug": "claude-code",
       "full": "anthropics/claude-code",
       "rank": 7,
       "cat": "agent",
       "lang": "TypeScript",
-      "stars": 149.7,
-      "today": "+6.1k",
-      "today_n": 6111,
+      "stars": 149.9,
+      "today": "+6.2k",
+      "today_n": 6173,
       "auto": false,
       "zh": {
         "tag": "终端里的智能体编程助手，用自然语言写代码",
@@ -11257,9 +10554,9 @@ window.TRENDING_DATA = {
       "rank": 7,
       "cat": "agent",
       "lang": "Python",
-      "stars": 8.1,
-      "today": "+6.5k",
-      "today_n": 6497,
+      "stars": 8.2,
+      "today": "+6.7k",
+      "today_n": 6720,
       "auto": false,
       "zh": {
         "tag": "腾讯云开源的自托管多用户多智能体 AI 助手",
@@ -11312,9 +10609,9 @@ window.TRENDING_DATA = {
       "rank": 4,
       "cat": "agent",
       "lang": "Go",
-      "stars": 4.6,
-      "today": "+2.8k",
-      "today_n": 2793,
+      "stars": 4.7,
+      "today": "+2.9k",
+      "today_n": 2879,
       "auto": false,
       "zh": {
         "tag": "面向自主智能体的高密度安全沙箱运行时",
@@ -11357,111 +10654,14 @@ window.TRENDING_DATA = {
       }
     },
     {
-      "slug": "context-mode",
-      "full": "mksglu/context-mode",
-      "rank": 4,
-      "cat": "agent",
-      "lang": "TypeScript",
-      "stars": 25.8,
-      "today": "+4.6k",
-      "today_n": 4606,
-      "auto": false,
-      "zh": {
-        "tag": "为 AI 编码代理压缩上下文窗口、沙箱化工具输出并持久化会话记忆",
-        "what": "Context Mode 是面向 AI 编码代理的上下文优化层，把工具输出放进沙箱处理，官方称可减少约 98% 的上下文占用。它同时持久化会话记忆，并通过 MCP 与 hooks 在 17 个平台上统一路由，让代理在长任务中不丢状态、不爆窗口。",
-        "content": "仓库以 TypeScript 实现，核心是 MCP 服务与 hooks 集成，附带 npm 包、插件市场入口、统计脚本与 Discord 社区链接。",
-        "stack": "主语言 TypeScript，依赖 MCP 协议与各代理平台的 hooks 机制，通过 npm 分发，采用 ELv2 许可。",
-        "hot": "月增 4034 star、总量 24069，登上 GitHub Trending TypeScript 月榜第 14，并在 Hacker News 拿到 570+ 分的第一名，上下文成本是当下代理开发最痛的议题。",
-        "uses": [
-          "重度使用 Claude Code、Cursor 等编码代理、常被上下文窗口限制的开发者",
-          "需要跨多个平台统一管理代理会话与记忆的团队",
-          "希望降低工具输出 token 成本、控制 API 账单的工程团队",
-          "为代理工具链做集成、想接入 MCP 生态的插件作者"
-        ]
-      },
-      "en": {
-        "tag": "Context window optimization for AI coding agents: sandbox tool output, persist memory, route across platforms",
-        "what": "Context Mode is a context-optimization layer for AI coding agents that sandboxes tool output, claiming roughly a 98% reduction in context usage. It also persists session memory and enforces routing across 17 platforms via MCP and hooks, so agents keep state without blowing the window.",
-        "content": "The repo is TypeScript-based, centered on an MCP server plus hook integrations, with an npm package, marketplace entry, stats script, and Discord community links.",
-        "stack": "Primarily TypeScript, built on the MCP protocol and platform hook systems, distributed via npm under the ELv2 license.",
-        "hot": "With 24,069 stars and 4,034 added this month, it ranks 14th on GitHub Trending's TypeScript monthly list and hit #1 on Hacker News with 570+ points — context cost is the sharpest pain in agent development right now.",
-        "uses": [
-          "Developers who lean on Claude Code, Cursor, and similar agents and keep hitting context limits",
-          "Teams needing unified session memory and routing across multiple agent platforms",
-          "Engineering teams trying to cut tool-output token costs and API bills",
-          "Toolchain integrators and plugin authors building on the MCP ecosystem"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-09-08",
-        "is_new": false,
-        "is_back": false,
-        "hist": [
-          {
-            "d": "2026-09-08",
-            "s": 20.8,
-            "r": 3
-          },
-          {
-            "d": "2026-10-01",
-            "s": 24.5,
-            "r": 4
-          }
-        ]
-      }
-    },
-    {
-      "slug": "portal-ai-plugins",
-      "full": "spotify/portal-ai-plugins",
-      "rank": 8,
-      "cat": "agent",
-      "lang": "TypeScript",
-      "stars": 2.5,
-      "today": "+2.0k",
-      "today_n": 1993,
-      "auto": false,
-      "zh": {
-        "tag": "Spotify官方插件，将Portal能力接入Claude Code、Codex和Cursor",
-        "what": "这是Spotify Portal的AI插件，为Claude Code、Codex和Cursor提供聚焦的工作流，包括设置认证、搜索软件目录、生成服务简报、运行诊断和调用Portal操作。",
-        "content": "仓库包含Portal插件和可选的shunt插件，提供setup、doctor、search、service、actions、feedback等工作流，并包含详细的安装说明。",
-        "stack": "基于TypeScript开发，依赖@spotify/portal-cli，通过npx调用CLI命令，支持Claude Code、Codex和Cursor等AI编码环境。",
-        "hot": "作为Spotify官方项目，它无缝集成主流AI编码工具，本月新增2181星，总星数达2425，登上GitHub Trending月榜第8名。",
-        "uses": [
-          "使用Claude Code、Codex或Cursor的开发者，希望快速接入Spotify Portal服务。",
-          "需要管理软件目录、生成服务简报或运行诊断的SRE和平台工程师。",
-          "希望利用AI代理自动化Portal操作并确保安全性的团队。"
-        ]
-      },
-      "en": {
-        "tag": "Spotify's official plugin bringing Portal into Claude Code, Codex, and Cursor",
-        "what": "This is Spotify Portal's AI plugin that provides focused workflows for Claude Code, Codex, and Cursor, including setting up authentication, searching the software catalog, building service briefings, running diagnostics, and invoking Portal actions.",
-        "content": "The repo contains the Portal plugin and an optional shunt plugin, offering workflows like setup, doctor, search, service, actions, and feedback, along with detailed installation instructions.",
-        "stack": "Built with TypeScript, depends on @spotify/portal-cli, invokes CLI commands via npx, and supports AI coding environments like Claude Code, Codex, and Cursor.",
-        "hot": "As an official Spotify project, it seamlessly integrates with mainstream AI coding tools, gaining 2,181 stars this month (total 2,425) and ranking 8th on GitHub Trending monthly.",
-        "uses": [
-          "Developers using Claude Code, Codex, or Cursor who want quick access to Spotify Portal services.",
-          "SREs and platform engineers needing to manage software catalogs, generate service briefings, or run diagnostics.",
-          "Teams looking to automate Portal actions with AI agents while ensuring safety."
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
       "slug": "colibri",
       "full": "JustVugg/colibri",
       "rank": 18,
       "cat": "ai",
       "lang": "C",
-      "stars": 40.6,
-      "today": "+13.7k",
-      "today_n": 13653,
+      "stars": 40.8,
+      "today": "+13.8k",
+      "today_n": 13755,
       "auto": false,
       "zh": {
         "tag": "纯 C 无依赖，从磁盘流式加载专家，在自有硬件上跑前沿 MoE 大模型",
@@ -11529,14 +10729,69 @@ window.TRENDING_DATA = {
       }
     },
     {
+      "slug": "context-mode",
+      "full": "mksglu/context-mode",
+      "rank": 4,
+      "cat": "agent",
+      "lang": "TypeScript",
+      "stars": 26.0,
+      "today": "+4.4k",
+      "today_n": 4398,
+      "auto": false,
+      "zh": {
+        "tag": "为 AI 编码代理压缩上下文窗口、沙箱化工具输出并持久化会话记忆",
+        "what": "Context Mode 是面向 AI 编码代理的上下文优化层，把工具输出放进沙箱处理，官方称可减少约 98% 的上下文占用。它同时持久化会话记忆，并通过 MCP 与 hooks 在 17 个平台上统一路由，让代理在长任务中不丢状态、不爆窗口。",
+        "content": "仓库以 TypeScript 实现，核心是 MCP 服务与 hooks 集成，附带 npm 包、插件市场入口、统计脚本与 Discord 社区链接。",
+        "stack": "主语言 TypeScript，依赖 MCP 协议与各代理平台的 hooks 机制，通过 npm 分发，采用 ELv2 许可。",
+        "hot": "月增 4034 star、总量 24069，登上 GitHub Trending TypeScript 月榜第 14，并在 Hacker News 拿到 570+ 分的第一名，上下文成本是当下代理开发最痛的议题。",
+        "uses": [
+          "重度使用 Claude Code、Cursor 等编码代理、常被上下文窗口限制的开发者",
+          "需要跨多个平台统一管理代理会话与记忆的团队",
+          "希望降低工具输出 token 成本、控制 API 账单的工程团队",
+          "为代理工具链做集成、想接入 MCP 生态的插件作者"
+        ]
+      },
+      "en": {
+        "tag": "Context window optimization for AI coding agents: sandbox tool output, persist memory, route across platforms",
+        "what": "Context Mode is a context-optimization layer for AI coding agents that sandboxes tool output, claiming roughly a 98% reduction in context usage. It also persists session memory and enforces routing across 17 platforms via MCP and hooks, so agents keep state without blowing the window.",
+        "content": "The repo is TypeScript-based, centered on an MCP server plus hook integrations, with an npm package, marketplace entry, stats script, and Discord community links.",
+        "stack": "Primarily TypeScript, built on the MCP protocol and platform hook systems, distributed via npm under the ELv2 license.",
+        "hot": "With 24,069 stars and 4,034 added this month, it ranks 14th on GitHub Trending's TypeScript monthly list and hit #1 on Hacker News with 570+ points — context cost is the sharpest pain in agent development right now.",
+        "uses": [
+          "Developers who lean on Claude Code, Cursor, and similar agents and keep hitting context limits",
+          "Teams needing unified session memory and routing across multiple agent platforms",
+          "Engineering teams trying to cut tool-output token costs and API bills",
+          "Toolchain integrators and plugin authors building on the MCP ecosystem"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-09-08",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-09-08",
+            "s": 20.8,
+            "r": 3
+          },
+          {
+            "d": "2026-10-01",
+            "s": 24.5,
+            "r": 4
+          }
+        ]
+      }
+    },
+    {
       "slug": "cua",
       "full": "trycua/cua",
       "rank": 10,
       "cat": "agent",
       "lang": "Rust",
-      "stars": 29.1,
-      "today": "+6.8k",
-      "today_n": 6777,
+      "stars": 29.2,
+      "today": "+6.9k",
+      "today_n": 6877,
       "auto": false,
       "zh": {
         "tag": "给 AI 代理一台可用的电脑：开源驱动、跨系统机群与评测基准",
@@ -11600,8 +10855,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "Rust",
       "stars": 9.1,
-      "today": "+2.2k",
-      "today_n": 2240,
+      "today": "+2.3k",
+      "today_n": 2301,
       "auto": false,
       "zh": {
         "tag": "面向并行 AI 代理工作流的 Git worktree 管理 CLI",
@@ -11649,9 +10904,9 @@ window.TRENDING_DATA = {
       "rank": 11,
       "cat": "infra",
       "lang": "Python",
-      "stars": 86.4,
-      "today": "+7.3k",
-      "today_n": 7279,
+      "stars": 86.5,
+      "today": "+7.2k",
+      "today_n": 7174,
       "auto": false,
       "zh": {
         "tag": "自适应网页抓取框架，从单次请求到大规模爬取",
@@ -11681,7 +10936,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11694,8 +10949,8 @@ window.TRENDING_DATA = {
       "cat": "ai",
       "lang": "Python",
       "stars": 39.0,
-      "today": "+3.5k",
-      "today_n": 3537,
+      "today": "+3.6k",
+      "today_n": 3566,
       "auto": false,
       "zh": {
         "tag": "用树形索引与推理取代向量检索的无向量 RAG 方案",
@@ -11743,14 +10998,64 @@ window.TRENDING_DATA = {
       }
     },
     {
+      "slug": "treg",
+      "full": "superdesigndev/treg",
+      "rank": 13,
+      "cat": "agent",
+      "lang": "Python",
+      "stars": 4.9,
+      "today": "+3.7k",
+      "today_n": 3654,
+      "auto": false,
+      "zh": {
+        "tag": "面向 AI 代理的工具版 OpenRouter，一个令牌调用 3000+ 工具端点",
+        "what": "Treg 是给 AI 代理用的工具聚合网关，类似 OpenRouter 但对象是工具而非模型。代理只需一个 base URL 和一个令牌，就能调用 60+ 供应商的 3000+ 端点，按次计费、低至一分钱，无需向各供应商注册。",
+        "content": "仓库包含 Python 实现的代理服务、CLI 安装脚本与工具目录，支持 endpoint、CLI、skill/bundle 三类注册形式，并提供托管版 treg.to 与自托管方案。",
+        "stack": "主语言 Python，通过 HTTP 代理转发上游请求并在服务端注入凭证，CLI 以 shell 脚本安装，托管于 Render。",
+        "hot": "上线不久即获 3164 stars，今日新增 468，登上 GitHub Trending 日榜第 13 名，切中了代理工具接入碎片化、订阅昂贵的痛点。",
+        "uses": [
+          "AI 代理开发者：想让代理直接调用搜索、爬虫、社媒等外部工具而无需逐个对接供应商",
+          "独立开发者与小团队：不想为单次任务购买 Semrush、Apollo 等高价订阅",
+          "企业团队：希望统一管理自有 API 密钥、CLI 与 SKILL.md，并让全员代理安全复用",
+          "自托管用户：需要私有化部署工具网关并掌控凭证与计费"
+        ]
+      },
+      "en": {
+        "tag": "OpenRouter for agent tools — one token, 3,000+ tool endpoints",
+        "what": "Treg is a tool aggregation gateway for AI agents — OpenRouter, but for tools instead of models. Point an agent at one base URL with one token and it can call 3,000+ endpoints across 60+ providers, priced per call from a cent, with no provider signup.",
+        "content": "The repo contains a Python proxy service, a CLI installer, and the tool catalog, supporting endpoints, CLIs, and skill/bundle registrations, with both a hosted treg.to and self-hosting.",
+        "stack": "Written mainly in Python; it proxies upstream requests over HTTP and injects credentials server-side, with a shell-installed CLI, hosted on Render.",
+        "hot": "It quickly reached 3,164 stars with 468 added today, ranking 13th on GitHub Trending daily, hitting the pain of fragmented, expensive agent tool access.",
+        "uses": [
+          "AI agent developers who want agents to call search, scraping, and social tools without integrating each vendor",
+          "Indie developers and small teams unwilling to buy pricey Semrush or Apollo subscriptions for a single run",
+          "Enterprise teams wanting to manage their own API keys, CLIs, and SKILL.md files securely across all agents",
+          "Self-hosters who need a private tool gateway with full control over credentials and billing"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-09-25",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-09-25",
+            "s": 3.2,
+            "r": 13
+          }
+        ]
+      }
+    },
+    {
       "slug": "system_prompts_leaks",
       "full": "asgeirtj/system_prompts_leaks",
       "rank": 12,
       "cat": "ai",
       "lang": "Python",
-      "stars": 69.2,
+      "stars": 69.3,
       "today": "+5.1k",
-      "today_n": 5103,
+      "today_n": 5092,
       "auto": false,
       "zh": {
         "tag": "全球主流大模型系统提示词泄露合集，持续更新",
@@ -11808,9 +11113,9 @@ window.TRENDING_DATA = {
       "rank": 5,
       "cat": "agent",
       "lang": "Python",
-      "stars": 19.7,
+      "stars": 19.8,
       "today": "+3.1k",
-      "today_n": 3128,
+      "today_n": 3074,
       "auto": false,
       "zh": {
         "tag": "AI 代理技能安装前的安全扫描器",
@@ -11840,7 +11145,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11854,7 +11159,7 @@ window.TRENDING_DATA = {
       "lang": "Python",
       "stars": 32.5,
       "today": "+2.1k",
-      "today_n": 2054,
+      "today_n": 2065,
       "auto": false,
       "zh": {
         "tag": "配置与监控 Claude Code 的 CLI 工具",
@@ -11882,51 +11187,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "core",
-      "full": "home-assistant/core",
-      "rank": 16,
-      "cat": "infra",
-      "lang": "Python",
-      "stars": 91.3,
-      "today": "+1.2k",
-      "today_n": 1152,
-      "auto": false,
-      "zh": {
-        "tag": "本地优先的开源智能家居自动化平台",
-        "what": "Home Assistant 是一个开源家庭自动化平台，把本地控制和隐私放在首位，让用户把不同品牌的智能设备统一接入并编排自动化。它由全球 DIY 爱好者社区驱动，可运行在树莓派或本地服务器上。",
-        "content": "仓库是 Home Assistant 的核心代码库，采用模块化架构，包含大量官方集成（integrations）以及设备与动作的组件实现，并配有架构与自定义组件开发文档。",
-        "stack": "主要使用 Python 编写，采用模块化组件架构，依赖社区维护的各类设备集成，可部署在树莓派或本地服务器上。",
-        "hot": "作为智能家居领域最知名的开源项目之一，它已积累 91305 颗星，本月新增 1155 颗，位列 GitHub Trending 月榜 Python 第 16 名，本地优先与隐私理念持续吸引新用户。",
-        "uses": [
-          "智能家居爱好者：把不同品牌的灯、传感器、开关统一接入并本地控制",
-          "注重隐私的用户：希望数据留在本地、不依赖云服务的家庭自动化场景",
-          "开发者与 DIY 玩家：基于模块化架构开发自定义集成与自动化组件",
-          "树莓派/本地服务器用户：在自有硬件上搭建家庭自动化中枢"
-        ]
-      },
-      "en": {
-        "tag": "Open source, local-first home automation platform",
-        "what": "Home Assistant is an open source home automation platform that puts local control and privacy first, letting users unify smart devices from different brands and orchestrate automations. It is powered by a worldwide community of tinkerers and DIY enthusiasts and runs on a Raspberry Pi or local server.",
-        "content": "The repo is the core codebase of Home Assistant, built with a modular architecture containing numerous official integrations plus device and action components, along with architecture and custom-component developer docs.",
-        "stack": "Written primarily in Python with a modular component architecture, relying on community-maintained device integrations and deployable on a Raspberry Pi or local server.",
-        "hot": "As one of the best-known open source projects in smart home, it has gathered 91,305 stars with 1,155 added this month, ranking 16th on GitHub Trending's monthly Python list, as its local-first and privacy-first philosophy keeps drawing new users.",
-        "uses": [
-          "Smart home enthusiasts: unify lights, sensors and switches from different brands with local control",
-          "Privacy-conscious users: home automation that keeps data local and avoids cloud dependence",
-          "Developers and DIY tinkerers: build custom integrations and automation components on the modular architecture",
-          "Raspberry Pi / local server users: run a home automation hub on their own hardware"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11938,9 +11199,9 @@ window.TRENDING_DATA = {
       "rank": 17,
       "cat": "ai",
       "lang": "Python",
-      "stars": 103.9,
+      "stars": 104.0,
       "today": "+1.3k",
-      "today_n": 1252,
+      "today_n": 1290,
       "auto": false,
       "zh": {
         "tag": "深度学习框架标杆，张量计算与动态神经网络",
@@ -11970,7 +11231,51 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "core",
+      "full": "home-assistant/core",
+      "rank": 16,
+      "cat": "infra",
+      "lang": "Python",
+      "stars": 91.3,
+      "today": "+1.2k",
+      "today_n": 1154,
+      "auto": false,
+      "zh": {
+        "tag": "本地优先的开源智能家居自动化平台",
+        "what": "Home Assistant 是一个开源家庭自动化平台，把本地控制和隐私放在首位，让用户把不同品牌的智能设备统一接入并编排自动化。它由全球 DIY 爱好者社区驱动，可运行在树莓派或本地服务器上。",
+        "content": "仓库是 Home Assistant 的核心代码库，采用模块化架构，包含大量官方集成（integrations）以及设备与动作的组件实现，并配有架构与自定义组件开发文档。",
+        "stack": "主要使用 Python 编写，采用模块化组件架构，依赖社区维护的各类设备集成，可部署在树莓派或本地服务器上。",
+        "hot": "作为智能家居领域最知名的开源项目之一，它已积累 91305 颗星，本月新增 1155 颗，位列 GitHub Trending 月榜 Python 第 16 名，本地优先与隐私理念持续吸引新用户。",
+        "uses": [
+          "智能家居爱好者：把不同品牌的灯、传感器、开关统一接入并本地控制",
+          "注重隐私的用户：希望数据留在本地、不依赖云服务的家庭自动化场景",
+          "开发者与 DIY 玩家：基于模块化架构开发自定义集成与自动化组件",
+          "树莓派/本地服务器用户：在自有硬件上搭建家庭自动化中枢"
+        ]
+      },
+      "en": {
+        "tag": "Open source, local-first home automation platform",
+        "what": "Home Assistant is an open source home automation platform that puts local control and privacy first, letting users unify smart devices from different brands and orchestrate automations. It is powered by a worldwide community of tinkerers and DIY enthusiasts and runs on a Raspberry Pi or local server.",
+        "content": "The repo is the core codebase of Home Assistant, built with a modular architecture containing numerous official integrations plus device and action components, along with architecture and custom-component developer docs.",
+        "stack": "Written primarily in Python with a modular component architecture, relying on community-maintained device integrations and deployable on a Raspberry Pi or local server.",
+        "hot": "As one of the best-known open source projects in smart home, it has gathered 91,305 stars with 1,155 added this month, ranking 16th on GitHub Trending's monthly Python list, as its local-first and privacy-first philosophy keeps drawing new users.",
+        "uses": [
+          "Smart home enthusiasts: unify lights, sensors and switches from different brands with local control",
+          "Privacy-conscious users: home automation that keeps data local and avoids cloud dependence",
+          "Developers and DIY tinkerers: build custom integrations and automation components on the modular architecture",
+          "Raspberry Pi / local server users: run a home automation hub on their own hardware"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -11982,9 +11287,9 @@ window.TRENDING_DATA = {
       "rank": 3,
       "cat": "infra",
       "lang": "Python",
-      "stars": 5.2,
+      "stars": 5.3,
       "today": "+1.5k",
-      "today_n": 1502,
+      "today_n": 1501,
       "auto": false,
       "zh": {
         "tag": "NVIDIA 官方模型压缩与推理加速统一库",
@@ -12037,58 +11342,47 @@ window.TRENDING_DATA = {
       }
     },
     {
-      "slug": "cli-anything",
-      "full": "HKUDS/CLI-Anything",
-      "rank": 19,
+      "slug": "asd-ste100-skill",
+      "full": "danyuchn/asd-ste100-skill",
+      "rank": 17,
       "cat": "agent",
       "lang": "Python",
-      "stars": 51.8,
-      "today": "+2.8k",
-      "today_n": 2765,
+      "stars": 4.3,
+      "today": "+2.4k",
+      "today_n": 2352,
       "auto": false,
       "zh": {
-        "tag": "让所有软件都能被 AI 代理直接调用的 CLI 生成与分发中心",
-        "what": "CLI-Anything 旨在为各类软件自动生成命令行接口（CLI），让 AI 代理无需 GUI 就能操作真实软件。它同时提供 CLI-Hub，用于浏览、安装和管理社区构建的 CLI，把「软件为人服务」转向「软件为代理服务」。",
-        "content": "仓库包含 CLI 生成/封装的核心代码、CLI-Hub 安装与管理工具，以及覆盖 18 个应用的真实演示（CAD、3D 场景、图表、游戏、字幕等）和 2461 项测试结果。",
-        "stack": "以 Python 为主，提供 pip 包 cli-anything-hub，依赖社区贡献的 CLI harness，并配套演示、预览与轨迹循环等运行机制。",
-        "hot": "星标已超 5.1 万、本月新增 2765，登上 GitHub Trending 月榜 Python 第 19 名，切中「代理操作软件」这一 2025 年最热议题。",
+        "tag": "将航空级简化技术英语规则用于AI代理输出改写",
+        "what": "这是一个Claude Code技能，将ASD-STE100简化技术英语标准应用于AI代理生成的英文文本，消除歧义。它重写工具描述、错误消息和代理间指令，确保下游代理准确解析。",
+        "content": "仓库包含技能定义、规则说明、前后对比示例（examples/before-after.md）以及Python实现代码。",
+        "stack": "主要使用Python实现，依赖Claude Code技能框架，无复杂外部依赖。",
+        "hot": "本月新增2352星，总星4253，登上GitHub Trending月榜Python第17名。它解决了AI代理间通信的歧义痛点，将航空安全标准创新地应用于AI领域。",
         "uses": [
-          "AI 代理开发者：为代理接入真实软件能力，替代脆弱的 GUI 自动化",
-          "工具链/平台工程师：把内部或第三方软件快速封装成可被代理调用的 CLI",
-          "开源贡献者：提交自己的 CLI harness 或通过 wishlist 请求支持某款软件",
-          "研究者与极客：复现 CAD、3D、游戏等代理操作真实软件的演示"
+          "AI代理开发者 —— 用于规范代理生成的工具描述和错误消息，减少下游解析错误。",
+          "提示工程师 —— 用于改写提示词和指令，使其更清晰、无歧义。",
+          "技术文档撰写者 —— 用于将复杂英文改写为简化技术英语，提高可读性。",
+          "多代理系统架构师 —— 用于制定代理间通信标准，确保可靠交互。"
         ]
       },
       "en": {
-        "tag": "Making all software agent-native via generated CLIs and a community hub",
-        "what": "CLI-Anything generates command-line interfaces for all kinds of software so AI agents can operate them without a GUI. It also ships CLI-Hub, a hub to browse, install and manage community-built CLIs, shifting software from human-first to agent-native.",
-        "content": "The repo contains the core CLI generation/wrapping code, the CLI-Hub install-and-manage tooling, real-world demos across 18 apps (CAD, 3D scenes, diagrams, gameplay, subtitles) and 2,461 passing tests.",
-        "stack": "Primarily Python, distributed as the pip package cli-anything-hub, relying on community-contributed CLI harnesses plus demo, preview and trajectory-loop mechanisms.",
-        "hot": "With over 51.7k stars and 2,765 added this month, it ranks 19th on GitHub Trending's monthly Python list, riding the hottest 2025 theme of agents operating real software.",
+        "tag": "Aerospace-grade Simplified Technical English rules for rewriting AI agent output",
+        "what": "A Claude Code skill that applies the ASD-STE100 Simplified Technical English standard to rewrite ambiguous English generated by AI agents. It rewrites tool descriptions, error messages, and inter-agent instructions to ensure accurate parsing by downstream agents.",
+        "content": "The repository contains the skill definition, rule explanations, before-after examples (examples/before-after.md), and Python implementation code.",
+        "stack": "Primarily implemented in Python, relying on the Claude Code skill framework, with no complex external dependencies.",
+        "hot": "Gained 2,352 stars this month, totaling 4,253, ranking 17th on GitHub Trending monthly Python list. It addresses the ambiguity pain point in inter-agent communication, innovatively applying aerospace safety standards to AI.",
         "uses": [
-          "AI agent developers: give agents real software capabilities instead of fragile GUI automation",
-          "Tooling/platform engineers: wrap internal or third-party software into agent-callable CLIs",
-          "Open-source contributors: submit a CLI harness or request support for specific software via wishlist",
-          "Researchers and tinkerers: reproduce demos of agents driving CAD, 3D, games and more"
+          "AI agent developers — to standardize tool descriptions and error messages generated by agents, reducing downstream parsing errors.",
+          "Prompt engineers — to rewrite prompts and instructions for clarity and unambiguity.",
+          "Technical writers — to convert complex English into Simplified Technical English for better readability.",
+          "Multi-agent system architects — to establish inter-agent communication standards for reliable interactions."
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-08-16",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
-        "hist": [
-          {
-            "d": "2026-08-16",
-            "s": 47.4,
-            "r": 12
-          },
-          {
-            "d": "2026-09-25",
-            "s": 50.3,
-            "r": 8
-          }
-        ]
+        "hist": []
       }
     },
     {
@@ -12099,7 +11393,7 @@ window.TRENDING_DATA = {
       "lang": "Python",
       "stars": 68.6,
       "today": "+2.5k",
-      "today_n": 2510,
+      "today_n": 2528,
       "auto": false,
       "zh": {
         "tag": "把各类文档解析成 GenAI 可用结构化数据的工具库",
@@ -12142,39 +11436,81 @@ window.TRENDING_DATA = {
       }
     },
     {
-      "slug": "claude-red",
-      "full": "SnailSploit/Claude-Red",
-      "rank": 18,
-      "cat": "agent",
+      "slug": "tilelang",
+      "full": "tile-ai/tilelang",
+      "rank": 10,
+      "cat": "infra",
       "lang": "Python",
-      "stars": 7.4,
-      "today": "+4.5k",
-      "today_n": 4464,
+      "stars": 8.5,
+      "today": "+1.2k",
+      "today_n": 1182,
       "auto": false,
       "zh": {
-        "tag": "为 Claude 打造的红队攻击技能库，78 个 SKILL.md 即插即用",
-        "what": "claude-red 是面向 Claude Skills 系统的攻击性安全技能库，每个技能都是一份结构化的 SKILL.md 文件，为特定攻击面（如 SQL 注入、shellcode、EDR 绕过、漏洞开发）预置专家级方法论。把它放入 Claude 环境后，Claude 会像领域专家一样掌握相应技术与工具链。",
-        "content": "仓库包含 78 个技能、覆盖 23 个分类，按 Web、认证与身份、活动目录、无线等目录组织，另附 banner、安装脚本 install.sh 与技能索引。",
-        "stack": "以 Python 为主语言，核心形态是 Markdown 格式的 SKILL.md 文件，依赖 Claude Skills 系统的按需加载机制，可通过 git sparse-checkout 或 install.sh 安装。",
-        "hot": "本月新增 4238 星、总数达 7104，登上 GitHub Trending 月榜 Python 第 18 名，反映出 AI 代理与安全攻防结合这一热点方向的高关注度。",
+        "tag": "面向高性能 GPU/CPU/NPU 内核的 Python 领域特定语言",
+        "what": "TileLang 是一个简洁的领域特定语言，用于简化高性能 GPU/CPU/NPU 内核（如 GEMM、FlashAttention）的开发。它采用 Python 风格语法，底层基于 TVM 编译器基础设施，让开发者兼顾生产力和底层优化。",
+        "content": "仓库包含 TileLang 核心实现、示例（examples）、文档、测试以及针对不同后端的代码（如 Ascend NPU）。还提供了 LSP 工具和 Puzzles 学习资源。",
+        "stack": "主要使用 Python 编写，依赖 TVM 编译器栈，支持 CUDA、Metal、Ascend 等多种硬件后端。",
+        "hot": "TileLang 本周新增 639 颗星，登上 GitHub Trending 周榜第 10 名，总星数达 8503。其热度源于对高性能内核开发效率的显著提升，以及对新兴硬件（如华为昇腾 950）的快速支持。",
         "uses": [
-          "红队与渗透测试人员，用于授权攻防演练中的方法论参考",
-          "漏洞赏金猎人与安全研究者，用于快速梳理攻击面与排查思路",
-          "CTF 选手与安全学习者，用于系统化训练攻击技术",
-          "AI 代理开发者，用于研究技能库式提示工程与工具链集成"
+          "AI 系统工程师和性能优化专家，需要为特定硬件编写高效内核。",
+          "研究人员和开发者，希望快速实现和实验新的注意力机制或矩阵乘法算法。",
+          "学生和爱好者，通过 TileLang Puzzles 学习 GPU 编程和编译器技术。"
         ]
       },
       "en": {
-        "tag": "A curated offensive-security skill library that turns Claude into a context-aware red team operator.",
-        "what": "claude-red is a curated offensive-security skill library for the Claude Skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface, from SQLi to shellcode and EDR evasion to exploit development.",
-        "content": "The repo ships 78 skills across 23 categories, organized into directories like Web, Auth & Identity, Active Directory and Wireless, plus a banner, an install.sh script and a skill index.",
-        "stack": "Primarily Python, with the core artifacts being Markdown SKILL.md files. It relies on Claude Skills' on-demand loading and can be installed via git sparse-checkout or install.sh.",
-        "hot": "It gained 4,238 stars this month for a total of 7,104, ranking 18th on GitHub Trending's monthly Python list, reflecting strong interest in the intersection of AI agents and offensive security.",
+        "tag": "A Python DSL for high-performance GPU/CPU/NPU kernels",
+        "what": "TileLang is a concise domain-specific language designed to streamline the development of high-performance GPU/CPU/NPU kernels (e.g., GEMM, FlashAttention). It uses a Pythonic syntax with a compiler infrastructure built on TVM, allowing developers to focus on productivity without sacrificing low-level optimizations.",
+        "content": "The repository contains the core TileLang implementation, examples, documentation, tests, and backend-specific code (e.g., for Ascend NPU). It also offers an LSP tool and learning puzzles.",
+        "stack": "Primarily written in Python, it depends on the TVM compiler stack and supports multiple hardware backends such as CUDA, Metal, and Ascend.",
+        "hot": "TileLang gained 639 stars this week, ranking 10th on GitHub Trending, with a total of 8,503 stars. Its popularity stems from significantly improving kernel development productivity and rapid support for emerging hardware like Huawei Ascend 950.",
         "uses": [
-          "Red teamers and pentesters seeking methodology references for authorized engagements",
-          "Bug bounty hunters and security researchers triaging attack surfaces",
-          "CTF players and security learners training on structured offensive techniques",
-          "AI agent developers studying skill-library prompt engineering and toolchain integration"
+          "AI system engineers and performance optimization experts who need to write efficient kernels for specific hardware.",
+          "Researchers and developers who want to quickly implement and experiment with new attention mechanisms or matrix multiplication algorithms.",
+          "Students and enthusiasts learning GPU programming and compiler techniques through TileLang Puzzles."
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "yue",
+      "full": "multimodal-art-projection/YuE",
+      "rank": 20,
+      "cat": "ai",
+      "lang": "Python",
+      "stars": 11.1,
+      "today": "+4.8k",
+      "today_n": 4788,
+      "auto": false,
+      "zh": {
+        "tag": "前沿音乐生成模型，符号规划+音频合成统一，支持零样本翻唱与智能体编辑",
+        "what": "YuE2 是一个开源音乐生成模型，输入歌词和风格提示即可先写出旋律与和弦的符号化编曲方案，再渲染成完整歌曲音频。它把符号音乐生成与音频生成统一在一个框架里，并支持零样本翻唱和基于智能体的音乐编辑。",
+        "content": "仓库包含模型推理与训练代码、快速上手脚本、Agent skill 集成、技术报告与论文、演示与在线试听入口，以及 MERT2、SheetSage2 等配套模型和 WildSongBench 数据集链接。",
+        "stack": "以 Python 为主，围绕 PyTorch 深度学习栈构建，模型权重托管在 Hugging Face（YuE2-3B），并提供 arXiv 论文、PDF 技术报告与 Discord 社区支持。",
+        "hot": "项目本月新增约 4788 star、总数突破 1.1 万，登上 GitHub Trending 月榜 Python 第 20 名，并曾拿下 GitHub 全语言日榜第一、Hugging Face 文本转音频趋势榜第一，热度来自“可编辑的作曲式音乐生成”这一新颖定位。",
+        "uses": [
+          "音乐创作者与制作人：用歌词和风格提示快速生成可编辑的歌曲小样",
+          "AI 研究者：研究符号音乐与音频生成统一建模及基准评测",
+          "开发者与智能体玩家：通过 Agent skill 把音乐生成接入自动化工作流",
+          "翻唱与二次创作爱好者：体验零样本翻唱和风格化改编"
+        ]
+      },
+      "en": {
+        "tag": "Frontier music generation unifying symbolic planning and audio synthesis, with zero-shot covers and agentic editing",
+        "what": "YuE2 is an open-source music generation model: given lyrics and a style prompt, it first writes a symbolic melody-and-chord plan, then renders it into full song audio. It unifies symbolic and audio music generation in one framework, and supports zero-shot covers plus agentic music editing.",
+        "content": "The repo ships inference and training code, quick-start scripts, an Agent skill integration, a technical report and paper, demo and online-playground links, plus companion models like MERT2 and SheetSage2 and the WildSongBench dataset.",
+        "stack": "Primarily Python on a PyTorch deep-learning stack, with model weights hosted on Hugging Face (YuE2-3B), plus an arXiv paper, PDF technical report, and Discord community support.",
+        "hot": "It gained roughly 4,788 stars this month to pass 11k total, ranking #20 on GitHub's monthly Python trending list, and previously hit #1 on GitHub's all-language daily trending and #1 on Hugging Face text-to-audio trending, driven by its novel 'editable composition' take on music generation.",
+        "uses": [
+          "Music creators and producers: quickly generate editable song demos from lyrics and style prompts",
+          "AI researchers: study unified symbolic-and-audio music modeling and benchmark evaluation",
+          "Developers and agent builders: plug music generation into automated workflows via the Agent skill",
+          "Cover and remix enthusiasts: try zero-shot covers and stylistic adaptations"
         ]
       },
       "track": {
@@ -12185,23 +11521,23 @@ window.TRENDING_DATA = {
         "hist": [
           {
             "d": "2026-09-13",
-            "s": 3.6,
-            "r": 13
+            "s": 7.3,
+            "r": 14
           },
           {
             "d": "2026-09-14",
-            "s": 4.1,
-            "r": 13
+            "s": 7.8,
+            "r": 9
           },
           {
             "d": "2026-09-15",
-            "s": 4.7,
-            "r": 20
+            "s": 8.3,
+            "r": 3
           },
           {
             "d": "2026-09-17",
-            "s": 5.8,
-            "r": 17
+            "s": 9.4,
+            "r": 18
           }
         ]
       }
@@ -12212,9 +11548,9 @@ window.TRENDING_DATA = {
       "rank": 7,
       "cat": "agent",
       "lang": "TypeScript",
-      "stars": 45.4,
+      "stars": 45.5,
       "today": "+2.9k",
-      "today_n": 2894,
+      "today_n": 2900,
       "auto": false,
       "zh": {
         "tag": "开源多模型 AI 聊天平台，支持 Agents、MCP 与自托管",
@@ -12244,7 +11580,49 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "portal-ai-plugins",
+      "full": "spotify/portal-ai-plugins",
+      "rank": 8,
+      "cat": "agent",
+      "lang": "TypeScript",
+      "stars": 2.5,
+      "today": "+1.8k",
+      "today_n": 1778,
+      "auto": false,
+      "zh": {
+        "tag": "Spotify官方插件，将Portal能力接入Claude Code、Codex和Cursor",
+        "what": "这是Spotify Portal的AI插件，为Claude Code、Codex和Cursor提供聚焦的工作流，包括设置认证、搜索软件目录、生成服务简报、运行诊断和调用Portal操作。",
+        "content": "仓库包含Portal插件和可选的shunt插件，提供setup、doctor、search、service、actions、feedback等工作流，并包含详细的安装说明。",
+        "stack": "基于TypeScript开发，依赖@spotify/portal-cli，通过npx调用CLI命令，支持Claude Code、Codex和Cursor等AI编码环境。",
+        "hot": "作为Spotify官方项目，它无缝集成主流AI编码工具，本月新增2181星，总星数达2425，登上GitHub Trending月榜第8名。",
+        "uses": [
+          "使用Claude Code、Codex或Cursor的开发者，希望快速接入Spotify Portal服务。",
+          "需要管理软件目录、生成服务简报或运行诊断的SRE和平台工程师。",
+          "希望利用AI代理自动化Portal操作并确保安全性的团队。"
+        ]
+      },
+      "en": {
+        "tag": "Spotify's official plugin bringing Portal into Claude Code, Codex, and Cursor",
+        "what": "This is Spotify Portal's AI plugin that provides focused workflows for Claude Code, Codex, and Cursor, including setting up authentication, searching the software catalog, building service briefings, running diagnostics, and invoking Portal actions.",
+        "content": "The repo contains the Portal plugin and an optional shunt plugin, offering workflows like setup, doctor, search, service, actions, and feedback, along with detailed installation instructions.",
+        "stack": "Built with TypeScript, depends on @spotify/portal-cli, invokes CLI commands via npx, and supports AI coding environments like Claude Code, Codex, and Cursor.",
+        "hot": "As an official Spotify project, it seamlessly integrates with mainstream AI coding tools, gaining 2,181 stars this month (total 2,425) and ranking 8th on GitHub Trending monthly.",
+        "uses": [
+          "Developers using Claude Code, Codex, or Cursor who want quick access to Spotify Portal services.",
+          "SREs and platform engineers needing to manage software catalogs, generate service briefings, or run diagnostics.",
+          "Teams looking to automate Portal actions with AI agents while ensuring safety."
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -12258,7 +11636,7 @@ window.TRENDING_DATA = {
       "lang": "TypeScript",
       "stars": 111.3,
       "today": "+2.6k",
-      "today_n": 2640,
+      "today_n": 2648,
       "auto": false,
       "zh": {
         "tag": "基于 Postgres 的开源 Firebase 替代开发平台",
@@ -12311,9 +11689,9 @@ window.TRENDING_DATA = {
       "rank": 18,
       "cat": "agent",
       "lang": "TypeScript",
-      "stars": 70.0,
+      "stars": 70.1,
       "today": "+2.8k",
-      "today_n": 2793,
+      "today_n": 2782,
       "auto": false,
       "zh": {
         "tag": "开源自主编码代理，覆盖 IDE、终端与桌面",
@@ -12361,51 +11739,61 @@ window.TRENDING_DATA = {
       }
     },
     {
-      "slug": "vscode",
-      "full": "microsoft/vscode",
-      "rank": 9,
-      "cat": "infra",
+      "slug": "pi-desktop",
+      "full": "vastsa/PI-Desktop",
+      "rank": 12,
+      "cat": "agent",
       "lang": "TypeScript",
-      "stars": 193.5,
-      "today": "+3.0k",
-      "today_n": 3036,
+      "stars": 6.6,
+      "today": "+5.1k",
+      "today_n": 5117,
       "auto": false,
       "zh": {
-        "tag": "微软开源跨平台代码编辑器，全球开发者主力工具",
-        "what": "这是微软与社区共同开发的 Visual Studio Code 开源仓库（Code - OSS），提供代码编辑、导航、理解与轻量调试能力。官方 VS Code 发行版在此基础上加入微软定制，并以月度节奏更新功能与修复。",
-        "content": "仓库包含编辑器核心源码（以 TypeScript 为主）、构建脚本、扩展 API 与测试，并公开路线图、月度迭代计划和发布收尾（Endgame）流程文档。",
-        "stack": "主体使用 TypeScript 编写，基于 Electron 构建桌面端，依赖 Node.js 生态，并采用 MIT 许可证开源。",
-        "hot": "作为全球使用最广的编辑器之一，它已累积约 19.3 万 star，今日再增 95 并登上日榜第 9，热度来自持续的月度更新与庞大社区生态。",
+        "tag": "本地优先的模块化 AI 编程代理桌面工作台",
+        "what": "PI-Desktop 是一个把项目、代理、模型、插件和工作流整合进同一个持久化桌面环境的 AI 编程代理平台。它不依赖特定 IDE 或终端，让代理拥有独立、可扩展的工作空间，并支持多代理编排与模型自由切换。",
+        "content": "仓库包含 Electron 桌面应用、Rust 主机核心、pi Agent Harness 以及可用户安装的插件体系，并附有插件开发文档、截图与多语言 README。",
+        "stack": "主要使用 TypeScript 构建桌面端，配合 Rust 编写主机核心，基于 Electron 实现跨平台（macOS/Windows/Linux），并通过插件机制扩展工具、面板、MCP 服务器等能力。",
+        "hot": "本月新增 5117 颗星，总星数达 6584，登上 GitHub Trending 月榜 TypeScript 第 12 名，反映出开发者对本地优先、模型无关的 AI 代理桌面工作台的强烈需求。",
         "uses": [
-          "日常写代码的开发者，用它完成编辑、构建与调试全流程",
-          "插件作者，基于扩展 API 开发并发布 VS Code 插件",
-          "想参与开源贡献的开发者，可提交 bug、审阅 PR 或改进文档",
-          "企业团队，借助其跨平台与可定制性统一开发环境"
+          "希望为 AI 编程代理提供独立桌面工作空间的开发者",
+          "需要本地优先、模型可替换的 AI 代理工作流的团队",
+          "想要通过插件扩展代理能力与界面组件的进阶用户",
+          "对多代理编排与并行 Worker 会话感兴趣的研究者"
         ]
       },
       "en": {
-        "tag": "Microsoft's open-source cross-platform code editor, a daily driver for developers worldwide",
-        "what": "This is the open-source repository (Code - OSS) where Microsoft and the community build Visual Studio Code, offering code editing, navigation, understanding and lightweight debugging. The official VS Code distribution adds Microsoft-specific customizations on top and ships monthly feature and bug-fix updates.",
-        "content": "It contains the editor's core source (mostly TypeScript), build scripts, the extension API and tests, plus public roadmap, monthly iteration plans and endgame release documentation.",
-        "stack": "Written primarily in TypeScript, built on Electron for desktop, relying on the Node.js ecosystem and released under the MIT license.",
-        "hot": "As one of the world's most widely used editors, it has accumulated about 193k stars, gaining 95 more today to rank 9th on the daily trending list, fueled by continuous monthly releases and a massive community ecosystem.",
+        "tag": "A local-first, modular desktop workspace for AI coding agents",
+        "what": "PI-Desktop is a desktop platform that brings projects, agents, models, plugins, and workflows into one persistent environment for AI coding agents. It gives agents an independent, extensible workspace without tying them to a specific IDE or terminal, with multi-agent orchestration and model freedom.",
+        "content": "The repo contains an Electron desktop app, a Rust host core, the pi Agent Harness, and a user-installable plugin system, along with plugin development docs, screenshots, and multilingual READMEs.",
+        "stack": "Primarily TypeScript for the desktop app, with a Rust host core, built on Electron for cross-platform support (macOS/Windows/Linux), and extensible via plugins for tools, panels, MCP servers, and more.",
+        "hot": "It gained 5,117 stars this month, reaching 6,584 total, and ranked 12th on GitHub Trending's monthly TypeScript list, reflecting strong demand for a local-first, model-agnostic desktop workspace for AI agents.",
         "uses": [
-          "Everyday developers using it for the full edit-build-debug workflow",
-          "Extension authors building and publishing plugins on the extension API",
-          "Open-source contributors filing bugs, reviewing PRs or improving docs",
-          "Enterprise teams standardizing their dev environment via its cross-platform flexibility"
+          "Developers who want an independent desktop workspace for AI coding agents",
+          "Teams needing a local-first, model-agnostic AI agent workflow",
+          "Advanced users who want to extend agent capabilities and UI via plugins",
+          "Researchers interested in multi-agent orchestration and parallel worker sessions"
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-09-27",
+        "first": "2026-09-10",
         "is_new": false,
         "is_back": false,
         "hist": [
           {
-            "d": "2026-09-27",
-            "s": 193.1,
-            "r": 9
+            "d": "2026-09-10",
+            "s": 1.7,
+            "r": 12
+          },
+          {
+            "d": "2026-09-11",
+            "s": 2.3,
+            "r": 16
+          },
+          {
+            "d": "2026-09-12",
+            "s": 2.8,
+            "r": 5
           }
         ]
       }
@@ -12417,8 +11805,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "TypeScript",
       "stars": 5.7,
-      "today": "+703",
-      "today_n": 703,
+      "today": "+705",
+      "today_n": 705,
       "auto": false,
       "zh": {
         "tag": "修复 X/Twitter 与 Bluesky 链接预览的嵌入服务",
@@ -12467,8 +11855,8 @@ window.TRENDING_DATA = {
       "cat": "agent",
       "lang": "TypeScript",
       "stars": 13.8,
-      "today": "+8.2k",
-      "today_n": 8225,
+      "today": "+8.0k",
+      "today_n": 8044,
       "auto": false,
       "zh": {
         "tag": "把 ChatGPT 网页版（含 Pro）接入 Codex 原生模型选择器，不消耗 Codex 额度",
@@ -12498,7 +11886,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -12512,7 +11900,7 @@ window.TRENDING_DATA = {
       "lang": "TypeScript",
       "stars": 22.5,
       "today": "+8.3k",
-      "today_n": 8295,
+      "today_n": 8316,
       "auto": false,
       "zh": {
         "tag": "面向 AI 代理的一体化 Office 运行时 SDK",
@@ -12577,7 +11965,7 @@ window.TRENDING_DATA = {
       "lang": "TypeScript",
       "stars": 19.9,
       "today": "+5.8k",
-      "today_n": 5781,
+      "today_n": 5821,
       "auto": false,
       "zh": {
         "tag": "开源免费的实时行情追踪与公司洞察平台",
@@ -12630,79 +12018,14 @@ window.TRENDING_DATA = {
       }
     },
     {
-      "slug": "deskcommcrm",
-      "full": "melgarafael/DeskcommCRM",
-      "rank": 6,
-      "cat": "agent",
-      "lang": "TypeScript",
-      "stars": 4.5,
-      "today": "+3.8k",
-      "today_n": 3800,
-      "auto": false,
-      "zh": {
-        "tag": "开源自托管 AI 销售 CRM，原生 AI 代理接管 WhatsApp 聊天",
-        "what": "DeskcommCRM 是一个开源的 AI 销售操作系统，把能接待、筛选并促成成交的 AI 代理直接嵌进 CRM，通过 WhatsApp（WAHA）与客户对话。它是 Kommo、Octadesk、Intercom 的开源替代品，数据自持、无月费、无功能锁。",
-        "content": "仓库包含 Next.js 应用主体、WAHA 的 WhatsApp 集成、Supabase 数据库与认证、多租户与 LGPD 合规逻辑，以及 hostgator-setup-kit 一键部署脚本和架构/路线图文档。",
-        "stack": "技术栈为 TypeScript（strict）+ Next.js 16，后端依赖 Supabase（Postgres、Auth、Storage），WhatsApp 通道使用 WAHA，支持 MCP、多租户与自托管部署。",
-        "hot": "上线不久即冲到 GitHub Trending 日榜第 4，今日新增 152 star、总数 1347，说明拉美市场对「开源 + WhatsApp 原生 AI 销售」的需求被长期压抑。",
-        "uses": [
-          "通过 WhatsApp 成交的中小企业与销售团队，想摆脱 Kommo/Octadesk 的月费与功能锁定",
-          "需要数据主权与 LGPD 合规、希望把 CRM 跑在自己 VPS 上的巴西及拉美公司",
-          "想给现有销售流程加 AI 代理、并接入 MCP 生态的开发者与集成商",
-          "寻找 Intercom 开源替代、重视自托管与多租户能力的 SaaS 团队"
-        ]
-      },
-      "en": {
-        "tag": "Open-source self-hosted AI sales CRM with native AI agents on WhatsApp",
-        "what": "DeskcommCRM is an open-source AI sales OS that embeds AI agents capable of greeting, qualifying and closing deals directly inside a CRM, conversing with customers over WhatsApp (WAHA). It positions itself as the open alternative to Kommo, Octadesk and Intercom, with self-owned data, no monthly fees and no locked features.",
-        "content": "The repo contains the Next.js app, WhatsApp integration via WAHA, Supabase database and auth, multi-tenant and LGPD compliance logic, plus a hostgator-setup-kit one-command deploy script and architecture/roadmap docs.",
-        "stack": "Built with strict TypeScript and Next.js 16, backed by Supabase (Postgres, Auth, Storage), using WAHA for the WhatsApp channel, with MCP support, multi-tenancy and self-hosted deployment.",
-        "hot": "It hit #4 on GitHub Trending with 152 stars added today and 1,347 total, showing pent-up demand in LATAM for an open-source, WhatsApp-native AI sales tool.",
-        "uses": [
-          "SMBs and sales teams closing deals on WhatsApp who want to escape Kommo/Octadesk monthly fees and locked features",
-          "Brazilian and LATAM companies needing data sovereignty and LGPD compliance by running the CRM on their own VPS",
-          "Developers and integrators adding AI agents to existing sales flows and plugging into the MCP ecosystem",
-          "SaaS teams seeking an open-source Intercom alternative with self-hosting and multi-tenancy"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-09-12",
-        "is_new": false,
-        "is_back": false,
-        "hist": [
-          {
-            "d": "2026-09-12",
-            "s": 1.3,
-            "r": 4
-          },
-          {
-            "d": "2026-09-13",
-            "s": 1.8,
-            "r": 2
-          },
-          {
-            "d": "2026-09-14",
-            "s": 2.2,
-            "r": 5
-          },
-          {
-            "d": "2026-09-16",
-            "s": 2.8,
-            "r": 6
-          }
-        ]
-      }
-    },
-    {
       "slug": "ever-gauzy",
       "full": "ever-co/ever-gauzy",
       "rank": 17,
       "cat": "infra",
       "lang": "TypeScript",
       "stars": 8.3,
-      "today": "+4.1k",
-      "today_n": 4108,
+      "today": "+4.2k",
+      "today_n": 4190,
       "auto": false,
       "zh": {
         "tag": "开源企业级业务管理平台，集 ERP、CRM、HRM、ATS 与项目管理于一体",
@@ -12765,129 +12088,66 @@ window.TRENDING_DATA = {
       }
     },
     {
-      "slug": "orca",
-      "full": "stablyai/orca",
-      "rank": 14,
+      "slug": "deskcommcrm",
+      "full": "melgarafael/DeskcommCRM",
+      "rank": 6,
       "cat": "agent",
       "lang": "TypeScript",
-      "stars": 88.1,
-      "today": "+24.2k",
-      "today_n": 24245,
+      "stars": 4.5,
+      "today": "+3.8k",
+      "today_n": 3798,
       "auto": false,
       "zh": {
-        "tag": "并行多智能体编排的桌面级 ADE，自带订阅即可跑任意编码代理",
-        "what": "Orca 是一个面向编码代理的 ADE（Agent Development Environment），让你把 Codex、ClaudeCode、OpenCode、Pi 等代理并排运行，每个代理跑在独立的 git worktree 里并统一追踪。它支持桌面端、移动端伴侣 App 与远程运行时，用你自己的订阅即可驱动任意编码代理。",
-        "content": "仓库以 TypeScript 编写的桌面应用为主体，包含 resources 图标与构建资源、docs 多语言 README（中/日/韩/西/法/葡）与功能演示 GIF、移动端伴侣 App（iOS/TestFlight/Android APK）以及远程运行时相关代码。",
-        "stack": "主语言为 TypeScript，基于 Electron 风格的跨平台桌面应用（macOS/Windows/Linux），配套 iOS/Android 移动端与远程运行时，MIT 许可，依赖各编码代理 CLI 与 git worktree 机制。",
-        "hot": "本周新增 5362 star、总量约 6.95 万，冲上 GitHub Trending 周榜 TypeScript 第 14 名；多代理并行编排正是当下最热的开发范式，而 Orca 让用户用自己的订阅跑多个代理，切中成本与效率痛点。",
+        "tag": "开源自托管 AI 销售 CRM，原生 AI 代理接管 WhatsApp 聊天",
+        "what": "DeskcommCRM 是一个开源的 AI 销售操作系统，把能接待、筛选并促成成交的 AI 代理直接嵌进 CRM，通过 WhatsApp（WAHA）与客户对话。它是 Kommo、Octadesk、Intercom 的开源替代品，数据自持、无月费、无功能锁。",
+        "content": "仓库包含 Next.js 应用主体、WAHA 的 WhatsApp 集成、Supabase 数据库与认证、多租户与 LGPD 合规逻辑，以及 hostgator-setup-kit 一键部署脚本和架构/路线图文档。",
+        "stack": "技术栈为 TypeScript（strict）+ Next.js 16，后端依赖 Supabase（Postgres、Auth、Storage），WhatsApp 通道使用 WAHA，支持 MCP、多租户与自托管部署。",
+        "hot": "上线不久即冲到 GitHub Trending 日榜第 4，今日新增 152 star、总数 1347，说明拉美市场对「开源 + WhatsApp 原生 AI 销售」的需求被长期压抑。",
         "uses": [
-          "同时使用多个编码代理、需要并行对比结果的开发者",
-          "希望用自有订阅而非额外付费来驱动代理的个人与团队",
-          "需要在手机上监控和跟进代理进度、随时发指令的工程师",
-          "想用 git worktree 隔离实验、再择优合并的工程团队"
+          "通过 WhatsApp 成交的中小企业与销售团队，想摆脱 Kommo/Octadesk 的月费与功能锁定",
+          "需要数据主权与 LGPD 合规、希望把 CRM 跑在自己 VPS 上的巴西及拉美公司",
+          "想给现有销售流程加 AI 代理、并接入 MCP 生态的开发者与集成商",
+          "寻找 Intercom 开源替代、重视自托管与多租户能力的 SaaS 团队"
         ]
       },
       "en": {
-        "tag": "A desktop ADE for orchestrating a fleet of parallel coding agents on your own subscription",
-        "what": "Orca is an Agent Development Environment for running a fleet of coding agents in parallel. It runs Codex, ClaudeCode, OpenCode or Pi side-by-side, each in its own isolated git worktree, tracked in one place, and works on desktop, mobile companion app and remote runtime using your own subscription.",
-        "content": "The repo centers on a TypeScript desktop app, with build resources and icons, multilingual docs (zh-CN, ja, ko, es, fr, pt) plus feature GIFs, a mobile companion app (iOS App Store, TestFlight, Android APK) and remote runtime code.",
-        "stack": "Written mainly in TypeScript as a cross-platform desktop app (macOS/Windows/Linux), paired with iOS/Android companions and a remote runtime, MIT-licensed, and relying on coding-agent CLIs plus git worktrees.",
-        "hot": "It gained 5,362 stars this week to reach ~69.5k total, landing at #14 on GitHub Trending's weekly TypeScript chart. Parallel multi-agent orchestration is the hottest dev paradigm right now, and Orca's bring-your-own-subscription model hits both cost and efficiency pain points.",
+        "tag": "Open-source self-hosted AI sales CRM with native AI agents on WhatsApp",
+        "what": "DeskcommCRM is an open-source AI sales OS that embeds AI agents capable of greeting, qualifying and closing deals directly inside a CRM, conversing with customers over WhatsApp (WAHA). It positions itself as the open alternative to Kommo, Octadesk and Intercom, with self-owned data, no monthly fees and no locked features.",
+        "content": "The repo contains the Next.js app, WhatsApp integration via WAHA, Supabase database and auth, multi-tenant and LGPD compliance logic, plus a hostgator-setup-kit one-command deploy script and architecture/roadmap docs.",
+        "stack": "Built with strict TypeScript and Next.js 16, backed by Supabase (Postgres, Auth, Storage), using WAHA for the WhatsApp channel, with MCP support, multi-tenancy and self-hosted deployment.",
+        "hot": "It hit #4 on GitHub Trending with 152 stars added today and 1,347 total, showing pent-up demand in LATAM for an open-source, WhatsApp-native AI sales tool.",
         "uses": [
-          "Developers running multiple coding agents and comparing results in parallel",
-          "Individuals and teams wanting to drive agents with their own existing subscriptions",
-          "Engineers who need to monitor and steer agents from their phone on the go",
-          "Teams wanting isolated git worktree experiments and merging the winner"
+          "SMBs and sales teams closing deals on WhatsApp who want to escape Kommo/Octadesk monthly fees and locked features",
+          "Brazilian and LATAM companies needing data sovereignty and LGPD compliance by running the CRM on their own VPS",
+          "Developers and integrators adding AI agents to existing sales flows and plugging into the MCP ecosystem",
+          "SaaS teams seeking an open-source Intercom alternative with self-hosting and multi-tenancy"
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-08-12",
+        "first": "2026-09-12",
         "is_new": false,
         "is_back": false,
         "hist": [
           {
-            "d": "2026-08-12",
-            "s": 42.8,
-            "r": 10
-          },
-          {
-            "d": "2026-08-13",
-            "s": 43.9,
-            "r": 4
-          }
-        ]
-      }
-    },
-    {
-      "slug": "archify",
-      "full": "tt-a1i/archify",
-      "rank": 2,
-      "cat": "agent",
-      "lang": "JavaScript",
-      "stars": 80.3,
-      "today": "+25.9k",
-      "today_n": 25913,
-      "auto": false,
-      "zh": {
-        "tag": "AI 代理技能，一键生成可验证的交互式系统架构图",
-        "what": "Archify 是一个 AI 代理技能，可将代码库或系统描述转化为精美的交互式系统地图。它支持五种图表类型、四种预设、明暗主题和内置品牌标识，并能生成自包含的 HTML 文件，方便演示和分享。",
-        "content": "仓库包含技能定义、文档、示例和生成器代码，支持通过 npx 命令安装到 Raven、Cursor、Claude Code 等代理。提供项目页面、场景指南和画廊，展示不同用例。",
-        "stack": "主要基于 HTML，使用 TypeScript 生成确定性校验的 JSON IR，并输出 HTML、PNG、SVG、WebM 等格式。依赖 npx 进行安装，支持多种 AI 代理平台。",
-        "hot": "凭借 18k+ 星标和日增千星的势头，Archify 满足了开发者对可视化架构文档的迫切需求，尤其在 AI 辅助开发场景下，能快速生成可验证的图表，提升代码审查和沟通效率。",
-        "uses": [
-          "开发者希望在代码审查前快速生成架构对比图，确保变更可验证。",
-          "技术写作者或架构师需要为系统设计生成交互式演示文档，便于向团队或客户展示。",
-          "AI 代理用户希望将代码库映射为可视化图表，以便更直观地理解系统结构和数据流。"
-        ]
-      },
-      "en": {
-        "tag": "Agent skill that turns codebases into beautiful, verifiable interactive architecture diagrams",
-        "what": "Archify is an agent skill that transforms a codebase or system description into a polished, interactive system map. It supports five diagram types, four presets, dark/light themes, and built-in brand marks, producing self-contained HTML files for easy presentation and sharing.",
-        "content": "The repository contains skill definitions, documentation, examples, and generator code, installable via npx into agents like Raven, Cursor, and Claude Code. It includes a project page, scenario guide, and gallery showcasing various use cases.",
-        "stack": "Primarily HTML-based, using TypeScript to generate deterministically checked JSON IR, outputting HTML, PNG, SVG, WebM, and more. Installed via npx, compatible with multiple AI agent platforms.",
-        "hot": "With 18k+ stars and a daily gain of 1k, Archify addresses the urgent need for visual architecture documentation, especially in AI-assisted development, enabling quick generation of verifiable diagrams that boost code review and communication efficiency.",
-        "uses": [
-          "Developers who want to quickly generate architecture comparison diagrams before code review to ensure changes are verifiable.",
-          "Technical writers or architects needing interactive presentation documents for system designs to share with teams or clients.",
-          "AI agent users who want to map codebases into visual diagrams for better understanding of system structure and data flow."
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-08-27",
-        "is_new": false,
-        "is_back": false,
-        "hist": [
-          {
-            "d": "2026-08-27",
-            "s": 18.1,
-            "r": 1
-          },
-          {
-            "d": "2026-08-28",
-            "s": 23.9,
+            "d": "2026-09-12",
+            "s": 1.3,
             "r": 4
           },
           {
-            "d": "2026-08-29",
-            "s": 27.4,
-            "r": 1
-          },
-          {
-            "d": "2026-08-30",
-            "s": 31.1,
-            "r": 1
-          },
-          {
-            "d": "2026-08-31",
-            "s": 34.6,
-            "r": 4
-          },
-          {
-            "d": "2026-09-01",
-            "s": 38.8,
+            "d": "2026-09-13",
+            "s": 1.8,
             "r": 2
+          },
+          {
+            "d": "2026-09-14",
+            "s": 2.2,
+            "r": 5
+          },
+          {
+            "d": "2026-09-16",
+            "s": 2.8,
+            "r": 6
           }
         ]
       }
@@ -12899,8 +12159,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "JavaScript",
       "stars": 4.2,
-      "today": "+1.9k",
-      "today_n": 1925,
+      "today": "+2.0k",
+      "today_n": 1952,
       "auto": false,
       "zh": {
         "tag": "模块化物流与供应链操作系统",
@@ -12930,7 +12190,181 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "neo",
+      "full": "hughhowey/neo",
+      "rank": 7,
+      "cat": "other",
+      "lang": "JavaScript",
+      "stars": 1.4,
+      "today": "+957",
+      "today_n": 957,
+      "auto": false,
+      "zh": {
+        "tag": "小说家打造的无干扰写作软件，专注写书本身",
+        "what": "NEO 是一款专为写小说设计的本地写作软件，从安装起就假定你只写书，界面像书稿而非文档列表。它完全离线运行，稿件以纯文本文件保存在本地，无需账号、订阅，且免费。",
+        "content": "仓库包含 macOS（.dmg/arm64）、Windows（安装版与便携版 .exe）和 Linux（.AppImage）的安装包与发布文件，以及应用源码。核心功能有书架式书库、自动章节编号、Darlings 暂存区、占位符待办和进度条。",
+        "stack": "主语言为 JavaScript，基于 Electron 构建跨平台桌面应用，本地文件存储，无后端服务或云依赖。",
+        "hot": "本周新增 222 星、总计 1340 星，登上 GitHub Trending JavaScript 周榜第 7 名；由小说家亲自打造、免费无订阅的定位，加上对写作者痛点的精准回应，吸引了大量关注。",
+        "uses": [
+          "小说与长篇虚构写作者，需要沉浸式无干扰环境",
+          "厌倦订阅制与云同步、重视本地纯文本存稿的作者",
+          "想用书架式管理多部作品、系列与笔名的写手",
+          "对 Electron 桌面应用或写作工具设计感兴趣的开发者"
+        ]
+      },
+      "en": {
+        "tag": "A distraction-free word processor for novelists, built by a novelist",
+        "what": "NEO is a local writing app built specifically for novelists, assuming from install that you only write books, with manuscripts that look like books. It runs fully offline, saves drafts as plain files on your disk, and needs no accounts, subscriptions, or fees.",
+        "content": "The repo holds installers and release files for macOS (.dmg/arm64), Windows (setup and portable .exe), and Linux (.AppImage), plus the app source. Core features include a bookshelf-style library, auto-numbered chapters, a Darlings holding area, placeholder to-dos, and progress bars.",
+        "stack": "Written mainly in JavaScript and built as a cross-platform desktop app with Electron, using local file storage with no backend or cloud dependency.",
+        "hot": "It gained 222 stars this week for a total of 1,340, ranking 7th on GitHub Trending's weekly JavaScript chart. Being built by a novelist, free with no subscription, and sharply tuned to writers' pain points has drawn wide attention.",
+        "uses": [
+          "Novelists and long-form fiction writers who need a distraction-free environment",
+          "Authors tired of subscriptions and cloud sync who value local plain-text drafts",
+          "Writers managing multiple books, series, or pen names with a bookshelf view",
+          "Developers curious about Electron desktop apps or writing-tool design"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "webkit",
+      "full": "WebKit/WebKit",
+      "rank": 18,
+      "cat": "infra",
+      "lang": "JavaScript",
+      "stars": 10.2,
+      "today": "+156",
+      "today_n": 156,
+      "auto": false,
+      "zh": {
+        "tag": "跨平台浏览器引擎，驱动 Safari 等应用",
+        "what": "WebKit 是一个跨平台网页浏览器引擎，在 iOS 和 macOS 上驱动 Safari、邮件、Apple Books 等应用，也支持 Linux。它负责渲染网页内容，是许多苹果生态应用的核心组件。",
+        "content": "仓库包含完整的 WebKit 引擎源代码，包括渲染引擎、JavaScript 引擎、网络层等，以及构建脚本、测试套件和开发工具。",
+        "stack": "主要使用 C++、JavaScript 和 Objective-C 等语言，依赖 Xcode 构建工具链，支持 macOS、iOS、Linux 等平台。",
+        "hot": "作为 Safari 和众多苹果应用的核心引擎，WebKit 一直是开发者关注的焦点。本月新增 149 stars，总 stars 达 10214，在 GitHub Trending 月榜 JavaScript 分类中排名第 18。",
+        "uses": [
+          "浏览器引擎开发者 —— 需要深入了解或贡献 WebKit 的开发者",
+          "苹果平台应用开发者 —— 希望优化应用内网页渲染性能的开发者",
+          "Web 标准爱好者 —— 关注浏览器引擎实现和 Web 标准进展的技术人员"
+        ]
+      },
+      "en": {
+        "tag": "Cross-platform browser engine powering Safari and more",
+        "what": "WebKit is a cross-platform web browser engine that powers Safari, Mail, Apple Books, and many other applications on iOS and macOS, with support for Linux. It handles web content rendering and is a core component of many Apple ecosystem apps.",
+        "content": "The repository contains the complete WebKit engine source code, including rendering engine, JavaScript engine, networking layer, as well as build scripts, test suites, and development tools.",
+        "stack": "Primarily written in C++, JavaScript, and Objective-C, it relies on the Xcode toolchain for building and supports platforms like macOS, iOS, and Linux.",
+        "hot": "As the core engine behind Safari and many Apple apps, WebKit remains a focus for developers. It gained 149 stars this month, reaching 10,214 total stars, ranking 18th on GitHub Trending monthly JavaScript list.",
+        "uses": [
+          "Browser engine developers — those who want to understand or contribute to WebKit",
+          "Apple platform app developers — those looking to optimize web rendering performance in their apps",
+          "Web standards enthusiasts — technologists interested in browser engine implementations and web standards progress"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "awesome-zhuiju-free",
+      "full": "laoma528/awesome-zhuiju-free",
+      "rank": 15,
+      "cat": "other",
+      "lang": "JavaScript",
+      "stars": 11.6,
+      "today": "+3.5k",
+      "today_n": 3541,
+      "auto": false,
+      "zh": {
+        "tag": "免费无广告追剧资源指南，人工精选每日检测",
+        "what": "这是一个聚合免费无广告追剧资源的导航型仓库，收录在线影视站、影视 APP、网盘搜索、磁力 BT、字幕、TVBox/影视仓接口、IPTV 直播源、会员拼团和影视开源项目。所有资源由人工精选，并通过自动化流程每天检测有效性。",
+        "content": "主体是一份精选资源清单（resources/resources.json 等数据文件），配套网站 zhuiju.me，并带有资源计数徽章（当前 117 个资源）和检测时间徽章。",
+        "stack": "以 JavaScript 为主，资源以 JSON 数据形式维护，依赖 GitHub Actions 做可用性检测（check-availability.yml）和数据校验（validate-data.yml）。",
+        "hot": "免费追剧是长期刚需，而它用“人工精选 + 每日自动检测”解决了资源失效快的痛点；本月新增 3452 star，总 star 达 11441，冲上 GitHub Trending 月榜 JavaScript 第 15 名。",
+        "uses": [
+          "想免费无广告追剧、找在线影视站和影视 APP 的普通用户",
+          "折腾 TVBox / 影视仓、需要接口配置和 IPTV 直播源的玩家",
+          "想找磁力 BT、字幕、网盘搜索等资源渠道的用户",
+          "关注影视类开源项目、想参与社区共建的开发者"
+        ]
+      },
+      "en": {
+        "tag": "A free, ad-free guide to streaming resources, hand-picked and checked daily",
+        "what": "This is a curated navigation repo for free, ad-free streaming resources, covering online movie sites, streaming apps, cloud-drive search, magnet/BT, subtitles, TVBox configs, IPTV sources, membership group-buys, and related open-source projects. Resources are hand-picked and automatically checked for availability every day.",
+        "content": "The core is a curated resource list (data files such as resources/resources.json) paired with the zhuiju.me website, plus badges showing the resource count (currently 117) and last check time.",
+        "stack": "Primarily JavaScript, with resources maintained as JSON data and GitHub Actions handling availability checks (check-availability.yml) and data validation (validate-data.yml).",
+        "hot": "Free streaming is a perennial need, and it solves the pain of fast-dying links with hand-picked curation plus daily automated checks; it gained 3,452 stars this month for a total of 11,441, ranking 15th on GitHub Trending's monthly JavaScript chart.",
+        "uses": [
+          "Everyday users who want free, ad-free streaming sites and apps",
+          "Tinkerers setting up TVBox/Yingshicang who need config endpoints and IPTV sources",
+          "Users looking for magnet/BT, subtitle, and cloud-drive search channels",
+          "Developers interested in streaming-related open-source projects and community contributions"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "agent-skills",
+      "full": "vercel-labs/agent-skills",
+      "rank": 16,
+      "cat": "agent",
+      "lang": "JavaScript",
+      "stars": 32.1,
+      "today": "+1.2k",
+      "today_n": 1198,
+      "auto": false,
+      "zh": {
+        "tag": "Vercel 官方 AI 编码代理技能合集",
+        "what": "这是 Vercel 官方推出的 AI 编码代理技能集合，把指令和脚本打包成可复用的技能，用来扩展代理的能力。技能遵循 Agent Skills 格式，覆盖 Vercel 项目优化、React/Next.js 最佳实践、Web 设计规范与写作规范等场景。",
+        "content": "仓库以技能为单位组织，目前包含 vercel-optimize、react-best-practices、web-design-guidelines、writing-guidelines 等技能，每个技能由说明文档和配套脚本组成，并附有 skills.sh 徽章。",
+        "stack": "主语言为 JavaScript，围绕 Agent Skills 格式构建，技能内容以 Markdown 指令和脚本为主，主要面向 Vercel、React 与 Next.js 生态。",
+        "hot": "作为 Vercel 官方出品，它把大厂工程经验直接封装成代理可用的技能，加上 3.2 万 star 和本月 1201 新增，登上 GitHub Trending 月榜 JavaScript 第 16 名，热度很高。",
+        "uses": [
+          "使用 AI 编码代理并希望扩展其能力的开发者",
+          "需要优化 Vercel 项目成本与性能的团队",
+          "编写 React/Next.js 代码并关注性能最佳实践的工程师",
+          "想用代理自动审查 UI、无障碍与文档写作规范的团队"
+        ]
+      },
+      "en": {
+        "tag": "Vercel's official collection of agent skills for AI coding agents",
+        "what": "This is Vercel's official collection of skills for AI coding agents, packaging instructions and scripts into reusable capabilities that extend what agents can do. The skills follow the Agent Skills format and cover areas like Vercel project optimization, React/Next.js best practices, web design guidelines, and writing guidelines.",
+        "content": "The repo is organized by skill, currently including vercel-optimize, react-best-practices, web-design-guidelines, and writing-guidelines. Each skill consists of documentation and supporting scripts, with a skills.sh badge included.",
+        "stack": "The primary language is JavaScript, built around the Agent Skills format. Skill content is mainly Markdown instructions and scripts, targeting the Vercel, React, and Next.js ecosystem.",
+        "hot": "As an official Vercel release, it packages big-company engineering know-how directly into agent-ready skills. With 32k stars and 1,201 added this month, it ranks 16th on GitHub Trending's monthly JavaScript list, showing strong momentum.",
+        "uses": [
+          "Developers using AI coding agents who want to extend their capabilities",
+          "Teams needing to optimize Vercel project cost and performance",
+          "Engineers writing React/Next.js code with a focus on performance best practices",
+          "Teams wanting agents to auto-review UI, accessibility, and documentation writing standards"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -12942,9 +12376,9 @@ window.TRENDING_DATA = {
       "rank": 13,
       "cat": "agent",
       "lang": "JavaScript",
-      "stars": 4.3,
-      "today": "+1.6k",
-      "today_n": 1647,
+      "stars": 4.4,
+      "today": "+1.7k",
+      "today_n": 1674,
       "auto": false,
       "zh": {
         "tag": "Claude Code 全家桶：代理、技能、钩子、规则与 MCP 配置",
@@ -12985,233 +12419,89 @@ window.TRENDING_DATA = {
       }
     },
     {
-      "slug": "awesome-zhuiju-free",
-      "full": "laoma528/awesome-zhuiju-free",
-      "rank": 15,
+      "slug": "telegram-media-downloader",
+      "full": "Neet-Nestor/Telegram-Media-Downloader",
+      "rank": 6,
       "cat": "other",
       "lang": "JavaScript",
-      "stars": 11.5,
-      "today": "+3.5k",
-      "today_n": 3494,
+      "stars": 6.0,
+      "today": "+589",
+      "today_n": 589,
       "auto": false,
       "zh": {
-        "tag": "免费无广告追剧资源指南，人工精选每日检测",
-        "what": "这是一个聚合免费无广告追剧资源的导航型仓库，收录在线影视站、影视 APP、网盘搜索、磁力 BT、字幕、TVBox/影视仓接口、IPTV 直播源、会员拼团和影视开源项目。所有资源由人工精选，并通过自动化流程每天检测有效性。",
-        "content": "主体是一份精选资源清单（resources/resources.json 等数据文件），配套网站 zhuiju.me，并带有资源计数徽章（当前 117 个资源）和检测时间徽章。",
-        "stack": "以 JavaScript 为主，资源以 JSON 数据形式维护，依赖 GitHub Actions 做可用性检测（check-availability.yml）和数据校验（validate-data.yml）。",
-        "hot": "免费追剧是长期刚需，而它用“人工精选 + 每日自动检测”解决了资源失效快的痛点；本月新增 3452 star，总 star 达 11441，冲上 GitHub Trending 月榜 JavaScript 第 15 名。",
+        "tag": "突破 Telegram 下载限制的油猴脚本",
+        "what": "这是一个用户脚本，允许你在 Telegram 网页版中下载图片、视频、GIF 和音频，即使群组或频道禁止下载。它通过注入代码解锁下载按钮，支持聊天、故事和私密频道。",
+        "content": "仓库主要包含一个 JavaScript 用户脚本文件，以及安装说明和许可证。脚本通过 Greasy Fork 分发，支持多种浏览器和用户脚本管理器。",
+        "stack": "基于 JavaScript 编写，依赖用户脚本管理器（如 Tampermonkey、Violentmonkey）运行在浏览器中。无后端依赖，纯前端实现。",
+        "hot": "Telegram 下载限制是常见痛点，该脚本提供了简单有效的解决方案，因此广受欢迎。目前获得 6001 颗星，本周新增 263 星，位列 GitHub Trending JavaScript 周榜第 6 名。",
         "uses": [
-          "想免费无广告追剧、找在线影视站和影视 APP 的普通用户",
-          "折腾 TVBox / 影视仓、需要接口配置和 IPTV 直播源的玩家",
-          "想找磁力 BT、字幕、网盘搜索等资源渠道的用户",
-          "关注影视类开源项目、想参与社区共建的开发者"
+          "需要从 Telegram 受限群组或频道保存媒体文件的普通用户",
+          "研究人员或记者需要存档 Telegram 上的公开信息",
+          "经常使用 Telegram 网页版并希望增强下载功能的用户"
         ]
       },
       "en": {
-        "tag": "A free, ad-free guide to streaming resources, hand-picked and checked daily",
-        "what": "This is a curated navigation repo for free, ad-free streaming resources, covering online movie sites, streaming apps, cloud-drive search, magnet/BT, subtitles, TVBox configs, IPTV sources, membership group-buys, and related open-source projects. Resources are hand-picked and automatically checked for availability every day.",
-        "content": "The core is a curated resource list (data files such as resources/resources.json) paired with the zhuiju.me website, plus badges showing the resource count (currently 117) and last check time.",
-        "stack": "Primarily JavaScript, with resources maintained as JSON data and GitHub Actions handling availability checks (check-availability.yml) and data validation (validate-data.yml).",
-        "hot": "Free streaming is a perennial need, and it solves the pain of fast-dying links with hand-picked curation plus daily automated checks; it gained 3,452 stars this month for a total of 11,441, ranking 15th on GitHub Trending's monthly JavaScript chart.",
+        "tag": "A userscript to bypass Telegram download restrictions",
+        "what": "This is a userscript that enables downloading images, videos, GIFs, and audios from Telegram web apps, even in chats, stories, and private channels where downloading is restricted. It unlocks download buttons by injecting code into the web page.",
+        "content": "The repository mainly contains a JavaScript userscript file, along with installation instructions and a license. The script is distributed via Greasy Fork and supports multiple browsers and userscript managers.",
+        "stack": "Written in JavaScript, it relies on userscript managers (e.g., Tampermonkey, Violentmonkey) to run in the browser. It has no backend dependencies and is purely front-end.",
+        "hot": "Telegram download restrictions are a common pain point, and this script provides a simple and effective solution, making it widely popular. It has 6,001 stars, with 263 added this week, ranking 6th on GitHub Trending JavaScript weekly.",
         "uses": [
-          "Everyday users who want free, ad-free streaming sites and apps",
-          "Tinkerers setting up TVBox/Yingshicang who need config endpoints and IPTV sources",
-          "Users looking for magnet/BT, subtitle, and cloud-drive search channels",
-          "Developers interested in streaming-related open-source projects and community contributions"
+          "Regular users who need to save media from restricted Telegram groups or channels",
+          "Researchers or journalists who need to archive public information from Telegram",
+          "Users who frequently use Telegram web and want enhanced download capabilities"
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "webkit",
-      "full": "WebKit/WebKit",
+      "slug": "tiktokdownloader",
+      "full": "JoeanAmier/TikTokDownloader",
       "rank": 18,
-      "cat": "infra",
+      "cat": "other",
       "lang": "JavaScript",
-      "stars": 10.2,
-      "today": "+151",
-      "today_n": 151,
+      "stars": 16.6,
+      "today": "+916",
+      "today_n": 916,
       "auto": false,
       "zh": {
-        "tag": "跨平台浏览器引擎，驱动 Safari 等应用",
-        "what": "WebKit 是一个跨平台网页浏览器引擎，在 iOS 和 macOS 上驱动 Safari、邮件、Apple Books 等应用，也支持 Linux。它负责渲染网页内容，是许多苹果生态应用的核心组件。",
-        "content": "仓库包含完整的 WebKit 引擎源代码，包括渲染引擎、JavaScript 引擎、网络层等，以及构建脚本、测试套件和开发工具。",
-        "stack": "主要使用 C++、JavaScript 和 Objective-C 等语言，依赖 Xcode 构建工具链，支持 macOS、iOS、Linux 等平台。",
-        "hot": "作为 Safari 和众多苹果应用的核心引擎，WebKit 一直是开发者关注的焦点。本月新增 149 stars，总 stars 达 10214，在 GitHub Trending 月榜 JavaScript 分类中排名第 18。",
+        "tag": "抖音与 TikTok 作品下载及数据采集工具",
+        "what": "这是一个用于下载抖音和 TikTok 平台视频、图集、实况动图等作品的工具，同时支持采集账号发布、喜欢、收藏等数据。项目原名 TikTokDownloader，现已更名为 DouK-Downloader。",
+        "content": "仓库包含核心下载与采集逻辑、命令行交互界面、Docker 部署配置以及详细的中英文文档和 Wiki。",
+        "stack": "项目主要使用 Python（≥3.12）开发，虽然 GitHub 标注主语言为 JavaScript，但实际核心为 Python，并支持 Docker 部署。",
+        "hot": "凭借对抖音/TikTok 内容下载与数据采集的实用功能，该项目已获得 16620 颗星，本月新增 916 星，位列 GitHub Trending 月榜 JavaScript 分类第 18 名。",
         "uses": [
-          "浏览器引擎开发者 —— 需要深入了解或贡献 WebKit 的开发者",
-          "苹果平台应用开发者 —— 希望优化应用内网页渲染性能的开发者",
-          "Web 标准爱好者 —— 关注浏览器引擎实现和 Web 标准进展的技术人员"
+          "需要批量下载抖音或 TikTok 视频、图集的内容创作者与运营人员",
+          "进行社交媒体数据分析的研究人员或营销团队",
+          "希望备份个人账号作品或收藏内容的普通用户",
+          "需要自动化采集公开作品数据的开发者"
         ]
       },
       "en": {
-        "tag": "Cross-platform browser engine powering Safari and more",
-        "what": "WebKit is a cross-platform web browser engine that powers Safari, Mail, Apple Books, and many other applications on iOS and macOS, with support for Linux. It handles web content rendering and is a core component of many Apple ecosystem apps.",
-        "content": "The repository contains the complete WebKit engine source code, including rendering engine, JavaScript engine, networking layer, as well as build scripts, test suites, and development tools.",
-        "stack": "Primarily written in C++, JavaScript, and Objective-C, it relies on the Xcode toolchain for building and supports platforms like macOS, iOS, and Linux.",
-        "hot": "As the core engine behind Safari and many Apple apps, WebKit remains a focus for developers. It gained 149 stars this month, reaching 10,214 total stars, ranking 18th on GitHub Trending monthly JavaScript list.",
+        "tag": "Downloader and data scraper for Douyin and TikTok content",
+        "what": "This is a tool for downloading videos, image galleries, and live photos from Douyin and TikTok, while also supporting data collection of account posts, likes, and favorites. Originally named TikTokDownloader, it has been renamed DouK-Downloader.",
+        "content": "The repository contains core download and scraping logic, a command-line interface, Docker deployment configuration, and detailed documentation in both Chinese and English along with a Wiki.",
+        "stack": "The project is primarily developed in Python (≥3.12), though GitHub lists JavaScript as the main language; it supports Docker deployment.",
+        "hot": "With its practical features for downloading and scraping Douyin/TikTok content, the project has earned 16,620 stars, gaining 916 this month, ranking 18th on GitHub Trending monthly JavaScript list.",
         "uses": [
-          "Browser engine developers — those who want to understand or contribute to WebKit",
-          "Apple platform app developers — those looking to optimize web rendering performance in their apps",
-          "Web standards enthusiasts — technologists interested in browser engine implementations and web standards progress"
+          "Content creators and operators who need to batch download Douyin or TikTok videos and galleries",
+          "Researchers or marketing teams conducting social media data analysis",
+          "Regular users who want to back up their own account posts or favorites",
+          "Developers needing to automate collection of public content data"
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
-      }
-    },
-    {
-      "slug": "agent-skills",
-      "full": "vercel-labs/agent-skills",
-      "rank": 16,
-      "cat": "agent",
-      "lang": "JavaScript",
-      "stars": 32.1,
-      "today": "+1.2k",
-      "today_n": 1201,
-      "auto": false,
-      "zh": {
-        "tag": "Vercel 官方 AI 编码代理技能合集",
-        "what": "这是 Vercel 官方推出的 AI 编码代理技能集合，把指令和脚本打包成可复用的技能，用来扩展代理的能力。技能遵循 Agent Skills 格式，覆盖 Vercel 项目优化、React/Next.js 最佳实践、Web 设计规范与写作规范等场景。",
-        "content": "仓库以技能为单位组织，目前包含 vercel-optimize、react-best-practices、web-design-guidelines、writing-guidelines 等技能，每个技能由说明文档和配套脚本组成，并附有 skills.sh 徽章。",
-        "stack": "主语言为 JavaScript，围绕 Agent Skills 格式构建，技能内容以 Markdown 指令和脚本为主，主要面向 Vercel、React 与 Next.js 生态。",
-        "hot": "作为 Vercel 官方出品，它把大厂工程经验直接封装成代理可用的技能，加上 3.2 万 star 和本月 1201 新增，登上 GitHub Trending 月榜 JavaScript 第 16 名，热度很高。",
-        "uses": [
-          "使用 AI 编码代理并希望扩展其能力的开发者",
-          "需要优化 Vercel 项目成本与性能的团队",
-          "编写 React/Next.js 代码并关注性能最佳实践的工程师",
-          "想用代理自动审查 UI、无障碍与文档写作规范的团队"
-        ]
-      },
-      "en": {
-        "tag": "Vercel's official collection of agent skills for AI coding agents",
-        "what": "This is Vercel's official collection of skills for AI coding agents, packaging instructions and scripts into reusable capabilities that extend what agents can do. The skills follow the Agent Skills format and cover areas like Vercel project optimization, React/Next.js best practices, web design guidelines, and writing guidelines.",
-        "content": "The repo is organized by skill, currently including vercel-optimize, react-best-practices, web-design-guidelines, and writing-guidelines. Each skill consists of documentation and supporting scripts, with a skills.sh badge included.",
-        "stack": "The primary language is JavaScript, built around the Agent Skills format. Skill content is mainly Markdown instructions and scripts, targeting the Vercel, React, and Next.js ecosystem.",
-        "hot": "As an official Vercel release, it packages big-company engineering know-how directly into agent-ready skills. With 32k stars and 1,201 added this month, it ranks 16th on GitHub Trending's monthly JavaScript list, showing strong momentum.",
-        "uses": [
-          "Developers using AI coding agents who want to extend their capabilities",
-          "Teams needing to optimize Vercel project cost and performance",
-          "Engineers writing React/Next.js code with a focus on performance best practices",
-          "Teams wanting agents to auto-review UI, accessibility, and documentation writing standards"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "node",
-      "full": "nodejs/node",
-      "rank": 11,
-      "cat": "infra",
-      "lang": "JavaScript",
-      "stars": 122.3,
-      "today": "+1.9k",
-      "today_n": 1912,
-      "auto": false,
-      "zh": {
-        "tag": "跨平台开源 JavaScript 运行时，服务端 JS 的事实标准",
-        "what": "Node.js 是一个开源、跨平台的 JavaScript 运行时环境，让 JavaScript 脱离浏览器在服务端和命令行运行。它基于 V8 引擎与事件驱动、非阻塞 I/O 模型，适合构建高并发的网络服务与工具链。",
-        "content": "仓库是 Node.js 的核心源码与治理中心，包含 lib、src、deps、test 等目录，以及发布流程、TSC 治理文档、行为准则和安全策略。",
-        "stack": "主体用 JavaScript 与 C++ 编写，核心依赖 V8、libuv、OpenSSL 等，构建需要 Python、GCC/Clang 等工具链。",
-        "hot": "作为 12.2 万 star 的元老级项目，Node.js 长期占据 JavaScript 生态基石位置，今日仍新增 45 star 并登上日榜第 11，说明其热度与关注度经久不衰。",
-        "uses": [
-          "后端与全栈开发者，用于构建 API、微服务与实时应用",
-          "前端工程师，用于运行构建工具、打包器和 CLI 脚本",
-          "DevOps 与平台团队，用于编写自动化脚本和工具链",
-          "学习者，想系统理解运行时、事件循环与开源治理"
-        ]
-      },
-      "en": {
-        "tag": "The open-source, cross-platform JavaScript runtime that powers server-side JS",
-        "what": "Node.js is an open-source, cross-platform JavaScript runtime that lets JavaScript run outside the browser on servers and the command line. Built on the V8 engine with an event-driven, non-blocking I/O model, it excels at high-concurrency network services and tooling.",
-        "content": "The repo hosts Node.js core source and governance: lib, src, deps and test directories, plus release processes, TSC governance docs, a code of conduct and security policy.",
-        "stack": "Written mainly in JavaScript and C++, it depends on V8, libuv and OpenSSL, with a build toolchain requiring Python and GCC/Clang.",
-        "hot": "With 122k+ stars, this veteran project remains the backbone of the JavaScript ecosystem; 45 new stars today and a #11 trending spot show its enduring relevance.",
-        "uses": [
-          "Backend and full-stack developers building APIs, microservices and realtime apps",
-          "Frontend engineers running build tools, bundlers and CLI scripts",
-          "DevOps and platform teams writing automation and tooling",
-          "Learners wanting to understand runtimes, the event loop and open governance"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-27",
-        "is_new": false,
-        "is_back": false,
-        "hist": [
-          {
-            "d": "2026-07-27",
-            "s": 118.5,
-            "r": 7
-          }
-        ]
-      }
-    },
-    {
-      "slug": "openai-plugins",
-      "full": "openai/plugins",
-      "rank": 6,
-      "cat": "agent",
-      "lang": "JavaScript",
-      "stars": 7.4,
-      "today": "+1.7k",
-      "today_n": 1735,
-      "auto": false,
-      "zh": {
-        "tag": "OpenAI 官方 Codex 插件示例合集，定义 AI 代理扩展标准",
-        "what": "这是 OpenAI 官方维护的 Codex 插件示例仓库，每个插件以 plugins/<name>/ 目录形式存在，通过 .codex-plugin/plugin.json 清单声明能力。它展示了如何用 skills、MCP、agents、commands、hooks 等扩展面把第三方服务接入 Codex 代理。",
-        "content": "仓库包含 figma、notion、build-ios-apps、build-macos-apps、build-web-apps、expo、netlify、remotion、google-slides 等丰富插件示例，以及默认市场清单 .agents/plugins/marketplace.json 和 API key 用户专用的 api_marketplace.json。",
-        "stack": "以 JavaScript 为主，核心是 JSON 清单（plugin.json、.app.json、.mcp.json、hooks.json）驱动的插件结构，并依赖 MCP 协议与 Codex 的 skills/agents 机制。",
-        "hot": "作为 OpenAI 官方插件规范的首发示例库，它直接定义了 Codex 生态的扩展方式，本月新增 1905 star、总数达 7344，冲上 GitHub Trending JavaScript 月榜第 6。",
-        "uses": [
-          "想为 Codex 开发插件的开发者，可照抄官方目录结构与清单规范",
-          "希望把 Figma、Notion、Netlify 等工具接入 AI 代理工作流的团队",
-          "研究 AI 代理扩展协议与 MCP 集成方式的技术选型者",
-          "需要 iOS/macOS/Web/Expo 等场景化代理示例的工程师"
-        ]
-      },
-      "en": {
-        "tag": "OpenAI's official Codex plugin examples defining the agent extension standard",
-        "what": "This is OpenAI's official collection of Codex plugin examples, where each plugin lives under plugins/<name>/ and declares its capabilities via a .codex-plugin/plugin.json manifest. It demonstrates how to wire third-party services into the Codex agent using skills, MCP, agents, commands, and hooks.",
-        "content": "It ships rich examples like figma, notion, build-ios-apps, build-macos-apps, build-web-apps, expo, netlify, remotion, and google-slides, plus a default marketplace manifest at .agents/plugins/marketplace.json and a separate api_marketplace.json for API key users.",
-        "stack": "Primarily JavaScript, built around JSON manifests (plugin.json, .app.json, .mcp.json, hooks.json) that drive the plugin structure, relying on the MCP protocol and Codex's skills/agents mechanisms.",
-        "hot": "As the first-party example repo for OpenAI's plugin spec, it effectively defines how the Codex ecosystem extends, adding 1,905 stars this month for a total of 7,344 and landing at #6 on GitHub Trending's monthly JavaScript chart.",
-        "uses": [
-          "Developers building Codex plugins who want to copy the official directory structure and manifest spec",
-          "Teams looking to wire tools like Figma, Notion, and Netlify into AI agent workflows",
-          "Architects evaluating agent extension protocols and MCP integration patterns",
-          "Engineers needing scenario-specific agent examples for iOS, macOS, Web, and Expo"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-09-10",
-        "is_new": false,
-        "is_back": false,
-        "hist": [
-          {
-            "d": "2026-09-10",
-            "s": 6.2,
-            "r": 9
-          }
-        ]
       }
     },
     {
@@ -13221,8 +12511,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "Rust",
       "stars": 34.6,
-      "today": "+3.0k",
-      "today_n": 3041,
+      "today": "+3.1k",
+      "today_n": 3057,
       "auto": false,
       "zh": {
         "tag": "Rust 编写的高性能 S3 兼容分布式对象存储，4KB 小对象比 MinIO 快 2.3 倍",
@@ -13325,7 +12615,7 @@ window.TRENDING_DATA = {
       "lang": "Rust",
       "stars": 125.3,
       "today": "+3.0k",
-      "today_n": 2995,
+      "today_n": 3022,
       "auto": false,
       "zh": {
         "tag": "用 Rust 编写的开源远程桌面，可完全自托管替代 TeamViewer",
@@ -13368,14 +12658,149 @@ window.TRENDING_DATA = {
       }
     },
     {
+      "slug": "ai-memory",
+      "full": "akitaonrails/ai-memory",
+      "rank": 8,
+      "cat": "agent",
+      "lang": "Rust",
+      "stars": 9.1,
+      "today": "+3.0k",
+      "today_n": 2958,
+      "auto": false,
+      "zh": {
+        "tag": "为多种 AI 编码代理提供跨工具、跨项目的长期记忆与交接协议",
+        "what": "ai-memory 为 AI 编码 CLI 提供长期记忆层，让不同厂商的代理共享同一份项目知识。中途退出 Claude Code 后，可在同一目录用 Codex 继续任务，无需重新解释架构、失败尝试和未决问题。",
+        "content": "核心是一个自托管的记忆服务器，记忆以 git 仓库中的普通 Markdown wiki 为真源，数据库只是可重建的派生索引；配套生命周期钩子、跨项目个人画像文档和二十多种代理的接入适配。",
+        "stack": "使用 Rust 编写（要求 Rust 1.95+），MIT 许可，依赖自托管服务端、git 与 Markdown 文件存储，无向量数据库。",
+        "hot": "本月新增 2958 星、总数约 9090，登上 GitHub Trending 月榜 Rust 第 8 名；它切中了多代理切换时上下文丢失这一真实痛点，并以纯 Markdown、可自托管、团队共享的开放方案区别于各家封闭记忆功能。",
+        "uses": [
+          "同时使用 Claude Code、Codex、Cursor 等多种编码代理的开发者，希望任务无缝交接",
+          "需要在多台机器或团队间共享项目记忆与未决问题的工程团队",
+          "偏好纯文本、可 grep、可版本控制记忆而非黑盒向量库的用户",
+          "希望自托管数据、重视隐私与审计日志的个人或组织"
+        ]
+      },
+      "en": {
+        "tag": "Long-term memory and handoff protocol shared across multiple AI coding agents",
+        "what": "ai-memory provides a long-term memory layer for AI coding CLIs, letting agents from different vendors share the same project knowledge. Quit Claude Code mid-task, open Codex in the same directory, and continue without re-explaining the architecture, failed approaches, or open questions.",
+        "content": "At its core is a self-hosted memory server whose source of truth is a git-backed wiki of plain Markdown files, with the database as a rebuildable derived index; it ships lifecycle hooks, cross-project profile docs, and adapters for 20+ agent harnesses.",
+        "stack": "Written in Rust (requires Rust 1.95+), MIT licensed, relying on a self-hosted server, git, and Markdown file storage with no vector database.",
+        "hot": "It gained 2,958 stars this month for ~9,090 total, ranking 8th on GitHub Trending's monthly Rust list; it addresses the real pain of losing context when switching agents, standing out from closed vendor memory features with plain Markdown, self-hosting, and team sharing.",
+        "uses": [
+          "Developers juggling Claude Code, Codex, Cursor and other agents who want seamless task handoff",
+          "Engineering teams needing to share project memory and open questions across machines or members",
+          "Users who prefer plain-text, greppable, version-controlled memory over black-box vector stores",
+          "Individuals or organizations wanting self-hosted data with privacy and audit logging"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-08-18",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-08-18",
+            "s": 2.0,
+            "r": 4
+          },
+          {
+            "d": "2026-08-19",
+            "s": 2.7,
+            "r": 3
+          },
+          {
+            "d": "2026-08-21",
+            "s": 3.6,
+            "r": 7
+          },
+          {
+            "d": "2026-09-22",
+            "s": 7.7,
+            "r": 4
+          }
+        ]
+      }
+    },
+    {
+      "slug": "openresearch",
+      "full": "alphaXiv/OpenResearch",
+      "rank": 9,
+      "cat": "agent",
+      "lang": "Rust",
+      "stars": 6.8,
+      "today": "+6.3k",
+      "today_n": 6349,
+      "auto": false,
+      "zh": {
+        "tag": "把编码代理变成科研代理的本地优先工作台",
+        "what": "OpenResearch 是 alphaXiv 推出的本地优先科研代理工作台，让 AI 代理自动完成文献综述、提出假设、运行实验并产出研究产物。它把通用编码代理升级为可执行完整科研流程的助手，兼顾 copilot 与自动研究两种用法。",
+        "content": "仓库提供跨平台桌面应用（macOS/Windows/Linux 安装包），包含代理对话界面、实验日志视图、多语言 README 与 docs 文档目录。",
+        "stack": "主语言为 Rust，构建本地优先的桌面应用，依赖各平台原生运行环境（macOS 11+、Windows 需 Git for Windows、Linux 需 glibc 2.35+）。",
+        "hot": "发布不久即冲到 6809 star，本月新增 6349，几乎全部热度来自最近一个月，并登上 GitHub Trending 月榜 Rust 第 9 名。",
+        "uses": [
+          "科研人员与研究生：用代理自动做文献调研和实验记录",
+          "AI 工程师：把编码代理扩展为可执行科研流程的代理",
+          "独立研究者：在本地环境跑可复现的自动研究实验",
+          "技术团队：评估 agent 在真实科研工作流中的落地方式"
+        ]
+      },
+      "en": {
+        "tag": "A local-first harness that turns coding agents into research agents",
+        "what": "OpenResearch is a local-first harness and workspace from alphaXiv that turns coding agents into research agents capable of reviewing literature, forming hypotheses, running experiments, and producing research artifacts. It works both as a copilot and as an autoresearch tool.",
+        "content": "It ships a cross-platform desktop app (macOS/Windows/Linux installers) with an agent conversation UI, experiment log views, multilingual READMEs, and a docs folder.",
+        "stack": "Written primarily in Rust as a local-first desktop app, requiring macOS 11+, Git for Windows on Windows, and glibc 2.35+ on Linux.",
+        "hot": "It has reached 6,809 stars with 6,349 added this month, meaning nearly all its traction is recent, landing it at #9 on GitHub's monthly Rust trending list.",
+        "uses": [
+          "Researchers and grad students automating literature review and experiment logging",
+          "AI engineers extending coding agents into research-capable agents",
+          "Independent researchers running reproducible autoresearch experiments locally",
+          "Teams evaluating how agents perform in real research workflows"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-09-12",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-09-12",
+            "s": 1.3,
+            "r": 14
+          },
+          {
+            "d": "2026-09-14",
+            "s": 2.1,
+            "r": 11
+          },
+          {
+            "d": "2026-09-16",
+            "s": 3.4,
+            "r": 7
+          },
+          {
+            "d": "2026-09-17",
+            "s": 4.4,
+            "r": 13
+          },
+          {
+            "d": "2026-09-18",
+            "s": 5.0,
+            "r": 5
+          }
+        ]
+      }
+    },
+    {
       "slug": "clash-verge-rev",
       "full": "clash-verge-rev/clash-verge-rev",
       "rank": 16,
       "cat": "infra",
       "lang": "Rust",
-      "stars": 149.8,
-      "today": "+7.3k",
-      "today_n": 7342,
+      "stars": 150.1,
+      "today": "+7.4k",
+      "today_n": 7407,
       "auto": false,
       "zh": {
         "tag": "基于 Tauri 的现代化跨平台代理客户端",
@@ -13405,51 +12830,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "rust",
-      "full": "rust-lang/rust",
-      "rank": 13,
-      "cat": "infra",
-      "lang": "Rust",
-      "stars": 119.5,
-      "today": "+2.4k",
-      "today_n": 2384,
-      "auto": false,
-      "zh": {
-        "tag": "Rust 编程语言官方主仓库，含编译器、标准库与文档",
-        "what": "这是 Rust 编程语言的主源码仓库，包含编译器 rustc、标准库以及官方文档。它支撑着 Rust 以性能、可靠性和生产力为核心的语言生态。",
-        "content": "仓库以 Rust 编写的编译器与标准库源码为主，辅以文档、测试套件和构建脚本，并链接 Cargo、rustfmt、Clippy、rust-analyzer 等配套工具。",
-        "stack": "以 Rust 自身实现（自举），依赖 LLVM 作为后端，构建流程由 Cargo 与仓库内的 bootstrap 脚本驱动。",
-        "hot": "作为拥有 11.9 万+ star 的语言级项目，本周仍新增 291 star 并登上 Rust 周榜第 13 名，说明 Rust 在系统编程与基础设施领域的热度持续走高。",
-        "uses": [
-          "系统编程与嵌入式开发者，需要高性能且内存安全的语言",
-          "基础设施与云原生工程师，用 Rust 重写关键服务",
-          "想参与开源编译器开发、学习 rustc 架构的贡献者",
-          "关注内存安全与并发安全、希望减少线上 Bug 的团队"
-        ]
-      },
-      "en": {
-        "tag": "The official Rust language repo: compiler, standard library, and docs",
-        "what": "This is the main source repository for the Rust programming language, containing the compiler, standard library, and documentation. It underpins an ecosystem built around performance, reliability, and productivity.",
-        "content": "It mainly holds the compiler and standard library sources written in Rust, plus documentation, test suites, and build scripts, with links to companion tools like Cargo, rustfmt, Clippy, and rust-analyzer.",
-        "stack": "Self-hosted in Rust, it relies on LLVM as its backend, with builds driven by Cargo and the in-repo bootstrap scripts.",
-        "hot": "With over 119k stars, it still gained 291 this week and ranked 13th on the Rust weekly trending list, showing Rust's sustained momentum in systems programming and infrastructure.",
-        "uses": [
-          "Systems and embedded developers needing high performance with memory safety",
-          "Infrastructure and cloud-native engineers rewriting critical services in Rust",
-          "Contributors wanting to learn compiler internals and work on rustc",
-          "Teams focused on memory and thread safety to cut production bugs"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -13463,7 +12844,7 @@ window.TRENDING_DATA = {
       "lang": "Rust",
       "stars": 13.0,
       "today": "+10.1k",
-      "today_n": 10119,
+      "today_n": 10063,
       "auto": false,
       "zh": {
         "tag": "基于对象存储的 Rust 分布式图数据库",
@@ -13493,7 +12874,101 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "atlas",
+      "full": "pacifio/atlas",
+      "rank": 8,
+      "cat": "agent",
+      "lang": "Rust",
+      "stars": 9.6,
+      "today": "+6.6k",
+      "today_n": 6560,
+      "auto": false,
+      "zh": {
+        "tag": "面向编码代理的版本控制，多代理并行改动可追溯可查询",
+        "what": "Atlas 是给编码代理用的“源代码管理”工具。每次代理运行都会生成 checkpoint，把提交与产生它的会话、提示词、工具调用和推理过程绑定在一起，让你清楚看到哪个代理做了什么、为什么这么做。它还支持在同一代码库上并行运行多个代理，并共享记忆。",
+        "content": "仓库包含 Rust 编写的桌面应用源码（macOS/Windows）、图标与落地页素材、CI 与发布工作流，以及指向文档站、官网和 Discord 的入口。",
+        "stack": "主语言为 Rust，提供 macOS 与 Windows 桌面客户端；集成 Claude Code、Codex、Atlas 自带代理以及 ACP 注册表中的代理，采用 Apache 2.0 许可。",
+        "hot": "本周新增 2593 star、总数达 8428，登上 GitHub Trending 周榜 Rust 第 8 名；多代理协作与可追溯性正成为 AI 编码工作流的热点需求。",
+        "uses": [
+          "同时使用多个编码代理、需要统一追踪改动的开发者",
+          "希望回溯某次提交由哪个代理、哪条提示词产生的团队",
+          "在任务中途切换代理、又不想丢失上下文的工程师",
+          "研究 AI 代理协作与可观测性的技术团队"
+        ]
+      },
+      "en": {
+        "tag": "Source control for coding agents: run multiple agents, track and query their changes in one place",
+        "what": "Atlas is source control built for coding agents. Every agent run produces checkpoints that link a commit back to the session that made it, together with prompts, tool calls, and reasoning, so you can see which agent did what and why. It also lets you run multiple agents side by side against the same codebase with shared memory.",
+        "content": "The repo holds the Rust desktop app source for macOS and Windows, icon and landing-page assets, CI and release workflows, plus links to the docs site, website, and Discord.",
+        "stack": "Written primarily in Rust with desktop clients for macOS and Windows; integrates Claude Code, Codex, Atlas's own agent, and agents from the ACP registry, under Apache 2.0.",
+        "hot": "It gained 2,593 stars this week for a total of 8,428, ranking 8th on the GitHub Trending weekly Rust chart, as multi-agent collaboration and traceability become hot needs in AI coding workflows.",
+        "uses": [
+          "Developers running several coding agents who need unified change tracking",
+          "Teams wanting to trace which agent and prompt produced a given commit",
+          "Engineers switching agents mid-task without losing context",
+          "Teams researching AI agent collaboration and observability"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-09-16",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-09-16",
+            "s": 4.6,
+            "r": 10
+          }
+        ]
+      }
+    },
+    {
+      "slug": "opencadstudio",
+      "full": "HakanSeven12/OpenCADStudio",
+      "rank": 6,
+      "cat": "other",
+      "lang": "Rust",
+      "stars": 2.6,
+      "today": "+1.3k",
+      "today_n": 1343,
+      "auto": false,
+      "zh": {
+        "tag": "Rust 开源 CAD，支持 2D/3D 与 DWG/DXF 原生读写",
+        "what": "Open CAD Studio 是一个用 Rust 构建的开源 CAD 应用，提供 2D 绘图和 3D 建模功能，支持桌面端和 Web 端。它能够原生读写 DWG 和 DXF 文件，无需转换服务，并利用 GPU 加速渲染。",
+        "content": "仓库包含完整的 CAD 应用源码，涵盖桌面端和 Web 端，提供统一的编辑核心。项目包含多语言 README、资源文件（如 logo）、示例工作区截图，以及用于 Web 部署的站点目录。",
+        "stack": "主要使用 Rust 语言，并可能涉及 WebAssembly（用于 Web 端）、GPU 渲染库（如 wgpu）以及 DWG/DXF 解析库。具体依赖需查看 Cargo.toml。",
+        "hot": "该项目在 GitHub 上迅速获得关注，今日新增 46 星，总星数达 1166，位列 Rust 趋势榜第 6。其亮点在于用 Rust 实现 CAD，提供原生 DWG/DXF 支持，填补了开源 CAD 领域的空白。",
+        "uses": [
+          "工程师和设计师需要免费、跨平台的 CAD 工具进行 2D 制图或 3D 建模。",
+          "开发者希望研究或扩展一个基于 Rust 的现代 CAD 应用，或贡献代码。",
+          "教育机构或学生需要学习 CAD 概念，并希望使用开源软件进行实践。",
+          "需要处理 DWG/DXF 文件但不想依赖商业软件或在线转换服务的用户。"
+        ]
+      },
+      "en": {
+        "tag": "Open-source CAD in Rust: 2D/3D drawing, native DWG/DXF, GPU rendering",
+        "what": "Open CAD Studio is an open-source CAD application built with Rust, offering 2D drafting and 3D modeling for desktop and web. It natively reads and writes DWG and DXF files without conversion services, with GPU-accelerated rendering.",
+        "content": "The repository contains the full source code of the CAD app, covering desktop and web with a shared editing core. It includes multi-language READMEs, assets like logo, workspace screenshots, and a site directory for web deployment.",
+        "stack": "Primarily built with Rust, likely using WebAssembly for the web version, GPU rendering libraries like wgpu, and DWG/DXF parsing crates. Specific dependencies are in Cargo.toml.",
+        "hot": "The project is gaining traction on GitHub, with 46 stars today and 1166 total, ranking #6 on the Rust trending list. Its novelty lies in a Rust-based CAD with native DWG/DXF support, filling a gap in open-source CAD.",
+        "uses": [
+          "Engineers and designers needing a free, cross-platform CAD tool for 2D drafting or 3D modeling.",
+          "Developers interested in studying or extending a modern Rust-based CAD application or contributing code.",
+          "Educational institutions or students learning CAD concepts with open-source software.",
+          "Users who need to handle DWG/DXF files without relying on commercial software or online conversion services."
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -13507,7 +12982,7 @@ window.TRENDING_DATA = {
       "lang": "Rust",
       "stars": 31.9,
       "today": "+1.7k",
-      "today_n": 1680,
+      "today_n": 1684,
       "auto": false,
       "zh": {
         "tag": "开源间隔重复记忆卡片软件，用算法帮你高效背东西",
@@ -13561,8 +13036,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "Rust",
       "stars": 8.2,
-      "today": "+7.2k",
-      "today_n": 7158,
+      "today": "+6.6k",
+      "today_n": 6572,
       "auto": false,
       "zh": {
         "tag": "全球首个开源企业世界模型，用 Rust 构建知识工程底座",
@@ -13592,60 +13067,10 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
-      }
-    },
-    {
-      "slug": "atlas",
-      "full": "pacifio/atlas",
-      "rank": 8,
-      "cat": "agent",
-      "lang": "Rust",
-      "stars": 9.5,
-      "today": "+6.4k",
-      "today_n": 6436,
-      "auto": false,
-      "zh": {
-        "tag": "面向编码代理的版本控制，多代理并行改动可追溯可查询",
-        "what": "Atlas 是给编码代理用的“源代码管理”工具。每次代理运行都会生成 checkpoint，把提交与产生它的会话、提示词、工具调用和推理过程绑定在一起，让你清楚看到哪个代理做了什么、为什么这么做。它还支持在同一代码库上并行运行多个代理，并共享记忆。",
-        "content": "仓库包含 Rust 编写的桌面应用源码（macOS/Windows）、图标与落地页素材、CI 与发布工作流，以及指向文档站、官网和 Discord 的入口。",
-        "stack": "主语言为 Rust，提供 macOS 与 Windows 桌面客户端；集成 Claude Code、Codex、Atlas 自带代理以及 ACP 注册表中的代理，采用 Apache 2.0 许可。",
-        "hot": "本周新增 2593 star、总数达 8428，登上 GitHub Trending 周榜 Rust 第 8 名；多代理协作与可追溯性正成为 AI 编码工作流的热点需求。",
-        "uses": [
-          "同时使用多个编码代理、需要统一追踪改动的开发者",
-          "希望回溯某次提交由哪个代理、哪条提示词产生的团队",
-          "在任务中途切换代理、又不想丢失上下文的工程师",
-          "研究 AI 代理协作与可观测性的技术团队"
-        ]
-      },
-      "en": {
-        "tag": "Source control for coding agents: run multiple agents, track and query their changes in one place",
-        "what": "Atlas is source control built for coding agents. Every agent run produces checkpoints that link a commit back to the session that made it, together with prompts, tool calls, and reasoning, so you can see which agent did what and why. It also lets you run multiple agents side by side against the same codebase with shared memory.",
-        "content": "The repo holds the Rust desktop app source for macOS and Windows, icon and landing-page assets, CI and release workflows, plus links to the docs site, website, and Discord.",
-        "stack": "Written primarily in Rust with desktop clients for macOS and Windows; integrates Claude Code, Codex, Atlas's own agent, and agents from the ACP registry, under Apache 2.0.",
-        "hot": "It gained 2,593 stars this week for a total of 8,428, ranking 8th on the GitHub Trending weekly Rust chart, as multi-agent collaboration and traceability become hot needs in AI coding workflows.",
-        "uses": [
-          "Developers running several coding agents who need unified change tracking",
-          "Teams wanting to trace which agent and prompt produced a given commit",
-          "Engineers switching agents mid-task without losing context",
-          "Teams researching AI agent collaboration and observability"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-09-16",
-        "is_new": false,
-        "is_back": false,
-        "hist": [
-          {
-            "d": "2026-09-16",
-            "s": 4.6,
-            "r": 10
-          }
-        ]
       }
     },
     {
@@ -13656,7 +13081,7 @@ window.TRENDING_DATA = {
       "lang": "Rust",
       "stars": 32.0,
       "today": "+1.1k",
-      "today_n": 1126,
+      "today_n": 1114,
       "auto": false,
       "zh": {
         "tag": "一键切换 Antigravity 账号的桌面管理工具",
@@ -13684,7 +13109,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -13696,9 +13121,9 @@ window.TRENDING_DATA = {
       "rank": 17,
       "cat": "other",
       "lang": "Rust",
-      "stars": 48.7,
-      "today": "+750",
-      "today_n": 750,
+      "stars": 48.8,
+      "today": "+792",
+      "today_n": 792,
       "auto": false,
       "zh": {
         "tag": "Rust 编写的简单数据驱动游戏引擎",
@@ -13726,51 +13151,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "tauri",
-      "full": "tauri-apps/tauri",
-      "rank": 18,
-      "cat": "infra",
-      "lang": "Rust",
-      "stars": 111.7,
-      "today": "+983",
-      "today_n": 983,
-      "auto": false,
-      "zh": {
-        "tag": "用 Rust 与系统 WebView 构建更小更快的跨平台桌面与移动应用",
-        "what": "Tauri 是一个应用框架，让开发者用任意编译为 HTML/JS/CSS 的前端框架构建界面，后端则是 Rust 编译的原生二进制，并通过 API 与前端交互。它面向 macOS、Windows、Linux、Android 和 iOS，产出体积小、启动快、更安全的安装包。",
-        "content": "仓库包含 Rust 核心库、CLI、打包器与插件体系，并配有架构文档、示例与 GitHub Actions 工作流；窗口层依赖 tao，渲染层依赖 WRY 统一封装各平台系统 WebView。",
-        "stack": "核心用 Rust 编写，前端可接任意 Web 框架；依赖 tao 做窗口管理、WRY 做 WebView 渲染，并内置打包器与自更新器。",
-        "hot": "凭借 111675 颗星和本月新增 983 颗星，Tauri 稳居 Rust 月榜第 18 名，是 Electron 之外最受关注的轻量跨平台方案。",
-        "uses": [
-          "希望用 Web 技术栈开发桌面/移动应用、又在意包体积与内存占用的开发者",
-          "需要把现有前端项目打包成原生安装包（.dmg/.deb/.msi 等）的团队",
-          "关注安全性与原生系统集成（托盘、通知、自更新）的独立开发者",
-          "想用 Rust 写后端逻辑、前端仍用 React/Vue/Svelte 的全栈工程师"
-        ]
-      },
-      "en": {
-        "tag": "Build smaller, faster cross-platform desktop and mobile apps with Rust and system webviews",
-        "what": "Tauri is an application framework that lets developers build UIs with any frontend framework compiling to HTML, JS and CSS, while the backend is a Rust-sourced native binary exposing an API to the frontend. It targets macOS, Windows, Linux, Android and iOS, producing small, fast and more secure app bundles.",
-        "content": "The repo contains the Rust core, CLI, bundler and plugin ecosystem, plus architecture docs, examples and GitHub Actions workflows; windowing is handled by tao and rendering by WRY, which unifies each platform's system webview.",
-        "stack": "Core is written in Rust and works with any web frontend; it depends on tao for windowing and WRY for webview rendering, with a built-in bundler and self-updater.",
-        "hot": "With 111,675 stars and 983 added this month, Tauri ranks 18th on the Rust monthly trending list, making it the most watched lightweight cross-platform alternative to Electron.",
-        "uses": [
-          "Developers who want web tech for desktop/mobile apps but care about bundle size and memory",
-          "Teams needing to package existing frontend projects into native installers (.dmg/.deb/.msi, etc.)",
-          "Indie developers focused on security and native integrations like tray, notifications and self-update",
-          "Full-stack engineers who want Rust backend logic while keeping React/Vue/Svelte on the frontend"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -13784,7 +13165,7 @@ window.TRENDING_DATA = {
       "lang": "Go",
       "stars": 16.9,
       "today": "+2.7k",
-      "today_n": 2663,
+      "today_n": 2676,
       "auto": false,
       "zh": {
         "tag": "自托管的云端开发环境与 AI 编码代理平台",
@@ -13847,102 +13228,14 @@ window.TRENDING_DATA = {
       }
     },
     {
-      "slug": "go",
-      "full": "golang/go",
-      "rank": 14,
-      "cat": "infra",
-      "lang": "Go",
-      "stars": 139.1,
-      "today": "+1.7k",
-      "today_n": 1716,
-      "auto": false,
-      "zh": {
-        "tag": "谷歌开源的高效编程语言 Go 的官方主仓库",
-        "what": "Go 是一门开源编程语言，旨在让构建简单、可靠、高效的软件变得容易。它由谷歌主导开发，广泛用于云原生、后端服务与基础设施领域。",
-        "content": "仓库包含 Go 语言的完整源代码、编译器、标准库、运行时以及官方文档与贡献指南，是 Go 项目的权威 Git 主仓库（另有 googlesource 官方源）。",
-        "stack": "主要使用 Go 自身编写（自举），辅以汇编与 C；采用 BSD 风格许可证，依赖极少，构建工具链自成体系。",
-        "hot": "作为拥有 13.8 万+ star 的语言级项目，它长期稳居热门，今日再登 Go 日榜第 14 名，反映开发者对 Go 生态的持续关注。",
-        "uses": [
-          "后端与微服务开发者，用 Go 构建高并发服务",
-          "云原生与 DevOps 工程师，开发 Kubernetes、Docker 等基础设施",
-          "编程语言爱好者与研究者，学习语言设计与编译器实现",
-          "学生与初学者，通过官方源码与文档系统学习 Go"
-        ]
-      },
-      "en": {
-        "tag": "The official repository of Go, Google's open-source programming language",
-        "what": "Go is an open-source programming language designed to make it easy to build simple, reliable, and efficient software. Backed by Google, it is widely used in cloud-native, backend, and infrastructure development.",
-        "content": "The repo holds the complete Go source code, compiler, standard library, runtime, plus official docs and contribution guidelines — the canonical Git mirror of the Go project.",
-        "stack": "Written primarily in Go itself (self-hosted), with some assembly and C; BSD-style license, minimal external dependencies, and a self-contained toolchain.",
-        "hot": "With over 138k stars, this language-level project stays perpetually popular, again ranking 14th on the Go daily trending list, reflecting sustained interest in the Go ecosystem.",
-        "uses": [
-          "Backend and microservice developers building high-concurrency services in Go",
-          "Cloud-native and DevOps engineers working on Kubernetes, Docker, and infra tooling",
-          "Programming language enthusiasts and researchers studying language and compiler design",
-          "Students and beginners learning Go through official source and docs"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "gentle-ai",
-      "full": "Gentleman-Programming/gentle-ai",
-      "rank": 9,
-      "cat": "agent",
-      "lang": "Go",
-      "stars": 7.6,
-      "today": "+1.2k",
-      "today_n": 1244,
-      "auto": false,
-      "zh": {
-        "tag": "为现有 AI 编程代理提供记忆、工作流与可验证证据的确定性工程环境",
-        "what": "Gentle-AI 是一个开源配置层，为你已经在用的 AI 编程代理（如 Claude Code、Cursor、OpenCode、Codex、Pi 等 16 种）注入持久记忆、规格驱动开发、精选技能、MCP 服务器、人格设定和可选的有界审查。它不锁定任何代理，目标是让代理写代码后不再失忆，并能证明自己做了什么。",
-        "content": "仓库包含 Go 编写的 CLI 工具、文档（快速开始、预期用法、Wiki）、品牌资源以及针对不同代理的配置模板和技能库。",
-        "stack": "主要使用 Go 语言开发，跨平台支持 macOS、Linux 和 Windows，采用 MIT 许可证。依赖可能包括各代理的配置接口和 MCP 协议。",
-        "hot": "本周新增 411 颗星，总星数达 6911，登上 GitHub Trending 周榜（Go）第 9 名。它解决了 AI 代理缺乏记忆和工作流的痛点，且支持多种主流代理，无锁定，因此受到开发者关注。",
-        "uses": [
-          "使用 Claude Code、Cursor 等 AI 编程代理的开发者，希望增强代理的记忆和工作流能力。",
-          "团队需要规格驱动开发和可验证的代理行为，以提升代码质量和可审计性。",
-          "希望避免代理锁定，灵活切换或组合多种 AI 编程工具的用户。",
-          "对 MCP 服务器、技能库和人格设定等高级功能感兴趣的 AI 工程实践者。"
-        ]
-      },
-      "en": {
-        "tag": "A deterministic engineering environment that gives your existing AI coding agents memory, workflow, and evidence.",
-        "what": "Gentle-AI is an open-source configuration layer that injects persistent memory, Spec-Driven Development, curated skills, MCP servers, personas, and optional bounded review into the AI coding agents you already use (16 agents including Claude Code, Cursor, OpenCode, Codex, and Pi). It avoids agent lock-in and aims to stop your agent from forgetting everything after writing code, while providing evidence of what it did.",
-        "content": "The repository contains a Go-based CLI tool, documentation (quickstart, intended usage, wiki), brand assets, and configuration templates and skill libraries for different agents.",
-        "stack": "Primarily developed in Go, cross-platform for macOS, Linux, and Windows, under MIT license. Dependencies may include configuration interfaces for various agents and the MCP protocol.",
-        "hot": "It gained 411 stars this week, reaching 6,911 total, and ranked 9th on GitHub Trending weekly (Go). It addresses the pain point of AI agents lacking memory and workflow, supports multiple mainstream agents without lock-in, thus attracting developer attention.",
-        "uses": [
-          "Developers using AI coding agents like Claude Code or Cursor who want to enhance agent memory and workflow.",
-          "Teams needing Spec-Driven Development and verifiable agent behavior for better code quality and auditability.",
-          "Users who want to avoid agent lock-in and flexibly switch or combine multiple AI coding tools.",
-          "AI engineering practitioners interested in advanced features like MCP servers, skill libraries, and personas."
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
       "slug": "engram",
       "full": "Gentleman-Programming/engram",
       "rank": 16,
       "cat": "agent",
       "lang": "Go",
       "stars": 7.1,
-      "today": "+697",
-      "today_n": 697,
+      "today": "+682",
+      "today_n": 682,
       "auto": false,
       "zh": {
         "tag": "为 AI 编程代理打造的持久记忆系统，单二进制、零依赖",
@@ -13972,7 +13265,51 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "gentle-ai",
+      "full": "Gentleman-Programming/gentle-ai",
+      "rank": 9,
+      "cat": "agent",
+      "lang": "Go",
+      "stars": 7.6,
+      "today": "+1.2k",
+      "today_n": 1224,
+      "auto": false,
+      "zh": {
+        "tag": "为现有 AI 编程代理提供记忆、工作流与可验证证据的确定性工程环境",
+        "what": "Gentle-AI 是一个开源配置层，为你已经在用的 AI 编程代理（如 Claude Code、Cursor、OpenCode、Codex、Pi 等 16 种）注入持久记忆、规格驱动开发、精选技能、MCP 服务器、人格设定和可选的有界审查。它不锁定任何代理，目标是让代理写代码后不再失忆，并能证明自己做了什么。",
+        "content": "仓库包含 Go 编写的 CLI 工具、文档（快速开始、预期用法、Wiki）、品牌资源以及针对不同代理的配置模板和技能库。",
+        "stack": "主要使用 Go 语言开发，跨平台支持 macOS、Linux 和 Windows，采用 MIT 许可证。依赖可能包括各代理的配置接口和 MCP 协议。",
+        "hot": "本周新增 411 颗星，总星数达 6911，登上 GitHub Trending 周榜（Go）第 9 名。它解决了 AI 代理缺乏记忆和工作流的痛点，且支持多种主流代理，无锁定，因此受到开发者关注。",
+        "uses": [
+          "使用 Claude Code、Cursor 等 AI 编程代理的开发者，希望增强代理的记忆和工作流能力。",
+          "团队需要规格驱动开发和可验证的代理行为，以提升代码质量和可审计性。",
+          "希望避免代理锁定，灵活切换或组合多种 AI 编程工具的用户。",
+          "对 MCP 服务器、技能库和人格设定等高级功能感兴趣的 AI 工程实践者。"
+        ]
+      },
+      "en": {
+        "tag": "A deterministic engineering environment that gives your existing AI coding agents memory, workflow, and evidence.",
+        "what": "Gentle-AI is an open-source configuration layer that injects persistent memory, Spec-Driven Development, curated skills, MCP servers, personas, and optional bounded review into the AI coding agents you already use (16 agents including Claude Code, Cursor, OpenCode, Codex, and Pi). It avoids agent lock-in and aims to stop your agent from forgetting everything after writing code, while providing evidence of what it did.",
+        "content": "The repository contains a Go-based CLI tool, documentation (quickstart, intended usage, wiki), brand assets, and configuration templates and skill libraries for different agents.",
+        "stack": "Primarily developed in Go, cross-platform for macOS, Linux, and Windows, under MIT license. Dependencies may include configuration interfaces for various agents and the MCP protocol.",
+        "hot": "It gained 411 stars this week, reaching 6,911 total, and ranked 9th on GitHub Trending weekly (Go). It addresses the pain point of AI agents lacking memory and workflow, supports multiple mainstream agents without lock-in, thus attracting developer attention.",
+        "uses": [
+          "Developers using AI coding agents like Claude Code or Cursor who want to enhance agent memory and workflow.",
+          "Teams needing Spec-Driven Development and verifiable agent behavior for better code quality and auditability.",
+          "Users who want to avoid agent lock-in and flexibly switch or combine multiple AI coding tools.",
+          "AI engineering practitioners interested in advanced features like MCP servers, skill libraries, and personas."
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -13985,8 +13322,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "Go",
       "stars": 2.0,
-      "today": "+2.0k",
-      "today_n": 2042,
+      "today": "+2.1k",
+      "today_n": 2054,
       "auto": false,
       "zh": {
         "tag": "可插拔传输的 TCP/UDP 隧道网络栈研究工具",
@@ -14034,111 +13371,14 @@ window.TRENDING_DATA = {
       }
     },
     {
-      "slug": "trufflehog",
-      "full": "trufflesecurity/trufflehog",
-      "rank": 9,
-      "cat": "infra",
-      "lang": "Go",
-      "stars": 28.4,
-      "today": "+703",
-      "today_n": 703,
-      "auto": false,
-      "zh": {
-        "tag": "发现、验证并分析泄露凭据的密钥扫描工具",
-        "what": "TruffleHog 是一款强大的密钥发现、分类、验证与分析工具，用于检测 API 密钥、数据库密码、私钥等机器认证凭据。它能扫描 Git、聊天记录、Wiki、日志、对象存储和文件系统等多种来源，并验证密钥是否仍然有效。",
-        "content": "仓库包含 Go 语言编写的核心扫描引擎、超过 800 种密钥类型的检测器（pkg/detectors 目录），以及用于分类、验证和分析的模块。还提供企业版，支持持续监控 Git、Jira、Slack 等平台。",
-        "stack": "主要使用 Go 语言开发，依赖 GoReleaser 进行构建发布，采用 AGPL-3.0 许可证。",
-        "hot": "凭借 28,193 个 Star 和今日新增 25 个 Star，TruffleHog 在 GitHub Go 语言日榜排名第 9，反映出开发者对密钥安全扫描的持续高需求。",
-        "uses": [
-          "安全工程师：用于扫描代码库和基础设施中的泄露凭据",
-          "DevOps 团队：集成到 CI/CD 流程中自动检测密钥泄露",
-          "开源维护者：检查公开仓库是否意外提交了敏感信息",
-          "企业安全团队：通过企业版持续监控 Git、Slack 等平台"
-        ]
-      },
-      "en": {
-        "tag": "Find, verify, and analyze leaked credentials",
-        "what": "TruffleHog is a powerful secrets discovery, classification, validation, and analysis tool for detecting credentials like API keys, database passwords, and private keys. It scans Git, chats, wikis, logs, object stores, and filesystems, and verifies whether secrets are still live.",
-        "content": "The repo contains a Go-based scanning engine, over 800 secret-type detectors (in pkg/detectors), and modules for classification, validation, and analysis. An enterprise version offers continuous monitoring for Git, Jira, Slack, and more.",
-        "stack": "Primarily built in Go, uses GoReleaser for builds and releases, and is licensed under AGPL-3.0.",
-        "hot": "With 28,193 stars and 25 added today, TruffleHog ranks 9th on GitHub's daily Go trending list, reflecting strong ongoing demand for secret-scanning security tools.",
-        "uses": [
-          "Security engineers: scan codebases and infrastructure for leaked credentials",
-          "DevOps teams: integrate into CI/CD pipelines to automatically detect secret leaks",
-          "Open-source maintainers: check public repos for accidentally committed sensitive data",
-          "Enterprise security teams: use the enterprise version to continuously monitor Git, Slack, and more"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "pentagi",
-      "full": "vxcontrol/pentagi",
-      "rank": 8,
-      "cat": "agent",
-      "lang": "Go",
-      "stars": 25.4,
-      "today": "+2.9k",
-      "today_n": 2931,
-      "auto": false,
-      "zh": {
-        "tag": "自主AI渗透测试代理系统",
-        "what": "PentAGI 是一个全自主的 AI 代理系统，能够执行复杂的渗透测试任务。它利用先进的人工智能技术，为信息安全专业人员、研究人员和爱好者提供强大且灵活的安全测试解决方案。",
-        "content": "仓库包含完整的系统代码、架构文档、快速入门指南、LLM 提供商配置（如 OpenAI、Anthropic、Ollama 等）、Docker 镜像配置、开发与测试工具（如 ftester）以及社区链接。",
-        "stack": "主要使用 Go 语言开发，支持多种 LLM 提供商（OpenAI、Anthropic、Gemini、AWS Bedrock 等），集成 Docker 进行隔离，并支持 Langfuse 监控和知识图谱（Graphiti）。",
-        "hot": "随着 AI 与网络安全结合的热度上升，PentAGI 作为自动化渗透测试的领先项目，在 GitHub 上迅速获得关注，今日新增 89 星，总星数达 22519，位居 Go 语言趋势榜第一。",
-        "uses": [
-          "安全研究人员：利用 AI 代理自动执行渗透测试，提高效率。",
-          "红队与蓝队：在授权环境中进行自动化安全评估。",
-          "AI 爱好者：探索 AI 在网络安全领域的实际应用。"
-        ]
-      },
-      "en": {
-        "tag": "Autonomous AI agent system for complex penetration testing",
-        "what": "PentAGI is a fully autonomous AI agent system capable of performing complex penetration testing tasks. It leverages advanced AI technologies to provide a powerful and flexible security testing solution for infosec professionals, researchers, and enthusiasts.",
-        "content": "The repository includes full system code, architecture docs, quick start guides, LLM provider configurations (e.g., OpenAI, Anthropic, Ollama), Docker image setup, development and testing tools (like ftester), and community links.",
-        "stack": "Primarily developed in Go, supports multiple LLM providers (OpenAI, Anthropic, Gemini, AWS Bedrock, etc.), integrates Docker for isolation, and supports Langfuse monitoring and knowledge graph (Graphiti).",
-        "hot": "With the rising intersection of AI and cybersecurity, PentAGI as a leading autonomous pentesting project has gained rapid traction on GitHub, adding 89 stars today to reach 22,519 total, ranking #1 in Go trending.",
-        "uses": [
-          "Security researchers: leverage AI agents to automate penetration testing and improve efficiency.",
-          "Red and blue teams: conduct automated security assessments in authorized environments.",
-          "AI enthusiasts: explore practical applications of AI in cybersecurity."
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-09-13",
-        "is_new": false,
-        "is_back": false,
-        "hist": [
-          {
-            "d": "2026-09-13",
-            "s": 23.5,
-            "r": 16
-          },
-          {
-            "d": "2026-09-14",
-            "s": 24.0,
-            "r": 8
-          }
-        ]
-      }
-    },
-    {
       "slug": "memos",
       "full": "usememos/memos",
       "rank": 13,
       "cat": "other",
       "lang": "Go",
-      "stars": 63.6,
-      "today": "+925",
-      "today_n": 925,
+      "stars": 63.7,
+      "today": "+928",
+      "today_n": 928,
       "auto": false,
       "zh": {
         "tag": "开源自托管的个人笔记时间线，Markdown 快速记录与检索",
@@ -14168,51 +13408,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "zitadel",
-      "full": "zitadel/zitadel",
-      "rank": 12,
-      "cat": "infra",
-      "lang": "Go",
-      "stars": 15.3,
-      "today": "+319",
-      "today_n": 319,
-      "auto": false,
-      "zh": {
-        "tag": "面向开发者的开源身份与访问管理基础设施",
-        "what": "ZITADEL 是一个开源的身份与访问管理（IAM）平台，为 SaaS、B2B 平台和自托管场景提供开箱即用的认证能力。它内置 SSO、MFA、Passkeys、OIDC、SAML、SCIM 以及成熟的多租户模型，主打 API-first 且无厂商锁定。",
-        "content": "仓库包含 Go 编写的核心服务、apps 下的文档站点与前端应用，以及部署配置、示例和 CI 工作流等，是一个完整的生产级 IAM 代码库。",
-        "stack": "主要使用 Go 语言开发，遵循 OIDC/SAML/SCIM 等标准协议，配套 PostgreSQL 存储，并集成 Dev Containers、semantic-release 与 GitHub Actions。",
-        "hot": "凭借 15245 颗星与本月新增 316 星登上 GitHub Trending Go 月榜第 12 名，反映出开发者对可自托管、无锁定的现代 IAM 方案需求旺盛。",
-        "uses": [
-          "需要为 SaaS 或 B2B 产品快速接入 SSO、MFA 的开发者",
-          "希望自托管生产级 IAM 并避免厂商锁定的团队",
-          "构建多租户平台、需要 SCIM 用户同步的工程团队",
-          "关注 OIDC/SAML 标准合规与安全最佳实践的技术负责人"
-        ]
-      },
-      "en": {
-        "tag": "Open-source identity and access management infrastructure for developers",
-        "what": "ZITADEL is an open-source identity and access management (IAM) platform offering out-of-the-box auth for SaaS, B2B platforms, and self-hosted setups. It ships SSO, MFA, Passkeys, OIDC, SAML, SCIM, and a battle-tested multi-tenancy model, with an API-first design and no vendor lock-in.",
-        "content": "The repo contains the Go-based core service, docs site and frontend apps under apps, plus deployment configs, examples, and CI workflows — a complete production-grade IAM codebase.",
-        "stack": "Primarily written in Go, implementing standards like OIDC/SAML/SCIM, backed by PostgreSQL, and integrated with Dev Containers, semantic-release, and GitHub Actions.",
-        "hot": "With 15,245 stars and 316 added this month, it ranks 12th on GitHub Trending's monthly Go list, reflecting strong demand for self-hostable, lock-in-free modern IAM.",
-        "uses": [
-          "Developers adding SSO and MFA to SaaS or B2B products quickly",
-          "Teams wanting self-hosted, production-grade IAM without vendor lock-in",
-          "Engineering teams building multi-tenant platforms with SCIM user sync",
-          "Tech leads focused on OIDC/SAML compliance and security best practices"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -14277,58 +13473,14 @@ window.TRENDING_DATA = {
       }
     },
     {
-      "slug": "cli",
-      "full": "urfave/cli",
-      "rank": 8,
-      "cat": "infra",
-      "lang": "Go",
-      "stars": 24.3,
-      "today": "+82",
-      "today_n": 82,
-      "auto": false,
-      "zh": {
-        "tag": "Go 语言声明式命令行工具构建库",
-        "what": "urfave/cli 是一个用于在 Go 中构建命令行工具的声明式库，让开发者以简洁直观的方式定义命令、子命令与参数。它主打简单、快速、有趣，同时提供完善的帮助系统与动态补全能力。",
-        "content": "仓库包含核心库源码、./docs 文档目录（用于构建 cli.urfave.org 网站）、测试与 CI 配置，以及配套的 cli-docs、cli-altsrc 模块。",
-        "stack": "纯 Go 实现，除 Go 标准库外无任何依赖，支持 bash、zsh、fish、powershell 的动态补全。",
-        "hot": "凭借 24k+ star 的长期口碑与零依赖、声明式 API 的优势，本周新增 29 star 登上 Go 周榜第 8，是 Go CLI 生态的常青树。",
-        "uses": [
-          "Go 开发者快速构建带子命令的 CLI 应用",
-          "需要跨 shell 动态补全与自动文档生成的工具作者",
-          "希望零依赖、轻量级命令行框架的团队",
-          "学习 Go 命令行程序设计的入门者"
-        ]
-      },
-      "en": {
-        "tag": "A declarative, simple, fast Go package for building CLI tools",
-        "what": "urfave/cli is a declarative library for building command line tools in Go, letting developers define commands, subcommands and flags in a clean, intuitive way. It focuses on being simple, fast and fun while offering a rich help system and dynamic completion.",
-        "content": "The repo contains the core library source, a ./docs directory that powers the cli.urfave.org site, tests and CI config, plus companion modules cli-docs and cli-altsrc.",
-        "stack": "Written in pure Go with no dependencies beyond the standard library, supporting dynamic shell completion for bash, zsh, fish and powershell.",
-        "hot": "With 24k+ stars and a zero-dependency declarative API, it added 29 stars this week to rank 8th on the Go trending list, a perennial favorite in the Go CLI ecosystem.",
-        "uses": [
-          "Go developers building CLI apps with subcommands",
-          "Tool authors needing cross-shell completion and auto docs",
-          "Teams wanting a zero-dependency, lightweight CLI framework",
-          "Beginners learning command line program design in Go"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
       "slug": "grpc-go",
       "full": "grpc/grpc-go",
       "rank": 12,
       "cat": "infra",
       "lang": "Go",
       "stars": 23.1,
-      "today": "+138",
-      "today_n": 138,
+      "today": "+141",
+      "today_n": 141,
       "auto": false,
       "zh": {
         "tag": "Go 语言官方 gRPC 实现，基于 HTTP/2 的高性能 RPC 框架",
@@ -14358,7 +13510,51 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "cli",
+      "full": "urfave/cli",
+      "rank": 8,
+      "cat": "infra",
+      "lang": "Go",
+      "stars": 24.3,
+      "today": "+83",
+      "today_n": 83,
+      "auto": false,
+      "zh": {
+        "tag": "Go 语言声明式命令行工具构建库",
+        "what": "urfave/cli 是一个用于在 Go 中构建命令行工具的声明式库，让开发者以简洁直观的方式定义命令、子命令与参数。它主打简单、快速、有趣，同时提供完善的帮助系统与动态补全能力。",
+        "content": "仓库包含核心库源码、./docs 文档目录（用于构建 cli.urfave.org 网站）、测试与 CI 配置，以及配套的 cli-docs、cli-altsrc 模块。",
+        "stack": "纯 Go 实现，除 Go 标准库外无任何依赖，支持 bash、zsh、fish、powershell 的动态补全。",
+        "hot": "凭借 24k+ star 的长期口碑与零依赖、声明式 API 的优势，本周新增 29 star 登上 Go 周榜第 8，是 Go CLI 生态的常青树。",
+        "uses": [
+          "Go 开发者快速构建带子命令的 CLI 应用",
+          "需要跨 shell 动态补全与自动文档生成的工具作者",
+          "希望零依赖、轻量级命令行框架的团队",
+          "学习 Go 命令行程序设计的入门者"
+        ]
+      },
+      "en": {
+        "tag": "A declarative, simple, fast Go package for building CLI tools",
+        "what": "urfave/cli is a declarative library for building command line tools in Go, letting developers define commands, subcommands and flags in a clean, intuitive way. It focuses on being simple, fast and fun while offering a rich help system and dynamic completion.",
+        "content": "The repo contains the core library source, a ./docs directory that powers the cli.urfave.org site, tests and CI config, plus companion modules cli-docs and cli-altsrc.",
+        "stack": "Written in pure Go with no dependencies beyond the standard library, supporting dynamic shell completion for bash, zsh, fish and powershell.",
+        "hot": "With 24k+ stars and a zero-dependency declarative API, it added 29 stars this week to rank 8th on the Go trending list, a perennial favorite in the Go CLI ecosystem.",
+        "uses": [
+          "Go developers building CLI apps with subcommands",
+          "Tool authors needing cross-shell completion and auto docs",
+          "Teams wanting a zero-dependency, lightweight CLI framework",
+          "Beginners learning command line program design in Go"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -14371,8 +13567,8 @@ window.TRENDING_DATA = {
       "cat": "infra",
       "lang": "Go",
       "stars": 1.7,
-      "today": "+448",
-      "today_n": 448,
+      "today": "+447",
+      "today_n": 447,
       "auto": false,
       "zh": {
         "tag": "E2B 云背后的开源运行时：Firecracker 微虚拟机，快照恢复、运行不可信代理代码、暂停恢复。",
@@ -14402,95 +13598,95 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "kubernetes",
-      "full": "kubernetes/kubernetes",
-      "rank": 19,
-      "cat": "infra",
-      "lang": "Go",
-      "stars": 128.2,
-      "today": "+1.8k",
-      "today_n": 1833,
-      "auto": false,
-      "zh": {
-        "tag": "生产级容器编排与集群管理的事实标准",
-        "what": "Kubernetes（K8s）是一个开源系统，用于跨多台主机管理容器化应用，提供部署、维护与扩缩容的基础机制。它源自 Google 十五年大规模生产经验（Borg 系统），并融合了社区最佳实践，现由 CNCF 托管。",
-        "content": "仓库包含 Kubernetes 核心控制平面与节点组件源码（apiserver、kubelet、scheduler、controller-manager 等）、命令行工具 kubectl、测试套件、文档与构建脚本，并含 staging 目录用于发布可复用的库组件。",
-        "stack": "以 Go 语言开发，依赖 etcd 作为集群状态存储，使用容器运行时接口（CRI）对接 Docker/containerd 等，构建依赖 Go 工具链或 Docker 环境（make / make quick-release）。",
-        "hot": "作为云原生领域的基石项目，K8s 长期稳居 GitHub 最受关注仓库之列，累计 127,840 颗星，本周再增 574 星并进入 Go 语言周榜第 19 名，热度源于其不可替代的行业地位与持续活跃的社区贡献。",
-        "uses": [
-          "平台与 DevOps 工程师：用于搭建和管理生产级容器集群",
-          "云原生应用开发者：借助 K8s API 部署、扩缩容与运维微服务",
-          "企业架构师：评估多云/混合云容器编排与标准化方案",
-          "开源贡献者：参与核心组件开发、文档与社区治理"
-        ]
-      },
-      "en": {
-        "tag": "The de facto standard for production-grade container orchestration and cluster management",
-        "what": "Kubernetes (K8s) is an open source system for managing containerized applications across multiple hosts, providing the basic mechanisms for deployment, maintenance, and scaling. It builds on a decade and a half of Google's production experience with Borg, combined with community best practices, and is hosted by the CNCF.",
-        "content": "The repo contains the source for Kubernetes core control plane and node components (apiserver, kubelet, scheduler, controller-manager, etc.), the kubectl CLI, test suites, docs, build scripts, and a staging directory for publishing reusable library components.",
-        "stack": "Written in Go, it relies on etcd for cluster state, uses the Container Runtime Interface (CRI) to integrate with Docker/containerd and others, and builds via a Go toolchain or Docker environment (make / make quick-release).",
-        "hot": "As the cornerstone of cloud native, K8s remains one of GitHub's most-starred repos with 127,840 stars, adding 574 this week to rank 19th on the Go trending weekly list, driven by its irreplaceable industry role and a continuously active community.",
-        "uses": [
-          "Platform and DevOps engineers: build and operate production-grade container clusters",
-          "Cloud native developers: deploy, scale, and operate microservices via the K8s API",
-          "Enterprise architects: evaluate multi-cloud/hybrid container orchestration and standardization",
-          "Open source contributors: work on core components, docs, and community governance"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "agent-router",
-      "full": "theagentrouter/agent-router",
+      "slug": "go",
+      "full": "golang/go",
       "rank": 14,
       "cat": "infra",
       "lang": "Go",
-      "stars": 2.2,
-      "today": "+204",
-      "today_n": 204,
+      "stars": 139.2,
+      "today": "+1.7k",
+      "today_n": 1735,
       "auto": false,
       "zh": {
-        "tag": "基于 Envoy 的 AI 与 Agent 流量开源控制平面",
-        "what": "Agent Router 为应用团队提供统一、兼容 OpenAI 的 API，接入托管模型、自托管推理和 MCP 服务器。平台团队则集中管理凭证、路由、配额、故障转移和用量归因，由 Envoy 与 Envoy Gateway 执行。",
-        "content": "仓库包含 Go 编写的控制平面与 aigw CLI，提供 AIGatewayRoute、AIServiceBackend、BackendSecurityPolicy 等 CRD，以及 Helm charts、容器镜像和文档站点。",
-        "stack": "主要使用 Go 开发，构建在 Envoy 与 Envoy Gateway 之上，遵循 Apache 2.0 许可，提供 OpenAI 兼容接口与 Kubernetes CRD。",
-        "hot": "作为 Envoy AI Gateway 更名后的 Agentic AI Foundation 项目，它契合 AI 流量治理需求，本月新增 202 star，总 star 达 2198，登上 Go 月榜第 14 名。",
+        "tag": "谷歌开源的高效编程语言 Go 的官方主仓库",
+        "what": "Go 是一门开源编程语言，旨在让构建简单、可靠、高效的软件变得容易。它由谷歌主导开发，广泛用于云原生、后端服务与基础设施领域。",
+        "content": "仓库包含 Go 语言的完整源代码、编译器、标准库、运行时以及官方文档与贡献指南，是 Go 项目的权威 Git 主仓库（另有 googlesource 官方源）。",
+        "stack": "主要使用 Go 自身编写（自举），辅以汇编与 C；采用 BSD 风格许可证，依赖极少，构建工具链自成体系。",
+        "hot": "作为拥有 13.8 万+ star 的语言级项目，它长期稳居热门，今日再登 Go 日榜第 14 名，反映开发者对 Go 生态的持续关注。",
         "uses": [
-          "平台工程团队：集中管理多模型凭证、路由、配额与故障转移",
-          "应用开发团队：用统一 OpenAI 兼容 API 接入托管与自托管模型",
-          "Kubernetes 运维人员：通过 Envoy Gateway 部署两层网关架构",
-          "AI 基础设施团队：为自托管推理集群和 MCP 服务器提供入口控制"
+          "后端与微服务开发者，用 Go 构建高并发服务",
+          "云原生与 DevOps 工程师，开发 Kubernetes、Docker 等基础设施",
+          "编程语言爱好者与研究者，学习语言设计与编译器实现",
+          "学生与初学者，通过官方源码与文档系统学习 Go"
         ]
       },
       "en": {
-        "tag": "The open source control plane for AI and agent traffic, powered by Envoy",
-        "what": "Agent Router gives application teams one consistent, OpenAI-compatible API for every model and tool, from hosted providers to self-hosted inference and MCP servers. Platform teams keep credentials, routing, quotas, failover, and usage attribution in one place, enforced by Envoy and Envoy Gateway.",
-        "content": "The repo contains a Go-based control plane and the aigw CLI, CRDs such as AIGatewayRoute, AIServiceBackend and BackendSecurityPolicy, plus Helm charts, container images and a docs site.",
-        "stack": "Primarily written in Go, built on Envoy and Envoy Gateway, Apache 2.0 licensed, offering an OpenAI-compatible API and Kubernetes CRDs.",
-        "hot": "Now an Agentic AI Foundation project formerly known as Envoy AI Gateway, it fits the need for AI traffic governance, gaining 202 stars this month for a total of 2,198 and ranking 14th on the Go monthly trending list.",
+        "tag": "The official repository of Go, Google's open-source programming language",
+        "what": "Go is an open-source programming language designed to make it easy to build simple, reliable, and efficient software. Backed by Google, it is widely used in cloud-native, backend, and infrastructure development.",
+        "content": "The repo holds the complete Go source code, compiler, standard library, runtime, plus official docs and contribution guidelines — the canonical Git mirror of the Go project.",
+        "stack": "Written primarily in Go itself (self-hosted), with some assembly and C; BSD-style license, minimal external dependencies, and a self-contained toolchain.",
+        "hot": "With over 138k stars, this language-level project stays perpetually popular, again ranking 14th on the Go daily trending list, reflecting sustained interest in the Go ecosystem.",
         "uses": [
-          "Platform engineering teams: centrally manage credentials, routing, quotas and failover across models",
-          "Application developers: use one OpenAI-compatible API for hosted and self-hosted models",
-          "Kubernetes operators: deploy a two-tier gateway pattern with Envoy Gateway",
-          "AI infrastructure teams: provide ingress control for self-hosted inference clusters and MCP servers"
+          "Backend and microservice developers building high-concurrency services in Go",
+          "Cloud-native and DevOps engineers working on Kubernetes, Docker, and infra tooling",
+          "Programming language enthusiasts and researchers studying language and compiler design",
+          "Students and beginners learning Go through official source and docs"
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "navidrome",
+      "full": "navidrome/navidrome",
+      "rank": 14,
+      "cat": "infra",
+      "lang": "Go",
+      "stars": 24.1,
+      "today": "+709",
+      "today_n": 709,
+      "auto": false,
+      "zh": {
+        "tag": "自托管音乐流媒体服务器，打造属于你的私人 Spotify",
+        "what": "Navidrome 是一个开源的基于 Web 的音乐收藏服务器与流媒体播放器，让你可以在任意浏览器或移动设备上收听自己的音乐库。它支持按元数据整理曲库、转码、多用户与播放列表，相当于把 Spotify 的体验搬到自己的服务器上。",
+        "content": "仓库包含 Go 编写的后端服务、内嵌的 Web 前端（React）、Docker 部署配置、多语言翻译文件与主题支持，另有完整的文档与 CI 流水线。",
+        "stack": "主语言为 Go，前端使用 React/TypeScript，数据存储支持 SQLite、PostgreSQL 等，可通过 Docker 一键部署，并兼容 Subsonic API 生态客户端。",
+        "hot": "凭借 24k+ stars 稳居自托管音乐方案头部，今日再登 Go 日榜第 14 名，反映出用户对订阅制音乐服务替代方案与数据自主权的持续需求。",
+        "uses": [
+          "想摆脱音乐订阅、自建私人音乐库的发烧友与极客",
+          "拥有大量本地音乐收藏、希望随时随地流式播放的用户",
+          "在 NAS 或家庭服务器上搭建家庭共享音乐服务的家庭用户",
+          "需要 Subsonic 兼容后端来配合第三方客户端的开发者"
+        ]
+      },
+      "en": {
+        "tag": "Self-hosted music streaming server — your own personal Spotify",
+        "what": "Navidrome is an open-source, web-based music collection server and streamer that lets you listen to your own music library from any browser or mobile device. It organizes your collection by metadata and supports transcoding, multi-user accounts, and playlists — essentially a self-hosted Spotify.",
+        "content": "The repo contains a Go backend, an embedded React web frontend, Docker deployment configs, i18n translation files, theme support, plus full documentation and CI pipelines.",
+        "stack": "Written primarily in Go with a React/TypeScript frontend, it supports SQLite, PostgreSQL and other databases, deploys easily via Docker, and is compatible with Subsonic-API clients.",
+        "hot": "With 24k+ stars it leads the self-hosted music space, and its return to the Go trending list at #14 today reflects ongoing demand for subscription-free, data-sovereign music streaming.",
+        "uses": [
+          "Music enthusiasts and geeks who want to ditch subscriptions and self-host their library",
+          "Users with large local music collections who want to stream anywhere",
+          "Families running a shared music service on a NAS or home server",
+          "Developers needing a Subsonic-compatible backend for third-party clients"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -14502,9 +13698,9 @@ window.TRENDING_DATA = {
       "rank": 20,
       "cat": "infra",
       "lang": "Go",
-      "stars": 35.3,
-      "today": "+900",
-      "today_n": 900,
+      "stars": 35.4,
+      "today": "+894",
+      "today_n": 894,
       "auto": false,
       "zh": {
         "tag": "支持 S3、POSIX 与 Iceberg 的分布式存储系统，单机可扛数十亿文件",
@@ -14534,60 +13730,195 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "tensorflow",
-      "full": "tensorflow/tensorflow",
-      "rank": 5,
-      "cat": "ai",
-      "lang": "C++",
-      "stars": 200.6,
-      "today": "+1.7k",
-      "today_n": 1719,
+      "slug": "openbao",
+      "full": "openbao/openbao",
+      "rank": 21,
+      "cat": "infra",
+      "lang": "Go",
+      "stars": 8.4,
+      "today": "+1.1k",
+      "today_n": 1066,
       "auto": false,
       "zh": {
-        "tag": "谷歌开源的端到端机器学习框架，人人可用",
-        "what": "TensorFlow 是谷歌 Brain 团队打造的端到端开源机器学习平台，覆盖从研究到生产的全流程。它提供稳定的 Python 与 C++ API，以及工具、库和社区资源组成的完整生态，帮助研究者推进 SOTA、开发者快速构建并部署 ML 应用。",
-        "content": "仓库包含核心框架源码（C++/Python）、Keras 高层 API、各语言绑定、编译构建脚本与大量测试，并配有官方文档、安装指南与贡献规范。",
-        "stack": "以 C++ 与 Python 为主，依赖 Bazel 构建系统，支持 CUDA/GPU 加速、Docker 部署，并提供 pip 包与多语言 API 绑定。",
-        "hot": "作为深度学习领域最主流的框架之一，它已累积约 20 万 star，今日再增 46 星并登上 GitHub 日榜第 5，长期热度与生态惯性使其持续被关注。",
+        "tag": "开源社区主导的机密、证书与密钥管理平台",
+        "what": "OpenBao 用于集中管理、加密存储和分发敏感数据，包括数据库凭据、API Key、证书与加密密钥。它把密钥轮换、安全存储和详细审计日志整合成一套统一系统，避免为每个平台单独造轮子。",
+        "content": "仓库主体是 Go 编写的服务端与 CLI，包含 secrets engine、auth 方法、存储后端、审计设备等模块，另有 Web UI、Helm Chart、文档与 OpenSSF 治理相关文件。",
+        "stack": "以 Go 为主语言，提供 HTTP API 与 CLI，可对接多种存储后端（如 Raft、Consul、文件等）和 KMS/HSM，支持容器与 Kubernetes 部署。",
+        "hot": "作为 HashiCorp Vault 的社区分叉，在 OpenSSF 开放治理下推进，本月新增 1066 star、总数达 8365，并登上 GitHub Trending Go 月榜第 21 名，反映用户对开源许可与社区治理的强烈关注。",
         "uses": [
-          "机器学习初学者与研究者，用于学习与实验神经网络模型",
-          "需要将模型部署到生产环境的工程师与数据科学家",
-          "在移动端、浏览器或云端构建 AI 应用的开发者",
-          "希望基于成熟生态做二次开发的企业与团队"
+          "需要集中管理数据库凭据、API Key 和证书的运维与安全团队",
+          "希望从 Vault 迁移到社区治理、OSI 许可方案的平台工程师",
+          "在 Kubernetes 或多云环境中做密钥轮换与审计的 SRE",
+          "关注供应链安全与 OpenSSF 最佳实践的合规人员"
         ]
       },
       "en": {
-        "tag": "Google's end-to-end open source machine learning framework for everyone",
-        "what": "TensorFlow is an end-to-end open source machine learning platform originally built by Google Brain, covering the full path from research to production. It offers stable Python and C++ APIs plus a broad ecosystem of tools, libraries and community resources so researchers can push the state of the art and developers can build and deploy ML-powered applications.",
-        "content": "The repo holds the core framework source (C++/Python), the Keras high-level API, language bindings, build scripts and extensive tests, along with official docs, install guides and contribution guidelines.",
-        "stack": "Primarily C++ and Python, built with Bazel, with CUDA/GPU acceleration, Docker deployment, pip packages and multi-language API bindings.",
-        "hot": "As one of the most mainstream deep learning frameworks, it has accumulated about 200k stars, adding 46 more today to rank 5th on GitHub Trending, sustained by long-term momentum and ecosystem gravity.",
+        "tag": "Community-governed secrets, certificates and keys management platform",
+        "what": "OpenBao manages, stores and distributes sensitive data such as database credentials, API keys, certificates and encryption keys. It bundles key rolling, secure storage and detailed audit logging into one system, so teams don't need a custom solution per platform.",
+        "content": "The repo contains a Go-based server and CLI with secrets engines, auth methods, storage backends and audit devices, plus a web UI, Helm charts, docs and OpenSSF governance files.",
+        "stack": "Primarily written in Go, exposing an HTTP API and CLI, with pluggable storage backends (Raft, Consul, file, etc.) and KMS/HSM integrations, deployable via containers and Kubernetes.",
+        "hot": "As a community fork of HashiCorp Vault under OpenSSF open governance, it gained 1,066 stars this month to reach 8,365 total and ranked 21st on GitHub's monthly Go trending list, reflecting strong interest in open licensing and community governance.",
         "uses": [
-          "ML beginners and researchers learning and experimenting with neural networks",
-          "Engineers and data scientists deploying models to production",
-          "Developers building AI apps for mobile, browser or cloud",
-          "Enterprises and teams extending a mature ecosystem"
+          "Ops and security teams needing centralized management of DB credentials, API keys and certificates",
+          "Platform engineers looking to migrate from Vault to a community-governed, OSI-licensed solution",
+          "SREs handling key rotation and auditing in Kubernetes or multi-cloud environments",
+          "Compliance staff focused on supply-chain security and OpenSSF best practices"
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-09-27",
+        "first": "2026-09-26",
         "is_new": false,
         "is_back": false,
         "hist": [
           {
+            "d": "2026-09-26",
+            "s": 7.7,
+            "r": 16
+          },
+          {
             "d": "2026-09-27",
-            "s": 200.5,
-            "r": 5
+            "s": 8.0,
+            "r": 7
           }
         ]
+      }
+    },
+    {
+      "slug": "excelize",
+      "full": "qax-os/excelize",
+      "rank": 22,
+      "cat": "infra",
+      "lang": "Go",
+      "stars": 21.0,
+      "today": "+95",
+      "today_n": 95,
+      "auto": false,
+      "zh": {
+        "tag": "纯 Go 读写 Excel 电子表格的高性能库",
+        "what": "Excelize 是一个用纯 Go 编写的库，提供读写 XLAM / XLSM / XLSX / XLTM / XLTX 格式电子表格的函数，兼容 Microsoft Excel 2007 及以后版本生成的文件。它支持复杂组件的高兼容性，并提供流式 API 以处理海量数据的工作表。",
+        "content": "仓库包含完整的 Go 库源码、示例代码、文档和测试套件，核心是 excelize 包，提供创建、读取、修改电子表格的 API。",
+        "stack": "基于 Go 语言（要求 Go 1.26.0 或更高版本），依赖标准库和少量第三方包，使用 Go Modules 管理依赖。",
+        "hot": "凭借纯 Go 实现、高兼容性和流式处理能力，Excelize 成为 Go 生态中处理 Excel 文件的首选库，已获得近 2.1 万星标，本月新增 95 星，位列 GitHub Trending 月榜 Go 语言第 22 名。",
+        "uses": [
+          "Go 后端开发者需要在服务端生成或解析 Excel 报表",
+          "数据分析师用 Go 处理大规模 Excel 数据导入导出",
+          "企业应用集成 Excel 文件读写功能，如财务、ERP 系统",
+          "开源项目需要轻量级、无 CGO 依赖的电子表格处理方案"
+        ]
+      },
+      "en": {
+        "tag": "Pure Go library for reading and writing Excel spreadsheets",
+        "what": "Excelize is a pure Go library providing functions to read and write XLAM / XLSM / XLSX / XLTM / XLTX spreadsheets, compatible with files generated by Microsoft Excel 2007 and later. It supports complex components with high compatibility and offers a streaming API for handling worksheets with huge amounts of data.",
+        "content": "The repository contains the full Go library source, examples, documentation, and test suite, with the core excelize package offering APIs to create, read, and modify spreadsheets.",
+        "stack": "Built in Go (requires Go 1.26.0 or later), depending on the standard library and a few third-party packages, with Go Modules for dependency management.",
+        "hot": "With its pure Go implementation, high compatibility, and streaming capabilities, Excelize has become the go-to library for handling Excel files in the Go ecosystem, earning nearly 21k stars, with 95 added this month, ranking 22nd on GitHub Trending monthly for Go.",
+        "uses": [
+          "Go backend developers needing to generate or parse Excel reports server-side",
+          "Data analysts processing large-scale Excel data import/export in Go",
+          "Enterprise applications integrating Excel file read/write, such as finance and ERP systems",
+          "Open-source projects requiring a lightweight, CGO-free spreadsheet processing solution"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "esp32-c3-adblock",
+      "full": "M-Abozaid/esp32-c3-adblock",
+      "rank": 2,
+      "cat": "infra",
+      "lang": "C++",
+      "stars": 2.6,
+      "today": "+1.9k",
+      "today_n": 1881,
+      "auto": false,
+      "zh": {
+        "tag": "2美元ESP32-C3上的Pi-hole级DNS广告拦截器，无需PSRAM",
+        "what": "这是一个运行在廉价ESP32-C3开发板上的DNS广告拦截器，功能类似Pi-hole。它把53.7万个域名以40位FNV-1a哈希的形式存入闪存，通过二分查找实现拦截，无需PSRAM，仅占用约50KB内存即可在约10毫秒内响应被拦截的查询。",
+        "content": "仓库包含C++固件源码、PlatformIO构建配置、Web仪表盘，以及一个可3D打印的C3 SuperMini外壳STL文件。",
+        "stack": "基于C++与PlatformIO开发，面向ESP32-C3（也支持经典ESP32），使用UDP DNS sinkhole与闪存哈希表，依赖WiFi联网。",
+        "hot": "上线即登上GitHub Trending日榜C++第2名，今日新增476星、总星2258。它被Tom's Hardware、XDA等媒体报道，用极低成本实现Pi-hole级拦截，极具话题性。",
+        "uses": [
+          "想低成本搭建家庭网络广告拦截的DIY爱好者",
+          "拥有ESP32-C3开发板、想折腾嵌入式网络项目的开发者",
+          "关注闪存哈希、内存优化等嵌入式技巧的工程师",
+          "希望用USB小棒即插即用拦截广告的普通用户"
+        ]
+      },
+      "en": {
+        "tag": "A Pi-hole-class DNS ad-blocker on a $2 ESP32-C3, no PSRAM required",
+        "what": "This is a DNS ad-blocker running on a cheap ESP32-C3 board, functionally similar to Pi-hole. It stores 537k domains as 40-bit FNV-1a hashes in flash and binary-searches them, requiring no PSRAM and using only ~50KB of RAM to answer blocked lookups in about 10ms.",
+        "content": "The repo contains C++ firmware source, PlatformIO build configs, a web dashboard, and a printable STL enclosure for the C3 SuperMini.",
+        "stack": "Built in C++ with PlatformIO for the ESP32-C3 (classic ESP32 also supported), using a UDP DNS sinkhole and a flash hash table, relying on WiFi connectivity.",
+        "hot": "It hit #2 on GitHub Trending (C++) with 476 stars today and 2,258 total. Featured by Tom's Hardware and XDA, it's a buzzworthy feat of Pi-hole-class blocking at extremely low cost.",
+        "uses": [
+          "DIY enthusiasts wanting low-cost home network ad blocking",
+          "Developers with an ESP32-C3 board looking for an embedded networking project",
+          "Engineers interested in flash hashing and memory optimization tricks",
+          "Everyday users wanting a plug-and-play USB dongle to block ads"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "llama.cpp",
+      "full": "ggml-org/llama.cpp",
+      "rank": 17,
+      "cat": "infra",
+      "lang": "C++",
+      "stars": 130.7,
+      "today": "+3.6k",
+      "today_n": 3642,
+      "auto": false,
+      "zh": {
+        "tag": "纯C/C++的高性能LLM推理引擎",
+        "what": "llama.cpp 是一个用纯 C/C++ 编写的高性能大语言模型推理引擎，支持在 CPU 和 GPU 上高效运行。它针对本地部署和资源受限环境进行了优化，无需依赖庞大的深度学习框架。",
+        "content": "仓库包含核心推理库 libllama、命令行工具、REST API 服务器（llama-server）以及 WebUI。支持多种量化格式（如 GGUF）和模型架构（如 LLaMA、GPT-OSS）。",
+        "stack": "纯 C/C++ 实现，依赖 ggml 张量库，可选支持 CUDA、Vulkan、Metal 等 GPU 加速后端。",
+        "hot": "作为最流行的本地 LLM 推理方案之一，llama.cpp 持续获得社区关注，今日新增 159 星，总星数突破 12 万。其高性能、跨平台和易用性使其成为 AI 开发者和爱好者的首选。",
+        "uses": [
+          "AI 开发者：在本地或边缘设备上运行和测试大语言模型",
+          "隐私敏感用户：无需联网即可使用 LLM，数据完全本地化",
+          "研究人员：探索模型量化、推理优化和自定义模型架构"
+        ]
+      },
+      "en": {
+        "tag": "High-performance LLM inference engine in pure C/C++",
+        "what": "llama.cpp is a high-performance LLM inference engine written in pure C/C++, optimized for CPU and GPU execution. It enables efficient local deployment without heavy deep learning frameworks.",
+        "content": "The repo includes the core inference library libllama, CLI tools, a REST API server (llama-server), and a WebUI. It supports various quantization formats (e.g., GGUF) and model architectures (e.g., LLaMA, GPT-OSS).",
+        "stack": "Pure C/C++ implementation, relies on the ggml tensor library, with optional GPU backends like CUDA, Vulkan, and Metal.",
+        "hot": "As one of the most popular local LLM inference solutions, llama.cpp continues to gain community traction with 159 new stars today, surpassing 120K total. Its performance, cross-platform support, and ease of use make it a top choice for AI developers and enthusiasts.",
+        "uses": [
+          "AI developers: run and test LLMs locally or on edge devices",
+          "Privacy-conscious users: use LLMs offline with full data locality",
+          "Researchers: explore quantization, inference optimization, and custom model architectures"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
       }
     },
     {
@@ -14647,8 +13978,8 @@ window.TRENDING_DATA = {
       "cat": "ai",
       "lang": "C++",
       "stars": 7.6,
-      "today": "+652",
-      "today_n": 652,
+      "today": "+654",
+      "today_n": 654,
       "auto": false,
       "zh": {
         "tag": "纯 C/C++ 实现的多模型扩散推理引擎",
@@ -14696,9 +14027,9 @@ window.TRENDING_DATA = {
       "rank": 10,
       "cat": "infra",
       "lang": "C++",
-      "stars": 2.8,
+      "stars": 2.9,
       "today": "+1.3k",
-      "today_n": 1334,
+      "today_n": 1336,
       "auto": false,
       "zh": {
         "tag": "专为 RTX 5090 打造的单卡 C++/CUDA 推理引擎",
@@ -14728,7 +14059,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -14742,7 +14073,7 @@ window.TRENDING_DATA = {
       "lang": "C++",
       "stars": 42.0,
       "today": "+1.1k",
-      "today_n": 1114,
+      "today_n": 1121,
       "auto": false,
       "zh": {
         "tag": "自托管游戏串流服务端，配合 Moonlight 使用",
@@ -14770,51 +14101,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "electron",
-      "full": "electron/electron",
-      "rank": 13,
-      "cat": "infra",
-      "lang": "C++",
-      "stars": 123.2,
-      "today": "+676",
-      "today_n": 676,
-      "auto": false,
-      "zh": {
-        "tag": "用 JavaScript、HTML 和 CSS 构建跨平台桌面应用",
-        "what": "Electron 是一个基于 Node.js 和 Chromium 的框架，让开发者用 JavaScript、HTML 和 CSS 编写可在 macOS、Windows、Linux 上运行的桌面应用。它把 Chromium 渲染引擎与 Node.js 运行时打包在一起，使网页技术可以直接调用系统能力。Visual Studio Code、Slack、Discord 等知名应用都构建于其上。",
-        "content": "仓库包含 Electron 的核心 C++ 实现、Chromium 与 Node.js 的集成层、各平台构建脚本、API 文档（含多语言翻译）以及测试套件；配套的 Electron Fiddle 工具可用来快速试验和打包小项目。",
-        "stack": "主要语言为 C++，底层依赖 Chromium 和 Node.js，通过 npm 分发预编译二进制，构建流程使用 GN/Ninja 与 GitHub Actions。",
-        "hot": "作为桌面端跨平台开发的事实标准，Electron 拥有超过 12.3 万 star，本月仍新增 716 星，稳居 GitHub Trending 月榜 C++ 分类第 13 名，生态与更新活跃度持续领先。",
-        "uses": [
-          "前端或全栈开发者，希望用 Web 技术快速交付桌面客户端",
-          "需要为 Windows、macOS、Linux 同时发布同一套代码的团队",
-          "想学习 Chromium 与 Node.js 集成、桌面运行时架构的工程师",
-          "为 VS Code、Slack 等 Electron 应用开发插件或做二次开发的开发者"
-        ]
-      },
-      "en": {
-        "tag": "Build cross-platform desktop apps with JavaScript, HTML, and CSS",
-        "what": "Electron is a framework built on Node.js and Chromium that lets developers write desktop applications for macOS, Windows, and Linux using JavaScript, HTML, and CSS. It bundles the Chromium rendering engine with the Node.js runtime so web technologies can access native system capabilities. Well-known apps like Visual Studio Code, Slack, and Discord are built on it.",
-        "content": "The repo contains Electron's core C++ implementation, the Chromium and Node.js integration layer, per-platform build scripts, API documentation (with community translations), and test suites; the companion Electron Fiddle tool lets you prototype and package small projects.",
-        "stack": "Primarily C++, built on Chromium and Node.js, distributed as prebuilt binaries via npm, with GN/Ninja builds and GitHub Actions CI.",
-        "hot": "As the de facto standard for cross-platform desktop development, Electron has over 123K stars and still gained 716 this month, ranking 13th on GitHub Trending's monthly C++ list, showing a thriving and actively maintained ecosystem.",
-        "uses": [
-          "Frontend or full-stack developers who want to ship desktop clients quickly with web technologies",
-          "Teams that need to release the same codebase on Windows, macOS, and Linux",
-          "Engineers curious about Chromium and Node.js integration and desktop runtime architecture",
-          "Developers building extensions or customizations for Electron apps like VS Code and Slack"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -14826,9 +14113,9 @@ window.TRENDING_DATA = {
       "rank": 8,
       "cat": "other",
       "lang": "C++",
-      "stars": 118.1,
+      "stars": 118.2,
       "today": "+1.7k",
-      "today_n": 1693,
+      "today_n": 1677,
       "auto": false,
       "zh": {
         "tag": "免费开源跨平台 2D/3D 游戏引擎",
@@ -14858,7 +14145,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -14872,7 +14159,7 @@ window.TRENDING_DATA = {
       "lang": "C++",
       "stars": 43.0,
       "today": "+1.1k",
-      "today_n": 1108,
+      "today_n": 1120,
       "auto": false,
       "zh": {
         "tag": "轻量级多协议多源命令行下载工具",
@@ -14902,227 +14189,7 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "clickhouse",
-      "full": "ClickHouse/ClickHouse",
-      "rank": 4,
-      "cat": "infra",
-      "lang": "C++",
-      "stars": 50.3,
-      "today": "+658",
-      "today_n": 658,
-      "auto": false,
-      "zh": {
-        "tag": "开源列式实时分析数据库，海量数据秒级查询",
-        "what": "ClickHouse 是一个开源的列式数据库管理系统，专为在线分析处理（OLAP）设计，能在海量数据上实时生成分析报表。它以极致的查询速度和写入吞吐著称，支持 SQL 与丰富的聚合、窗口及近似计算函数。",
-        "content": "仓库是 ClickHouse 服务端与客户端的完整 C++ 源码，包含存储引擎、查询执行、分布式协调、SQL 解析器等核心模块，以及测试、文档和构建脚本。",
-        "stack": "以 C++ 为主，采用列式存储与向量化执行引擎，依赖 CMake 构建，提供 Linux/macOS/FreeBSD 一键安装脚本，并兼容 MySQL 与 PostgreSQL 协议。",
-        "hot": "作为 OLAP 领域标杆项目，ClickHouse 已积累 50091 颗星，今日新增 15 星并登上 GitHub Trending C++ 日榜第 4 名，社区活跃度与版本迭代节奏持续吸引关注。",
-        "uses": [
-          "数据分析师与数据工程师，用于构建实时报表与用户行为分析平台",
-          "后端/平台团队，为日志、指标、事件流提供高吞吐存储与查询层",
-          "需要替换传统数仓或自建 OLAP 的中大型企业技术团队",
-          "学习列式存储与向量化查询引擎实现原理的 C++ 开发者"
-        ]
-      },
-      "en": {
-        "tag": "Open-source column-oriented database for real-time analytics at scale",
-        "what": "ClickHouse is an open-source column-oriented database management system built for OLAP, generating analytical reports on massive datasets in real time. It is known for extreme query speed and write throughput, supporting SQL with rich aggregation, window, and approximate-computation functions.",
-        "content": "The repo holds the full C++ source of the ClickHouse server and client, including storage engines, query execution, distributed coordination, and the SQL parser, plus tests, docs, and build scripts.",
-        "stack": "Primarily C++ with a columnar storage and vectorized execution engine, built via CMake; it ships a one-line install script for Linux/macOS/FreeBSD and speaks MySQL and PostgreSQL wire protocols.",
-        "hot": "As a benchmark OLAP project, ClickHouse has reached 50,091 stars, adding 15 today and ranking 4th on GitHub Trending's C++ daily list, with an active community and steady release cadence keeping it in the spotlight.",
-        "uses": [
-          "Data analysts and engineers building real-time dashboards and user-behavior analytics",
-          "Backend and platform teams needing a high-throughput store and query layer for logs, metrics, and events",
-          "Mid-to-large enterprises replacing legacy data warehouses or self-built OLAP stacks",
-          "C++ developers studying columnar storage and vectorized query engine internals"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "audio.cpp",
-      "full": "0xShug0/audio.cpp",
-      "rank": 14,
-      "cat": "ai",
-      "lang": "C++",
-      "stars": 3.4,
-      "today": "+1.0k",
-      "today_n": 1037,
-      "auto": false,
-      "zh": {
-        "tag": "基于 ggml 的纯 C++ 全能音频推理引擎",
-        "what": "audio.cpp 是一个高性能的纯 C++ 音频推理框架，基于 ggml 构建，让本地音频模型变得实用、可移植且快速。它统一支持 TTS、STT、VAD、声音转换、音乐生成等多种音频任务，且完全不依赖 Python。",
-        "content": "仓库包含 C++ 推理核心、GGUF 量化模型支持、WebUI 界面、Colab 笔记本，以及一个收录 100+ 音频模型架构的 Atlas 文档。",
-        "stack": "核心用 C++ 编写，基于 ggml 张量库，支持 CUDA、ROCm、Metal 与纯 CPU 后端，模型以 GGUF 格式分发。",
-        "hot": "本月新增 1037 star 冲上 C++ 月榜第 14 名，因为它用单一原生运行时替代了繁琐的 Conda 与 Python 依赖，跨平台且支持多硬件加速。",
-        "uses": [
-          "想在本机跑 TTS/STT/音乐生成又不想折腾 Python 环境的开发者",
-          "需要在 Windows、Linux、macOS 上部署音频推理的工程团队",
-          "研究音频模型架构、想对比 100+ 模型设计的学习者",
-          "希望用 C++ 将音频能力嵌入自有应用的产品开发者"
-        ]
-      },
-      "en": {
-        "tag": "An all-in-one pure C++ audio inference engine built on ggml",
-        "what": "audio.cpp is a high-performance pure C++ audio inference framework built on top of ggml, making modern local audio models practical, portable, and fast. It unifies TTS, STT, VAD, voice conversion, music generation and more, with zero Python dependency.",
-        "content": "The repo ships a C++ inference core, GGUF quantized model support, a WebUI, Colab notebooks, and an Architecture Atlas documenting 100+ audio models.",
-        "stack": "Written in C++ on top of the ggml tensor library, with CUDA, ROCm, Metal and CPU-only backends, and models distributed in GGUF format.",
-        "hot": "It gained 1037 stars this month to rank 14th on the C++ trending list, replacing messy Conda and Python setups with a single native runtime that is cross-platform and hardware-accelerated.",
-        "uses": [
-          "Developers who want local TTS/STT/music generation without Python environment hassles",
-          "Engineering teams deploying audio inference across Windows, Linux and macOS",
-          "Learners studying audio model architectures and comparing 100+ designs",
-          "Product developers embedding audio capabilities into C++ applications"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "react-native",
-      "full": "react/react-native",
-      "rank": 21,
-      "cat": "infra",
-      "lang": "C++",
-      "stars": 126.6,
-      "today": "+428",
-      "today_n": 428,
-      "auto": false,
-      "zh": {
-        "tag": "用 React 构建原生移动应用的跨平台框架",
-        "what": "React Native 让你用 React 和 JavaScript 编写真正渲染为原生 UI 的移动应用，一套代码可同时运行在 Android、iOS 及其他平台。它通过原生模块桥接平台能力，兼顾原生体验与 React 的开发效率。",
-        "content": "仓库包含 React Native 核心框架的 C++ 与 JavaScript 源码、原生平台（Android/iOS）实现、组件与 API 定义，以及文档、示例和构建脚本。",
-        "stack": "主要使用 C++ 编写原生渲染层，JavaScript/TypeScript 提供 React 接口，依赖 React、Yoga 布局引擎、Hermes 引擎等，通过 npm 分发。",
-        "hot": "作为跨平台移动开发的事实标准，React Native 拥有 12.6 万+ stars，本月新增 433，持续吸引大量开发者关注与贡献。",
-        "uses": [
-          "移动应用开发者 —— 用 React 技术栈快速构建 iOS 和 Android 原生应用",
-          "前端工程师 —— 将 Web 开发经验复用到移动端，降低学习成本",
-          "创业团队 —— 一套代码覆盖多端，节省人力和时间成本",
-          "企业技术选型 —— 需要成熟、社区活跃的跨平台移动解决方案"
-        ]
-      },
-      "en": {
-        "tag": "A framework for building native apps with React",
-        "what": "React Native lets you build truly native mobile apps using React and JavaScript, sharing one codebase across Android, iOS, and more. It bridges to platform APIs via native modules, combining native performance with React's developer experience.",
-        "content": "The repo contains the core React Native framework source in C++ and JavaScript, native platform implementations (Android/iOS), component and API definitions, plus docs, examples, and build scripts.",
-        "stack": "Primarily C++ for the native rendering layer, with JavaScript/TypeScript for the React interface; depends on React, Yoga layout engine, Hermes engine, and is distributed via npm.",
-        "hot": "As the de facto standard for cross-platform mobile development, React Native has 126k+ stars with 433 added this month, continuously attracting developers and contributors.",
-        "uses": [
-          "Mobile app developers — build native iOS and Android apps quickly with React skills",
-          "Frontend engineers — reuse web development experience on mobile with a lower learning curve",
-          "Startup teams — cover multiple platforms with one codebase, saving effort and time",
-          "Enterprise tech selection — need a mature, community-active cross-platform mobile solution"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "keepassxc",
-      "full": "keepassxreboot/keepassxc",
-      "rank": 18,
-      "cat": "infra",
-      "lang": "C++",
-      "stars": 29.1,
-      "today": "+476",
-      "today_n": 476,
-      "auto": false,
-      "zh": {
-        "tag": "跨平台开源密码管理器，离线加密存储你的所有敏感信息",
-        "what": "KeePassXC 是 Windows 版 KeePass Password Safe 的社区驱动跨平台移植版，用于安全地存储和管理用户名、密码、URL、附件与笔记等敏感信息。所有数据保存在本地加密的 KDBX 文件中，可放在任意位置，包括私有或公有云盘。",
-        "content": "仓库包含完整的 C++ 桌面应用源码，覆盖 KDBX3/KDBX4 数据库读写、密码生成器、TOTP、搜索、分组管理、浏览器集成与自动填充等模块，并配有 CMake 构建脚本、测试与多语言翻译文件。",
-        "stack": "主要使用 C++ 与 Qt 框架开发，依赖 libgcrypt、Argon2、zlib 等加密与压缩库，通过 CMake 构建，支持 Windows、macOS 和 Linux。",
-        "hot": "作为老牌开源密码管理器，它已积累 29123 颗星，本月再增 476 星，位列 GitHub Trending 月榜 C++ 第 18 名，反映出用户对本地优先、可审计安全工具持续增长的需求。",
-        "uses": [
-          "注重隐私、希望密码完全离线自管的个人用户",
-          "需要在 Windows/macOS/Linux 多设备间同步加密数据库的用户",
-          "想审计或二次开发密码管理器的安全研究者与开发者",
-          "为团队或家庭统一管理凭据、TOTP 与附件的管理员"
-        ]
-      },
-      "en": {
-        "tag": "Cross-platform open-source password manager with offline encrypted storage",
-        "what": "KeePassXC is a community-driven, cross-platform port of the Windows KeePass Password Safe, built to store and manage sensitive data such as usernames, passwords, URLs, attachments, and notes. Everything lives in a local encrypted KDBX file that can be kept anywhere, including private or public cloud storage.",
-        "content": "The repo holds the full C++ desktop application source, covering KDBX3/KDBX4 database read/write, password generator, TOTP, search, group management, browser integration, and auto-type, along with CMake build scripts, tests, and translation files.",
-        "stack": "Built mainly in C++ with the Qt framework, depending on libgcrypt, Argon2, zlib, and other crypto/compression libraries, built via CMake for Windows, macOS, and Linux.",
-        "hot": "As a long-standing open-source password manager, it has accumulated 29,123 stars with 476 added this month, ranking 18th on GitHub Trending's monthly C++ list, reflecting growing demand for local-first, auditable security tools.",
-        "uses": [
-          "Privacy-conscious individuals who want fully offline, self-hosted password storage",
-          "Users who need to sync an encrypted database across Windows, macOS, and Linux",
-          "Security researchers and developers who want to audit or extend a password manager",
-          "Admins managing credentials, TOTP, and attachments for a team or family"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
-        "is_new": false,
-        "is_back": false,
-        "hist": []
-      }
-    },
-    {
-      "slug": "optiscaler",
-      "full": "optiscaler/OptiScaler",
-      "rank": 13,
-      "cat": "infra",
-      "lang": "C++",
-      "stars": 11.6,
-      "today": "+1.2k",
-      "today_n": 1169,
-      "auto": false,
-      "zh": {
-        "tag": "跨显卡厂商的通用超分与帧生成桥接工具",
-        "what": "OptiScaler 是一款游戏画质增强工具，允许玩家在已支持 DLSS2+/FSR2+/XeSS 的游戏中替换超分方案，并管理帧生成功能。它还能通过实验性 OptiFG 在 DX12 游戏中启用帧生成，甚至支持 Nukem 模组将 DLSSG 转为 FSR3 帧生成。",
-        "content": "仓库包含 C++ 源代码、编译脚本、安装说明、已知问题列表以及详细的 Wiki 文档，并提供稳定版和 nightly 版下载。",
-        "stack": "主要使用 C++ 编写，依赖 DirectX 12、Vulkan 等图形 API，并涉及 DLSS、FSR、XeSS 等超分技术。",
-        "hot": "凭借跨显卡厂商的通用超分与帧生成能力，解决了玩家在非 Nvidia 显卡上无法使用 DLSS 等痛点，已获得 10726 颗星，今日新增 60 星，登上 GitHub Trending 日榜 C++ 分类第 13 名。",
-        "uses": [
-          "PC 游戏玩家：希望在非 Nvidia 显卡上使用 DLSS 或启用帧生成功能。",
-          "游戏模组爱好者：想要自定义游戏画质设置，替换超分方案。",
-          "技术研究者：对超分和帧生成技术跨平台实现感兴趣。",
-          "低配置玩家：通过帧生成提升游戏流畅度。"
-        ]
-      },
-      "en": {
-        "tag": "Universal upscaling and frame generation bridge across GPU vendors",
-        "what": "OptiScaler is a tool that lets you replace upscalers in games already supporting DLSS2+/FSR2+/XeSS, and manage frame generation. It can enable frame generation in DX12 games via experimental OptiFG, and supports the Nukem mod to convert DLSSG to FSR3 frame generation.",
-        "content": "The repo contains C++ source code, build scripts, installation instructions, a known issues list, and detailed Wiki documentation, with stable and nightly releases available.",
-        "stack": "Primarily written in C++, it depends on graphics APIs like DirectX 12 and Vulkan, and integrates upscaling technologies such as DLSS, FSR, and XeSS.",
-        "hot": "With its cross-vendor upscaling and frame generation capabilities, it solves the pain point of using DLSS on non-Nvidia GPUs, earning 10,726 stars with 60 added today, ranking 13th on GitHub Trending daily list for C++.",
-        "uses": [
-          "PC gamers: want to use DLSS or enable frame generation on non-Nvidia GPUs.",
-          "Game modding enthusiasts: want to customize graphics settings and replace upscalers.",
-          "Tech researchers: interested in cross-platform implementations of upscaling and frame generation.",
-          "Low-spec players: improve game smoothness through frame generation."
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -15134,9 +14201,9 @@ window.TRENDING_DATA = {
       "rank": 17,
       "cat": "infra",
       "lang": "C++",
-      "stars": 4.2,
-      "today": "+244",
-      "today_n": 244,
+      "stars": 4.3,
+      "today": "+247",
+      "today_n": 247,
       "auto": false,
       "zh": {
         "tag": "Windows 磁盘占用分析与清理工具，支持交互式矩形树图",
@@ -15166,7 +14233,145 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "wsl",
+      "full": "microsoft/WSL",
+      "rank": 5,
+      "cat": "infra",
+      "lang": "C++",
+      "stars": 34.0,
+      "today": "+440",
+      "today_n": 440,
+      "auto": false,
+      "zh": {
+        "tag": "微软官方 WSL 仓库，在 Windows 上原生运行 Linux 命令行工具",
+        "what": "WSL（Windows Subsystem for Linux）让你无需传统虚拟机或双系统，就能直接在 Windows 上原封不动地运行 Linux 命令行工具、实用程序和应用程序。只需在 Windows 命令行执行 wsl --install 即可安装。",
+        "content": "仓库包含 WSL 的源码、开发者文档（doc/docs/dev-loop.md）、贡献指南、行为准则、隐私与遥测说明，以及配套的 WSL2-Linux-Kernel、WSLg 和文档仓库链接。",
+        "stack": "以 C++ 为主语言，深度集成 Windows 内核与虚拟化技术，并配套 Linux 内核（WSL2-Linux-Kernel）和 GUI 支持组件（WSLg）。",
+        "hot": "作为微软官方项目，WSL 拥有约 3.4 万 star，本周新增 162 并登上 GitHub Trending 周榜 C++ 第 5 名，持续受到开发者关注。",
+        "uses": [
+          "需要在 Windows 上使用 Linux 命令行工具的开发者和运维人员",
+          "想避免双系统或虚拟机开销、追求轻量 Linux 环境的用户",
+          "希望为 WSL 贡献代码、文档或设计提案的开源贡献者",
+          "需要运行 Linux GUI 应用或定制 Linux 内核的高级用户"
+        ]
+      },
+      "en": {
+        "tag": "Microsoft's official WSL repo for running Linux tools natively on Windows",
+        "what": "WSL (Windows Subsystem for Linux) lets you run Linux command-line tools, utilities and applications unmodified and directly on Windows, without the overhead of a traditional VM or dual boot. You can install it right away by running wsl --install in a Windows command line.",
+        "content": "The repo contains WSL source code, developer docs (doc/docs/dev-loop.md), a contributor guide, code of conduct, privacy/telemetry notes, and links to companion repos WSL2-Linux-Kernel, WSLg and the docs repo.",
+        "stack": "Primarily written in C++, deeply integrated with the Windows kernel and virtualization, with companion components including a Linux kernel (WSL2-Linux-Kernel) and GUI support (WSLg).",
+        "hot": "As an official Microsoft project, WSL has about 34k stars, gained 162 this week and ranked 5th on GitHub Trending's weekly C++ list, keeping strong developer attention.",
+        "uses": [
+          "Developers and ops engineers who need Linux CLI tools on Windows",
+          "Users wanting a lightweight Linux environment without dual boot or VM overhead",
+          "Open-source contributors adding code, docs or design proposals to WSL",
+          "Advanced users running Linux GUI apps or customizing the Linux kernel"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "tensorflow",
+      "full": "tensorflow/tensorflow",
+      "rank": 5,
+      "cat": "ai",
+      "lang": "C++",
+      "stars": 200.6,
+      "today": "+1.7k",
+      "today_n": 1715,
+      "auto": false,
+      "zh": {
+        "tag": "谷歌开源的端到端机器学习框架，人人可用",
+        "what": "TensorFlow 是谷歌 Brain 团队打造的端到端开源机器学习平台，覆盖从研究到生产的全流程。它提供稳定的 Python 与 C++ API，以及工具、库和社区资源组成的完整生态，帮助研究者推进 SOTA、开发者快速构建并部署 ML 应用。",
+        "content": "仓库包含核心框架源码（C++/Python）、Keras 高层 API、各语言绑定、编译构建脚本与大量测试，并配有官方文档、安装指南与贡献规范。",
+        "stack": "以 C++ 与 Python 为主，依赖 Bazel 构建系统，支持 CUDA/GPU 加速、Docker 部署，并提供 pip 包与多语言 API 绑定。",
+        "hot": "作为深度学习领域最主流的框架之一，它已累积约 20 万 star，今日再增 46 星并登上 GitHub 日榜第 5，长期热度与生态惯性使其持续被关注。",
+        "uses": [
+          "机器学习初学者与研究者，用于学习与实验神经网络模型",
+          "需要将模型部署到生产环境的工程师与数据科学家",
+          "在移动端、浏览器或云端构建 AI 应用的开发者",
+          "希望基于成熟生态做二次开发的企业与团队"
+        ]
+      },
+      "en": {
+        "tag": "Google's end-to-end open source machine learning framework for everyone",
+        "what": "TensorFlow is an end-to-end open source machine learning platform originally built by Google Brain, covering the full path from research to production. It offers stable Python and C++ APIs plus a broad ecosystem of tools, libraries and community resources so researchers can push the state of the art and developers can build and deploy ML-powered applications.",
+        "content": "The repo holds the core framework source (C++/Python), the Keras high-level API, language bindings, build scripts and extensive tests, along with official docs, install guides and contribution guidelines.",
+        "stack": "Primarily C++ and Python, built with Bazel, with CUDA/GPU acceleration, Docker deployment, pip packages and multi-language API bindings.",
+        "hot": "As one of the most mainstream deep learning frameworks, it has accumulated about 200k stars, adding 46 more today to rank 5th on GitHub Trending, sustained by long-term momentum and ecosystem gravity.",
+        "uses": [
+          "ML beginners and researchers learning and experimenting with neural networks",
+          "Engineers and data scientists deploying models to production",
+          "Developers building AI apps for mobile, browser or cloud",
+          "Enterprises and teams extending a mature ecosystem"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-09-27",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-09-27",
+            "s": 200.5,
+            "r": 5
+          }
+        ]
+      }
+    },
+    {
+      "slug": "keepassxc",
+      "full": "keepassxreboot/keepassxc",
+      "rank": 18,
+      "cat": "infra",
+      "lang": "C++",
+      "stars": 29.1,
+      "today": "+469",
+      "today_n": 469,
+      "auto": false,
+      "zh": {
+        "tag": "跨平台开源密码管理器，离线加密存储你的所有敏感信息",
+        "what": "KeePassXC 是 Windows 版 KeePass Password Safe 的社区驱动跨平台移植版，用于安全地存储和管理用户名、密码、URL、附件与笔记等敏感信息。所有数据保存在本地加密的 KDBX 文件中，可放在任意位置，包括私有或公有云盘。",
+        "content": "仓库包含完整的 C++ 桌面应用源码，覆盖 KDBX3/KDBX4 数据库读写、密码生成器、TOTP、搜索、分组管理、浏览器集成与自动填充等模块，并配有 CMake 构建脚本、测试与多语言翻译文件。",
+        "stack": "主要使用 C++ 与 Qt 框架开发，依赖 libgcrypt、Argon2、zlib 等加密与压缩库，通过 CMake 构建，支持 Windows、macOS 和 Linux。",
+        "hot": "作为老牌开源密码管理器，它已积累 29123 颗星，本月再增 476 星，位列 GitHub Trending 月榜 C++ 第 18 名，反映出用户对本地优先、可审计安全工具持续增长的需求。",
+        "uses": [
+          "注重隐私、希望密码完全离线自管的个人用户",
+          "需要在 Windows/macOS/Linux 多设备间同步加密数据库的用户",
+          "想审计或二次开发密码管理器的安全研究者与开发者",
+          "为团队或家庭统一管理凭据、TOTP 与附件的管理员"
+        ]
+      },
+      "en": {
+        "tag": "Cross-platform open-source password manager with offline encrypted storage",
+        "what": "KeePassXC is a community-driven, cross-platform port of the Windows KeePass Password Safe, built to store and manage sensitive data such as usernames, passwords, URLs, attachments, and notes. Everything lives in a local encrypted KDBX file that can be kept anywhere, including private or public cloud storage.",
+        "content": "The repo holds the full C++ desktop application source, covering KDBX3/KDBX4 database read/write, password generator, TOTP, search, group management, browser integration, and auto-type, along with CMake build scripts, tests, and translation files.",
+        "stack": "Built mainly in C++ with the Qt framework, depending on libgcrypt, Argon2, zlib, and other crypto/compression libraries, built via CMake for Windows, macOS, and Linux.",
+        "hot": "As a long-standing open-source password manager, it has accumulated 29,123 stars with 476 added this month, ranking 18th on GitHub Trending's monthly C++ list, reflecting growing demand for local-first, auditable security tools.",
+        "uses": [
+          "Privacy-conscious individuals who want fully offline, self-hosted password storage",
+          "Users who need to sync an encrypted database across Windows, macOS, and Linux",
+          "Security researchers and developers who want to audit or extend a password manager",
+          "Admins managing credentials, TOTP, and attachments for a team or family"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -15179,8 +14384,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "C++",
       "stars": 10.6,
-      "today": "+133",
-      "today_n": 133,
+      "today": "+134",
+      "today_n": 134,
       "auto": false,
       "zh": {
         "tag": "以源码为文档、保存数十年软硬件历史的模拟器框架",
@@ -15210,51 +14415,51 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
       }
     },
     {
-      "slug": "openvino",
-      "full": "openvinotoolkit/openvino",
-      "rank": 21,
+      "slug": "optiscaler",
+      "full": "optiscaler/OptiScaler",
+      "rank": 13,
       "cat": "infra",
       "lang": "C++",
-      "stars": 11.0,
-      "today": "+170",
-      "today_n": 170,
+      "stars": 11.6,
+      "today": "+1.1k",
+      "today_n": 1150,
       "auto": false,
       "zh": {
-        "tag": "英特尔开源的深度学习推理优化与部署工具包",
-        "what": "OpenVINO 是一个开源工具包，用于优化和部署深度学习模型的推理。它支持计算机视觉、语音识别、生成式 AI 与自然语言处理等任务，可将模型高效部署到从边缘到云的多种硬件上。",
-        "content": "仓库包含核心推理运行时、模型优化器与转换工具、多语言 API 绑定（Python/Node.js/C++ 等），以及文档、教程和示例代码。",
-        "stack": "以 C++ 实现核心，提供 Python、Node.js 等绑定，支持 PyTorch、TensorFlow、ONNX、Keras、PaddlePaddle、JAX/Flax 等模型格式，可通过 PyPI、npm、conda、Homebrew 安装。",
-        "hot": "凭借跨 CPU/GPU/NPU 的广泛硬件兼容性和对生成式 AI 的支持，OpenVINO 长期受到部署工程师青睐，本月新增 170 star，位列 C++ 月榜第 21 名。",
+        "tag": "跨显卡厂商的通用超分与帧生成桥接工具",
+        "what": "OptiScaler 是一款游戏画质增强工具，允许玩家在已支持 DLSS2+/FSR2+/XeSS 的游戏中替换超分方案，并管理帧生成功能。它还能通过实验性 OptiFG 在 DX12 游戏中启用帧生成，甚至支持 Nukem 模组将 DLSSG 转为 FSR3 帧生成。",
+        "content": "仓库包含 C++ 源代码、编译脚本、安装说明、已知问题列表以及详细的 Wiki 文档，并提供稳定版和 nightly 版下载。",
+        "stack": "主要使用 C++ 编写，依赖 DirectX 12、Vulkan 等图形 API，并涉及 DLSS、FSR、XeSS 等超分技术。",
+        "hot": "凭借跨显卡厂商的通用超分与帧生成能力，解决了玩家在非 Nvidia 显卡上无法使用 DLSS 等痛点，已获得 10726 颗星，今日新增 60 星，登上 GitHub Trending 日榜 C++ 分类第 13 名。",
         "uses": [
-          "需要在英特尔 CPU、GPU 或 NPU 上部署推理的 AI 工程师",
-          "希望将 PyTorch/TensorFlow 模型转换并优化到边缘设备的开发者",
-          "在生成式 AI 与计算机视觉场景中追求低延迟推理的团队",
-          "学习模型部署与推理优化的学生和研究者"
+          "PC 游戏玩家：希望在非 Nvidia 显卡上使用 DLSS 或启用帧生成功能。",
+          "游戏模组爱好者：想要自定义游戏画质设置，替换超分方案。",
+          "技术研究者：对超分和帧生成技术跨平台实现感兴趣。",
+          "低配置玩家：通过帧生成提升游戏流畅度。"
         ]
       },
       "en": {
-        "tag": "Intel's open-source toolkit for optimizing and deploying deep learning inference",
-        "what": "OpenVINO is an open-source toolkit for optimizing and deploying deep learning inference. It accelerates tasks like computer vision, speech recognition, generative AI and NLP, deploying models efficiently from edge to cloud.",
-        "content": "The repo contains the core inference runtime, model optimizer and conversion tools, multi-language API bindings (Python/Node.js/C++ etc.), plus docs, tutorials and samples.",
-        "stack": "Core is written in C++ with Python and Node.js bindings, supporting models from PyTorch, TensorFlow, ONNX, Keras, PaddlePaddle and JAX/Flax, installable via PyPI, npm, conda and Homebrew.",
-        "hot": "With broad CPU/GPU/NPU hardware compatibility and generative AI support, OpenVINO remains popular among deployment engineers, gaining 170 stars this month and ranking 21st on the C++ monthly trending list.",
+        "tag": "Universal upscaling and frame generation bridge across GPU vendors",
+        "what": "OptiScaler is a tool that lets you replace upscalers in games already supporting DLSS2+/FSR2+/XeSS, and manage frame generation. It can enable frame generation in DX12 games via experimental OptiFG, and supports the Nukem mod to convert DLSSG to FSR3 frame generation.",
+        "content": "The repo contains C++ source code, build scripts, installation instructions, a known issues list, and detailed Wiki documentation, with stable and nightly releases available.",
+        "stack": "Primarily written in C++, it depends on graphics APIs like DirectX 12 and Vulkan, and integrates upscaling technologies such as DLSS, FSR, and XeSS.",
+        "hot": "With its cross-vendor upscaling and frame generation capabilities, it solves the pain point of using DLSS on non-Nvidia GPUs, earning 10,726 stars with 60 added today, ranking 13th on GitHub Trending daily list for C++.",
         "uses": [
-          "AI engineers deploying inference on Intel CPU, GPU or NPU",
-          "Developers converting and optimizing PyTorch/TensorFlow models for edge devices",
-          "Teams seeking low-latency inference in generative AI and computer vision",
-          "Students and researchers learning model deployment and inference optimization"
+          "PC gamers: want to use DLSS or enable frame generation on non-Nvidia GPUs.",
+          "Game modding enthusiasts: want to customize graphics settings and replace upscalers.",
+          "Tech researchers: interested in cross-platform implementations of upscaling and frame generation.",
+          "Low-spec players: improve game smoothness through frame generation."
         ]
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -15267,8 +14472,8 @@ window.TRENDING_DATA = {
       "cat": "other",
       "lang": "C++",
       "stars": 1.0,
-      "today": "+155",
-      "today_n": 155,
+      "today": "+160",
+      "today_n": 160,
       "auto": false,
       "zh": {
         "tag": "GTA:SA 1.0 US 的完整逆向重写与文档化工程",
@@ -15296,7 +14501,95 @@ window.TRENDING_DATA = {
       },
       "track": {
         "days": 0,
-        "first": "2026-10-09",
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "atmosphere",
+      "full": "Atmosphere-NX/Atmosphere",
+      "rank": 17,
+      "cat": "other",
+      "lang": "C++",
+      "stars": 20.1,
+      "today": "+586",
+      "today_n": 586,
+      "auto": false,
+      "zh": {
+        "tag": "任天堂 Switch 自定义固件，实现完整 CFW 功能",
+        "what": "Atmosphère 是任天堂 Switch 的自定义固件（CFW），通过替换和修改系统各层组件，实现运行自制程序、备份 NAND、系统补丁等官方固件不具备的功能。项目由多个以大气层命名的模块组成，覆盖从引导加载到应用层补丁的完整链条。",
+        "content": "仓库包含 Fusée（一阶段加载器）、Exosphère（自定义 TrustZone）、Thermosphère（EmuNAND 支持）、Stratosphère（自定义系统模块）和 Troposphère（应用层补丁）等组件源码，以及构建脚本、文档和资源文件。",
+        "stack": "主要使用 C++ 编写，依赖 libnx、devkitA64 工具链、FatFs、hekate 的 hwinit 代码库等，采用 GPLv2 许可证（对任天堂有特殊豁免）。",
+        "hot": "作为 Switch 破解与自制软件生态的基石，Atmosphère 拥有超过 2 万 star，本月新增 586 star，在 C++ 月榜排名第 17，持续吸引着主机改装与逆向工程爱好者。",
+        "uses": [
+          "Switch 主机玩家：希望运行自制软件、备份游戏或使用金手指等增强功能",
+          "逆向工程与安全研究者：研究 Switch 系统架构、引导流程和 TrustZone 实现",
+          "自制软件开发者：基于 Atmosphère 开发系统模块或应用层补丁",
+          "主机改装爱好者：搭建自定义固件环境并探索硬件潜力"
+        ]
+      },
+      "en": {
+        "tag": "A work-in-progress custom firmware for the Nintendo Switch",
+        "what": "Atmosphère is a custom firmware (CFW) for the Nintendo Switch that replaces and modifies system components to enable homebrew, NAND backup, and system patches not available in official firmware. It is organized into atmosphere-themed modules spanning bootloader to application-level patches.",
+        "content": "The repo contains source code for components like Fusée (first-stage loader), Exosphère (custom TrustZone), Thermosphère (EmuNAND support), Stratosphère (custom sysmodules), and Troposphère (application-level patches), along with build scripts, docs, and assets.",
+        "stack": "Primarily written in C++, it depends on libnx, the devkitA64 toolchain, FatFs, hekate's hwinit codebase, and more, under GPLv2 with a special exemption for Nintendo.",
+        "hot": "As a cornerstone of the Switch homebrew and hacking ecosystem, Atmosphère has over 20k stars, gaining 586 this month and ranking 17th on the C++ monthly trending list, continuously attracting console modding and reverse-engineering enthusiasts.",
+        "uses": [
+          "Nintendo Switch owners: want to run homebrew, back up games, or use cheats and enhancements",
+          "Reverse engineers and security researchers: study Switch system architecture, boot process, and TrustZone implementation",
+          "Homebrew developers: build sysmodules or application-level patches on top of Atmosphère",
+          "Console modding enthusiasts: set up custom firmware environments and explore hardware potential"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": []
+      }
+    },
+    {
+      "slug": "spirula-studio",
+      "full": "harry7557558/spirula-studio",
+      "rank": 18,
+      "cat": "ai",
+      "lang": "C++",
+      "stars": 1.6,
+      "today": "+1.2k",
+      "today_n": 1189,
+      "auto": false,
+      "zh": {
+        "tag": "跨厂商 3D 高斯泼溅训练器：视频一键转 splat 与网格",
+        "what": "Spirula Studio 是一个自包含的 3D 高斯泼溅（3DGS）训练工具，能从原始照片或视频一路生成 splat 并导出带纹理的网格。它内置 SfM、AI 掩码与视频抽帧，无需 Python/PyTorch，也不用单独安装 COLMAP。",
+        "content": "仓库以 C++ 源码为主，附带 assets 素材、构建脚本与发布包，并提供在线 Web Viewer 和 Gallery 展示训练结果。",
+        "stack": "核心用 C++ 编写，通过 Vulkan 计算着色器实现跨厂商 GPU 支持，同时提供 CUDA 后端；依赖 Vulkan SDK 与 CMake 构建，支持 Windows、Linux 和 macOS。",
+        "hot": "本月新增 1189 星、总数 1557，冲上 GitHub Trending 月榜 C++ 第 18 名，靠的是「单二进制、免 Python、跨 NVIDIA/AMD/Intel/Apple GPU」这一痛点组合。",
+        "uses": [
+          "想从手机或相机视频快速重建 3D 场景的创作者与 3D 爱好者",
+          "只有 AMD/Intel/Apple GPU、跑不动 CUDA 版 3DGS 的研究者",
+          "需要 360° 或鱼眼素材直接训练、不想手动去畸变的 VR/全景团队",
+          "希望把重建结果导出为带纹理网格、用于游戏或影视管线的开发者"
+        ]
+      },
+      "en": {
+        "tag": "Cross-vendor 3D Gaussian Splatting trainer: video to splat to mesh in one binary",
+        "what": "Spirula Studio is a self-contained 3D Gaussian Splatting trainer that takes raw photos or video all the way to splats and textured meshes. It bundles SfM, AI masking and frame extraction, so no Python/PyTorch or separate COLMAP install is needed.",
+        "content": "The repo is mainly C++ source with assets, build scripts and release packages, plus an online Web Viewer and Gallery showcasing trained results.",
+        "stack": "Written in C++ with Vulkan compute shaders for cross-vendor GPU support and an optional CUDA backend; built with CMake and the Vulkan SDK on Windows, Linux and macOS.",
+        "hot": "It gained 1,189 stars this month (1,557 total) and hit #18 on GitHub's monthly C++ trending, thanks to its pain-point combo: one binary, no Python, and cross-vendor GPU support for NVIDIA/AMD/Intel/Apple.",
+        "uses": [
+          "Creators and 3D hobbyists who want to reconstruct scenes from phone or camera video",
+          "Researchers on AMD/Intel/Apple GPUs who can't run CUDA-only 3DGS pipelines",
+          "VR/panorama teams needing native 360° or fisheye training without manual undistortion",
+          "Developers who want textured mesh exports for game or film pipelines"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-10-10",
         "is_new": false,
         "is_back": false,
         "hist": []
@@ -15790,54 +15083,6 @@ window.TRENDING_DATA = {
       }
     },
     {
-      "slug": "ui-skills",
-      "full": "ibelick/ui-skills",
-      "rank": 14,
-      "cat": "agent",
-      "lang": "TypeScript",
-      "stars": 8.1,
-      "today": "+41",
-      "today_n": 41,
-      "auto": false,
-      "zh": {
-        "tag": "给设计工程师准备的一套 UI 类 Agent Skills",
-        "what": "知名设计工程师 ibelick 出品的 UI 技能包集合：让 AI 编码 agent 按任务自动走对应的 UI 技能流程，跑一行 npx ui-skills start 就能把 agent 路由到合适的技能集。",
-        "content": "skills/ 目录下 6 个技能：baseline-ui、improve-ui、fixing-accessibility、fixing-metadata、fixing-motion-performance、ui-skills-root；另有 bin/（CLI 入口）和配套网站（Astro + Cloudflare Workers）。",
-        "stack": "TypeScript，CLI 走 npx 分发，MIT；2026 年 1 月创建，官网 ui-skills.com。",
-        "hot": "把设计判断封装成 AI Agent 可复用技能，这一思路对设计工程师直观易懂，也便于立刻试用。",
-        "uses": [
-          "前端开发者 —— 让 agent 按设计规范生成和改进 UI，告别「能跑但丑」",
-          "设计工程师 —— 把无障碍、metadata、动效性能检查自动化",
-          "独立开发者 —— 一人兼顾开发和设计时的品味兜底"
-        ]
-      },
-      "en": {
-        "tag": "A set of UI Agent Skills for design engineers",
-        "what": "A UI skill-pack collection from well-known design engineer ibelick: routes your AI coding agent through the right UI skill workflow per task — run npx ui-skills start and the agent picks the appropriate skill set.",
-        "content": "Six skills under skills/: baseline-ui, improve-ui, fixing-accessibility, fixing-metadata, fixing-motion-performance and ui-skills-root; plus bin/ (the CLI entry) and the companion site (Astro on Cloudflare Workers).",
-        "stack": "TypeScript, CLI distributed via npx, MIT; created January 2026, site at ui-skills.com.",
-        "hot": "The idea of packaging design judgment as reusable skills for AI agents is easy for design engineers to understand and immediately test.",
-        "uses": [
-          "Frontend developers — let agents generate and improve UI to design standards, no more 'works but ugly'",
-          "Design engineers — automate accessibility, metadata and motion-performance checks",
-          "Indie hackers — a taste safety net when you cover both dev and design"
-        ]
-      },
-      "track": {
-        "days": 0,
-        "first": "2026-07-17",
-        "is_new": false,
-        "is_back": false,
-        "hist": [
-          {
-            "d": "2026-07-17",
-            "s": 4.5,
-            "r": 14
-          }
-        ]
-      }
-    },
-    {
       "slug": "lobehub",
       "full": "lobehub/lobehub",
       "rank": 9,
@@ -15934,6 +15179,64 @@ window.TRENDING_DATA = {
             "d": "2026-07-18",
             "s": 66.5,
             "r": 11
+          }
+        ]
+      }
+    },
+    {
+      "slug": "system-design-notes",
+      "full": "liquidslr/system-design-notes",
+      "rank": 9,
+      "cat": "other",
+      "lang": null,
+      "stars": 24.8,
+      "today": "+393",
+      "today_n": 393,
+      "auto": false,
+      "zh": {
+        "tag": "《系统设计面试》两卷本读书笔记，含28章案例与延伸资源",
+        "what": "这是 Alex Xu《System Design Interview: An Insider's Guide》第一、二卷的读书笔记，按章节整理成 Markdown 文档。内容覆盖从百万级用户扩容、容量估算到各类经典系统设计题的完整思路。",
+        "content": "仓库以编号目录组织，共 28 个章节文件夹，从「Scale From Zero To Millions Of Users」到「Stock Exchange」，另附限流、一致性哈希等延伸阅读链接。",
+        "stack": "纯 Markdown 文档，无代码依赖；主语言未标注，阅读无需特定技术栈。",
+        "hot": "系统设计面试是后端/架构岗高频考点，该笔记免费且覆盖 Vol 1+2 全部章节，已获 24808 star，今日新增 393，冲上日榜第 9。",
+        "uses": [
+          "准备系统设计面试的后端、全栈与架构岗候选人，可按章节刷题",
+          "想系统补齐分布式系统设计知识的初中级工程师",
+          "面试官或团队负责人，用作出题与讨论的参考框架"
+        ]
+      },
+      "en": {
+        "tag": "Reading notes for System Design Interview Vol 1 & 2, with 28 chapters and extra resources",
+        "what": "This repo contains reading notes for Alex Xu's System Design Interview: An Insider's Guide Vol 1 and Vol 2, organized into per-chapter Markdown documents. It walks through scaling to millions of users, back-of-the-envelope estimation, and a full set of classic system design problems.",
+        "content": "The repo is organized as 28 numbered chapter folders, from 'Scale From Zero To Millions Of Users' to 'Stock Exchange', plus additional reading links on rate limiting, consistent hashing, and more.",
+        "stack": "Pure Markdown documents with no code dependencies; no primary language is declared, so no specific stack is required to read it.",
+        "hot": "System design interviews are a high-frequency topic for backend and architecture roles, and these free notes cover all chapters of Vol 1+2, earning 24,808 stars with 393 added today to reach #9 on the daily trending list.",
+        "uses": [
+          "Backend, full-stack, and architecture candidates preparing for system design interviews can study chapter by chapter",
+          "Junior to mid-level engineers who want to systematically fill gaps in distributed system design knowledge",
+          "Interviewers or tech leads looking for a reference framework for questions and discussions"
+        ]
+      },
+      "track": {
+        "days": 0,
+        "first": "2026-09-10",
+        "is_new": false,
+        "is_back": false,
+        "hist": [
+          {
+            "d": "2026-09-10",
+            "s": 18.0,
+            "r": 8
+          },
+          {
+            "d": "2026-09-11",
+            "s": 18.8,
+            "r": 7
+          },
+          {
+            "d": "2026-10-09",
+            "s": 24.8,
+            "r": 9
           }
         ]
       }
