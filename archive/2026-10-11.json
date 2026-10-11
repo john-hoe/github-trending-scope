@@ -1,0 +1,123 @@
+{
+  "date": "2026-10-11",
+  "generated_at": "2026-10-11 09:18 (CST)",
+  "repos": [
+    {
+      "full": "morluto/rea",
+      "rank": 1,
+      "stars": 73.1,
+      "today_n": 25793,
+      "slug": "rea",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "boykopovar/AnyPS5",
+      "rank": 2,
+      "stars": 26.9,
+      "today_n": 5805,
+      "slug": "anyps5",
+      "cat": "other",
+      "lang": "C++"
+    },
+    {
+      "full": "storytold/artcraft",
+      "rank": 3,
+      "stars": 14.5,
+      "today_n": 3222,
+      "slug": "artcraft",
+      "cat": "ai",
+      "lang": "Rust"
+    },
+    {
+      "full": "cathrynlavery/diagram-design",
+      "rank": 4,
+      "stars": 49.0,
+      "today_n": 1190,
+      "slug": "diagram-design",
+      "cat": "agent",
+      "lang": "HTML"
+    },
+    {
+      "full": "mksglu/context-mode",
+      "rank": 5,
+      "stars": 26.3,
+      "today_n": 178,
+      "slug": "context-mode",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "mattpocock/skills",
+      "rank": 6,
+      "stars": 284.5,
+      "today_n": 1736,
+      "slug": "mattpocock-skills",
+      "cat": "agent",
+      "lang": "Shell"
+    },
+    {
+      "full": "flutter/flutter",
+      "rank": 7,
+      "stars": 179.5,
+      "today_n": 88,
+      "slug": "flutter",
+      "cat": "infra",
+      "lang": "Dart"
+    },
+    {
+      "full": "tensorflow/tensorflow",
+      "rank": 8,
+      "stars": 200.7,
+      "today_n": 26,
+      "slug": "tensorflow",
+      "cat": "ai",
+      "lang": "C++"
+    },
+    {
+      "full": "hugohe3/ppt-master",
+      "rank": 9,
+      "stars": 59.5,
+      "today_n": 461,
+      "slug": "ppt-master",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "pytorch/pytorch",
+      "rank": 10,
+      "stars": 104.1,
+      "today_n": 84,
+      "slug": "pytorch",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "huggingface/transformers",
+      "rank": 11,
+      "stars": 167.3,
+      "today_n": 96,
+      "slug": "transformers",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "anthropics/knowledge-work-plugins",
+      "rank": 12,
+      "stars": 28.8,
+      "today_n": 625,
+      "slug": "knowledge-work-plugins",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "multica-ai/andrej-karpathy-skills",
+      "rank": 13,
+      "stars": 218.3,
+      "today_n": 278,
+      "slug": "andrej-karpathy-skills",
+      "cat": "agent",
+      "lang": null
+    }
+  ]
+}
