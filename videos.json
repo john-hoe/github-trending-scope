@@ -2,6 +2,311 @@
  "base": "https://v.cosolution.cc",
  "editions": [
   {
+   "date": "2026-10-11",
+   "top10": {
+    "zh": {
+     "video": "2026-10-11/top10-zh.mp4",
+     "video720": "2026-10-11/top10-zh-720.mp4",
+     "vtt": "2026-10-11/top10-zh.vtt",
+     "poster": "media/2026-10-11/top10-zh.jpg",
+     "duration": 366.2,
+     "chapters": [
+      {
+       "rank": null,
+       "t": 0,
+       "title": "开场"
+      },
+      {
+       "rank": 10,
+       "t": 11.2,
+       "title": "pytorch/pytorch"
+      },
+      {
+       "rank": 9,
+       "t": 44.43,
+       "title": "hugohe3/ppt-master"
+      },
+      {
+       "rank": 8,
+       "t": 84.37,
+       "title": "tensorflow/tensorflow"
+      },
+      {
+       "rank": 7,
+       "t": 121.47,
+       "title": "flutter/flutter"
+      },
+      {
+       "rank": 6,
+       "t": 158.77,
+       "title": "mattpocock/skills"
+      },
+      {
+       "rank": 5,
+       "t": 189.57,
+       "title": "mksglu/context-mode"
+      },
+      {
+       "rank": 4,
+       "t": 227.17,
+       "title": "cathrynlavery/diagram-design"
+      },
+      {
+       "rank": 3,
+       "t": 258.2,
+       "title": "storytold/artcraft"
+      },
+      {
+       "rank": 2,
+       "t": 288.7,
+       "title": "boykopovar/AnyPS5"
+      },
+      {
+       "rank": 1,
+       "t": 322.9,
+       "title": "morluto/rea"
+      },
+      {
+       "rank": null,
+       "t": 354.37,
+       "title": "收尾"
+      }
+     ]
+    },
+    "en": {
+     "video": "2026-10-11/top10-en.mp4",
+     "video720": "2026-10-11/top10-en-720.mp4",
+     "vtt": "2026-10-11/top10-en.vtt",
+     "poster": "media/2026-10-11/top10-en.jpg",
+     "duration": 393.4,
+     "chapters": [
+      {
+       "rank": null,
+       "t": 0,
+       "title": "Intro"
+      },
+      {
+       "rank": 10,
+       "t": 11.8,
+       "title": "pytorch/pytorch"
+      },
+      {
+       "rank": 9,
+       "t": 50,
+       "title": "hugohe3/ppt-master"
+      },
+      {
+       "rank": 8,
+       "t": 93.23,
+       "title": "tensorflow/tensorflow"
+      },
+      {
+       "rank": 7,
+       "t": 131.2,
+       "title": "flutter/flutter"
+      },
+      {
+       "rank": 6,
+       "t": 171.07,
+       "title": "mattpocock/skills"
+      },
+      {
+       "rank": 5,
+       "t": 207.33,
+       "title": "mksglu/context-mode"
+      },
+      {
+       "rank": 4,
+       "t": 248.9,
+       "title": "cathrynlavery/diagram-design"
+      },
+      {
+       "rank": 3,
+       "t": 281.17,
+       "title": "storytold/artcraft"
+      },
+      {
+       "rank": 2,
+       "t": 312.9,
+       "title": "boykopovar/AnyPS5"
+      },
+      {
+       "rank": 1,
+       "t": 348.67,
+       "title": "morluto/rea"
+      },
+      {
+       "rank": null,
+       "t": 380.8,
+       "title": "Outro"
+      }
+     ]
+    }
+   },
+   "repos": {
+    "morluto/rea": {
+     "rank": 1,
+     "slug": "rea-fable",
+     "zh": {
+      "video": "2026-10-11/rea-fable-zh.mp4",
+      "vtt": "2026-10-11/rea-fable-zh.vtt",
+      "poster": "media/2026-10-11/rea-fable-zh.jpg",
+      "duration": 90.3
+     },
+     "en": {
+      "video": "2026-10-11/rea-fable-en.mp4",
+      "vtt": "2026-10-11/rea-fable-en.vtt",
+      "poster": "media/2026-10-11/rea-fable-en.jpg",
+      "duration": 94.4
+     }
+    },
+    "boykopovar/AnyPS5": {
+     "rank": 2,
+     "slug": "anyps5-fable",
+     "zh": {
+      "video": "2026-10-11/anyps5-fable-zh.mp4",
+      "vtt": "2026-10-11/anyps5-fable-zh.vtt",
+      "poster": "media/2026-10-11/anyps5-fable-zh.jpg",
+      "duration": 87
+     },
+     "en": {
+      "video": "2026-10-11/anyps5-fable-en.mp4",
+      "vtt": "2026-10-11/anyps5-fable-en.vtt",
+      "poster": "media/2026-10-11/anyps5-fable-en.jpg",
+      "duration": 92.7
+     }
+    },
+    "storytold/artcraft": {
+     "rank": 3,
+     "slug": "artcraft-fable",
+     "zh": {
+      "video": "2026-10-11/artcraft-fable-zh.mp4",
+      "vtt": "2026-10-11/artcraft-fable-zh.vtt",
+      "poster": "media/2026-10-11/artcraft-fable-zh.jpg",
+      "duration": 78.2
+     },
+     "en": {
+      "video": "2026-10-11/artcraft-fable-en.mp4",
+      "vtt": "2026-10-11/artcraft-fable-en.vtt",
+      "poster": "media/2026-10-11/artcraft-fable-en.jpg",
+      "duration": 84.8
+     }
+    },
+    "cathrynlavery/diagram-design": {
+     "rank": 4,
+     "slug": "diagram-design-fable",
+     "zh": {
+      "video": "2026-10-11/diagram-design-fable-zh.mp4",
+      "vtt": "2026-10-11/diagram-design-fable-zh.vtt",
+      "poster": "media/2026-10-11/diagram-design-fable-zh.jpg",
+      "duration": 79.6
+     },
+     "en": {
+      "video": "2026-10-11/diagram-design-fable-en.mp4",
+      "vtt": "2026-10-11/diagram-design-fable-en.vtt",
+      "poster": "media/2026-10-11/diagram-design-fable-en.jpg",
+      "duration": 85.2
+     }
+    },
+    "mksglu/context-mode": {
+     "rank": 5,
+     "slug": "context-mode-fable",
+     "zh": {
+      "video": "2026-10-11/context-mode-fable-zh.mp4",
+      "vtt": "2026-10-11/context-mode-fable-zh.vtt",
+      "poster": "media/2026-10-11/context-mode-fable-zh.jpg",
+      "duration": 103.4
+     },
+     "en": {
+      "video": "2026-10-11/context-mode-fable-en.mp4",
+      "vtt": "2026-10-11/context-mode-fable-en.vtt",
+      "poster": "media/2026-10-11/context-mode-fable-en.jpg",
+      "duration": 114.5
+     }
+    },
+    "mattpocock/skills": {
+     "rank": 6,
+     "slug": "skills-fable",
+     "zh": {
+      "video": "2026-10-11/skills-fable-zh.mp4",
+      "vtt": "2026-10-11/skills-fable-zh.vtt",
+      "poster": "media/2026-10-11/skills-fable-zh.jpg",
+      "duration": 81.2
+     },
+     "en": {
+      "video": "2026-10-11/skills-fable-en.mp4",
+      "vtt": "2026-10-11/skills-fable-en.vtt",
+      "poster": "media/2026-10-11/skills-fable-en.jpg",
+      "duration": 94.2
+     }
+    },
+    "flutter/flutter": {
+     "rank": 7,
+     "slug": "flutter-fable",
+     "zh": {
+      "video": "2026-10-11/flutter-fable-zh.mp4",
+      "vtt": "2026-10-11/flutter-fable-zh.vtt",
+      "poster": "media/2026-10-11/flutter-fable-zh.jpg",
+      "duration": 95.5
+     },
+     "en": {
+      "video": "2026-10-11/flutter-fable-en.mp4",
+      "vtt": "2026-10-11/flutter-fable-en.vtt",
+      "poster": "media/2026-10-11/flutter-fable-en.jpg",
+      "duration": 105.9
+     }
+    },
+    "tensorflow/tensorflow": {
+     "rank": 8,
+     "slug": "tensorflow-fable",
+     "zh": {
+      "video": "2026-10-11/tensorflow-fable-zh.mp4",
+      "vtt": "2026-10-11/tensorflow-fable-zh.vtt",
+      "poster": "media/2026-10-11/tensorflow-fable-zh.jpg",
+      "duration": 93.9
+     },
+     "en": {
+      "video": "2026-10-11/tensorflow-fable-en.mp4",
+      "vtt": "2026-10-11/tensorflow-fable-en.vtt",
+      "poster": "media/2026-10-11/tensorflow-fable-en.jpg",
+      "duration": 104.1
+     }
+    },
+    "hugohe3/ppt-master": {
+     "rank": 9,
+     "slug": "ppt-master-fable",
+     "zh": {
+      "video": "2026-10-11/ppt-master-fable-zh.mp4",
+      "vtt": "2026-10-11/ppt-master-fable-zh.vtt",
+      "poster": "media/2026-10-11/ppt-master-fable-zh.jpg",
+      "duration": 104.4
+     },
+     "en": {
+      "video": "2026-10-11/ppt-master-fable-en.mp4",
+      "vtt": "2026-10-11/ppt-master-fable-en.vtt",
+      "poster": "media/2026-10-11/ppt-master-fable-en.jpg",
+      "duration": 109.8
+     }
+    },
+    "pytorch/pytorch": {
+     "rank": 10,
+     "slug": "pytorch-fable",
+     "zh": {
+      "video": "2026-10-11/pytorch-fable-zh.mp4",
+      "vtt": "2026-10-11/pytorch-fable-zh.vtt",
+      "poster": "media/2026-10-11/pytorch-fable-zh.jpg",
+      "duration": 91.1
+     },
+     "en": {
+      "video": "2026-10-11/pytorch-fable-en.mp4",
+      "vtt": "2026-10-11/pytorch-fable-en.vtt",
+      "poster": "media/2026-10-11/pytorch-fable-en.jpg",
+      "duration": 103.9
+     }
+    }
+   }
+  },
+  {
    "date": "2026-10-10",
    "top10": {
     "zh": {
