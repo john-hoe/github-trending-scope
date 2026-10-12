@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-12",
+  "generated_at": "2026-10-12 09:21 (CST)",
+  "repos": [
+    {
+      "full": "morluto/rea",
+      "rank": 1,
+      "stars": 106.0,
+      "today_n": 25599,
+      "slug": "rea",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "boykopovar/AnyPS5",
+      "rank": 2,
+      "stars": 30.2,
+      "today_n": 3952,
+      "slug": "anyps5",
+      "cat": "other",
+      "lang": "C++"
+    },
+    {
+      "full": "storytold/artcraft",
+      "rank": 3,
+      "stars": 18.0,
+      "today_n": 2957,
+      "slug": "artcraft",
+      "cat": "ai",
+      "lang": "Rust"
+    },
+    {
+      "full": "cathrynlavery/diagram-design",
+      "rank": 4,
+      "stars": 50.4,
+      "today_n": 1083,
+      "slug": "diagram-design",
+      "cat": "agent",
+      "lang": "HTML"
+    },
+    {
+      "full": "bilawalsidhu/gods-eye-view",
+      "rank": 5,
+      "stars": 51.7,
+      "today_n": 886,
+      "slug": "gods-eye-view",
+      "cat": "other",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "pytorch/pytorch",
+      "rank": 6,
+      "stars": 104.5,
+      "today_n": 315,
+      "slug": "pytorch",
+      "cat": "ai",
+      "lang": "Python"
+    },
+    {
+      "full": "lyogavin/airllm",
+      "rank": 7,
+      "stars": 36.5,
+      "today_n": 548,
+      "slug": "airllm",
+      "cat": "ai",
+      "lang": "Jupyter Notebook"
+    },
+    {
+      "full": "chrislgarry/Apollo-11",
+      "rank": 8,
+      "stars": 74.3,
+      "today_n": 466,
+      "slug": "apollo-11",
+      "cat": "other",
+      "lang": "Assembly"
+    }
+  ]
+}
