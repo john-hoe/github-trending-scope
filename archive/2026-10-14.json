@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-14",
+  "generated_at": "2026-10-14 09:03 (CST)",
+  "repos": [
+    {
+      "full": "morluto/rea",
+      "rank": 1,
+      "stars": 207.7,
+      "today_n": 54679,
+      "slug": "rea",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "bilawalsidhu/gods-eye-view",
+      "rank": 2,
+      "stars": 55.4,
+      "today_n": 1961,
+      "slug": "gods-eye-view",
+      "cat": "other",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "debpalash/VoiceStudio",
+      "rank": 3,
+      "stars": 63.3,
+      "today_n": 1748,
+      "slug": "voicestudio",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "mksglu/context-mode",
+      "rank": 4,
+      "stars": 28.2,
+      "today_n": 969,
+      "slug": "context-mode",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "cathrynlavery/diagram-design",
+      "rank": 5,
+      "stars": 54.1,
+      "today_n": 1815,
+      "slug": "diagram-design",
+      "cat": "agent",
+      "lang": "HTML"
+    },
+    {
+      "full": "vercel-labs/skills",
+      "rank": 6,
+      "stars": 34.5,
+      "today_n": 190,
+      "slug": "vercel-labs-skills",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "lyogavin/airllm",
+      "rank": 7,
+      "stars": 38.3,
+      "today_n": 1001,
+      "slug": "airllm",
+      "cat": "ai",
+      "lang": "Jupyter Notebook"
+    },
+    {
+      "full": "storytold/artcraft",
+      "rank": 8,
+      "stars": 25.7,
+      "today_n": 4081,
+      "slug": "artcraft",
+      "cat": "ai",
+      "lang": "Rust"
+    },
+    {
+      "full": "xtool-org/xtool",
+      "rank": 9,
+      "stars": 9.4,
+      "today_n": 1198,
+      "slug": "xtool",
+      "cat": "infra",
+      "lang": "Swift"
+    }
+  ]
+}
