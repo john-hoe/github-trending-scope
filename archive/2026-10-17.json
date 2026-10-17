@@ -1,0 +1,123 @@
+{
+  "date": "2026-10-17",
+  "generated_at": "2026-10-17 09:03 (CST)",
+  "repos": [
+    {
+      "full": "anthropics/claude-plugins-official",
+      "rank": 1,
+      "stars": 40.6,
+      "today_n": 1552,
+      "slug": "claude-plugins-official",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "K-Dense-AI/scientific-agent-skills",
+      "rank": 2,
+      "stars": 51.5,
+      "today_n": 1158,
+      "slug": "scientific-agent-skills",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "affaan-m/ECC",
+      "rank": 3,
+      "stars": 281.5,
+      "today_n": 1057,
+      "slug": "ecc",
+      "cat": "agent",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "HKUDS/CLI-Anything",
+      "rank": 4,
+      "stars": 53.5,
+      "today_n": 281,
+      "slug": "cli-anything",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "mksglu/context-mode",
+      "rank": 5,
+      "stars": 30.2,
+      "today_n": 449,
+      "slug": "context-mode",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "ruvnet/ruflo",
+      "rank": 6,
+      "stars": 75.6,
+      "today_n": 672,
+      "slug": "ruflo",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "android/skills",
+      "rank": 7,
+      "stars": 8.1,
+      "today_n": 36,
+      "slug": "skills",
+      "cat": "agent",
+      "lang": "Kotlin"
+    },
+    {
+      "full": "obra/superpowers",
+      "rank": 8,
+      "stars": 300.7,
+      "today_n": 973,
+      "slug": "superpowers",
+      "cat": "agent",
+      "lang": "Shell"
+    },
+    {
+      "full": "cursor/plugins",
+      "rank": 9,
+      "stars": 12.0,
+      "today_n": 278,
+      "slug": "plugins",
+      "cat": "agent",
+      "lang": "TypeScript"
+    },
+    {
+      "full": "debpalash/VoiceStudio",
+      "rank": 10,
+      "stars": 71.2,
+      "today_n": 2301,
+      "slug": "voicestudio",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "MadsLorentzen/ai-job-search",
+      "rank": 11,
+      "stars": 48.5,
+      "today_n": 898,
+      "slug": "ai-job-search",
+      "cat": "agent",
+      "lang": "Python"
+    },
+    {
+      "full": "hmjz100/LinkSwift",
+      "rank": 12,
+      "stars": 23.7,
+      "today_n": 538,
+      "slug": "linkswift",
+      "cat": "other",
+      "lang": "JavaScript"
+    },
+    {
+      "full": "xerj-org/xerj",
+      "rank": 13,
+      "stars": 6.9,
+      "today_n": 1648,
+      "slug": "xerj",
+      "cat": "agent",
+      "lang": "Rust"
+    }
+  ]
+}
